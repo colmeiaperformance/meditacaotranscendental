@@ -289,7 +289,7 @@ function fix_svg() {
 }
 add_action( 'admin_head', 'fix_svg' );
 
-/* Criação das páginas de opções do ACF */
+/* Creating option pages on ACF plugin */
 add_action('acf/init', 'my_acf_op_init');
 function my_acf_op_init() {
 
@@ -298,26 +298,44 @@ function my_acf_op_init() {
 
         // Add parent.
         $parent = acf_add_options_page(array(
-            'page_title'  => __('Opções Gerais'),
-            'menu_title'  => __('Opções Gerais'),
+            'page_title'  => __('Theme General Settings'),
+            'menu_title'  => __('Theme Settings'),
+            'icon_url'    => 'dashicons-welcome-write-blog',
+            'position'    => 60,
             'redirect'    => false,
         ));
 
         // Add sub page.
         $child = acf_add_options_page(array(
-            'page_title'  => __('Rodapé'),
-            'menu_title'  => __('Rodapé'),
+          'page_title'  => __('Logo Settings'),
+          'menu_title'  => __('Logo'),
+          'parent_slug' => $parent['menu_slug'],
+        ));
+
+        // Add sub page.
+        $child = acf_add_options_page(array(
+            'page_title'  => __('Social Settings'),
+            'menu_title'  => __('Social Media'),
             'parent_slug' => $parent['menu_slug'],
         ));
+
+        // Add sub page.
+        $child = acf_add_options_page(array(
+          'page_title'  => __('Footer Settings'),
+          'menu_title'  => __('Footer'),
+          'parent_slug' => $parent['menu_slug'],
+      ));
+
+
     }
 }
 
 /* Remoção do editor do WP */
-add_action('init', 'remove_guttenberg_from_pages', 10);
-function remove_guttenberg_from_pages()
-{
-    remove_post_type_support('page', 'editor');
-}
+// add_action('init', 'remove_guttenberg_from_pages', 10);
+// function remove_guttenberg_from_pages()
+// {
+//     remove_post_type_support('page', 'editor');
+// }
 
 
 // Wordpress Breadcrumb Function
@@ -590,6 +608,3 @@ function mytheme_custom_excerpt_length( $length ) {
     return 20;
 }
 add_filter( 'excerpt_length', 'mytheme_custom_excerpt_length', 999 );
-
-
-
