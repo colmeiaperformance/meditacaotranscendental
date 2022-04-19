@@ -1,0 +1,64 @@
+//Brand colors
+//Primary
+$color-primary-dark: #00A69D;
+$color-primary-medium: #4d797e;
+$color-primary-light: #71C3BD;
+$color-primary-blog: #00A59E;
+$color-breadcrumb: #00D0C5;
+
+//Secondary
+$color-secondary-dark: #FF702E;
+
+//Solid colors
+$color-grey-dark: #353C42;
+$color-grey-light: #E7E7E7;
+$color-water-blue: #4F98A6;
+$color-grey: #727272;
+$grey-menu-link: #606060;
+$grey-pagination: #C4C4C4;
+$color-grey-sidebar: #DDDDDD;
+
+//Default colors
+$color-black: #000000;
+$color-white: #FFFFFF;
+
+//Backgrounds
+.background-green-dark {
+  background-color: $color-primary-dark;
+}
+
+.background-green-medium {
+  background-color: $color-primary-medium;
+}
+
+.background-green-light {
+  background-color: $color-primary-light;
+}
+
+.background-mustard-dark {
+  background-color: $color-secondary-dark!important;
+}
+
+.background-grey-light{
+  background-color: $color-grey-light;
+}
+
+.background-grey-dark{
+  background-color: $color-grey-dark;
+}
+
+.background-black {
+  background-color: $color-black;
+}
+
+.background-white {
+  background-color: $color-white;
+}
+
+.color-primary-dark {
+  color: $color-primary-dark!important;
+}
+
+.background-blog{
+  background-color: $color-primary-blog;
+}

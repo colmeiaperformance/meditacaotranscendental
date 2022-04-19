@@ -2,23 +2,26 @@
 
 //Stylesheets
 function loading_styles(){
-    wp_enqueue_style( 'swiper-css', get_template_directory_uri() . '/vendor/swiper-js/swiper-bundle.min.css', array(), wp_get_theme()->get( 'Version' ), 'all' );
-    wp_enqueue_style( 'opensans-font', 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap', array(), wp_get_theme()->get( 'Version' ), 'all' );
+    wp_enqueue_style( 'source-sans-pro-font', '<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">', array(), wp_get_theme()->get( 'Version' ), 'all' );
     wp_enqueue_style( 'map-css', get_template_directory_uri() . '/vendor/jqvmap/jqvmap.min.css', array(), wp_get_theme()->get( 'Version' ), 'all' );
     wp_enqueue_style( 'style-css', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ), 'all' );
     wp_enqueue_style( 'style-bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css', array(), wp_get_theme()->get( 'Version' ), 'all' );
     wp_enqueue_style( 'icons-bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css', array(), wp_get_theme()->get( 'Version' ), 'all' );
+    wp_enqueue_style( 'swiper-css', get_template_directory_uri() . '/vendor/swiper-js/swiper-bundle.min.css', array(), wp_get_theme()->get( 'Version' ), 'all' );
 }
 
-//Scripts
+//Script
 function loading_scripts(){
-    wp_register_script( 'swiper-js', get_template_directory_uri() . '/vendor/swiper-js/swiper-bundle.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
     wp_register_script( 'main-js', get_template_directory_uri() . '/js/main.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
     wp_register_script( 'bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
-
-    wp_enqueue_script( 'swiper-js');
+    wp_register_script( 'jquery-touchSwipe-js', get_template_directory_uri() . '/js/jquery.touchSwipe.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
+    wp_register_script( 'swiper-js', get_template_directory_uri() . '/vendor/swiper-js/swiper-bundle.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
     wp_enqueue_script( 'main-js');
     wp_enqueue_script( 'bootstrap-js');
+    wp_enqueue_script( 'jquery-touchSwipe-js');
+    wp_enqueue_script( 'swiper-js');
 }
 
 add_action( 'wp_enqueue_scripts', 'loading_styles' );
@@ -55,7 +58,7 @@ function wp_boostrap_4_pagination(){
         $links[] = $paged + 1;
     }
  
-    echo '<div class="pagination-container"><ul class="pagination justify-content-center">' . "\n";
+    echo '<div class="pagination-container"><ul class="pagination justify-content-left">' . "\n";
  
     /** Previous Post Link */
     if ( get_previous_posts_link() )
@@ -68,7 +71,7 @@ function wp_boostrap_4_pagination(){
         printf( '<li%s><a class="page-link" href="%s">%s</a></li>' . "\n", $class, esc_url( get_pagenum_link( 1 ) ), '1' );
  
         if ( ! in_array( 2, $links ) )
-            echo '<li>…</li>';
+            echo '<li class="page-empty">…</li>';
     }
 
     /** Link to current page, plus 2 pages in either direction if necessary */
@@ -81,7 +84,7 @@ function wp_boostrap_4_pagination(){
     /** Link to last page, plus ellipses if necessary */
     if ( ! in_array( $max, $links ) ) {
         if ( ! in_array( $max - 1, $links ) )
-            echo '<li>…</li>' . "\n";
+            echo '<li class="page-empty">…</li>' . "\n";
  
         $class = $paged == $max ? ' class="page-item active"' : ' class="page-item"';
         printf( '<li%s><a class="page-link" href="%s">%s</a></li>' . "\n", $class, esc_url( get_pagenum_link( $max ) ), $max );
@@ -125,15 +128,6 @@ function base_setup() {
             'video',
         )
     );
-
-    // // register a new menu
-    // register_nav_menus(
-    //     array(
-    //     'main-menu'=> __('Main menu'),
-    //     'secondary-menu'=> __('Secondary menu'),
-    //     'footer-menu'=> __('Footer menu')
-    //     )
-    // );
 
 // bootstrap 5 wp_nav_menu walker
 class bootstrap_5_wp_nav_menu_walker extends Walker_Nav_menu
@@ -256,28 +250,28 @@ add_theme_support( 'custom-spacing' );
 add_action( 'after_setup_theme', 'base_setup' );
 
 // Allow SVG
-add_filter( 'wp_check_filetype_and_ext', function($data, $file, $filename, $mimes) {
+// add_filter( 'wp_check_filetype_and_ext', function($data, $file, $filename, $mimes) {
 
-  global $wp_version;
-  if ( $wp_version !== '4.7.1' ) {
-     return $data;
-  }
+//   global $wp_version;
+//   if ( $wp_version !== '4.7.1' ) {
+//      return $data;
+//   }
 
-  $filetype = wp_check_filetype( $filename, $mimes );
+//   $filetype = wp_check_filetype( $filename, $mimes );
 
-  return [
-      'ext'             => $filetype['ext'],
-      'type'            => $filetype['type'],
-      'proper_filename' => $data['proper_filename']
-  ];
+//   return [
+//       'ext'             => $filetype['ext'],
+//       'type'            => $filetype['type'],
+//       'proper_filename' => $data['proper_filename']
+//   ];
 
-}, 10, 4 );
+// }, 10, 4 );
 
-function cc_mime_types( $mimes ){
-  $mimes['svg'] = 'image/svg+xml';
-  return $mimes;
-}
-add_filter( 'upload_mimes', 'cc_mime_types' );
+// function cc_mime_types( $mimes ){
+//   $mimes['svg'] = 'image/svg+xml';
+//   return $mimes;
+// }
+// add_filter( 'upload_mimes', 'my_custom_mime_types' );
 
 function fix_svg() {
   echo '<style type="text/css">
@@ -330,249 +324,15 @@ function my_acf_op_init() {
     }
 }
 
-/* Remoção do editor do WP */
-// add_action('init', 'remove_guttenberg_from_pages', 10);
-// function remove_guttenberg_from_pages()
-// {
-//     remove_post_type_support('page', 'editor');
-// }
+/* Removing WP editor */
+add_action('init', 'remove_guttenberg_from_pages', 10);
+function remove_guttenberg_from_pages()
+{
+    remove_post_type_support('page', 'editor');
+}
 
-
-// Wordpress Breadcrumb Function
-
-function get_breadcrumb() {
-
-    // Check if is front/home page, return
-    if ( is_front_page() ) {
-      return;
-    }
-  
-    // Define
-    global $post;
-    $custom_taxonomy  = ''; // If you have custom taxonomy place it here
-  
-    $defaults = array(
-      'seperator'   =>  '',
-      'id'          =>  '',
-      'classes'     =>  'items-breadcrumb',
-      'home_title'  =>  esc_html__( 'Home', '' )
-    );
-  
-    $sep  = esc_html( $defaults['seperator'] );
-  
-    // Start the breadcrumb with a link to your homepage
-    echo '<div id="'. esc_attr( $defaults['id'] ) .'" class="'. esc_attr( $defaults['classes'] ) .'">';
-  
-    // Creating home link
-    echo '<span class="breadcrumb-item"><a href="'. get_home_url() .'">'. esc_html( $defaults['home_title'] ) .'</a></span>' . $sep;
-  
-    if ( is_single() ) {
-  
-      // Get posts type
-      $post_type = get_post_type();
-  
-      // If post type is not post
-      if( $post_type != 'post' ) {
-  
-        $post_type_object   = get_post_type_object( $post_type );
-        $post_type_link     = get_post_type_archive_link( $post_type );
-  
-        echo '<span class="breadcrumb-item"><a href="'. $post_type_link .'">'. $post_type_object->labels->name .'</a></span>'. $sep;
-  
-      }
-  
-      // Get categories
-      $category = get_the_category( $post->ID );
-  
-      // If category not empty
-      if( !empty( $category ) ) {
-  
-        // Arrange category parent to child
-        $category_values      = array_values( $category );
-        $get_last_category    = end( $category_values );
-        // $get_last_category    = $category[count($category) - 1];
-        $get_parent_category  = rtrim( get_category_parents( $get_last_category->term_id, true, ',' ), ',' );
-        $cat_parent           = explode( ',', $get_parent_category );
-  
-        // Store category in $display_category
-        $display_category = '';
-        foreach( $cat_parent as $p ) {
-          $display_category .=  '<span class="breadcrumb-item">'. $p .'</span>' . $sep;
-        }
-  
-      }
-  
-      // If it's a custom post type within a custom taxonomy
-      $taxonomy_exists = taxonomy_exists( $custom_taxonomy );
-  
-      if( empty( $get_last_category ) && !empty( $custom_taxonomy ) && $taxonomy_exists ) {
-  
-        $taxonomy_terms = get_the_terms( $post->ID, $custom_taxonomy );
-        $cat_id         = $taxonomy_terms[0]->term_id;
-        $cat_link       = get_term_link($taxonomy_terms[0]->term_id, $custom_taxonomy);
-        $cat_name       = $taxonomy_terms[0]->name;
-  
-      }
-  
-      // Check if the post is in a category
-      if( !empty( $get_last_category ) ) {
-  
-        echo $display_category;
-        echo '<span class="breadcrumb-item">'. get_the_title() .'</span>';
-  
-      } else if( !empty( $cat_id ) ) {
-  
-        echo '<span class="breadcrumb-item"><a href="'. $cat_link .'">'. $cat_name .'</a></span>' . $sep;
-        echo '<span class="breadcrumb-item">'. get_the_title() .'</span>';
-  
-      } else {
-  
-        echo '<span class="breadcrumb-item">'. get_the_title() .'</span>';
-  
-      }
-  
-    } else if( is_archive() ) {
-  
-      if( is_tax() ) {
-        // Get posts type
-        $post_type = get_post_type();
-  
-        // If post type is not post
-        if( $post_type != 'post' ) {
-  
-          $post_type_object   = get_post_type_object( $post_type );
-          $post_type_link     = get_post_type_archive_link( $post_type );
-  
-          echo '<span class="breadcrumb-item item-custom-post-type-' . $post_type . '"><a href="' . $post_type_link . '">' . $post_type_object->labels->name . '</a></span>' . $sep;
-  
-        }
-  
-        $custom_tax_name = get_queried_object()->name;
-        echo '<span class="breadcrumb-item">'. $custom_tax_name .'</span>';
-  
-      } else if ( is_category() ) {
-  
-        $parent = get_queried_object()->category_parent;
-  
-        if ( $parent !== 0 ) {
-  
-          $parent_category = get_category( $parent );
-          $category_link   = get_category_link( $parent );
-  
-          echo '<span class="breadcrumb-item"><a href="'. esc_url( $category_link ) .'">'. $parent_category->name .'</a></span>' . $sep;
-  
-        }
-  
-        echo '<span class="breadcrumb-item">'. single_cat_title( '', false ) .'</span>';
-  
-      } else if ( is_tag() ) {
-  
-        // Get tag information
-        $term_id        = get_query_var('tag_id');
-        $taxonomy       = 'post_tag';
-        $args           = 'include=' . $term_id;
-        $terms          = get_terms( $taxonomy, $args );
-        $get_term_name  = $terms[0]->name;
-  
-        // Display the tag name
-        echo '<span class="breadcrumb-item">'. $get_term_name .'</span>';
-  
-      } else if( is_day() ) {
-  
-        // Day archive
-  
-        // Year link
-        echo '<span class="breadcrumb-item"><a href="'. get_year_link( get_the_time('Y') ) .'">'. get_the_time('Y') . ' Archives</a></span>' . $sep;
-  
-        // Month link
-        echo '<span class="breadcrumb-item"><a href="'. get_month_link( get_the_time('Y'), get_the_time('m') ) .'">'. get_the_time('M') .' Archives</a></span>' . $sep;
-  
-        // Day display
-        echo '<span class="breadcrumb-item">'. get_the_time('jS') .' '. get_the_time('M'). ' Archives</span>';
-  
-      } else if( is_month() ) {
-  
-        // Month archive
-  
-        // Year link
-        echo '<span class="breadcrumb-item"><a href="'. get_year_link( get_the_time('Y') ) .'">'. get_the_time('Y') . ' Archives</a></span>' . $sep;
-  
-        // Month Display
-        echo '<span class="breadcrumb-item">'. get_the_time('M') .' Archives</span>';
-  
-      } else if ( is_year() ) {
-  
-        // Year Display
-        echo '<span class="breadcrumb-item">'. get_the_time('Y') .' Archives</span>';
-  
-      } else if ( is_author() ) {
-  
-        // Auhor archive
-  
-        // Get the author information
-        global $author;
-        $userdata = get_userdata( $author );
-  
-        // Display author name
-        echo '<span class="breadcrumb-item">'. 'Author: '. $userdata->display_name . '</span>';
-  
-      } else {
-  
-        echo '<span class="breadcrumb-item">'. post_type_archive_title() .'</span>';
-  
-      }
-  
-    } else if ( is_page() ) {
-  
-      // Standard page
-      if( $post->post_parent ) {
-  
-        // If child page, get parents
-        $anc = get_post_ancestors( $post->ID );
-  
-        // Get parents in the right order
-        $anc = array_reverse( $anc );
-  
-        // Parent page loop
-        if ( !isset( $parents ) ) $parents = null;
-        foreach ( $anc as $ancestor ) {
-  
-          $parents .= '<span class="breadcrumb-item"><a href="'. get_permalink( $ancestor ) .'">'. get_the_title( $ancestor ) .'</a></span>' . $sep;
-  
-        }
-  
-        // Display parent pages
-        echo $parents;
-  
-        // Current page
-        echo '<span class="breadcrumb-item">'. get_the_title() .'</span>';
-  
-      } else {
-  
-        // Just display current page if not parents
-        echo '<span class="breadcrumb-item">'. get_the_title() .'</span>';
-  
-      }
-  
-    } else if ( is_search() ) {
-  
-      // Search results page
-      echo '<span class="breadcrumb-item">' . _e(' Search results for:', 'I Care') . get_search_query() .'</span>';
-  
-    } else if ( is_404() ) {
-  
-      // 404 page
-      echo '<span class="breadcrumb-item">' . _e('Error 404', 'I Care') . '</span>';
-  
-    }
-  
-    // End breadcrumb
-    echo '</div>';
-  
-  }
-
-  function the_breadcrumb() {
-        echo '<ol class="breadcrumb">';
+function the_breadcrumb() {
+     echo '<nav aria-label="breadcrumb"><ol class="breadcrumb">';
     if (!is_home()) {
         echo '<li class="breadcrumb-item"><a href="';
         echo get_option('home');
@@ -600,11 +360,203 @@ function get_breadcrumb() {
     elseif (is_author()) {echo"<li class='breadcrumb-item'>Author Archive"; echo'</li>';}
     elseif (isset($_GET['paged']) && !empty($_GET['paged'])) {echo "<li>Blog Archives"; echo'</li>';}
     elseif (is_search()) {echo"<li class='breadcrumb-item'>Search Results"; echo'</li>';}
-    echo '</ol>';
+    echo '</ol></nav>';
 }
 
 //Excerpt size
 function mytheme_custom_excerpt_length( $length ) {
-    return 20;
+    return 35;
 }
 add_filter( 'excerpt_length', 'mytheme_custom_excerpt_length', 999 );
+
+
+//                      Post author info box                      //
+
+/* Add Contact Methods in the User Profile - https://codex.wordpress.org/Plugin_API/Filter_Reference/user_contactmethods */
+function add_user_contact_methods( $user_contact ) {
+ $user_contact['facebook'] = __( 'Facebook URL' );
+//  $user_contact['skype'] = __( 'Skype Username' );
+ $user_contact['twitter'] = __( 'Twitter URL' );
+ $user_contact['youtube'] = __( 'Youtube Channel URL' );
+ $user_contact['linkedin'] = __( 'LinkedIn URL' );
+//  $user_contact['googleplus'] = __( 'Google +' );
+//  $user_contact['pinterest'] = __( 'Pinterest' );
+ $user_contact['instagram'] = __( 'Instagram URL' );
+ $user_contact['github'] = __( 'Github URL' ); 
+ return $user_contact; 
+}
+add_filter( 'user_contactmethods', 'add_user_contact_methods' );
+
+
+//Load Fontawesome
+function themeprefix_fontawesome_styles() {
+ wp_register_style( 'fontawesome' , 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css', '' , '4.4.0', 'all' );
+ wp_enqueue_style( 'fontawesome' );
+}
+add_action( 'wp_enqueue_scripts', 'themeprefix_fontawesome_styles' ); 
+
+
+function wpb_author_info_box( $content ) {
+
+global $post;
+
+// Detect if it is a single post with a post author
+if ( is_single() && isset( $post->post_author ) ) {
+
+// Get author's display name - NB! changed display_name to first_name. Error in code.
+$display_name = get_the_author_meta( 'first_name', $post->post_author );
+
+// If display name is not available then use nickname as display name
+if ( empty( $display_name ) )
+$display_name = get_the_author_meta( 'nickname', $post->post_author );
+
+// Get author's biographical information or description
+$user_description = get_the_author_meta( 'user_description', $post->post_author );
+
+// Get author's website URL 
+// $user_website = get_the_author_meta('url', $post->post_author);
+
+// Get author's email
+$user_email = get_the_author_meta('email', $post->post_author);
+
+// Get author's Facebook
+$user_facebook = get_the_author_meta('facebook', $post->post_author);
+
+// Get author's Skype
+// $user_skype = get_the_author_meta('skype', $post->post_author);
+
+// Get author's Twitter
+$user_twitter = get_the_author_meta('twitter', $post->post_author);
+
+// Get author's LinkedIn 
+$user_linkedin = get_the_author_meta('linkedin', $post->post_author);
+ 
+// Get author's Youtube
+$user_youtube = get_the_author_meta('youtube', $post->post_author);
+
+// Get author's Google+
+// $user_googleplus = get_the_author_meta('googleplus', $post->post_author);
+
+// Get author's Pinterest
+// $user_pinterest = get_the_author_meta('pinterest', $post->post_author);
+
+// Get author's Instagram
+$user_instagram = get_the_author_meta('instagram', $post->post_author);
+// Get author's Github
+$user_github = get_the_author_meta('github', $post->post_author);
+
+
+// Get link to the author archive page
+$user_posts = get_author_posts_url( get_the_author_meta( 'ID' , $post->post_author));
+if ( ! empty( $display_name ) )
+$author_details = '<p class="author_name">Sobre o autor ' . $display_name . '</p>';
+
+// Author avatar - - the number 90 is the px size of the image.
+$author_details .= '<p class="author_image">' . get_avatar( get_the_author_meta('ID') , 92 ) . '</p>';
+$author_details .= '<div class="author-infos"><p class="author_bio">' . get_the_author_meta( 'description' ). '</p>';
+// $author_details .= '<p class="author_links"><a href="'. $user_posts .'">View all posts by ' . $display_name . '</a></p>'; 
+
+// Display
+
+// Check if author has a website in their profile
+// if ( ! empty( $user_website ) ) {
+// // Display author website link
+// $author_details .= '<a href="' . $user_website .'" target="_blank" rel="nofollow" >Website</a></p>';
+// } else { 
+//  if there is no author website link then just close the paragraph
+// $author_details .= '</p>';
+
+
+// Fontawesome icons: https://fontawesome.io/icons/
+
+// Display author Email link
+$author_details .= '<div class="links"> <a href="mailto:' . $user_email .'" target="_blank" rel="nofollow" title="E-mail" class=""><i class="fa fa-envelope-square fa-2x"></i></a>';
+
+// Check if author has Facebook in their profile
+if ( ! empty( $user_facebook ) ) {
+// Display author Facebook link
+$author_details .= ' <a href="' . $user_facebook .'" target="_blank" rel="nofollow" title="Facebook" class=""><i class="fa fa-facebook-official fa-2x"></i></a>';
+} else { 
+// if there is no author Facebook link then just close the paragraph
+// $author_details .= '</div>';
+}
+
+// // Check if author has Skype in their profile
+// if ( ! empty( $user_skype ) ) {
+// // Display author Skype link
+// $author_details .= ' <a href="' . $user_skype .'" target="_blank" rel="nofollow" title="Username paaljoachim Skype" class=""><i class="fa fa-skype fa-2x"></i> </a></p>';
+// } else { 
+// // if there is no author Skype link then just close the paragraph
+// $author_details .= '</p>';
+// }
+
+// Check if author has Twitter in their profile
+if ( ! empty( $user_twitter ) ) {
+// Display author Twitter link
+$author_details .= ' <a href="' . $user_twitter .'" target="_blank" rel="nofollow" title="Twitter" class=""><i class="fa fa-twitter-square fa-2x"></i></a>';
+} else { 
+// if there is no author Twitter link then just close the paragraph
+// $author_details .= '</div>';
+}
+
+// Check if author has LinkedIn in their profile
+if ( ! empty( $user_linkedin ) ) {
+// Display author LinkedIn link
+$author_details .= ' <a href="' . $user_linkedin .'" target="_blank" rel="nofollow" title="LinkedIn" class=""><i class="fa fa-linkedin-square fa-2x"></i></a>';
+} else { 
+// if there is no author LinkedIn link then just close the paragraph
+// $author_details .= '</div>';
+}
+
+// Check if author has Youtube in their profile
+if ( ! empty( $user_youtube ) ) {
+// Display author Youtube link
+$author_details .= ' <a href="' . $user_youtube .'" target="_blank" rel="nofollow" title="Youtube" class=""><i class="fa fa-youtube-square fa-2x"></i></a>';
+} else { 
+// if there is no author Youtube link then just close the paragraph
+// $author_details .= '</div>';
+}
+
+// // Check if author has Google+ in their profile
+// if ( ! empty( $user_googleplus ) ) {
+// // Display author Google + link
+// $author_details .= ' <a href="' . $user_googleplus .'" target="_blank" rel="nofollow" title="Google+" class=""><i class="fa fa-google-plus-square fa-2x"></i> </a></p>';
+// } else { 
+// // if there is no author Google+ link then just close the paragraph
+// $author_details .= '</div>';
+// }
+
+// // Check if author has Pinterest in their profile
+// if ( ! empty( $user_pinterest ) ) {
+// // Display author Pinterest link
+// $author_details .= ' <a href="' . $user_pinterest .'" target="_blank" rel="nofollow" title="Pinterest" class=""><i class="fa fa-pinterest-square fa-2x"></i> </a></p>';
+// } else { 
+// // if there is no author Pinterest link then just close the paragraph
+// $author_details .= '</div>';
+// }
+
+// Check if author has Github in their profile
+if ( ! empty( $user_github ) ) {
+// Display author Github link
+$author_details .= ' <a href="' . $user_github .'" target="_blank" rel="nofollow" title="Github" class=""><i class="fa fa-github-square fa-2x"></i> </a>';
+} else { 
+// if there is no author Github link then just close the paragraph
+$author_details .= '</div>';
+}
+
+// Pass all this info to post content 
+$content = $content . '<div class="author_bio_section" >' . $author_details . '</div></div>';
+}
+return $content;
+}
+
+// Add our function to the post content filter 
+add_action( 'the_content', 'wpb_author_info_box' );
+
+// Allow HTML in author bio section 
+remove_filter('pre_user_description', 'wp_filter_kses');
+
+wp_localize_script( 'twentyfifteen-script', 'ajax_posts', array(
+    'ajaxurl' => admin_url( 'admin-ajax.php' ),
+    'noposts' => __('No older posts found', 'twentyfifteen'),
+));

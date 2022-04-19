@@ -1,0 +1,35 @@
+
+// /*
+// //////////////////
+// ////CLEAR RESET//
+// ////////////////
+// */
+
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+  font-family: 'Montserrat', sans-serif!important;
+}
+
+:root {
+  accent-color: #FF702E;
+}
+
+.form-control {
+  &:focus {
+    box-shadow: none!important;
+  }
+}
+
+a {
+  transition: all .3s ease;
+  text-decoration: none;
+  // &:hover {
+    //   opacity: 0.8;
+    //   transition: all .3s ease;
+    // }
+  }
+  
+  ::selection {
+    background: #FF702E;
+  }
