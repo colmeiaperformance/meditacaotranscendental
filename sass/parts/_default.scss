@@ -1,21 +1,36 @@
-/*
-//////////////////
-////CLEAR RESET//
-////////////////
-*/
 
-*, *:before, *:after { 
-	margin: 0; 
-	padding: 0; 
-	box-sizing: border-box; 
-	word-spacing: normal; 
+// /*
+// //////////////////
+// ////CLEAR RESET//
+// ////////////////
+// */
+
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+  font-family: 'Montserrat', sans-serif!important;
 }
-html, body { 
-	font-size: 10px; 
-	overflow-x: hidden;
+
+:root {
+  accent-color: #7896C1;
 }
-article, aside, div, footer, header, hgroup, nav, section {
-	vertical-align: top;
-	display: inline-block; 
-	width: 100%; 
+
+.form-control {
+  &:focus {
+    box-shadow: none!important;
+  }
 }
+
+a {
+  transition: all .3s ease;
+  text-decoration: none;
+  &:hover {
+      opacity: 0.8;
+      transition: all .3s ease;
+    }
+  }
+  
+  ::selection {
+    background: #7896C1;
+    color: #212529;
+  }

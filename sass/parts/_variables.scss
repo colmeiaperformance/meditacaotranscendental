@@ -1,0 +1,44 @@
+//Brand colors
+
+//Primary
+$color-primary-light: #FFC536;
+$color-primary-dark: #F29F05;
+
+
+//Secondary
+$color-secondary-light: #7896C1;
+$color-secondary-dark: #323B50;
+
+//Solid colors
+
+//Default colors
+$color-black: #000000;
+$color-white: #FFFFFF;
+$color-prink: #F49093;
+$color-green: #A6D491;
+
+//Backgrounds
+.background-primary-dark {
+  background-color: $color-primary-dark;
+}
+.background-primary-light {
+  background-color: $color-primary-light;
+}
+.background-secondary-dark {
+  background-color: $color-secondary-dark;
+}
+.background-secondary-light{
+  background-color: $color-secondary-light;
+}
+.background-black {
+  background-color: $color-black;
+}
+.background-white {
+  background-color: $color-white;
+}
+.background-pink {
+  background-color: $color-prink;
+}
+.background-green {
+  background-color: $color-green;
+}

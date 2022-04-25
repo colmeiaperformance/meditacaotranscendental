@@ -8,11 +8,11 @@
 html,
 body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
-  font-family: 'Montserrat', sans-serif!important;
+  font-family: 'Work Sans', sans-serif!important;
 }
 
 :root {
-  accent-color: #FF702E;
+  accent-color: #323B50;
 }
 
 .form-control {
@@ -24,12 +24,12 @@ body {
 a {
   transition: all .3s ease;
   text-decoration: none;
-  // &:hover {
-    //   opacity: 0.8;
-    //   transition: all .3s ease;
-    // }
+  &:hover {
+    opacity: 0.8;
+    transition: all .3s ease;
   }
-  
-  ::selection {
-    background: #FF702E;
-  }
+}
+
+::selection {
+  background: #FF702E;
+}

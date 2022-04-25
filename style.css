@@ -1,25 +1,12 @@
-/*
-
-Theme Name: Colmeia
-Version: 1.0
-Author: Colmeia
-Author URI: www.colmeiaperformance.com.br
-URI: 
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Description: Tema elaborado para servir como base de outros temas WP
-Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, featured-images, translation-ready
-
-*/
 html,
 body {
   overflow-x: hidden;
   /* Prevent scroll on narrow devices */
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Work Sans", sans-serif !important;
 }
 
 :root {
-  accent-color: #FF702E;
+  accent-color: #323B50;
 }
 
 .form-control:focus {
@@ -33,6 +20,12 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  opacity: 0.8;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
 ::-moz-selection {
   background: #FF702E;
 }
@@ -43,7 +36,7 @@ a {
 
 /*
 
-Theme Name: Colmeia
+Theme Name: MT
 Version: 1.0
 Author: Colmeia
 Author URI: www.colmeiaperformance.com.br
@@ -95,7 +88,7 @@ Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, 
 }
 
 /************************************/
-/********* Colmeia COMPONENTS *******/
+/********* MT COMPONENTS *******/
 /************************************/
 .breadcrumb {
   padding: 16px;
@@ -1270,7 +1263,7 @@ footer .float-end a {
 }
 
 /************************************/
-/********* Colmeia PAGES *************/
+/********* MT PAGES *************/
 /************************************/
 .error {
   width: 100%;
@@ -1724,7 +1717,7 @@ footer .float-end a {
 }
 
 /************************************/
-/********* Colmeia SECTIONS *************/
+/********* MT SECTIONS *************/
 /************************************/
 .sec-blog {
   background: #00A59E;
