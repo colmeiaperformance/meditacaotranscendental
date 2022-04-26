@@ -1,15 +1,5 @@
-<?php 
-$logo_v = get_field('logo_v', 'option');
-$phone_number = get_field('phone_number', 'option');
-$address = get_field('address', 'option');
-$email = get_field('email', 'option');
-$social_media = get_field('social_media', 'option');
-$copyright_text = get_field('copyright_text', 'option');
-?>
-
-<hr class="m-0">
 <footer>
-  <div class="container text-center text-lg-start text-black">
+  <!-- <div class="container text-center text-lg-start text-black">
     <div class="row align-items-center">
       <div class="col-lg-3 order-1 menu mb-4 mb-lg-0">
         <?php
@@ -90,10 +80,9 @@ $copyright_text = get_field('copyright_text', 'option');
         <i class="bi bi-arrow-up-circle-fill"></i>
       </a>
     </p>
-  </div>
+  </div> -->
 </footer>
 <?php wp_footer(); ?>
 <script src="js/main.js"></script>
 </body>
-
 </html>
