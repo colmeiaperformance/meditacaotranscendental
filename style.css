@@ -106,6 +106,141 @@ Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, 
           box-shadow: none !important;
 }
 
+.carousel {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+footer {
+  background: url(images/footer/footer-topo.png) top center no-repeat;
+  background-size: cover;
+}
+
+footer .container {
+  padding: 32px 0 16px 0;
+}
+
+footer .copyright p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+@media (max-width: 991.98px) {
+  footer .copyright p {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+  }
+}
+
+footer .menu .nav-link {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 34px;
+  color: #323B50;
+  padding: 0;
+}
+
+footer .menu .nav-link:hover {
+  opacity: 0.7;
+}
+
+footer .logo img {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991.98px) {
+  footer .logo img {
+    margin-bottom: 12px;
+    max-width: 90px;
+    height: auto;
+  }
+}
+
+footer .redes strong {
+  font-weight: 700;
+}
+
+footer .redes p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+
+footer .redes p strong {
+  font-weight: 700;
+}
+
+footer .redes .colmeia {
+  margin-top: 42px;
+}
+
+@media (max-width: 991.98px) {
+  footer .redes .colmeia {
+    margin-top: 25px;
+  }
+}
+
+footer .redes .colmeia p {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  margin: 0;
+  margin-right: 4px;
+}
+
+footer .redes .copyright {
+  margin-top: 25px;
+}
+
+footer .redes .copyright p {
+  margin: 0;
+}
+
+footer .redes ul {
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+footer .redes ul li {
+  padding: 0;
+}
+
+footer .redes ul img {
+  margin-right: 20px;
+}
+
+footer .redes ul img:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 991.98px) {
+  footer .redes ul img {
+    width: 30px;
+    margin-right: 14px;
+  }
+}
+
+footer .top {
+  position: absolute;
+}
+
+footer .top a {
+  color: #FFFFFF;
+  font-size: 30px;
+  display: inline;
+  position: fixed;
+  bottom: 0.8rem;
+  right: 1rem;
+}
+
 .header--home {
   background: #FFC536;
   padding: 0;

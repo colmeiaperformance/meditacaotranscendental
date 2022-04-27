@@ -208,7 +208,8 @@ class bootstrap_5_wp_nav_menu_walker extends Walker_Nav_menu
 // register a new menu
 register_nav_menu('main-menu', 'Main menu');
 register_nav_menu('secondary-menu', 'Secondary menu');
-register_nav_menu('footer-menu', 'Footer menu');
+register_nav_menu('footer-menu-1', 'Footer menu 1');
+register_nav_menu('footer-menu-2', 'Footer menu 2');
 
     //Thumbnails ou miniaturas
     add_theme_support( 'post-thumbnails' );
