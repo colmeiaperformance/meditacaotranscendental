@@ -4,6 +4,9 @@
     padding: 0;
     margin-bottom: 20px;
     h1 {
+      strong {
+        font-weight: 600;
+      }
       font-weight: 300;
       font-size: 54px;
       line-height: 58px;      
@@ -19,6 +22,9 @@
         letter-spacing: -0.02em;
         margin-bottom: 20px;
       }
+    }
+    strong{
+      font-weight: 600;
     }
     .carousel-caption {
       z-index: 111;
@@ -50,5 +56,4 @@
       }
     }
   }    
-  
 }
