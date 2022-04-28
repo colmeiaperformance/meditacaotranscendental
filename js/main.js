@@ -41,7 +41,7 @@ loadmore.addEventListener('click', (e) => {
   }
 })
 
-//Bootstrap caroulsel
+//Bootstrap caroulsel grab
 jQuery( document ).ready(function() {
   // Carousel
   jQuery(".carousel").carousel({
@@ -70,6 +70,7 @@ jQuery( document ).ready(function() {
 });
 
 
+//Top button
 jQuery(document).ready(function() {
   var offset = 220;
   var duration = 500;

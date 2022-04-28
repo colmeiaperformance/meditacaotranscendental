@@ -17,7 +17,7 @@
         </div>
       </div>
 
-      <div class="mt-unica-title d-flex align-items-baseline justify-content-center">
+      <div class="mt-unica-title d-lg-flex align-items-lg-baseline justify-content-lg-center">
         <h2>mt.</h2> <h3>Por que ela é <strong>única?</strong></h3>
       </div>
     </div>
