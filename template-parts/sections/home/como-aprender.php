@@ -1,4 +1,4 @@
-<sectin class="como-aprender">
+<section class="como-aprender">
   <div class="container">
     <h2>Como aprender <strong>MT</strong> ?</h2>
     <div class="row align-items-center justify-content-center">
