@@ -7,7 +7,7 @@
           <div class="depoimento d-block depoimento text-center">
             <div class="quote"></div>
             <p>Talvez o maior benefício seja o fato de que a MT é relativamente rápida de se aprender e fácil de se dominar. Não é necessário meses de prática para perceber os resultados.</p>
-            <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/Forbes.png' ?> alt="Forbes" class="Forbes">
+            <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/forbes.png' ?> alt="Forbes" class="Forbes">
           </div>
         </div>
       </div>
@@ -17,7 +17,7 @@
           <div class="depoimento d-block depoimento text-center">
             <div class="quote"></div>
             <p>Talvez o maior benefício seja o fato de que a MT é relativamente rápida de se aprender e fácil de se dominar. Não é necessário meses de prática para perceber os resultados.</p>
-            <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/Forbes.png' ?> alt="Forbes" class="Forbes">
+            <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/forbes.png' ?> alt="Forbes" class="Forbes">
           </div>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<!-- <section class="mt-unica-slide">
+<section class="mt-unica-slide">
   <div id="mt-unica-slide" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
 
@@ -38,4 +38,4 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-</section> -->
+</section>
