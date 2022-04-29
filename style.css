@@ -1033,16 +1033,6 @@ footer .top a {
   background-color: #FFC536;
 }
 
-.o-que-dizem .como-aprender-texto {
-  padding-left: 3rem;
-}
-
-@media (max-width: 992px) {
-  .o-que-dizem .como-aprender-texto {
-    padding: 0;
-  }
-}
-
 .o-que-dizem h2 {
   margin-bottom: 40px;
   font-weight: 300;
@@ -1080,11 +1070,9 @@ footer .top a {
 
 .o-que-dizem p {
   font-weight: 200;
-  font-size: 24px;
-  line-height: 30px;
+  line-height: 24px;
   letter-spacing: -0.02em;
   color: #323B50;
-  margin-bottom: 35px;
 }
 
 .o-que-dizem p strong {
@@ -1097,7 +1085,6 @@ footer .top a {
   .o-que-dizem p {
     font-size: 14px;
     line-height: 16px;
-    margin-bottom: 20px;
   }
 }
 
@@ -1105,42 +1092,11 @@ footer .top a {
   font-weight: 700;
 }
 
-.o-que-dizem li {
-  font-weight: 600;
-  font-size: 21px;
-  list-style-type: none;
-  position: relative;
-  margin-bottom: 0.5em;
-}
-
-.o-que-dizem li:before {
-  content: "";
-  background: url("images/aprenda-mt/icon-circle.png") center left no-repeat;
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  left: -1em;
-  top: 0.4em;
-}
-
-@media (max-width: 992px) {
-  .o-que-dizem li {
-    font-size: 14px;
-    line-height: 16px;
-    margin-bottom: 24px;
-    top: 0.4em;
-    padding: 0;
-  }
-  .o-que-dizem li:before {
-    left: -2em;
-  }
-}
-
 .o-que-dizem .btn {
   font-weight: 200;
   font-size: 24px;
-  background-color: #F29F05;
-  color: #FFFFFF;
+  background-color: #FFFFFF;
+  color: #F29F05;
 }
 
 @media (max-width: 992px) {
@@ -1149,28 +1105,96 @@ footer .top a {
   }
 }
 
-.o-que-dizem .carousel-item {
-  margin-bottom: 4rem;
-  height: auto;
+.o-que-dizem .carousel-caption {
+  display: contents;
 }
 
-.o-que-dizem .carousel-caption {
+.o-que-dizem .carousel-control-prev-icon {
+  background-image: url("images/mt-unica/prev.png");
+  width: 24px;
+  height: 44px;
+}
+
+@media (max-width: 992px) {
+  .o-que-dizem .carousel-control-prev-icon {
+    width: 8px;
+    height: 18px;
+  }
+}
+
+.o-que-dizem .carousel-control-next-icon {
+  background-image: url("images/mt-unica/next.png");
+  width: 24px;
+  height: 44px;
+}
+
+@media (max-width: 992px) {
+  .o-que-dizem .carousel-control-next-icon {
+    width: 8px;
+    height: 18px;
+  }
+}
+
+.o-que-dizem .carousel-control-next {
+  right: -90px;
+}
+
+.o-que-dizem .carousel-control-prev {
+  left: -90px;
+}
+
+.o-que-dizem .card-lateral {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
-  left: 0;
-  right: 0;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 16px;
+  font-size: 10px;
+  padding: 1rem;
+  padding-bottom: 0;
 }
 
-.o-que-dizem .teste {
-  height: 200px;
-  width: 200px;
+.o-que-dizem .card-lateral p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.o-que-dizem .card-centro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 1rem;
+  padding-bottom: 0;
+  border: 1px solid;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.o-que-dizem .card-centro p {
+  font-size: 20px;
+  line-height: 26px;
 }
 
 .visite-blog .visite-blog-title {
