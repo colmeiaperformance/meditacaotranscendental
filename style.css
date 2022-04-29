@@ -1172,4 +1172,40 @@ footer .top a {
   height: 200px;
   width: 200px;
 }
+
+.visite-blog .visite-blog-title {
+  margin-bottom: 40px;
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  color: #323B50;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .visite-blog .visite-blog-title {
+    margin-bottom: 25px;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+  }
+}
+
+.visite-blog .visite-blog-title strong {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  color: #FFC536;
+}
+
+@media (max-width: 992px) {
+  .visite-blog .visite-blog-title strong {
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+}
 /*# sourceMappingURL=style.css.map */
