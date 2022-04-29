@@ -4,7 +4,7 @@
     <div class="row align-items-center justify-content-center">
 
       <div class="col-12 col-lg-6 d-block d-lg-flex">
-        <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+        <div class="col-12 col-lg-4 d-flex align-items-start justify-content-center">
           <img class="img-fluid como-aprender-img" src=<?php echo get_template_directory_uri() . '/images/aprenda-mt/icon-arvore.png' ?>
             alt="Aprenda MT">
         </div>
