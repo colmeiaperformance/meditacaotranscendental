@@ -1,11 +1,5 @@
 .o-que-dizem{
     background-color: $color-primary-light;
-    .como-aprender-texto{
-        padding-left: 3rem;
-        @media (max-width: 992px) {
-            padding: 0;
-          }
-    }
     
     h2 {
         margin-bottom: 40px;
@@ -37,11 +31,9 @@
 
     p{ 
         font-weight: 200;
-        font-size: 24px;
-        line-height: 30px;
+        line-height: 24px;
         letter-spacing: -0.02em;
         color: $color-secondary-dark;
-        margin-bottom: 35px;
         strong {
             font-weight: 600;
             letter-spacing: -0.02em;
@@ -50,43 +42,18 @@
         @media (max-width: 992px) {
             font-size: 14px;
             line-height: 16px;
-            margin-bottom: 20px;
         }
     }
+
     b{
         font-weight: 700;
     }
-    li {
-        font-weight: 600;
-        font-size: 21px;
-        list-style-type: none;
-        position: relative;
-        margin-bottom: 0.5em;
-        &:before {
-            content: "";
-            background: url("images/aprenda-mt/icon-circle.png") center left no-repeat;
-            position: absolute;
-            width: 15px;
-            height: 15px;
-            left: -1em; 
-            top: 0.4em;           
-        }
-        @media (max-width: 992px) {
-            font-size: 14px;
-            line-height: 16px;
-            margin-bottom: 24px;
-            top: 0.4em;
-            padding: 0;
-            &:before {
-                left: -2em;         
-            }
-        }
-    }
+
     .btn{
         font-weight: 200;
         font-size: 24px;
-        background-color: $color-primary-dark;
-        color: $color-white;
+        background-color: $color-white;
+        color: $color-primary-dark;
         @media (max-width: 992px){
             font-size: 14px;
         }
@@ -94,21 +61,64 @@
 
     //carousel
     
-    .carousel-item{
-        margin-bottom: 4rem;
-        height: auto;
-        
-    }
     .carousel-caption{
+        display: contents;
+    }
+    .carousel-control-prev-icon {
+        background-image: url('images/mt-unica/prev.png');
+        width: 24px;
+        height: 44px;
+        @media (max-width: 992px) {
+            width: 8px;
+            height: 18px;   
+        }
+    }
+    .carousel-control-next-icon {
+        background-image: url('images/mt-unica/next.png');
+        width: 24px;
+        height: 44px;
+        @media (max-width: 992px) {
+            width: 8px;
+            height: 18px;
+        }
+    }
+    .carousel-control-next {
+        right: -90px;
+    }
+    .carousel-control-prev {
+        left: -90px;
+    }
+    .card-lateral{
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        width: 100%;
-        left: 0;
-        right: 0;
+        text-align: center;
+        border: 1px solid;
+        border-radius: 16px;
+        font-size: 10px;
+        padding: 1rem;
+        padding-bottom: 0;
+        p{
+            font-size: 16px;
+            line-height: 20px;
+        }
     }
-    .teste{
-        height: 200px;
-        width: 200px;
+    .card-centro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+        padding-bottom: 0;
+        border: 1px solid;
+        border-radius: 10px;
+        font-size: 20px;
+        p{
+            font-size: 20px;
+            line-height: 26px;
+        }
     }
+    
 }
