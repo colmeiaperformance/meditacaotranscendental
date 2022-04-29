@@ -1208,4 +1208,17 @@ footer .top a {
     letter-spacing: -0.02em;
   }
 }
+
+.agende-palestra .btn {
+  font-weight: 200;
+  font-size: 24px;
+  background-color: #F29F05;
+  color: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+  .agende-palestra .btn {
+    font-size: 14px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

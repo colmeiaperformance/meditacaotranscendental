@@ -28,7 +28,7 @@
       </div>
     </div>
 
-    <div class="row align-items-center justify-content-center">
+    <div class="row align-items-center justify-content-center py-5">
       <div class="col text-center">
         <a class="btn" href="#" role="button">Agende a palestra gratuita</a>
       </div>
