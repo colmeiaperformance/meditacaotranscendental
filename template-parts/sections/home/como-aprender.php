@@ -1,13 +1,11 @@
 <section class="como-aprender py-5">
   <div class="container">
-    <div class="col-12 d-flex align-items-center justify-content-center title">
-      <h2>Como aprender <strong><span>MT</span></strong>?</h2>
-    </div>
-    <div class="row mt-5 d-flex align-items-center justify-content-center align-items-stretch">
+    <h2 class="como-aprender-title">Como aprender <strong><span  class="yellow">MT</span></strong> ?</h2>
+    <div class="row align-items-center justify-content-center">
 
-      <div class="col-12 col-lg-6 d-flex flex-column flex-lg-row align-items-center justify-content-center text-center text-lg-start">
-        <div class="col-12 col-lg-4 como-aprender-imagem mb-5">
-          <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/aprenda-mt/icon-arvore.png' ?>
+      <div class="col-12 col-lg-6 d-block d-lg-flex">
+        <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+          <img class="img-fluid como-aprender-img" src=<?php echo get_template_directory_uri() . '/images/aprenda-mt/icon-arvore.png' ?>
             alt="Aprenda MT">
         </div>
         <div class="col-12 col-lg-8 como-aprender-texto mb-4">
@@ -18,13 +16,14 @@
         </div>
       </div>
 
-      <div class="col-12 col-lg-6 lista">
-        <div>
-          <ul class="">
-            <li class="">O curso é realizado em 4 encontros presenciais.</li>
-            <li class="">O primeiro dia é individual e os demais podem ser em pequenos grupos.</li>
-            <li class="">Você aprende a meditar através da experiência prática com a MT.</li>
-            <li class="">Após o curso, você terá acompanhamento sempre que precisar.</li>
+      <div class="col-12 col-lg-6">
+        <div class="como-aprender-box">
+          <ul class="como-aprender-list">
+            <li class="como-aprender-list-item">O curso é realizado em 4 encontros presenciais.</li>
+            <li class="como-aprender-list-item">O primeiro dia é individual e os demais podem ser em pequenos grupos.
+            </li>
+            <li class="como-aprender-list-item">Você aprende a meditar através da experiência prática com a MT.</li>
+            <li class="como-aprender-list-item">Após o curso, você terá acompanhamento sempre que precisar.</li>
           </ul>
         </div>
 
@@ -34,7 +33,7 @@
 
     <div class="row text-call mt-sm-4 text-center">
       <p>
-        O <b>primeiro passo</b> para aprender é participar de uma <strong>palestra online gratuita</strong>.
+        O <strong>primeiro passo</strong> para aprender é participar de uma <strong><span class="yellow">palestra online gratuita</span></strong>.
       </p>
     </div>
 

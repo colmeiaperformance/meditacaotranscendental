@@ -600,16 +600,30 @@ footer .top a {
   }
 }
 
-.como-aprender {
-  background-color: #E2E2E2;
-}
-
-.como-aprender .title {
+.como-aprender .como-aprender-title {
   color: #323B50;
 }
 
-.como-aprender .title span {
+.como-aprender .como-aprender-title span {
   color: #FFC536;
+}
+
+@media (max-width: 992px) {
+  .como-aprender .como-aprender-title span {
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+}
+
+@media (max-width: 992px) {
+  .como-aprender .como-aprender-title {
+    margin-bottom: 25px;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+  }
 }
 
 .como-aprender .como-aprender-texto {
@@ -618,8 +632,13 @@ footer .top a {
 
 @media (max-width: 992px) {
   .como-aprender .como-aprender-texto {
-    padding: 0;
+    padding: 1rem;
+    text-align: center;
   }
+}
+
+.como-aprender strong .yellow {
+  color: #FFC536;
 }
 
 .como-aprender h2 {
@@ -670,6 +689,11 @@ footer .top a {
 .como-aprender p strong {
   font-weight: 600;
   letter-spacing: -0.02em;
+}
+
+.como-aprender p strong .yellow {
+  font-weight: 600;
+  letter-spacing: -0.02em;
   color: #FFC536;
 }
 
@@ -681,8 +705,11 @@ footer .top a {
   }
 }
 
-.como-aprender b {
-  font-weight: 700;
+@media (max-width: 992px) {
+  .como-aprender .como-aprender-img {
+    width: 40%;
+    margin-bottom: 1rem;
+  }
 }
 
 .como-aprender li {
@@ -738,6 +765,7 @@ footer .top a {
     font-size: 22px;
     line-height: 26px;
     font-weight: 100;
+    margin-top: 2rem;
   }
 }
 
