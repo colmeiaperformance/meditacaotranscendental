@@ -1,5 +1,5 @@
 <section class="transcender">
-  <div class="container">
+  <div class="container py-5">
     <h2><strong>Transcender.</strong> Ultrapassar, ir além.</h2>
     <div class="row align-items-center justify-content-center">
 
