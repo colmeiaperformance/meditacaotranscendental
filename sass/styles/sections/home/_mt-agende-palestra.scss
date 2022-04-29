@@ -1,4 +1,26 @@
 .agende-palestra {
+  .circle {
+    width: 185px;
+    height: 185px;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.green {
+      background: #a6d491;
+    }
+    &.red {
+      background: #F49093;
+    }
+    &.blue {
+      background: #98AFDA;
+    }
+    &.yellow {
+      background: #FFC536;
+    }
+  }
   .btn {
     font-weight: 200;
     font-size: 24px;

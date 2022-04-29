@@ -1209,6 +1209,37 @@ footer .top a {
   }
 }
 
+.agende-palestra .circle {
+  width: 185px;
+  height: 185px;
+  border-radius: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.agende-palestra .circle.green {
+  background: #a6d491;
+}
+
+.agende-palestra .circle.red {
+  background: #F49093;
+}
+
+.agende-palestra .circle.blue {
+  background: #98AFDA;
+}
+
+.agende-palestra .circle.yellow {
+  background: #FFC536;
+}
+
 .agende-palestra .btn {
   font-weight: 200;
   font-size: 24px;
