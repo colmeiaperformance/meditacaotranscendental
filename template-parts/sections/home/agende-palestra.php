@@ -1,36 +1,35 @@
 <section class="agende-palestra">
   <div class="container">
-
     <div class="row align-items-center justify-content-center">
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-6 col-md-3 d-flex align-items-center justify-content-center">
         <div class="circle green rounded-circle">
-          <div class="d-block">
-            <div>+600</div>
-            <div>estudos científicos</div>
+          <div class="d-block text-center px-2">
+            <h4>+600</h4>
+            <p>estudos científicos</p>
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-6 col-md-3 d-flex align-items-center justify-content-center">
         <div class="circle red rounded-circle">
-          <div class="d-block">
-            <div>+10</div>
-            <div>milhões de meditantes</div>
+          <div class="d-block text-center px-2">
+            <h4>+10</h4>
+            <p>milhões de meditantes</p>
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-6 col-md-3 d-flex align-items-center justify-content-center">
         <div class="circle blue rounded-circle">
-          <div class="d-block">
-            <div>+100</div>
-            <div>países</div>
+          <div class="d-block text-center px-2">
+            <h4>+100</h4>
+            <p>países</p>
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-6 col-md-3 d-flex align-items-center justify-content-center">
         <div class="circle yellow rounded-circle">
-          <div class="d-block">
-            <div>+100</div>
-            <div>mil meditantes no brasil</div>
+          <div class="d-block text-center px-2">
+            <h4>+100</h4>
+            <p>mil meditantes no brasil</p>
           </div>
         </div>
       </div>

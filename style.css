@@ -1328,7 +1328,7 @@ footer .top a {
   line-height: 26px;
 }
 
-.visite-blog .visite-blog-title {
+.visite-blog h2 {
   margin-bottom: 40px;
   font-weight: 300;
   font-size: 54px;
@@ -1339,7 +1339,7 @@ footer .top a {
 }
 
 @media (max-width: 992px) {
-  .visite-blog .visite-blog-title {
+  .visite-blog h2 {
     margin-bottom: 25px;
     font-size: 30px;
     line-height: 35px;
@@ -1347,7 +1347,7 @@ footer .top a {
   }
 }
 
-.visite-blog .visite-blog-title strong {
+.visite-blog h2 strong {
   font-weight: 600;
   font-size: 54px;
   line-height: 64px;
@@ -1356,7 +1356,7 @@ footer .top a {
 }
 
 @media (max-width: 992px) {
-  .visite-blog .visite-blog-title strong {
+  .visite-blog h2 strong {
     font-size: 30px;
     line-height: 35px;
     text-align: center;
@@ -1379,6 +1379,14 @@ footer .top a {
           justify-content: center;
 }
 
+@media (max-width: 992px) {
+  .agende-palestra .circle {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 14px;
+  }
+}
+
 .agende-palestra .circle.green {
   background: #a6d491;
 }
@@ -1395,16 +1403,66 @@ footer .top a {
   background: #FFC536;
 }
 
-.agende-palestra .btn {
-  font-weight: 200;
-  font-size: 24px;
-  background-color: #F29F05;
+.agende-palestra h4 {
+  text-align: center;
+  letter-spacing: -0.05em;
   color: #FFFFFF;
+  font-size: 64px;
+  line-height: 75px;
+  font-weight: 700;
+}
+
+@media (max-width: 992px) {
+  .agende-palestra h4 {
+    font-size: 50px;
+    line-height: 59px;
+  }
+}
+
+.agende-palestra p {
+  font-weight: 600;
+  color: #323B50;
+  margin-bottom: 0;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+@media (max-width: 992px) {
+  .agende-palestra p {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+.agende-palestra .btn {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  padding: 9px 31px;
+  background-color: #F29F05;
+  border-radius: 30px;
+}
+
+.agende-palestra .btn:hover {
+  background-color: transparent;
+  border: 1px solid #F29F05;
+  color: #F29F05;
 }
 
 @media (max-width: 992px) {
   .agende-palestra .btn {
+    font-weight: 700;
     font-size: 14px;
+    line-height: 16px;
   }
 }
 
