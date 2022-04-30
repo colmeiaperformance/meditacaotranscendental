@@ -19,7 +19,7 @@
             font-size: 54px;
             line-height: 64px;
             letter-spacing: -0.02em;
-            @media (max-width: 992px)  {
+            @media (max-width: 992px) {
                 font-size: 30px;
                 line-height: 35px;
                 text-align: center;
@@ -27,17 +27,17 @@
             }
         }
     }
-    p { 
+    p {
         font-weight: 200;
         line-height: 24px;
         letter-spacing: -0.02em;
         color: $color-secondary-dark;
-        strong  {
+        strong {
             font-weight: 600;
             letter-spacing: -0.02em;
             color: $color-primary-light;
         }
-        @media (max-width: 992px)  {
+        @media (max-width: 992px) {
             font-size: 14px;
             line-height: 16px;
         }
@@ -50,6 +50,11 @@
         font-size: 24px;
         background-color: $color-white;
         color: $color-primary-dark;
+        &:hover {
+            background: transparent;
+            border: 1px solid $color-white;
+            color: $color-white;
+        }
         @media (max-width: 992px) {
             font-size: 14px;
         }
@@ -58,19 +63,19 @@
         display: contents;
     }
     .carousel-control-prev-icon {
-        background-image: url('images/mt-unica/prev.png');
+        background-image: url("images/mt-unica/prev.png");
         width: 24px;
         height: 44px;
         @media (max-width: 992px) {
             width: 8px;
-            height: 18px;   
+            height: 18px;
         }
     }
     .carousel-control-next-icon {
-        background-image: url('images/mt-unica/next.png');
+        background-image: url("images/mt-unica/next.png");
         width: 24px;
         height: 44px;
-        @media (max-width: 992px)  {
+        @media (max-width: 992px) {
             width: 8px;
             height: 18px;
         }
