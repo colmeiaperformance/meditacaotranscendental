@@ -10,13 +10,16 @@
     }
   }
   .mundo-melhor-topo{
-    background: url('https://via.placeholder.com/1000');
-    background-size: cover;
     height: 230px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    display:none;
-    width:100%;
+    width: 100%;
+    display: none;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      max-height: 230px;
+    }
     @media (max-width: 992px) {
       display: block;
     }

@@ -9,7 +9,7 @@
 
       <div class="col-12 col-lg-5">
         <div class="mt-unica-video">
-          <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/video.png' ?> alt="Vídeo">
+          <iframe width="100%" height="280px" src="https://www.youtube.com/embed/P1IbPE-Y9Zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="video-caption">
           <h5>Dr. Tony Nader</h5>

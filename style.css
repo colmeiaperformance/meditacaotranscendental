@@ -1,5 +1,7 @@
 html,
 body {
+  overflow-x: hidden;
+  /* Prevent scroll on narrow devices */
   font-family: "Work Sans", sans-serif !important;
 }
 
@@ -24,11 +26,13 @@ a:hover {
 }
 
 ::-moz-selection {
-  background: #FF702E;
+  background: #7896C1;
+  color: #fff;
 }
 
 ::selection {
-  background: #FF702E;
+  background: #7896C1;
+  color: #fff;
 }
 
 /*
@@ -117,7 +121,8 @@ footer {
 }
 
 footer .container {
-  padding: 32px 0 16px 0;
+  padding-top: 32px;
+  padding-bottom: 16px;
 }
 
 footer .copyright p {
@@ -478,7 +483,7 @@ footer .top a {
 }
 
 .mt-unica-depoimentos .carousel-control-prev-icon {
-  background-image: url("images/mt-unica/prev.png");
+  background: url("images/mt-unica/prev.png") top center no-repeat;
   width: 24px;
   height: 44px;
 }
@@ -487,11 +492,12 @@ footer .top a {
   .mt-unica-depoimentos .carousel-control-prev-icon {
     width: 8px;
     height: 18px;
+    background-size: cover;
   }
 }
 
 .mt-unica-depoimentos .carousel-control-next-icon {
-  background-image: url("images/mt-unica/next.png");
+  background: url("images/mt-unica/next.png") top center no-repeat;
   width: 24px;
   height: 44px;
 }
@@ -500,6 +506,7 @@ footer .top a {
   .mt-unica-depoimentos .carousel-control-next-icon {
     width: 8px;
     height: 18px;
+    background-size: cover;
   }
 }
 
@@ -584,7 +591,7 @@ footer .top a {
 .mt-unica-depoimentos .depoimento .quote::before {
   content: '';
   position: absolute;
-  background: url(images/mt-unica/quote.png) top center no-repeat;
+  background: url("images/mt-unica/quote.png") top center no-repeat;
   background-size: cover;
   height: 76px;
   width: 94px;
@@ -769,29 +776,77 @@ footer .top a {
   }
 }
 
-.mt-unica-slide .bd-placeholder-img {
-  position: relative;
-}
-
-.mt-unica-slide .bd-placeholder-img::before {
+.mt-unica-slide .carousel-inner::after {
   content: '';
   position: absolute;
-  background: url("images/mt-unica/efeito.png") top center no-repeat;
+  height: 485px;
+  width: 100%;
+  z-index: 1;
+  background-image: linear-gradient(256.34deg, rgba(255, 255, 255, 0.4) 47.88%, rgba(255, 255, 255, 0) 59.77%);
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  width: 100%;
+}
+
+.mt-unica-slide .carousel-item {
   height: 485px;
 }
 
+@media (max-width: 992px) {
+  .mt-unica-slide .carousel-item {
+    height: 210px;
+  }
+}
+
+.mt-unica-slide .carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+}
+
+.mt-unica-slide .carousel-control-prev-icon {
+  background: url("images/mt-unica/icon-prev.png") top center no-repeat;
+  width: 24px;
+  height: 44px;
+}
+
+@media (max-width: 992px) {
+  .mt-unica-slide .carousel-control-prev-icon {
+    width: 7.96px;
+    height: 14.93px;
+    background-size: cover;
+  }
+}
+
+.mt-unica-slide .carousel-control-next-icon {
+  background: url("images/mt-unica/icon-next.png") top center no-repeat;
+  width: 24px;
+  height: 44px;
+}
+
+@media (max-width: 992px) {
+  .mt-unica-slide .carousel-control-next-icon {
+    width: 7.96px;
+    height: 14.93px;
+    background-size: cover;
+  }
+}
+
 .mt-unica-slide .carousel-caption {
-  position: absolute;
+  z-index: 1111;
   right: 0;
+  left: auto;
   bottom: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-bottom: 70px;
+  padding: 0;
+  margin-bottom: 4%;
+  margin-right: 7%;
+}
+
+@media (max-width: 992px) {
+  .mt-unica-slide .carousel-caption {
+    margin-bottom: 33px;
+  }
 }
 
 .mt-unica-slide h3 {
@@ -804,6 +859,14 @@ footer .top a {
   margin-bottom: 30px;
 }
 
+@media (max-width: 992px) {
+  .mt-unica-slide h3 {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 13px;
+  }
+}
+
 .mt-unica-slide p {
   font-style: normal;
   font-weight: 400;
@@ -811,6 +874,13 @@ footer .top a {
   line-height: 30px;
   color: #323B50;
   margin-bottom: 25px;
+}
+
+@media (max-width: 992px) {
+  .mt-unica-slide p {
+    font-size: 12px;
+    line-height: 14px;
+  }
 }
 
 .mt-unica-slide .btn {
@@ -822,6 +892,40 @@ footer .top a {
   background: #F29F05;
   border-radius: 30px;
   padding: 9px 31px;
+}
+
+@media (max-width: 992px) {
+  .mt-unica-slide .btn {
+    font-size: 14px;
+    line-height: 16px;
+    display: none;
+  }
+}
+
+.mt-unica-slide .btn:hover {
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+.mt-unica-slide .btn-mobile {
+  display: none;
+  position: relative;
+  z-index: 111;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: -17px;
+}
+
+.mt-unica-slide .btn-mobile:hover {
+  background: #FFC536;
+  border: 1px solid #FFC536;
+}
+
+@media (max-width: 992px) {
+  .mt-unica-slide .btn-mobile {
+    display: block;
+  }
 }
 
 .mt-unica {
@@ -856,14 +960,30 @@ footer .top a {
   height: auto;
 }
 
+@media (max-width: 992px) {
+  .mt-unica .mt-unica-video img {
+    height: 190px;
+  }
+}
+
 .mt-unica .mt-unica-video iframe {
   width: 100%;
-  height: auto;
+}
+
+@media (max-width: 992px) {
+  .mt-unica .mt-unica-video iframe {
+    height: 190px;
+  }
 }
 
 .mt-unica .mt-unica-video video {
   width: 100%;
-  height: auto;
+}
+
+@media (max-width: 992px) {
+  .mt-unica .mt-unica-video video {
+    height: 190px;
+  }
 }
 
 .mt-unica .video-caption {
@@ -911,6 +1031,7 @@ footer .top a {
   .mt-unica .mt-unica-title {
     margin-left: 30px;
     margin-top: 50px;
+    text-align: center;
   }
 }
 
@@ -1088,7 +1209,7 @@ footer .top a {
   }
 }
 
-.o-que-dizem b {
+.o-que-dizem strong {
   font-weight: 700;
 }
 
@@ -1165,6 +1286,11 @@ footer .top a {
   padding-bottom: 0;
 }
 
+.o-que-dizem .card-lateral iframe {
+  width: 100%;
+  height: auto;
+}
+
 .o-que-dizem .card-lateral p {
   font-size: 16px;
   line-height: 20px;
@@ -1190,6 +1316,11 @@ footer .top a {
   border: 1px solid;
   border-radius: 10px;
   font-size: 20px;
+}
+
+.o-que-dizem .card-centro iframe {
+  width: 100%;
+  height: 185px;
 }
 
 .o-que-dizem .card-centro p {
@@ -1295,13 +1426,18 @@ footer .top a {
 }
 
 .mundo-melhor .mundo-melhor-topo {
-  background: url("https://via.placeholder.com/1000");
-  background-size: cover;
   height: 230px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  display: none;
   width: 100%;
+  display: none;
+  overflow: hidden;
+}
+
+.mundo-melhor .mundo-melhor-topo img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 230px;
 }
 
 @media (max-width: 992px) {

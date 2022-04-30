@@ -1,27 +1,3 @@
-jQuery(document).ready(function () {
-  //Banner header
-  const swiper = new Swiper(".swiperSpotlight", {
-    grabCursor: true,
-    effect: "fade",
-    loop: true,
-    loopFillGroupWithBlank: true,
-    speed: 300,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      dynamicBullets: true,
-      clickable: true,
-    },
-    scrollbar: {
-      el: ".swiper-scrollbar",
-      hide: true,
-    },
-  });
-});
-
 //Show more sidebar button
 const loadmore = document.querySelector('#loadmore');
 let currentItems = 4;
@@ -33,7 +9,7 @@ loadmore.addEventListener('click', (e) => {
     }
   }
   currentItems += 4;
-
+  
   // Load more button will be hidden after list fully loaded
   if (currentItems >= elementList.length) {
     event.target.style.display = 'none';
@@ -41,7 +17,7 @@ loadmore.addEventListener('click', (e) => {
   }
 })
 
-//Bootstrap caroulsel grab
+//Bootstrap caroulsel
 jQuery( document ).ready(function() {
   // Carousel
   jQuery(".carousel").carousel({

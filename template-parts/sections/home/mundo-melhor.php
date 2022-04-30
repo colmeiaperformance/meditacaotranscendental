@@ -1,5 +1,7 @@
 <section class="mundo-melhor position-relative">
-  <div class="mundo-melhor-topo"></div>
+  <div class="mundo-melhor-topo">
+    <img src="https://via.placeholder.com/1000" alt="mt.">
+  </div>
   <div class="container">
     <div class="row align-items-center justify-content-start">
       <div class="col-12 col-lg-7">
