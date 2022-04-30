@@ -791,7 +791,7 @@ footer .top a {
   bottom: 0;
   padding-top: 0;
   padding-bottom: 0;
-  margin-bottom: 75px;
+  margin-bottom: 70px;
 }
 
 .mt-unica-slide h3 {
@@ -1274,6 +1274,148 @@ footer .top a {
 @media (max-width: 992px) {
   .agende-palestra .btn {
     font-size: 14px;
+  }
+}
+
+.mundo-melhor {
+  background-color: #7896C1;
+  overflow: hidden;
+}
+
+.mundo-melhor .container {
+  padding-top: 57px;
+  padding-bottom: 57px;
+}
+
+@media (max-width: 992px) {
+  .mundo-melhor .container {
+    padding-top: 30px;
+    padding-bottom: 37px;
+  }
+}
+
+.mundo-melhor .mundo-melhor-topo {
+  background: url("https://via.placeholder.com/1000");
+  background-size: cover;
+  height: 230px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: none;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .mundo-melhor .mundo-melhor-topo {
+    display: block;
+  }
+}
+
+.mundo-melhor .mundo-melhor-bg {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  max-width: 530px;
+  width: 40%;
+  overflow: hidden;
+  height: 100%;
+  background: url(images/mundo-melhor/mundo-melhor-bg.png);
+  background-size: cover;
+}
+
+@media (max-width: 992px) {
+  .mundo-melhor .mundo-melhor-bg {
+    display: none;
+  }
+}
+
+.mundo-melhor h2 {
+  margin-bottom: 0;
+}
+
+.mundo-melhor h2 img {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 992px) {
+  .mundo-melhor h2 img {
+    margin: 0 auto;
+    margin-bottom: 5px;
+    max-width: 150px;
+  }
+}
+
+.mundo-melhor h3 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 63px;
+  letter-spacing: -0.02em;
+  color: #FFC536;
+  margin-bottom: 33px;
+}
+
+.mundo-melhor h3 strong {
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .mundo-melhor h3 {
+    font-size: 29px;
+    line-height: 34px;
+    margin-bottom: 20px;
+  }
+}
+
+.mundo-melhor p {
+  margin-bottom: 33px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+  .mundo-melhor p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 15px;
+  }
+}
+
+.mundo-melhor p strong {
+  font-weight: 600;
+}
+
+.mundo-melhor .btn {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  padding: 9px 31px;
+  background-color: #F29F05;
+  border-radius: 30px;
+}
+
+.mundo-melhor .btn:hover {
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+  .mundo-melhor .btn {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
   }
 }
 /*# sourceMappingURL=style.css.map */
