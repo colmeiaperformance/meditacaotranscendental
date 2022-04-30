@@ -478,132 +478,105 @@ footer .top a {
 /************************************/
 /********* MT SECTIONS *************/
 /************************************/
-.mt-unica-depoimentos {
-  margin: 70px 0 60px 0;
-}
-
-.mt-unica-depoimentos .carousel-control-prev-icon {
-  background: url("images/mt-unica/prev.png") top center no-repeat;
-  width: 24px;
-  height: 44px;
-}
-
-@media (max-width: 992px) {
-  .mt-unica-depoimentos .carousel-control-prev-icon {
-    width: 8px;
-    height: 18px;
-    background-size: cover;
-  }
-}
-
-.mt-unica-depoimentos .carousel-control-next-icon {
-  background: url("images/mt-unica/next.png") top center no-repeat;
-  width: 24px;
-  height: 44px;
+.agende-palestra .circle {
+  width: 185px;
+  height: 185px;
+  border-radius: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media (max-width: 992px) {
-  .mt-unica-depoimentos .carousel-control-next-icon {
-    width: 8px;
-    height: 18px;
-    background-size: cover;
+  .agende-palestra .circle {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 14px;
   }
 }
 
-.mt-unica-depoimentos .carousel-indicators {
-  margin-bottom: 0;
+.agende-palestra .circle.green {
+  background: #a6d491;
 }
 
-.mt-unica-depoimentos .carousel-indicators [data-bs-target] {
-  width: 8px;
-  height: 8px;
-  border-radius: 100%;
-  margin-right: 6px;
-  margin-left: 6px;
-  background-color: #E2E2E2;
-  border: 0;
+.agende-palestra .circle.red {
+  background: #F49093;
 }
 
-@media (max-width: 992px) {
-  .mt-unica-depoimentos .carousel-indicators [data-bs-target] {
-    height: 6px;
-    width: 8px;
-    margin-right: 4px;
-    margin-left: 4px;
-  }
+.agende-palestra .circle.blue {
+  background: #98AFDA;
 }
 
-.mt-unica-depoimentos .depoimento {
-  margin-bottom: 65px;
+.agende-palestra .circle.yellow {
+  background: #FFC536;
 }
 
-@media (max-width: 992px) {
-  .mt-unica-depoimentos .depoimento {
-    margin-bottom: 25px;
-  }
-}
-
-.mt-unica-depoimentos .depoimento p {
-  font-style: italic;
-  font-weight: 200;
-  font-size: 24px;
-  line-height: 33px;
+.agende-palestra h4 {
   text-align: center;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  font-size: 64px;
+  line-height: 75px;
+  font-weight: 700;
+}
+
+@media (max-width: 992px) {
+  .agende-palestra h4 {
+    font-size: 50px;
+    line-height: 59px;
+  }
+}
+
+.agende-palestra p {
+  font-weight: 600;
   color: #323B50;
-  margin: 0 auto;
-  margin-bottom: 35px;
-  position: relative;
-  max-width: 750px;
+  margin-bottom: 0;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 @media (max-width: 992px) {
-  .mt-unica-depoimentos .depoimento p {
+  .agende-palestra p {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+.agende-palestra .btn {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  padding: 9px 31px;
+  background-color: #F29F05;
+  border-radius: 30px;
+}
+
+.agende-palestra .btn:hover {
+  background-color: transparent;
+  border: 1px solid #F29F05;
+  color: #F29F05;
+}
+
+@media (max-width: 992px) {
+  .agende-palestra .btn {
+    font-weight: 700;
     font-size: 14px;
-    line-height: 19px;
-    max-width: 85%;
-    margin-bottom: 18px;
-  }
-}
-
-.mt-unica-depoimentos .depoimento img {
-  margin: 0 auto;
-}
-
-@media (max-width: 992px) {
-  .mt-unica-depoimentos .depoimento img {
-    max-height: 25px;
-  }
-}
-
-.mt-unica-depoimentos .depoimento .quote {
-  height: 76px;
-  margin: 0 auto;
-  margin-bottom: 35px;
-}
-
-@media (max-width: 992px) {
-  .mt-unica-depoimentos .depoimento .quote {
-    margin-bottom: 20px;
-    height: 40px;
-  }
-}
-
-.mt-unica-depoimentos .depoimento .quote::before {
-  content: '';
-  position: absolute;
-  background: url("images/mt-unica/quote.png") top center no-repeat;
-  background-size: cover;
-  height: 76px;
-  width: 94px;
-  left: 0;
-  margin-left: calc(50% - 94px / 2);
-}
-
-@media (max-width: 992px) {
-  .mt-unica-depoimentos .depoimento .quote::before {
-    width: 50px;
-    height: 40px;
-    margin-left: calc(50% - 50px / 2);
+    line-height: 16px;
   }
 }
 
@@ -773,6 +746,542 @@ footer .top a {
     line-height: 26px;
     font-weight: 100;
     margin-top: 2rem;
+  }
+}
+
+.conheca-beneficios {
+  background-color: #7896C1;
+}
+
+.mundo-melhor {
+  background-color: #7896C1;
+  overflow: hidden;
+}
+
+.mundo-melhor .container {
+  padding-top: 57px;
+  padding-bottom: 57px;
+}
+
+@media (max-width: 992px) {
+  .mundo-melhor .container {
+    padding-top: 30px;
+    padding-bottom: 37px;
+  }
+}
+
+.mundo-melhor .mundo-melhor-topo {
+  height: 230px;
+  width: 100%;
+  display: none;
+  overflow: hidden;
+}
+
+.mundo-melhor .mundo-melhor-topo img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 230px;
+}
+
+@media (max-width: 992px) {
+  .mundo-melhor .mundo-melhor-topo {
+    display: block;
+  }
+}
+
+.mundo-melhor .mundo-melhor-bg {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  max-width: 530px;
+  width: 40%;
+  overflow: hidden;
+  height: 100%;
+  background: url(images/mundo-melhor/mundo-melhor-bg.png);
+  background-size: cover;
+}
+
+@media (max-width: 992px) {
+  .mundo-melhor .mundo-melhor-bg {
+    display: none;
+  }
+}
+
+.mundo-melhor h2 {
+  margin-bottom: 0;
+}
+
+.mundo-melhor h2 img {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 992px) {
+  .mundo-melhor h2 img {
+    margin: 0 auto;
+    margin-bottom: 5px;
+    max-width: 150px;
+  }
+}
+
+.mundo-melhor h3 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 63px;
+  letter-spacing: -0.02em;
+  color: #FFC536;
+  margin-bottom: 33px;
+}
+
+.mundo-melhor h3 strong {
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .mundo-melhor h3 {
+    font-size: 29px;
+    line-height: 34px;
+    margin-bottom: 20px;
+  }
+}
+
+.mundo-melhor p {
+  margin-bottom: 33px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+  .mundo-melhor p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 15px;
+  }
+}
+
+.mundo-melhor p strong {
+  font-weight: 600;
+}
+
+.mundo-melhor .btn {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  padding: 9px 31px;
+  background-color: #F29F05;
+  border-radius: 30px;
+}
+
+.mundo-melhor .btn:hover {
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+  .mundo-melhor .btn {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.o-que-dizem {
+  background-color: #FFC536;
+}
+
+.o-que-dizem h2 {
+  margin-bottom: 40px;
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .o-que-dizem h2 {
+    margin-bottom: 0px;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+  }
+}
+
+.o-que-dizem h2 strong {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+}
+
+@media (max-width: 992px) {
+  .o-que-dizem h2 strong {
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+}
+
+.o-que-dizem p {
+  font-weight: 200;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #323B50;
+}
+
+.o-que-dizem p strong {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #FFC536;
+}
+
+@media (max-width: 992px) {
+  .o-que-dizem p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.o-que-dizem strong {
+  font-weight: 700;
+}
+
+.o-que-dizem .btn {
+  font-weight: 200;
+  font-size: 24px;
+  background-color: #FFFFFF;
+  color: #F29F05;
+}
+
+@media (max-width: 992px) {
+  .o-que-dizem .btn {
+    font-size: 14px;
+  }
+}
+
+.o-que-dizem .carousel-caption {
+  display: contents;
+}
+
+.o-que-dizem .carousel-control-prev-icon {
+  background-image: url("images/mt-unica/prev.png");
+  width: 24px;
+  height: 44px;
+}
+
+@media (max-width: 992px) {
+  .o-que-dizem .carousel-control-prev-icon {
+    width: 8px;
+    height: 18px;
+  }
+}
+
+.o-que-dizem .carousel-control-next-icon {
+  background-image: url("images/mt-unica/next.png");
+  width: 24px;
+  height: 44px;
+}
+
+@media (max-width: 992px) {
+  .o-que-dizem .carousel-control-next-icon {
+    width: 8px;
+    height: 18px;
+  }
+}
+
+.o-que-dizem .carousel-control-next {
+  right: -90px;
+}
+
+.o-que-dizem .carousel-control-prev {
+  left: -90px;
+}
+
+.o-que-dizem .card-lateral {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 16px;
+  font-size: 10px;
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.o-que-dizem .card-lateral iframe {
+  width: 100%;
+  height: auto;
+}
+
+.o-que-dizem .card-lateral p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.o-que-dizem .card-centro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 1rem;
+  padding-bottom: 0;
+  border: 1px solid;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.o-que-dizem .card-centro iframe {
+  width: 100%;
+  height: 185px;
+}
+
+.o-que-dizem .card-centro p {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.transcender h2 {
+  margin-bottom: 40px;
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  color: #323B50;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .transcender h2 {
+    margin-bottom: 25px;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+  }
+}
+
+.transcender h2 strong {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  color: #FFC536;
+}
+
+@media (max-width: 992px) {
+  .transcender h2 strong {
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+}
+
+.transcender .transcender-video {
+  margin-bottom: 20px;
+}
+
+.transcender .transcender-video img {
+  width: 100%;
+  height: auto;
+}
+
+.transcender .transcender-video video {
+  width: 100%;
+  height: auto;
+}
+
+.transcender .transcender-video iframe {
+  width: 100%;
+  height: auto;
+}
+
+.transcender p {
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #323B50;
+  margin-bottom: 35px;
+}
+
+.transcender p strong {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #FFC536;
+}
+
+@media (max-width: 992px) {
+  .transcender p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 20px;
+  }
+}
+
+.mt-unica-depoimentos {
+  margin: 70px 0 60px 0;
+}
+
+.mt-unica-depoimentos .carousel-control-prev-icon {
+  background: url("images/mt-unica/prev.png") top center no-repeat;
+  width: 24px;
+  height: 44px;
+}
+
+@media (max-width: 992px) {
+  .mt-unica-depoimentos .carousel-control-prev-icon {
+    width: 8px;
+    height: 18px;
+    background-size: cover;
+  }
+}
+
+.mt-unica-depoimentos .carousel-control-next-icon {
+  background: url("images/mt-unica/next.png") top center no-repeat;
+  width: 24px;
+  height: 44px;
+}
+
+@media (max-width: 992px) {
+  .mt-unica-depoimentos .carousel-control-next-icon {
+    width: 8px;
+    height: 18px;
+    background-size: cover;
+  }
+}
+
+.mt-unica-depoimentos .carousel-indicators {
+  margin-bottom: 0;
+}
+
+.mt-unica-depoimentos .carousel-indicators [data-bs-target] {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  margin-right: 6px;
+  margin-left: 6px;
+  background-color: #E2E2E2;
+  border: 0;
+}
+
+@media (max-width: 992px) {
+  .mt-unica-depoimentos .carousel-indicators [data-bs-target] {
+    height: 6px;
+    width: 8px;
+    margin-right: 4px;
+    margin-left: 4px;
+  }
+}
+
+.mt-unica-depoimentos .depoimento {
+  margin-bottom: 65px;
+}
+
+@media (max-width: 992px) {
+  .mt-unica-depoimentos .depoimento {
+    margin-bottom: 25px;
+  }
+}
+
+.mt-unica-depoimentos .depoimento p {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #323B50;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  position: relative;
+  max-width: 750px;
+}
+
+@media (max-width: 992px) {
+  .mt-unica-depoimentos .depoimento p {
+    font-size: 14px;
+    line-height: 19px;
+    max-width: 85%;
+    margin-bottom: 18px;
+  }
+}
+
+.mt-unica-depoimentos .depoimento img {
+  margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+  .mt-unica-depoimentos .depoimento img {
+    max-height: 25px;
+  }
+}
+
+.mt-unica-depoimentos .depoimento .quote {
+  height: 76px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+@media (max-width: 992px) {
+  .mt-unica-depoimentos .depoimento .quote {
+    margin-bottom: 20px;
+    height: 40px;
+  }
+}
+
+.mt-unica-depoimentos .depoimento .quote::before {
+  content: '';
+  position: absolute;
+  background: url("images/mt-unica/quote.png") top center no-repeat;
+  background-size: cover;
+  height: 76px;
+  width: 94px;
+  left: 0;
+  margin-left: calc(50% - 94px / 2);
+}
+
+@media (max-width: 992px) {
+  .mt-unica-depoimentos .depoimento .quote::before {
+    width: 50px;
+    height: 40px;
+    margin-left: calc(50% - 50px / 2);
   }
 }
 
@@ -1072,262 +1581,6 @@ footer .top a {
   }
 }
 
-.transcender h2 {
-  margin-bottom: 40px;
-  font-weight: 300;
-  font-size: 54px;
-  line-height: 64px;
-  letter-spacing: -0.02em;
-  color: #323B50;
-  text-align: center;
-}
-
-@media (max-width: 992px) {
-  .transcender h2 {
-    margin-bottom: 25px;
-    font-size: 30px;
-    line-height: 35px;
-    letter-spacing: -0.02em;
-  }
-}
-
-.transcender h2 strong {
-  font-weight: 600;
-  font-size: 54px;
-  line-height: 64px;
-  letter-spacing: -0.02em;
-  color: #FFC536;
-}
-
-@media (max-width: 992px) {
-  .transcender h2 strong {
-    font-size: 30px;
-    line-height: 35px;
-    text-align: center;
-    letter-spacing: -0.02em;
-  }
-}
-
-.transcender .transcender-video {
-  margin-bottom: 20px;
-}
-
-.transcender .transcender-video img {
-  width: 100%;
-  height: auto;
-}
-
-.transcender .transcender-video video {
-  width: 100%;
-  height: auto;
-}
-
-.transcender .transcender-video iframe {
-  width: 100%;
-  height: auto;
-}
-
-.transcender p {
-  font-weight: 200;
-  font-size: 24px;
-  line-height: 30px;
-  letter-spacing: -0.02em;
-  color: #323B50;
-  margin-bottom: 35px;
-}
-
-.transcender p strong {
-  font-weight: 600;
-  letter-spacing: -0.02em;
-  color: #FFC536;
-}
-
-@media (max-width: 992px) {
-  .transcender p {
-    font-size: 14px;
-    line-height: 16px;
-    margin-bottom: 20px;
-  }
-}
-
-.o-que-dizem {
-  background-color: #FFC536;
-}
-
-.o-que-dizem h2 {
-  margin-bottom: 40px;
-  font-weight: 300;
-  font-size: 54px;
-  line-height: 64px;
-  letter-spacing: -0.02em;
-  color: #FFFFFF;
-  text-align: center;
-}
-
-@media (max-width: 992px) {
-  .o-que-dizem h2 {
-    margin-bottom: 0px;
-    font-size: 30px;
-    line-height: 35px;
-    letter-spacing: -0.02em;
-  }
-}
-
-.o-que-dizem h2 strong {
-  font-weight: 600;
-  font-size: 54px;
-  line-height: 64px;
-  letter-spacing: -0.02em;
-}
-
-@media (max-width: 992px) {
-  .o-que-dizem h2 strong {
-    font-size: 30px;
-    line-height: 35px;
-    text-align: center;
-    letter-spacing: -0.02em;
-  }
-}
-
-.o-que-dizem p {
-  font-weight: 200;
-  line-height: 24px;
-  letter-spacing: -0.02em;
-  color: #323B50;
-}
-
-.o-que-dizem p strong {
-  font-weight: 600;
-  letter-spacing: -0.02em;
-  color: #FFC536;
-}
-
-@media (max-width: 992px) {
-  .o-que-dizem p {
-    font-size: 14px;
-    line-height: 16px;
-  }
-}
-
-.o-que-dizem strong {
-  font-weight: 700;
-}
-
-.o-que-dizem .btn {
-  font-weight: 200;
-  font-size: 24px;
-  background-color: #FFFFFF;
-  color: #F29F05;
-}
-
-@media (max-width: 992px) {
-  .o-que-dizem .btn {
-    font-size: 14px;
-  }
-}
-
-.o-que-dizem .carousel-caption {
-  display: contents;
-}
-
-.o-que-dizem .carousel-control-prev-icon {
-  background-image: url("images/mt-unica/prev.png");
-  width: 24px;
-  height: 44px;
-}
-
-@media (max-width: 992px) {
-  .o-que-dizem .carousel-control-prev-icon {
-    width: 8px;
-    height: 18px;
-  }
-}
-
-.o-que-dizem .carousel-control-next-icon {
-  background-image: url("images/mt-unica/next.png");
-  width: 24px;
-  height: 44px;
-}
-
-@media (max-width: 992px) {
-  .o-que-dizem .carousel-control-next-icon {
-    width: 8px;
-    height: 18px;
-  }
-}
-
-.o-que-dizem .carousel-control-next {
-  right: -90px;
-}
-
-.o-que-dizem .carousel-control-prev {
-  left: -90px;
-}
-
-.o-que-dizem .card-lateral {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  border: 1px solid;
-  border-radius: 16px;
-  font-size: 10px;
-  padding: 1rem;
-  padding-bottom: 0;
-}
-
-.o-que-dizem .card-lateral iframe {
-  width: 100%;
-  height: auto;
-}
-
-.o-que-dizem .card-lateral p {
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.o-que-dizem .card-centro {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  padding: 1rem;
-  padding-bottom: 0;
-  border: 1px solid;
-  border-radius: 10px;
-  font-size: 20px;
-}
-
-.o-que-dizem .card-centro iframe {
-  width: 100%;
-  height: 185px;
-}
-
-.o-que-dizem .card-centro p {
-  font-size: 20px;
-  line-height: 26px;
-}
-
 .visite-blog h2 {
   margin-bottom: 40px;
   font-weight: 300;
@@ -1361,255 +1614,6 @@ footer .top a {
     line-height: 35px;
     text-align: center;
     letter-spacing: -0.02em;
-  }
-}
-
-.agende-palestra .circle {
-  width: 185px;
-  height: 185px;
-  border-radius: 70px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-@media (max-width: 992px) {
-  .agende-palestra .circle {
-    width: 150px;
-    height: 150px;
-    margin-bottom: 14px;
-  }
-}
-
-.agende-palestra .circle.green {
-  background: #a6d491;
-}
-
-.agende-palestra .circle.red {
-  background: #F49093;
-}
-
-.agende-palestra .circle.blue {
-  background: #98AFDA;
-}
-
-.agende-palestra .circle.yellow {
-  background: #FFC536;
-}
-
-.agende-palestra h4 {
-  text-align: center;
-  letter-spacing: -0.05em;
-  color: #FFFFFF;
-  font-size: 64px;
-  line-height: 75px;
-  font-weight: 700;
-}
-
-@media (max-width: 992px) {
-  .agende-palestra h4 {
-    font-size: 50px;
-    line-height: 59px;
-  }
-}
-
-.agende-palestra p {
-  font-weight: 600;
-  color: #323B50;
-  margin-bottom: 0;
-  font-size: 20px;
-  line-height: 20px;
-}
-
-@media (max-width: 992px) {
-  .agende-palestra p {
-    font-size: 16px;
-    line-height: 16px;
-  }
-}
-
-.agende-palestra .btn {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 30px;
-  color: #FFFFFF;
-  -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
-  -webkit-box-ordinal-group: 1;
-      -ms-flex-order: 0;
-          order: 0;
-  -ms-flex-positive: 0;
-      flex-grow: 0;
-  padding: 9px 31px;
-  background-color: #F29F05;
-  border-radius: 30px;
-}
-
-.agende-palestra .btn:hover {
-  background-color: transparent;
-  border: 1px solid #F29F05;
-  color: #F29F05;
-}
-
-@media (max-width: 992px) {
-  .agende-palestra .btn {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-  }
-}
-
-.mundo-melhor {
-  background-color: #7896C1;
-  overflow: hidden;
-}
-
-.mundo-melhor .container {
-  padding-top: 57px;
-  padding-bottom: 57px;
-}
-
-@media (max-width: 992px) {
-  .mundo-melhor .container {
-    padding-top: 30px;
-    padding-bottom: 37px;
-  }
-}
-
-.mundo-melhor .mundo-melhor-topo {
-  height: 230px;
-  width: 100%;
-  display: none;
-  overflow: hidden;
-}
-
-.mundo-melhor .mundo-melhor-topo img {
-  width: 100%;
-  height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-  max-height: 230px;
-}
-
-@media (max-width: 992px) {
-  .mundo-melhor .mundo-melhor-topo {
-    display: block;
-  }
-}
-
-.mundo-melhor .mundo-melhor-bg {
-  top: 0;
-  bottom: 0;
-  right: 0;
-  max-width: 530px;
-  width: 40%;
-  overflow: hidden;
-  height: 100%;
-  background: url(images/mundo-melhor/mundo-melhor-bg.png);
-  background-size: cover;
-}
-
-@media (max-width: 992px) {
-  .mundo-melhor .mundo-melhor-bg {
-    display: none;
-  }
-}
-
-.mundo-melhor h2 {
-  margin-bottom: 0;
-}
-
-.mundo-melhor h2 img {
-  margin-bottom: 30px;
-}
-
-@media (max-width: 992px) {
-  .mundo-melhor h2 img {
-    margin: 0 auto;
-    margin-bottom: 5px;
-    max-width: 150px;
-  }
-}
-
-.mundo-melhor h3 {
-  font-style: normal;
-  font-weight: 300;
-  font-size: 54px;
-  line-height: 63px;
-  letter-spacing: -0.02em;
-  color: #FFC536;
-  margin-bottom: 33px;
-}
-
-.mundo-melhor h3 strong {
-  font-weight: 600;
-}
-
-@media (max-width: 992px) {
-  .mundo-melhor h3 {
-    font-size: 29px;
-    line-height: 34px;
-    margin-bottom: 20px;
-  }
-}
-
-.mundo-melhor p {
-  margin-bottom: 33px;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 28px;
-  color: #FFFFFF;
-}
-
-@media (max-width: 992px) {
-  .mundo-melhor p {
-    font-size: 14px;
-    line-height: 16px;
-    margin-bottom: 15px;
-  }
-}
-
-.mundo-melhor p strong {
-  font-weight: 600;
-}
-
-.mundo-melhor .btn {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 30px;
-  color: #FFFFFF;
-  -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
-  -webkit-box-ordinal-group: 1;
-      -ms-flex-order: 0;
-          order: 0;
-  -ms-flex-positive: 0;
-      flex-grow: 0;
-  padding: 9px 31px;
-  background-color: #F29F05;
-  border-radius: 30px;
-}
-
-.mundo-melhor .btn:hover {
-  background-color: transparent;
-  border: 1px solid #FFFFFF;
-  color: #FFFFFF;
-}
-
-@media (max-width: 992px) {
-  .mundo-melhor .btn {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
   }
 }
 /*# sourceMappingURL=style.css.map */
