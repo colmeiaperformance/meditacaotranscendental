@@ -769,6 +769,304 @@ footer .top a {
 
 .conheca-beneficios {
   background-color: #7896C1;
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+@media (max-width: 992px) {
+  .conheca-beneficios {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+}
+
+.conheca-beneficios h2 {
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 63px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+
+.conheca-beneficios h2 strong {
+  font-weight: 600;
+  color: #FFC536;
+}
+
+@media (max-width: 992px) {
+  .conheca-beneficios h2 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 30px;
+  }
+}
+
+.conheca-beneficios .quote {
+  position: relative;
+  margin-top: 50px;
+}
+
+@media (max-width: 992px) {
+  .conheca-beneficios .quote {
+    margin-top: 30px;
+  }
+}
+
+.conheca-beneficios .quote div {
+  position: relative;
+  max-width: 670px;
+  margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+  .conheca-beneficios .quote div {
+    max-width: 100%;
+    width: 80%;
+  }
+}
+
+.conheca-beneficios .quote div::before {
+  content: '';
+  position: absolute;
+  background: url("images/beneficios/quote-before.png") top center no-repeat;
+  width: 35px;
+  height: 29px;
+  margin-left: -70px;
+}
+
+@media (max-width: 992px) {
+  .conheca-beneficios .quote div::before {
+    width: 21px;
+    background-size: cover;
+    height: 17px;
+    margin-left: -25px;
+  }
+}
+
+.conheca-beneficios .quote div::after {
+  content: '';
+  position: absolute;
+  background: url("images/beneficios/quote-after.png") top center no-repeat;
+  width: 35px;
+  height: 29px;
+  top: 0;
+  right: 0;
+  margin-right: -70px;
+}
+
+@media (max-width: 992px) {
+  .conheca-beneficios .quote div::after {
+    width: 21px;
+    background-size: cover;
+    height: 17px;
+    margin-right: -25px;
+  }
+}
+
+.conheca-beneficios .quote p {
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.conheca-beneficios .quote p strong {
+  font-weight: 500;
+}
+
+@media (max-width: 992px) {
+  .conheca-beneficios .quote p {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+}
+
+.conheca-beneficios h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #323B50;
+  margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .conheca-beneficios h4 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+.conheca-beneficios .box {
+  background-color: #D4E2F4;
+  width: 260px;
+  height: 260px;
+  padding: 52px 10px 0 10px;
+  position: relative;
+  z-index: 111;
+}
+
+@media (max-width: 992px) {
+  .conheca-beneficios .box {
+    width: 190px;
+    height: 190px;
+    padding: 20px 15px 0 15px;
+    margin-bottom: 20px;
+  }
+}
+
+.conheca-beneficios .box::after {
+  content: '';
+  position: relative;
+  z-index: -1;
+  height: 100vh;
+  width: 10px;
+  bottom: -35px;
+  margin-left: calc(50% - 5px);
+  background: #D4E2F4;
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .conheca-beneficios .box::after {
+    display: block;
+  }
+}
+
+.conheca-beneficios .box::before {
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 100%;
+  background: #D4E2F4;
+  bottom: calc(50% - 10px / 2);
+  z-index: -1;
+}
+
+@media (max-width: 992px) {
+  .conheca-beneficios .box::before {
+    display: none;
+  }
+}
+
+.conheca-beneficios .box:nth-child()::before {
+  display: none;
+}
+
+.conheca-beneficios .box:nth-child()::after {
+  display: none;
+}
+
+.conheca-beneficios .box img {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 992px) {
+  .conheca-beneficios .box img {
+    max-width: 73px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+}
+
+.conheca-beneficios .box h4 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 0;
+  color: #323B50;
+}
+
+@media (max-width: 992px) {
+  .conheca-beneficios .box h4 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    line-height: 22px;
+  }
+}
+
+.conheca-beneficios .box span {
+  display: none;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 22px;
+  color: #323B50;
+}
+
+@media (max-width: 992px) {
+  .conheca-beneficios .box span {
+    display: block;
+  }
+}
+
+.conheca-beneficios .box .default {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.conheca-beneficios .box .hover {
+  display: none;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+  .conheca-beneficios .box .hover {
+    width: 85%;
+  }
+}
+
+.conheca-beneficios .box .hover p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #323B50;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 992px) {
+  .conheca-beneficios .box .hover p {
+    font-size: 12px;
+    line-height: 13px;
+    margin-bottom: 5px;
+    padding: 10px 5px 0 5px;
+  }
+}
+
+.conheca-beneficios .box .hover .btn {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 35px;
+  color: #323B50;
+}
+
+.conheca-beneficios .box .hover .btn:hover {
+  color: #323B50;
+}
+
+@media (max-width: 992px) {
+  .conheca-beneficios .box .hover .btn {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+.conheca-beneficios .box:hover .default {
+  display: none;
+}
+
+.conheca-beneficios .box:hover .hover {
+  display: block;
 }
 
 .mundo-melhor {
@@ -1436,8 +1734,8 @@ footer .top a {
 }
 
 .mt-unica-slide .btn:hover {
-  background: transparent;
-  border: 1px solid #FFFFFF;
+  background: #FFC536;
+  border: 1px solid #FFC536;
   color: #FFFFFF;
 }
 
@@ -1451,6 +1749,7 @@ footer .top a {
 }
 
 .mt-unica-slide .btn-mobile:hover {
+  color: #FFFFFF;
   background: #FFC536;
   border: 1px solid #FFC536;
 }
