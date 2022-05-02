@@ -4,9 +4,9 @@
 $color-primary-light: #FFC536;
 $color-primary-dark: #F29F05;
 
-
 //Secondary
-$color-secondary-light: #7896C1;
+$color-secondary-light: #D4E2F4;
+$color-secondary-medium: #7896C1;
 $color-secondary-dark: #323B50;
 
 //Solid colors
@@ -29,7 +29,7 @@ $color-grey-light: #E2E2E2;
   background-color: $color-secondary-dark;
 }
 .background-secondary-light{
-  background-color: $color-secondary-light;
+  background-color: $color-secondary-medium;
 }
 .background-black {
   background-color: $color-black;
