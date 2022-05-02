@@ -1,6 +1,6 @@
 <section class="mundo-melhor position-relative">
   <div class="mundo-melhor-topo">
-    <img src="https://via.placeholder.com/1000" alt="mt.">
+    <img src="<?php echo get_template_directory_uri() . '/images/mundo-melhor/mundo-melhor-topo.png' ?>" alt="mt.">
   </div>
   <div class="container">
     <div class="row align-items-center justify-content-start">

@@ -1314,38 +1314,46 @@ footer .top a {
   display: contents;
 }
 
-.o-que-dizem .carousel-control-prev-icon {
-  background-image: url("images/mt-unica/prev.png");
+.o-que-dizem .swiper-button-prev {
   width: 24px;
   height: 44px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.o-que-dizem .swiper-button-prev:hover {
+  color: #FFFFFF;
 }
 
 @media (max-width: 992px) {
-  .o-que-dizem .carousel-control-prev-icon {
+  .o-que-dizem .swiper-button-prev {
     width: 8px;
     height: 18px;
   }
 }
 
-.o-que-dizem .carousel-control-next-icon {
-  background-image: url("images/mt-unica/next.png");
+.o-que-dizem .swiper-button-next {
   width: 24px;
   height: 44px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.o-que-dizem .swiper-button-next:hover {
+  color: #FFFFFF;
 }
 
 @media (max-width: 992px) {
-  .o-que-dizem .carousel-control-next-icon {
+  .o-que-dizem .swiper-button-next {
     width: 8px;
     height: 18px;
   }
 }
 
-.o-que-dizem .carousel-control-next {
-  right: -90px;
+.o-que-dizem .carousel-control-next, .o-que-dizem .swiper-button-next {
+  right: 0px;
 }
 
-.o-que-dizem .carousel-control-prev {
-  left: -90px;
+.o-que-dizem .carousel-control-prev, .o-que-dizem .swiper-button-prev {
+  left: 0px;
 }
 
 .o-que-dizem .card-lateral {
@@ -1363,7 +1371,7 @@ footer .top a {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  border: 1px solid;
+  border: 1px solid #FFFFFF;
   border-radius: 16px;
   font-size: 10px;
   padding: 1rem;
@@ -1397,7 +1405,7 @@ footer .top a {
   text-align: center;
   padding: 1rem;
   padding-bottom: 0;
-  border: 1px solid;
+  border: 1px solid #FFFFFF;
   border-radius: 10px;
   font-size: 20px;
 }
@@ -1410,6 +1418,67 @@ footer .top a {
 .o-que-dizem .card-centro p {
   font-size: 20px;
   line-height: 26px;
+}
+
+@media (max-width: 992px) {
+  .o-que-dizem .card-centro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 16px;
+    font-size: 10px;
+    padding: 1rem;
+    padding-bottom: 0;
+  }
+  .o-que-dizem .card-centro iframe {
+    width: 100%;
+    height: auto;
+  }
+  .o-que-dizem .card-centro p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.o-que-dizem .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.o-que-dizem .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.o-que-dizem .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .transcender h2 {
