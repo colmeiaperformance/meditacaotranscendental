@@ -1445,16 +1445,6 @@ footer .top a {
   height: auto;
 }
 
-.transcender .transcender-video video {
-  width: 100%;
-  height: auto;
-}
-
-.transcender .transcender-video iframe {
-  width: 100%;
-  height: auto;
-}
-
 .transcender p {
   font-weight: 200;
   font-size: 24px;
