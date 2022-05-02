@@ -1,5 +1,5 @@
 <section class="agende-palestra">
-  <div class="container">
+  <div class="container py-5">
     <div class="row align-items-center justify-content-center">
       <div class="col-6 col-md-3 d-flex align-items-center justify-content-center">
         <div class="circle green rounded-circle">
