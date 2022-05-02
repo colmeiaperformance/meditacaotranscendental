@@ -1624,6 +1624,13 @@ footer .top a {
   -o-object-fit: cover;
      object-fit: cover;
   position: relative;
+  height: 485px;
+}
+
+@media (max-width: 992px) {
+  .mt-unica-slide .carousel-item img {
+    height: 210px;
+  }
 }
 
 .mt-unica-slide .carousel-control-prev-icon {

@@ -21,6 +21,10 @@
     img {
       object-fit: cover;
       position: relative;
+      height: 485px;
+      @media (max-width: 992px) {
+        height: 210px;
+      }
     }
   }
   .carousel-control-prev-icon {
