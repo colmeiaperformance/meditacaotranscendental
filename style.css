@@ -1855,22 +1855,13 @@ footer .top a {
   .mt-unica .mt-unica-title {
     margin-left: 30px;
     margin-top: 50px;
-    text-align: center;
   }
 }
 
-.mt-unica .mt-unica-title h2 {
-  color: #FFC536;
-  font-weight: 800;
-  font-size: 12rem;
-  line-height: 1;
-  margin: 0;
-  padding: 0;
-}
-
 @media (max-width: 992px) {
-  .mt-unica .mt-unica-title h2 {
-    font-size: 6rem;
+  .mt-unica .mt-unica-title h2 img {
+    width: 150px;
+    height: auto;
   }
 }
 
@@ -1881,6 +1872,7 @@ footer .top a {
   line-height: 63px;
   letter-spacing: -0.02em;
   margin-bottom: 0;
+  margin-left: 10px;
   color: #FFC536;
 }
 
@@ -1893,6 +1885,7 @@ footer .top a {
     font-size: 30px;
     line-height: 35px;
     letter-spacing: -0.02em;
+    margin-left: 0;
   }
 }
 

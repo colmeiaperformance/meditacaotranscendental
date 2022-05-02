@@ -17,8 +17,8 @@
         </div>
       </div>
 
-      <div class="mt-unica-title d-lg-flex align-items-lg-baseline justify-content-lg-center">
-        <h2>mt.</h2> <h3>Por que ela é <strong>única?</strong></h3>
+      <div class="mt-unica-title d-lg-flex justify-content-left align-items-lg-end justify-content-lg-center">
+        <h2><img src=<?php echo get_template_directory_uri() . '/images/mt-unica/mt.png' ?> alt="mt."></h2> <h3>Por que ela é <strong>única?</strong></h3>
       </div>
     </div>
   </div>

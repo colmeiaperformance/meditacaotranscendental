@@ -71,17 +71,13 @@
     @media (max-width: 992px)  {
       margin-left: 30px;
       margin-top: 50px;
-      text-align: center;
     }
     h2 {
-      color: $color-primary-light;
-      font-weight: 800;
-      font-size: 12rem;
-      line-height: 1;
-      margin: 0;
-      padding: 0;
-      @media (max-width: 992px) {
-        font-size: 6rem;
+      @media (max-width: 992px)  {
+        img {
+          width: 150px;
+          height: auto;
+        }
       }
     }
     h3 {
@@ -91,6 +87,7 @@
       line-height: 63px;
       letter-spacing: -0.02em;
       margin-bottom: 0;
+      margin-left: 10px;
       color: $color-primary-light;
       strong {
         font-weight: 600;
@@ -99,6 +96,7 @@
         font-size: 30px;
         line-height: 35px;
         letter-spacing: -0.02em;
+        margin-left: 0;
       }
     }
   }
