@@ -13,7 +13,7 @@
               <div class="container">
                 <div class="carousel-caption">
                   <div class="carousel-content d-flex align-items-center text-center justify-content-around">
-                    <div class="card-lateral col-lg-12">
+                    <div class="card-lateral lateral-right col-10 col-lg-12">
                       <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/0g0MFzECtb4"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -37,14 +37,14 @@
               <div class="container">
                 <div class="carousel-caption">
                   <div class="carousel-content d-flex align-items-center text-center justify-content-around">
-                    <div class="card-centro col-lg-12">
+                    <div class="card-centro col-10 col-lg-12">
                       <iframe class="yt-video" width="490" height="300" src="https://www.youtube.com/embed/QLcXzcWtPHY"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
                       </iframe>
                       <div
-                        class="video-text d-flex justify-content-center text-center align-items-center py-2 px-5 mx-4 pb-0">
+                        class="video-text d-flex justify-content-center text-center align-items-center py-2 pb-0">
                         <p>
                           Flávio Canto fala como conseguiu
                           alcançar o sonho olímpico
@@ -61,7 +61,7 @@
               <div class="container">
                 <div class="carousel-caption">
                   <div class="carousel-content d-flex align-items-center text-center justify-content-around">
-                    <div class="card-lateral col-lg-12">
+                    <div class="card-lateral lateral-left col-10 col-lg-12">
                       <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/Co2_AIWW9YI"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -85,7 +85,7 @@
               <div class="container">
                 <div class="carousel-caption">
                   <div class="carousel-content d-flex align-items-center text-center justify-content-around">
-                    <div class="card-lateral col-lg-12">
+                    <div class="card-lateral lateral-right col-10 col-lg-12">
                       <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/0Wf441fXCeI"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -107,14 +107,14 @@
               <div class="container">
                 <div class="carousel-caption">
                   <div class="carousel-content d-flex align-items-center text-center justify-content-around">
-                    <div class="card-centro col-lg-12">
+                    <div class="card-centro col-10 col-lg-12">
                       <iframe class="yt-video" width="490" height="300" src="https://www.youtube.com/embed/xz_So-nYeGw"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
                       </iframe>
                       <div
-                        class="video-text d-flex justify-content-center text-center align-items-center py-2 px-5 mx-4 pb-0">
+                        class="video-text d-flex justify-content-center text-center align-items-center py-2 pb-0">
                         <p>
                         Gisele Bundchen declara como a MT a ajudou a se conectar com sua verdadeira essência.
                         </p>
@@ -129,7 +129,7 @@
               <div class="container">
                 <div class="carousel-caption">
                   <div class="carousel-content d-flex align-items-center text-center justify-content-around">
-                    <div class="card-lateral col-lg-12">
+                    <div class="card-lateral lateral-left col-10 col-lg-12">
                       <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/1MdDr566fGs"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -164,7 +164,7 @@
       </div>
 
     </div>
-    <div class="row mt-5">
+    <div class="row mt-4 mt-lg-5">
       <div class="col-12 text-center">
         <a class="btn px-4" href="#" role="button"><strong>Encontre um instrutor credenciado</strong></a>
       </div>

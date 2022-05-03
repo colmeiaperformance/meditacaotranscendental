@@ -1244,7 +1244,7 @@ footer .top a {
 
 @media (max-width: 992px) {
   .o-que-dizem h2 {
-    margin-bottom: 0px;
+    margin-bottom: 24px;
     font-size: 30px;
     line-height: 35px;
     letter-spacing: -0.02em;
@@ -1352,8 +1352,20 @@ footer .top a {
   right: 0px;
 }
 
+@media (max-width: 992px) {
+  .o-que-dizem .carousel-control-next, .o-que-dizem .swiper-button-next {
+    right: 16px;
+  }
+}
+
 .o-que-dizem .carousel-control-prev, .o-que-dizem .swiper-button-prev {
   left: 0px;
+}
+
+@media (max-width: 992px) {
+  .o-que-dizem .carousel-control-prev, .o-que-dizem .swiper-button-prev {
+    left: 16px;
+  }
 }
 
 .o-que-dizem .card-lateral {
@@ -1449,6 +1461,26 @@ footer .top a {
   .o-que-dizem .card-centro p {
     font-size: 16px;
     line-height: 20px;
+  }
+}
+
+.o-que-dizem .lateral-left {
+  margin-left: -40px;
+}
+
+@media (max-width: 992px) {
+  .o-que-dizem .lateral-left {
+    margin-left: 0px;
+  }
+}
+
+.o-que-dizem .lateral-right {
+  margin-right: -40px;
+}
+
+@media (max-width: 992px) {
+  .o-que-dizem .lateral-right {
+    margin-right: 0px;
   }
 }
 

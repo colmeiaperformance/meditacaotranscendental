@@ -9,7 +9,7 @@
         color: $color-white;
         text-align: center;
         @media (max-width: 992px) {
-            margin-bottom: 0px;
+            margin-bottom: 24px;
             font-size: 30px;
             line-height: 35px;
             letter-spacing: -0.02em;
@@ -90,9 +90,15 @@
     }
     .carousel-control-next, .swiper-button-next {
         right: 0px;
+        @media (max-width: 992px) {
+            right: 16px;
+        }
     }
     .carousel-control-prev, .swiper-button-prev {
         left: 0px;
+        @media (max-width: 992px) {
+            left: 16px;
+        }
     }
     .card-lateral {
         iframe {
@@ -152,6 +158,18 @@
                 font-size: 16px;
                 line-height: 20px;
             }
+        }
+    }
+    .lateral-left{
+        margin-left: -40px;
+        @media (max-width: 992px) {
+            margin-left: 0px;
+        }
+    }
+    .lateral-right{
+        margin-right: -40px;
+        @media (max-width: 992px) {
+            margin-right: 0px;
         }
     }
     .swiper {
