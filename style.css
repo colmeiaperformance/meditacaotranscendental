@@ -1097,7 +1097,6 @@ footer .top a {
 }
 
 .mundo-melhor .mundo-melhor-topo {
-  height: 230px;
   width: 100%;
   display: none;
   overflow: hidden;
@@ -1106,9 +1105,6 @@ footer .top a {
 .mundo-melhor .mundo-melhor-topo img {
   width: 100%;
   height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-  max-height: 230px;
 }
 
 @media (max-width: 992px) {
