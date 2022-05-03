@@ -12,10 +12,11 @@
       line-height: 63px;
       text-align: center;
       letter-spacing: -0.02em;
-      color: $color-primary-light;
+      color: $color-secondary-dark;
       margin-bottom: 42px;
       strong {
         font-weight: 600;
+        color: $color-primary-light;
       }
       @media (max-width: 992px) {
         font-size: 30px;
@@ -24,7 +25,6 @@
       }
     }
     p {
-      color: $color-secondary-dark;
       font-weight: 200;
       font-size: 24px;
       line-height: 28px;

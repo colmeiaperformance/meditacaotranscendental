@@ -498,12 +498,13 @@ footer .top a {
   line-height: 63px;
   text-align: center;
   letter-spacing: -0.02em;
-  color: #FFC536;
+  color: #323B50;
   margin-bottom: 42px;
 }
 
 .page-instrutores .instrutores-header h2 strong {
   font-weight: 600;
+  color: #FFC536;
 }
 
 @media (max-width: 992px) {
@@ -515,7 +516,6 @@ footer .top a {
 }
 
 .page-instrutores .instrutores-header p {
-  color: #323B50;
   font-weight: 200;
   font-size: 24px;
   line-height: 28px;
