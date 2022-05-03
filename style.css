@@ -480,6 +480,122 @@ footer .top a {
 /************************************/
 /********* MT PAGES *************/
 /************************************/
+.page-agendamento .agendamento-header {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 992px) {
+  .page-agendamento .agendamento-header {
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+}
+
+.page-agendamento .agendamento-header h2 {
+  font-weight: 200;
+  font-size: 54px;
+  line-height: 63px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #323B50;
+  margin-bottom: 42px;
+}
+
+.page-agendamento .agendamento-header h2 strong {
+  font-weight: 600;
+  color: #FFC536;
+}
+
+@media (max-width: 992px) {
+  .page-agendamento .agendamento-header h2 {
+    font-size: 30px;
+    line-height: 34px;
+    margin-bottom: 21px;
+  }
+}
+
+.page-agendamento .agendamento-header p {
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  margin-bottom: 0;
+  color: #323B50;
+}
+
+.page-agendamento .agendamento-header p strong {
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .page-agendamento .agendamento-header p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.page-agendamento .agendamento-footer {
+  margin: 95px 0;
+}
+
+@media (max-width: 992px) {
+  .page-agendamento .agendamento-footer {
+    margin: 45px 0;
+  }
+}
+
+.page-agendamento .agendamento-footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .page-agendamento .agendamento-footer div {
+    display: block;
+  }
+}
+
+.page-agendamento .agendamento-footer div img {
+  margin-right: 23px;
+}
+
+@media (max-width: 992px) {
+  .page-agendamento .agendamento-footer div img {
+    margin: 0;
+    max-width: 280px;
+  }
+}
+
+.page-agendamento .agendamento-footer div h2 {
+  font-weight: 200;
+  font-size: 54px;
+  line-height: 63px;
+  letter-spacing: -0.02em;
+  color: #FFC536;
+  margin-bottom: 0;
+}
+
+.page-agendamento .agendamento-footer div h2 strong {
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .page-agendamento .agendamento-footer div h2 {
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+  }
+}
+
 .page-instrutores .instrutores-header {
   margin-top: 80px;
   margin-bottom: 50px;
@@ -522,6 +638,7 @@ footer .top a {
   text-align: center;
   letter-spacing: -0.02em;
   margin-bottom: 0;
+  color: #323B50;
 }
 
 .page-instrutores .instrutores-header p strong {
