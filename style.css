@@ -80,6 +80,10 @@ Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, 
   background-color: #A6D491;
 }
 
+.background-green-whatsapp {
+  background-color: #5CDE4A;
+}
+
 /************************************/
 /********* MT COMPONENTS *******/
 /************************************/
@@ -476,6 +480,298 @@ footer .top a {
 /************************************/
 /********* MT PAGES *************/
 /************************************/
+.page-instrutores .instrutores-header {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 992px) {
+  .page-instrutores .instrutores-header {
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+}
+
+.page-instrutores .instrutores-header h2 {
+  font-weight: 200;
+  font-size: 54px;
+  line-height: 63px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #FFC536;
+  margin-bottom: 42px;
+}
+
+.page-instrutores .instrutores-header h2 strong {
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .page-instrutores .instrutores-header h2 {
+    font-size: 30px;
+    line-height: 34px;
+    margin-bottom: 21px;
+  }
+}
+
+.page-instrutores .instrutores-header p {
+  color: #323B50;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  margin-bottom: 0;
+}
+
+.page-instrutores .instrutores-header p strong {
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .page-instrutores .instrutores-header p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.page-instrutores .instrutores-footer {
+  margin: 95px 0;
+}
+
+@media (max-width: 992px) {
+  .page-instrutores .instrutores-footer {
+    margin: 45px 0;
+  }
+}
+
+.page-instrutores .instrutores-footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .page-instrutores .instrutores-footer div {
+    display: block;
+  }
+}
+
+.page-instrutores .instrutores-footer div img {
+  margin-right: 23px;
+}
+
+@media (max-width: 992px) {
+  .page-instrutores .instrutores-footer div img {
+    margin: 0;
+    max-width: 280px;
+  }
+}
+
+.page-instrutores .instrutores-footer div h2 {
+  font-weight: 200;
+  font-size: 54px;
+  line-height: 63px;
+  letter-spacing: -0.02em;
+  color: #FFC536;
+  margin-bottom: 0;
+}
+
+.page-instrutores .instrutores-footer div h2 strong {
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .page-instrutores .instrutores-footer div h2 {
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+  }
+}
+
+.page-instrutores .instrutores-selection {
+  margin-bottom: 60px;
+}
+
+.page-instrutores .instrutores-selection .btn {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+  padding: 9px 31px;
+  background: #F29F05;
+  border: 1px solid #F29F05;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.page-instrutores .instrutores-selection .btn:hover {
+  background: transparent;
+  color: #F29F05;
+}
+
+@media (max-width: 992px) {
+  .page-instrutores .instrutores-selection .btn {
+    font-size: 14px;
+    line-height: 16px;
+    width: auto;
+  }
+}
+
+.page-instrutores .instrutores-selection .form-select {
+  width: 100%;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #F29F05;
+  padding: 9px 31px;
+  border: 1px solid #F29F05;
+  border-radius: 30px;
+  text-align: left;
+  background-color: #FFFFFF;
+  background-image: url("images/instrutores/dropdown.png");
+}
+
+.page-instrutores .instrutores-selection .form-select:active, .page-instrutores .instrutores-selection .form-select:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.page-instrutores .instrutores-selection .dropdown-menu {
+  background: #FFFFFF;
+  border-radius: 30px;
+  border: 1px solid #F29F05;
+  width: 100%;
+}
+
+.page-instrutores .instrutores-selection .dropdown-item {
+  color: #323B50;
+}
+
+.page-instrutores .instrutores-selection .dropdown-item:hover, .page-instrutores .instrutores-selection .dropdown-item:focus {
+  color: #323B50;
+  opacity: 0.8;
+  background: transparent;
+}
+
+.page-instrutores .instrutores-carousel .swiper-button-prev {
+  left: -4px;
+}
+
+.page-instrutores .instrutores-carousel .swiper-button-prev::after {
+  color: #FFC536;
+  font-size: 33px;
+}
+
+.page-instrutores .instrutores-carousel .swiper-button-next {
+  right: -4px;
+}
+
+.page-instrutores .instrutores-carousel .swiper-button-next::after {
+  color: #FFC536;
+  font-size: 33px;
+}
+
+.page-instrutores .instrutores-carousel .swiper {
+  cursor: pointer;
+}
+
+.page-instrutores .instrutores-carousel .box {
+  width: 220px;
+  height: 220px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.page-instrutores .instrutores-carousel .box .default {
+  position: relative;
+  z-index: 111;
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.page-instrutores .instrutores-carousel .box .default img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.page-instrutores .instrutores-carousel .box .hover {
+  display: none;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1111;
+  height: 260px;
+  width: 260px;
+  margin-top: -260px;
+  background: rgba(120, 150, 193, 0.8);
+  overflow: hidden;
+  padding: 60px 15px;
+}
+
+.page-instrutores .instrutores-carousel .box .hover h6 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.page-instrutores .instrutores-carousel .box .hover p {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.page-instrutores .instrutores-carousel .box .hover p::before {
+  content: '';
+  position: relative;
+  background: url("images/instrutores/map.png") top center no-repeat;
+  width: 8px;
+  height: 10px;
+  z-index: 111;
+  margin-top: 5px;
+  margin-left: -12px;
+}
+
+.page-instrutores .instrutores-carousel .box .hover .btn {
+  padding: 4px 12px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.page-instrutores .instrutores-carousel .box:hover {
+  height: 260px;
+  width: 260px;
+}
+
+.page-instrutores .instrutores-carousel .box:hover img {
+  opacity: 0.7;
+}
+
+.page-instrutores .instrutores-carousel .box:hover .hover {
+  display: block;
+}
+
 /************************************/
 /********* MT SECTIONS *************/
 /************************************/
@@ -905,16 +1201,6 @@ footer .top a {
     font-size: 15px;
     line-height: 18px;
   }
-}
-
-.conheca-beneficios .col-12:nth-last-child() .box::before {
-  display: none;
-  opacity: 0;
-}
-
-.conheca-beneficios .col-12:nth-last-child() .box::after {
-  display: none;
-  opacity: 0;
 }
 
 .conheca-beneficios .box.box-last::before {

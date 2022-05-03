@@ -100,20 +100,7 @@
       line-height: 18px;
     }
   }
-  .col-12 {
-    &:nth-last-child(){
-      .box {
-        &::before {
-          display: none;
-          opacity: 0;
-        }
-        &::after {
-          display: none;
-          opacity: 0;
-        }
-      }
-    }
-  }
+  
   .box.box-last::before{
     display:none;
   }
