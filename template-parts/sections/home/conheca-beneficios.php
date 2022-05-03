@@ -57,7 +57,7 @@
         </div>
       </div>
       <div class="col-12 col-lg-3 d-flex align-items-center justify-content-center p-0">
-         <div class="box rounded-circle text-center">
+         <div class="box box-last rounded-circle text-center">
           <div class="default">
               <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/beneficios/potencia.png' ?>
             alt="Benefícios: Saúde Mental">

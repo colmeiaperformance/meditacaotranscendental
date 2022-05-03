@@ -914,6 +914,14 @@ footer .top a {
   opacity: 0;
 }
 
+.conheca-beneficios .box.box-last::before {
+  display: none;
+}
+
+.conheca-beneficios .box.box-last::after {
+  display: none;
+}
+
 .conheca-beneficios .box {
   background-color: #D4E2F4;
   width: 260px;
@@ -932,26 +940,16 @@ footer .top a {
   }
 }
 
-.conheca-beneficios .box:nth-last-child()::before {
-  display: none;
-  opacity: 0;
-}
-
-.conheca-beneficios .box:nth-last-child()::after {
-  display: none;
-  opacity: 0;
-}
-
 .conheca-beneficios .box::after {
   content: '';
-  position: relative;
+  position: absolute;
   z-index: -1;
-  height: 100vh;
+  height: 20px;
   width: 10px;
-  bottom: -35px;
-  margin-left: calc(50% - 5px);
+  margin-left: calc(50% - 21px);
   background: #D4E2F4;
   display: none;
+  top: 100%;
 }
 
 @media (max-width: 992px) {
