@@ -20,7 +20,7 @@
                         allowfullscreen>
                       </iframe>
                       <div
-                        class="video-text d-flex justify-content-center text-center align-items-center py-1 px-2 pb-0">
+                        class="video-text d-flex justify-content-center text-center align-items-center px-2">
                         <p>
                           David Lynch explica como
                           a MT pode potencializar sua
@@ -44,7 +44,7 @@
                         allowfullscreen>
                       </iframe>
                       <div
-                        class="video-text d-flex justify-content-center text-center align-items-center py-2 pb-0">
+                        class="video-text d-flex justify-content-center text-center align-items-center">
                         <p>
                           Flávio Canto fala como conseguiu
                           alcançar o sonho olímpico
@@ -68,7 +68,7 @@
                         allowfullscreen>
                       </iframe>
                       <div
-                        class="video-text d-flex justify-content-center text-center align-items-center py-1 px-2 pb-0">
+                        class="video-text d-flex justify-content-center text-center align-items-center px-2">
                         <p>
                           Fernanda Souza conta como
                           a prática diária da
@@ -92,7 +92,7 @@
                         allowfullscreen>
                       </iframe>
                       <div
-                        class="video-text d-flex justify-content-center text-center align-items-center py-1 px-2 pb-0">
+                        class="video-text d-flex justify-content-center text-center align-items-center px-2">
                         <p>
                         Foco, energia, plenitude e saúde: o que mudou na vida de 5 pessoas após a MT.
                         </p>
@@ -114,7 +114,7 @@
                         allowfullscreen>
                       </iframe>
                       <div
-                        class="video-text d-flex justify-content-center text-center align-items-center py-2 pb-0">
+                        class="video-text d-flex justify-content-center text-center align-items-center">
                         <p>
                         Gisele Bundchen declara como a MT a ajudou a se conectar com sua verdadeira essência.
                         </p>
@@ -136,7 +136,7 @@
                         allowfullscreen>
                       </iframe>
                       <div
-                        class="video-text d-flex justify-content-center text-center align-items-center py-1 px-2 pb-0">
+                        class="video-text d-flex justify-content-center text-center align-items-center px-2">
                         <p>
                         Dr. Roberto Botelho, cardiologista, afirma: “Como médico, tenho que prescrever a MT para meus pacientes”.
                         </p>

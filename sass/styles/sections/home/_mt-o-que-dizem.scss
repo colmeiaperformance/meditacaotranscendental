@@ -45,11 +45,15 @@
     strong {
         font-weight: 700;
     }
+    .swiper {
+        cursor: pointer;
+    }
     .btn {
         font-weight: 200;
         font-size: 24px;
         background-color: $color-white;
         color: $color-primary-dark;
+        border: 1px solid $color-white;
         &:hover {
             background: transparent;
             border: 1px solid $color-white;
@@ -176,31 +180,23 @@
         width: 100%;
         height: 100%;
     }
-
+    
     .swiper-slide {
         text-align: center;
         font-size: 18px;
         background: transparent;
-
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
         display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
         justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
         align-items: center;
     }
-
+    
     .swiper-slide img {
         display: block;
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+    iframe {
+        margin-bottom: 20px;
     }
 }
