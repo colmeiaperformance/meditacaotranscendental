@@ -596,6 +596,204 @@ footer .top a {
   }
 }
 
+.page-instrutor .instrutor-profile {
+  padding: 48px 0 55px 0;
+}
+
+.page-instrutor .instrutor-depoimentos {
+  background: #7896C1;
+  padding: 70px 0 60px 0;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-depoimentos {
+    padding: 35px 0 30px;
+  }
+}
+
+.page-instrutor .instrutor-depoimentos .carousel-control-prev-icon {
+  background: url("images/mt-unica/prev.png") top center no-repeat;
+  width: 24px;
+  height: 44px;
+}
+
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-depoimentos .carousel-control-prev-icon {
+    width: 8px;
+    height: 18px;
+    background-size: cover;
+  }
+}
+
+.page-instrutor .instrutor-depoimentos .carousel-control-next-icon {
+  background: url("images/mt-unica/next.png") top center no-repeat;
+  width: 24px;
+  height: 44px;
+}
+
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-depoimentos .carousel-control-next-icon {
+    width: 8px;
+    height: 18px;
+    background-size: cover;
+  }
+}
+
+.page-instrutor .instrutor-depoimentos .carousel-indicators {
+  margin-bottom: 0;
+  margin-top: 45px;
+}
+
+.page-instrutor .instrutor-depoimentos .carousel-indicators [data-bs-target] {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  margin-right: 6px;
+  margin-left: 6px;
+  background-color: #E2E2E2;
+  border: 0;
+}
+
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-depoimentos .carousel-indicators [data-bs-target] {
+    height: 8px;
+    width: 8px;
+    margin-right: 4px;
+    margin-left: 4px;
+  }
+}
+
+.page-instrutor .instrutor-depoimentos .depoimento {
+  margin-bottom: 65px;
+}
+
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-depoimentos .depoimento {
+    margin-bottom: 25px;
+  }
+}
+
+.page-instrutor .instrutor-depoimentos .depoimento p {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 33px;
+  color: #FFFFFF;
+  margin: 0 auto;
+  margin-bottom: 43px;
+  position: relative;
+  max-width: 700px;
+}
+
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-depoimentos .depoimento p {
+    font-size: 14px;
+    line-height: 19px;
+    max-width: 85%;
+    margin-bottom: 18px;
+  }
+}
+
+.page-instrutor .instrutor-depoimentos .depoimento h6 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 0;
+  color: #323B50;
+}
+
+.page-instrutor .instrutor-depoimentos .depoimento h6 strong {
+  font-weight: 700;
+}
+
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-depoimentos .depoimento h6 {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+.page-instrutor .instrutor-depoimentos .depoimento .quote {
+  height: 76px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-depoimentos .depoimento .quote {
+    margin-bottom: 20px;
+    height: 40px;
+  }
+}
+
+.page-instrutor .instrutor-depoimentos .depoimento .quote::before {
+  content: '';
+  position: absolute;
+  background: url("images/mt-unica/quote.png") top center no-repeat;
+  background-size: cover;
+  height: 76px;
+  width: 94px;
+  left: 0;
+  margin-left: calc(50% - 94px / 2);
+}
+
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-depoimentos .depoimento .quote::before {
+    width: 50px;
+    height: 40px;
+    margin-left: calc(50% - 50px / 2);
+  }
+}
+
+.page-instrutor .instrutor-depoimentos .depoimento-video {
+  margin-bottom: 0;
+}
+
+.page-instrutor .instrutor-depoimentos .depoimento-video p {
+  margin-bottom: 30px;
+  max-width: 100%;
+}
+
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-depoimentos .depoimento-video p {
+    margin-bottom: 18px;
+  }
+}
+
+.page-instrutor .instrutor-footer {
+  margin: 58px 0;
+}
+
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-footer {
+    margin: 29px 0;
+  }
+}
+
+.page-instrutor .instrutor-footer .btn {
+  padding: 9px 31px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+  background: #F29F05;
+  border: 1px solid #F29F05;
+  border-radius: 30px;
+}
+
+.page-instrutor .instrutor-footer .btn:hover {
+  background: transparent;
+  color: #F29F05;
+}
+
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-footer .btn {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
 .page-instrutores .instrutores-header {
   margin-top: 80px;
   margin-bottom: 50px;
@@ -2501,7 +2699,7 @@ footer .top a {
 
 @media (max-width: 992px) {
   .visite-blog .carousel-indicators [data-bs-target] {
-    height: 6px;
+    height: 8px;
     width: 8px;
     margin-right: 4px;
     margin-left: 4px;
