@@ -1,5 +1,32 @@
 .page-oqueemt {
   
+  .oqueemt-hero {
+    padding: 90px 0;
+    @media (max-width: 992px) {
+      padding: 37px 0;
+    }
+    img {
+      @media (max-width: 992px)  {
+        margin-bottom: 19px;
+        max-width: 160px;
+      }
+    }
+    p { 
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 35px;
+      color: $color-secondary-dark;
+      margin-bottom: 0;
+      strong {
+        font-weight: 600;
+        color: $color-primary-light;
+      }
+      @media (max-width: 992px) {
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
+  }
   .oqueemt-footer {
     padding: 67px 0 64px;
     @media (max-width: 992px)  {

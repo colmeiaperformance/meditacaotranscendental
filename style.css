@@ -1136,6 +1136,43 @@ footer .top a {
   display: block;
 }
 
+.page-oqueemt .oqueemt-hero {
+  padding: 90px 0;
+}
+
+@media (max-width: 992px) {
+  .page-oqueemt .oqueemt-hero {
+    padding: 37px 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .page-oqueemt .oqueemt-hero img {
+    margin-bottom: 19px;
+    max-width: 160px;
+  }
+}
+
+.page-oqueemt .oqueemt-hero p {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 35px;
+  color: #323B50;
+  margin-bottom: 0;
+}
+
+.page-oqueemt .oqueemt-hero p strong {
+  font-weight: 600;
+  color: #FFC536;
+}
+
+@media (max-width: 992px) {
+  .page-oqueemt .oqueemt-hero p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
 .page-oqueemt .oqueemt-footer {
   padding: 67px 0 64px;
 }
