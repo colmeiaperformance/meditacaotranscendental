@@ -19,11 +19,27 @@ Template Name: O que é MT
       </div>
     </div>
   </section>
-  
+  <section class="mt-diferente position-relative">
+  <div class="mundo-melhor-topo">
+    <img src="<?php echo get_template_directory_uri() . '/images/oqueemt/mt-diferente-mobile.png' ?>" alt="mt.">
+  </div>
+  <div class="container">
+    <div class="row align-items-center justify-content-start">
+      <div class="col-12 col-lg-7">
+       <div class="text-center text-lg-start">
+          <h2>Por que a MT é <strong>diferente</strong>?</h2>
+       </div>
+       <p>Existem diversas técnicas de meditação, mas elas são distintas e não produzem os mesmos resultados. A maioria envolve exercícios de relaxamento ou de respiração, narrativas guiadas ou algum tipo de esforço que faz com que a mente continue ativa na superfície, sem experimentar o verdadeiro silêncio interior.</p>
+       <p><strong>Nada disso é necessário na MT. Ela é uma forma natural, confortável e automática de satisfação mental e de relaxamento físico. Sem esforço, sem tentar controlar ou observar pensamentos.</strong></p>
+      </div>
+    </div>
+    <div class="mundo-melhor-bg position-absolute"></div>
+  </div>
+</section>
   <section class="oqueemt-footer">
     <div class="container text-center">
       <h2>Dúvidas?</h2>
-      <p>Veja as respostas para as <strong>perguntas mais frequentes.</p>
+      <p>Veja as respostas para as <a href="#">perguntas mais frequentes.</a></p>
       <a href="#" class="btn" role="btn">Encontre um instrutor certificado</a>
     </div>
   </section>
