@@ -1277,6 +1277,70 @@ footer .top a {
   font-weight: 600;
 }
 
+.page-oqueemt .oqueemt-atua {
+  padding: 92px 0 53px 0;
+}
+
+@media (max-width: 992px) {
+  .page-oqueemt .oqueemt-atua {
+    padding: 35px 0 48px;
+  }
+}
+
+.page-oqueemt .oqueemt-atua h2 {
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 63px;
+  letter-spacing: -0.02em;
+  color: #323B50;
+  margin-bottom: 65px;
+  text-align: center;
+}
+
+.page-oqueemt .oqueemt-atua h2 strong {
+  font-weight: 600;
+  color: #FFC536;
+}
+
+@media (max-width: 992px) {
+  .page-oqueemt .oqueemt-atua h2 {
+    margin-bottom: 17px;
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+.page-oqueemt .oqueemt-atua p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #323B50;
+  margin-bottom: 44px;
+}
+
+.page-oqueemt .oqueemt-atua p strong {
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .page-oqueemt .oqueemt-atua p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 19px;
+  }
+}
+
+.page-oqueemt .oqueemt-atua img {
+  margin-bottom: 44px;
+}
+
+@media (max-width: 992px) {
+  .page-oqueemt .oqueemt-atua img {
+    margin: 29px 0 20px 0;
+    max-width: 200px;
+  }
+}
+
 .page-oqueemt .oqueemt-imagine {
   background: url("images/oqueemt/imagine-bg.png") center center no-repeat;
   background-size: cover;
