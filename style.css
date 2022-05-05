@@ -1182,41 +1182,41 @@ footer .top a {
   }
 }
 
-.page-oqueemt .mt-diferente {
+.page-oqueemt .oqueemt-diferente {
   background-color: #7896C1;
   overflow: hidden;
 }
 
-.page-oqueemt .mt-diferente .container {
+.page-oqueemt .oqueemt-diferente .container {
   padding-top: 80px;
   padding-bottom: 72px;
 }
 
 @media (max-width: 992px) {
-  .page-oqueemt .mt-diferente .container {
+  .page-oqueemt .oqueemt-diferente .container {
     padding-top: 30px;
     padding-bottom: 37px;
   }
 }
 
-.page-oqueemt .mt-diferente .mundo-melhor-topo {
+.page-oqueemt .oqueemt-diferente .mundo-melhor-topo {
   width: 100%;
   display: none;
   overflow: hidden;
 }
 
-.page-oqueemt .mt-diferente .mundo-melhor-topo img {
+.page-oqueemt .oqueemt-diferente .mundo-melhor-topo img {
   width: 100%;
   height: auto;
 }
 
 @media (max-width: 992px) {
-  .page-oqueemt .mt-diferente .mundo-melhor-topo {
+  .page-oqueemt .oqueemt-diferente .mundo-melhor-topo {
     display: block;
   }
 }
 
-.page-oqueemt .mt-diferente .mundo-melhor-bg {
+.page-oqueemt .oqueemt-diferente .mundo-melhor-bg {
   top: 0;
   bottom: 0;
   right: 0;
@@ -1229,12 +1229,12 @@ footer .top a {
 }
 
 @media (max-width: 992px) {
-  .page-oqueemt .mt-diferente .mundo-melhor-bg {
+  .page-oqueemt .oqueemt-diferente .mundo-melhor-bg {
     display: none;
   }
 }
 
-.page-oqueemt .mt-diferente h2 {
+.page-oqueemt .oqueemt-diferente h2 {
   font-weight: 300;
   font-size: 54px;
   line-height: 63px;
@@ -1243,20 +1243,20 @@ footer .top a {
   margin-bottom: 35px;
 }
 
-.page-oqueemt .mt-diferente h2 strong {
+.page-oqueemt .oqueemt-diferente h2 strong {
   font-weight: 600;
   color: #FFC536;
 }
 
 @media (max-width: 992px) {
-  .page-oqueemt .mt-diferente h2 {
+  .page-oqueemt .oqueemt-diferente h2 {
     font-size: 29px;
     line-height: 34px;
     margin-bottom: 20px;
   }
 }
 
-.page-oqueemt .mt-diferente p {
+.page-oqueemt .oqueemt-diferente p {
   margin-bottom: 30px;
   font-style: normal;
   font-weight: 300;
@@ -1266,15 +1266,88 @@ footer .top a {
 }
 
 @media (max-width: 992px) {
-  .page-oqueemt .mt-diferente p {
+  .page-oqueemt .oqueemt-diferente p {
     font-size: 14px;
     line-height: 16px;
     margin-bottom: 15px;
   }
 }
 
-.page-oqueemt .mt-diferente p strong {
+.page-oqueemt .oqueemt-diferente p strong {
   font-weight: 600;
+}
+
+.page-oqueemt .oqueemt-imagine {
+  background: url("images/oqueemt/imagine-bg.png") center center no-repeat;
+  background-size: cover;
+  padding: 66px 0;
+}
+
+@media (max-width: 992px) {
+  .page-oqueemt .oqueemt-imagine {
+    padding: 35px 0;
+  }
+}
+
+.page-oqueemt .oqueemt-imagine h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  max-width: 808px;
+}
+
+@media (max-width: 992px) {
+  .page-oqueemt .oqueemt-imagine h2 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
+
+.page-oqueemt .oqueemt-imagine p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 992px) {
+  .page-oqueemt .oqueemt-imagine p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.page-oqueemt .oqueemt-imagine .btn {
+  background: #F29F05;
+  border: 1px solid #F29F05;
+  border-radius: 30px;
+  padding: 9px 31px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+  .page-oqueemt .oqueemt-imagine .btn {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.page-oqueemt .oqueemt-imagine .btn:hover {
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
 }
 
 .page-oqueemt .oqueemt-footer {
