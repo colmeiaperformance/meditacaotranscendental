@@ -331,6 +331,55 @@ footer .top a {
   }
 }
 
+.header--oqueemt .carousel-item img {
+  min-height: 310px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 991.98px) {
+  .header--oqueemt .carousel-item img {
+    min-height: 220px;
+  }
+}
+
+.header--oqueemt .carousel-item h1 {
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 63px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+
+.header--oqueemt .carousel-item h1 strong {
+  font-weight: 600;
+}
+
+@media (max-width: 991.98px) {
+  .header--oqueemt .carousel-item h1 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
+
+.header--oqueemt .carousel-item .carousel-caption {
+  width: 100%;
+  padding: 0;
+  right: 0;
+  left: 0;
+  top: 35%;
+  text-align: center;
+}
+
+@media (max-width: 991.98px) {
+  .header--oqueemt .carousel-item .carousel-caption {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+
 #cookie-law-info-bar #wt-cli-accept-all-btn {
   background-color: #F29F05 !important;
 }
