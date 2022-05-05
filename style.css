@@ -1414,6 +1414,94 @@ footer .top a {
   color: #FFFFFF;
 }
 
+.page-oqueemt .oqueemt-pesquisas {
+  padding: 99px 0 103px;
+}
+
+@media (max-width: 992px) {
+  .page-oqueemt .oqueemt-pesquisas {
+    padding: 43px 0 48px 0;
+  }
+}
+
+.page-oqueemt .oqueemt-pesquisas h2 {
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 63px;
+  letter-spacing: -0.02em;
+  color: #323B50;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.page-oqueemt .oqueemt-pesquisas h2 strong {
+  color: #FFC536;
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .page-oqueemt .oqueemt-pesquisas h2 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 40px;
+  }
+}
+
+.page-oqueemt .oqueemt-pesquisas p {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #323B50;
+  max-width: 1030px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 55px;
+}
+
+.page-oqueemt .oqueemt-pesquisas p strong {
+  color: #FFC536;
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .page-oqueemt .oqueemt-pesquisas p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 28px;
+    margin-bottom: 21px;
+  }
+}
+
+.page-oqueemt .oqueemt-pesquisas .btn {
+  background: #F29F05;
+  border: 1px solid #F29F05;
+  border-radius: 30px;
+  padding: 9px 31px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+  .page-oqueemt .oqueemt-pesquisas .btn {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.page-oqueemt .oqueemt-pesquisas .btn:hover {
+  background: transparent;
+  border: 1px solid #F29F05;
+  color: #F29F05;
+}
+
+.page-oqueemt .oqueemt-pesquisas .row {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
 .page-oqueemt .oqueemt-footer {
   padding: 67px 0 64px;
 }
