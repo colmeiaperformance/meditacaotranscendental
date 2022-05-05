@@ -9,7 +9,7 @@ Template Name: O que é MT
 <main class="page-oqueemt">
   
   <section class="oqueemt-footer">
-    <div class="container">
+    <div class="container text-center">
       <h2>Dúvidas?</h2>
       <p>Veja as respostas para as <strong>perguntas mais frequentes.</p>
       <a href="#" class="btn" role="btn">Encontre um instrutor certificado</a>

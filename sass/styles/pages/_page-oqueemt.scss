@@ -1,6 +1,60 @@
 .page-oqueemt {
-
+  
   .oqueemt-footer {
-
+    padding: 67px 0 64px;
+    @media (max-width: 992px)  {
+      padding: 39px 0 36px 0;
+    }
+    h2 {
+      font-weight: 600;
+      font-size: 54px;
+      line-height: 63px;
+      letter-spacing: -0.02em;
+      color: $color-primary-light;
+      margin-bottom: 18px;
+      text-align: center;
+      @media (max-width: 992px) {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 11px;
+      }
+    }
+    p {
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 35px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: $color-secondary-dark;
+      margin-bottom: 37px;
+      @media (max-width: 992px) {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 23px;
+      }
+      strong {
+        font-weight: 600;
+        color: $color-primary-light;
+      }
+    }
+    .btn {
+      background: $color-primary-dark;
+      border: 1px solid $color-primary-dark;
+      border-radius: 30px;
+      padding: 9px 31px;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 30px;
+      color: $color-white;
+      @media (max-width: 992px)  {
+        font-size: 14px;
+        line-height: 16px;
+      }
+      &:hover {
+        background: transparent;
+        border: 1px solid $color-primary-dark;
+        color: $color-primary-dark;
+      }
+    }
   }
 }

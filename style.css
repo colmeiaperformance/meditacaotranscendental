@@ -1136,6 +1136,81 @@ footer .top a {
   display: block;
 }
 
+.page-oqueemt .oqueemt-footer {
+  padding: 67px 0 64px;
+}
+
+@media (max-width: 992px) {
+  .page-oqueemt .oqueemt-footer {
+    padding: 39px 0 36px 0;
+  }
+}
+
+.page-oqueemt .oqueemt-footer h2 {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 63px;
+  letter-spacing: -0.02em;
+  color: #FFC536;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .page-oqueemt .oqueemt-footer h2 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 11px;
+  }
+}
+
+.page-oqueemt .oqueemt-footer p {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #323B50;
+  margin-bottom: 37px;
+}
+
+@media (max-width: 992px) {
+  .page-oqueemt .oqueemt-footer p {
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 23px;
+  }
+}
+
+.page-oqueemt .oqueemt-footer p strong {
+  font-weight: 600;
+  color: #FFC536;
+}
+
+.page-oqueemt .oqueemt-footer .btn {
+  background: #F29F05;
+  border: 1px solid #F29F05;
+  border-radius: 30px;
+  padding: 9px 31px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+  .page-oqueemt .oqueemt-footer .btn {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.page-oqueemt .oqueemt-footer .btn:hover {
+  background: transparent;
+  border: 1px solid #F29F05;
+  color: #F29F05;
+}
+
 /************************************/
 /********* MT SECTIONS *************/
 /************************************/
