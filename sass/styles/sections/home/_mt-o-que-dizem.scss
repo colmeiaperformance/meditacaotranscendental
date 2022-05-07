@@ -1,5 +1,5 @@
 .o-que-dizem {
-    background-color: $color-primary-light;
+    background-color: $color-primary-medium;
     h2 {
         margin-bottom: 40px;
         font-weight: 300;
@@ -35,7 +35,7 @@
         strong {
             font-weight: 600;
             letter-spacing: -0.02em;
-            color: $color-primary-light;
+            color: $color-primary-medium;
         }
         @media (max-width: 992px) {
             font-size: 14px;

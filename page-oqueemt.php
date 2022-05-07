@@ -85,6 +85,79 @@ Template Name: O que é MT
       </div>
     </div>
   </section>
+  <section class="oqueemt-sabermais">
+    <div class="container">
+        <h2>Para <strong>saber mais</strong></h2>
+           <div id="sabermais" class="swiper swiperSabermais" data-bs-ride="carousel">
+              <div class="swiper-wrapper">
+                <div class="book swiper-slide">
+                  <div class="d-lg-flex align-items-start justify-content-center text-center">
+                    <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/oqueemt/book.png' ?> alt="Book">
+                    <div>
+                      <h5>Meditação Transcendental com perguntas e respostas</h5>
+                      <div class="mb-3"><p>Mythos Editora</p></div>
+                      <p>A publicação  reproduz uma das mais brilhantes palestras proferidas por Maharishi Mahesh Yogi. Na primeira parte do livro, ele explica minuciosamente a Meditação Transcendental; na segunda, são apresentadas as mais variadas respostas às perguntas do público presente nos discursos vespertinos realizados por Maharishi em Londres, entre março de 1960 e ...<a href="#">+ Ler mais</a></p>                  
+                      <a href="#">+ Ler mais</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="book swiper-slide">
+                  <div class="d-lg-flex align-items-start justify-content-center text-center">
+                    <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/oqueemt/book.png' ?> alt="Book">
+                    <div>
+                      <h5>Meditação Transcendental com perguntas e respostas</h5>
+                      <div class="mb-3"><p>Mythos Editora</p></div>
+                      <p>A publicação  reproduz uma das mais brilhantes palestras proferidas por Maharishi Mahesh Yogi. Na primeira parte do livro, ele explica minuciosamente a Meditação Transcendental; na segunda, são apresentadas as mais variadas respostas às perguntas do público presente nos discursos vespertinos realizados por Maharishi em Londres, entre março de 1960 e ...<a href="#">+ Ler mais</a></p>                  
+                      <a href="#">+ Ler mais</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="book swiper-slide">
+                  <div class="d-lg-flex align-items-start justify-content-center text-center">
+                    <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/oqueemt/book.png' ?> alt="Book">
+                    <div>
+                      <h5>Meditação Transcendental com perguntas e respostas</h5>
+                      <div class="mb-3"><p>Mythos Editora</p></div>
+                      <p>A publicação  reproduz uma das mais brilhantes palestras proferidas por Maharishi Mahesh Yogi. Na primeira parte do livro, ele explica minuciosamente a Meditação Transcendental; na segunda, são apresentadas as mais variadas respostas às perguntas do público presente nos discursos vespertinos realizados por Maharishi em Londres, entre março de 1960 e ...<a href="#">+ Ler mais</a></p>                  
+                      <a href="#">+ Ler mais</a>
+                    </div>
+                  </div>
+                </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+    </div>
+<script>
+ jQuery(document).ready(function() {
+    var swiper = new Swiper(".swiperSabermais", {
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      loop: true,
+      spaceBetween: 20,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 2,
+          slidesPerGroup: 2,
+          spaceBetween: 20,
+        },
+      },
+    });
+  });
+</script>
+</section>
   <section class="oqueemt-footer">
     <div class="container text-center">
       <h2>Dúvidas?</h2>

@@ -18,7 +18,7 @@
       font-size: 54px;
       line-height: 64px;
       letter-spacing: -0.02em;
-      color: $color-primary-light;
+      color: $color-primary-medium;
       @media (max-width: 992px) {
         font-size: 30px;
         line-height: 35px;
@@ -44,7 +44,7 @@
     strong {
       font-weight: 600;
       letter-spacing: -0.02em;
-      color: $color-primary-light;
+      color: $color-primary-medium;
     }
     @media (max-width: 992px) {
       font-size: 14px;
