@@ -4,7 +4,7 @@
   <section class="instrutor-profile">
     <div class="container">
       <div class="row d-flex justify-content-center align-items-stat">
-        <div class="col-12 col-lg-5 instrutor-picture pe-lg-4 mb-4 mb-lg-0">
+        <div class="col-12 col-lg-5 instrutor-picture pe-lg-4 mb-4 mb-lg-0 text-center">
           <img src=<?php echo get_template_directory_uri() . '/images/instrutor/instrutor.png' ?> alt="Instrutor">  
         </div>
         <div class="col-12 col-lg-7 instrutor-bio">
@@ -27,6 +27,37 @@
   </section>
   <section class="instrutor-contact">
     <div class="container">
+      <div class="row d-flex align-items-baseline">
+        <div class="col-12 col-lg-5">
+          <h2>Vamos <strong>conversar?</strong></h2>
+          <a href="#" class="btn">Fale comigo no Whatsapp</a>
+          <div class="instrutor-social d-grid mt-5">
+            <div class="d-flex align-items-baseline justify-content-start mb-3"><a href="#"><img src=<?php echo get_template_directory_uri() . '/images/instrutor/instagram.png' ?> alt="Instagram"> @flaviabaptista</a></div>
+            <div class="d-flex align-items-baseline justify-content-start mb-3"><a href="#"><img src=<?php echo get_template_directory_uri() . '/images/instrutor/youtube.png' ?> alt="Youtube"> /canalflaviabaptista</a></div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-7">
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp" placeholder="Nome">
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-6 form-group">
+                <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Email">
+              </div>
+              <div class="col-12 col-md-6 form-group">
+                <input type="phone" class="form-control" id="exampleInputPhone" aria-describedby="phoneHelp" placeholder="Telefone">
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="exampleFormControlTextarea" rows="7" placeholder="Sua mensagem"></textarea>
+            </div>
+            <div class="text-end">
+              <button type="submit" class="btn">Enviar Mensagem</button>
+            </div>
+          </form>
+        </div>
+      </div>
 
     </div>
   </section>

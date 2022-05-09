@@ -7,10 +7,6 @@
         width: 100%;
         object-fit: cover;
       }
-      // background: url('images/instrutor/instrutor.png') top center no-repeat;
-      // background-attachment: scroll;
-      // background-repeat: no-repeat;
-      // background-size: cover;
     }
     .mt-icon {
       height: 90px;
@@ -28,6 +24,7 @@
       letter-spacing: -0.02em;
       color: $color-secondary-medium;
       margin-left: 18px;
+      width: calc(100% - 105px);
     }
     .instrutor-address {
       p {
@@ -57,130 +54,18 @@
     }
   }
   .instrutor-contact {
-    
-  }
-  .instrutor-depoimentos {
-    background: $color-secondary-medium;
-    padding: 70px 0 60px 0;
-    margin-bottom: 10px;
-    @media (max-width: 992px)  {
-      padding: 35px 0 30px;
-    }
-    .carousel-control-prev-icon {
-      background: url('images/mt-unica/prev.png') top center no-repeat;
-      width: 24px;
-      height: 44px;
-      @media (max-width: 992px) {
-        width: 8px;
-        height: 18px;
-        background-size: cover;
+    padding: 54px 0;
+    h2 {
+      font-weight: 300;
+      font-size: 54px;
+      line-height: 63px;
+      letter-spacing: -0.02em;
+      color: $color-secondary-dark;
+      margin-bottom: 40px;
+      strong {
+        font-weight: 600;
+        color: $color-primary-medium;
       }
-    }
-    .carousel-control-next-icon {
-      background: url('images/mt-unica/next.png') top center no-repeat;
-      width: 24px;
-      height: 44px;
-      @media (max-width: 992px) {
-        width: 8px;
-        height: 18px;
-        background-size: cover;
-      }
-    }
-    .carousel-indicators {
-      margin-bottom: 0;
-      margin-top: 45px;
-      [data-bs-target] {
-        width: 8px;
-        height: 8px;
-        border-radius: 100%;
-        margin-right: 6px;
-        margin-left: 6px;
-        background-color: $color-grey-light;
-        border: 0;
-        @media (max-width: 992px) {
-          height: 8px;
-          width: 8px;
-          margin-right: 4px;
-          margin-left: 4px;
-        }
-      }
-    }
-    .depoimento {
-      margin-bottom: 65px;
-      @media (max-width: 992px) {
-        margin-bottom: 25px;
-      }
-      p {
-        font-style: italic;
-        font-weight: 200;
-        font-size: 24px;
-        line-height: 33px;
-        color: $color-white;
-        margin: 0 auto;
-        margin-bottom: 43px;
-        position: relative;
-        max-width: 700px;
-        @media (max-width: 992px) {
-          font-size: 14px;
-          line-height: 19px;
-          max-width: 85%;
-          margin-bottom: 18px;
-        }
-      }
-      h6 {
-        font-weight: 300;
-        font-size: 24px;
-        line-height: 33px;
-        margin-bottom: 0;
-        color: $color-secondary-dark;
-        strong {
-          font-weight: 700;
-        }
-        @media (max-width: 992px) {
-          font-size: 14px;
-          line-height: 19px;
-        }
-      }
-      .quote {
-        height: 76px;
-        margin: 0 auto;
-        margin-bottom: 35px;
-        @media (max-width: 992px) {
-          margin-bottom: 20px;
-          height: 40px;
-        }
-        &::before {
-          content: '';
-          position: absolute;
-          background: url('images/mt-unica/quote.png') top center no-repeat;
-          background-size: cover;
-          height: 76px;
-          width: 94px;
-          left: 0;
-          margin-left: calc(50% - 94px / 2);
-          @media (max-width: 992px) {
-            width: 50px;
-            height: 40px;
-            margin-left: calc(50% - 50px / 2);
-          }
-        }
-      }
-      &-video {
-        margin-bottom: 0;
-        p {
-          margin-bottom: 30px;
-          max-width: 100%;
-          @media (max-width: 992px) {
-            margin-bottom: 18px;
-          }
-        }
-      }
-    }
-  }
-  .instrutor-footer {
-    margin: 58px 0;
-    @media (max-width: 992px)  {
-      margin: 29px 0;
     }
     .btn {
       padding: 9px 31px;
@@ -189,16 +74,200 @@
       line-height: 30px;
       color: $color-white;
       background: $color-primary-dark;
-      border: 1px solid $color-primary-dark;
+      bordeR: 1px solid $color-primary-dark;
       border-radius: 30px;
       &:hover {
         background: transparent;
         color: $color-primary-dark;
       }
-      @media (max-width: 992px)  {
-        font-size: 14px;
-        line-height: 16px;
+    }
+    .instrutor-social {
+      a {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 50px;
+        color: $color-primary-medium;
+        &:hover {
+          padding-left: 15px;
+        }
+        img {
+          margin-right: 12px;
+        }
       }
+      
+    }
+    form {
+      .form-control {
+        display: block;
+        width: 100%;
+        padding: 11px 10px 10px 29px; 
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: $color-primary-dark!important;
+        background: transparent;
+        border: 1px solid $color-primary-dark;
+        border-radius: 30px;
+        appearance: none;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        margin-bottom: 20px;
+      }
+      .btn {
+        padding: 9px 31px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: $color-white;
+        background: $color-primary-dark;
+        bordeR: 1px solid $color-primary-dark;
+        border-radius: 30px;
+        &:hover {
+          background: transparent;
+          color: $color-primary-dark;
+        }
+      }
+    }
+  }
+}
+.instrutor-depoimentos {
+  background: $color-secondary-medium;
+  padding: 70px 0 60px 0;
+  margin-bottom: 10px;
+  @media (max-width: 992px)  {
+    padding: 35px 0 30px;
+  }
+  .carousel-control-prev-icon {
+    background: url('images/mt-unica/prev.png') top center no-repeat;
+    width: 24px;
+    height: 44px;
+    @media (max-width: 992px) {
+      width: 8px;
+      height: 18px;
+      background-size: cover;
+    }
+  }
+  .carousel-control-next-icon {
+    background: url('images/mt-unica/next.png') top center no-repeat;
+    width: 24px;
+    height: 44px;
+    @media (max-width: 992px) {
+      width: 8px;
+      height: 18px;
+      background-size: cover;
+    }
+  }
+  .carousel-indicators {
+    margin-bottom: 0;
+    margin-top: 45px;
+    [data-bs-target] {
+      width: 8px;
+      height: 8px;
+      border-radius: 100%;
+      margin-right: 6px;
+      margin-left: 6px;
+      background-color: $color-grey-light;
+      border: 0;
+      @media (max-width: 992px) {
+        height: 8px;
+        width: 8px;
+        margin-right: 4px;
+        margin-left: 4px;
+      }
+    }
+  }
+  .depoimento {
+    margin-bottom: 65px;
+    @media (max-width: 992px) {
+      margin-bottom: 25px;
+    }
+    p {
+      font-style: italic;
+      font-weight: 200;
+      font-size: 24px;
+      line-height: 33px;
+      color: $color-white;
+      margin: 0 auto;
+      margin-bottom: 43px;
+      position: relative;
+      max-width: 700px;
+      @media (max-width: 992px) {
+        font-size: 14px;
+        line-height: 19px;
+        max-width: 85%;
+        margin-bottom: 18px;
+      }
+    }
+    h6 {
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 33px;
+      margin-bottom: 0;
+      color: $color-secondary-dark;
+      strong {
+        font-weight: 700;
+      }
+      @media (max-width: 992px) {
+        font-size: 14px;
+        line-height: 19px;
+      }
+    }
+    .quote {
+      height: 76px;
+      margin: 0 auto;
+      margin-bottom: 35px;
+      @media (max-width: 992px) {
+        margin-bottom: 20px;
+        height: 40px;
+      }
+      &::before {
+        content: '';
+        position: absolute;
+        background: url('images/mt-unica/quote.png') top center no-repeat;
+        background-size: cover;
+        height: 76px;
+        width: 94px;
+        left: 0;
+        margin-left: calc(50% - 94px / 2);
+        @media (max-width: 992px) {
+          width: 50px;
+          height: 40px;
+          margin-left: calc(50% - 50px / 2);
+        }
+      }
+    }
+    &-video {
+      margin-bottom: 0;
+      p {
+        margin-bottom: 30px;
+        max-width: 100%;
+        @media (max-width: 992px) {
+          margin-bottom: 18px;
+        }
+      }
+    }
+  }
+}
+.instrutor-footer {
+  margin: 58px 0;
+  @media (max-width: 992px)  {
+    margin: 29px 0;
+  }
+  .btn {
+    padding: 9px 31px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    color: $color-white;
+    background: $color-primary-dark;
+    border: 1px solid $color-primary-dark;
+    border-radius: 30px;
+    &:hover {
+      background: transparent;
+      color: $color-primary-dark;
+    }
+    @media (max-width: 992px)  {
+      font-size: 14px;
+      line-height: 16px;
     }
   }
 }

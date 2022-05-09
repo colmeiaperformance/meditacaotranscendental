@@ -679,6 +679,7 @@ footer .top a {
   letter-spacing: -0.02em;
   color: #7896C1;
   margin-left: 18px;
+  width: calc(100% - 105px);
 }
 
 .page-instrutor .instrutor-profile .instrutor-address p {
@@ -710,52 +711,138 @@ footer .top a {
   font-weight: 600;
 }
 
-.page-instrutor .instrutor-depoimentos {
+.page-instrutor .instrutor-contact {
+  padding: 54px 0;
+}
+
+.page-instrutor .instrutor-contact h2 {
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 63px;
+  letter-spacing: -0.02em;
+  color: #323B50;
+  margin-bottom: 40px;
+}
+
+.page-instrutor .instrutor-contact h2 strong {
+  font-weight: 600;
+  color: #FFC536;
+}
+
+.page-instrutor .instrutor-contact .btn {
+  padding: 9px 31px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+  background: #F29F05;
+  bordeR: 1px solid #F29F05;
+  border-radius: 30px;
+}
+
+.page-instrutor .instrutor-contact .btn:hover {
+  background: transparent;
+  color: #F29F05;
+}
+
+.page-instrutor .instrutor-contact .instrutor-social a {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 50px;
+  color: #FFC536;
+}
+
+.page-instrutor .instrutor-contact .instrutor-social a:hover {
+  padding-left: 15px;
+}
+
+.page-instrutor .instrutor-contact .instrutor-social a img {
+  margin-right: 12px;
+}
+
+.page-instrutor .instrutor-contact form .form-control {
+  display: block;
+  width: 100%;
+  padding: 11px 10px 10px 29px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F29F05 !important;
+  background: transparent;
+  border: 1px solid #F29F05;
+  border-radius: 30px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.page-instrutor .instrutor-contact form .btn {
+  padding: 9px 31px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  background: #F29F05;
+  bordeR: 1px solid #F29F05;
+  border-radius: 30px;
+}
+
+.page-instrutor .instrutor-contact form .btn:hover {
+  background: transparent;
+  color: #F29F05;
+}
+
+.instrutor-depoimentos {
   background: #7896C1;
   padding: 70px 0 60px 0;
   margin-bottom: 10px;
 }
 
 @media (max-width: 992px) {
-  .page-instrutor .instrutor-depoimentos {
+  .instrutor-depoimentos {
     padding: 35px 0 30px;
   }
 }
 
-.page-instrutor .instrutor-depoimentos .carousel-control-prev-icon {
+.instrutor-depoimentos .carousel-control-prev-icon {
   background: url("images/mt-unica/prev.png") top center no-repeat;
   width: 24px;
   height: 44px;
 }
 
 @media (max-width: 992px) {
-  .page-instrutor .instrutor-depoimentos .carousel-control-prev-icon {
+  .instrutor-depoimentos .carousel-control-prev-icon {
     width: 8px;
     height: 18px;
     background-size: cover;
   }
 }
 
-.page-instrutor .instrutor-depoimentos .carousel-control-next-icon {
+.instrutor-depoimentos .carousel-control-next-icon {
   background: url("images/mt-unica/next.png") top center no-repeat;
   width: 24px;
   height: 44px;
 }
 
 @media (max-width: 992px) {
-  .page-instrutor .instrutor-depoimentos .carousel-control-next-icon {
+  .instrutor-depoimentos .carousel-control-next-icon {
     width: 8px;
     height: 18px;
     background-size: cover;
   }
 }
 
-.page-instrutor .instrutor-depoimentos .carousel-indicators {
+.instrutor-depoimentos .carousel-indicators {
   margin-bottom: 0;
   margin-top: 45px;
 }
 
-.page-instrutor .instrutor-depoimentos .carousel-indicators [data-bs-target] {
+.instrutor-depoimentos .carousel-indicators [data-bs-target] {
   width: 8px;
   height: 8px;
   border-radius: 100%;
@@ -766,7 +853,7 @@ footer .top a {
 }
 
 @media (max-width: 992px) {
-  .page-instrutor .instrutor-depoimentos .carousel-indicators [data-bs-target] {
+  .instrutor-depoimentos .carousel-indicators [data-bs-target] {
     height: 8px;
     width: 8px;
     margin-right: 4px;
@@ -774,17 +861,17 @@ footer .top a {
   }
 }
 
-.page-instrutor .instrutor-depoimentos .depoimento {
+.instrutor-depoimentos .depoimento {
   margin-bottom: 65px;
 }
 
 @media (max-width: 992px) {
-  .page-instrutor .instrutor-depoimentos .depoimento {
+  .instrutor-depoimentos .depoimento {
     margin-bottom: 25px;
   }
 }
 
-.page-instrutor .instrutor-depoimentos .depoimento p {
+.instrutor-depoimentos .depoimento p {
   font-style: italic;
   font-weight: 200;
   font-size: 24px;
@@ -797,7 +884,7 @@ footer .top a {
 }
 
 @media (max-width: 992px) {
-  .page-instrutor .instrutor-depoimentos .depoimento p {
+  .instrutor-depoimentos .depoimento p {
     font-size: 14px;
     line-height: 19px;
     max-width: 85%;
@@ -805,7 +892,7 @@ footer .top a {
   }
 }
 
-.page-instrutor .instrutor-depoimentos .depoimento h6 {
+.instrutor-depoimentos .depoimento h6 {
   font-weight: 300;
   font-size: 24px;
   line-height: 33px;
@@ -813,31 +900,31 @@ footer .top a {
   color: #323B50;
 }
 
-.page-instrutor .instrutor-depoimentos .depoimento h6 strong {
+.instrutor-depoimentos .depoimento h6 strong {
   font-weight: 700;
 }
 
 @media (max-width: 992px) {
-  .page-instrutor .instrutor-depoimentos .depoimento h6 {
+  .instrutor-depoimentos .depoimento h6 {
     font-size: 14px;
     line-height: 19px;
   }
 }
 
-.page-instrutor .instrutor-depoimentos .depoimento .quote {
+.instrutor-depoimentos .depoimento .quote {
   height: 76px;
   margin: 0 auto;
   margin-bottom: 35px;
 }
 
 @media (max-width: 992px) {
-  .page-instrutor .instrutor-depoimentos .depoimento .quote {
+  .instrutor-depoimentos .depoimento .quote {
     margin-bottom: 20px;
     height: 40px;
   }
 }
 
-.page-instrutor .instrutor-depoimentos .depoimento .quote::before {
+.instrutor-depoimentos .depoimento .quote::before {
   content: '';
   position: absolute;
   background: url("images/mt-unica/quote.png") top center no-repeat;
@@ -849,39 +936,39 @@ footer .top a {
 }
 
 @media (max-width: 992px) {
-  .page-instrutor .instrutor-depoimentos .depoimento .quote::before {
+  .instrutor-depoimentos .depoimento .quote::before {
     width: 50px;
     height: 40px;
     margin-left: calc(50% - 50px / 2);
   }
 }
 
-.page-instrutor .instrutor-depoimentos .depoimento-video {
+.instrutor-depoimentos .depoimento-video {
   margin-bottom: 0;
 }
 
-.page-instrutor .instrutor-depoimentos .depoimento-video p {
+.instrutor-depoimentos .depoimento-video p {
   margin-bottom: 30px;
   max-width: 100%;
 }
 
 @media (max-width: 992px) {
-  .page-instrutor .instrutor-depoimentos .depoimento-video p {
+  .instrutor-depoimentos .depoimento-video p {
     margin-bottom: 18px;
   }
 }
 
-.page-instrutor .instrutor-footer {
+.instrutor-footer {
   margin: 58px 0;
 }
 
 @media (max-width: 992px) {
-  .page-instrutor .instrutor-footer {
+  .instrutor-footer {
     margin: 29px 0;
   }
 }
 
-.page-instrutor .instrutor-footer .btn {
+.instrutor-footer .btn {
   padding: 9px 31px;
   font-weight: 700;
   font-size: 26px;
@@ -892,13 +979,13 @@ footer .top a {
   border-radius: 30px;
 }
 
-.page-instrutor .instrutor-footer .btn:hover {
+.instrutor-footer .btn:hover {
   background: transparent;
   color: #F29F05;
 }
 
 @media (max-width: 992px) {
-  .page-instrutor .instrutor-footer .btn {
+  .instrutor-footer .btn {
     font-size: 14px;
     line-height: 16px;
   }
