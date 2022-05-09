@@ -649,6 +649,67 @@ footer .top a {
   padding: 48px 0 55px 0;
 }
 
+.page-instrutor .instrutor-profile .instrutor-picture img {
+  height: 100vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.page-instrutor .instrutor-profile .mt-icon {
+  height: 90px;
+  width: 90px;
+  background: #7896C1;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-instrutor .instrutor-profile h1 {
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 63px;
+  letter-spacing: -0.02em;
+  color: #7896C1;
+  margin-left: 18px;
+}
+
+.page-instrutor .instrutor-profile .instrutor-address p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: -0.02em;
+  color: #7896C1;
+  margin-bottom: 0;
+}
+
+.page-instrutor .instrutor-profile .instrutor-address p strong {
+  font-weight: 600;
+}
+
+.page-instrutor .instrutor-profile .instrutor-address img {
+  margin-right: 13px;
+}
+
+.page-instrutor .instrutor-profile p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #323B50;
+}
+
+.page-instrutor .instrutor-profile p strong {
+  font-weight: 600;
+}
+
 .page-instrutor .instrutor-depoimentos {
   background: #7896C1;
   padding: 70px 0 60px 0;

@@ -3,6 +3,25 @@
 <main class="page-instrutor">
   <section class="instrutor-profile">
     <div class="container">
+      <div class="row d-flex justify-content-center align-items-stat">
+        <div class="col-12 col-lg-5 instrutor-picture pe-lg-4 mb-4 mb-lg-0">
+          <img src=<?php echo get_template_directory_uri() . '/images/instrutor/instrutor.png' ?> alt="Instrutor">  
+        </div>
+        <div class="col-12 col-lg-7 instrutor-bio">
+          <div class="d-flex align-items-center justify-content-start mb-4">
+            <div class="mt-icon"><img src=<?php echo get_template_directory_uri() . '/images/instrutor/mt.png' ?> alt="mt."></div>
+            <h1>Maria Cícera Aranha</h1>
+          </div>
+          <div class="instrutor-address">
+           <div class="d-flex align-items-baseline justify-content-start mb-2"><img src=<?php echo get_template_directory_uri() . '/images/instrutor/map.png' ?> alt="Mapa"> <p><strong>Onde atua:</strong> São Paulo (SP), Santo André (SP)</p></div> 
+           <div class="d-flex align-items-baseline justify-content-start mb-2"><img src=<?php echo get_template_directory_uri() . '/images/instrutor/building.png' ?> alt="Prédio"> <p><strong>Unidade:</strong> Planalto Paulista (SP) – Av. Piassanguaba, 658</p></div> 
+          </div>
+          <div class="mt-4">
+           <p>A visão de Maharishi sobre o Conhecimento Védico e sua aplicação para resgatar as vidas individuais e a Consciência coletiva de uma condição de limitação e de sofrimento para uma realidade de plenitude me arrebata. A possibilidade desse caminho simples, natural e ordenado para a mais elevada experiência humana, a Iluminação, inspira-me a participar, como praticante e instrutora de MT, da concretização do desejo de Maharishi: a máxima evolução da Consciência humana, culminando no ideal da paz mundial. Sou economista (FAAP) e estudei Filosofia (USP).</p>
+          </div>
+
+        </div>
+      </div>
 
     </div>
   </section>
