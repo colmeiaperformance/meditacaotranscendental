@@ -21,7 +21,7 @@
   </section>
   <section class="oqueemt-praticamt">
     <div class="container">
-      <div class="row d-flex align-items-center justify-content-center">
+      <div class="row d-flex align-items-baseline justify-content-center">
         <div class="col-12 col-lg-5">
           <h2><strong>O que acontece</strong> durante a prática de MT?</h2>
         </div>
