@@ -645,6 +645,176 @@ footer .top a {
   }
 }
 
+.page-aprenda-mt .aprenda-mt-investir {
+  background: #FFC536;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.page-aprenda-mt .aprenda-mt-investir .container {
+  padding-top: 80px;
+  padding-bottom: 72px;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .aprenda-mt-investir .container {
+    padding-top: 30px;
+    padding-bottom: 37px;
+  }
+}
+
+.page-aprenda-mt .aprenda-mt-investir .aprenda-mt-investir-topo {
+  width: 100%;
+  display: none;
+  overflow: hidden;
+}
+
+.page-aprenda-mt .aprenda-mt-investir .aprenda-mt-investir-topo img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .aprenda-mt-investir .aprenda-mt-investir-topo {
+    display: block;
+  }
+}
+
+.page-aprenda-mt .aprenda-mt-investir .aprenda-mt-investir-bg {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 530px;
+  width: 40%;
+  overflow: hidden;
+  height: 100%;
+  background: url(images/aprenda-mt/investir.png) center right no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .aprenda-mt-investir .aprenda-mt-investir-bg {
+    display: none;
+  }
+}
+
+.page-aprenda-mt .aprenda-mt-investir h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  margin-bottom: 33px;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .aprenda-mt-investir h2 {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+.page-aprenda-mt .aprenda-mt-investir p {
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #323B50;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .aprenda-mt-investir p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 15px;
+  }
+}
+
+.page-aprenda-mt .aprenda-mt-investir p strong {
+  font-weight: 700;
+}
+
+.page-aprenda-mt .aprenda-mt-footer {
+  padding: 67px 0 64px;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .aprenda-mt-footer {
+    padding: 39px 0 36px 0;
+  }
+}
+
+.page-aprenda-mt .aprenda-mt-footer h2 {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 63px;
+  letter-spacing: -0.02em;
+  color: #FFC536;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .aprenda-mt-footer h2 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 11px;
+  }
+}
+
+.page-aprenda-mt .aprenda-mt-footer p {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #323B50;
+  margin-bottom: 37px;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .aprenda-mt-footer p {
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 23px;
+  }
+}
+
+.page-aprenda-mt .aprenda-mt-footer p a {
+  font-weight: 600;
+  color: #FFC536;
+}
+
+.page-aprenda-mt .aprenda-mt-footer p a:hover {
+  opacity: 0.7;
+}
+
+.page-aprenda-mt .aprenda-mt-footer .btn {
+  background: #F29F05;
+  border: 1px solid #F29F05;
+  border-radius: 30px;
+  padding: 9px 31px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .aprenda-mt-footer .btn {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.page-aprenda-mt .aprenda-mt-footer .btn:hover {
+  background: transparent;
+  border: 1px solid #F29F05;
+  color: #F29F05;
+}
+
 .page-instrutor .instrutor-profile {
   padding: 48px 0 55px 0;
 }
