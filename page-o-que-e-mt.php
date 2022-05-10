@@ -5,13 +5,13 @@
   ?>
 <?php get_header(); ?>
 <?php get_template_part('template-parts/navbar'); ?>
-<?php get_template_part('template-parts/headers/header-oqueemt'); ?>
-<main class="page-oqueemt">
-  <section class="oqueemt-hero">
+<?php get_template_part('template-parts/headers/header-o-que-e-mt'); ?>
+<main class="page-o-que-e-mt">
+  <section class="o-que-e-mt-hero">
     <div class="container">
       <div class="row d-flex align-items-end justify-content-center">
         <div class="col-12 col-lg-5 text-center pe-lg-4">
-          <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/oqueemt/mt.png' ?> alt="mt.">
+          <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/mt.png' ?> alt="mt.">
         </div>
         <div class="col-12 col-lg-7">
           <p>A <strong>Meditação Transcendental®</strong> atua na redução do estresse e da ansiedade, pois leva a mente para níveis mais aquietados. Nenhuma crença ou expectativa é necessária para que a prática seja eficaz à promoção da saúde mental e física.</p>
@@ -19,7 +19,7 @@
       </div>
     </div>
   </section>
-  <section class="oqueemt-praticamt">
+  <section class="o-que-e-mt-praticamt">
     <div class="container">
       <div class="row d-flex align-items-baseline justify-content-center">
         <div class="col-12 col-lg-5">
@@ -52,9 +52,9 @@
       </div>
     </div>
   </section>
-  <section class="oqueemt-diferente position-relative">
+  <section class="o-que-e-mt-diferente position-relative">
     <div class="mundo-melhor-topo">
-      <img src="<?php echo get_template_directory_uri() . '/images/oqueemt/mt-diferente-mobile.png' ?>" alt="mt.">
+      <img src="<?php echo get_template_directory_uri() . '/images/o-que-e-mt/mt-diferente-mobile.png' ?>" alt="mt.">
     </div>
     <div class="container">
       <div class="row align-items-center justify-content-start">
@@ -69,18 +69,18 @@
       <div class="mundo-melhor-bg position-absolute"></div>
     </div>
   </section>
-  <section class="oqueemt-atua">
+  <section class="o-que-e-mt-atua">
     <div class="container">
       <h2>Como a MT atua no <strong>cérebro</strong>?</h2>
       <div class="row d-flex align-items-end justify-content-center">
         <div class="col-12 col-lg-5 d-none d-lg-block">
-          <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/oqueemt/cerebro.png' ?> alt="Cérebro">
+          <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/cerebro.png' ?> alt="Cérebro">
         </div>
         <div class="col-12 col-lg-7">
           <p>O acúmulo de estresse e de ansiedade é um fator que afeta toda nossa vida e, principalmente, nossa capacidade de pensar, agir, sentir e de nos relacionar.</p>
           <p>Nosso cérebro age como se estivéssemos em constante perigo, ativando mais a função da amígdala, área do cérebro responsável pelo medo e pelos instintos, prejudicando nossa saúde.</p>
           <div class="d-block d-lg-none text-center">
-            <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/oqueemt/cerebro.png' ?> alt="Cérebro">
+            <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/cerebro.png' ?> alt="Cérebro">
           </div>
           <p><strong>A prática regular da MT aumenta a atividade do córtex pré-frontal</strong> (região cérebro responsável por decisões, foco, inteligência e criatividade); </p>
           <p><strong>Reduz a atividade da amígdala</strong>, dando mais equilíbrio emocional ao dia a dia.</p>
@@ -88,28 +88,28 @@
       </div>
     </div>
   </section>
-  <section class="oqueemt-imagine">
+  <section class="o-que-e-mt-imagine">
     <div class="container text-center">
       <h2>Imagine a mente como um grande oceano. Transcender é ir além da sua superfície.</h2>
       <p>Praticar a MT é como submergir naturalmente dentro de si para encontrar, na mente, um lugar que está além do nível agitado dos pensamentos, onde experimentamos um estado de descanso muito profundo, que nos leva a acessar uma fonte abundante de energia, de criatividade e de bem-estar.</p>
       <a href="#" class="btn" role="button">Aprenda a MT</a>
     </div>
   </section>
-  <section class="oqueemt-pesquisas">
+  <section class="o-que-e-mt-pesquisas">
     <div class="container">
       <h2>Pesquisas <strong>científicas</strong></h2>
       <div class="row d-flex align-items-center justify-content-center">
         <div class="col-6 col-lg-3">
-          <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/oqueemt/universidade.png' ?> alt="Instrutores">
+          <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
         </div>
         <div class="col-6 col-lg-3">
-          <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/oqueemt/universidade.png' ?> alt="Instrutores">
+          <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
         </div>
         <div class="col-6 col-lg-3">
-          <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/oqueemt/universidade.png' ?> alt="Instrutores">
+          <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
         </div>
         <div class="col-6 col-lg-3">
-          <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/oqueemt/universidade.png' ?> alt="Instrutores">
+          <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
         </div>
       </div>
       <p>Mais de 600 estudos científicos foram conduzidos em cerca de 200 universidades e escolas de medicina, como <strong>Harvard , Stanford e Yale</strong>. Os resultados foram publicados em mais de 150 revistas científicas, com revisão por pares.</p>
@@ -118,14 +118,14 @@
       </div>
     </div>
   </section>
-  <section class="oqueemt-sabermais">
+  <section class="o-que-e-mt-sabermais">
     <div class="container">
       <h2>Para <strong>saber mais</strong></h2>
       <div id="sabermais" class="swiper swiperSabermais" data-bs-ride="carousel">
         <div class="swiper-wrapper">
           <div class="book swiper-slide">
             <div class="d-lg-flex align-items-start justify-content-center text-center text-lg-end">
-              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/oqueemt/book.png' ?> alt="Book">
+              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/book.png' ?> alt="Book">
               <div>
                 <h5>Meditação Transcendental com perguntas e respostas</h5>
                 <div class="mb-3">
@@ -140,7 +140,7 @@
           </div>
           <div class="book swiper-slide">
             <div class="d-lg-flex align-items-start justify-content-center text-center text-lg-end">
-              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/oqueemt/book.png' ?> alt="Book">
+              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/book.png' ?> alt="Book">
               <div>
                 <h5>Meditação Transcendental com perguntas e respostas</h5>
                 <div class="mb-3">
@@ -155,7 +155,7 @@
           </div>
           <div class="book swiper-slide">
             <div class="d-lg-flex align-items-start justify-content-center text-center text-lg-end">
-              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/oqueemt/book.png' ?> alt="Book">
+              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/book.png' ?> alt="Book">
               <div>
                 <h5>Meditação Transcendental com perguntas e respostas</h5>
                 <div class="mb-3">
@@ -209,7 +209,7 @@
         });
     </script>
   </section>
-  <section class="oqueemt-footer">
+  <section class="o-que-e-mt-footer">
     <div class="container text-center">
       <h2>Dúvidas?</h2>
       <p>Veja as respostas para as <a href="#">perguntas mais frequentes.</a></p>

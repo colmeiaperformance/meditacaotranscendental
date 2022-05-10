@@ -60,7 +60,7 @@
       }
     }
   } 
-  &--oqueemt {
+  &--o-que-e-mt {
     .carousel-item {
       img 
       {
@@ -80,6 +80,47 @@
         margin-bottom: 0;
         strong {
           font-weight: 600;
+        }
+        @media (max-width: 991.98px) {
+          font-size: 26px;
+          line-height: 30px;
+        }
+      }
+      .carousel-caption {
+        width: 100%;
+        padding: 0;
+        right: 0;
+        left: 0;
+        top: 35%;
+        text-align: center;
+        @media (max-width: 991.98px) {
+          width: 85%;
+          margin: 0 auto;
+        }
+      }
+    }   
+  }
+  &--aprenda-mt {
+    .carousel-item {
+      img 
+      {
+        min-height: 310px;
+        object-fit: cover;
+        @media (max-width: 991.98px) {
+          min-height: 220px;
+        }
+      }
+      h1 {
+        font-weight: 300;
+        font-size: 54px;
+        line-height: 56px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: $color-secondary-dark;
+        margin-bottom: 0;
+        strong {
+          font-weight: 600;
+          color: $color-primary-medium;
         }
         @media (max-width: 991.98px) {
           font-size: 26px;
