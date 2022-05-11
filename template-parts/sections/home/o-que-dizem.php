@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-12">
         <!-- inicio carousel -->
-        <div id="oquedizem" class="swiper swiperVisiteBlog" data-bs-ride="carousel">
+        <div id="oquedizem" class="swiper swiperOQueDizem" data-bs-ride="carousel">
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
@@ -177,7 +177,7 @@
   //   });
   // });
   jQuery(document).ready(function() {
-    var swiper = new Swiper(".swiperVisiteBlog", {
+    var swiper = new Swiper(".swiperOQueDizem", {
       slidesPerView: 1,
       slidesPerGroup: 1,
       loop: true,

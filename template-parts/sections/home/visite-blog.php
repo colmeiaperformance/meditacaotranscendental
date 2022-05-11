@@ -3,7 +3,7 @@
     <h2>Visite o nosso <strong>blog</strong></h2>
     <div class="row align-items-center justify-content-center">
 
-      <div id="visite-blog-carousel" class="swiper" data-bs-ride="carousel">
+      <div id="visite-blog-carousel" class="swiper swiperVisiteBlog" data-bs-ride="carousel">
         <div class="swiper-wrapper">
 
           <div class="swiper-slide text-center">
@@ -111,9 +111,8 @@
 </section>
 <script>
 jQuery(document).ready(function() {
-  const swiper = new Swiper('.swiper', {
+  const swiper = new Swiper('.swiperVisiteBlog', {
     // Optional parameters
-    direction: 'vertical',
     loop: true,
 
     // If we need pagination
