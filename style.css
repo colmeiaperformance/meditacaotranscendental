@@ -695,6 +695,124 @@ footer .top a {
   }
 }
 
+.page-aprenda-mt .agende-mt {
+  padding: 85px 0 75px 0;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .agende-mt {
+    padding: 30px 0 40px 0;
+  }
+}
+
+.page-aprenda-mt .agende-mt h2 {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #323B50;
+  margin-bottom: 30px;
+}
+
+.page-aprenda-mt .agende-mt h2 strong {
+  font-weight: 600;
+}
+
+.page-aprenda-mt .agende-mt h2 span {
+  font-weight: 600;
+  color: #FFC536;
+}
+
+.page-aprenda-mt .agende-mt .text {
+  max-width: 875px;
+  margin: 0 auto;
+}
+
+.page-aprenda-mt .agende-mt p {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #323B50;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .agende-mt p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+}
+
+.page-aprenda-mt .agende-mt p strong {
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .agende-mt p strong {
+    font-weight: 500;
+  }
+}
+
+.page-aprenda-mt .agende-mt p span {
+  font-weight: 600;
+  color: #FFC536;
+}
+
+.page-aprenda-mt .agende-mt .btn {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+  background: #F29F05;
+  border: 1px solid #F29F05;
+  border-radius: 30px;
+  padding: 9px 31px;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .agende-mt .btn {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 7px;
+    width: 100%;
+  }
+}
+
+.page-aprenda-mt .agende-mt .btn:hover {
+  background: transparent;
+  border: 1px solid #F29F05;
+  color: #F29F05;
+}
+
+.page-aprenda-mt .agende-mt .form-select {
+  width: 100%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #F29F05;
+  padding: 7px 7px 4.5px 16.5px;
+  border: 1px solid #F29F05;
+  border-radius: 30px;
+  text-align: left;
+  background-color: #FFFFFF;
+  background-image: url("images/aprenda-mt/dropdown.png");
+  background-size: auto;
+  margin-bottom: 10px;
+}
+
+.page-aprenda-mt .agende-mt .form-select:active, .page-aprenda-mt .agende-mt .form-select:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .page-aprenda-mt .aprenda-mt-investir {
   background: #FFC536;
   overflow: hidden;
