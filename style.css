@@ -989,6 +989,12 @@ footer .top a {
 @media (max-width: 992px) {
   .page-aprenda-mt .mudou-vida {
     background: #7896C1;
+    padding: 33px 0 45px 0;
+  }
+}
+
+@media (max-width: 992px) and (max-width: 640px) {
+  .page-aprenda-mt .mudou-vida {
     padding: 33px 0 15px 0;
   }
 }
@@ -1033,6 +1039,12 @@ footer .top a {
     color: #FFFFFF;
     max-width: 330px;
     margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-aprenda-mt .mudou-vida h2 {
     margin-bottom: 0;
   }
 }
@@ -1204,7 +1216,7 @@ footer .top a {
 @media (max-width: 992px) {
   .page-aprenda-mt .mudou-vida .swiper-slide-next iframe {
     height: 150px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
 }
 
