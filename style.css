@@ -2489,19 +2489,15 @@ footer .top a {
 }
 
 .page-o-que-e-mt .o-que-e-mt-pesquisas p {
-  font-weight: 300;
-  font-size: 30px;
-  line-height: 35px;
-  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 0;
   color: #323B50;
-  max-width: 1030px;
-  margin: 0 auto;
-  margin-bottom: 40px;
-  margin-top: 55px;
 }
 
 .page-o-que-e-mt .o-que-e-mt-pesquisas p strong {
-  color: #FFC536;
   font-weight: 600;
 }
 
@@ -2509,8 +2505,7 @@ footer .top a {
   .page-o-que-e-mt .o-que-e-mt-pesquisas p {
     font-size: 14px;
     line-height: 16px;
-    margin-top: 28px;
-    margin-bottom: 21px;
+    text-align: center;
   }
 }
 
@@ -2523,12 +2518,14 @@ footer .top a {
   font-size: 26px;
   line-height: 30px;
   color: #FFFFFF;
+  margin-top: 74px;
 }
 
 @media (max-width: 992px) {
   .page-o-que-e-mt .o-que-e-mt-pesquisas .btn {
     font-size: 14px;
     line-height: 16px;
+    margin-top: 21px;
   }
 }
 

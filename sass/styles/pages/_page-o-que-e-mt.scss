@@ -308,24 +308,19 @@
       }
     }
     p {
-      font-weight: 300;
-      font-size: 30px;
-      line-height: 35px;
-      text-align: center;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      text-align: left;
+      margin-bottom: 0;
       color: $color-secondary-dark;
-      max-width: 1030px;
-      margin: 0 auto;
-      margin-bottom: 40px;
-      margin-top: 55px;
       strong {
-        color: $color-primary-medium;
         font-weight: 600;
       }
       @media (max-width: 992px) {
         font-size: 14px;
         line-height: 16px;
-        margin-top: 28px;
-        margin-bottom: 21px;
+        text-align: center;
       }
     }
     .btn {
@@ -337,9 +332,11 @@
       font-size: 26px;
       line-height: 30px;
       color: $color-white;
+      margin-top: 74px;
       @media (max-width: 992px) {
         font-size: 14px;
         line-height: 16px;
+        margin-top: 21px;
       }
       &:hover {
         background: transparent;

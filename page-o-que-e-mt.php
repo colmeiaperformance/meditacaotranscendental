@@ -98,21 +98,31 @@
   <section class="o-que-e-mt-pesquisas">
     <div class="container">
       <h2>Pesquisas <strong>científicas</strong></h2>
+
       <div class="row d-flex align-items-center justify-content-center">
-        <div class="col-6 col-lg-3">
-          <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
+
+        <div class="col-12 col-lg-6 px-5 pe-lg-2 mb-4 mb-lg-0">
+          <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-6 d-flex align-items-center justify-content-center ps-2 pe-2">
+              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
+            </div>
+            <div class="col-6 d-flex align-items-center justify-content-center ps-2 pe-2">
+              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
+            </div>
+            <div class="col-6 d-flex align-items-center justify-content-center ps-2 pe-2">
+              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
+            </div>
+            <div class="col-6 d-flex align-items-center justify-content-center ps-2 pe-2">
+              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
+            </div>
+          </div>
         </div>
-        <div class="col-6 col-lg-3">
-          <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
+        <div class="col-12 col-lg-6 ps-2">
+          <p>Mais de <strong>600 estudos científicos</strong> foram conduzidos em mais de 200 universidades e escolas de medicina e por renomados institutos de pesquisa. Os resultados foram publicados em mais de 160 periódicos e revistas científicas, com revisão por pares.</p>
         </div>
-        <div class="col-6 col-lg-3">
-          <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
-        </div>
-        <div class="col-6 col-lg-3">
-          <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
-        </div>
+
       </div>
-      <p>Mais de 600 estudos científicos foram conduzidos em cerca de 200 universidades e escolas de medicina, como <strong>Harvard , Stanford e Yale</strong>. Os resultados foram publicados em mais de 150 revistas científicas, com revisão por pares.</p>
+
       <div class="text-center">
         <a href="#" class="btn" role="btn">Conheça as principais publicações</a>
       </div>
