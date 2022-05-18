@@ -175,27 +175,27 @@
         border-radius: 50%;
         position: absolute;
         z-index: 1111;
-        height: 260px;
-        width: 260px;
-        margin-top: -260px;
+        width: 220px;
+        height: 220px;
+        margin-top: -220px;
         background: $color-secondary-medium-80;
         overflow: hidden;
-        padding: 60px 15px;
+        padding: 50px 15px;
         h6 {
           font-weight: 700;
-          font-size: 18px;
-          line-height: 28px;
+          font-size: 15px;
+          line-height: 25px;
           text-align: center;
           color: $color-white;
-          margin-bottom: 10px;
+          margin-bottom: 8px;
         }
         p {
           color: $color-white;
           font-weight: 400;
-          font-size: 16px;
-          line-height: 19px;
+          font-size: 14px;
+          line-height: 17px;
           text-align: center;
-          margin-bottom: 7px;
+          margin-bottom: 6px;
           &::before {
             content: '';
             position: relative;
@@ -208,17 +208,19 @@
           }
         }
         .btn {
-          padding: 4px 12px;
+          padding: 3px 11px;
           font-weight: 700;
-          font-size: 13px;
-          line-height: 15px;
+          font-size: 12px;
+          line-height: 14px;
           text-transform: uppercase;
           color: $color-white;
         }
       }
       &:hover{
-        height: 260px;
-        width: 260px;
+        width: 220px;
+        height: 220px;
+        zoom: 1.1;
+        transition: all .3s ease;
         img {
           opacity: 0.7;
         }
