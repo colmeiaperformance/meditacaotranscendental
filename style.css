@@ -816,7 +816,6 @@ footer .top a {
 .page-aprenda-mt .aprenda-mt-investir {
   background: #FFC536;
   overflow: hidden;
-  margin: 20px 0;
 }
 
 .page-aprenda-mt .aprenda-mt-investir .container {
@@ -1245,6 +1244,198 @@ footer .top a {
 .page-aprenda-mt .garantia p span {
   font-weight: 700;
   color: #FFC536;
+}
+
+.page-aprenda-mt .tres-passos {
+  background: #7896C1;
+  padding: 57px 0 61px 0;
+}
+
+.page-aprenda-mt .mt-curso {
+  padding: 90px 0;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .mt-curso {
+    padding: 40px 0 50px 0;
+  }
+}
+
+.page-aprenda-mt .mt-curso h2 {
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 63px;
+  letter-spacing: -0.02em;
+  color: #323B50;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .mt-curso h2 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 18px;
+  }
+}
+
+.page-aprenda-mt .mt-curso h2 strong {
+  color: #FFC536;
+  font-weight: 600;
+}
+
+.page-aprenda-mt .mt-curso h3 {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #323B50;
+  margin-bottom: 77px;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .mt-curso h3 {
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 40px;
+  }
+}
+
+.page-aprenda-mt .mt-curso h3 strong {
+  font-weight: 600;
+  color: #FFC536;
+}
+
+.page-aprenda-mt .mt-curso p {
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 30px;
+  color: #323B50;
+  margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .mt-curso p {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+  }
+}
+
+.page-aprenda-mt .mt-curso .btn {
+  margin-top: 34px;
+  padding: 9px 31px;
+  background: #F29F05;
+  border: 1px solid #F29F05;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .mt-curso .btn {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 19px;
+  }
+}
+
+.page-aprenda-mt .mt-curso .btn:hover {
+  border: 1px solid #F29F05;
+  background: transparent;
+  color: #F29F05;
+}
+
+.page-aprenda-mt .mt-curso .atividades {
+  margin-bottom: 75px;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .mt-curso .atividades {
+    margin-bottom: 42px;
+  }
+}
+
+.page-aprenda-mt .mt-curso .atividades .swiper-slide img {
+  margin-bottom: 30px;
+}
+
+.page-aprenda-mt .mt-curso .atividades .swiper-slide h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 22px;
+  text-align: center;
+  color: #323B50;
+  margin: 0 auto;
+  margin-bottom: 19px;
+}
+
+.page-aprenda-mt .mt-curso .atividades .swiper-slide p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #323B50;
+  margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .mt-curso .atividades .swiper-slide .content {
+    max-width: 266px;
+    margin: 0 auto;
+  }
+}
+
+.page-aprenda-mt .mt-curso .swiper-button-prev {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .mt-curso .swiper-button-prev {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.page-aprenda-mt .mt-curso .swiper-button-prev::after {
+  content: '';
+  width: 8px;
+  height: 15px;
+  background-image: url("images/aprenda-mt/prev-yellow.png");
+}
+
+.page-aprenda-mt .mt-curso .swiper-button-prev:hover {
+  opacity: 0.7;
+}
+
+.page-aprenda-mt .mt-curso .swiper-button-next {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .mt-curso .swiper-button-next {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.page-aprenda-mt .mt-curso .swiper-button-next::after {
+  content: '';
+  background-image: url("images/aprenda-mt/next-yellow.png");
+  width: 8px;
+  height: 15px;
+}
+
+.page-aprenda-mt .mt-curso .swiper-button-next:hover {
+  opacity: 0.7;
 }
 
 .page-instrutor .instrutor-profile {
