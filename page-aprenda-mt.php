@@ -147,47 +147,55 @@
           <div class="swiper-wrapper">
             
             <div class="swiper-slide">
-                <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/0g0MFzECtb4"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen>
-                </iframe>
-                <p>
-                  David Lynch explica como a MT pode potencializar sua inteligência e sua capacidade criativa.
-                </p>
+                <div class="swiper-mobile">
+                    <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/0g0MFzECtb4"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                  </iframe>
+                  <p>
+                    David Lynch explica como a MT pode potencializar sua inteligência e sua capacidade criativa.
+                  </p>
+                </div>
             </div>
 
               <div class="swiper-slide">
-                <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/0g0MFzECtb4"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen>
-                </iframe>
-                <p>
-                  David Lynch explica como a MT pode potencializar sua inteligência e sua capacidade criativa.
-                </p>
+                 <div class="swiper-mobile">
+                    <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/0g0MFzECtb4"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                  </iframe>
+                  <p>
+                    David Lynch explica como a MT pode potencializar sua inteligência e sua capacidade criativa.
+                  </p>
+                </div>
             </div>
 
               <div class="swiper-slide">
-                <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/0g0MFzECtb4"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen>
-                </iframe>
-                <p>
-                  David Lynch explica como a MT pode potencializar sua inteligência e sua capacidade criativa.
-                </p>
+                 <div class="swiper-mobile">
+                    <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/0g0MFzECtb4"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                  </iframe>
+                  <p>
+                    David Lynch explica como a MT pode potencializar sua inteligência e sua capacidade criativa.
+                  </p>
+                </div>
             </div>
 
               <div class="swiper-slide">
-                <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/0g0MFzECtb4"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen>
-                </iframe>
-                <p>
-                  David Lynch explica como a MT pode potencializar sua inteligência e sua capacidade criativa.
-                </p>
+                 <div class="swiper-mobile">
+                    <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/0g0MFzECtb4"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                  </iframe>
+                  <p>
+                    David Lynch explica como a MT pode potencializar sua inteligência e sua capacidade criativa.
+                  </p>
+                </div>
             </div>
 
           </div>

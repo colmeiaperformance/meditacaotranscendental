@@ -989,7 +989,7 @@ footer .top a {
 @media (max-width: 992px) {
   .page-aprenda-mt .mudou-vida {
     background: #7896C1;
-    padding: 33px 0 45px 0;
+    padding: 33px 0 15px 0;
   }
 }
 
@@ -1033,7 +1033,7 @@ footer .top a {
     color: #FFFFFF;
     max-width: 330px;
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 0;
   }
 }
 
@@ -1118,6 +1118,16 @@ footer .top a {
           align-items: center;
 }
 
+@media (max-width: 640px) {
+  .page-aprenda-mt .mudou-vida .swiper-mobile {
+    padding: 13px 12px 17px 12px;
+    border: 1px solid #FFFFFF;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+}
+
 .page-aprenda-mt .mudou-vida .swiper-slide {
   text-align: center;
   border: 1px solid #FFC536;
@@ -1130,8 +1140,16 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-aprenda-mt .mudou-vida .swiper-slide {
-    padding: 13px 12px 17px 12px;
     border: 1px solid #FFFFFF;
+    padding: 13px 12px 17px 12px;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-aprenda-mt .mudou-vida .swiper-slide {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
   }
 }
 
@@ -1143,7 +1161,7 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-aprenda-mt .mudou-vida .swiper-slide iframe {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
 }
 
