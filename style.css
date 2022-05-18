@@ -430,6 +430,58 @@ footer .top a {
   }
 }
 
+.header--beneficios-mt .carousel-item img {
+  min-height: 310px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 991.98px) {
+  .header--beneficios-mt .carousel-item img {
+    min-height: 220px;
+  }
+}
+
+.header--beneficios-mt .carousel-item h1 {
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #323B50;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.header--beneficios-mt .carousel-item h1 strong {
+  font-weight: 600;
+  color: #FFC536;
+}
+
+@media (max-width: 991.98px) {
+  .header--beneficios-mt .carousel-item h1 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
+
+.header--beneficios-mt .carousel-item .carousel-caption {
+  width: 100%;
+  padding: 0;
+  right: 0;
+  left: 0;
+  top: 25%;
+  text-align: center;
+}
+
+@media (max-width: 991.98px) {
+  .header--beneficios-mt .carousel-item .carousel-caption {
+    width: 85%;
+    top: 30%;
+    margin: 0 auto;
+  }
+}
+
 #cookie-law-info-bar #wt-cli-accept-all-btn {
   background-color: #F29F05 !important;
 }
@@ -1466,6 +1518,376 @@ footer .top a {
 
 .page-aprenda-mt .mt-curso .swiper-button-next:hover {
   opacity: 0.7;
+}
+
+.page-beneficios-mt .hero {
+  padding: 70px 0 37px 0;
+}
+
+.page-beneficios-mt .hero p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #323B50;
+  margin-bottom: 37px;
+}
+
+.page-beneficios-mt .hero p strong {
+  font-weight: 700;
+  color: #FFC536;
+}
+
+.page-beneficios-mt .mudou-vida {
+  padding: 80px 0 42px 0;
+  background: #FFC536;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .mudou-vida {
+    padding: 33px 0 45px 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-beneficios-mt .mudou-vida {
+    padding: 33px 0 15px 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .mudou-vida .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.page-beneficios-mt .mudou-vida h2 {
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 63px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  margin-bottom: 55px;
+}
+
+.page-beneficios-mt .mudou-vida h2 strong {
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .mudou-vida h2 {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    max-width: 330px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-beneficios-mt .mudou-vida h2 {
+    margin-bottom: 0;
+  }
+}
+
+.page-beneficios-mt .mudou-vida .swiper-button-prev {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  left: 0;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .mudou-vida .swiper-button-prev {
+    left: -10px;
+  }
+}
+
+.page-beneficios-mt .mudou-vida .swiper-button-prev::after {
+  content: '';
+  background-image: url("images/beneficios-mt/prev.png");
+  width: 24px;
+  height: 44px;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .mudou-vida .swiper-button-prev::after {
+    width: 8px;
+    height: 15px;
+    background-image: url("images/beneficios-mt/prev.png");
+  }
+}
+
+.page-beneficios-mt .mudou-vida .swiper-button-prev:hover {
+  opacity: 0.7;
+}
+
+.page-beneficios-mt .mudou-vida .swiper-button-next {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  right: 0;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .mudou-vida .swiper-button-next {
+    right: -9px;
+  }
+}
+
+.page-beneficios-mt .mudou-vida .swiper-button-next::after {
+  content: '';
+  background-image: url("images/beneficios-mt/next.png");
+  width: 24px;
+  height: 44px;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .mudou-vida .swiper-button-next::after {
+    background-image: url("images/beneficios-mt/next.png");
+    width: 8px;
+    height: 15px;
+  }
+}
+
+.page-beneficios-mt .mudou-vida .swiper-button-next:hover {
+  opacity: 0.7;
+}
+
+.page-beneficios-mt .mudou-vida .swiper {
+  width: 100%;
+  padding: 0 40px;
+  height: 100%;
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  .page-beneficios-mt .mudou-vida .swiper {
+    padding: 0;
+  }
+}
+
+.page-beneficios-mt .mudou-vida .swiper-wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 640px) {
+  .page-beneficios-mt .mudou-vida .swiper-mobile {
+    padding: 13px 12px 17px 12px;
+    border: 1px solid #FFFFFF;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+}
+
+.page-beneficios-mt .mudou-vida .swiper-slide {
+  text-align: center;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  padding: 15px 14px 15px 18px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .mudou-vida .swiper-slide {
+    padding: 13px 12px 17px 12px;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-beneficios-mt .mudou-vida .swiper-slide {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+  }
+}
+
+.page-beneficios-mt .mudou-vida .swiper-slide iframe {
+  margin-bottom: 17px;
+  height: 150px;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .mudou-vida .swiper-slide iframe {
+    margin-bottom: 5px;
+  }
+}
+
+.page-beneficios-mt .mudou-vida .swiper-slide p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 0;
+  color: #323B50;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .mudou-vida .swiper-slide p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}
+
+.page-beneficios-mt .mudou-vida .swiper-slide-next {
+  padding: 17px 18px 23px 18px;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .mudou-vida .swiper-slide-next {
+    padding: 13px 12px 17px 12px;
+    border: 1px solid #FFFFFF;
+  }
+}
+
+.page-beneficios-mt .mudou-vida .swiper-slide-next iframe {
+  margin-bottom: 21px;
+  height: 185px;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .mudou-vida .swiper-slide-next iframe {
+    height: 150px;
+    margin-bottom: 5px;
+  }
+}
+
+.page-beneficios-mt .mudou-vida .swiper-slide-next p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 0;
+  color: #323B50;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .mudou-vida .swiper-slide-next p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+  }
+}
+
+.page-beneficios-mt .beneficios-pesquisas {
+  padding: 99px 0 76px 0;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .beneficios-pesquisas {
+    padding: 43px 0 48px 0;
+  }
+}
+
+.page-beneficios-mt .beneficios-pesquisas h2 {
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 63px;
+  letter-spacing: -0.02em;
+  color: #323B50;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.page-beneficios-mt .beneficios-pesquisas h2 strong {
+  color: #FFC536;
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .beneficios-pesquisas h2 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 40px;
+  }
+}
+
+.page-beneficios-mt .beneficios-pesquisas p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 0;
+  color: #323B50;
+}
+
+.page-beneficios-mt .beneficios-pesquisas p strong {
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .beneficios-pesquisas p {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+  }
+}
+
+.page-beneficios-mt .beneficios-pesquisas .btn {
+  background: #F29F05;
+  border: 1px solid #F29F05;
+  border-radius: 30px;
+  padding: 9px 31px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-top: 74px;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .beneficios-pesquisas .btn {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 21px;
+  }
+}
+
+.page-beneficios-mt .beneficios-pesquisas .btn:hover {
+  background: transparent;
+  border: 1px solid #F29F05;
+  color: #F29F05;
+}
+
+.page-beneficios-mt .beneficios-pesquisas .row {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.page-beneficios-mt .beneficios-info {
+  padding-top: 26px;
+  padding-bottom: 63px;
+}
+
+.page-beneficios-mt .beneficios-info .info {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.page-beneficios-mt .beneficios-info .info img {
+  margin-right: 21px;
+}
+
+.page-beneficios-mt .beneficios-info .info p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #323B50;
+  max-width: 728px;
+  margin: 0 auto;
 }
 
 .page-instrutor .instrutor-profile {
