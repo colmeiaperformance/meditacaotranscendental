@@ -1210,6 +1210,43 @@ footer .top a {
   }
 }
 
+.page-aprenda-mt .garantia {
+  padding: 43px 0 50px 0;
+  text-align: center;
+}
+
+.page-aprenda-mt .garantia h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: -0.02em;
+  margin-bottom: 25px;
+  color: #FFC536;
+  text-align: center;
+}
+
+.page-aprenda-mt .garantia img {
+  margin-bottom: 18px;
+}
+
+.page-aprenda-mt .garantia p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  color: #323B50;
+  text-align: left;
+}
+
+.page-aprenda-mt .garantia p strong {
+  font-weight: 700;
+}
+
+.page-aprenda-mt .garantia p span {
+  font-weight: 700;
+  color: #FFC536;
+}
+
 .page-instrutor .instrutor-profile {
   padding: 48px 0 55px 0;
 }

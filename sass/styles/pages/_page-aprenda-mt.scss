@@ -382,4 +382,35 @@
       }
     }
   }
+  .garantia {
+    padding: 43px 0 50px 0;
+    text-align: center;
+    h2 {
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 35px;
+      letter-spacing: -0.02em;
+      margin-bottom: 25px;
+      color: $color-primary-medium;
+      text-align: center;
+    }
+    img {
+      margin-bottom: 18px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: -0.02em;
+      color: $color-secondary-dark;
+      text-align: left;
+      strong {
+        font-weight: 700;
+      }
+      span {
+        font-weight: 700;
+        color: $color-primary-medium;
+      }
+    }
+  }
 }

@@ -62,6 +62,13 @@
       </div>
     </div>
   </section>
+  <section class="garantia d-block d-lg-none">
+    <div class="container">
+      <h2>Garantia</h2>
+      <img src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/garantia.png' ?>" alt="Selo de Garantia">
+      <p>A técnica da MT tem eficácia comprovada e já beneficiou milhões de pessoas em todo o mundo. Por isso, temos a <span>garantia de satisfação</span>, desde que o curso e o acompanhamento sejam cumpridos como orientado. <strong>Pergunte ao seu instrutor para obter detalhes</strong>.</p>
+    </div>
+  </section>
   <section class="mudou-vida">
     <div class="container">
       <h2>Veja como a MT <strong>mudou a vida</strong> deles</h2>
