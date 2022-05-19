@@ -435,7 +435,191 @@
   .tres-passos{
     background: $color-secondary-medium;
     padding: 57px 0 61px 0;
+    @media (max-width: 992px) {
+      padding: 23px 0 28px;
+    }
+    h2 {
+      font-weight: 300;
+      font-size: 54px;
+      line-height: 63px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: $color-white;
+      margin-bottom: 48px;
+      @media (max-width: 992px) {
+        font-size: 30px;
+        line-height: 35px;
+        max-width: 250px;
+        margin: 0 auto;
+        margin-bottom: 24px;
+      }
+      strong {
+        font-weight: 600;
+        color: $color-primary-medium;
+      }
+    }
+    .item {
+      background: rgba(0, 0, 0, 0.07);
+      padding: 25px 0;
+      @media (max-width: 992px) {
+        padding: 19px 0 17px 0;
+      }
+      &:nth-child(odd) {
+        background: rgba(255, 255, 255, 0.09);
+      }
+      span {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $color-secondary-dark;
+        background: $color-secondary-light;
+        margin: 0 30px;
+        @media (max-width: 992px) {
+          font-size: 20px;
+          line-height: 30px;
+          width: 25px;
+          height: 25px;
+          margin: 0 9px 0 0;
+        }
+      }
+      .text {
+        width: calc(100% - 80px - 30px - 30px);
+        h4 {
+          font-weight: 600;
+          font-size: 30px;
+          line-height: 35px;
+          color: $color-secondary-dark;
+          margin-bottom: 5px;
+          @media (max-width: 992px) {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+            color: $color-secondary-dark;
+          }
+        }
+        p {
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 28px;
+          color: $color-white;
+          margin-bottom: 0;
+          @media (max-width: 992px) {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: $color-white;
+          }
+        }
+      }
+    }
+    .btn {
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 30px;
+      color: $color-white;
+      background: $color-primary-dark;
+      border: 1px solid $color-primary-dark;
+      border-radius: 30px;
+      padding: 9px 31px;
+      margin-top: 45px;
+      @media (max-width: 992px) {
+        margin-top: 25px;
+        font-size: 14px;
+        line-height: 16px;;
+      }
+      &:hover {
+        background: transparent;
+        border: 1px solid $color-white;
+        color: $color-white;
+      }
+    }
+    .passos-aprender {
+      background: rgba(0, 0, 0, 0.07);     
+      padding: 17px 0 49px 0;
+      @media (max-width: 992px) {
+        padding: 15px 0 21px 0;
+      }
+      .swiper {
+        padding-left: 30px;
+        @media (max-width: 992px) {
+          padding: 0;
+          cursor: pointer;
+        }
+      }
+      .swiper-slide {
+        @media (max-width: 992px) {
+          text-align: center;
+        }
+        .passo {
+          @media (max-width: 992px) {
+            width: 70%;
+            margin: 0 auto;   
+          }
+        }
+        h5 {
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 28px;
+          color: $color-secondary-dark;
+          margin-bottom: 10px;
+          @media (max-width: 992px)  {
+            font-size: 14px;
+            line-height: 16px;
+          }
+        }
+        p {
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 28px;
+          color: $color-white;
+          margin-bottom: 0;
+          @media (max-width: 992px)  {
+            font-size: 14px;
+            line-height: 16px;
+          }
+        }
+      }
+      .swiper-button-prev {
+        transition: all .3s ease;
+        display: none;
+        @media (max-width: 992px) {
+          display: flex;
+        }
+        &::after {
+          content: '';
+          width: 8px;
+          height: 15px;
+          background-image: url("images/aprenda-mt/prev-m.png");
+        }
+        &:hover {
+          opacity: 0.7;
+        } 
+      }
+      .swiper-button-next {
+        transition: all .3s ease;
+        display: none;
+        @media (max-width: 992px) {
+          display: flex;
+        }
+        &::after {
+          content: '';
+          background-image: url("images/aprenda-mt/next-m.png");
+          width: 8px;
+          height: 15px;
+        }
+        &:hover {
+          opacity: 0.7;
+        } 
+      }
+    }
   }
+  
   .mt-curso {
     padding: 90px 0;
     @media (max-width: 992px) {

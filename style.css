@@ -644,7 +644,7 @@ footer .top a {
 }
 
 .page-agendamento .agendamento-header h2 {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 54px;
   line-height: 63px;
   text-align: center;
@@ -667,7 +667,7 @@ footer .top a {
 }
 
 .page-agendamento .agendamento-header p {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
@@ -727,7 +727,7 @@ footer .top a {
 }
 
 .page-agendamento .agendamento-footer div h2 {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 54px;
   line-height: 63px;
   letter-spacing: -0.02em;
@@ -1331,6 +1331,262 @@ footer .top a {
 .page-aprenda-mt .tres-passos {
   background: #7896C1;
   padding: 57px 0 61px 0;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .tres-passos {
+    padding: 23px 0 28px;
+  }
+}
+
+.page-aprenda-mt .tres-passos h2 {
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 63px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  margin-bottom: 48px;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .tres-passos h2 {
+    font-size: 30px;
+    line-height: 35px;
+    max-width: 250px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+}
+
+.page-aprenda-mt .tres-passos h2 strong {
+  font-weight: 600;
+  color: #FFC536;
+}
+
+.page-aprenda-mt .tres-passos .item {
+  background: rgba(0, 0, 0, 0.07);
+  padding: 25px 0;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .tres-passos .item {
+    padding: 19px 0 17px 0;
+  }
+}
+
+.page-aprenda-mt .tres-passos .item:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.09);
+}
+
+.page-aprenda-mt .tres-passos .item span {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #323B50;
+  background: #D4E2F4;
+  margin: 0 30px;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .tres-passos .item span {
+    font-size: 20px;
+    line-height: 30px;
+    width: 25px;
+    height: 25px;
+    margin: 0 9px 0 0;
+  }
+}
+
+.page-aprenda-mt .tres-passos .item .text {
+  width: calc(100% - 80px - 30px - 30px);
+}
+
+.page-aprenda-mt .tres-passos .item .text h4 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  color: #323B50;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .tres-passos .item .text h4 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #323B50;
+  }
+}
+
+.page-aprenda-mt .tres-passos .item .text p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .tres-passos .item .text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+}
+
+.page-aprenda-mt .tres-passos .btn {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+  background: #F29F05;
+  border: 1px solid #F29F05;
+  border-radius: 30px;
+  padding: 9px 31px;
+  margin-top: 45px;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .tres-passos .btn {
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.page-aprenda-mt .tres-passos .btn:hover {
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+.page-aprenda-mt .tres-passos .passos-aprender {
+  background: rgba(0, 0, 0, 0.07);
+  padding: 17px 0 49px 0;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .tres-passos .passos-aprender {
+    padding: 15px 0 21px 0;
+  }
+}
+
+.page-aprenda-mt .tres-passos .passos-aprender .swiper {
+  padding-left: 30px;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .tres-passos .passos-aprender .swiper {
+    padding: 0;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .tres-passos .passos-aprender .swiper-slide {
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .tres-passos .passos-aprender .swiper-slide .passo {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+.page-aprenda-mt .tres-passos .passos-aprender .swiper-slide h5 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #323B50;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .tres-passos .passos-aprender .swiper-slide h5 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.page-aprenda-mt .tres-passos .passos-aprender .swiper-slide p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .tres-passos .passos-aprender .swiper-slide p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.page-aprenda-mt .tres-passos .passos-aprender .swiper-button-prev {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .tres-passos .passos-aprender .swiper-button-prev {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.page-aprenda-mt .tres-passos .passos-aprender .swiper-button-prev::after {
+  content: '';
+  width: 8px;
+  height: 15px;
+  background-image: url("images/aprenda-mt/prev-m.png");
+}
+
+.page-aprenda-mt .tres-passos .passos-aprender .swiper-button-prev:hover {
+  opacity: 0.7;
+}
+
+.page-aprenda-mt .tres-passos .passos-aprender .swiper-button-next {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .tres-passos .passos-aprender .swiper-button-next {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.page-aprenda-mt .tres-passos .passos-aprender .swiper-button-next::after {
+  content: '';
+  background-image: url("images/aprenda-mt/next-m.png");
+  width: 8px;
+  height: 15px;
+}
+
+.page-aprenda-mt .tres-passos .passos-aprender .swiper-button-next:hover {
+  opacity: 0.7;
 }
 
 .page-aprenda-mt .mt-curso {
@@ -2118,7 +2374,7 @@ footer .top a {
 
 .instrutor-depoimentos .depoimento p {
   font-style: italic;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 24px;
   line-height: 33px;
   color: #FFFFFF;
@@ -2249,7 +2505,7 @@ footer .top a {
 }
 
 .page-instrutores .instrutores-header h2 {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 54px;
   line-height: 63px;
   text-align: center;
@@ -2272,7 +2528,7 @@ footer .top a {
 }
 
 .page-instrutores .instrutores-header p {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
@@ -2332,7 +2588,7 @@ footer .top a {
 }
 
 .page-instrutores .instrutores-footer div h2 {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 54px;
   line-height: 63px;
   letter-spacing: -0.02em;
@@ -3353,7 +3609,7 @@ footer .top a {
 }
 
 .como-aprender p {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 24px;
   line-height: 30px;
   letter-spacing: -0.02em;
@@ -3949,7 +4205,7 @@ footer .top a {
 }
 
 .o-que-dizem p {
-  font-weight: 200;
+  font-weight: 300;
   line-height: 24px;
   letter-spacing: -0.02em;
   color: #323B50;
@@ -3977,7 +4233,7 @@ footer .top a {
 }
 
 .o-que-dizem .btn {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 24px;
   background-color: #FFFFFF;
   color: #F29F05;
@@ -4248,7 +4504,7 @@ footer .top a {
 }
 
 .transcender p {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 24px;
   line-height: 30px;
   letter-spacing: -0.02em;
@@ -4337,7 +4593,7 @@ footer .top a {
 
 .mt-unica-depoimentos .depoimento p {
   font-style: italic;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 24px;
   line-height: 33px;
   text-align: center;
@@ -4677,7 +4933,7 @@ footer .top a {
 
 .mt-unica .mt-unica-title h3 {
   font-style: normal;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 54px;
   line-height: 63px;
   letter-spacing: -0.02em;
