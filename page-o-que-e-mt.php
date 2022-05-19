@@ -11,7 +11,7 @@
     <div class="container">
       <div class="row d-flex align-items-end justify-content-center">
         <div class="col-12 col-lg-5 text-center pe-lg-4">
-          <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/mt.png' ?> alt="mt.">
+          <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/mt.png' ?> alt="mt.">
         </div>
         <div class="col-12 col-lg-7">
           <p>A <strong>Meditação Transcendental®</strong> atua na redução do estresse e da ansiedade, pois leva a mente para níveis mais aquietados. Nenhuma crença ou expectativa é necessária para que a prática seja eficaz à promoção da saúde mental e física.</p>
@@ -54,7 +54,7 @@
   </section>
   <section class="o-que-e-mt-diferente position-relative">
     <div class="mundo-melhor-topo">
-      <img src="<?php echo get_template_directory_uri() . '/images/o-que-e-mt/mt-diferente-mobile.png' ?>" alt="mt.">
+      <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/o-que-e-mt/mt-diferente-mobile.png' ?>" alt="mt.">
     </div>
     <div class="container">
       <div class="row align-items-center justify-content-start">
@@ -76,12 +76,12 @@
       <h3>A prática regular da MT:</h3>
       <div class="row d-flex align-items-end justify-content-center">
         <div class="col-12 col-lg-5 d-none d-lg-block">
-          <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/cerebro.png' ?> alt="Cérebro">
+          <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/cerebro.png' ?> alt="Cérebro">
         </div>
         <div class="col-12 col-lg-7">
           <p>Nosso cérebro age como se estivéssemos em constante perigo, ativando mais a função da amígdala, área do cérebro responsável pelo medo e pelos instintos, prejudicando nossa saúde.</p>
           <div class="d-block d-lg-none text-center">
-            <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/cerebro.png' ?> alt="Cérebro">
+            <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/cerebro.png' ?> alt="Cérebro">
           </div>
           <p><strong>A prática regular da MT aumenta a atividade do córtex pré-frontal</strong> (região cérebro responsável por decisões, foco, inteligência e criatividade); </p>
           <p><strong>Reduz a atividade da amígdala</strong>, dando mais equilíbrio emocional ao dia a dia.</p>
@@ -105,16 +105,16 @@
         <div class="col-12 col-lg-6 px-5 pe-lg-2 mb-4 mb-lg-0">
           <div class="row d-flex align-items-center justify-content-center">
             <div class="col-6 d-flex align-items-center justify-content-center ps-2 pe-2">
-              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
+              <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
             </div>
             <div class="col-6 d-flex align-items-center justify-content-center ps-2 pe-2">
-              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
+              <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
             </div>
             <div class="col-6 d-flex align-items-center justify-content-center ps-2 pe-2">
-              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
+              <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
             </div>
             <div class="col-6 d-flex align-items-center justify-content-center ps-2 pe-2">
-              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
+              <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
             </div>
           </div>
         </div>
@@ -136,7 +136,7 @@
         <div class="swiper-wrapper">
           <div class="book swiper-slide">
             <div class="d-lg-flex align-items-start justify-content-center text-center text-lg-end">
-              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/book.png' ?> alt="Book">
+              <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/book.png' ?> alt="Book">
               <div>
                 <h5>Meditação Transcendental com perguntas e respostas</h5>
                 <div class="mb-3">
@@ -151,7 +151,7 @@
           </div>
           <div class="book swiper-slide">
             <div class="d-lg-flex align-items-start justify-content-center text-center text-lg-end">
-              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/book.png' ?> alt="Book">
+              <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/book.png' ?> alt="Book">
               <div>
                 <h5>Meditação Transcendental com perguntas e respostas</h5>
                 <div class="mb-3">
@@ -166,7 +166,7 @@
           </div>
           <div class="book swiper-slide">
             <div class="d-lg-flex align-items-start justify-content-center text-center text-lg-end">
-              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/book.png' ?> alt="Book">
+              <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/book.png' ?> alt="Book">
               <div>
                 <h5>Meditação Transcendental com perguntas e respostas</h5>
                 <div class="mb-3">

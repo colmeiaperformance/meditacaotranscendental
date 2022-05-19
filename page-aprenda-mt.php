@@ -133,7 +133,7 @@
 
             <div class="swiper-slide">
               <div class="text-center">
-                <img src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/acompanhamento.png' ?>" alt="Acompanhamento pós-curso">
+                <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/acompanhamento.png' ?>" alt="Acompanhamento pós-curso">
               </div>
               <div class="content">
                 <h4>Acompanhamento<br/> pós-curso</h4>
@@ -143,7 +143,7 @@
 
             <div class="swiper-slide">
               <div class="text-center">
-                <img src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/meditacao.png' ?>" alt="Meditação coletiva">
+                <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/meditacao.png' ?>" alt="Meditação coletiva">
               </div>
               <div class="content">
                 <h4>Meditação<br/> coletiva</h4>
@@ -153,7 +153,7 @@
 
             <div class="swiper-slide">
               <div class="text-center">
-                <img src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/residencial.png' ?>" alt="Curso residencial">
+                <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/residencial.png' ?>" alt="Curso residencial">
               </div>
               <div class="content">
                 <h4>Curso <br />residencial</h4>
@@ -163,7 +163,7 @@
 
             <div class="swiper-slide">
               <div class="text-center">
-                <img src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/conhecimento.png' ?>" alt="Universo de conhecimento">
+                <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/conhecimento.png' ?>" alt="Universo de conhecimento">
               </div>
               <div class="content">
                 <h4>Universo de<br />conhecimento</h4>
@@ -178,7 +178,7 @@
       </div>
 
       <div class="text-center mb-2 mb-lg-3">
-        <img src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/separador.png' ?>" alt="Separador">
+        <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/separador.png' ?>" alt="Separador">
       </div>
       <p>Somente instrutores certificados e credenciados pela Associação Internacional de Meditação (SIM) podem ensinar a autêntica técnica de MT.</p>
       <p>Essa é a sua <strong>garantia de receber a verdadeira técnica</strong> ensinada há mais de 60 anos, com base no conhecimento puro da Ciência Védica.</p>
@@ -189,7 +189,7 @@
   </section>
   <section class="aprenda-mt-investir position-relative">
     <div class="aprenda-mt-investir-topo">
-      <img src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/investir-mobile.png' ?>" alt="Investir">
+      <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/investir-mobile.png' ?>" alt="Investir">
     </div>
     <div class="container">
       <div class="aprenda-mt-investir-bg position-absolute"></div>
@@ -207,7 +207,7 @@
   <section class="garantia d-block d-lg-none">
     <div class="container">
       <h2>Garantia</h2>
-      <img src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/garantia.png' ?>" alt="Selo de Garantia">
+      <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/garantia.png' ?>" alt="Selo de Garantia">
       <p>A técnica da MT tem eficácia comprovada e já beneficiou milhões de pessoas em todo o mundo. Por isso, temos a <span>garantia de satisfação</span>, desde que o curso e o acompanhamento sejam cumpridos como orientado. <strong>Pergunte ao seu instrutor para obter detalhes</strong>.</p>
     </div>
   </section>

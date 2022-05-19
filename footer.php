@@ -35,7 +35,7 @@
       <div class="col-12 col-lg-8 social p-lg-0">
         <div class="logo text-center">
           <a href="<?php home_url(); ?>">
-            <img src=<?php echo get_template_directory_uri() . '/images/footer/logo-footer.png' ?> alt="Logotipo">  
+            <img loading="lazy" src=<?php echo get_template_directory_uri() . '/images/footer/logo-footer.png' ?> alt="Logotipo">  
           </a>
           <div class="copyright d-none d-lg-block">
             <p>© 2022 Meditação Transcendental. Todos os direitos reservados.</p>
@@ -53,12 +53,12 @@
         <ul class="list-unstyled d-flex align-items-center justify-content-center justify-content-lg-start">
           <li>
             <a href="<?php home_url(); ?>">
-              <img src=<?php echo get_template_directory_uri() . '/images/footer/icon-facebook.png' ?> alt="Facebook">  
+              <img loading="lazy" src=<?php echo get_template_directory_uri() . '/images/footer/icon-facebook.png' ?> alt="Facebook">  
             </a>
           </li>
           <li>
             <a href="<?php home_url(); ?>">
-              <img src=<?php echo get_template_directory_uri() . '/images/footer/icon-instagram.png' ?> alt="Instagram">  
+              <img loading="lazy" src=<?php echo get_template_directory_uri() . '/images/footer/icon-instagram.png' ?> alt="Instagram">  
             </a>
           </li>
         </ul>
@@ -67,7 +67,7 @@
             <p>Meditação Transcendental, MT ® são marcas registradas protegidas e usadas apenas sob licença ou permissão.</p>
         </div>
         <div class="colmeia d-flex align-items-center justify-content-center justify-content-lg-start">
-          <p>Criado por</p> <a href="https://colmeiaperformance.com.br/"><img src=<?php echo get_template_directory_uri() . '/images/footer/logo-colmeia.png' ?> alt="Colmeia"></a>
+          <p>Criado por</p> <a href="https://colmeiaperformance.com.br/"><img loading="lazy" src=<?php echo get_template_directory_uri() . '/images/footer/logo-colmeia.png' ?> alt="Colmeia"></a>
         </div>
       </div>
 

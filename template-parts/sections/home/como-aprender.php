@@ -5,7 +5,7 @@
 
       <div class="col-12 col-lg-6 d-block d-lg-flex">
         <div class="col-12 col-lg-4 d-flex align-items-start justify-content-center">
-          <img class="img-fluid como-aprender-img" src=<?php echo get_template_directory_uri() . '/images/aprenda-mt/icon-arvore.png' ?>
+          <img loading="lazy" class="img-fluid como-aprender-img" src=<?php echo get_template_directory_uri() . '/images/aprenda-mt/icon-arvore.png' ?>
             alt="Aprenda MT">
         </div>
         <div class="col-12 col-lg-8 como-aprender-texto mb-4">

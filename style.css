@@ -2157,7 +2157,6 @@ footer .top a {
 }
 
 .page-instrutor .instrutor-profile .instrutor-picture img {
-  height: 100vh;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;

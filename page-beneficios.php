@@ -89,16 +89,16 @@
         <div class="col-12 col-lg-6 px-5 pe-lg-2 mb-4 mb-lg-0">
           <div class="row d-flex align-items-center justify-content-center">
             <div class="col-6 d-flex align-items-center justify-content-center ps-2 pe-2">
-              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
+              <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
             </div>
             <div class="col-6 d-flex align-items-center justify-content-center ps-2 pe-2">
-              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
+              <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
             </div>
             <div class="col-6 d-flex align-items-center justify-content-center ps-2 pe-2">
-              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
+              <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
             </div>
             <div class="col-6 d-flex align-items-center justify-content-center ps-2 pe-2">
-              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
+              <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?> alt="Instrutores">
             </div>
           </div>
         </div>
@@ -116,7 +116,7 @@
   <section class="beneficios-info">
     <div class="container">
       <div class="info d-flex align-items-center">
-      <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/info.png' ?> alt="Info">
+      <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/info.png' ?> alt="Info">
       <p>A Meditação Transcendental não pretende ser um substituto para o tratamento médico especializado. Busque sempre um profissional qualificado para receber seu diagnóstico e orientações sobre qualquer condição de saúde.</p>
     </div>
     </div>

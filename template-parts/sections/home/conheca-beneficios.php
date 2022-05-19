@@ -5,7 +5,7 @@
       <div class="col-12 col-lg-3 d-flex align-items-center justify-content-center p-0">
         <div class="box rounded-circle text-center">
           <div class="default">
-              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/beneficios/mental.png' ?>
+              <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/beneficios/mental.png' ?>
             alt="Benefícios: Saúde Mental">
               <h4>Saúde Mental</h4>
               <span>+</span>
@@ -23,7 +23,7 @@
       <div class="col-12 col-lg-3 d-flex align-items-center justify-content-center p-0">
          <div class="box rounded-circle text-center">
           <div class="default">
-              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/beneficios/fisica.png' ?>
+              <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/beneficios/fisica.png' ?>
               alt="Benefícios: Saúde Mental">
             <h4>Saúde Física</h4>
             <span>+</span>
@@ -41,7 +41,7 @@
       <div class="col-12 col-lg-3 d-flex align-items-center justify-content-center p-0">
          <div class="box rounded-circle text-center">
           <div class="default">
-            <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/beneficios/emocional.png' ?>
+            <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/beneficios/emocional.png' ?>
               alt="Benefícios: Saúde Mental">
             <h4>Inteligência emocional</h4>
             <span>+</span>
@@ -59,7 +59,7 @@
       <div class="col-12 col-lg-3 d-flex align-items-center justify-content-center p-0">
          <div class="box box-last rounded-circle text-center">
           <div class="default">
-              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/beneficios/potencia.png' ?>
+              <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/beneficios/potencia.png' ?>
             alt="Benefícios: Saúde Mental">
             <h4>Potencial Mental</h4>
             <span>+</span>
