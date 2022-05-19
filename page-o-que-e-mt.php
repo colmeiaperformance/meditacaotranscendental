@@ -72,19 +72,17 @@
   <section class="o-que-e-mt-atua">
     <div class="container">
       <h2>Como a MT atua no <strong>cérebro</strong>?</h2>
-      <p>O acúmulo de estresse e de ansiedade faz com que nosso cérebro entenda que estamos em constante perigo. Isso afeta nossa capacidade de pensar e agir e aumenta a produção de hormônios, como o cortisol, que prejudicam nossa saúde.</p>
-      <h3>A prática regular da MT:</h3>
-      <div class="row d-flex align-items-end justify-content-center">
-        <div class="col-12 col-lg-5 d-none d-lg-block">
+      <h3>O acúmulo de estresse e de ansiedade faz com que nosso cérebro entenda que estamos em constante perigo. Isso afeta nossa capacidade de pensar e agir e aumenta a produção de hormônios, como o cortisol, que prejudicam nossa saúde.</h3>
+      <h4>A prática regular da MT:</h4>
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-lg-4 d-flex align-items-start mt-md-4">
+          <p><strong>Aumenta</strong> a atividade do <span>córtex pré-frontal</span>, responsável pelas decisões, foco e criatividade.</p>
+        </div>
+         <div class="col-12 col-lg-4 d-flex align-items-start justify-content-center">
           <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/cerebro.png' ?> alt="Cérebro">
         </div>
-        <div class="col-12 col-lg-7">
-          <p>Nosso cérebro age como se estivéssemos em constante perigo, ativando mais a função da amígdala, área do cérebro responsável pelo medo e pelos instintos, prejudicando nossa saúde.</p>
-          <div class="d-block d-lg-none text-center">
-            <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/cerebro.png' ?> alt="Cérebro">
-          </div>
-          <p><strong>A prática regular da MT aumenta a atividade do córtex pré-frontal</strong> (região cérebro responsável por decisões, foco, inteligência e criatividade); </p>
-          <p><strong>Reduz a atividade da amígdala</strong>, dando mais equilíbrio emocional ao dia a dia.</p>
+        <div class="col-12 col-lg-4 d-flex align-items-end mb-md-4"> 
+          <p><strong>Diminui</strong> a atividade da área responsável pelo medo e instintos: a <span>amígdala</span>.</p>
         </div>
       </div>
     </div>

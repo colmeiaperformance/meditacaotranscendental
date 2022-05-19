@@ -1095,12 +1095,6 @@ footer .top a {
   }
 }
 
-@media (max-width: 640px) {
-  .page-aprenda-mt .mudou-vida h2 {
-    margin-bottom: 0;
-  }
-}
-
 .page-aprenda-mt .mudou-vida .swiper-button-prev {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
@@ -1180,6 +1174,14 @@ footer .top a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (max-width: 640px) {
+  .page-aprenda-mt .mudou-vida .swiper-wrapper {
+    -webkit-box-align: normal;
+        -ms-flex-align: normal;
+            align-items: normal;
+  }
 }
 
 @media (max-width: 640px) {
@@ -3050,13 +3052,8 @@ footer .top a {
   line-height: 63px;
   letter-spacing: -0.02em;
   color: #323B50;
-  margin-bottom: 65px;
+  margin-bottom: 36px;
   text-align: center;
-}
-
-.page-o-que-e-mt .o-que-e-mt-atua h2 strong {
-  font-weight: 600;
-  color: #FFC536;
 }
 
 @media (max-width: 992px) {
@@ -3067,35 +3064,52 @@ footer .top a {
   }
 }
 
-.page-o-que-e-mt .o-que-e-mt-atua p {
+.page-o-que-e-mt .o-que-e-mt-atua h2 strong {
+  font-weight: 600;
+  color: #FFC536;
+}
+
+.page-o-que-e-mt .o-que-e-mt-atua h3 {
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
   color: #323B50;
-  margin-bottom: 44px;
+  margin-bottom: 38px;
+}
+
+@media (max-width: 992px) {
+  .page-o-que-e-mt .o-que-e-mt-atua h3 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.page-o-que-e-mt .o-que-e-mt-atua h4 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  color: #323B50;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.page-o-que-e-mt .o-que-e-mt-atua p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 0;
+  color: #323B50;
 }
 
 .page-o-que-e-mt .o-que-e-mt-atua p strong {
-  font-weight: 600;
+  font-weight: 700;
 }
 
-@media (max-width: 992px) {
-  .page-o-que-e-mt .o-que-e-mt-atua p {
-    font-size: 14px;
-    line-height: 16px;
-    margin-bottom: 19px;
-  }
-}
-
-.page-o-que-e-mt .o-que-e-mt-atua img {
-  margin-bottom: 44px;
-}
-
-@media (max-width: 992px) {
-  .page-o-que-e-mt .o-que-e-mt-atua img {
-    margin: 29px 0 20px 0;
-    max-width: 200px;
-  }
+.page-o-que-e-mt .o-que-e-mt-atua p span {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #F29F05;
 }
 
 .page-o-que-e-mt .o-que-e-mt-imagine {

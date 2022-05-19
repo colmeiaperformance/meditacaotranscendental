@@ -291,7 +291,7 @@
       slidesPerView: 1,
       slidesPerGroup: 1,
       loop: false,
-      spaceBetween: 10,
+      spaceBetween: 0,
       grabCursor: true,
       pagination: {
         el: ".swiper-pagination",
