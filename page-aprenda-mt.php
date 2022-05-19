@@ -290,7 +290,7 @@
     var swiper = new Swiper(".swiperMudouVida", {
       slidesPerView: 1,
       slidesPerGroup: 1,
-      loop: true,
+      loop: false,
       spaceBetween: 10,
       grabCursor: true,
       pagination: {
@@ -326,9 +326,9 @@
     var swiper = new Swiper(".atividadesSwiper", {
       slidesPerView: 1,
       slidesPerGroup: 1,
-      loop: true,
+      loop: false,
       spaceBetween: 0,
-      grabCursor: true,
+      grabCursor: false,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -339,18 +339,18 @@
       },
       breakpoints: {
         640: {
-          slidesPerView: 2,
-          slidesPerGroup: 2,
-          spaceBetween: 10,
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+          spaceBetween: 0,
         },
         768: {
           slidesPerView: 2,
           slidesPerGroup: 2,
-          spaceBetween: 10,
+          spaceBetween: 20,
         },
         992: {
           slidesPerView: 4,
-          slidesPerGroup: 1,
+          slidesPerGroup: 4,
           spaceBetween: 40,
         },
       },

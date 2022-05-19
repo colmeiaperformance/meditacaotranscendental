@@ -31,10 +31,10 @@
         <div class="col-12 col-lg-5">
           <h2>Vamos <strong>conversar?</strong></h2>
           <a href="#" class="btn">Fale comigo no Whatsapp</a>
-          <div class="instrutor-social d-grid mt-5">
+          <!-- <div class="instrutor-social d-grid mt-5">
             <div class="d-flex align-items-baseline justify-content-start mb-3"><a href="#"><img src=<?php echo get_template_directory_uri() . '/images/instrutor/instagram.png' ?> alt="Instagram"> @flaviabaptista</a></div>
             <div class="d-flex align-items-baseline justify-content-start mb-3"><a href="#"><img src=<?php echo get_template_directory_uri() . '/images/instrutor/youtube.png' ?> alt="Youtube"> /canalflaviabaptista</a></div>
-          </div>
+          </div> -->
         </div>
         <div class="col-12 col-lg-7">
           <form>
