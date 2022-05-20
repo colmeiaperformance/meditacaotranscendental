@@ -14,6 +14,138 @@
         <p>O principal benefício da MT é a promoção de um descanso muito profundo, que <strong>alivia o estresse e a ansiedade</strong> e nos proporciona <strong>paz interior e bem-estar</strong>.</p>
       </div>
   </section>
+  <section class="mt-faz">
+    <div class="container">
+      <h2>O que a MT <strong>faz por você</strong>?</h2>
+      <div class="row">
+        <div class="col-12 col-lg-6 d-flex align-items-start justify-content-start">
+         <img loading="lazy" class="" src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/up.png' ?> alt="Seta cima">
+         <div>
+            <h3>Aumenta</h3>
+            <ul class="list-unstyled">
+              <li>Energia e vitalidade</li>
+              <li>Disposição física e mental</li>
+              <li>Criatividade e cognição</li>
+              <li>Foco e memória</li>
+              <li>Pensamento ordenado</li>
+              <li>Autoconfiança e autoestima</li>
+              <li>Felicidade e paz interior</li>
+            </ul>
+         </div>
+
+        </div>
+        <div class="col-12 col-lg-6 d-flex align-items-start justify-content-start">
+          <img loading="lazy" class="" src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/down.png' ?> alt="Seta baixo">
+          <div>
+            <h3>Reduz</h3>
+          <ul class="list-unstyled">
+            <li>Estresse e ansiedade</li>
+            <li>Distúrbios do sono</li>
+            <li>Depressão e síndrome do pânico</li>
+            <li>Risco de burnout</li>
+            <li>Déficit de atenção</li>
+            <li>Doenças cardiovasculares</li>
+            <li>Compulsões e vícios</li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="ciencia">
+    <div class="container">
+    <div class="row align-items-center justify-content-center px-5 mx-3">
+      <div class="col-12 col-lg-3 d-flex align-items-center justify-content-center p-0">
+        <div class="box rounded-circle text-center">
+          <div class="default">
+              <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/beneficios/mental.png' ?>
+            alt="Benefícios: Saúde Mental">
+              <h4>Saúde<br /> Mental</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 d-flex align-items-center justify-content-center p-0">
+         <div class="box rounded-circle text-center">
+          <div class="default">
+              <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/beneficios/fisica.png' ?>
+              alt="Benefícios: Saúde Mental">
+            <h4>Saúde<br /> Física</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 d-flex align-items-center justify-content-center p-0">
+         <div class="box rounded-circle text-center">
+          <div class="default">
+            <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/beneficios/emocional.png' ?>
+              alt="Benefícios: Saúde Mental">
+            <h4>Inteligência<br /> emocional</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 d-flex align-items-center justify-content-center p-0">
+         <div class="box box-last rounded-circle text-center">
+          <div class="default">
+              <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/beneficios/potencia.png' ?>
+            alt="Benefícios: Saúde Mental">
+            <h4>Potencial<br /> Mental</h4>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="legend">
+      <p>O Brasil é o país mais ansioso do mundo, segundo a OMS. Também somos o segundo  com o maior nível de estresse: 70% da população ativa já apresentou algum sintoma do problema, de acordo com a Associação Internacional do Controle do Estresse (ISMA).</p>
+      <p>Com a prática da MT, conseguimos reduzir, de forma natural, os quadros de estresse e ansiedade e, consequentemente, diminuir riscos de transtornos mentais, como depressão, síndrome de burnout e do pânico, transtornos de déficit de atenção e estresse pós-traumático, dentre outros.</p>
+    </div>
+ 
+      <h2>O que diz a <strong>ciência</strong>?</h2>
+        <!-- inicio carousel -->
+        <div class="swiper swiperCiencia">
+          <div class="swiper-wrapper">
+            
+            <div class="swiper-slide">
+              <div class="swiper-mobile">
+                <div class="container px-5">
+                  <div class="row d-flex align-items-center justify-content-center px-5">
+                  <div class="col-12 col-lg-4">
+                    <h3>Burnout, insônia e depressão</h3>
+                    <p>Durante a pandemia da covid-19, uma pesquisa mostrou redução do burnout, da depressão e da insônia em médicos que praticavam, regularmente, a MT.</p>
+                  </div>
+                  <div class="col-12 col-lg-8 d-flex align-items-center justify-content-end p-0">
+                    <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/chart.png' ?> alt="Gráfico">
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper-mobile">
+                <div class="container px-5">
+                  <div class="row d-flex align-items-center justify-content-center px-5">
+                  <div class="col-12 col-lg-4">
+                    <h3>Burnout, insônia e depressão</h3>
+                    <p>Durante a pandemia da covid-19, uma pesquisa mostrou redução do burnout, da depressão e da insônia em médicos que praticavam, regularmente, a MT.</p>
+                  </div>
+                  <div class="col-12 col-lg-8 d-flex align-items-center justify-content-end p-0">
+                    <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/chart.png' ?> alt="Gráfico">
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <!-- final carousel -->
+
+        <div class="text-center">
+         <a href="#" class="btn">Encontre um instrutor perto de você</a>
+        </div>
+    </div>
+  </section>
   <section class="mudou-vida">
     <div class="container">
       <h2>O que dizem os praticantes da <strong>MT</strong></h2>
@@ -155,6 +287,25 @@
           slidesPerGroup: 3,
           spaceBetween: 40,
         },
+      },
+    });
+  });
+</script>
+<script>
+  jQuery(document).ready(function() {
+    var swiper = new Swiper(".swiperCiencia", {
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      loop: false,
+      spaceBetween: 0,
+      grabCursor: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
       },
     });
   });

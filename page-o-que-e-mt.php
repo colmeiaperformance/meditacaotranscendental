@@ -21,34 +21,75 @@
   </section>
   <section class="o-que-e-mt-praticamt">
     <div class="container">
-      <div class="row d-flex align-items-baseline justify-content-center">
-        <div class="col-12 col-lg-5">
-          <h2><strong>O que acontece</strong> durante a prática de MT?</h2>
-        </div>
-        <div class="col-12 col-lg-7">
-          <ul class="list-unstyled ps-0">
-            <li>
-              <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
-                Coerência cerebral
-              </button>
-              <div class="collapse" id="home-collapse" style="">
-                <div class="btn-toggle-nav p-4">
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a tincidunt ipsum. Maecenas molestie porttitor augue vel dapibus. Aliquam sit amet consequat orci, ut aliquam lectus. In libero odio, semper a lectus non, faucibus varius nisi. Vivamus ultrices quam maximus, faucibus tellus in, maximus felis. Maecenas tincidunt malesuada sapien, in feugiat risus. Morbi dignissim urna at euismod suscipit. Integer porta ultrices ultricies. Sed vulputate, odio quis fringilla hendrerit, neque velit iaculis dolor, vel pellentesque neque dolor ut tortor. Sed sed sem vitae justo finibus interdum.</p>
-                </div>
+    <div class="row d-flex align-items-baseline justify-content-center">
+      <div class="col-12 col-lg-5">
+        <h2><strong>O que acontece</strong> durante a prática de MT?</h2>
+      </div>
+      <div class="col-12 col-lg-7">
+        <ul class="list-unstyled ps-0">
+          <li>
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+            Coerência cerebral
+            </button>
+            <div class="collapse" id="home-collapse" style="">
+              <div class="btn-toggle-nav p-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a tincidunt ipsum. Maecenas molestie porttitor augue vel dapibus. Aliquam sit amet consequat orci, ut aliquam lectus. In libero odio, semper a lectus non, faucibus varius nisi. Vivamus ultrices quam maximus, faucibus tellus in, maximus felis. Maecenas tincidunt malesuada sapien, in feugiat risus. Morbi dignissim urna at euismod suscipit. Integer porta ultrices ultricies. Sed vulputate, odio quis fringilla hendrerit, neque velit iaculis dolor, vel pellentesque neque dolor ut tortor. Sed sed sem vitae justo finibus interdum.</p>
               </div>
-            </li>
-            <li>
-              <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-                Repouso profundo
-              </button>
-              <div class="collapse" id="dashboard-collapse">
-                <div class="btn-toggle-nav p-4">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a tincidunt ipsum. Maecenas molestie porttitor augue vel dapibus. Aliquam sit amet consequat orci, ut aliquam lectus. In libero odio, semper a lectus non, faucibus varius nisi. Vivamus ultrices quam maximus, faucibus tellus in, maximus felis. Maecenas tincidunt malesuada sapien, in feugiat risus. Morbi dignissim urna at euismod suscipit. Integer porta ultrices ultricies. Sed vulputate, odio quis fringilla hendrerit, neque velit iaculis dolor, vel pellentesque neque dolor ut tortor. Sed sed sem vitae justo finibus interdum.</p>
-                </ul>
-              </div>
-            </li>
-          </ul>
+            </div>
+          </li>
+          <li>
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+            Repouso profundo
+            </button>
+            <div class="collapse" id="dashboard-collapse">
+              <div class="btn-toggle-nav p-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a tincidunt ipsum. Maecenas molestie porttitor augue vel dapibus. Aliquam sit amet consequat orci, ut aliquam lectus. In libero odio, semper a lectus non, faucibus varius nisi. Vivamus ultrices quam maximus, faucibus tellus in, maximus felis. Maecenas tincidunt malesuada sapien, in feugiat risus. Morbi dignissim urna at euismod suscipit. Integer porta ultrices ultricies. Sed vulputate, odio quis fringilla hendrerit, neque velit iaculis dolor, vel pellentesque neque dolor ut tortor. Sed sed sem vitae justo finibus interdum.</p>
+        </ul>
         </div>
+        </li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="o-que-e-mt-meditar">
+    <div class="container">
+      <h2>E se eu não conseguir <strong>meditar</strong>?</h2>
+      <div class="row">
+        <div class="col-12 col-lg-6 text">
+          <p>É comum as pessoas acharem que, por terem uma mente muito ativa ou por serem muito agitadas, não conseguirão meditar ou se sentirão desconfortáveis com a prática.</p>
+          <p>Isso acontece porque, ao contrário  da MT, quase todas as técnicas envolvem algum tipo de concentração e de esforço mental. Entenda as diferenças comprovadas cientificamente.</p>
+          <p><strong>Um estudo publicado na revista internacional Consciousness and Cognition identificou três categorias de meditação:</strong></p>
+        </div>
+        <div class="col-12 col-lg-6 itens">
+          <div class="item" style="background-color: #fff">
+            <div class="content d-flex">
+              <h5>Concentração ou foco</h5>
+              <p>Zen, Vipassana etc.</p>
+            </div>
+          </div>
+          <div class="item" style="background-color: #fff">
+            <div class="content d-flex">
+              <h5>Concentração ou foco</h5>
+              <p>Mindfulness, Kriya Yoga etc.</p>
+            </div>
+          </div>
+          <div class="item" style="background-color: #FFC536">
+            <div class="content d-flex">
+              <h5>
+                <div class="text-white">Autotranscendência</div>
+              </h5>
+              <p><img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/o-que-e-mt/mt-meditar.png' ?>" alt="mt."></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center px-lg-4">
+        <p>Observe as diferenças entre algumas linhas de meditação, com base nas ondas cerebrais registradas por meio de eletroencefalograma (EEG):</p>
+      </div>
+      <div class="table">
+         <div class="row">
+         </div>
       </div>
     </div>
   </section>
@@ -84,7 +125,7 @@
         <div class="col-12 col-lg-4 d-flex align-items-start justify-content-center d-none d-lg-block">
           <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/cerebro.png' ?> alt="Cérebro">
         </div>
-        <div class="col-12 col-lg-4 d-flex align-items-end mb-md-4"> 
+        <div class="col-12 col-lg-4 d-flex align-items-end mb-md-4">
           <p><strong>Diminui</strong> a atividade da área responsável pelo medo e instintos: a <span>amígdala</span>.</p>
         </div>
       </div>
@@ -100,9 +141,7 @@
   <section class="o-que-e-mt-pesquisas">
     <div class="container">
       <h2>Pesquisas <strong>científicas</strong></h2>
-
       <div class="row d-flex align-items-center justify-content-center">
-
         <div class="col-12 col-lg-6 px-5 pe-lg-2 mb-4 mb-lg-0">
           <div class="row d-flex align-items-center justify-content-center">
             <div class="col-6 d-flex align-items-center justify-content-center ps-2 pe-2">
@@ -122,9 +161,7 @@
         <div class="col-12 col-lg-6 ps-2">
           <p>Mais de <strong>600 estudos científicos</strong> foram conduzidos em mais de 200 universidades e escolas de medicina e por renomados institutos de pesquisa. Os resultados foram publicados em mais de 160 periódicos e revistas científicas, com revisão por pares.</p>
         </div>
-
       </div>
-
       <div class="text-center">
         <a href="#" class="btn" role="btn">Conheça as principais publicações</a>
       </div>

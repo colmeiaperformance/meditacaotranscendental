@@ -1803,6 +1803,44 @@ footer .top a {
   color: #FFC536;
 }
 
+.page-beneficios-mt .mt-faz {
+  background: #7896C1;
+  padding: 60px 0 70px 0;
+}
+
+.page-beneficios-mt .mt-faz h2 {
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 53px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.page-beneficios-mt .mt-faz h2 strong {
+  font-weight: 600;
+  color: #FFC536;
+}
+
+.page-beneficios-mt .mt-faz h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 44px;
+  color: #FFC536;
+}
+
+.page-beneficios-mt .mt-faz ul li {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 42px;
+  color: #FFFFFF;
+}
+
+.page-beneficios-mt .mt-faz img {
+  margin-right: 15px;
+}
+
 .page-beneficios-mt .mudou-vida {
   padding: 80px 0 42px 0;
   background: #FFC536;
@@ -2154,6 +2192,236 @@ footer .top a {
   color: #323B50;
   max-width: 728px;
   margin: 0 auto;
+}
+
+.page-beneficios-mt .ciencia {
+  padding: 90px 0 83px 0;
+}
+
+.page-beneficios-mt .ciencia h2 {
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 63px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #323B50;
+  margin-bottom: 44px;
+  margin-top: 50px;
+}
+
+.page-beneficios-mt .ciencia h2 strong {
+  font-weight: 600;
+  color: #FFC536;
+}
+
+.page-beneficios-mt .ciencia .btn {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+  padding: 9px 31px;
+  background: #F29F05;
+  border: 1px solid #F29F05;
+  border-radius: 30px;
+  margin-top: 74px;
+}
+
+.page-beneficios-mt .ciencia .btn:hover {
+  background: transparent;
+  color: #F29F05;
+}
+
+.page-beneficios-mt .ciencia .swiper-slide h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  color: #323B50;
+  margin-bottom: 40px;
+}
+
+.page-beneficios-mt .ciencia .swiper-slide p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #323B50;
+  margin-bottom: 0;
+}
+
+.page-beneficios-mt .ciencia .swiper-button-prev {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  left: 0;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .ciencia .swiper-button-prev {
+    left: -10px;
+  }
+}
+
+.page-beneficios-mt .ciencia .swiper-button-prev::after {
+  content: '';
+  background-image: url("images/beneficios-mt/prev-yellow.png");
+  width: 24px;
+  height: 44px;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .ciencia .swiper-button-prev::after {
+    width: 8px;
+    height: 15px;
+    background-image: url("images/beneficios-mt/prev-yellow-m.png");
+  }
+}
+
+.page-beneficios-mt .ciencia .swiper-button-prev:hover {
+  opacity: 0.7;
+}
+
+.page-beneficios-mt .ciencia .swiper-button-next {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  right: 0;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .ciencia .swiper-button-next {
+    right: -9px;
+  }
+}
+
+.page-beneficios-mt .ciencia .swiper-button-next::after {
+  content: '';
+  background-image: url("images/beneficios-mt/next-yellow.png");
+  width: 24px;
+  height: 44px;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .ciencia .swiper-button-next::after {
+    background-image: url("images/beneficios-mt/next-yellow-m.png");
+    width: 8px;
+    height: 15px;
+  }
+}
+
+.page-beneficios-mt .ciencia .swiper-button-next:hover {
+  opacity: 0.7;
+}
+
+.page-beneficios-mt .ciencia .box.box-last::before {
+  display: none;
+}
+
+.page-beneficios-mt .ciencia .box.box-last::after {
+  display: none;
+}
+
+.page-beneficios-mt .ciencia .box {
+  background: #D4E2F4;
+  width: 200px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-beneficios-mt .ciencia .box:hover {
+  background: #FFC536;
+}
+
+.page-beneficios-mt .ciencia .box:active {
+  background: #FFC536;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .ciencia .box {
+    width: 190px;
+    height: 190px;
+    padding: 20px 15px 0 15px;
+    margin-bottom: 20px;
+  }
+}
+
+.page-beneficios-mt .ciencia .box::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  height: 20px;
+  width: 10px;
+  margin-left: calc(50% - 21px);
+  background: #D4E2F4;
+  display: none;
+  top: 100%;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .ciencia .box::after {
+    display: block;
+  }
+}
+
+.page-beneficios-mt .ciencia .box::before {
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 100%;
+  background: #D4E2F4;
+  bottom: calc(50% - 10px / 2);
+  z-index: -1;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .ciencia .box::before {
+    display: none;
+  }
+}
+
+.page-beneficios-mt .ciencia .box img {
+  margin-bottom: 13px;
+  max-width: 76px;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .ciencia .box img {
+    max-width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+}
+
+.page-beneficios-mt .ciencia .box h4 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+  color: #323B50;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .ciencia .box h4 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    line-height: 22px;
+  }
+}
+
+.page-beneficios-mt .ciencia .legend {
+  margin-top: 78px;
+}
+
+.page-beneficios-mt .ciencia .legend p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #323B50;
+  margin-bottom: 40px;
 }
 
 .page-instrutor .instrutor-profile {
@@ -3464,6 +3732,122 @@ footer .top a {
   background: transparent;
   border: 1px solid #F29F05;
   color: #F29F05;
+}
+
+.page-o-que-e-mt .o-que-e-mt-meditar {
+  padding: 100px 0;
+}
+
+@media (max-width: 992px) {
+  .page-o-que-e-mt .o-que-e-mt-meditar {
+    padding: 26px 0 40px 0;
+  }
+}
+
+.page-o-que-e-mt .o-que-e-mt-meditar h2 {
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 63px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #323B50;
+  margin-bottom: 49px;
+}
+
+@media (max-width: 992px) {
+  .page-o-que-e-mt .o-que-e-mt-meditar h2 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+}
+
+.page-o-que-e-mt .o-que-e-mt-meditar h2 strong {
+  font-weight: 600;
+  color: #FFC536;
+}
+
+.page-o-que-e-mt .o-que-e-mt-meditar .text p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #323B50;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+@media (max-width: 992px) {
+  .page-o-que-e-mt .o-que-e-mt-meditar .text p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 18px;
+    margin-top: 0;
+  }
+}
+
+.page-o-que-e-mt .o-que-e-mt-meditar .text p strong {
+  font-weight: 600;
+}
+
+.page-o-que-e-mt .o-que-e-mt-meditar .itens .item {
+  border: 2px solid #FFC536;
+  border-radius: 100px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-o-que-e-mt .o-que-e-mt-meditar .itens .item .content {
+  padding: 16px 35px 16px 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.page-o-que-e-mt .o-que-e-mt-meditar .itens .item h5 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #323B50;
+  position: relative;
+  max-width: 200px;
+  margin: 0 auto;
+  padding-right: 15px;
+}
+
+.page-o-que-e-mt .o-que-e-mt-meditar .itens .item p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  padding-left: 24px;
+  max-width: 200px;
+  margin: 0 auto;
+  border-left: 1px solid #FFC536;
+}
+
+.page-o-que-e-mt .o-que-e-mt-meditar p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #323B50;
+  margin-bottom: 35px;
+  margin-top: 77px;
+}
+
+@media (max-width: 992px) {
+  .page-o-que-e-mt .o-que-e-mt-meditar p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
 }
 
 /************************************/

@@ -507,4 +507,94 @@
       }
     }
   }
+  .o-que-e-mt-meditar {
+    padding: 100px 0;
+    @media (max-width: 992px) {
+      padding: 26px 0 40px 0;
+    }
+    h2 {
+      font-weight: 300;
+      font-size: 54px;
+      line-height: 63px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: $color-secondary-dark;
+      margin-bottom: 49px;
+      @media (max-width: 992px) {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 20px;
+      }
+      strong {
+        font-weight: 600;
+        color: $color-primary-medium;
+      }
+    }
+    .text {
+      p {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: $color-secondary-dark;
+        margin-bottom: 30px;
+        margin-top: 0;
+        @media (max-width: 992px)  {
+          font-size: 14px;
+          line-height: 16px;
+          margin-bottom: 18px;
+          margin-top: 0;
+        }
+        strong {
+          font-weight: 600;
+        }
+      }
+    }
+    .itens {
+      .item {
+        border: 2px solid $color-primary-medium;
+        border-radius: 100px;
+        margin-bottom: 30px;
+        display: flex;
+        .content {
+          padding: 16px 35px 16px 45px;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+        }
+        h5 {
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 28px;
+          color: $color-secondary-dark;
+          position: relative;
+          max-width: 200px;
+          margin: 0 auto;
+          padding-right: 15px;
+        }
+        p {
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 28px;
+          padding-left: 24px;
+          max-width: 200px;
+          margin: 0 auto;
+          border-left: 1px solid #FFC536;
+        }
+      }
+    }
+    p {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      color: $color-secondary-dark;
+      margin-bottom: 35px;
+      margin-top: 77px;
+      @media (max-width: 992px)  {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+      }
+    }
+  }
 }
