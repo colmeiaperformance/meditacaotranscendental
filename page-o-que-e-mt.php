@@ -207,25 +207,25 @@
       <div class="row d-flex align-items-center justify-content-center">
         <div class="col-12 col-lg-6 px-5 pe-lg-2 mb-4 mb-lg-0">
           <div class="row d-flex align-items-center justify-content-center">
-            <div class="col-6 d-flex align-items-center justify-content-center ps-2 pe-2">
+            <div class="col-6 d-flex align-items-center justify-content-start ps-2 pe-2">
               <img loading="lazy" class="img-fluid"
                 src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?>
-                alt="Instrutores">
+                alt="Harvard">
             </div>
-            <div class="col-6 d-flex align-items-center justify-content-center ps-2 pe-2">
+            <div class="col-6 d-flex align-items-center justify-content-start ps-2 pe-2">
               <img loading="lazy" class="img-fluid"
-                src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?>
-                alt="Instrutores">
+                src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/yale.png' ?>
+                alt="Instrutoyaleres">
             </div>
-            <div class="col-6 d-flex align-items-center justify-content-center ps-2 pe-2">
+            <div class="col-6 d-flex align-items-center justify-content-start ps-2 pe-2">
               <img loading="lazy" class="img-fluid"
-                src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?>
-                alt="Instrutores">
+                src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/stanford.png' ?>
+                alt="stanford">
             </div>
-            <div class="col-6 d-flex align-items-center justify-content-center ps-2 pe-2">
+            <div class="col-6 d-flex align-items-center justify-content-start ps-2 pe-2">
               <img loading="lazy" class="img-fluid"
-                src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?>
-                alt="Instrutores">
+                src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/nih.png' ?>
+                alt="nih">
             </div>
           </div>
         </div>
@@ -245,8 +245,8 @@
       <h2>Para <strong>saber mais</strong></h2>
       <div id="sabermais" class="swiper swiperSabermais" data-bs-ride="carousel">
         <div class="swiper-wrapper">
-          <div class="book swiper-slide">
-            <div class="d-lg-flex align-items-start justify-content-center text-center text-lg-end">
+          <div class="swiper-slide">
+            <div class="book d-lg-flex align-items-start justify-content-center text-center text-lg-start">
               <img loading="lazy" class="img-fluid"
                 src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/book.png' ?> alt="Book">
               <div>
@@ -254,48 +254,23 @@
                 <div class="mb-3">
                   <p>Mythos Editora</p>
                 </div>
-                <p>A publicação reproduz uma das mais brilhantes palestras proferidas por Maharishi Mahesh Yogi. Na
-                  primeira parte do livro, ele explica minuciosamente a Meditação Transcendental; na segunda, são
-                  apresentadas as mais variadas respostas às perguntas do público presente nos discursos vespertinos
-                  realizados por Maharishi em Londres, entre março de 1960 e ...<a href="#">+ Ler mais</a></p>
+                <p>A publicação reproduz uma das mais brilhantes palestras proferidas por Maharishi Mahesh Yogi. Na primeira parte do livro, ele explica minuciosamente a Meditação Transcendental; na segunda, são apresentadas as mais variadas respostas às perguntas do público presente nos discursos vespertinos realizados por Maharishi em Londres, entre março de 1960 e ...<a href="#">+ Ler mais</a></p>
                 <div class="d-block d-md-none">
                   <a href="#">+ Ler mais</a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="book swiper-slide">
-            <div class="d-lg-flex align-items-start justify-content-center text-center text-lg-end">
+          <div class="swiper-slide">
+            <div class="book d-lg-flex align-items-start justify-content-center text-center text-lg-start">
               <img loading="lazy" class="img-fluid"
-                src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/book.png' ?> alt="Book">
+                src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/book2.png' ?> alt="Book">
               <div>
-                <h5>Meditação Transcendental com perguntas e respostas</h5>
+                <h5>Um Oceano Ilimitado de Consciência: Respostas Simples para as Grandes Questões da Vida</h5>
                 <div class="mb-3">
-                  <p>Mythos Editora</p>
+                  <p>Gryphus Editora</p>
                 </div>
-                <p>A publicação reproduz uma das mais brilhantes palestras proferidas por Maharishi Mahesh Yogi. Na
-                  primeira parte do livro, ele explica minuciosamente a Meditação Transcendental; na segunda, são
-                  apresentadas as mais variadas respostas às perguntas do público presente nos discursos vespertinos
-                  realizados por Maharishi em Londres, entre março de 1960 e ...<a href="#">+ Ler mais</a></p>
-                <div class="d-block d-md-none">
-                  <a href="#">+ Ler mais</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="book swiper-slide">
-            <div class="d-lg-flex align-items-start justify-content-center text-center text-lg-end">
-              <img loading="lazy" class="img-fluid"
-                src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/book.png' ?> alt="Book">
-              <div>
-                <h5>Meditação Transcendental com perguntas e respostas</h5>
-                <div class="mb-3">
-                  <p>Mythos Editora</p>
-                </div>
-                <p>A publicação reproduz uma das mais brilhantes palestras proferidas por Maharishi Mahesh Yogi. Na
-                  primeira parte do livro, ele explica minuciosamente a Meditação Transcendental; na segunda, são
-                  apresentadas as mais variadas respostas às perguntas do público presente nos discursos vespertinos
-                  realizados por Maharishi em Londres, entre março de 1960 e ...<a href="#">+ Ler mais</a></p>
+                <p>Neste livro, o Dr. Tony Nader propõe soluções profundas para questões que há muito fascinam e intrigam filósofos e cientistas. O que é Consciência? Temos liberdade? Como tirar o me...<a href="#">+ Ler mais</a></p>
                 <div class="d-block d-md-none">
                   <a href="#">+ Ler mais</a>
                 </div>
@@ -313,7 +288,7 @@
         slidesPerView: 1,
         slidesPerGroup: 1,
         loop: true,
-        spaceBetween: 20,
+        spaceBetween: 0,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
@@ -326,17 +301,17 @@
           640: {
             slidesPerView: 1,
             slidesPerGroup: 1,
-            spaceBetween: 20,
+            spaceBetween: 0,
           },
           768: {
             slidesPerView: 2,
             slidesPerGroup: 2,
-            spaceBetween: 10,
+            spaceBetween: 0,
           },
           1024: {
             slidesPerView: 2,
             slidesPerGroup: 2,
-            spaceBetween: 20,
+            spaceBetween: 0,
           },
         },
       });
