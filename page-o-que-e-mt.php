@@ -33,7 +33,7 @@
             </button>
             <div class="collapse" id="home-collapse" style="">
               <div class="btn-toggle-nav p-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a tincidunt ipsum. Maecenas molestie porttitor augue vel dapibus. Aliquam sit amet consequat orci, ut aliquam lectus. In libero odio, semper a lectus non, faucibus varius nisi. Vivamus ultrices quam maximus, faucibus tellus in, maximus felis. Maecenas tincidunt malesuada sapien, in feugiat risus. Morbi dignissim urna at euismod suscipit. Integer porta ultrices ultricies. Sed vulputate, odio quis fringilla hendrerit, neque velit iaculis dolor, vel pellentesque neque dolor ut tortor. Sed sed sem vitae justo finibus interdum.</p>
+                <p>Durante a prática, o cérebro atinge um funcionamento integrado e mais ordenado, permitindo que a mente se mova naturalmente do nível ativo do pensamento para níveis mais silenciosos, alcançando o estado mais puro da Consciência.</p>
               </div>
             </div>
           </li>
@@ -43,7 +43,7 @@
             </button>
             <div class="collapse" id="dashboard-collapse">
               <div class="btn-toggle-nav p-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a tincidunt ipsum. Maecenas molestie porttitor augue vel dapibus. Aliquam sit amet consequat orci, ut aliquam lectus. In libero odio, semper a lectus non, faucibus varius nisi. Vivamus ultrices quam maximus, faucibus tellus in, maximus felis. Maecenas tincidunt malesuada sapien, in feugiat risus. Morbi dignissim urna at euismod suscipit. Integer porta ultrices ultricies. Sed vulputate, odio quis fringilla hendrerit, neque velit iaculis dolor, vel pellentesque neque dolor ut tortor. Sed sed sem vitae justo finibus interdum.</p>
+                <p>À medida que a mente se aquieta durante a prática, o corpo experimenta um descanso muito profundo e altamente reparador para a fisiologia, pois permite a dissolução do estresse para o equilíbrio da saúde física e mental.</p>
         </ul>
         </div>
         </li>
