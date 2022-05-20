@@ -91,7 +91,7 @@
               <h5>
                 <div class="text-white">Autotranscendência</div>
               </h5>
-              <p class="border-left-white"><img loading="lazy"
+              <p class="border-left-white"><img loading="lazy" class="img-fluid"
                   src="<?php echo get_template_directory_uri() . '/images/o-que-e-mt/mt-meditar.png' ?>" alt="mt."></p>
             </div>
           </div>
