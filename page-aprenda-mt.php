@@ -220,52 +220,78 @@
             
             <div class="swiper-slide">
                 <div class="swiper-mobile">
-                    <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/0g0MFzECtb4"
+                    <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/BZyF2GtjzGI"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
                   </iframe>
                   <p>
-                    David Lynch explica como a MT pode potencializar sua inteligência e sua capacidade criativa.
+                  Akyria Ougos e a leveza da Meditacão Transcendental 😉
                   </p>
                 </div>
             </div>
 
               <div class="swiper-slide">
                  <div class="swiper-mobile">
-                    <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/0g0MFzECtb4"
+                    <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/T7k_8XeV5dQ"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
                   </iframe>
                   <p>
-                    David Lynch explica como a MT pode potencializar sua inteligência e sua capacidade criativa.
+                  Depoimento Jess - 6 anos de Meditação Transcendental
                   </p>
                 </div>
             </div>
 
               <div class="swiper-slide">
                  <div class="swiper-mobile">
-                    <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/0g0MFzECtb4"
+                    <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/Ta2wL5Q4rkw"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
                   </iframe>
                   <p>
-                    David Lynch explica como a MT pode potencializar sua inteligência e sua capacidade criativa.
+                  Não imagino minha vida sem a Meditação Transcendental
                   </p>
                 </div>
             </div>
 
               <div class="swiper-slide">
                  <div class="swiper-mobile">
-                    <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/0g0MFzECtb4"
+                    <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/JuF8Fy-pt_c"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
                   </iframe>
                   <p>
-                    David Lynch explica como a MT pode potencializar sua inteligência e sua capacidade criativa.
+                  Depoimento: Wagner Moura sobre Meditação Transcendental
+                  </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                 <div class="swiper-mobile">
+                    <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/wRYq9imI-4M"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                  </iframe>
+                  <p>
+                  Foco, Energia, Plenitude e Saúde - Meditação Transcendental
+                  </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                 <div class="swiper-mobile">
+                    <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/eo_8ew1SqLQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                  </iframe>
+                  <p>
+                  Sindrome do Pânico e Depressão. Meditação Transcendental transformando vidas 😉🙏🏻
                   </p>
                 </div>
             </div>
@@ -290,7 +316,7 @@
     var swiper = new Swiper(".swiperMudouVida", {
       slidesPerView: 1,
       slidesPerGroup: 1,
-      loop: false,
+      loop: true,
       spaceBetween: 10,
       grabCursor: true,
       pagination: {
@@ -326,7 +352,7 @@
     var swiper = new Swiper(".atividadesSwiper", {
       slidesPerView: 1,
       slidesPerGroup: 1,
-      loop: false,
+      loop: true,
       spaceBetween: 0,
       grabCursor: false,
       pagination: {
@@ -362,7 +388,7 @@
     var swiper = new Swiper(".passosSwiper", {
       slidesPerView: 1,
       slidesPerGroup: 1,
-      loop: false,
+      loop: true,
       spaceBetween: 0,
       pagination: {
         el: ".swiper-pagination",
