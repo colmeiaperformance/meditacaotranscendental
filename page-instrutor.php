@@ -17,7 +17,7 @@
            <div class="d-flex align-items-baseline justify-content-start mb-2"><img loading="lazy" src=<?php echo get_template_directory_uri() . '/images/instrutor/building.png' ?> alt="Prédio"> <p><strong>Unidade:</strong> Planalto Paulista (SP) – Av. Piassanguaba, 658</p></div> 
           </div>
           <div class="mt-4">
-           <p>A visão de Maharishi sobre o Conhecimento Védico e sua aplicação para resgatar as vidas individuais e a Consciência coletiva de uma condição de limitação e de sofrimento para uma realidade de plenitude me arrebata. A possibilidade desse caminho simples, natural e ordenado para a mais elevada experiência humana, a Iluminação, inspira-me a participar, como praticante e instrutora de MT, da concretização do desejo de Maharishi: a máxima evolução da Consciência humana, culminando no ideal da paz mundial. Sou economista (FAAP) e estudei Filosofia (USP).</p>
+           <p>A visão de Maharishi sobre o Conhecimento Védico e sua aplicação para resgatar as vidas individuais e a Consciência coletiva de uma condição de limitação e de sofrimento para uma realidade de plenitude me arrebata.<br> A possibilidade desse caminho simples, natural e ordenado para a mais elevada experiência humana, a Iluminação, inspira-me a participar, como praticante e instrutora de MT, da concretização do desejo de Maharishi: a máxima evolução da Consciência humana, culminando no ideal da paz mundial. Sou economista (FAAP) e estudei Filosofia (USP).</p>
           </div>
 
         </div>
@@ -110,7 +110,7 @@
       </div>
     </div>
   </section>
-  <section class="instrutor-depoimentos">
+  <!-- <section class="instrutor-depoimentos">
     <div id="instrutor-depoimentos-video" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
 
@@ -170,7 +170,7 @@
         <button type="button" data-bs-target="#instrutordepoimentos-video" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
       </div>
     </div>
-  </section>
+  </section> -->
   <section class="instrutor-footer">
     <div class="container text-center">
       <a href="#" class="btn" role="button">Agende a palestra gratuita</a>
