@@ -567,7 +567,7 @@
           line-height: 28px;
           color: $color-secondary-dark;
           position: relative;
-          max-width: 200px;
+          max-width: 300px;
           margin: 0 auto;
           padding-right: 15px;
         }
@@ -578,7 +578,13 @@
           padding-left: 24px;
           max-width: 200px;
           margin: 0 auto;
-          border-left: 1px solid #FFC536;
+          // border-left: 1px solid $color-primary-medium;
+          &.border-left-white{
+            border-left: 1px solid $color-white;
+          }
+          &.border-left-yellow{
+            border-left: 1px solid $color-primary-medium;
+          }
         }
       }
     }
@@ -594,6 +600,63 @@
         line-height: 16px;
         margin-bottom: 20px;
         margin-top: 30px;
+      }
+    }
+    .table {
+      width:100%;
+      height:100%;
+      border-collapse:separate;
+		  border-spacing:0.1px;
+      border:1px solid $color-white;
+      padding:1rem;
+      font-size: 1.5rem;
+      line-height: 1.625rem;
+      vertical-align: middle;
+      @media (max-width: 992px) {
+        font-size: 1rem;
+        line-height: 1.1rem;
+      }
+      thead {
+        border:1px solid $color-white;
+        color: $color-white;
+        vertical-align: middle;
+      }
+      .first-column{
+        background:$color-secondary-medium;  
+        color: $color-white;
+        text-align: left;
+        font-weight: 700;
+        vertical-align: middle;
+      }
+    }
+    .table th {
+      border:1px solid $color-white;
+      padding:1rem;
+      background:$color-primary-dark;
+      text-align: center;
+      font-weight: 700;
+      vertical-align: middle;
+      @media (max-width: 640px)  {
+        width: 60%;
+      }
+      @media (max-width: 992px) {
+        img{
+          width: 50%;
+        }
+      }
+    }
+    .table td {
+      border:1px solid $color-white;
+      text-align:center;
+      padding:1rem;
+      background:$color-primary-medium;
+      vertical-align: middle;
+      .autor{
+        font-size: 1.25rem;
+        @media (max-width: 992px) {
+          font-size: 0.75rem;
+          line-height: 1rem;
+        }
       }
     }
   }

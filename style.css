@@ -3817,7 +3817,7 @@ footer .top a {
   line-height: 28px;
   color: #323B50;
   position: relative;
-  max-width: 200px;
+  max-width: 300px;
   margin: 0 auto;
   padding-right: 15px;
 }
@@ -3829,6 +3829,13 @@ footer .top a {
   padding-left: 24px;
   max-width: 200px;
   margin: 0 auto;
+}
+
+.page-o-que-e-mt .o-que-e-mt-meditar .itens .item p.border-left-white {
+  border-left: 1px solid #FFFFFF;
+}
+
+.page-o-que-e-mt .o-que-e-mt-meditar .itens .item p.border-left-yellow {
   border-left: 1px solid #FFC536;
 }
 
@@ -3847,6 +3854,79 @@ footer .top a {
     line-height: 16px;
     margin-bottom: 20px;
     margin-top: 30px;
+  }
+}
+
+.page-o-que-e-mt .o-que-e-mt-meditar .table {
+  width: 100%;
+  height: 100%;
+  border-collapse: separate;
+  border-spacing: 0.1px;
+  border: 1px solid #FFFFFF;
+  padding: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.625rem;
+  vertical-align: middle;
+}
+
+@media (max-width: 992px) {
+  .page-o-que-e-mt .o-que-e-mt-meditar .table {
+    font-size: 1rem;
+    line-height: 1.1rem;
+  }
+}
+
+.page-o-que-e-mt .o-que-e-mt-meditar .table thead {
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  vertical-align: middle;
+}
+
+.page-o-que-e-mt .o-que-e-mt-meditar .table .first-column {
+  background: #7896C1;
+  color: #FFFFFF;
+  text-align: left;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.page-o-que-e-mt .o-que-e-mt-meditar .table th {
+  border: 1px solid #FFFFFF;
+  padding: 1rem;
+  background: #F29F05;
+  text-align: center;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+@media (max-width: 640px) {
+  .page-o-que-e-mt .o-que-e-mt-meditar .table th {
+    width: 60%;
+  }
+}
+
+@media (max-width: 992px) {
+  .page-o-que-e-mt .o-que-e-mt-meditar .table th img {
+    width: 50%;
+  }
+}
+
+.page-o-que-e-mt .o-que-e-mt-meditar .table td {
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  padding: 1rem;
+  background: #FFC536;
+  vertical-align: middle;
+}
+
+.page-o-que-e-mt .o-que-e-mt-meditar .table td .autor {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 992px) {
+  .page-o-que-e-mt .o-que-e-mt-meditar .table td .autor {
+    font-size: 0.75rem;
+    line-height: 1rem;
   }
 }
 
