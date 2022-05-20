@@ -210,9 +210,10 @@
       line-height: 30px;
       color: $color-secondary-dark;
       margin-bottom: 38px;
-      @media (max-width: 992px)  {
+      @media (max-width: 992px) {
         font-size: 14px;
         line-height: 16px;
+        margin-bottom: 28px;
       }
     }
     h4 {
@@ -222,6 +223,11 @@
       color: $color-secondary-dark;
       margin-bottom: 48px;
       text-align: center;
+      @media (max-width: 992px) {
+        font-size: 20px;
+        line-height: 16px;
+        margin-bottom: 0;
+      }
     }
     p {
       font-weight: 400;
@@ -230,18 +236,21 @@
       margin-bottom: 0;
       color: $color-secondary-dark;
       @media (max-width: 992px) {
+        font-size: 14px;
+        line-height: 16px;
       }
       strong {
         font-weight: 700;
       }
       span {
         font-weight: 700;
-        font-size: 24px;
-        line-height: 30px;
         color: $color-primary-dark;
       }
     }
     img {
+      @media (max-width: 992px) {
+        padding: 20px;
+      }
     }
   }
   .o-que-e-mt-imagine {

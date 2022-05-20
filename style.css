@@ -1216,7 +1216,6 @@ footer .top a {
 
 @media (max-width: 640px) {
   .page-aprenda-mt .mudou-vida .swiper-slide {
-    padding: 0;
     border: 0;
     border-radius: 0;
   }
@@ -3084,6 +3083,7 @@ footer .top a {
   .page-o-que-e-mt .o-que-e-mt-atua h3 {
     font-size: 14px;
     line-height: 16px;
+    margin-bottom: 28px;
   }
 }
 
@@ -3096,6 +3096,14 @@ footer .top a {
   text-align: center;
 }
 
+@media (max-width: 992px) {
+  .page-o-que-e-mt .o-que-e-mt-atua h4 {
+    font-size: 20px;
+    line-height: 16px;
+    margin-bottom: 0;
+  }
+}
+
 .page-o-que-e-mt .o-que-e-mt-atua p {
   font-weight: 400;
   font-size: 24px;
@@ -3104,15 +3112,26 @@ footer .top a {
   color: #323B50;
 }
 
+@media (max-width: 992px) {
+  .page-o-que-e-mt .o-que-e-mt-atua p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
 .page-o-que-e-mt .o-que-e-mt-atua p strong {
   font-weight: 700;
 }
 
 .page-o-que-e-mt .o-que-e-mt-atua p span {
   font-weight: 700;
-  font-size: 24px;
-  line-height: 30px;
   color: #F29F05;
+}
+
+@media (max-width: 992px) {
+  .page-o-que-e-mt .o-que-e-mt-atua img {
+    padding: 20px;
+  }
 }
 
 .page-o-que-e-mt .o-que-e-mt-imagine {
