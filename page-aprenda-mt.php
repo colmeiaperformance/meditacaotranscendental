@@ -198,7 +198,7 @@
           <div class="text-center text-lg-start">
             <h2>Ao investir no seu bem-estar, você ajuda outras pessoas.</h2>
           </div>
-          <p>Somos uma organização sem fins lucrativos comprometida em tornar a Meditação Transcendental ® e seus benefícios acessíveis ao maior número possível de pessoas. Por isso, parte do valor pago no curso é direcionado a projetos que ensinam a MT gratuitamente a milhares de crianças e adultos em todo o mundo.</p>
+          <p>Somos uma organização sem fins lucrativos comprometida em tornar a Meditação Transcendental e seus benefícios acessíveis ao maior número possível de pessoas. Por isso, parte do valor pago no curso é direcionado a projetos que ensinam a MT gratuitamente a milhares de crianças e adultos em todo o mundo.</p>
           <p><strong>Converse com um instrutor para conhecer as condições especiais de pagamento.</strong></p>
         </div>
       </div>
