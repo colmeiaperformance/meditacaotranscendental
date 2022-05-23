@@ -99,7 +99,8 @@
           margin: 0 auto;
         }
       }
-    }   
+    } 
+    clip-path: ellipse(150% 100% at 50% 0%);  
   }
   &--aprenda-mt {
     .carousel-item {

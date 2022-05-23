@@ -93,6 +93,7 @@
     }
     .btn-toggle[aria-expanded="true"] {
       background-color: transparent;
+      color: $color-white;
     }
     .btn-toggle[aria-expanded="true"]::after {
       transform: rotate(45deg);
@@ -102,7 +103,7 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 22px;
-        color: $color-secondary-dark;
+        color: $color-white;
         @media (max-width: 992px) {
           font-size: 14px;
           line-height: 16px;
@@ -425,8 +426,8 @@
       }
       p {
         font-weight: 400;
-        font-size: 13px;
-        line-height: 15px;
+        font-size: 15px;
+        line-height: 17px;
         margin-bottom: 0;
         color: $color-secondary-dark;
         a {

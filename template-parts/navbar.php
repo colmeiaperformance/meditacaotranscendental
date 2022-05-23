@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg">
   <div class="container">
     <a class="navbar-brand" href="<?php echo home_url(); ?>">
-       <img loading="lazy" src=<?php echo get_template_directory_uri() . '/images/header/logo-topo.png' ?> alt="Logotipo Meditação Transcedental" height="auto" width="256px">
+       <img loading="lazy" src=<?php echo get_template_directory_uri() . '/images/header/logo-topo.png' ?> alt="Logotipo Meditação Transcedental" height="auto" width="260px">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
       aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">

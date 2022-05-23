@@ -180,8 +180,7 @@
       <div class="text-center mb-2 mb-lg-3">
         <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/separador.png' ?>" alt="Separador">
       </div>
-      <p>Somente instrutores certificados e credenciados pela Associação Internacional de Meditação (SIM) podem ensinar a autêntica técnica de MT.</p>
-      <p>Essa é a sua <strong>garantia de receber a verdadeira técnica</strong> ensinada há mais de 60 anos, com base no conhecimento puro da Ciência Védica.</p>
+      <p>Somente instrutores certificados e credenciados pela Associação Internacional de Meditação (SIM) podem ensinar a autêntica técnica de MT.      Essa é a sua <strong>garantia de receber a verdadeira técnica</strong> ensinada há mais de 60 anos, com base no conhecimento puro da Ciência Védica.</p>
       <div class="text-center">
         <a href="#" class="btn">Conheça os instrutores credenciados</a>
       </div>
@@ -226,7 +225,7 @@
                     allowfullscreen>
                   </iframe>
                   <p>
-                  Akyria Ougos e a leveza da Meditacão Transcendental 😉
+                  Akyria Ougos e a leveza da Meditacão Transcendental
                   </p>
                 </div>
             </div>
@@ -291,7 +290,7 @@
                     allowfullscreen>
                   </iframe>
                   <p>
-                  Sindrome do Pânico e Depressão. Meditação Transcendental transformando vidas 😉🙏🏻
+                  Sindrome do Pânico e Depressão. Meditação Transcendental transformando vidas
                   </p>
                 </div>
             </div>

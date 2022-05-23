@@ -24,7 +24,7 @@
   </section>
   <section class="o-que-e-mt-praticamt">
     <div class="container">
-      <div class="row d-flex align-items-baseline justify-content-center">
+      <div class="row d-flex align-items-center justify-content-center">
         <div class="col-12 col-lg-5">
           <h2><strong>O que acontece</strong> durante a prática de MT?</h2>
         </div>
@@ -82,7 +82,7 @@
           </div>
           <div class="item" style="background-color: #fff">
             <div class="content d-flex">
-              <h5>Concentração ou foco</h5>
+              <h5>Monitoramento aberto</h5>
               <p class="border-left-yellow">Mindfulness, Kriya Yoga etc.</p>
             </div>
           </div>

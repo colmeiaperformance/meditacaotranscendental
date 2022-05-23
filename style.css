@@ -331,6 +331,11 @@ footer .top a {
   }
 }
 
+.header--o-que-e-mt {
+  -webkit-clip-path: ellipse(150% 100% at 50% 0%);
+          clip-path: ellipse(150% 100% at 50% 0%);
+}
+
 .header--o-que-e-mt .carousel-item img {
   min-height: 310px;
   -o-object-fit: cover;
@@ -498,7 +503,7 @@ footer .top a {
 }
 
 .navbar .nav-link {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   color: #323B50;
@@ -1235,7 +1240,7 @@ footer .top a {
 
 .page-aprenda-mt .mudou-vida .swiper-slide p {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.125rem;
   line-height: 22px;
   text-align: center;
   margin-bottom: 0;
@@ -1245,7 +1250,7 @@ footer .top a {
 @media (max-width: 992px) {
   .page-aprenda-mt .mudou-vida .swiper-slide p {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 18px;
     text-align: center;
     color: #FFFFFF;
@@ -1723,8 +1728,8 @@ footer .top a {
 
 .page-aprenda-mt .mt-curso .atividades .swiper-slide p {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1.125rem;
+  line-height: 1.3rem;
   color: #323B50;
   margin-bottom: 0;
 }
@@ -3190,6 +3195,7 @@ footer .top a {
 
 .page-o-que-e-mt .o-que-e-mt-praticamt .btn-toggle[aria-expanded="true"] {
   background-color: transparent;
+  color: #FFFFFF;
 }
 
 .page-o-que-e-mt .o-que-e-mt-praticamt .btn-toggle[aria-expanded="true"]::after {
@@ -3201,7 +3207,7 @@ footer .top a {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  color: #323B50;
+  color: #FFFFFF;
 }
 
 @media (max-width: 992px) {
@@ -3627,8 +3633,8 @@ footer .top a {
 
 .page-o-que-e-mt .o-que-e-mt-sabermais .book p {
   font-weight: 400;
-  font-size: 13px;
-  line-height: 15px;
+  font-size: 15px;
+  line-height: 17px;
   margin-bottom: 0;
   color: #323B50;
 }
