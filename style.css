@@ -254,11 +254,15 @@ footer .top a {
   background: #FFC536;
   padding: 0;
   margin-bottom: 53px;
+  -webkit-clip-path: ellipse(150% 100% at 50% 0%);
+          clip-path: ellipse(150% 100% at 50% 0%);
 }
 
 @media (max-width: 992px) {
   .header--home {
     margin-bottom: 20px;
+    -webkit-clip-path: ellipse(240% 100% at 50% 0%);
+            clip-path: ellipse(240% 100% at 50% 0%);
   }
 }
 
@@ -386,6 +390,18 @@ footer .top a {
   }
 }
 
+.header--aprenda-mt {
+  -webkit-clip-path: ellipse(150% 100% at 50% 0%);
+          clip-path: ellipse(150% 100% at 50% 0%);
+}
+
+@media (max-width: 992px) {
+  .header--aprenda-mt {
+    -webkit-clip-path: ellipse(240% 100% at 50% 0%);
+            clip-path: ellipse(240% 100% at 50% 0%);
+  }
+}
+
 .header--aprenda-mt .carousel-item img {
   min-height: 310px;
   -o-object-fit: cover;
@@ -434,6 +450,18 @@ footer .top a {
   .header--aprenda-mt .carousel-item .carousel-caption {
     width: 85%;
     margin: 0 auto;
+  }
+}
+
+.header--beneficios-mt {
+  -webkit-clip-path: ellipse(150% 100% at 50% 0%);
+          clip-path: ellipse(150% 100% at 50% 0%);
+}
+
+@media (max-width: 992px) {
+  .header--beneficios-mt {
+    -webkit-clip-path: ellipse(240% 100% at 50% 0%);
+            clip-path: ellipse(240% 100% at 50% 0%);
   }
 }
 

@@ -1,11 +1,12 @@
 .header {
-  // margin-top: 101px;
   &--home {
     background: $color-primary-medium;
     padding: 0;
     margin-bottom: 53px;
+    clip-path: ellipse(150% 100% at 50% 0%);  
     @media (max-width: 992px)  {
       margin-bottom: 20px;
+      clip-path: ellipse(240% 100% at 50% 0%); 
     }
     h1 {
       strong {
@@ -62,6 +63,7 @@
     }
   } 
   &--o-que-e-mt {
+    clip-path: ellipse(150% 100% at 50% 0%);  
     .carousel-item {
       img 
       {
@@ -101,9 +103,12 @@
         }
       }
     } 
-    clip-path: ellipse(150% 100% at 50% 0%);  
   }
   &--aprenda-mt {
+    clip-path: ellipse(150% 100% at 50% 0%);  
+    @media (max-width: 992px)  {
+      clip-path: ellipse(240% 100% at 50% 0%); 
+    }
     .carousel-item {
       img 
       {
@@ -143,10 +148,13 @@
           margin: 0 auto;
         }
       }
-    }   
+    }
   }
   &--beneficios-mt {
-    .carousel-item {
+    clip-path: ellipse(150% 100% at 50% 0%);  
+    @media (max-width: 992px)  {
+      clip-path: ellipse(240% 100% at 50% 0%); 
+    }    .carousel-item {
       img 
       {
         min-height: 310px;
