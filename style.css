@@ -496,6 +496,7 @@ footer .top a {
 
 .navbar {
   background-color: #FFC536;
+  z-index: 111111;
 }
 
 .navbar .nav-link.active {
@@ -569,6 +570,11 @@ footer .top a {
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
   margin-right: 0;
+}
+
+.navbar .navbar-brand img {
+  width: 100%;
+  height: auto;
 }
 
 @media (max-width: 576px) {
