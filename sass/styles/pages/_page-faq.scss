@@ -1,0 +1,106 @@
+.page-faq {
+  padding: 66px 0 82px 0;
+  h2 {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 63px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: $color-primary-medium;
+    margin-bottom: 45px;
+  }
+  ul {
+    max-width: 970px;
+    margin: 0 auto;
+    li {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  .btn-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    padding: 16px 28px;
+    color: $color-secondary-dark;
+    background-color: $color-secondary-light;
+    border: 1px solid $color-secondary-light;
+    width: 100%;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    border-radius: 60px!important;
+    // display: block;
+    // position: relative;
+    @media (max-width: 992px) {
+      font-size: 14px;
+      line-height: 16px;
+      padding: 9.8px 20.12px 11.8px 20.12px;
+    }
+    &::after {
+      width: 17px;
+      height: 10px;
+      content: '';
+      background: url('images/o-que-e-mt/plus.png') center center no-repeat;
+      margin-left: 20px;
+      @media (max-width: 992px) {
+        margin-left: 0;
+      }
+    }
+  }
+  .btn-toggle[aria-expanded="true"]::after {
+    transform: rotate(45deg);
+  }
+  .btn-toggle-nav {
+    p {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      padding: 16px 28px;
+      color: $color-secondary-dark;
+      @media (max-width: 992px) {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 8px 20.12px;
+      }
+    }
+  }
+  &--footer {
+    margin: 95px 0 0 0;
+    @media (max-width: 992px) {
+      margin: 45px 0 0 0;
+    }
+    div {
+      display: flex;
+      align-items: end;
+      justify-content: center;
+      @media (max-width: 992px)  {
+        display: block;
+      }
+      img {
+        margin-right: 23px;
+        @media (max-width: 992px) {
+          margin: 0;
+          max-width: 280px;
+        }
+      }
+      h2 {
+        font-weight: 300;
+        font-size: 54px;
+        line-height: 63px;
+        letter-spacing: -0.02em;
+        color: $color-primary-medium;
+        margin-bottom: 0;
+        strong {
+          font-weight: 600;
+        }
+        @media (max-width: 992px) {
+          font-size: 30px;
+          line-height: 35px;
+          letter-spacing: -0.02em;
+        }
+      }
+    }
+  }
+}

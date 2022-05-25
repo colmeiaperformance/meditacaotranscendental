@@ -91,10 +91,10 @@
         background: url('images/o-que-e-mt/plus.png') center center no-repeat;
       }
     }
-    .btn-toggle[aria-expanded="true"] {
-      background-color: transparent;
-      color: $color-white;
-    }
+    // .btn-toggle[aria-expanded="true"] {
+    //   background-color: transparent;
+    //   color: $color-white;
+    // }
     .btn-toggle[aria-expanded="true"]::after {
       transform: rotate(45deg);
     }
