@@ -254,15 +254,11 @@ footer .top a {
   background: #FFC536;
   padding: 0;
   margin-bottom: 53px;
-  -webkit-clip-path: ellipse(150% 100% at 50% 0%);
-          clip-path: ellipse(150% 100% at 50% 0%);
 }
 
 @media (max-width: 992px) {
   .header--home {
     margin-bottom: 20px;
-    -webkit-clip-path: ellipse(240% 100% at 50% 0%);
-            clip-path: ellipse(240% 100% at 50% 0%);
   }
 }
 
@@ -335,11 +331,6 @@ footer .top a {
   }
 }
 
-.header--o-que-e-mt {
-  -webkit-clip-path: ellipse(150% 100% at 50% 0%);
-          clip-path: ellipse(150% 100% at 50% 0%);
-}
-
 .header--o-que-e-mt .carousel-item img {
   min-height: 310px;
   -o-object-fit: cover;
@@ -387,18 +378,6 @@ footer .top a {
   .header--o-que-e-mt .carousel-item .carousel-caption {
     width: 85%;
     margin: 0 auto;
-  }
-}
-
-.header--aprenda-mt {
-  -webkit-clip-path: ellipse(150% 100% at 50% 0%);
-          clip-path: ellipse(150% 100% at 50% 0%);
-}
-
-@media (max-width: 992px) {
-  .header--aprenda-mt {
-    -webkit-clip-path: ellipse(240% 100% at 50% 0%);
-            clip-path: ellipse(240% 100% at 50% 0%);
   }
 }
 
@@ -450,18 +429,6 @@ footer .top a {
   .header--aprenda-mt .carousel-item .carousel-caption {
     width: 85%;
     margin: 0 auto;
-  }
-}
-
-.header--beneficios-mt {
-  -webkit-clip-path: ellipse(150% 100% at 50% 0%);
-          clip-path: ellipse(150% 100% at 50% 0%);
-}
-
-@media (max-width: 992px) {
-  .header--beneficios-mt {
-    -webkit-clip-path: ellipse(240% 100% at 50% 0%);
-            clip-path: ellipse(240% 100% at 50% 0%);
   }
 }
 
@@ -524,7 +491,6 @@ footer .top a {
 
 .navbar {
   background-color: #FFC536;
-  z-index: 111111;
 }
 
 .navbar .nav-link.active {
@@ -532,7 +498,7 @@ footer .top a {
 }
 
 .navbar .nav-link {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   line-height: 19px;
   color: #323B50;
@@ -598,11 +564,6 @@ footer .top a {
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
   margin-right: 0;
-}
-
-.navbar .navbar-brand img {
-  width: 100%;
-  height: auto;
 }
 
 @media (max-width: 576px) {
@@ -1274,7 +1235,7 @@ footer .top a {
 
 .page-aprenda-mt .mudou-vida .swiper-slide p {
   font-weight: 400;
-  font-size: 1.125rem;
+  font-size: 16px;
   line-height: 22px;
   text-align: center;
   margin-bottom: 0;
@@ -1284,7 +1245,7 @@ footer .top a {
 @media (max-width: 992px) {
   .page-aprenda-mt .mudou-vida .swiper-slide p {
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 14px;
     line-height: 18px;
     text-align: center;
     color: #FFFFFF;
@@ -1762,8 +1723,8 @@ footer .top a {
 
 .page-aprenda-mt .mt-curso .atividades .swiper-slide p {
   font-weight: 400;
-  font-size: 1.125rem;
-  line-height: 1.3rem;
+  font-size: 16px;
+  line-height: 19px;
   color: #323B50;
   margin-bottom: 0;
 }
@@ -3229,7 +3190,6 @@ footer .top a {
 
 .page-o-que-e-mt .o-que-e-mt-praticamt .btn-toggle[aria-expanded="true"] {
   background-color: transparent;
-  color: #FFFFFF;
 }
 
 .page-o-que-e-mt .o-que-e-mt-praticamt .btn-toggle[aria-expanded="true"]::after {
@@ -3241,7 +3201,7 @@ footer .top a {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #323B50;
 }
 
 @media (max-width: 992px) {
@@ -3628,12 +3588,14 @@ footer .top a {
   }
 }
 
+.page-o-que-e-mt .o-que-e-mt-sabermais .swiper-button-next, .page-o-que-e-mt .o-que-e-mt-sabermais .swiper-button-prev {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .page-o-que-e-mt .o-que-e-mt-sabermais .book {
   padding: 14px;
   background: #FFEDBF;
   border-radius: 5px;
-  width: 85%;
-  margin: 0 auto;
 }
 
 @media (max-width: 992px) {
@@ -3667,8 +3629,8 @@ footer .top a {
 
 .page-o-que-e-mt .o-que-e-mt-sabermais .book p {
   font-weight: 400;
-  font-size: 15px;
-  line-height: 17px;
+  font-size: 13px;
+  line-height: 15px;
   margin-bottom: 0;
   color: #323B50;
 }
@@ -3691,68 +3653,6 @@ footer .top a {
   font-size: 13px;
   line-height: 15px;
   color: #323B50;
-}
-
-.page-o-que-e-mt .o-que-e-mt-sabermais .swiper-button-prev {
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-  left: 0;
-}
-
-@media (max-width: 992px) {
-  .page-o-que-e-mt .o-que-e-mt-sabermais .swiper-button-prev {
-    left: -10px;
-  }
-}
-
-.page-o-que-e-mt .o-que-e-mt-sabermais .swiper-button-prev::after {
-  content: '';
-  background-image: url("images/o-que-e-mt/prev.png");
-  width: 24px;
-  height: 44px;
-}
-
-@media (max-width: 992px) {
-  .page-o-que-e-mt .o-que-e-mt-sabermais .swiper-button-prev::after {
-    width: 8px;
-    height: 15px;
-    background-image: url("images/o-que-e-mt/prev-m.png");
-  }
-}
-
-.page-o-que-e-mt .o-que-e-mt-sabermais .swiper-button-prev:hover {
-  opacity: 0.7;
-}
-
-.page-o-que-e-mt .o-que-e-mt-sabermais .swiper-button-next {
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-  right: 0;
-}
-
-@media (max-width: 992px) {
-  .page-o-que-e-mt .o-que-e-mt-sabermais .swiper-button-next {
-    right: -9px;
-  }
-}
-
-.page-o-que-e-mt .o-que-e-mt-sabermais .swiper-button-next::after {
-  content: '';
-  background-image: url("images/o-que-e-mt/next.png");
-  width: 24px;
-  height: 44px;
-}
-
-@media (max-width: 992px) {
-  .page-o-que-e-mt .o-que-e-mt-sabermais .swiper-button-next::after {
-    background-image: url("images/o-que-e-mt/next-m.png");
-    width: 8px;
-    height: 15px;
-  }
-}
-
-.page-o-que-e-mt .o-que-e-mt-sabermais .swiper-button-next:hover {
-  opacity: 0.7;
 }
 
 .page-o-que-e-mt .o-que-e-mt-footer {
@@ -3911,12 +3811,6 @@ footer .top a {
           justify-content: space-evenly;
 }
 
-@media (max-width: 992px) {
-  .page-o-que-e-mt .o-que-e-mt-meditar .itens .item .content {
-    padding: 16px 26px;
-  }
-}
-
 .page-o-que-e-mt .o-que-e-mt-meditar .itens .item h5 {
   font-weight: 600;
   font-size: 24px;
@@ -3928,13 +3822,6 @@ footer .top a {
   padding-right: 15px;
 }
 
-@media (max-width: 992px) {
-  .page-o-que-e-mt .o-que-e-mt-meditar .itens .item h5 {
-    font-size: 14px;
-    line-height: 16px;
-  }
-}
-
 .page-o-que-e-mt .o-que-e-mt-meditar .itens .item p {
   font-weight: 400;
   font-size: 24px;
@@ -3944,26 +3831,12 @@ footer .top a {
   margin: 0 auto;
 }
 
-@media (max-width: 992px) {
-  .page-o-que-e-mt .o-que-e-mt-meditar .itens .item p {
-    font-size: 14px;
-    line-height: 16px;
-  }
-}
-
 .page-o-que-e-mt .o-que-e-mt-meditar .itens .item p.border-left-white {
   border-left: 1px solid #FFFFFF;
-  margin-left: 10px;
 }
 
 .page-o-que-e-mt .o-que-e-mt-meditar .itens .item p.border-left-yellow {
   border-left: 1px solid #FFC536;
-}
-
-@media (max-width: 992px) {
-  .page-o-que-e-mt .o-que-e-mt-meditar .itens .item p img {
-    max-width: 70px;
-  }
 }
 
 .page-o-que-e-mt .o-que-e-mt-meditar p {
@@ -4015,7 +3888,6 @@ footer .top a {
   text-align: left;
   font-weight: 700;
   vertical-align: middle;
-  width: 18%;
 }
 
 .page-o-que-e-mt .o-que-e-mt-meditar .table th {
@@ -4045,7 +3917,6 @@ footer .top a {
   padding: 1rem;
   background: #FFC536;
   vertical-align: middle;
-  width: 27.3333333%;
 }
 
 .page-o-que-e-mt .o-que-e-mt-meditar .table td .autor {
@@ -4800,7 +4671,7 @@ footer .top a {
 }
 
 .o-que-dizem {
-  background-color: #FFC536;
+  background-color: #FFEDBF;
 }
 
 .o-que-dizem h2 {
@@ -4841,6 +4712,7 @@ footer .top a {
 .o-que-dizem p {
   font-weight: 400;
   line-height: 24px;
+  line-height: 30px;
   letter-spacing: -0.02em;
   color: #323B50;
 }
@@ -4848,7 +4720,7 @@ footer .top a {
 .o-que-dizem p strong {
   font-weight: 600;
   letter-spacing: -0.02em;
-  color: #FFC536;
+  color: #FFEDBF;
 }
 
 @media (max-width: 992px) {
@@ -4868,7 +4740,7 @@ footer .top a {
 
 .o-que-dizem .btn {
   font-weight: 400;
-  font-size: 24px;
+  font-size: 26px;
   background-color: #FFFFFF;
   color: #F29F05;
   border: 1px solid #FFFFFF;
@@ -4944,7 +4816,7 @@ footer .top a {
   }
 }
 
-.o-que-dizem .card-lateral {
+.o-que-dizem .swiper-slide .card-lateral {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4966,17 +4838,17 @@ footer .top a {
   padding-bottom: 0;
 }
 
-.o-que-dizem .card-lateral iframe {
+.o-que-dizem .swiper-slide .card-lateral iframe {
   width: 100%;
   height: auto;
 }
 
-.o-que-dizem .card-lateral p {
+.o-que-dizem .swiper-slide .card-lateral p {
   font-size: 16px;
   line-height: 20px;
 }
 
-.o-que-dizem .card-centro {
+.o-que-dizem .swiper-slide-next .card-lateral {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4995,21 +4867,21 @@ footer .top a {
   padding-bottom: 0;
   border: 1px solid #FFFFFF;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
-.o-que-dizem .card-centro iframe {
+.o-que-dizem .swiper-slide-next .card-lateral iframe {
   width: 100%;
   height: 185px;
 }
 
-.o-que-dizem .card-centro p {
-  font-size: 20px;
+.o-que-dizem .swiper-slide-next .card-lateral p {
+  font-size: 18px;
   line-height: 26px;
 }
 
 @media (max-width: 992px) {
-  .o-que-dizem .card-centro {
+  .o-que-dizem .swiper-slide-next .card-lateral {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5030,11 +4902,11 @@ footer .top a {
     padding: 1rem;
     padding-bottom: 0;
   }
-  .o-que-dizem .card-centro iframe {
+  .o-que-dizem .swiper-slide-next .card-lateral iframe {
     width: 100%;
     height: auto;
   }
-  .o-que-dizem .card-centro p {
+  .o-que-dizem .swiper-slide-next .card-lateral p {
     font-size: 16px;
     line-height: 20px;
   }
