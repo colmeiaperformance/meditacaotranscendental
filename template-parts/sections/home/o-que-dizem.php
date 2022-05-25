@@ -13,8 +13,8 @@
               <div class="container">
                 <div class="carousel-caption">
                   <div class="carousel-content d-flex align-items-center text-center justify-content-around">
-                    <div class="card-lateral col-10 col-lg-12">
-                      <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/B9qNRU6FsUw"
+                    <div class="card-lateral lateral-right col-10 col-lg-12">
+                      <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/0g0MFzECtb4"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
@@ -22,7 +22,9 @@
                       <div
                         class="video-text d-flex justify-content-center text-center align-items-center px-2">
                         <p>
-                        David Lynch explica como a MT pode potencializar sua inteligência e sua capacidade criativa.
+                          David Lynch explica como
+                          a MT pode potencializar sua
+                          inteligência e sua capacidade criativa.
                         </p>
                       </div>
                     </div>
@@ -35,8 +37,8 @@
               <div class="container">
                 <div class="carousel-caption">
                   <div class="carousel-content d-flex align-items-center text-center justify-content-around">
-                    <div class="card-lateral col-10 col-lg-12">
-                      <iframe class="yt-video" width="490" height="300" src="https://www.youtube.com/embed/j_sxv44iMI4"
+                    <div class="card-centro col-10 col-lg-12">
+                      <iframe class="yt-video" width="490" height="300" src="https://www.youtube.com/embed/QLcXzcWtPHY"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
@@ -44,7 +46,9 @@
                       <div
                         class="video-text d-flex justify-content-center text-center align-items-center">
                         <p>
-                        Flávio Canto fala como conseguiu alcançar o sonho olímpico com a ajuda da MT.
+                          Flávio Canto fala como conseguiu
+                          alcançar o sonho olímpico
+                          com a ajuda da MT.
                         </p>
                       </div>
                     </div>
@@ -57,8 +61,8 @@
               <div class="container">
                 <div class="carousel-caption">
                   <div class="carousel-content d-flex align-items-center text-center justify-content-around">
-                    <div class="card-lateral col-10 col-lg-12">
-                      <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/61ON8Ulnfrk"
+                    <div class="card-lateral lateral-left col-10 col-lg-12">
+                      <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/Co2_AIWW9YI"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
@@ -66,7 +70,9 @@
                       <div
                         class="video-text d-flex justify-content-center text-center align-items-center px-2">
                         <p>
-                        Fernanda Souza conta como a prática diária da MT mudou sua vida.
+                          Fernanda Souza conta como
+                          a prática diária da
+                          MT mudou sua vida.
                         </p>
                       </div>
                     </div>
@@ -79,7 +85,7 @@
               <div class="container">
                 <div class="carousel-caption">
                   <div class="carousel-content d-flex align-items-center text-center justify-content-around">
-                    <div class="card-lateral col-10 col-lg-12">
+                    <div class="card-lateral lateral-right col-10 col-lg-12">
                       <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/0Wf441fXCeI"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -101,7 +107,7 @@
               <div class="container">
                 <div class="carousel-caption">
                   <div class="carousel-content d-flex align-items-center text-center justify-content-around">
-                    <div class="card-lateral col-10 col-lg-12">
+                    <div class="card-centro col-10 col-lg-12">
                       <iframe class="yt-video" width="490" height="300" src="https://www.youtube.com/embed/xz_So-nYeGw"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -123,7 +129,7 @@
               <div class="container">
                 <div class="carousel-caption">
                   <div class="carousel-content d-flex align-items-center text-center justify-content-around">
-                    <div class="card-lateral col-10 col-lg-12">
+                    <div class="card-lateral lateral-left col-10 col-lg-12">
                       <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/1MdDr566fGs"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -140,8 +146,8 @@
                 </div>
               </div>
             </div>
-          </div>
 
+          </div>
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
         </div>
@@ -170,16 +176,12 @@
   //     jQuery("#oquedizem").carousel('cycle');
   //   });
   // });
-
   jQuery(document).ready(function() {
     var swiper = new Swiper(".swiperOQueDizem", {
       slidesPerView: 1,
-      autoplay: {
-        delay: 6000,
-      },
       slidesPerGroup: 1,
       loop: true,
-      spaceBetween: 0,
+      spaceBetween: 10,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -191,17 +193,17 @@
       breakpoints: {
         640: {
           slidesPerView: 2,
-          slidesPerGroup: 1,
+          slidesPerGroup: 2,
           spaceBetween: 10,
         },
         768: {
           slidesPerView: 2,
-          slidesPerGroup: 1,
+          slidesPerGroup: 2,
           spaceBetween: 10,
         },
         1024: {
           slidesPerView: 3,
-          slidesPerGroup: 1,
+          slidesPerGroup: 3,
           spaceBetween: 10,
         },
       },
