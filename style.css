@@ -4983,8 +4983,8 @@ footer .top a {
 }
 
 .o-que-dizem p {
-  font-weight: 300;
-  line-height: 24px;
+  font-weight: 400;
+  line-height: 30px;
   letter-spacing: -0.02em;
   color: #323B50;
 }
@@ -5011,8 +5011,8 @@ footer .top a {
 }
 
 .o-que-dizem .btn {
-  font-weight: 300;
-  font-size: 24px;
+  font-weight: 400;
+  font-size: 26px;
   background-color: #FFFFFF;
   color: #F29F05;
   border: 1px solid #FFFFFF;
@@ -5088,6 +5088,70 @@ footer .top a {
   }
 }
 
+.o-que-dizem .swiper-slide-next .card-lateral {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 1rem;
+  padding-bottom: 0;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.o-que-dizem .swiper-slide-next .card-lateral iframe {
+  width: 100%;
+  height: 185px;
+}
+
+.o-que-dizem .swiper-slide-next .card-lateral p {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+@media (max-width: 992px) {
+  .o-que-dizem .swiper-slide-next .card-lateral {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 16px;
+    font-size: 10px;
+    padding: 1rem;
+    padding-bottom: 0;
+  }
+  .o-que-dizem .swiper-slide-next .card-lateral iframe {
+    width: 100%;
+    height: auto;
+  }
+  .o-que-dizem .swiper-slide-next .card-lateral p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
 .o-que-dizem .card-lateral {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5118,90 +5182,6 @@ footer .top a {
 .o-que-dizem .card-lateral p {
   font-size: 16px;
   line-height: 20px;
-}
-
-.o-que-dizem .card-centro {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  padding: 1rem;
-  padding-bottom: 0;
-  border: 1px solid #FFFFFF;
-  border-radius: 10px;
-  font-size: 20px;
-}
-
-.o-que-dizem .card-centro iframe {
-  width: 100%;
-  height: 185px;
-}
-
-.o-que-dizem .card-centro p {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-@media (max-width: 992px) {
-  .o-que-dizem .card-centro {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-    border: 1px solid #FFFFFF;
-    border-radius: 16px;
-    font-size: 10px;
-    padding: 1rem;
-    padding-bottom: 0;
-  }
-  .o-que-dizem .card-centro iframe {
-    width: 100%;
-    height: auto;
-  }
-  .o-que-dizem .card-centro p {
-    font-size: 16px;
-    line-height: 20px;
-  }
-}
-
-.o-que-dizem .lateral-left {
-  margin-left: -40px;
-}
-
-@media (max-width: 992px) {
-  .o-que-dizem .lateral-left {
-    margin-left: 0px;
-  }
-}
-
-.o-que-dizem .lateral-right {
-  margin-right: -40px;
-}
-
-@media (max-width: 992px) {
-  .o-que-dizem .lateral-right {
-    margin-right: 0px;
-  }
 }
 
 .o-que-dizem .swiper {
