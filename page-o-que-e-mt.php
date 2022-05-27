@@ -218,7 +218,7 @@
           <div class="row d-flex align-items-center justify-content-center">
             <div class="col-6 d-flex align-items-center justify-content-start ps-2 pe-2">
               <img loading="lazy" class="img-fluid"
-                src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/universidade.png' ?>
+                src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/harvard.png' ?>
                 alt="Harvard">
             </div>
             <div class="col-6 d-flex align-items-center justify-content-start ps-2 pe-2">
