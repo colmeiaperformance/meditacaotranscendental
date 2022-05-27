@@ -7,6 +7,9 @@
       <p>Antes de iniciar o curso, oferecemos uma palestra gratuita para você esclarecer todas suas dúvidas e entender melhor <strong>porque a MT é única</strong>.</p>
     </div>
   </section>
+  <section class="">
+    
+  </section>
   <section class="agendamento-footer">
     <div class="container">
       <div>
