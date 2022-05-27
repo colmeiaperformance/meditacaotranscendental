@@ -356,7 +356,9 @@
         margin-bottom: 0;
       }
       img {
-        
+        border: 1px solid $color-primary-medium;
+        border-radius: 20px;
+        padding: 12px 25px;
       }
     }
     .swiper-button-prev {

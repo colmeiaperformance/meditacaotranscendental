@@ -2294,6 +2294,12 @@ footer .top a {
   margin-bottom: 0;
 }
 
+.page-beneficios-mt .ciencia .swiper-slide img {
+  border: 1px solid #FFC536;
+  border-radius: 20px;
+  padding: 12px 25px;
+}
+
 .page-beneficios-mt .ciencia .swiper-button-prev {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
