@@ -329,18 +329,18 @@
       breakpoints: {
         640: {
           slidesPerView: 2,
-          slidesPerGroup: 2,
-          spaceBetween: 40,
+          slidesPerGroup: 1,
+          spaceBetween: 50,
         },
         768: {
           slidesPerView: 2,
-          slidesPerGroup: 2,
-          spaceBetween: 40,
+          slidesPerGroup: 1,
+          spaceBetween: 50,
         },
         1024: {
           slidesPerView: 3,
-          slidesPerGroup: 3,
-          spaceBetween: 40,
+          slidesPerGroup: 1,
+          spaceBetween: 50,
         },
       },
     });
@@ -370,12 +370,12 @@
         },
         768: {
           slidesPerView: 2,
-          slidesPerGroup: 2,
+          slidesPerGroup: 1,
           spaceBetween: 20,
         },
         992: {
           slidesPerView: 4,
-          slidesPerGroup: 4,
+          slidesPerGroup: 1,
           spaceBetween: 40,
         },
       },
@@ -400,17 +400,17 @@
       breakpoints: {
         640: {
           slidesPerView: 2,
-          slidesPerGroup: 2,
+          slidesPerGroup: 1,
           spaceBetween: 0,
         },
         768: {
           slidesPerView: 2,
-          slidesPerGroup: 2,
+          slidesPerGroup: 1,
           spaceBetween: 0,
         },
         992: {
           slidesPerView: 4,
-          slidesPerGroup: 4,
+          slidesPerGroup: 1,
           spaceBetween: 45,
         },
       },
