@@ -304,6 +304,12 @@
     }
   }
   .ciencia {
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+      background-color: transparent;
+      &.active > .box {
+        background-color: $color-primary-medium
+      }
+    }
     padding: 90px 0 83px 0;
     h2 {
       font-weight: 300;

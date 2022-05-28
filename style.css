@@ -2237,6 +2237,14 @@ footer .top a {
   padding: 90px 0 83px 0;
 }
 
+.page-beneficios-mt .ciencia .nav-pills .nav-link.active, .page-beneficios-mt .ciencia .nav-pills .show > .nav-link {
+  background-color: transparent;
+}
+
+.page-beneficios-mt .ciencia .nav-pills .nav-link.active.active > .box, .page-beneficios-mt .ciencia .nav-pills .show > .nav-link.active > .box {
+  background-color: #FFC536;
+}
+
 .page-beneficios-mt .ciencia h2 {
   font-weight: 300;
   font-size: 54px;
