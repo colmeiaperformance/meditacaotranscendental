@@ -3778,12 +3778,17 @@ footer .top a {
   }
 }
 
+.page-o-que-e-mt .o-que-e-mt-sabermais .swiper-slide {
+  height: auto;
+}
+
 .page-o-que-e-mt .o-que-e-mt-sabermais .book {
   padding: 14px;
   background: #FFEDBF;
   border-radius: 5px;
   width: 85%;
   margin: 0 auto;
+  height: 100%;
 }
 
 @media (max-width: 992px) {

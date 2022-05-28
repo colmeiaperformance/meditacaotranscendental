@@ -92,634 +92,637 @@
       }
     }
     // .btn-toggle[aria-expanded="true"] {
-    //   background-color: transparent;
-    //   color: $color-white;
-    // }
-    .btn-toggle[aria-expanded="true"]::after {
-      transform: rotate(45deg);
-    }
-    .btn-toggle-nav {
-      p {
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 22px;
-        color: $color-white;
-        @media (max-width: 992px) {
-          font-size: 14px;
-          line-height: 16px;
-        }
+      //   background-color: transparent;
+      //   color: $color-white;
+      // }
+      .btn-toggle[aria-expanded="true"]::after {
+        transform: rotate(45deg);
       }
-    }
-  }
-  .o-que-e-mt-diferente {
-    background-color: $color-secondary-medium;
-    overflow: hidden;
-    .container {
-      padding-top: 80px;
-      padding-bottom: 72px;
-      @media (max-width: 992px) {
-        padding-top: 30px;
-        padding-bottom: 37px;
-      }
-    }
-    .mundo-melhor-topo{
-      width: 100%;
-      display: none;
-      overflow: hidden;
-      img {
-        width: 100%;
-        height: auto;
-      }
-      @media (max-width: 992px) {
-        display: block;
-      }
-    }
-    .mundo-melhor-bg {
-      top: 0;
-      bottom: 0;
-      right: 0;
-      max-width: 530px;
-      width: 40%;
-      overflow: hidden;
-      height: 100%;
-      background: url(images/o-que-e-mt/mt-diferente.png);
-      background-size: cover;
-      @media (max-width: 992px) { 
-        display: none;
-      }
-    }
-    h2 {
-      font-weight: 300;
-      font-size: 54px;
-      line-height: 63px;
-      letter-spacing: -0.02em;
-      color: $color-white;
-      margin-bottom: 35px;
-      strong {
-        font-weight: 600;
-        color: $color-primary-medium;
-      }
-      @media (max-width: 992px) {
-        font-size: 29px;
-        line-height: 34px;
-        margin-bottom: 20px;
-      }
-    }
-    p {
-      margin-bottom: 30px;
-      font-style: normal;
-      font-weight: 300;
-      font-size: 24px;
-      line-height: 28px;
-      color: $color-white; 
-      @media (max-width: 992px) {
-        font-size: 14px;
-        line-height: 16px;
-        margin-bottom: 15px;
-      }
-      strong {
-        font-weight: 600;
-      }
-    }
-  }
-  .o-que-e-mt-atua {
-    padding: 92px 0 53px 0;
-    @media (max-width: 992px) {
-      padding: 35px 0 48px;
-    }
-    h2 {
-      font-weight: 300;
-      font-size: 54px;
-      line-height: 63px;
-      letter-spacing: -0.02em;
-      color: $color-secondary-dark;
-      margin-bottom: 36px;
-      text-align: center;
-      @media (max-width: 992px) {
-        margin-bottom: 17px;
-        font-size: 30px;
-        line-height: 35px;
-      }
-      strong {
-        font-weight: 600;
-        color: $color-primary-medium;
-      }
-    }
-    h3 {
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 30px;
-      color: $color-secondary-dark;
-      margin-bottom: 38px;
-      @media (max-width: 992px) {
-        font-size: 14px;
-        line-height: 16px;
-        margin-bottom: 28px;
-      }
-    }
-    h4 {
-      font-weight: 600;
-      font-size: 30px;
-      line-height: 30px;
-      color: $color-secondary-dark;
-      margin-bottom: 48px;
-      text-align: center;
-      @media (max-width: 992px) {
-        font-size: 20px;
-        line-height: 16px;
-        margin-bottom: 0;
-      }
-    }
-    p {
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 30px;
-      margin-bottom: 0;
-      color: $color-secondary-dark;
-      @media (max-width: 992px) {
-        font-size: 14px;
-        line-height: 16px;
-      }
-      strong {
-        font-weight: 700;
-      }
-      span {
-        font-weight: 700;
-        color: $color-primary-dark;
-      }
-    }
-    img {
-      @media (max-width: 992px) {
-        padding: 20px;
-      }
-    }
-  }
-  .o-que-e-mt-imagine {
-    background: url('images/o-que-e-mt/imagine-bg.png') center center no-repeat;
-    background-size: cover;
-    padding: 66px 0;
-    @media (max-width: 992px) {
-      padding: 35px 0;
-    }
-    h2 {
-      font-weight: 600;
-      font-size: 40px;
-      line-height: 47px;
-      text-align: center;
-      letter-spacing: -0.02em;
-      color: $color-white;
-      margin: 0 auto;
-      margin-bottom: 32px;
-      max-width: 808px;
-      @media (max-width: 992px) {
-        font-size: 22px;
-        line-height: 26px;
-      }
-    }
-    p {
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 28px;
-      text-align: center;
-      color: $color-white;
-      max-width: 1000px;
-      margin: 0 auto;
-      margin-bottom: 32px;
-      @media (max-width: 992px) {
-        font-size: 14px;
-        line-height: 16px;
-      }
-    }
-    .btn {
-      background: $color-primary-dark;
-      border: 1px solid $color-primary-dark;
-      border-radius: 30px;
-      padding: 9px 31px;
-      font-weight: 700;
-      font-size: 26px;
-      line-height: 30px;
-      color: $color-white;
-      @media (max-width: 992px) {
-        font-size: 14px;
-        line-height: 16px;
-      }
-      &:hover {
-        background: transparent;
-        border: 1px solid $color-white;
-        color: $color-white;
-      }
-    }
-    
-  }
-  .o-que-e-mt-pesquisas {
-    padding: 99px 0 103px;
-    @media (max-width: 992px) {
-      padding: 43px 0 48px 0;
-    }
-    h2 {
-      font-weight: 300;
-      font-size: 54px;
-      line-height: 63px;
-      letter-spacing: -0.02em;
-      color: $color-secondary-dark;
-      text-align: center;
-      margin-bottom: 55px;
-      strong {
-        color: $color-primary-medium;
-        font-weight: 600;
-      }
-      @media (max-width: 992px) {
-        font-size: 30px;
-        line-height: 35px;
-        margin-bottom: 40px;
-      }
-    }
-    p {
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 28px;
-      text-align: left;
-      margin-bottom: 0;
-      color: $color-secondary-dark;
-      strong {
-        font-weight: 600;
-      }
-      @media (max-width: 992px) {
-        font-size: 14px;
-        line-height: 16px;
-        text-align: center;
-      }
-    }
-    .btn {
-      background: $color-primary-dark;
-      border: 1px solid $color-primary-dark;
-      border-radius: 30px;
-      padding: 9px 31px;
-      font-weight: 700;
-      font-size: 26px;
-      line-height: 30px;
-      color: $color-white;
-      margin-top: 74px;
-      @media (max-width: 992px) {
-        font-size: 14px;
-        line-height: 16px;
-        margin-top: 21px;
-      }
-      &:hover {
-        background: transparent;
-        border: 1px solid $color-primary-dark;
-        color: $color-primary-dark;
-      }
-    }
-    .row {
-      max-width: 860px;
-      margin: 0 auto;
-    }
-  }
-  .o-que-e-mt-sabermais {
-    background: $color-primary-medium;
-    padding: 60px 0 80px 0;
-    h2 {
-      font-weight: 300;
-      font-size: 54px;
-      line-height: 63px;
-      text-align: center;
-      letter-spacing: -0.02em;
-      color: $color-white;
-      margin-bottom: 55px;
-      text-align: center;
-      strong {
-        font-weight: 600;
-      }
-      @media (max-width: 992px) {
-        font-size: 30px;
-        line-height: 35px;
-        margin-bottom: 35px;
-      }
-    }
-    
-    .book {
-      padding: 14px;
-      background: $color-primary-light;
-      border-radius: 5px;
-      width: 85%;
-      margin: 0 auto;
-      @media (max-width: 992px) {
-        padding: 27px 18px;
-      }
-      img {
-        height: 200px;
-        object-fit: cover;
-        width: 138.67px;
-        margin-right: 12.33px;
-        @media (max-width: 992px) {
-          margin-bottom: 18.44px;
-          margin-right: 0;
-        }
-      }
-      h5 {
-        font-weight: 600;
-        font-size: 15px;
-        line-height: 18px;
-        color: $color-secondary-dark;
-        margin-bottom: 10px;
-      }
-      p {
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 17px;
-        margin-bottom: 0;
-        color: $color-secondary-dark;
-        a {
-          font-weight: 600;
-          font-size: 13px;
-          line-height: 15px;
-          color: $color-secondary-dark;
+      .btn-toggle-nav {
+        p {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 22px;
+          color: $color-white;
           @media (max-width: 992px) {
-            display: none;
+            font-size: 14px;
+            line-height: 16px;
           }
         }
       }
-      a {
-        font-weight: 600;
-        font-size: 13px;
-        line-height: 15px;
-        color: $color-secondary-dark;
-      }
     }
-    
-    .swiper-button-prev {
-      transition: all .3s ease;
-      left: 0;
-      @media (max-width: 992px) {
-        left: -10px;
-      }
-      &::after {
-        content: '';
-        background-image: url("images/o-que-e-mt/prev.png");
-        width: 24px;
-        height: 44px;
+    .o-que-e-mt-diferente {
+      background-color: $color-secondary-medium;
+      overflow: hidden;
+      .container {
+        padding-top: 80px;
+        padding-bottom: 72px;
         @media (max-width: 992px) {
-          width: 8px;
-          height: 15px;
-          background-image: url("images/o-que-e-mt/prev-m.png");
+          padding-top: 30px;
+          padding-bottom: 37px;
         }
       }
-      &:hover {
-        opacity: 0.7;
-      } 
-    }
-    .swiper-button-next {
-      transition: all .3s ease;
-      right: 0;
-      @media (max-width: 992px) {
-        right: -9px;
-      }
-      &::after {
-        content: '';
-        background-image: url("images/o-que-e-mt/next.png");
-        width: 24px;
-        height: 44px;
+      .mundo-melhor-topo{
+        width: 100%;
+        display: none;
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: auto;
+        }
         @media (max-width: 992px) {
-          background-image: url("images/o-que-e-mt/next-m.png");
-          width: 8px;
-          height: 15px;
+          display: block;
         }
       }
-      &:hover {
-        opacity: 0.7;
-      } 
-    }
-  }
-  .o-que-e-mt-footer {
-    padding: 67px 0 64px;
-    @media (max-width: 992px) {
-      padding: 39px 0 36px 0;
-    }
-    h2 {
-      font-weight: 600;
-      font-size: 54px;
-      line-height: 63px;
-      letter-spacing: -0.02em;
-      color: $color-primary-medium;
-      margin-bottom: 18px;
-      text-align: center;
-      @media (max-width: 992px) {
-        font-size: 30px;
-        line-height: 35px;
-        margin-bottom: 11px;
-      }
-    }
-    p {
-      font-weight: 300;
-      font-size: 30px;
-      line-height: 35px;
-      text-align: center;
-      letter-spacing: -0.02em;
-      color: $color-secondary-dark;
-      margin-bottom: 37px;
-      @media (max-width: 992px) {
-        font-size: 22px;
-        line-height: 26px;
-        margin-bottom: 23px;
-      }
-      a {
-        font-weight: 600;
-        color: $color-primary-medium;
-        &:hover {
-          opacity: 0.7;
+      .mundo-melhor-bg {
+        top: 0;
+        bottom: 0;
+        right: 0;
+        max-width: 530px;
+        width: 40%;
+        overflow: hidden;
+        height: 100%;
+        background: url(images/o-que-e-mt/mt-diferente.png);
+        background-size: cover;
+        @media (max-width: 992px) { 
+          display: none;
         }
       }
-    }
-    .btn {
-      background: $color-primary-dark;
-      border: 1px solid $color-primary-dark;
-      border-radius: 30px;
-      padding: 9px 31px;
-      font-weight: 700;
-      font-size: 26px;
-      line-height: 30px;
-      color: $color-white;
-      @media (max-width: 992px)  {
-        font-size: 14px;
-        line-height: 16px;
+      h2 {
+        font-weight: 300;
+        font-size: 54px;
+        line-height: 63px;
+        letter-spacing: -0.02em;
+        color: $color-white;
+        margin-bottom: 35px;
+        strong {
+          font-weight: 600;
+          color: $color-primary-medium;
+        }
+        @media (max-width: 992px) {
+          font-size: 29px;
+          line-height: 34px;
+          margin-bottom: 20px;
+        }
       }
-      &:hover {
-        background: transparent;
-        border: 1px solid $color-primary-dark;
-        color: $color-primary-dark;
-      }
-    }
-  }
-  .o-que-e-mt-meditar {
-    padding: 100px 0;
-    @media (max-width: 992px) {
-      padding: 26px 0 40px 0;
-    }
-    h2 {
-      font-weight: 300;
-      font-size: 54px;
-      line-height: 63px;
-      text-align: center;
-      letter-spacing: -0.02em;
-      color: $color-secondary-dark;
-      margin-bottom: 49px;
-      @media (max-width: 992px) {
-        font-size: 30px;
-        line-height: 35px;
-        margin-bottom: 20px;
-      }
-      strong {
-        font-weight: 600;
-        color: $color-primary-medium;
-      }
-    }
-    .text {
       p {
-        font-weight: 400;
+        margin-bottom: 30px;
+        font-style: normal;
+        font-weight: 300;
         font-size: 24px;
         line-height: 28px;
-        color: $color-secondary-dark;
-        margin-bottom: 30px;
-        margin-top: 0;
-        @media (max-width: 992px)  {
+        color: $color-white; 
+        @media (max-width: 992px) {
           font-size: 14px;
           line-height: 16px;
-          margin-bottom: 18px;
-          margin-top: 0;
+          margin-bottom: 15px;
         }
         strong {
           font-weight: 600;
         }
       }
     }
-    .itens {
-      .item {
-        border: 2px solid $color-primary-medium;
-        border-radius: 100px;
-        margin-bottom: 30px;
-        display: flex;
-        .content {
-          padding: 16px 35px 16px 45px;
-          display: flex;
-          align-items: center;
-          justify-content: space-evenly;
+    .o-que-e-mt-atua {
+      padding: 92px 0 53px 0;
+      @media (max-width: 992px) {
+        padding: 35px 0 48px;
+      }
+      h2 {
+        font-weight: 300;
+        font-size: 54px;
+        line-height: 63px;
+        letter-spacing: -0.02em;
+        color: $color-secondary-dark;
+        margin-bottom: 36px;
+        text-align: center;
+        @media (max-width: 992px) {
+          margin-bottom: 17px;
+          font-size: 30px;
+          line-height: 35px;
+        }
+        strong {
+          font-weight: 600;
+          color: $color-primary-medium;
+        }
+      }
+      h3 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        color: $color-secondary-dark;
+        margin-bottom: 38px;
+        @media (max-width: 992px) {
+          font-size: 14px;
+          line-height: 16px;
+          margin-bottom: 28px;
+        }
+      }
+      h4 {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 30px;
+        color: $color-secondary-dark;
+        margin-bottom: 48px;
+        text-align: center;
+        @media (max-width: 992px) {
+          font-size: 20px;
+          line-height: 16px;
+          margin-bottom: 0;
+        }
+      }
+      p {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 0;
+        color: $color-secondary-dark;
+        @media (max-width: 992px) {
+          font-size: 14px;
+          line-height: 16px;
+        }
+        strong {
+          font-weight: 700;
+        }
+        span {
+          font-weight: 700;
+          color: $color-primary-dark;
+        }
+      }
+      img {
+        @media (max-width: 992px) {
+          padding: 20px;
+        }
+      }
+    }
+    .o-que-e-mt-imagine {
+      background: url('images/o-que-e-mt/imagine-bg.png') center center no-repeat;
+      background-size: cover;
+      padding: 66px 0;
+      @media (max-width: 992px) {
+        padding: 35px 0;
+      }
+      h2 {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: $color-white;
+        margin: 0 auto;
+        margin-bottom: 32px;
+        max-width: 808px;
+        @media (max-width: 992px) {
+          font-size: 22px;
+          line-height: 26px;
+        }
+      }
+      p {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: $color-white;
+        max-width: 1000px;
+        margin: 0 auto;
+        margin-bottom: 32px;
+        @media (max-width: 992px) {
+          font-size: 14px;
+          line-height: 16px;
+        }
+      }
+      .btn {
+        background: $color-primary-dark;
+        border: 1px solid $color-primary-dark;
+        border-radius: 30px;
+        padding: 9px 31px;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 30px;
+        color: $color-white;
+        @media (max-width: 992px) {
+          font-size: 14px;
+          line-height: 16px;
+        }
+        &:hover {
+          background: transparent;
+          border: 1px solid $color-white;
+          color: $color-white;
+        }
+      }
+      
+    }
+    .o-que-e-mt-pesquisas {
+      padding: 99px 0 103px;
+      @media (max-width: 992px) {
+        padding: 43px 0 48px 0;
+      }
+      h2 {
+        font-weight: 300;
+        font-size: 54px;
+        line-height: 63px;
+        letter-spacing: -0.02em;
+        color: $color-secondary-dark;
+        text-align: center;
+        margin-bottom: 55px;
+        strong {
+          color: $color-primary-medium;
+          font-weight: 600;
+        }
+        @media (max-width: 992px) {
+          font-size: 30px;
+          line-height: 35px;
+          margin-bottom: 40px;
+        }
+      }
+      p {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: left;
+        margin-bottom: 0;
+        color: $color-secondary-dark;
+        strong {
+          font-weight: 600;
+        }
+        @media (max-width: 992px) {
+          font-size: 14px;
+          line-height: 16px;
+          text-align: center;
+        }
+      }
+      .btn {
+        background: $color-primary-dark;
+        border: 1px solid $color-primary-dark;
+        border-radius: 30px;
+        padding: 9px 31px;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 30px;
+        color: $color-white;
+        margin-top: 74px;
+        @media (max-width: 992px) {
+          font-size: 14px;
+          line-height: 16px;
+          margin-top: 21px;
+        }
+        &:hover {
+          background: transparent;
+          border: 1px solid $color-primary-dark;
+          color: $color-primary-dark;
+        }
+      }
+      .row {
+        max-width: 860px;
+        margin: 0 auto;
+      }
+    }
+    .o-que-e-mt-sabermais {
+      background: $color-primary-medium;
+      padding: 60px 0 80px 0;
+      h2 {
+        font-weight: 300;
+        font-size: 54px;
+        line-height: 63px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: $color-white;
+        margin-bottom: 55px;
+        text-align: center;
+        strong {
+          font-weight: 600;
+        }
+        @media (max-width: 992px) {
+          font-size: 30px;
+          line-height: 35px;
+          margin-bottom: 35px;
+        }
+      }
+      .swiper-slide {
+        height: auto;
+      }
+      .book {
+        padding: 14px;
+        background: $color-primary-light;
+        border-radius: 5px;
+        width: 85%;
+        margin: 0 auto;
+        height: 100%;
+        @media (max-width: 992px) {
+          padding: 27px 18px;
+        }
+        img {
+          height: 200px;
+          object-fit: cover;
+          width: 138.67px;
+          margin-right: 12.33px;
           @media (max-width: 992px) {
-            padding: 16px 26px;
+            margin-bottom: 18.44px;
+            margin-right: 0;
           }
         }
         h5 {
           font-weight: 600;
-          font-size: 24px;
-          line-height: 28px;
+          font-size: 15px;
+          line-height: 18px;
           color: $color-secondary-dark;
-          position: relative;
-          max-width: 300px;
-          margin: 0 auto;
-          padding-right: 15px;
-          @media (max-width: 992px) {
-            font-size: 14px;
-            line-height: 16px;
+          margin-bottom: 10px;
+        }
+        p {
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 17px;
+          margin-bottom: 0;
+          color: $color-secondary-dark;
+          a {
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 15px;
+            color: $color-secondary-dark;
+            @media (max-width: 992px) {
+              display: none;
+            }
           }
         }
+        a {
+          font-weight: 600;
+          font-size: 13px;
+          line-height: 15px;
+          color: $color-secondary-dark;
+        }
+      }
+      
+      .swiper-button-prev {
+        transition: all .3s ease;
+        left: 0;
+        @media (max-width: 992px) {
+          left: -10px;
+        }
+        &::after {
+          content: '';
+          background-image: url("images/o-que-e-mt/prev.png");
+          width: 24px;
+          height: 44px;
+          @media (max-width: 992px) {
+            width: 8px;
+            height: 15px;
+            background-image: url("images/o-que-e-mt/prev-m.png");
+          }
+        }
+        &:hover {
+          opacity: 0.7;
+        } 
+      }
+      .swiper-button-next {
+        transition: all .3s ease;
+        right: 0;
+        @media (max-width: 992px) {
+          right: -9px;
+        }
+        &::after {
+          content: '';
+          background-image: url("images/o-que-e-mt/next.png");
+          width: 24px;
+          height: 44px;
+          @media (max-width: 992px) {
+            background-image: url("images/o-que-e-mt/next-m.png");
+            width: 8px;
+            height: 15px;
+          }
+        }
+        &:hover {
+          opacity: 0.7;
+        } 
+      }
+    }
+    .o-que-e-mt-footer {
+      padding: 67px 0 64px;
+      @media (max-width: 992px) {
+        padding: 39px 0 36px 0;
+      }
+      h2 {
+        font-weight: 600;
+        font-size: 54px;
+        line-height: 63px;
+        letter-spacing: -0.02em;
+        color: $color-primary-medium;
+        margin-bottom: 18px;
+        text-align: center;
+        @media (max-width: 992px) {
+          font-size: 30px;
+          line-height: 35px;
+          margin-bottom: 11px;
+        }
+      }
+      p {
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: $color-secondary-dark;
+        margin-bottom: 37px;
+        @media (max-width: 992px) {
+          font-size: 22px;
+          line-height: 26px;
+          margin-bottom: 23px;
+        }
+        a {
+          font-weight: 600;
+          color: $color-primary-medium;
+          &:hover {
+            opacity: 0.7;
+          }
+        }
+      }
+      .btn {
+        background: $color-primary-dark;
+        border: 1px solid $color-primary-dark;
+        border-radius: 30px;
+        padding: 9px 31px;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 30px;
+        color: $color-white;
+        @media (max-width: 992px)  {
+          font-size: 14px;
+          line-height: 16px;
+        }
+        &:hover {
+          background: transparent;
+          border: 1px solid $color-primary-dark;
+          color: $color-primary-dark;
+        }
+      }
+    }
+    .o-que-e-mt-meditar {
+      padding: 100px 0;
+      @media (max-width: 992px) {
+        padding: 26px 0 40px 0;
+      }
+      h2 {
+        font-weight: 300;
+        font-size: 54px;
+        line-height: 63px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: $color-secondary-dark;
+        margin-bottom: 49px;
+        @media (max-width: 992px) {
+          font-size: 30px;
+          line-height: 35px;
+          margin-bottom: 20px;
+        }
+        strong {
+          font-weight: 600;
+          color: $color-primary-medium;
+        }
+      }
+      .text {
         p {
           font-weight: 400;
           font-size: 24px;
           line-height: 28px;
-          padding-left: 24px;
-          max-width: 200px;
-          margin: 0 auto;
-          @media (max-width: 992px) {
+          color: $color-secondary-dark;
+          margin-bottom: 30px;
+          margin-top: 0;
+          @media (max-width: 992px)  {
             font-size: 14px;
             line-height: 16px;
+            margin-bottom: 18px;
+            margin-top: 0;
           }
-          &.border-left-white{
-            border-left: 1px solid $color-white;
-            margin-left: 10px;
+          strong {
+            font-weight: 600;
           }
-          &.border-left-yellow{
-            border-left: 1px solid $color-primary-medium;
-          }
-          img {
+        }
+      }
+      .itens {
+        .item {
+          border: 2px solid $color-primary-medium;
+          border-radius: 100px;
+          margin-bottom: 30px;
+          display: flex;
+          .content {
+            padding: 16px 35px 16px 45px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
             @media (max-width: 992px) {
-              max-width: 70px;
+              padding: 16px 26px;
+            }
+          }
+          h5 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 28px;
+            color: $color-secondary-dark;
+            position: relative;
+            max-width: 300px;
+            margin: 0 auto;
+            padding-right: 15px;
+            @media (max-width: 992px) {
+              font-size: 14px;
+              line-height: 16px;
+            }
+          }
+          p {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 28px;
+            padding-left: 24px;
+            max-width: 200px;
+            margin: 0 auto;
+            @media (max-width: 992px) {
+              font-size: 14px;
+              line-height: 16px;
+            }
+            &.border-left-white{
+              border-left: 1px solid $color-white;
+              margin-left: 10px;
+            }
+            &.border-left-yellow{
+              border-left: 1px solid $color-primary-medium;
+            }
+            img {
+              @media (max-width: 992px) {
+                max-width: 70px;
+              }
             }
           }
         }
       }
-    }
-    p {
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 28px;
-      color: $color-secondary-dark;
-      margin-bottom: 35px;
-      margin-top: 77px;
-      @media (max-width: 992px)  {
-        font-size: 14px;
-        line-height: 16px;
-        margin-bottom: 20px;
-        margin-top: 30px;
-      }
-    }
-    .table {
-      width:100%;
-      height:100%;
-      border-collapse:separate;
-      border-spacing:0.1px;
-      border:1px solid $color-white;
-      padding:1rem;
-      font-size: 1.5rem;
-      line-height: 1.625rem;
-      vertical-align: middle;
-      @media (max-width: 992px) {
-        font-size: 1rem;
-        line-height: 1.1rem;
-      }
-      thead {
-        border:1px solid $color-white;
-        color: $color-white;
-        vertical-align: middle;
-      }
-      .first-column{
-        background:$color-secondary-medium;  
-        color: $color-white;
-        text-align: left;
-        font-weight: 700;
-        vertical-align: middle;
-        width: 18%; 
-      }
-    }
-    .table th {
-      border:1px solid $color-white;
-      padding:1rem;
-      background:$color-primary-dark;
-      text-align: center;
-      font-weight: 700;
-      vertical-align: middle;
-      @media (max-width: 640px)  {
-        width: 60%;
-      }
-      @media (max-width: 992px) {
-        img{
-          width: 50%;
+      p {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: $color-secondary-dark;
+        margin-bottom: 35px;
+        margin-top: 77px;
+        @media (max-width: 992px)  {
+          font-size: 14px;
+          line-height: 16px;
+          margin-bottom: 20px;
+          margin-top: 30px;
         }
       }
-    }
-    .table td {
-      border:1px solid $color-white;
-      text-align:center;
-      padding:1rem;
-      background:$color-primary-medium;
-      vertical-align: middle;
-      width: 27.3333333%;
-      .autor{
-        font-size: 1.25rem;
+      .table {
+        width:100%;
+        height:100%;
+        border-collapse:separate;
+        border-spacing:0.1px;
+        border:1px solid $color-white;
+        padding:1rem;
+        font-size: 1.5rem;
+        line-height: 1.625rem;
+        vertical-align: middle;
         @media (max-width: 992px) {
-          font-size: 0.75rem;
-          line-height: 1rem;
+          font-size: 1rem;
+          line-height: 1.1rem;
+        }
+        thead {
+          border:1px solid $color-white;
+          color: $color-white;
+          vertical-align: middle;
+        }
+        .first-column{
+          background:$color-secondary-medium;  
+          color: $color-white;
+          text-align: left;
+          font-weight: 700;
+          vertical-align: middle;
+          width: 18%; 
+        }
+      }
+      .table th {
+        border:1px solid $color-white;
+        padding:1rem;
+        background:$color-primary-dark;
+        text-align: center;
+        font-weight: 700;
+        vertical-align: middle;
+        @media (max-width: 640px)  {
+          width: 60%;
+        }
+        @media (max-width: 992px) {
+          img{
+            width: 50%;
+          }
+        }
+      }
+      .table td {
+        border:1px solid $color-white;
+        text-align:center;
+        padding:1rem;
+        background:$color-primary-medium;
+        vertical-align: middle;
+        width: 27.3333333%;
+        .autor{
+          font-size: 1.25rem;
+          @media (max-width: 992px) {
+            font-size: 0.75rem;
+            line-height: 1rem;
+          }
         }
       }
     }
   }
-}
