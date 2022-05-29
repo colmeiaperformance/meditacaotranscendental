@@ -315,7 +315,7 @@
     var swiper = new Swiper(".swiperMudouVida", {
       slidesPerView: 1,
       slidesPerGroup: 1,
-      loop: true,
+      loop: false,
       spaceBetween: 10,
       grabCursor: true,
       pagination: {
@@ -351,7 +351,7 @@
     var swiper = new Swiper(".atividadesSwiper", {
       slidesPerView: 1,
       slidesPerGroup: 1,
-      loop: true,
+      loop: false,
       spaceBetween: 0,
       grabCursor: false,
       pagination: {
@@ -387,7 +387,7 @@
     var swiper = new Swiper(".passosSwiper", {
       slidesPerView: 1,
       slidesPerGroup: 1,
-      loop: true,
+      loop: false,
       spaceBetween: 0,
       pagination: {
         el: ".swiper-pagination",

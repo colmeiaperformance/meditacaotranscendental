@@ -390,10 +390,10 @@
       </div>
     </div>
   </section>
-  <section class="mudou-vida">
+  <!-- <section class="mudou-vida">
     <div class="container">
       <h2>O que dizem os praticantes da <strong>MT</strong></h2>
-      <!-- inicio carousel -->
+   
       <div id="mudouvida" class="swiper swiperMudouVida" data-bs-ride="carousel">
         <div class="swiper-wrapper">
 
@@ -453,9 +453,9 @@
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
       </div>
-      <!-- final carousel -->
     </div>
-  </section>
+  </section> -->
+  <?php get_template_part('template-parts/sections/pages/o-que-dizem'); ?>
   <section class="beneficios-pesquisas">
     <div class="container">
       <h2>Pesquisas <strong>científicas</strong></h2>
@@ -504,7 +504,7 @@
   </section>
 
 </main>
-<script>
+<!-- <script>
 jQuery(document).ready(function() {
   var swiper = new Swiper(".swiperMudouVida", {
     slidesPerView: 1,
@@ -539,7 +539,7 @@ jQuery(document).ready(function() {
     },
   });
 });
-</script>
+</script> -->
 <script>
 jQuery(document).ready(function() {
   var swiper = new Swiper(".swiperCiencia", {
