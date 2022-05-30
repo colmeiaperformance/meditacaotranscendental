@@ -59,7 +59,7 @@
   </section>
   <section class="ciencia">
     <div class="container">
-      <div class="row align-items-center justify-content-center px-5 mx-3 nav nav-pills" id="pills-tab" role="tablist">
+      <div class="row align-items-center justify-content-center px-0 px-lg-5 mx-3 nav nav-pills" id="pills-tab" role="tablist">
 
 
         <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
@@ -142,14 +142,14 @@
 
                 <div class="swiper-slide">
                   <div class="swiper-mobile">
-                    <div class="container px-5">
-                      <div class="row d-flex align-items-center justify-content-center px-5">
+                    <div class="container px-1 px-lg-5">
+                      <div class="row d-flex align-items-center justify-content-center px-3 px-lg-5">
                         <div class="col-12 col-lg-4">
                           <h3>Burnout, insônia e depressão</h3>
                           <p>Durante a pandemia da covid-19, uma pesquisa mostrou redução do burnout, da depressão e da
                             insônia em médicos que praticavam, regularmente, a MT.</p>
                         </div>
-                        <div class="col-12 col-lg-8 d-flex align-items-center justify-content-end p-0">
+                        <div class="col-12 col-lg-8 d-flex align-items-center justify-content-end p-0 mt-4 mt-lg-0">
                           <img loading="lazy" class="img-fluid"
                             src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/chart.png' ?>
                             alt="Gráfico">
@@ -161,14 +161,14 @@
 
                 <div class="swiper-slide">
                   <div class="swiper-mobile">
-                    <div class="container px-5">
-                      <div class="row d-flex align-items-center justify-content-center px-5">
+                    <div class="container px-1 px-lg-5">
+                      <div class="row d-flex align-items-center justify-content-center px-3 px-lg-5">
                         <div class="col-12 col-lg-4">
                           <h3>Burnout, insônia e depressão</h3>
                           <p>Durante a pandemia da covid-19, uma pesquisa mostrou redução do burnout, da depressão e da
                             insônia em médicos que praticavam, regularmente, a MT.</p>
                         </div>
-                        <div class="col-12 col-lg-8 d-flex align-items-center justify-content-end p-0">
+                        <div class="col-12 col-lg-8 d-flex align-items-center justify-content-end p-0 mt-4 mt-lg-0">
                           <img loading="lazy" class="img-fluid"
                             src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/chart.png' ?>
                             alt="Gráfico">
@@ -204,16 +204,16 @@
             <div class="swiper swiperCiencia">
               <div class="swiper-wrapper">
 
-                <div class="swiper-slide">
+              <div class="swiper-slide">
                   <div class="swiper-mobile">
-                    <div class="container px-5">
-                      <div class="row d-flex align-items-center justify-content-center px-5">
+                    <div class="container px-1 px-lg-5">
+                      <div class="row d-flex align-items-center justify-content-center px-3 px-lg-5">
                         <div class="col-12 col-lg-4">
                           <h3>Burnout, insônia e depressão</h3>
                           <p>Durante a pandemia da covid-19, uma pesquisa mostrou redução do burnout, da depressão e da
                             insônia em médicos que praticavam, regularmente, a MT.</p>
                         </div>
-                        <div class="col-12 col-lg-8 d-flex align-items-center justify-content-end p-0">
+                        <div class="col-12 col-lg-8 d-flex align-items-center justify-content-end p-0 mt-4 mt-lg-0">
                           <img loading="lazy" class="img-fluid"
                             src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/chart.png' ?>
                             alt="Gráfico">
@@ -225,14 +225,14 @@
 
                 <div class="swiper-slide">
                   <div class="swiper-mobile">
-                    <div class="container px-5">
-                      <div class="row d-flex align-items-center justify-content-center px-5">
+                    <div class="container px-1 px-lg-5">
+                      <div class="row d-flex align-items-center justify-content-center px-3 px-lg-5">
                         <div class="col-12 col-lg-4">
                           <h3>Burnout, insônia e depressão</h3>
                           <p>Durante a pandemia da covid-19, uma pesquisa mostrou redução do burnout, da depressão e da
                             insônia em médicos que praticavam, regularmente, a MT.</p>
                         </div>
-                        <div class="col-12 col-lg-8 d-flex align-items-center justify-content-end p-0">
+                        <div class="col-12 col-lg-8 d-flex align-items-center justify-content-end p-0 mt-4 mt-lg-0">
                           <img loading="lazy" class="img-fluid"
                             src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/chart.png' ?>
                             alt="Gráfico">
@@ -268,16 +268,16 @@
             <div class="swiper swiperCiencia">
               <div class="swiper-wrapper">
 
-                <div class="swiper-slide">
+              <div class="swiper-slide">
                   <div class="swiper-mobile">
-                    <div class="container px-5">
-                      <div class="row d-flex align-items-center justify-content-center px-5">
+                    <div class="container px-1 px-lg-5">
+                      <div class="row d-flex align-items-center justify-content-center px-3 px-lg-5">
                         <div class="col-12 col-lg-4">
                           <h3>Burnout, insônia e depressão</h3>
                           <p>Durante a pandemia da covid-19, uma pesquisa mostrou redução do burnout, da depressão e da
                             insônia em médicos que praticavam, regularmente, a MT.</p>
                         </div>
-                        <div class="col-12 col-lg-8 d-flex align-items-center justify-content-end p-0">
+                        <div class="col-12 col-lg-8 d-flex align-items-center justify-content-end p-0 mt-4 mt-lg-0">
                           <img loading="lazy" class="img-fluid"
                             src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/chart.png' ?>
                             alt="Gráfico">
@@ -289,14 +289,14 @@
 
                 <div class="swiper-slide">
                   <div class="swiper-mobile">
-                    <div class="container px-5">
-                      <div class="row d-flex align-items-center justify-content-center px-5">
+                    <div class="container px-1 px-lg-5">
+                      <div class="row d-flex align-items-center justify-content-center px-3 px-lg-5">
                         <div class="col-12 col-lg-4">
                           <h3>Burnout, insônia e depressão</h3>
                           <p>Durante a pandemia da covid-19, uma pesquisa mostrou redução do burnout, da depressão e da
                             insônia em médicos que praticavam, regularmente, a MT.</p>
                         </div>
-                        <div class="col-12 col-lg-8 d-flex align-items-center justify-content-end p-0">
+                        <div class="col-12 col-lg-8 d-flex align-items-center justify-content-end p-0 mt-4 mt-lg-0">
                           <img loading="lazy" class="img-fluid"
                             src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/chart.png' ?>
                             alt="Gráfico">
@@ -333,16 +333,16 @@
             <div class="swiper swiperCiencia">
               <div class="swiper-wrapper">
 
-                <div class="swiper-slide">
+              <div class="swiper-slide">
                   <div class="swiper-mobile">
-                    <div class="container px-5">
-                      <div class="row d-flex align-items-center justify-content-center px-5">
+                    <div class="container px-1 px-lg-5">
+                      <div class="row d-flex align-items-center justify-content-center px-3 px-lg-5">
                         <div class="col-12 col-lg-4">
                           <h3>Burnout, insônia e depressão</h3>
                           <p>Durante a pandemia da covid-19, uma pesquisa mostrou redução do burnout, da depressão e da
                             insônia em médicos que praticavam, regularmente, a MT.</p>
                         </div>
-                        <div class="col-12 col-lg-8 d-flex align-items-center justify-content-end p-0">
+                        <div class="col-12 col-lg-8 d-flex align-items-center justify-content-end p-0 mt-4 mt-lg-0">
                           <img loading="lazy" class="img-fluid"
                             src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/chart.png' ?>
                             alt="Gráfico">
@@ -354,14 +354,14 @@
 
                 <div class="swiper-slide">
                   <div class="swiper-mobile">
-                    <div class="container px-5">
-                      <div class="row d-flex align-items-center justify-content-center px-5">
+                    <div class="container px-1 px-lg-5">
+                      <div class="row d-flex align-items-center justify-content-center px-3 px-lg-5">
                         <div class="col-12 col-lg-4">
                           <h3>Burnout, insônia e depressão</h3>
                           <p>Durante a pandemia da covid-19, uma pesquisa mostrou redução do burnout, da depressão e da
                             insônia em médicos que praticavam, regularmente, a MT.</p>
                         </div>
-                        <div class="col-12 col-lg-8 d-flex align-items-center justify-content-end p-0">
+                        <div class="col-12 col-lg-8 d-flex align-items-center justify-content-end p-0 mt-4 mt-lg-0">
                           <img loading="lazy" class="img-fluid"
                             src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/chart.png' ?>
                             alt="Gráfico">

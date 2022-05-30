@@ -1836,6 +1836,12 @@ footer .top a {
   padding: 70px 0 37px 0;
 }
 
+@media (max-width: 992px) {
+  .page-beneficios-mt .hero {
+    padding: 24px 0 12px 0;
+  }
+}
+
 .page-beneficios-mt .hero p {
   font-weight: 400;
   font-size: 24px;
@@ -1871,6 +1877,13 @@ footer .top a {
   text-align: center;
 }
 
+@media (max-width: 992px) {
+  .page-beneficios-mt .mt-faz h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
 .page-beneficios-mt .mt-faz h2 strong {
   font-weight: 600;
   color: #FFC536;
@@ -1893,7 +1906,7 @@ footer .top a {
 @media (max-width: 992px) {
   .page-beneficios-mt .mt-faz ul li {
     font-size: 18px;
-    line-height: 26px;
+    line-height: 24px;
   }
 }
 
@@ -2041,10 +2054,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-beneficios-mt .ciencia h2 {
-    font-weight: 300;
     font-size: 30px;
     line-height: 35px;
-    margin-bottom: 30px;
   }
 }
 
@@ -2063,6 +2074,14 @@ footer .top a {
   border: 1px solid #F29F05;
   border-radius: 30px;
   margin-top: 74px;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .ciencia .btn {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 24px;
+  }
 }
 
 .page-beneficios-mt .ciencia .btn:hover {
@@ -2268,6 +2287,12 @@ footer .top a {
   margin-top: 78px;
 }
 
+@media (max-width: 992px) {
+  .page-beneficios-mt .ciencia .legend {
+    margin-top: 16px;
+  }
+}
+
 .page-beneficios-mt .ciencia .legend p {
   font-weight: 400;
   font-size: 24px;
@@ -2278,7 +2303,7 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-beneficios-mt .ciencia .legend p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 16px;
   }
 }
