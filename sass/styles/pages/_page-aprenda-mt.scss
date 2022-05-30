@@ -365,8 +365,8 @@
           color: $color-secondary-dark;
           @media (max-width: 992px) {
             font-weight: 400;
-            font-size: 1rem;
-            line-height: 18px;
+            font-size: 14px;
+            line-height: 16px;
             text-align: center;
             color: $color-white;
           }
@@ -726,6 +726,10 @@
             line-height: 1.3rem;
             color: $color-secondary-dark;
             margin-bottom: 0;
+            @media (max-width: 992px) {
+              font-size: 14px;
+              line-height: 16px;
+            }
           }
           .content {
             @media (max-width: 992px) {

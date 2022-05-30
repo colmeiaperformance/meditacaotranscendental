@@ -1284,8 +1284,8 @@ footer .top a {
 @media (max-width: 992px) {
   .page-aprenda-mt .mudou-vida .swiper-slide p {
     font-weight: 400;
-    font-size: 1rem;
-    line-height: 18px;
+    font-size: 14px;
+    line-height: 16px;
     text-align: center;
     color: #FFFFFF;
   }
@@ -1769,6 +1769,13 @@ footer .top a {
 }
 
 @media (max-width: 992px) {
+  .page-aprenda-mt .mt-curso .atividades .swiper-slide p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 992px) {
   .page-aprenda-mt .mt-curso .atividades .swiper-slide .content {
     max-width: 266px;
     margin: 0 auto;
@@ -1837,6 +1844,13 @@ footer .top a {
   margin-bottom: 37px;
 }
 
+@media (max-width: 992px) {
+  .page-beneficios-mt .hero p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
 .page-beneficios-mt .hero p strong {
   font-weight: 700;
   color: #FFC536;
@@ -1874,6 +1888,13 @@ footer .top a {
   font-size: 24px;
   line-height: 42px;
   color: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .mt-faz ul li {
+    font-size: 18px;
+    line-height: 26px;
+  }
 }
 
 .page-beneficios-mt .mt-faz img {
@@ -1988,6 +2009,13 @@ footer .top a {
   margin: 0 auto;
 }
 
+@media (max-width: 992px) {
+  .page-beneficios-mt .beneficios-info .info p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
 .page-beneficios-mt .ciencia {
   padding: 90px 0 83px 0;
 }
@@ -2009,6 +2037,15 @@ footer .top a {
   color: #323B50;
   margin-bottom: 44px;
   margin-top: 50px;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .ciencia h2 {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 30px;
+  }
 }
 
 .page-beneficios-mt .ciencia h2 strong {
@@ -2047,6 +2084,13 @@ footer .top a {
   line-height: 28px;
   color: #323B50;
   margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .ciencia .swiper-slide p {
+    font-size: 14px;
+    line-height: 16px;
+  }
 }
 
 .page-beneficios-mt .ciencia .swiper-slide img {
@@ -2230,6 +2274,13 @@ footer .top a {
   line-height: 28px;
   color: #323B50;
   margin-bottom: 40px;
+}
+
+@media (max-width: 992px) {
+  .page-beneficios-mt .ciencia .legend p {
+    font-size: 14px;
+    line-height: 16px;
+  }
 }
 
 .page-faq {
@@ -3040,7 +3091,7 @@ footer .top a {
 }
 
 .page-o-que-e-mt .o-que-e-mt-hero p {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 30px;
   line-height: 35px;
   color: #323B50;
@@ -3241,7 +3292,7 @@ footer .top a {
 .page-o-que-e-mt .o-que-e-mt-diferente p {
   margin-bottom: 30px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 24px;
   line-height: 28px;
   color: #FFFFFF;
@@ -3702,7 +3753,7 @@ footer .top a {
 }
 
 .page-o-que-e-mt .o-que-e-mt-footer p {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 30px;
   line-height: 35px;
   text-align: center;
