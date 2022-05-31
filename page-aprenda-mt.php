@@ -47,7 +47,7 @@
   </section>
   <section class="tres-passos">
     <div class="container">
-      <h2><strong>3 passos</strong> para aprender a MT</h2>
+      <h2><strong>Os passos</strong> para aprender a MT</h2>
     </div>
       <div class="item">
        <div class="container d-flex align-items-lg-center justify-content-start">
