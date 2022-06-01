@@ -2441,6 +2441,14 @@ footer .top a {
   margin-bottom: 45px;
 }
 
+@media (max-width: 992px) {
+  .page-faq h2 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 22px;
+  }
+}
+
 .page-faq ul {
   max-width: 970px;
   margin: 0 auto;

@@ -8,6 +8,11 @@
     letter-spacing: -0.02em;
     color: $color-primary-medium;
     margin-bottom: 45px;
+    @media (max-width: 992px)  {
+      font-size: 30px;
+      line-height: 35px;
+      margin-bottom: 22px;
+    }
   }
   ul {
     max-width: 970px;

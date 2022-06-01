@@ -122,7 +122,7 @@
       </li>
       <li>
         <button class="btn btn-toggle align-items-center   collapsed" data-bs-toggle="collapse"
-          data-bs-target="#collapse-10" aria-expanded="false">
+          data-bs-target="#collapse-11" aria-expanded="false">
         Como saber se estou recebendo a legítima técnica da MT?
         </button>
         <div class="collapse" id="collapse-11">
