@@ -7,10 +7,13 @@
     </div> -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/header/banner-quemsomos.png' ?> alt="Instrutores">
+        <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/header/banner-quemsomos.png' ?> alt="Quem somos">
         <div class="container">
           <div class="carousel-caption">
-            <h1>Uma técnica <strong>simples, fácil e natural.</strong></h1>
+            <h1 class="d-none">Quem Somos</h1>
+            <h2>Se quisermos melhorar qualquer área da sociedade, devemos usar as tecnologias da consciência para alcançar nossos objetivos mais elevados.</h2>
+            <span>Maharishi Mahesh Yogi</span>
+            <em>Fundador da Meditação Transcendental</em>
           </div>
         </div>
       </div>
