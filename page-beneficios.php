@@ -372,7 +372,7 @@
       </div>
     </div>
   </section>
-  <?php get_template_part('template-parts/sections/pages/o-que-dizem'); ?>
+  <?php get_template_part('template-parts/sections/pages/o-que-dizem-temp'); ?>
   <section class="beneficios-pesquisas">
     <div class="container">
       <h2>Pesquisas <strong>científicas</strong></h2>
