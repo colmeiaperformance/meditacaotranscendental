@@ -228,7 +228,7 @@
   <section class="a-origem position-relative">
     <div class="mundo-melhor-topo">
       <img loading="lazy"
-        src="<?php echo get_template_directory_uri() . '/images/o-que-e-mt/mt-diferente-mobile.png' ?>" alt="mt.">
+        src="<?php echo get_template_directory_uri() . '/images/quem-somos/origem-mobile.png' ?>" alt="mt.">
     </div>
     <div class="container">
       <div class="row align-items-center justify-content-start">
@@ -246,7 +246,7 @@
   </section>
    <section class="legado position-relative">
     <div class="aprenda-mt-investir-topo">
-      <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/investir-mobile.png' ?>" alt="Investir">
+      <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/quem-somos/legado-mobile.png' ?>" alt="Investir">
     </div>
     <div class="container">
       <div class="aprenda-mt-investir-bg position-absolute"></div>

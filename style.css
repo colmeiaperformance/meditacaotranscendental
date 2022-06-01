@@ -2559,7 +2559,7 @@ footer .top a {
 @media (max-width: 992px) {
   .page-faq--footer div img {
     margin: 0;
-    max-width: 280px;
+    max-width: 180px;
   }
 }
 
@@ -2580,7 +2580,7 @@ footer .top a {
   .page-faq--footer div h2 {
     font-size: 30px;
     line-height: 35px;
-    letter-spacing: -0.02em;
+    margin-bottom: 22px;
   }
 }
 
@@ -4608,7 +4608,7 @@ footer .top a {
   width: 40%;
   overflow: hidden;
   height: 100%;
-  background: url(images/o-que-e-mt/mt-diferente.png);
+  background: url(images/quem-somos/legado.png);
   background-size: cover;
 }
 
@@ -4703,7 +4703,7 @@ footer .top a {
   width: 40%;
   overflow: hidden;
   height: 100%;
-  background: url(images/aprenda-mt/investir.png) center right no-repeat;
+  background: url(images/quem-somos/origem.png) center right no-repeat;
   background-size: cover;
 }
 
