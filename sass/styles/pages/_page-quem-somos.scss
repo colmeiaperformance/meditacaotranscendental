@@ -277,6 +277,7 @@
       }
     }
   }
+  
   .a-origem {
     background-color: $color-primary-medium;
     overflow: hidden;
@@ -308,7 +309,7 @@
       width: 40%;
       overflow: hidden;
       height: 100%;
-      background: url(images/quem-somos/legado.png);
+      background: url(images/quem-somos/origem.png);
       background-size: cover;
       @media (max-width: 992px) { 
         display: none;
@@ -379,7 +380,7 @@
       width: 40%;
       overflow: hidden;
       height: 100%;
-      background: url(images/quem-somos/origem.png) center right no-repeat;
+      background: url(images/quem-somos/legado.png) center right no-repeat;
       background-size: cover;
       @media (max-width: 992px) { 
         display: none;
