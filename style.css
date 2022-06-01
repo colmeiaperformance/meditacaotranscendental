@@ -304,9 +304,9 @@ footer .top a {
 }
 
 .header--home .btn {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 30px;
   color: #F29F05;
   background-color: #FFFFFF;
   border: 1px solid #FFFFFF;
@@ -4882,7 +4882,7 @@ footer .top a {
 }
 
 .agende-palestra .btn {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 26px;
   line-height: 30px;
   color: #FFFFFF;
@@ -4909,8 +4909,8 @@ footer .top a {
 @media (max-width: 992px) {
   .agende-palestra .btn {
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
   }
 }
 
@@ -4992,12 +4992,12 @@ footer .top a {
 }
 
 .como-aprender p {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 24px;
   line-height: 30px;
   letter-spacing: -0.02em;
   color: #323B50;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 .como-aprender p strong {
@@ -5013,8 +5013,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .como-aprender p {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     margin-bottom: 20px;
   }
 }
@@ -5052,8 +5052,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .como-aprender li {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     margin-bottom: 24px;
     top: 0.4em;
     padding: 0;
@@ -5065,7 +5065,7 @@ footer .top a {
 
 .como-aprender .btn {
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 26px;
   line-height: 30px;
   color: #FFFFFF;
@@ -5077,8 +5077,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .como-aprender .btn {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     display: none;
   }
 }
@@ -5091,13 +5091,14 @@ footer .top a {
 
 .como-aprender .text-call p {
   font-size: 30px;
+  font-weight: 400;
 }
 
 @media (max-width: 992px) {
   .como-aprender .text-call p {
-    font-size: 22px;
+    font-size: 23px;
     line-height: 26px;
-    font-weight: 100;
+    font-weight: 300;
     margin-top: 2rem;
   }
 }
@@ -5497,16 +5498,16 @@ footer .top a {
 .mundo-melhor p {
   margin-bottom: 33px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 30px;
   color: #FFFFFF;
 }
 
 @media (max-width: 992px) {
   .mundo-melhor p {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     margin-bottom: 15px;
   }
 }
@@ -5516,7 +5517,7 @@ footer .top a {
 }
 
 .mundo-melhor .btn {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 26px;
   line-height: 30px;
   color: #FFFFFF;
@@ -5543,8 +5544,8 @@ footer .top a {
 @media (max-width: 992px) {
   .mundo-melhor .btn {
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
   }
 }
 
@@ -5594,7 +5595,7 @@ footer .top a {
 }
 
 .transcender p {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 24px;
   line-height: 30px;
   letter-spacing: -0.02em;
@@ -5610,8 +5611,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .transcender p {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     margin-bottom: 20px;
   }
 }
@@ -5683,9 +5684,9 @@ footer .top a {
 
 .mt-unica-depoimentos .depoimento p {
   font-style: italic;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 24px;
-  line-height: 33px;
+  line-height: 30px;
   text-align: center;
   color: #323B50;
   margin: 0 auto;
@@ -5696,8 +5697,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .mt-unica-depoimentos .depoimento p {
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 16px;
+    line-height: 18px;
     max-width: 85%;
     margin-bottom: 18px;
   }
@@ -5764,7 +5765,7 @@ footer .top a {
 
 @media (max-width: 992px) {
   .mt-unica-slide .carousel-item {
-    height: 210px;
+    height: 300px;
   }
 }
 
@@ -5777,7 +5778,7 @@ footer .top a {
 
 @media (max-width: 992px) {
   .mt-unica-slide .carousel-item img {
-    height: 210px;
+    height: 300px;
   }
 }
 
@@ -5839,8 +5840,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .mt-unica-slide h3 {
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 22px;
     margin-bottom: 13px;
   }
 }
@@ -5856,14 +5857,14 @@ footer .top a {
 
 @media (max-width: 992px) {
   .mt-unica-slide p {
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 16px;
+    line-height: 18px;
   }
 }
 
 .mt-unica-slide .btn {
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 26px;
   line-height: 30px;
   color: #FFFFFF;
@@ -5875,8 +5876,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .mt-unica-slide .btn {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     display: none;
   }
 }
@@ -5914,9 +5915,9 @@ footer .top a {
 
 .mt-unica p {
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 24px;
-  line-height: 34px;
+  line-height: 30px;
   color: #323B50;
   margin-bottom: 45px;
 }
@@ -5924,8 +5925,8 @@ footer .top a {
 @media (max-width: 992px) {
   .mt-unica p {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     margin-bottom: 20px;
     text-align: center;
   }
@@ -5980,8 +5981,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .mt-unica .video-caption h5 {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
   }
 }
 
@@ -5997,8 +5998,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .mt-unica .video-caption p {
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 14px;
+    line-height: 16px;
   }
 }
 
@@ -6083,8 +6084,8 @@ footer .top a {
 
 .visite-blog p {
   font-weight: 400;
-  font-size: 21px;
-  line-height: 26px;
+  font-size: 15px;
+  line-height: 17px;
   color: #323B50;
   margin-bottom: 20px;
 }
@@ -6105,15 +6106,25 @@ footer .top a {
 .visite-blog .post {
   border: 1px solid #FFEDBF;
   border-radius: 6px;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .visite-blog .post .post-item {
   margin-left: 16px;
 }
 
+.visite-blog .post .item-btn {
+  height: 100%;
+}
+
 .visite-blog .post-img .img-fluid {
   height: 100%;
   border-radius: 6px;
+}
+
+.visite-blog .swiper-slide {
+  height: auto;
 }
 
 .visite-blog .visite-blog-btn {

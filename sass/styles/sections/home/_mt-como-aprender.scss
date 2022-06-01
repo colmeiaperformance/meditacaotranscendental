@@ -57,12 +57,12 @@
     }
     
     p {
-        font-weight: 300;
+        font-weight: 400;
         font-size: 24px;
         line-height: 30px;
         letter-spacing: -0.02em;
         color: $color-secondary-dark;
-        margin-bottom: 35px;
+        margin-bottom: 25px;
         strong {
             font-weight: 600;
             letter-spacing: -0.02em;
@@ -73,8 +73,8 @@
             color: $color-primary-medium;
         }
         @media (max-width: 992px) {
-            font-size: 14px;
-            line-height: 16px;
+            font-size: 16px;
+            line-height: 18px;
             margin-bottom: 20px;
         }
     }
@@ -104,8 +104,8 @@
             top: 0.4em;
         }
         @media (max-width: 992px) {
-            font-size: 14px;
-            line-height: 16px;
+            font-size: 16px;
+            line-height: 18px;
             margin-bottom: 24px;
             top: 0.4em;
             padding: 0;
@@ -116,7 +116,7 @@
     }
     .btn {
         font-style: normal;
-        font-weight: 700;
+        font-weight: 400;
         font-size: 26px;
         line-height: 30px;
         color: $color-white;
@@ -125,8 +125,8 @@
         border-radius: 30px;
         padding: 9px 31px;
         @media (max-width: 992px) {
-            font-size: 14px;
-            line-height: 16px;
+            font-size: 16px;
+            line-height: 18px;
             display: none;
         }
         &:hover {
@@ -138,10 +138,11 @@
     .text-call {
         p {
             font-size: 30px;
+            font-weight: 400;
             @media (max-width: 992px) {
-                font-size: 22px;
+                font-size: 23px;
                 line-height: 26px;
-                font-weight: 100;
+                font-weight: 300;
                 margin-top: 2rem;
             }
         }

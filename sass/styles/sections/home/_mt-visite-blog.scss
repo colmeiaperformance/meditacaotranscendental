@@ -29,8 +29,8 @@
   }
   p { 
     font-weight: 400;
-    font-size: 21px;
-    line-height: 26px;
+    font-size: 15px;
+    line-height: 17px;
     color: $color-secondary-dark;
     margin-bottom: 20px;
     strong {
@@ -47,8 +47,13 @@
   .post{
     border: 1px solid $color-primary-light;
     border-radius: 6px;
+    margin: 0 auto;
+    width: 90%;
     .post-item{
       margin-left: 16px;
+    }
+    .item-btn{
+      height: 100%;
     }
   }
   .post-img{
@@ -56,6 +61,9 @@
       height: 100%;
       border-radius: 6px;
     }
+  }
+  .swiper-slide{
+    height: auto;
   }
   .visite-blog-btn{
     background: $color-primary-dark;
