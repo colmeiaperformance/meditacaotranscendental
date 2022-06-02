@@ -1,4 +1,4 @@
-<section class="visite-blog">
+<!-- <section class="visite-blog">
     <div class="container py-5">
       <h2>Visite o nosso <strong>blog</strong></h2>
       <div id="conhecaBlog" class="swiper swiperConhecaBlog" data-bs-ride="carousel">
@@ -55,7 +55,7 @@
         <!-- <div class="swiper-pagination"></div> -->
       </div>
     </div>
-</section>
+</section> -->
 <script>
   jQuery(document).ready(function() {
     var swiper = new Swiper(".swiperConhecaBlog", {

@@ -16,6 +16,9 @@
   .carousel-item {
     height: 485px;
     @media (max-width: 992px) {
+      height: 280px;
+    }
+    @media (max-width: 380px) {
       height: 300px;
     }
     img {
@@ -23,8 +26,29 @@
       position: relative;
       height: 485px;
       @media (max-width: 992px) {
+        height: 280px;
+      }
+      @media (max-width: 380px) {
         height: 300px;
       }
+    }
+    .img-1{
+      object-position: 42%;      
+    }
+    .img-2{
+      object-position: 39%;     
+    }
+    .img-3{
+      object-position: 38%;  
+    }
+    .img-4{
+      object-position: 32%;  
+    }
+    .img-5{
+      object-position: 37%;     
+    }
+    .img-6{
+      object-position: 40%;
     }
   }
   .carousel-control-prev-icon {
@@ -103,8 +127,8 @@
       display:none;
     }
     &:hover {
-      background: $color-primary-medium;
-      border: 1px solid  $color-primary-medium;
+      background: $color-primary-light;
+      border: 1px solid  $color-primary-light;
       color: $color-white;
     }
   }
@@ -112,13 +136,13 @@
     display: none;
     position: relative;
     z-index: 111;
-    width: 90%;
+    width: 78%;
     margin: 0 auto;
     margin-top: -17px;
     &:hover {
       color: $color-white;
-      background: $color-primary-medium;
-      border: 1px solid  $color-primary-medium;
+      background: $color-primary-light;
+      border: 1px solid  $color-primary-light;
     }
     @media (max-width: 992px)  {
       display: block;

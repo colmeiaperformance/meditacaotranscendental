@@ -216,25 +216,10 @@
       <div class="row">
         <div class="col-12 col-lg-6 mb-4 mb-lg-0 p-0 d-flex">
           <div class="row d-flex align-items-center justify-content-center">
-            <div class="col-6 d-flex align-items-center justify-content-start ps-2 pe-2">
+            <div class="ps-2 pe-2">
               <img loading="lazy" class="img-fluid"
-                src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/harvard.png' ?>
+                src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/faculdades-logos.png' ?>
                 alt="Harvard">
-            </div>
-            <div class="col-6 d-flex align-items-center justify-content-start ps-2 pe-2">
-              <img loading="lazy" class="img-fluid"
-                src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/yale.png' ?>
-                alt="Instrutoyaleres">
-            </div>
-            <div class="col-6 d-flex align-items-center justify-content-start ps-2 pe-2">
-              <img loading="lazy" class="img-fluid"
-                src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/stanford.png' ?>
-                alt="stanford">
-            </div>
-            <div class="col-6 d-flex align-items-center justify-content-start ps-2 pe-2">
-              <img loading="lazy" class="img-fluid"
-                src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/nih.png' ?>
-                alt="nih">
             </div>
           </div>
         </div>

@@ -12,7 +12,7 @@
           </div>
            <div class="hover">
             <p>
-              Aumenta o foco, a criatividade e a clareza mental. Melhora a memória, a percepção e a capacidade de analisar e resolver problemas.
+              Reduz ansiedade, depressão, síndrome do pânico e burnout. Promove paz interior, autoconfiança e felicidade.
             </p>
             <a href="#" class="btn">
               + Saiba mais
@@ -30,7 +30,7 @@
           </div>
            <div class="hover">
             <p>
-              Promove autoconhecimento, empatia, melhora a qualidade dos relacionamentos e leva à autorrealização.
+              Melhora a qualidade do sono, frequência cardíaca, pressão arterial e outros indicadores de saúde. 
             </p>
             <a href="#" class="btn">
               + Saiba mais
@@ -48,7 +48,7 @@
           </div>
           <div class="hover">
             <p>
-              Melhora a qualidade do sono, a frequência cardíaca, a pressão arterial e outros importantes indicadores de saúde.
+              Promove empatia, melhora a qualidade dos relacionamentos e leva à autoreealização.
             </p>
             <a href="#" class="btn">
               + Saiba mais
@@ -66,7 +66,7 @@
             </div>
              <div class="hover">
             <p>
-              Reduz ansiedade, depressão, síndrome do pânico e  burnout. Promove paz interior, autoconfiança e felicidade.
+              Aumenta o foco, criatividade e clareza mental. Melhora a memória, percepção e capacidade de resolver problemas.
             </p>
             <a href="#" class="btn">
               + Saiba mais

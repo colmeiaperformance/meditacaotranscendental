@@ -905,7 +905,7 @@ footer .top a {
 }
 
 .page-aprenda-mt .agende-mt .btn {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 26px;
   line-height: 30px;
   color: #FFFFFF;
@@ -917,9 +917,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-aprenda-mt .agende-mt .btn {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     padding: 7px;
     width: 100%;
   }
@@ -1024,7 +1023,7 @@ footer .top a {
 
 .page-aprenda-mt .aprenda-mt-investir p {
   margin-bottom: 40px;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 24px;
   line-height: 28px;
   color: #323B50;
@@ -1032,8 +1031,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-aprenda-mt .aprenda-mt-investir p {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     margin-bottom: 15px;
   }
 }
@@ -1102,7 +1101,7 @@ footer .top a {
   border: 1px solid #F29F05;
   border-radius: 30px;
   padding: 9px 31px;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 26px;
   line-height: 30px;
   color: #FFFFFF;
@@ -1110,8 +1109,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-aprenda-mt .aprenda-mt-footer .btn {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
   }
 }
 
@@ -1400,8 +1399,8 @@ footer .top a {
 
 .page-aprenda-mt .garantia p {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 16px;
+  line-height: 18px;
   letter-spacing: -0.02em;
   color: #323B50;
   text-align: left;
@@ -1537,7 +1536,7 @@ footer .top a {
 }
 
 .page-aprenda-mt .tres-passos .btn {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 26px;
   line-height: 30px;
   color: #FFFFFF;
@@ -1551,8 +1550,8 @@ footer .top a {
 @media (max-width: 992px) {
   .page-aprenda-mt .tres-passos .btn {
     margin-top: 25px;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
   }
 }
 
@@ -1688,7 +1687,7 @@ footer .top a {
 }
 
 .page-aprenda-mt .mt-curso h2 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 54px;
   line-height: 63px;
   letter-spacing: -0.02em;
@@ -1711,7 +1710,7 @@ footer .top a {
 }
 
 .page-aprenda-mt .mt-curso h3 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 30px;
   line-height: 35px;
   text-align: center;
@@ -1743,9 +1742,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-aprenda-mt .mt-curso p {
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
   }
 }
 
@@ -1755,7 +1753,7 @@ footer .top a {
   background: #F29F05;
   border: 1px solid #F29F05;
   border-radius: 30px;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 26px;
   line-height: 30px;
   color: #FFFFFF;
@@ -1763,8 +1761,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-aprenda-mt .mt-curso .btn {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     margin-top: 19px;
   }
 }
@@ -1897,8 +1895,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-beneficios-mt .hero p {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     margin-bottom: 20px;
   }
 }
@@ -1971,7 +1969,7 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-beneficios-mt .mt-faz ul li {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 26px;
     margin-bottom: 12px;
   }
@@ -2060,8 +2058,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-beneficios-mt .beneficios-pesquisas p {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
   }
 }
 
@@ -2074,7 +2072,7 @@ footer .top a {
   border: 1px solid #F29F05;
   border-radius: 30px;
   padding: 9px 31px;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 26px;
   line-height: 30px;
   color: #FFFFFF;
@@ -2083,8 +2081,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-beneficios-mt .beneficios-pesquisas .btn {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     margin-top: 21px;
   }
 }
@@ -2147,8 +2145,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-beneficios-mt .beneficios-info .info p {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     text-align: left;
   }
 }
@@ -2196,7 +2194,7 @@ footer .top a {
 }
 
 .page-beneficios-mt .ciencia .btn {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 26px;
   line-height: 30px;
   color: #FFFFFF;
@@ -2209,8 +2207,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-beneficios-mt .ciencia .btn {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     margin-top: 24px;
   }
 }
@@ -2249,8 +2247,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-beneficios-mt .ciencia .swiper-slide p {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     margin-top: 31px;
   }
 }
@@ -2423,7 +2421,7 @@ footer .top a {
 @media (max-width: 992px) {
   .page-beneficios-mt .ciencia .legend p {
     font-size: 16px;
-    line-height: 16px;
+    line-height: 18px;
   }
 }
 
@@ -3266,8 +3264,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-o-que-e-mt .o-que-e-mt-hero p {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
   }
 }
 
@@ -3335,8 +3333,8 @@ footer .top a {
 @media (max-width: 992px) {
   .page-o-que-e-mt .o-que-e-mt-praticamt .btn-toggle {
     height: 36px;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     padding: 9.8px 20.12px 11.8px 20.12px;
   }
 }
@@ -3452,8 +3450,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-o-que-e-mt .o-que-e-mt-diferente p {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     margin-bottom: 15px;
   }
 }
@@ -3505,8 +3503,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-o-que-e-mt .o-que-e-mt-atua h3 {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     margin-bottom: 28px;
   }
 }
@@ -3538,8 +3536,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-o-que-e-mt .o-que-e-mt-atua p {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
   }
 }
 
@@ -3602,8 +3600,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-o-que-e-mt .o-que-e-mt-imagine p {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
   }
 }
 
@@ -3612,7 +3610,7 @@ footer .top a {
   border: 1px solid #F29F05;
   border-radius: 30px;
   padding: 9px 31px;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 26px;
   line-height: 30px;
   color: #FFFFFF;
@@ -3620,8 +3618,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-o-que-e-mt .o-que-e-mt-imagine .btn {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
   }
 }
 
@@ -3679,8 +3677,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-o-que-e-mt .o-que-e-mt-pesquisas p {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     text-align: center;
   }
 }
@@ -3690,7 +3688,7 @@ footer .top a {
   border: 1px solid #F29F05;
   border-radius: 30px;
   padding: 9px 31px;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 26px;
   line-height: 30px;
   color: #FFFFFF;
@@ -3699,8 +3697,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-o-que-e-mt .o-que-e-mt-pesquisas .btn {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     margin-top: 21px;
   }
 }
@@ -3936,7 +3934,7 @@ footer .top a {
   border: 1px solid #F29F05;
   border-radius: 30px;
   padding: 9px 31px;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 26px;
   line-height: 30px;
   color: #FFFFFF;
@@ -3944,8 +3942,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-o-que-e-mt .o-que-e-mt-footer .btn {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
   }
 }
 
@@ -3999,8 +3997,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-o-que-e-mt .o-que-e-mt-meditar .text p {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     margin-bottom: 18px;
     margin-top: 0;
   }
@@ -4067,8 +4065,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-o-que-e-mt .o-que-e-mt-meditar .itens .item p {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
   }
 }
 
@@ -4098,8 +4096,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-o-que-e-mt .o-que-e-mt-meditar p {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
     margin-bottom: 20px;
     margin-top: 30px;
   }
@@ -4908,7 +4906,7 @@ footer .top a {
 
 @media (max-width: 992px) {
   .agende-palestra .btn {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 16px;
     line-height: 18px;
   }
@@ -4919,7 +4917,7 @@ footer .top a {
 }
 
 .como-aprender .como-aprender-title span {
-  color: #FFC536;
+  color: #FFEDBF;
 }
 
 @media (max-width: 992px) {
@@ -4933,7 +4931,7 @@ footer .top a {
 
 @media (max-width: 992px) {
   .como-aprender .como-aprender-title {
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     font-size: 30px;
     line-height: 35px;
     letter-spacing: -0.02em;
@@ -4944,10 +4942,26 @@ footer .top a {
   padding-left: 3rem;
 }
 
+.como-aprender .como-aprender-texto p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #323B50;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 992px) {
+  .como-aprender .como-aprender-texto p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
 @media (max-width: 992px) {
   .como-aprender .como-aprender-texto {
-    padding: 1rem;
-    text-align: center;
+    padding: 0;
   }
 }
 
@@ -4997,7 +5011,7 @@ footer .top a {
   line-height: 30px;
   letter-spacing: -0.02em;
   color: #323B50;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 
 .como-aprender p strong {
@@ -5079,7 +5093,7 @@ footer .top a {
   .como-aprender .btn {
     font-size: 16px;
     line-height: 18px;
-    display: none;
+    display: inline-block;
   }
 }
 
@@ -5133,7 +5147,7 @@ footer .top a {
 
 @media (max-width: 992px) {
   .conheca-beneficios h2 {
-    font-size: 30px;
+    font-size: 27px;
     line-height: 35px;
     margin-bottom: 30px;
   }
@@ -5362,9 +5376,9 @@ footer .top a {
 }
 
 .conheca-beneficios .box .hover p {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
   text-align: center;
   color: #323B50;
   margin-bottom: 12px;
@@ -5372,8 +5386,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .conheca-beneficios .box .hover p {
-    font-size: 12px;
-    line-height: 13px;
+    font-size: 13px;
+    line-height: 14px;
     margin-bottom: 5px;
     padding: 10px 5px 0 5px;
   }
@@ -5382,7 +5396,7 @@ footer .top a {
 .conheca-beneficios .box .hover .btn {
   font-weight: 600;
   font-size: 22px;
-  line-height: 35px;
+  line-height: 28px;
   color: #323B50;
 }
 
@@ -5392,8 +5406,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .conheca-beneficios .box .hover .btn {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 15px;
+    line-height: 24px;
   }
 }
 
@@ -5543,7 +5557,7 @@ footer .top a {
 
 @media (max-width: 992px) {
   .mundo-melhor .btn {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 16px;
     line-height: 18px;
   }
@@ -5606,7 +5620,6 @@ footer .top a {
 .transcender p strong {
   font-weight: 600;
   letter-spacing: -0.02em;
-  color: #FFC536;
 }
 
 @media (max-width: 992px) {
@@ -5765,6 +5778,12 @@ footer .top a {
 
 @media (max-width: 992px) {
   .mt-unica-slide .carousel-item {
+    height: 280px;
+  }
+}
+
+@media (max-width: 380px) {
+  .mt-unica-slide .carousel-item {
     height: 300px;
   }
 }
@@ -5778,8 +5797,44 @@ footer .top a {
 
 @media (max-width: 992px) {
   .mt-unica-slide .carousel-item img {
+    height: 280px;
+  }
+}
+
+@media (max-width: 380px) {
+  .mt-unica-slide .carousel-item img {
     height: 300px;
   }
+}
+
+.mt-unica-slide .carousel-item .img-1 {
+  -o-object-position: 42%;
+     object-position: 42%;
+}
+
+.mt-unica-slide .carousel-item .img-2 {
+  -o-object-position: 39%;
+     object-position: 39%;
+}
+
+.mt-unica-slide .carousel-item .img-3 {
+  -o-object-position: 38%;
+     object-position: 38%;
+}
+
+.mt-unica-slide .carousel-item .img-4 {
+  -o-object-position: 32%;
+     object-position: 32%;
+}
+
+.mt-unica-slide .carousel-item .img-5 {
+  -o-object-position: 37%;
+     object-position: 37%;
+}
+
+.mt-unica-slide .carousel-item .img-6 {
+  -o-object-position: 40%;
+     object-position: 40%;
 }
 
 .mt-unica-slide .carousel-control-prev-icon {
@@ -5883,8 +5938,8 @@ footer .top a {
 }
 
 .mt-unica-slide .btn:hover {
-  background: #FFC536;
-  border: 1px solid #FFC536;
+  background: #FFEDBF;
+  border: 1px solid #FFEDBF;
   color: #FFFFFF;
 }
 
@@ -5892,15 +5947,15 @@ footer .top a {
   display: none;
   position: relative;
   z-index: 111;
-  width: 90%;
+  width: 78%;
   margin: 0 auto;
   margin-top: -17px;
 }
 
 .mt-unica-slide .btn-mobile:hover {
   color: #FFFFFF;
-  background: #FFC536;
-  border: 1px solid #FFC536;
+  background: #FFEDBF;
+  border: 1px solid #FFEDBF;
 }
 
 @media (max-width: 992px) {
@@ -6267,6 +6322,7 @@ footer .top a {
 .o-que-dizem .btn {
   font-weight: 400;
   font-size: 26px;
+  line-height: 30px;
   background-color: #FFFFFF;
   color: #F29F05;
   border: 1px solid #FFFFFF;
@@ -6280,7 +6336,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .o-que-dizem .btn {
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 18px;
   }
 }
 

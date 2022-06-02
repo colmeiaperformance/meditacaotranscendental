@@ -51,6 +51,7 @@
     .btn {
         font-weight: 400;
         font-size: 26px;
+        line-height: 30px;
         background-color: $color-white;
         color: $color-primary-dark;
         border: 1px solid $color-white;
@@ -60,7 +61,8 @@
             color: $color-white;
         }
         @media (max-width: 992px) {
-            font-size: 14px;
+            font-size: 16px;
+            line-height: 18px;
         }
     }
     .carousel-caption {

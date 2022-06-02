@@ -158,7 +158,7 @@
     </div>
     <div class="row mt-4 mt-lg-5">
       <div class="col-12 text-center">
-        <a class="btn px-4" href="#" role="button"><strong>Encontre um instrutor credenciado</strong></a>
+        <a class="btn px-4" href="#" role="button">Encontre um instrutor credenciado</a>
       </div>
     </div>
 

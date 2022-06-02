@@ -184,8 +184,8 @@
           </div>
           <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-tab-2">
             <div class="legend  px-0 px-lg-5 mx-lg-3">
-              <p>O Brasil é o país mais ansioso do mundo, segundo a OMS. Também somos o segundo com o maior nível de  estresse: 70% da população ativa já apresentou algum sintoma do problema, de acordo com a Associação Internacional do  Controle do Estresse (ISMA).</p>
-              <p>Com a prática da MT, conseguimos reduzir, de forma natural, os quadros de estresse e ansiedade e, consequentemente, diminuir riscos de transtornos mentais, como depressão, síndrome de burnout e do  pânico,  transtornos de déficit de atenção e estresse pós-traumático, dentre outros.</p>
+              <p>Devido ao alto nível de estresse acumulado, muitas vezes, o descanso que temos à noite é insuficiente para o restabelecimento natural do organismo. Essa condição provoca um desequilíbrio hormonal nocivo, que pode causar doenças cardiovasculares, diabetes, envelhecimento precoce, dentre outros problemas.</p>
+              <p>A prática regular da MT atua diretamente na dissolução do estresse impregnado no sistema nervoso. Isso gera um poderoso efeito regenerativo, que contribui para a prevenção de diversas doenças, para a diminuição do uso de medicamentos e para a redução dos custos com atenção à saúde.</p>
             </div>
             <h2>Saúde Física - O que diz a <strong>ciência</strong>?</h2>
             <!-- inicio carousel -->
@@ -245,8 +245,8 @@
           </div>
           <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-tab-3">
             <div class="legend  px-0 px-lg-5 mx-lg-3">
-              <p>O Brasil é o país mais ansioso do mundo, segundo a OMS. Também somos o segundo com o maior nível de estresse:  70% da população ativa já apresentou algum sintoma do problema, de acordo com a Associação Internacional do Controle do Estresse (ISMA).</p>
-              <p>Com a prática da MT, conseguimos reduzir, de forma natural, os quadros de estresse e ansiedade e, consequentemente, diminuir riscos de transtornos mentais, como depressão, síndrome de burnout e do  pânico, transtornos de déficit de atenção e estresse pós-traumático, dentre outros.</p>
+              <p>O autoconhecimento é o caminho para encontrar mais satisfação e autorrealização em todas as áreas. A técnica da MT permite que você se conecte com sua verdadeira essência para viver de forma mais harmônica com os desafios do dia a dia, encontrando mais felicidade e significado em sua vida.</p>
+              <p>Esse estado autorreferente com a prática regular da MT nos torna mais conscientes de nós mesmos. Como resultados, melhoramos a qualidade dos relacionamentos e do nosso comportamento social, assim como desenvolvemos, espontaneamente, as chamadas soft skills e a inteligência emocional.</p>
             </div>
             <h2>Inteligência Emocional - O que diz a <strong>ciência</strong>?</h2>
             <!-- inicio carousel -->
@@ -306,8 +306,9 @@
           </div>
           <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="pills-tab-4">
             <div class="legend  px-0 px-lg-5 mx-lg-3">
-              <p>O Brasil é o país mais ansioso do mundo, segundo a OMS. Também somos o segundo com o maior nível de estresse:  70% da população ativa já apresentou algum sintoma do problema, de acordo com a Associação Internacional do  Controle do Estresse (ISMA).</p>
-              <p>Com a prática da MT, conseguimos reduzir, de forma natural, os quadros de estresse e ansiedade e,  consequentemente, diminuir riscos de transtornos mentais, como depressão, síndrome de burnout e do pânico, transtornos de déficit de atenção e estresse pós-traumático, dentre outros.</p>
+              <p>O excesso de informações e de estímulos que recebemos no dia a dia prejudica a atenção, a memória, o potencial criativo e a nossa capacidade de pensar e agir.<br>
+                  A MT aumenta a atividade do córtex pré-frontal, região do cérebro responsável  pelas funções cognitivas, pelo processamento de informações, pelo raciocínio, etc.</p>
+              <p>Praticar regularmente a MT promove o pleno potencial da mente, gerando total integração e coerência cerebral, o que aumenta nossa criatividade, foco, inteligência e capacidade de concentração e de resolução de problemas. Assim, a gente se torna mais eficiente e com mais energia.</p>
             </div>
             <h2>Potencial Mental - O que diz a <strong>ciência</strong>?</h2>
             <!-- inicio carousel -->
