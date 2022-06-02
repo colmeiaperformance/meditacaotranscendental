@@ -1,8 +1,8 @@
 .page-quem-somos {
   .hero {
-    padding: 70px 0;
+    padding: 65px 0 85px 0;
     @media (max-width: 992px) {
-      padding: 52px 0;
+      padding: 25px 0 30px 0;
     }
     h2 {
       font-weight: 300;
@@ -10,36 +10,17 @@
       line-height: 35px;
       text-align: center;
       letter-spacing: -0.02em;
-      margin-bottom: 40px;
       color: $color-secondary-dark;
+      max-width: 950px;
+      margin: 0 auto;
       @media (max-width: 992px) {
         font-size: 14px;
         line-height: 16px;
-        max-width: 90%;
-        margin: 0 auto;
-        margin-bottom: 20px;
+        text-align: left;
       }
       strong {
         font-weight: 600; 
         color: $color-primary-medium;
-      }
-    }
-    .btn {
-      font-weight: 700;
-      font-size: 26px;
-      line-height: 30px;
-      color: $color-white;
-      padding: 9px 31px;
-      background: $color-primary-dark;
-      border: 1px solid $color-primary-dark;
-      @media (max-width: 992px) {
-        font-size: 13px;
-        line-height: 15px;
-      }
-      &:hover {
-        background: transparent;
-        border: 1px solid $color-primary-dark;
-        color: $color-primary-dark;
       }
     }
   }
@@ -53,7 +34,7 @@
       max-width: 894px;
       margin: 0 auto;
       margin-bottom: 49px;
-      font-weight: 300;
+      font-weight: 400;
       font-size: 54px;
       line-height: 53px;
       letter-spacing: -0.02em;
@@ -65,7 +46,7 @@
         margin-bottom: 24px;
       }
       strong {
-        font-weight: 600;
+        font-weight: 700;
         color: $color-primary-medium;
       }
     }
@@ -277,7 +258,6 @@
       }
     }
   }
-  
   .a-origem {
     background-color: $color-primary-medium;
     overflow: hidden;
@@ -351,7 +331,6 @@
   .legado {
     background: $color-secondary-medium;
     overflow: hidden;
-    margin-top: 100px;
     .container {
       padding-top: 80px;
       padding-bottom: 72px;
@@ -416,6 +395,109 @@
       }
     }
     
+  }
+  .organizacoes {
+    padding: 50px 0 84px 0;
+    @media (max-width: 992px) {
+      padding: 37px 0 45px 0;
+    }
+    .head {
+      h2 {
+        font-weight: 300;
+        font-size: 54px;
+        line-height: 63px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: $color-secondary-dark;
+        margin-bottom: 26px;
+        @media (max-width: 992px) {
+          font-size: 30px;
+          line-height: 35px;
+          margin-bottom: 20px;
+        }
+        strong {
+          font-weight: 600;
+          color: $color-primary-medium;
+        }      
+      }
+      p {
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        color: $color-secondary-dark;
+        margin-bottom: 5px;
+        @media (max-width: 992px) {
+          font-size: 14px;
+          line-height: 16px;
+        }
+        strong {
+          font-weight: 600;
+          color: $color-primary-medium;
+        }
+      }
+    }
+    .carousel-item {
+      max-width: 968px;
+      margin: 0 auto;
+      margin-top: 60px;
+      float: none;
+      @media (max-width: 992px) {
+        margin-top: 18px;
+        width: 85%;
+      }
+      h5 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: $color-primary-medium; 
+        margin-bottom: 20px;
+        @media (max-width: 992px) {
+          font-size: 14px;
+          line-height: 16px;
+        }
+      }
+      p {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: $color-secondary-dark;
+        margin-bottom: 0px;
+        @media (max-width: 992px) {
+          font-size: 14px;
+          line-height: 16px;
+        }
+      }
+      img {
+        margin-bottom: 5px;
+        @media (max-width: 992px) {
+          margin-bottom: 14px;
+          max-width: 122px;
+        }
+      }
+    }
+    .carousel-control-prev-icon {
+      background: url(images/quem-somos/prev.png) top center no-repeat;
+      background-size: cover;
+      width: 25px;
+      height: 43.54px;
+      @media (max-width: 992px) {
+        height: 15px;
+        width: 8px;
+      }
+    }
+    .carousel-control-next-icon {
+      background: url(images/quem-somos/next.png) top center no-repeat;
+      background-size: cover;
+      width: 25px;
+      height: 43.54px;
+      @media (max-width: 992px) {
+        height: 15px;
+        width: 8px;
+      }
+    }
   }
   .footer {
     padding: 74px 0 51px 0;

@@ -61,7 +61,7 @@
 
     </div>
   </section>
-  <section class="instrutor-depoimentos">
+  <!-- <section class="instrutor-depoimentos">
     <div id="instrutor-depoimentos" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
 
@@ -109,7 +109,7 @@
         <button type="button" data-bs-target="#instrutordepoimentos" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- <section class="instrutor-depoimentos">
     <div id="instrutor-depoimentos-video" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">

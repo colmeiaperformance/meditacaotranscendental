@@ -10,9 +10,6 @@
   <section class="hero">
     <div class="container">
       <h2>Nosso propósito é criar uma sociedade mais <strong>pacífica e iluminada</strong> em todo o mundo, através do <strong>pleno desenvolvimento</strong> de cada indivíduo.</h2>
-      <div class="text-center">
-        <a href="#" class="btn" role="button">Aprenda MT</a>
-      </div>
     </div>
   </section>
   <section class="sobre-nos">
@@ -244,6 +241,43 @@
       <div class="mundo-melhor-bg position-absolute"></div>
     </div>
   </section>
+  <section class="organizacoes">
+    <div class="container">
+      <div class="head">
+        <h2><strong>Organizações MT</strong> no mundo</h2>
+        <p>A Meditação Transcendental é amplamente difundida e possui seus benefícios propagados por meio de diversas organizações em todo o mundo.</p>
+        <p><strong>Conheça algumas delas:</strong></p>
+      </div>
+      <div id="organizacoes-mt" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active text-center">
+            <div class="container">
+              <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/quem-somos/Maharishi_International_University_logo.png' ?>" alt="MIU - Maharishi International University">
+              <h5><stromg>MIU - Maharishi International University</strong></h5>
+              <p>Fundada por Maharishi Mahesh Yogi, em 1971, em Iowa (EUA), é uma universidade que trabalha a educação superior com base na Consciência do Ser. O propósito da instituição é ajudar os alunos a desenvolverem um autoconhecimento profundo enquanto estudam o campo acadêmico de sua escolha. Oferece diversos cursos de graduação e pós-graduação.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item text-center">
+            <div class="container">
+              <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/quem-somos/Maharishi_International_University_logo.png' ?>" alt="MIU - Maharishi International University">
+              <h5><stromg>MIU - Maharishi International University</strong></h5>
+              <p>Fundada por Maharishi Mahesh Yogi, em 1971, em Iowa (EUA), é uma universidade que trabalha a educação superior com base na Consciência do Ser. O propósito da instituição é ajudar os alunos a desenvolverem um autoconhecimento profundo enquanto estudam o campo acadêmico de sua escolha. Oferece diversos cursos de graduação e pós-graduação.</p>
+            </div>
+          </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#organizacoes-mt" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#organizacoes-mt" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>  
+ </section>    
    <section class="legado position-relative">
     <div class="aprenda-mt-investir-topo">
       <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/quem-somos/legado-mobile.png' ?>" alt="Investir">
@@ -264,13 +298,14 @@
     </div>
   </section>
   <section class="footer">
-    <h2>Faça parte da criação de um <span>mundo melhor</span>, <strong>para você e para todos</strong>.</h2>
-    <div class="text-center">
-      <a href="#" class="btn" role="button">
-        Pratique a MT
-      </a>
+    <div class="container">
+      <h2>Faça parte da criação de um <span>mundo melhor</span>, <strong>para você e para todos</strong>.</h2>
+      <div class="text-center">
+        <a href="#" class="btn" role="button">
+          Pratique a MT
+        </a>
+      </div>
     </div>
-    
   </section>
 </main>
 <?php get_footer();
