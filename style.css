@@ -3012,9 +3012,9 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-instrutores .instrutores-header h2 {
-    font-size: 30px;
-    line-height: 34px;
-    margin-bottom: 21px;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 15px;
   }
 }
 
@@ -3056,15 +3056,9 @@ footer .top a {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-@media (max-width: 992px) {
-  .page-instrutores .instrutores-footer div {
-    display: block;
-  }
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
 }
 
 .page-instrutores .instrutores-footer div img {
@@ -3073,8 +3067,8 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-instrutores .instrutores-footer div img {
-    margin: 0;
-    max-width: 280px;
+    margin-right: 7px;
+    max-width: 130px;
   }
 }
 
@@ -3093,9 +3087,10 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-instrutores .instrutores-footer div h2 {
-    font-size: 30px;
-    line-height: 35px;
-    letter-spacing: -0.02em;
+    font-size: 15.3292px;
+    line-height: 18px;
+    max-width: 175px;
+    margin: 0 auto;
   }
 }
 
@@ -3103,7 +3098,13 @@ footer .top a {
   margin-bottom: 60px;
 }
 
-.page-instrutores .instrutores-selection .btn {
+@media (max-width: 992px) {
+  .page-instrutores .instrutores-selection {
+    margin-bottom: 45px;
+  }
+}
+
+.page-instrutores .instrutores-selection button {
   font-weight: 700;
   font-size: 26px;
   line-height: 30px;
@@ -3115,16 +3116,17 @@ footer .top a {
   width: 100%;
 }
 
-.page-instrutores .instrutores-selection .btn:hover {
+.page-instrutores .instrutores-selection button:hover {
   background: transparent;
   color: #F29F05;
 }
 
 @media (max-width: 992px) {
-  .page-instrutores .instrutores-selection .btn {
+  .page-instrutores .instrutores-selection button {
     font-size: 14px;
     line-height: 16px;
-    width: auto;
+    width: 90%;
+    margin: 0 auto;
   }
 }
 
@@ -3147,21 +3149,14 @@ footer .top a {
           box-shadow: none;
 }
 
-.page-instrutores .instrutores-selection .dropdown-menu {
-  background: #FFFFFF;
-  border-radius: 30px;
-  border: 1px solid #F29F05;
-  width: 100%;
-}
-
-.page-instrutores .instrutores-selection .dropdown-item {
-  color: #323B50;
-}
-
-.page-instrutores .instrutores-selection .dropdown-item:hover, .page-instrutores .instrutores-selection .dropdown-item:focus {
-  color: #323B50;
-  opacity: 0.8;
-  background: transparent;
+@media (max-width: 992px) {
+  .page-instrutores .instrutores-selection .form-select {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 7px 17px;
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 .page-instrutores .instrutores-carousel .swiper-button-prev {
@@ -3173,6 +3168,12 @@ footer .top a {
   font-size: 33px;
 }
 
+@media (max-width: 992px) {
+  .page-instrutores .instrutores-carousel .swiper-button-prev::after {
+    font-size: 15px;
+  }
+}
+
 .page-instrutores .instrutores-carousel .swiper-button-next {
   right: -4px;
 }
@@ -3180,6 +3181,12 @@ footer .top a {
 .page-instrutores .instrutores-carousel .swiper-button-next::after {
   color: #FFC536;
   font-size: 33px;
+}
+
+@media (max-width: 992px) {
+  .page-instrutores .instrutores-carousel .swiper-button-next::after {
+    font-size: 15px;
+  }
 }
 
 .page-instrutores .instrutores-carousel .swiper {
@@ -3191,6 +3198,13 @@ footer .top a {
   height: 220px;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
+}
+
+@media (max-width: 992px) {
+  .page-instrutores .instrutores-carousel .box {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 .page-instrutores .instrutores-carousel .box .default {
@@ -3225,6 +3239,15 @@ footer .top a {
   padding: 50px 15px;
 }
 
+@media (max-width: 992px) {
+  .page-instrutores .instrutores-carousel .box .hover {
+    width: 150px;
+    height: 150px;
+    margin-top: -150px;
+    padding: 25px 10px;
+  }
+}
+
 .page-instrutores .instrutores-carousel .box .hover h6 {
   font-weight: 700;
   font-size: 15px;
@@ -3234,6 +3257,14 @@ footer .top a {
   margin-bottom: 8px;
 }
 
+@media (max-width: 992px) {
+  .page-instrutores .instrutores-carousel .box .hover h6 {
+    font-size: 12px;
+    line-height: 13px;
+    margin-bottom: 5px;
+  }
+}
+
 .page-instrutores .instrutores-carousel .box .hover p {
   color: #FFFFFF;
   font-weight: 400;
@@ -3241,6 +3272,14 @@ footer .top a {
   line-height: 17px;
   text-align: center;
   margin-bottom: 6px;
+}
+
+@media (max-width: 992px) {
+  .page-instrutores .instrutores-carousel .box .hover p {
+    font-size: 11px;
+    line-height: 10px;
+    margin-bottom: 4px;
+  }
 }
 
 .page-instrutores .instrutores-carousel .box .hover p::before {
@@ -3263,12 +3302,29 @@ footer .top a {
   color: #FFFFFF;
 }
 
+@media (max-width: 992px) {
+  .page-instrutores .instrutores-carousel .box .hover .btn {
+    font-size: 9px;
+    line-height: 10px;
+    width: 50%;
+    margin-bottom: 1px;
+    padding: 2px 4px;
+  }
+}
+
 .page-instrutores .instrutores-carousel .box:hover {
   width: 220px;
   height: 220px;
   zoom: 1.1;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
+}
+
+@media (max-width: 992px) {
+  .page-instrutores .instrutores-carousel .box:hover {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 .page-instrutores .instrutores-carousel .box:hover img {

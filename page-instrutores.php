@@ -61,7 +61,7 @@
                   <p>Londrina, PR</p>
                   <p>Porto Alegre, RS</p>        
                   </div>
-                  <div class="d-flex align-items-center justify-content-center mt-3">
+                  <div class="d-lg-flex align-items-center justify-content-center mt-lg-3">
                     <a href="#" class="btn background-primary-light me-1">
                       Saiba +
                     </a>
@@ -84,7 +84,7 @@
                   <p>Londrina, PR</p>
                   <p>Porto Alegre, RS</p>        
                   </div>
-                  <div class="d-flex align-items-center justify-content-center mt-3">
+                  <div class="d-lg-flex align-items-center justify-content-center mt-lg-3">
                     <a href="#" class="btn background-primary-light me-1">
                       Saiba +
                     </a>
@@ -107,7 +107,7 @@
                   <p>Londrina, PR</p>
                   <p>Porto Alegre, RS</p>        
                   </div>
-                  <div class="d-flex align-items-center justify-content-center mt-3">
+                  <div class="d-lg-flex align-items-center justify-content-center mt-lg-3">
                     <a href="#" class="btn background-primary-light me-1">
                       Saiba +
                     </a>
@@ -130,7 +130,7 @@
                   <p>Londrina, PR</p>
                   <p>Porto Alegre, RS</p>        
                   </div>
-                  <div class="d-flex align-items-center justify-content-center mt-3">
+                  <div class="d-lg-flex align-items-center justify-content-center mt-lg-3">
                     <a href="#" class="btn background-primary-light me-1">
                       Saiba +
                     </a>
@@ -153,7 +153,7 @@
                   <p>Londrina, PR</p>
                   <p>Porto Alegre, RS</p>        
                   </div>
-                  <div class="d-flex align-items-center justify-content-center mt-3">
+                  <div class="d-lg-flex align-items-center justify-content-center mt-lg-3">
                     <a href="#" class="btn background-primary-light me-1">
                       Saiba +
                     </a>
@@ -176,7 +176,7 @@
                   <p>Londrina, PR</p>
                   <p>Porto Alegre, RS</p>        
                   </div>
-                  <div class="d-flex align-items-center justify-content-center mt-3">
+                  <div class="d-lg-flex align-items-center justify-content-center mt-lg-3">
                     <a href="#" class="btn background-primary-light me-1">
                       Saiba +
                     </a>
@@ -199,7 +199,7 @@
                   <p>Londrina, PR</p>
                   <p>Porto Alegre, RS</p>        
                   </div>
-                  <div class="d-flex align-items-center justify-content-center mt-3">
+                  <div class="d-lg-flex align-items-center justify-content-center mt-lg-3">
                     <a href="#" class="btn background-primary-light me-1">
                       Saiba +
                     </a>
@@ -222,7 +222,7 @@
                   <p>Londrina, PR</p>
                   <p>Porto Alegre, RS</p>        
                   </div>
-                  <div class="d-flex align-items-center justify-content-center mt-3">
+                  <div class="d-lg-flex align-items-center justify-content-center mt-lg-3">
                     <a href="#" class="btn background-primary-light me-1">
                       Saiba +
                     </a>
@@ -250,8 +250,8 @@
     <script>
   jQuery(document).ready(function() {
     var swiper = new Swiper(".swiperInstrutores", {
-      slidesPerView: 1,
-      slidesPerGroup: 1,
+      slidesPerView: 2,
+      slidesPerGroup: 2,
       loop: true,
       spaceBetween: 5,
       pagination: {

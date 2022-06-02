@@ -19,9 +19,9 @@
         color: $color-primary-medium;
       }
       @media (max-width: 992px) {
-        font-size: 30px;
-        line-height: 34px;
-        margin-bottom: 21px;
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 15px;
       }
     }
     p {
@@ -50,15 +50,12 @@
     div {
       display: flex;
       align-items: end;
-      justify-content: center;
-      @media (max-width: 992px)  {
-        display: block;
-      }
+      justify-content: left;
       img {
         margin-right: 23px;
         @media (max-width: 992px) {
-          margin: 0;
-          max-width: 280px;
+          margin-right: 7px;
+          max-width: 130px;
         }
       }
       h2 {
@@ -72,16 +69,20 @@
           font-weight: 600;
         }
         @media (max-width: 992px) {
-          font-size: 30px;
-          line-height: 35px;
-          letter-spacing: -0.02em;
+          font-size: 15.3292px;
+          line-height: 18px;
+          max-width: 175px;
+          margin: 0 auto;
         }
       }
     }
   }
   .instrutores-selection {
     margin-bottom: 60px;
-    .btn {
+    @media (max-width: 992px)  {
+      margin-bottom: 45px;
+    }
+    button {
       font-weight: 700;
       font-size: 26px;
       line-height: 30px;
@@ -98,7 +99,8 @@
       @media (max-width: 992px) {
         font-size: 14px;
         line-height: 16px;
-        width: auto;
+        width: 90%;
+        margin: 0 auto;
       }
     }
     .form-select {
@@ -116,23 +118,14 @@
       &:active, &:focus {
         box-shadow: none;
       }
-    }
-    .dropdown-menu {
-      background: $color-white;
-      border-radius: 30px;
-      border: 1px solid $color-primary-dark;
-      width: 100%;
-    }
-    .dropdown-item {
-      color: $color-secondary-dark;      
-      &:hover,
-      &:focus {
-        color: $color-secondary-dark;
-        opacity: 0.8;
-        background: transparent;
+      @media (max-width: 992px) {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 7px 17px;
+        width: 90%;
+        margin: 0 auto;
       }
     }
-    
   }
   .instrutores-carousel {
     .swiper-button-prev {
@@ -140,6 +133,9 @@
       &::after {
         color: $color-primary-medium;
         font-size: 33px;
+        @media (max-width: 992px) {
+          font-size: 15px;
+        }
       }
     }
     .swiper-button-next {
@@ -147,6 +143,9 @@
       &::after {
         color: $color-primary-medium;
         font-size: 33px;
+        @media (max-width: 992px) {
+          font-size: 15px;
+        }
       }
     }
     .swiper {
@@ -156,6 +155,10 @@
       width: 220px;
       height: 220px;
       transition: all .3s ease;
+      @media (max-width: 992px) {
+        width: 150px;
+        height: 150px;
+      }
       .default {
         position: relative;
         z-index: 111;
@@ -181,6 +184,12 @@
         background: $color-secondary-medium-80;
         overflow: hidden;
         padding: 50px 15px;
+        @media (max-width: 992px) {
+          width: 150px;
+          height: 150px;
+          margin-top: -150px;
+          padding: 25px 10px;
+        }
         h6 {
           font-weight: 700;
           font-size: 15px;
@@ -188,6 +197,11 @@
           text-align: center;
           color: $color-white;
           margin-bottom: 8px;
+          @media (max-width: 992px) {
+            font-size: 12px;
+            line-height: 13px;
+            margin-bottom: 5px;
+          }
         }
         p {
           color: $color-white;
@@ -196,6 +210,11 @@
           line-height: 17px;
           text-align: center;
           margin-bottom: 6px;
+          @media (max-width: 992px) {
+            font-size: 11px;
+            line-height: 10px;
+            margin-bottom: 4px;
+          }
           &::before {
             content: '';
             position: relative;
@@ -214,6 +233,13 @@
           line-height: 14px;
           text-transform: uppercase;
           color: $color-white;
+          @media (max-width: 992px)  {
+            font-size: 9px;
+            line-height: 10px;
+            width: 50%;
+            margin-bottom: 1px;
+            padding: 2px 4px;
+          }
         }
       }
       &:hover{
@@ -221,6 +247,10 @@
         height: 220px;
         zoom: 1.1;
         transition: all .3s ease;
+        @media (max-width: 992px) {
+          width: 150px;
+          height: 150px;
+        }
         img {
           opacity: 0.7;
         }
