@@ -1,6 +1,16 @@
 .page-instrutor {
   .instrutor-profile {
     padding: 48px 0 55px 0;
+    @media (max-width: 992px) {
+      padding: 0;
+    }
+    .instrutor-picture-mobile {
+      img {
+        width: 100%;
+        object-fit: cover;
+        min-height: 360px;
+      }
+    }
     .instrutor-picture {
       img {
         width: 100%;
@@ -15,6 +25,16 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      @media (max-width: 992px) {
+        width: 33px;
+        height: 33px;
+      }
+      img{
+        @media (max-width: 992px) {
+          width: 23px;
+          height: auto;
+        }
+      }
     }
     h1 {
       font-weight: 300;
@@ -24,8 +44,18 @@
       color: $color-secondary-medium;
       margin-left: 18px;
       width: calc(100% - 105px);
+      @media (max-width: 992px) {
+        margin-left: 9px;
+        font-size: 22px;
+        line-height: 26px;
+        width: calc(100% - 105px);
+        margin-bottom: 0;
+      }
     }
     .instrutor-address {
+      @media (max-width: 992px) {
+        
+      }
       p {
         font-weight: 400;
         font-size: 24px;
@@ -33,12 +63,21 @@
         letter-spacing: -0.02em;
         color: $color-secondary-medium;
         margin-bottom: 0;
+        @media (max-width: 992px) {
+          font-size: 10px;
+          line-height: 12px;
+        }
         strong {
           font-weight: 600;
         }
       }
       img {
         margin-right: 13px;
+        @media (max-width: 992px) {
+          width: 10px;
+          height: auto;
+          margin-right: 6px;
+        }
       }
     }
     p {
@@ -47,6 +86,10 @@
       line-height: 28px;
       letter-spacing: -0.02em;
       color: #323B50;
+      @media (max-width: 992px) {
+        font-size: 14px;
+        line-height: 16px;
+      }
       strong {
         font-weight: 600;
       }
@@ -54,6 +97,9 @@
   }
   .instrutor-contact {
     padding: 54px 0;
+    @media (max-width: 992px) {
+      padding: 17px 0;
+    }
     h2 {
       font-weight: 300;
       font-size: 54px;
@@ -61,6 +107,14 @@
       letter-spacing: -0.02em;
       color: $color-secondary-dark;
       margin-bottom: 40px;
+      @media (max-width: 992px) {
+        max-width: 130px;
+        margin: 0 auto;
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+        margin-bottom: 18px;
+      }
       strong {
         font-weight: 600;
         color: $color-primary-medium;
@@ -75,198 +129,280 @@
       background: $color-primary-dark;
       bordeR: 1px solid $color-primary-dark;
       border-radius: 30px;
+      @media (max-width: 992px) {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 5px 12px;
+      }
+      // &:hover {
+        //   background: transparent;
+        //   color: $color-primary-dark;
+        // }
+        img {
+          @media (max-width: 992px) {
+            width: 15px;
+            height: auto;
+          }
+        }
+      }
+      .instrutor-social {
+        @media (max-width: 992px) {
+          margin-top: 15px;
+        }
+        a {
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 50px;
+          color: $color-primary-medium;
+          @media (max-width: 992px) {
+            font-size: 12.4316px;
+            line-height: 26px;
+          }
+          &:hover {
+            padding-left: 15px;
+          }
+          img {
+            margin-right: 12px;
+            @media (max-width: 992px) {
+              margin-right: 6px;
+              max-width: 16px;
+              height: auto;
+            }
+          }
+        }
+        
+      }
+      form {
+        ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+          color: color-primary-dark!important;
+        }
+        :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+          color: color-primary-dark!important;
+          opacity:  1;
+        }
+        ::-moz-placeholder { /* Mozilla Firefox 19+ */
+          color: color-primary-dark!important;
+          opacity:  1;
+        }
+        :-ms-input-placeholder { /* Internet Explorer 10-11 */
+          color: color-primary-dark!important;
+        }
+        ::-ms-input-placeholder { /* Microsoft Edge */
+          color: color-primary-dark!important;
+        }
+        
+        ::placeholder { 
+          color: color-primary-dark!important;
+        }
+        input {
+          ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+            color: color-primary-dark!important;
+          }
+          :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+            color: color-primary-dark!important;
+            opacity:  1;
+          }
+          ::-moz-placeholder { /* Mozilla Firefox 19+ */
+            color: color-primary-dark!important;
+            opacity:  1;
+          }
+          :-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: color-primary-dark!important;
+          }
+          ::-ms-input-placeholder { /* Microsoft Edge */
+            color: color-primary-dark!important;
+          }
+          
+          ::placeholder { 
+            color: color-primary-dark!important;
+          }
+        }
+        .form-control {
+          display: block;
+          width: 100%;
+          padding: 11px 10px 10px 29px; 
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          color: $color-primary-dark!important;
+          background: transparent;
+          border: 1px solid $color-primary-dark;
+          border-radius: 30px;
+          appearance: none;
+          transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+          margin-bottom: 20px;
+          @media (max-width: 992px) { 
+            font-size: 11px;
+            line-height: 12px;
+            margin-bottom: 9px;
+            padding: 8px 15px;
+          }
+          ::placeholder { 
+            color: color-primary-dark!important;
+          }
+        }
+        .btn {
+          padding: 9px 31px;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 19px;
+          color: $color-white;
+          background: $color-primary-dark;
+          bordeR: 1px solid $color-primary-dark;
+          border-radius: 30px;
+          @media (max-width: 992px) {
+            font-size: 11px;
+            line-height: 12px;
+            padding: 8px 15px;
+          }
+          &:hover {
+            background: transparent;
+            color: $color-primary-dark;
+          }
+        }
+      }
+    }
+  }
+  .instrutor-depoimentos {
+    background: $color-secondary-medium;
+    padding: 70px 0 60px 0;
+    margin-bottom: 10px;
+    @media (max-width: 992px)  {
+      padding: 35px 0 30px;
+    }
+    .carousel-control-prev-icon {
+      background: url('images/mt-unica/prev.png') top center no-repeat;
+      width: 24px;
+      height: 44px;
+      @media (max-width: 992px) {
+        width: 8px;
+        height: 18px;
+        background-size: cover;
+      }
+    }
+    .carousel-control-next-icon {
+      background: url('images/mt-unica/next.png') top center no-repeat;
+      width: 24px;
+      height: 44px;
+      @media (max-width: 992px) {
+        width: 8px;
+        height: 18px;
+        background-size: cover;
+      }
+    }
+    .carousel-indicators {
+      margin-bottom: 0;
+      margin-top: 45px;
+      [data-bs-target] {
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+        margin-right: 6px;
+        margin-left: 6px;
+        background-color: $color-grey-light;
+        border: 0;
+        @media (max-width: 992px) {
+          height: 8px;
+          width: 8px;
+          margin-right: 4px;
+          margin-left: 4px;
+        }
+      }
+    }
+    .depoimento {
+      margin-bottom: 65px;
+      @media (max-width: 992px) {
+        margin-bottom: 25px;
+      }
+      p {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 33px;
+        color: $color-white;
+        margin: 0 auto;
+        margin-bottom: 43px;
+        position: relative;
+        max-width: 700px;
+        @media (max-width: 992px) {
+          font-size: 14px;
+          line-height: 19px;
+          max-width: 85%;
+          margin-bottom: 18px;
+        }
+      }
+      h6 {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 33px;
+        margin-bottom: 0;
+        color: $color-secondary-dark;
+        strong {
+          font-weight: 700;
+        }
+        @media (max-width: 992px) {
+          font-size: 14px;
+          line-height: 19px;
+        }
+      }
+      .quote {
+        height: 76px;
+        margin: 0 auto;
+        margin-bottom: 35px;
+        @media (max-width: 992px) {
+          margin-bottom: 20px;
+          height: 40px;
+        }
+        &::before {
+          content: '';
+          position: absolute;
+          background: url('images/mt-unica/quote.png') top center no-repeat;
+          background-size: cover;
+          height: 76px;
+          width: 94px;
+          left: 0;
+          margin-left: calc(50% - 94px / 2);
+          @media (max-width: 992px) {
+            width: 50px;
+            height: 40px;
+            margin-left: calc(50% - 50px / 2);
+          }
+        }
+      }
+      &-video {
+        margin-bottom: 0;
+        p {
+          margin-bottom: 30px;
+          max-width: 100%;
+          @media (max-width: 992px) {
+            margin-bottom: 18px;
+          }
+        }
+      }
+    }
+  }
+  .instrutor-footer {
+    margin: 58px 0;
+    @media (max-width: 992px)  {
+      margin: 29px 0;
+    }
+    .btn {
+      padding: 9px 31px;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 30px;
+      color: $color-white;
+      background: $color-primary-dark;
+      border: 1px solid $color-primary-dark;
+      border-radius: 30px;
       &:hover {
         background: transparent;
         color: $color-primary-dark;
       }
-    }
-    .instrutor-social {
-      a {
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 50px;
-        color: $color-primary-medium;
-        &:hover {
-          padding-left: 15px;
-        }
-        img {
-          margin-right: 12px;
-        }
-      }
-      
-    }
-    form {
-      .form-control {
-        display: block;
-        width: 100%;
-        padding: 11px 10px 10px 29px; 
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-        color: $color-primary-dark!important;
-        background: transparent;
-        border: 1px solid $color-primary-dark;
-        border-radius: 30px;
-        appearance: none;
-        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-        margin-bottom: 20px;
-      }
-      .btn {
-        padding: 9px 31px;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 19px;
-        color: $color-white;
-        background: $color-primary-dark;
-        bordeR: 1px solid $color-primary-dark;
-        border-radius: 30px;
-        &:hover {
-          background: transparent;
-          color: $color-primary-dark;
-        }
-      }
-    }
-  }
-}
-.instrutor-depoimentos {
-  background: $color-secondary-medium;
-  padding: 70px 0 60px 0;
-  margin-bottom: 10px;
-  @media (max-width: 992px)  {
-    padding: 35px 0 30px;
-  }
-  .carousel-control-prev-icon {
-    background: url('images/mt-unica/prev.png') top center no-repeat;
-    width: 24px;
-    height: 44px;
-    @media (max-width: 992px) {
-      width: 8px;
-      height: 18px;
-      background-size: cover;
-    }
-  }
-  .carousel-control-next-icon {
-    background: url('images/mt-unica/next.png') top center no-repeat;
-    width: 24px;
-    height: 44px;
-    @media (max-width: 992px) {
-      width: 8px;
-      height: 18px;
-      background-size: cover;
-    }
-  }
-  .carousel-indicators {
-    margin-bottom: 0;
-    margin-top: 45px;
-    [data-bs-target] {
-      width: 8px;
-      height: 8px;
-      border-radius: 100%;
-      margin-right: 6px;
-      margin-left: 6px;
-      background-color: $color-grey-light;
-      border: 0;
-      @media (max-width: 992px) {
-        height: 8px;
-        width: 8px;
-        margin-right: 4px;
-        margin-left: 4px;
-      }
-    }
-  }
-  .depoimento {
-    margin-bottom: 65px;
-    @media (max-width: 992px) {
-      margin-bottom: 25px;
-    }
-    p {
-      font-style: italic;
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 33px;
-      color: $color-white;
-      margin: 0 auto;
-      margin-bottom: 43px;
-      position: relative;
-      max-width: 700px;
-      @media (max-width: 992px) {
+      @media (max-width: 992px)  {
         font-size: 14px;
-        line-height: 19px;
-        max-width: 85%;
-        margin-bottom: 18px;
-      }
-    }
-    h6 {
-      font-weight: 300;
-      font-size: 24px;
-      line-height: 33px;
-      margin-bottom: 0;
-      color: $color-secondary-dark;
-      strong {
-        font-weight: 700;
-      }
-      @media (max-width: 992px) {
-        font-size: 14px;
-        line-height: 19px;
-      }
-    }
-    .quote {
-      height: 76px;
-      margin: 0 auto;
-      margin-bottom: 35px;
-      @media (max-width: 992px) {
-        margin-bottom: 20px;
-        height: 40px;
-      }
-      &::before {
-        content: '';
-        position: absolute;
-        background: url('images/mt-unica/quote.png') top center no-repeat;
-        background-size: cover;
-        height: 76px;
-        width: 94px;
-        left: 0;
-        margin-left: calc(50% - 94px / 2);
-        @media (max-width: 992px) {
-          width: 50px;
-          height: 40px;
-          margin-left: calc(50% - 50px / 2);
-        }
-      }
-    }
-    &-video {
-      margin-bottom: 0;
-      p {
-        margin-bottom: 30px;
-        max-width: 100%;
-        @media (max-width: 992px) {
-          margin-bottom: 18px;
-        }
+        line-height: 16px;
       }
     }
   }
-}
-.instrutor-footer {
-  margin: 58px 0;
-  @media (max-width: 992px)  {
-    margin: 29px 0;
-  }
-  .btn {
-    padding: 9px 31px;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 30px;
-    color: $color-white;
-    background: $color-primary-dark;
-    border: 1px solid $color-primary-dark;
-    border-radius: 30px;
-    &:hover {
-      background: transparent;
-      color: $color-primary-dark;
-    }
-    @media (max-width: 992px)  {
-      font-size: 14px;
-      line-height: 16px;
-    }
-  }
-}
+  

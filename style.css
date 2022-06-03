@@ -2557,6 +2557,19 @@ footer .top a {
   padding: 48px 0 55px 0;
 }
 
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-profile {
+    padding: 0;
+  }
+}
+
+.page-instrutor .instrutor-profile .instrutor-picture-mobile img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-height: 360px;
+}
+
 .page-instrutor .instrutor-profile .instrutor-picture img {
   width: 100%;
   -o-object-fit: cover;
@@ -2579,6 +2592,20 @@ footer .top a {
           justify-content: center;
 }
 
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-profile .mt-icon {
+    width: 33px;
+    height: 33px;
+  }
+}
+
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-profile .mt-icon img {
+    width: 23px;
+    height: auto;
+  }
+}
+
 .page-instrutor .instrutor-profile h1 {
   font-weight: 300;
   font-size: 54px;
@@ -2587,6 +2614,16 @@ footer .top a {
   color: #7896C1;
   margin-left: 18px;
   width: calc(100% - 105px);
+}
+
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-profile h1 {
+    margin-left: 9px;
+    font-size: 22px;
+    line-height: 26px;
+    width: calc(100% - 105px);
+    margin-bottom: 0;
+  }
 }
 
 .page-instrutor .instrutor-profile .instrutor-address p {
@@ -2598,12 +2635,27 @@ footer .top a {
   margin-bottom: 0;
 }
 
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-profile .instrutor-address p {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
 .page-instrutor .instrutor-profile .instrutor-address p strong {
   font-weight: 600;
 }
 
 .page-instrutor .instrutor-profile .instrutor-address img {
   margin-right: 13px;
+}
+
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-profile .instrutor-address img {
+    width: 10px;
+    height: auto;
+    margin-right: 6px;
+  }
 }
 
 .page-instrutor .instrutor-profile p {
@@ -2614,12 +2666,25 @@ footer .top a {
   color: #323B50;
 }
 
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-profile p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
 .page-instrutor .instrutor-profile p strong {
   font-weight: 600;
 }
 
 .page-instrutor .instrutor-contact {
   padding: 54px 0;
+}
+
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-contact {
+    padding: 17px 0;
+  }
 }
 
 .page-instrutor .instrutor-contact h2 {
@@ -2629,6 +2694,17 @@ footer .top a {
   letter-spacing: -0.02em;
   color: #323B50;
   margin-bottom: 40px;
+}
+
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-contact h2 {
+    max-width: 130px;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 18px;
+  }
 }
 
 .page-instrutor .instrutor-contact h2 strong {
@@ -2647,9 +2723,25 @@ footer .top a {
   border-radius: 30px;
 }
 
-.page-instrutor .instrutor-contact .btn:hover {
-  background: transparent;
-  color: #F29F05;
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-contact .btn {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 5px 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-contact .btn img {
+    width: 15px;
+    height: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-contact .instrutor-social {
+    margin-top: 15px;
+  }
 }
 
 .page-instrutor .instrutor-contact .instrutor-social a {
@@ -2659,12 +2751,65 @@ footer .top a {
   color: #FFC536;
 }
 
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-contact .instrutor-social a {
+    font-size: 12.4316px;
+    line-height: 26px;
+  }
+}
+
 .page-instrutor .instrutor-contact .instrutor-social a:hover {
   padding-left: 15px;
 }
 
 .page-instrutor .instrutor-contact .instrutor-social a img {
   margin-right: 12px;
+}
+
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-contact .instrutor-social a img {
+    margin-right: 6px;
+    max-width: 16px;
+    height: auto;
+  }
+}
+
+.page-instrutor .instrutor-contact form ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: color-primary-dark !important;
+}
+
+.page-instrutor .instrutor-contact form :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: color-primary-dark !important;
+}
+
+.page-instrutor .instrutor-contact form ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: color-primary-dark !important;
+}
+
+.page-instrutor .instrutor-contact form ::placeholder {
+  color: color-primary-dark !important;
+}
+
+.page-instrutor .instrutor-contact form input ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: color-primary-dark !important;
+}
+
+.page-instrutor .instrutor-contact form input :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: color-primary-dark !important;
+}
+
+.page-instrutor .instrutor-contact form input ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: color-primary-dark !important;
+}
+
+.page-instrutor .instrutor-contact form input ::placeholder {
+  color: color-primary-dark !important;
 }
 
 .page-instrutor .instrutor-contact form .form-control {
@@ -2688,6 +2833,31 @@ footer .top a {
   margin-bottom: 20px;
 }
 
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-contact form .form-control {
+    font-size: 11px;
+    line-height: 12px;
+    margin-bottom: 9px;
+    padding: 8px 15px;
+  }
+}
+
+.page-instrutor .instrutor-contact form .form-control ::-webkit-input-placeholder {
+  color: color-primary-dark !important;
+}
+
+.page-instrutor .instrutor-contact form .form-control :-ms-input-placeholder {
+  color: color-primary-dark !important;
+}
+
+.page-instrutor .instrutor-contact form .form-control ::-ms-input-placeholder {
+  color: color-primary-dark !important;
+}
+
+.page-instrutor .instrutor-contact form .form-control ::placeholder {
+  color: color-primary-dark !important;
+}
+
 .page-instrutor .instrutor-contact form .btn {
   padding: 9px 31px;
   font-weight: 700;
@@ -2697,6 +2867,14 @@ footer .top a {
   background: #F29F05;
   bordeR: 1px solid #F29F05;
   border-radius: 30px;
+}
+
+@media (max-width: 992px) {
+  .page-instrutor .instrutor-contact form .btn {
+    font-size: 11px;
+    line-height: 12px;
+    padding: 8px 15px;
+  }
 }
 
 .page-instrutor .instrutor-contact form .btn:hover {
