@@ -1226,6 +1226,7 @@ footer .top a {
 
 .page-aprenda-mt .mudou-vida {
   padding: 80px 0 42px 0;
+  background: transparent;
 }
 
 @media (max-width: 992px) {
