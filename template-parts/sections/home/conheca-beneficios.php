@@ -14,7 +14,7 @@
             <p>
               Reduz ansiedade, depressão, síndrome do pânico e burnout. Promove paz interior, autoconfiança e felicidade.
             </p>
-            <a href="#" class="btn">
+            <a href="<?php echo home_url( '/beneficios/' ); ?>" class="btn">
               + Saiba mais
             </a>
           </div>
@@ -32,7 +32,7 @@
             <p>
               Melhora a qualidade do sono, frequência cardíaca, pressão arterial e outros indicadores de saúde. 
             </p>
-            <a href="#" class="btn">
+            <a href="https://meditacaotranscendental.com.br/beneficios/" class="btn">
               + Saiba mais
             </a>
           </div>
@@ -50,7 +50,7 @@
             <p>
               Promove empatia, melhora a qualidade dos relacionamentos e leva à autoreealização.
             </p>
-            <a href="#" class="btn">
+            <a href="https://meditacaotranscendental.com.br/beneficios/" class="btn">
               + Saiba mais
             </a>
           </div>
@@ -68,7 +68,7 @@
             <p>
               Aumenta o foco, criatividade e clareza mental. Melhora a memória, percepção e capacidade de resolver problemas.
             </p>
-            <a href="#" class="btn">
+            <a href="https://meditacaotranscendental.com.br/beneficios/" class="btn">
               + Saiba mais
             </a>
           </div>

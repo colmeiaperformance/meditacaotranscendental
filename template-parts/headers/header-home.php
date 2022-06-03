@@ -12,7 +12,7 @@
                 2 vezes ao dia.<br />
                 Sem concentração<br />
               </h1>
-                <a href="#" class="btn">
+                <a href="<?php echo home_url( '/aprenda/' ); ?>" class="btn">
                  Saiba mais
                 </a>
             </div>
