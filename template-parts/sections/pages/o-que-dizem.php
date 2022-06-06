@@ -14,7 +14,7 @@
                 <div class="carousel-caption">
                   <div class="carousel-content d-flex align-items-center text-center justify-content-around">
                     <div class="card-lateral col-10 col-lg-12">
-                      <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/0g0MFzECtb4"
+                      <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/B9qNRU6FsUw"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
@@ -38,7 +38,7 @@
                 <div class="carousel-caption">
                   <div class="carousel-content d-flex align-items-center text-center justify-content-around">
                     <div class="card-lateral col-10 col-lg-12">
-                      <iframe class="yt-video" width="490" height="300" src="https://www.youtube.com/embed/QLcXzcWtPHY"
+                      <iframe class="yt-video" width="490" height="300" src="https://www.youtube.com/embed/j_sxv44iMI4"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
@@ -62,7 +62,7 @@
                 <div class="carousel-caption">
                   <div class="carousel-content d-flex align-items-center text-center justify-content-around">
                     <div class="card-lateral col-10 col-lg-12">
-                      <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/Co2_AIWW9YI"
+                      <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/61ON8Ulnfrk"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
@@ -158,7 +158,7 @@
     </div>
     <div class="row mt-4 mt-lg-5">
       <div class="col-12 text-center">
-        <a class="btn px-4" href="#" role="button">Encontre um instrutor credenciado</a>
+        <a class="btn px-4" href="<?php echo home_url( '/instrutores/' ); ?>" role="button">Encontre um instrutor credenciado</a>
       </div>
     </div>
 

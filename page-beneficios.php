@@ -607,7 +607,7 @@
             <!-- final carousel -->           
           </div>
           <div class="text-center">
-            <a href="#" class="btn">Agenda a palestra gratuita</a>
+            <a href="<?php echo home_url( '/agendamento/' ); ?>" class="btn">Agenda a palestra gratuita</a>
           </div>
         </div>
       </div>
@@ -617,7 +617,7 @@
   <?php get_template_part('template-parts/sections/pages/pesquisas-cientificas'); ?>
   <section class="beneficios-info">
     <div class="container">
-      <div class="info d-lg-flex align-items-center">
+      <div class="info d-lg-flex align-items-center mt-5">
         <img loading="lazy" class="img-fluid"
           src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/info.png' ?> alt="Info">
         <p>A Meditação Transcendental não pretende ser um substituto para o tratamento médico especializado. Busque

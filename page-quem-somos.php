@@ -182,44 +182,6 @@
       </div>
 
     </div>
-      <script>
-        jQuery(document).ready(function() {
-          var swiper = new Swiper(".swiperOQueDizem", {
-            slidesPerView: 1,
-            autoplay: {
-              delay: 6000,
-            },
-            slidesPerGroup: 1,
-            loop: true,
-            spaceBetween: 0,
-            pagination: {
-              el: ".swiper-pagination",
-              clickable: true,
-            },
-            navigation: {
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
-            },
-            breakpoints: {
-              640: {
-                slidesPerView: 2,
-                slidesPerGroup: 1,
-                spaceBetween: 10,
-              },
-              768: {
-                slidesPerView: 2,
-                slidesPerGroup: 1,
-                spaceBetween: 10,
-              },
-              1024: {
-                slidesPerView: 3,
-                slidesPerGroup: 1,
-                spaceBetween: 10,
-              },
-            },
-          });
-        });
-      </script>
     </div>
   </section>
   <section class="a-origem position-relative">
@@ -308,4 +270,42 @@
     </div>
   </section>
 </main>
+<script>
+  jQuery(document).ready(function() {
+    var swiper = new Swiper(".swiperOQueDizem", {
+      slidesPerView: 1,
+      autoplay: {
+        delay: 6000,
+      },
+      slidesPerGroup: 1,
+      loop: true,
+      spaceBetween: 0,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          slidesPerGroup: 1,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 2,
+          slidesPerGroup: 1,
+          spaceBetween: 10,
+        },
+        1024: {
+          slidesPerView: 3,
+          slidesPerGroup: 1,
+          spaceBetween: 10,
+        },
+      },
+    });
+  });
+      </script>
 <?php get_footer();

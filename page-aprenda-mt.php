@@ -13,7 +13,7 @@
         <p>A MT é uma técnica <strong>simples, natural e sem esforço</strong> que pode ser praticada por qualquer pessoa, <span>a partir dos 5 anos de idade</span>.</p>
         <p>O <Strong>primeiro passo</Strong> é participar de uma <span>palestra online gratuita</span>.</p>
       </div>
-      <a href="#" class="btn">Agende sua participação</a>
+      <a href="<?php echo home_url( '/agendamento/' ); ?>" class="btn">Agende sua participação</a>
     </div>
     <div class="container text-center d-block d-lg-none">
       <div class="text d-block d-lg-none">
@@ -119,7 +119,7 @@
     </div>
     </div>
      <div class="text-center">
-        <a href="#" class="btn">Conheça os benefícios</a>
+        <a href="<?php echo home_url( '/beneficios/' ); ?>" class="btn">Conheça os benefícios</a>
       </div>
   </section>
   <section class="mt-curso">
@@ -182,7 +182,7 @@
       </div>
       <p>Somente instrutores certificados e credenciados pela Associação Internacional de Meditação (SIM) podem ensinar a autêntica técnica de MT.      Essa é a sua <strong>garantia de receber a verdadeira técnica</strong> ensinada há mais de 60 anos, com base no conhecimento puro da Ciência Védica.</p>
       <div class="text-center">
-        <a href="#" class="btn">Conheça os instrutores credenciados</a>
+        <a href="<?php echo home_url( '/instrutores/' ); ?>" class="btn">Conheça os instrutores credenciados</a>
       </div>
     </div>
   </section>
@@ -293,7 +293,7 @@
     <div class="container text-center">
       <h2>Dúvidas?</h2>
       <p>Veja as respostas para as <a href="#">perguntas mais frequentes.</a></p>
-      <a href="#" class="btn" role="btn">Encontre um instrutor certificado</a>
+      <a href="<?php echo home_url( '/instrutores/' ); ?>" class="btn" role="btn">Encontre um instrutor certificado</a>
     </div>
   </section>
 </main>

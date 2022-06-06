@@ -207,7 +207,7 @@
         nível agitado dos pensamentos, onde experimentamos um estado de descanso muito profundo, que nos leva a acessar
         uma fonte abundante de energia, de criatividade e de bem-estar.
       </p>
-      <a href="#" class="btn" role="button">Aprenda a MT</a>
+      <a href="<?php echo home_url( '/aprenda/' ); ?>" class="btn" role="button">Aprenda a MT</a>
     </div>
   </section>
   <?php get_template_part('template-parts/sections/pages/pesquisas-cientificas'); ?>
@@ -293,7 +293,7 @@
     <div class="container text-center">
       <h2>Dúvidas?</h2>
       <p>Veja as respostas para as <a href="#">perguntas mais frequentes.</a></p>
-      <a href="#" class="btn" role="btn">Encontre um instrutor certificado</a>
+      <a href="<?php echo home_url( '/instrutores/' ); ?>" class="btn" role="btn">Encontre um instrutor certificado</a>
     </div>
   </section>
 </main>
