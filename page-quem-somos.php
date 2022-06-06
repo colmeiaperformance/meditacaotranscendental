@@ -26,13 +26,13 @@
       <div class="projetos-text">
         <p>A Meditação Transcendental investe em inúmeros projetos dedicados a tornar a prática da MT acessível a milhares de crianças e jovens, a partir da Educação Baseada na Consciência, e também a adultos em situação de risco. </p>
         <p>Parte do investimento no curso da MT é destinado a esses projetos, que cumprem o nosso propósito de promover a paz mundial.</p>
-        <p><strong>Conheça alguns projetos da MT no mundo:</strong></p>
+        <!-- <p><strong>Conheça alguns projetos da MT no mundo:</strong></p> -->
       </div>
 
       <div class="row">
       <div class="col-12">
         <!-- inicio carousel -->
-        <div id="oquedizem" class="swiper swiperOQueDizem" data-bs-ride="carousel">
+        <!-- <div id="oquedizem" class="swiper swiperOQueDizem" data-bs-ride="carousel">
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
@@ -176,7 +176,7 @@
           </div>
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
-        </div>
+        </div> -->
         <!-- final carousel -->
 
       </div>
