@@ -4,46 +4,6 @@
 <?php get_header(); ?>
 <?php get_template_part('template-parts/navbar'); ?>
 
-<style>
-
-	.page-eventos {
-  padding: 64px 0 64px 0;
-}
-
-.page-eventos h2 {
-  font-family: 'Work Sans';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 54px;
-  line-height: 63px;
-  text-align: center;
-  letter-spacing: -0.02em;
-  color: #323B50;
-}
-
-.page-eventos h2 span {
-  font-weight: 600;
-  color: #FFC536;
-}
-
-.page-eventos h3 {
-  float: none !important;
-  margin: 26px auto;
-  font-family: 'Work Sans';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-  letter-spacing: -0.02em;
-  color: #323B50;
-  width: 70%;
-}
-
-.page-eventos h3 b {
-  font-weight: 500;
-}
-</style>
 <main class="page-eventos">
     <div class="container">
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -51,5 +11,13 @@
             <?php endwhile; ?>
         <?php endif; ?>
     </div>
+<section class="eventos-footer">
+    <div class="container">
+      <div>
+        <img loading="lazy" class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/instrutores/mt.png' ?>
+            alt="mt."><h2>Aprenda a meditar de forma <Strong>simples e fácil</Strong>.</h2>
+      </div>
+    </div>
+</section>    
 </main>
 <?php get_footer();

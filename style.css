@@ -822,19 +822,19 @@ footer .top a {
 /************************************/
 /********* MT PAGES *************/
 /************************************/
-.page-agendamento .agendamento-header {
+.page-eventos .agendamento-header {
   margin-top: 80px;
   margin-bottom: 50px;
 }
 
 @media (max-width: 992px) {
-  .page-agendamento .agendamento-header {
+  .page-eventos .agendamento-header {
     margin-top: 40px;
     margin-bottom: 25px;
   }
 }
 
-.page-agendamento .agendamento-header h2 {
+.page-eventos .agendamento-header h2 {
   font-weight: 300;
   font-size: 54px;
   line-height: 63px;
@@ -844,20 +844,20 @@ footer .top a {
   margin-bottom: 42px;
 }
 
-.page-agendamento .agendamento-header h2 strong {
+.page-eventos .agendamento-header h2 strong {
   font-weight: 600;
   color: #FFC536;
 }
 
 @media (max-width: 992px) {
-  .page-agendamento .agendamento-header h2 {
+  .page-eventos .agendamento-header h2 {
     font-size: 30px;
     line-height: 34px;
     margin-bottom: 21px;
   }
 }
 
-.page-agendamento .agendamento-header p {
+.page-eventos .agendamento-header p {
   font-weight: 300;
   font-size: 24px;
   line-height: 28px;
@@ -867,28 +867,28 @@ footer .top a {
   color: #323B50;
 }
 
-.page-agendamento .agendamento-header p strong {
+.page-eventos .agendamento-header p strong {
   font-weight: 600;
 }
 
 @media (max-width: 992px) {
-  .page-agendamento .agendamento-header p {
+  .page-eventos .agendamento-header p {
     font-size: 14px;
     line-height: 16px;
   }
 }
 
-.page-agendamento .agendamento-footer {
+.page-eventos .agendamento-footer {
   margin: 95px 0;
 }
 
 @media (max-width: 992px) {
-  .page-agendamento .agendamento-footer {
+  .page-eventos .agendamento-footer {
     margin: 45px 0;
   }
 }
 
-.page-agendamento .agendamento-footer div {
+.page-eventos .agendamento-footer div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -901,23 +901,23 @@ footer .top a {
 }
 
 @media (max-width: 992px) {
-  .page-agendamento .agendamento-footer div {
+  .page-eventos .agendamento-footer div {
     display: block;
   }
 }
 
-.page-agendamento .agendamento-footer div img {
+.page-eventos .agendamento-footer div img {
   margin-right: 23px;
 }
 
 @media (max-width: 992px) {
-  .page-agendamento .agendamento-footer div img {
+  .page-eventos .agendamento-footer div img {
     margin: 0;
     max-width: 280px;
   }
 }
 
-.page-agendamento .agendamento-footer div h2 {
+.page-eventos .agendamento-footer div h2 {
   font-weight: 300;
   font-size: 54px;
   line-height: 63px;
@@ -926,16 +926,30 @@ footer .top a {
   margin-bottom: 0;
 }
 
-.page-agendamento .agendamento-footer div h2 strong {
+.page-eventos .agendamento-footer div h2 strong {
   font-weight: 600;
 }
 
 @media (max-width: 992px) {
-  .page-agendamento .agendamento-footer div h2 {
+  .page-eventos .agendamento-footer div h2 {
     font-size: 30px;
     line-height: 35px;
     letter-spacing: -0.02em;
   }
+}
+
+.page-eventos #mt_subscription_shortcode .mt_row {
+  display: block;
+}
+
+.page-eventos #mt_subscription_shortcode .mt_filter_options .mt_filter.select {
+  width: 50%;
+  float: left;
+}
+
+.page-eventos #mt_subscription_shortcode .mt_filter_options .mt_filter {
+  padding: 10px;
+  float: right;
 }
 
 .page-aprenda-mt .agende-mt {
