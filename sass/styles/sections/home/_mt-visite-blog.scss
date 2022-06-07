@@ -2,7 +2,7 @@
   h2 {
     margin-bottom: 40px;
     font-weight: 300;
-    font-size: 54px;
+    font-size: var(--font-size-h2);
     line-height: 64px;
     letter-spacing: -0.02em;
     color: #323B50;
@@ -15,7 +15,7 @@
     }
     strong {
       font-weight: 600;
-      font-size: 54px;
+      font-size: var(--font-size-h2);
       line-height: 64px;
       letter-spacing: -0.02em;
       color: #FFC536;

@@ -5,7 +5,7 @@
     }
     h2 {
       font-weight: 300;
-      font-size: 54px;
+      font-size: var(--font-size-h2);
       line-height: 63px;
       letter-spacing: -0.02em;
       color: $color-secondary-dark;
@@ -23,8 +23,8 @@
     }
     p {
       font-weight: 400;
-      font-size: 24px;
-      line-height: 28px;
+      font-size: var(--font-size-primary);
+      line-height: var(--line-height-primary);
       text-align: left;
       margin-bottom: 0;
       color: $color-secondary-dark;
