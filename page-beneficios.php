@@ -391,6 +391,16 @@
     </div>
   </section>
   <?php get_template_part('template-parts/sections/pages/o-que-dizem-temp'); ?>
+
+  <!-- PS- QUANDO ADD A SECAO PESQUISAS CIENTIFICAS, REMOVER A MARGIN DO CSS INLINE DA SECAO BENEFICIOS INFO-->
+  <style>
+    .page-beneficios-mt .beneficios-info {
+      padding-top: 63px;}    
+    @media (max-width: 992px) {
+      .page-beneficios-mt .beneficios-info {
+      padding-top: 27px; }    
+    }
+  </style>
   <section class="beneficios-info">
     <div class="container">
       <div class="info d-flex align-items-center">
