@@ -391,7 +391,6 @@
     </div>
   </section>
   <?php get_template_part('template-parts/sections/pages/o-que-dizem-temp'); ?>
-  <?php get_template_part('template-parts/sections/pages/pesquisas-cientificas'); ?>
   <section class="beneficios-info">
     <div class="container">
       <div class="info d-flex align-items-center">

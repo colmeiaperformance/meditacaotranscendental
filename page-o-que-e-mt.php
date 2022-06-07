@@ -210,7 +210,7 @@
       <a href="<?php echo home_url( '/aprenda/' ); ?>" class="btn" role="button">Aprenda a MT</a>
     </div>
   </section>
-  <?php get_template_part('template-parts/sections/pages/pesquisas-cientificas'); ?>
+ 
   <section class="o-que-e-mt-sabermais">
     <div class="container">
       <h2>Para <strong>saber mais</strong></h2>
