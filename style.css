@@ -7,9 +7,9 @@ body {
 
 :root {
   accent-color: #323B50;
-  --font-size-primary: 1.25rem;
-  --font-size-h2: 3rem;
-  --line-height-primary: 1.625rem;
+  --font-size-primary: 1.125rem;
+  --font-size-h2: 2.875rem;
+  --line-height-primary: 1.5rem;
 }
 
 .form-control:focus {
@@ -1007,8 +1007,8 @@ footer .top a {
 
 .page-aprenda-mt .agende-mt p {
   font-weight: 400;
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 24px;
+  line-height: 30px;
   text-align: center;
   letter-spacing: -0.02em;
   color: #323B50;
@@ -2182,8 +2182,6 @@ footer .top a {
 @media (max-width: 992px) {
   .page-beneficios-mt .beneficios-info .info img {
     width: 80px;
-    margin-right: 0;
-    margin-bottom: 26px;
   }
 }
 
