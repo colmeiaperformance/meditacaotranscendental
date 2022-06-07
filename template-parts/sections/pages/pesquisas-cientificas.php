@@ -1,4 +1,4 @@
-<!-- <section class="pesquisas">
+<section class="pesquisas">
     <div class="container">
       <h2>Pesquisas <strong>científicas</strong></h2>
       <div class="row d-flex align-items-center jusitfy-content-center">
@@ -31,4 +31,4 @@
         <a href="#" class="btn" role="btn">Conheça as principais publicações</a>
       </div>
     </div>
-  </section> -->
+  </section>
