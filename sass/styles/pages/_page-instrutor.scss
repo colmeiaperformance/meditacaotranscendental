@@ -38,7 +38,7 @@
     }
     h1 {
       font-weight: 300;
-      font-size: 54px;
+      font-size: var(--font-size-h2);
       line-height: 63px;
       letter-spacing: -0.02em;
       color: $color-secondary-medium;
@@ -58,7 +58,7 @@
       }
       p {
         font-weight: 400;
-        font-size: 24px;
+        font-size: var(--font-size-primary);
         line-height: 34px;
         letter-spacing: -0.02em;
         color: $color-secondary-medium;
@@ -82,8 +82,8 @@
     }
     p {
       font-weight: 400;
-      font-size: 24px;
-      line-height: 28px;
+      font-size: var(--font-size-primary);
+      line-height: var(--line-height-primary);
       letter-spacing: -0.02em;
       color: #323B50;
       @media (max-width: 992px) {
@@ -102,7 +102,7 @@
     }
     h2 {
       font-weight: 300;
-      font-size: 54px;
+      font-size: var(--font-size-h2);
       line-height: 63px;
       letter-spacing: -0.02em;
       color: $color-secondary-dark;
@@ -151,7 +151,7 @@
         }
         a {
           font-weight: 500;
-          font-size: 24px;
+          font-size: var(--font-size-primary);
           line-height: 50px;
           color: $color-primary-medium;
           @media (max-width: 992px) {
@@ -317,7 +317,7 @@
       p {
         font-style: italic;
         font-weight: 400;
-        font-size: 24px;
+        font-size: var(--font-size-primary);
         line-height: 33px;
         color: $color-white;
         margin: 0 auto;
@@ -333,7 +333,7 @@
       }
       h6 {
         font-weight: 300;
-        font-size: 24px;
+        font-size: var(--font-size-primary);
         line-height: 33px;
         margin-bottom: 0;
         color: $color-secondary-dark;

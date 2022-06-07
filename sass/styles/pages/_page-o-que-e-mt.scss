@@ -13,8 +13,8 @@
     }
     p { 
       font-weight: 400;
-      font-size: 30px;
-      line-height: 35px;
+      font-size: 24px;
+      line-height: 31px;
       color: $color-secondary-dark;
       margin-bottom: 0;
       strong {
@@ -43,7 +43,7 @@
     }
     h2 {
       font-weight: 300;
-      font-size: 54px;
+      font-size: var(--font-size-h2);
       line-height: 53px;
       letter-spacing: -0.02em;
       color: $color-white;
@@ -71,8 +71,8 @@
       justify-content: space-between;
       padding: 16px 28px;
       font-weight: 400;
-      font-size: 24px;
-      line-height: 28px;
+      font-size: var(--font-size-primary);
+      line-height: var(--line-height-primary);
       color: $color-secondary-dark;
       background-color: $color-secondary-light;
       border: 1px solid $color-secondary-light;
@@ -150,7 +150,7 @@
       }
       h2 {
         font-weight: 300;
-        font-size: 54px;
+        font-size: var(--font-size-h2);
         line-height: 63px;
         letter-spacing: -0.02em;
         color: $color-white;
@@ -169,8 +169,8 @@
         margin-bottom: 30px;
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
-        line-height: 28px;
+        font-size: var(--font-size-primary);
+        line-height: var(--line-height-primary);
         color: $color-white; 
         @media (max-width: 992px) {
           font-size: 16px;
@@ -189,7 +189,7 @@
       }
       h2 {
         font-weight: 300;
-        font-size: 54px;
+        font-size: var(--font-size-h2);
         line-height: 63px;
         letter-spacing: -0.02em;
         color: $color-secondary-dark;
@@ -207,7 +207,7 @@
       }
       h3 {
         font-weight: 400;
-        font-size: 24px;
+        font-size: var(--font-size-primary);
         line-height: 30px;
         color: $color-secondary-dark;
         margin-bottom: 38px;
@@ -232,7 +232,7 @@
       }
       p {
         font-weight: 400;
-        font-size: 24px;
+        font-size: var(--font-size-primary);
         line-height: 30px;
         margin-bottom: 0;
         color: $color-secondary-dark;
@@ -278,8 +278,8 @@
       }
       p {
         font-weight: 400;
-        font-size: 24px;
-        line-height: 28px;
+        font-size: var(--font-size-primary);
+        line-height: var(--line-height-primary);
         text-align: center;
         color: $color-white;
         max-width: 1000px;
@@ -316,7 +316,7 @@
       padding: 60px 0 80px 0;
       h2 {
         font-weight: 300;
-        font-size: 54px;
+        font-size: var(--font-size-h2);
         line-height: 63px;
         text-align: center;
         letter-spacing: -0.02em;
@@ -436,7 +436,7 @@
       }
       h2 {
         font-weight: 600;
-        font-size: 54px;
+        font-size: var(--font-size-h2);
         line-height: 63px;
         letter-spacing: -0.02em;
         color: $color-primary-medium;
@@ -496,7 +496,7 @@
       }
       h2 {
         font-weight: 300;
-        font-size: 54px;
+        font-size: var(--font-size-h2);
         line-height: 63px;
         text-align: center;
         letter-spacing: -0.02em;
@@ -515,8 +515,8 @@
       .text {
         p {
           font-weight: 400;
-          font-size: 24px;
-          line-height: 28px;
+          font-size: var(--font-size-primary);
+          line-height: var(--line-height-primary);
           color: $color-secondary-dark;
           margin-bottom: 30px;
           margin-top: 0;
@@ -548,8 +548,8 @@
           }
           h5 {
             font-weight: 600;
-            font-size: 24px;
-            line-height: 28px;
+            font-size: var(--font-size-primary);
+            line-height: var(--line-height-primary);
             color: $color-secondary-dark;
             position: relative;
             max-width: 300px;
@@ -562,8 +562,8 @@
           }
           p {
             font-weight: 400;
-            font-size: 24px;
-            line-height: 28px;
+            font-size: var(--font-size-primary);
+            line-height: var(--line-height-primary);
             padding-left: 24px;
             max-width: 200px;
             margin: 0 auto;
@@ -588,8 +588,8 @@
       }
       p {
         font-weight: 400;
-        font-size: 24px;
-        line-height: 28px;
+        font-size: var(--font-size-primary);
+        line-height: var(--line-height-primary);
         color: $color-secondary-dark;
         margin-bottom: 35px;
         margin-top: 77px;

@@ -5,9 +5,9 @@
       padding: 25px 0 30px 0;
     }
     h2 {
-      font-weight: 300;
-      font-size: 30px;
-      line-height: 35px;
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 31px;
       text-align: center;
       letter-spacing: -0.02em;
       color: $color-secondary-dark;
@@ -35,7 +35,7 @@
       margin: 0 auto;
       margin-bottom: 49px;
       font-weight: 400;
-      font-size: 54px;
+      font-size: var(--font-size-h2);
       line-height: 53px;
       letter-spacing: -0.02em;
       color: $color-white;
@@ -51,9 +51,9 @@
       }
     }
     p {
-      font-weight: 300;
-      font-size: 24px;
-      line-height: 28px;
+      font-weight: 400;
+      font-size: var(--font-size-primary);
+      line-height: var(--line-height-primary);
       color: $color-white;
       margin-bottom: 32px;
       @media (max-width: 992px) {
@@ -70,7 +70,7 @@
     }
     h2 {
       font-weight: 300;
-      font-size: 54px;
+      font-size: var(--font-size-h2);
       line-height: 63px;
       text-align: center;
       letter-spacing: -0.02em;
@@ -94,8 +94,8 @@
       margin-bottom: 44px;
       p {
         font-weight: 400;
-        font-size: 24px;
-        line-height: 28px;
+        font-size: var(--font-size-primary);
+        line-height: var(--line-height-primary);
         color: $color-secondary-dark;
         margin-bottom: 33px;
         @media (max-width: 992px) {
@@ -170,9 +170,9 @@
         border-radius: 5px;
         font-size: 18px;
         p {
-          font-size: 18px;
-          line-height: 26px;
-          font-weight: 300;
+          font-size: var(--font-size-primary);
+          line-height: var(--line-height-primary);
+          font-weight: 400;
           color: $color-secondary-dark;
           @media (max-width: 992px)  {
             font-size: 16px;
@@ -219,7 +219,7 @@
       p {
         font-size: 16px;
         line-height: 20px;
-        font-weight: 300;
+        font-weight: 400;
         color: $color-secondary-dark;
         @media (max-width: 992px)  {
           font-size: 16px;
@@ -315,8 +315,8 @@
     p {
       margin-bottom: 30px;
       font-weight: 400;
-      font-size: 24px;
-      line-height: 28px;
+      font-size: var(--font-size-primary);
+      line-height: var(--line-height-primary);
       color: $color-secondary-dark;
       @media (max-width: 992px) {
         font-size: 14px;
@@ -382,8 +382,8 @@
     p {
       margin-bottom: 40px;
       font-weight: 400;
-      font-size: 24px;
-      line-height: 28px;
+      font-size: var(--font-size-primary);
+      line-height: var(--line-height-primary);
       color: $color-white;
       @media (max-width: 992px) {
         font-size: 14px;
@@ -404,7 +404,7 @@
     .head {
       h2 {
         font-weight: 300;
-        font-size: 54px;
+        font-size: var(--font-size-h2);
         line-height: 63px;
         text-align: center;
         letter-spacing: -0.02em;
@@ -448,8 +448,8 @@
       }
       h5 {
         font-weight: 700;
-        font-size: 24px;
-        line-height: 28px;
+        font-size: var(--font-size-primary);
+        line-height: var(--line-height-primary);
         text-align: center;
         color: $color-primary-medium; 
         margin-bottom: 20px;
@@ -460,8 +460,8 @@
       }
       p {
         font-weight: 400;
-        font-size: 24px;
-        line-height: 28px;
+        font-size: var(--font-size-primary);
+        line-height: var(--line-height-primary);
         text-align: center;
         color: $color-secondary-dark;
         margin-bottom: 0px;
@@ -503,7 +503,7 @@
     padding: 74px 0 51px 0;
     h2 {
       font-weight: 300;
-      font-size: 48px;
+      font-size: var(--font-size-h2);
       line-height: 54px;
       text-align: center;
       letter-spacing: -0.02em;

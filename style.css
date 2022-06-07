@@ -7,6 +7,9 @@ body {
 
 :root {
   accent-color: #323B50;
+  --font-size-primary: 1.25rem;
+  --font-size-h2: 3rem;
+  --line-height-primary: 1.625rem;
 }
 
 .form-control:focus {
@@ -834,7 +837,7 @@ footer .top a {
 
 .page-eventos h2 {
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -863,8 +866,8 @@ footer .top a {
   float: none !important;
   margin: 26px auto;
   font-weight: 300;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   text-align: center;
   letter-spacing: -0.02em;
   color: #323B50;
@@ -884,8 +887,8 @@ footer .top a {
 
 .page-eventos p {
   font-weight: 300;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   text-align: center;
   letter-spacing: -0.02em;
   margin-bottom: 0;
@@ -944,7 +947,7 @@ footer .top a {
 
 .page-eventos .eventos-footer div h2 {
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   letter-spacing: -0.02em;
   color: #FFC536;
@@ -1158,8 +1161,8 @@ footer .top a {
 .page-aprenda-mt .aprenda-mt-investir p {
   margin-bottom: 40px;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   color: #323B50;
 }
 
@@ -1187,7 +1190,7 @@ footer .top a {
 
 .page-aprenda-mt .aprenda-mt-footer h2 {
   font-weight: 600;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   letter-spacing: -0.02em;
   color: #FFC536;
@@ -1281,7 +1284,7 @@ footer .top a {
 
 .page-aprenda-mt .mudou-vida h2 {
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -1563,7 +1566,7 @@ footer .top a {
 
 .page-aprenda-mt .tres-passos h2 {
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -1655,8 +1658,8 @@ footer .top a {
 
 .page-aprenda-mt .tres-passos .item .text p {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   color: #FFFFFF;
   margin-bottom: 0;
 }
@@ -1733,8 +1736,8 @@ footer .top a {
 
 .page-aprenda-mt .tres-passos .passos-aprender .swiper-slide h5 {
   font-weight: 600;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   color: #323B50;
   margin-bottom: 10px;
 }
@@ -1748,8 +1751,8 @@ footer .top a {
 
 .page-aprenda-mt .tres-passos .passos-aprender .swiper-slide p {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   color: #FFFFFF;
   margin-bottom: 0;
 }
@@ -1823,7 +1826,7 @@ footer .top a {
 
 .page-aprenda-mt .mt-curso h2 {
   font-weight: 400;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   letter-spacing: -0.02em;
   color: #323B50;
@@ -1869,8 +1872,8 @@ footer .top a {
 
 .page-aprenda-mt .mt-curso p {
   font-weight: 400;
-  font-size: 26px;
-  line-height: 30px;
+  font-size: 24px;
+  line-height: 28px;
   color: #323B50;
   margin-bottom: 0;
 }
@@ -1930,7 +1933,7 @@ footer .top a {
 
 .page-aprenda-mt .mt-curso .atividades .swiper-slide h4 {
   font-weight: 600;
-  font-size: 24px;
+  font-size: var(--font-size-primary);
   line-height: 22px;
   text-align: center;
   color: #323B50;
@@ -2022,8 +2025,8 @@ footer .top a {
 
 .page-beneficios-mt .hero p {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   color: #323B50;
   margin-bottom: 37px;
 }
@@ -2054,7 +2057,7 @@ footer .top a {
 
 .page-beneficios-mt .mt-faz h2 {
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 53px;
   letter-spacing: -0.02em;
   color: #FFFFFF;
@@ -2097,7 +2100,7 @@ footer .top a {
 
 .page-beneficios-mt .mt-faz ul li {
   font-weight: 400;
-  font-size: 24px;
+  font-size: var(--font-size-primary);
   line-height: 42px;
   color: #FFFFFF;
 }
@@ -2186,8 +2189,8 @@ footer .top a {
 
 .page-beneficios-mt .beneficios-info .info p {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   color: #323B50;
   max-width: 728px;
   margin: 0 auto;
@@ -2221,7 +2224,7 @@ footer .top a {
 
 .page-beneficios-mt .ciencia h2 {
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -2281,16 +2284,16 @@ footer .top a {
     text-align: center;
     max-width: 200px;
     margin: 0 auto;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: var(--font-size-primary);
+    line-height: var(--line-height-primary);
     margin-bottom: 9px;
   }
 }
 
 .page-beneficios-mt .ciencia .swiper-slide p {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   color: #323B50;
   margin-bottom: 0;
 }
@@ -2462,8 +2465,8 @@ footer .top a {
 
 .page-beneficios-mt .ciencia .legend p {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   color: #323B50;
   margin-bottom: 40px;
 }
@@ -2481,7 +2484,7 @@ footer .top a {
 
 .page-faq h2 {
   font-weight: 600;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -2524,8 +2527,8 @@ footer .top a {
   border: 1px solid #D4E2F4;
   width: 100%;
   font-weight: 600;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   border-radius: 60px !important;
 }
 
@@ -2558,8 +2561,8 @@ footer .top a {
 
 .page-faq .btn-toggle-nav p {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   padding: 16px 28px;
   color: #323B50;
 }
@@ -2613,7 +2616,7 @@ footer .top a {
 
 .page-faq--footer div h2 {
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   letter-spacing: -0.02em;
   color: #FFC536;
@@ -2687,7 +2690,7 @@ footer .top a {
 
 .page-instrutor .instrutor-profile h1 {
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   letter-spacing: -0.02em;
   color: #7896C1;
@@ -2707,7 +2710,7 @@ footer .top a {
 
 .page-instrutor .instrutor-profile .instrutor-address p {
   font-weight: 400;
-  font-size: 24px;
+  font-size: var(--font-size-primary);
   line-height: 34px;
   letter-spacing: -0.02em;
   color: #7896C1;
@@ -2739,8 +2742,8 @@ footer .top a {
 
 .page-instrutor .instrutor-profile p {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   letter-spacing: -0.02em;
   color: #323B50;
 }
@@ -2768,7 +2771,7 @@ footer .top a {
 
 .page-instrutor .instrutor-contact h2 {
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   letter-spacing: -0.02em;
   color: #323B50;
@@ -2825,7 +2828,7 @@ footer .top a {
 
 .page-instrutor .instrutor-contact .instrutor-social a {
   font-weight: 500;
-  font-size: 24px;
+  font-size: var(--font-size-primary);
   line-height: 50px;
   color: #FFC536;
 }
@@ -3038,7 +3041,7 @@ footer .top a {
 .instrutor-depoimentos .depoimento p {
   font-style: italic;
   font-weight: 400;
-  font-size: 24px;
+  font-size: var(--font-size-primary);
   line-height: 33px;
   color: #FFFFFF;
   margin: 0 auto;
@@ -3058,7 +3061,7 @@ footer .top a {
 
 .instrutor-depoimentos .depoimento h6 {
   font-weight: 300;
-  font-size: 24px;
+  font-size: var(--font-size-primary);
   line-height: 33px;
   margin-bottom: 0;
   color: #323B50;
@@ -3169,7 +3172,7 @@ footer .top a {
 
 .page-instrutores .instrutores-header h2 {
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -3192,8 +3195,8 @@ footer .top a {
 
 .page-instrutores .instrutores-header p {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   text-align: center;
   letter-spacing: -0.02em;
   margin-bottom: 0;
@@ -3246,7 +3249,7 @@ footer .top a {
 
 .page-instrutores .instrutores-footer div h2 {
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   letter-spacing: -0.02em;
   color: #FFC536;
@@ -3305,8 +3308,8 @@ footer .top a {
 .page-instrutores .instrutores-selection .form-select {
   width: 100%;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   color: #F29F05;
   padding: 9px 31px;
   border: 1px solid #F29F05;
@@ -3526,8 +3529,8 @@ footer .top a {
 
 .page-o-que-e-mt .o-que-e-mt-hero p {
   font-weight: 400;
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 24px;
+  line-height: 31px;
   color: #323B50;
   margin-bottom: 0;
 }
@@ -3567,7 +3570,7 @@ footer .top a {
 
 .page-o-que-e-mt .o-que-e-mt-praticamt h2 {
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 53px;
   letter-spacing: -0.02em;
   color: #FFFFFF;
@@ -3605,8 +3608,8 @@ footer .top a {
           justify-content: space-between;
   padding: 16px 28px;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   color: #323B50;
   background-color: #D4E2F4;
   border: 1px solid #D4E2F4;
@@ -3703,7 +3706,7 @@ footer .top a {
 
 .page-o-que-e-mt .o-que-e-mt-diferente h2 {
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   letter-spacing: -0.02em;
   color: #FFFFFF;
@@ -3727,8 +3730,8 @@ footer .top a {
   margin-bottom: 30px;
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   color: #FFFFFF;
 }
 
@@ -3756,7 +3759,7 @@ footer .top a {
 
 .page-o-que-e-mt .o-que-e-mt-atua h2 {
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   letter-spacing: -0.02em;
   color: #323B50;
@@ -3779,7 +3782,7 @@ footer .top a {
 
 .page-o-que-e-mt .o-que-e-mt-atua h3 {
   font-weight: 400;
-  font-size: 24px;
+  font-size: var(--font-size-primary);
   line-height: 30px;
   color: #323B50;
   margin-bottom: 38px;
@@ -3812,7 +3815,7 @@ footer .top a {
 
 .page-o-que-e-mt .o-que-e-mt-atua p {
   font-weight: 400;
-  font-size: 24px;
+  font-size: var(--font-size-primary);
   line-height: 30px;
   margin-bottom: 0;
   color: #323B50;
@@ -3873,8 +3876,8 @@ footer .top a {
 
 .page-o-que-e-mt .o-que-e-mt-imagine p {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   text-align: center;
   color: #FFFFFF;
   max-width: 1000px;
@@ -3920,7 +3923,7 @@ footer .top a {
 
 .page-o-que-e-mt .o-que-e-mt-sabermais h2 {
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -4085,7 +4088,7 @@ footer .top a {
 
 .page-o-que-e-mt .o-que-e-mt-footer h2 {
   font-weight: 600;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   letter-spacing: -0.02em;
   color: #FFC536;
@@ -4164,7 +4167,7 @@ footer .top a {
 
 .page-o-que-e-mt .o-que-e-mt-meditar h2 {
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -4187,8 +4190,8 @@ footer .top a {
 
 .page-o-que-e-mt .o-que-e-mt-meditar .text p {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   color: #323B50;
   margin-bottom: 30px;
   margin-top: 0;
@@ -4237,8 +4240,8 @@ footer .top a {
 
 .page-o-que-e-mt .o-que-e-mt-meditar .itens .item h5 {
   font-weight: 600;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   color: #323B50;
   position: relative;
   max-width: 300px;
@@ -4255,8 +4258,8 @@ footer .top a {
 
 .page-o-que-e-mt .o-que-e-mt-meditar .itens .item p {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   padding-left: 24px;
   max-width: 200px;
   margin: 0 auto;
@@ -4286,8 +4289,8 @@ footer .top a {
 
 .page-o-que-e-mt .o-que-e-mt-meditar p {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   color: #323B50;
   margin-bottom: 35px;
   margin-top: 77px;
@@ -4388,9 +4391,9 @@ footer .top a {
 }
 
 .page-quem-somos .hero h2 {
-  font-weight: 300;
-  font-size: 30px;
-  line-height: 35px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
   text-align: center;
   letter-spacing: -0.02em;
   color: #323B50;
@@ -4427,7 +4430,7 @@ footer .top a {
   margin: 0 auto;
   margin-bottom: 49px;
   font-weight: 400;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 53px;
   letter-spacing: -0.02em;
   color: #FFFFFF;
@@ -4448,9 +4451,9 @@ footer .top a {
 }
 
 .page-quem-somos .sobre-nos p {
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 28px;
+  font-weight: 400;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   color: #FFFFFF;
   margin-bottom: 32px;
 }
@@ -4475,7 +4478,7 @@ footer .top a {
 
 .page-quem-somos .projetos h2 {
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -4506,8 +4509,8 @@ footer .top a {
 
 .page-quem-somos .projetos .projetos-text p {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   color: #323B50;
   margin-bottom: 33px;
 }
@@ -4615,9 +4618,9 @@ footer .top a {
 }
 
 .page-quem-somos .projetos .swiper-slide-next .card-lateral p {
-  font-size: 18px;
-  line-height: 26px;
-  font-weight: 300;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
+  font-weight: 400;
   color: #323B50;
 }
 
@@ -4690,7 +4693,7 @@ footer .top a {
 .page-quem-somos .projetos .card-lateral p {
   font-size: 16px;
   line-height: 20px;
-  font-weight: 300;
+  font-weight: 400;
   color: #323B50;
 }
 
@@ -4816,8 +4819,8 @@ footer .top a {
 .page-quem-somos .a-origem p {
   margin-bottom: 30px;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   color: #323B50;
 }
 
@@ -4906,8 +4909,8 @@ footer .top a {
 .page-quem-somos .legado p {
   margin-bottom: 40px;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   color: #FFFFFF;
 }
 
@@ -4935,7 +4938,7 @@ footer .top a {
 
 .page-quem-somos .organizacoes .head h2 {
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -4993,8 +4996,8 @@ footer .top a {
 
 .page-quem-somos .organizacoes .carousel-item h5 {
   font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   text-align: center;
   color: #FFC536;
   margin-bottom: 20px;
@@ -5009,8 +5012,8 @@ footer .top a {
 
 .page-quem-somos .organizacoes .carousel-item p {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   text-align: center;
   color: #323B50;
   margin-bottom: 0px;
@@ -5068,7 +5071,7 @@ footer .top a {
 
 .page-quem-somos .footer h2 {
   font-weight: 300;
-  font-size: 48px;
+  font-size: var(--font-size-h2);
   line-height: 54px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -5258,8 +5261,8 @@ footer .top a {
 .como-aprender .como-aprender-texto p {
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   color: #323B50;
   margin-bottom: 25px;
 }
@@ -5285,7 +5288,7 @@ footer .top a {
 .como-aprender h2 {
   margin-bottom: 40px;
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 64px;
   letter-spacing: -0.02em;
   color: #323B50;
@@ -5303,7 +5306,7 @@ footer .top a {
 
 .como-aprender h2 strong {
   font-weight: 600;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 64px;
   letter-spacing: -0.02em;
   color: #FFC536;
@@ -5320,8 +5323,8 @@ footer .top a {
 
 .como-aprender p {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   letter-spacing: -0.02em;
   color: #323B50;
   margin-bottom: 35px;
@@ -5394,7 +5397,7 @@ footer .top a {
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
-  line-height: 30px;
+  line-height: var(--line-height-primary);
   color: #FFFFFF;
   background: #F29F05;
   border: 1px solid #F29F05;
@@ -5417,7 +5420,7 @@ footer .top a {
 }
 
 .como-aprender .text-call p {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 400;
 }
 
@@ -5445,7 +5448,7 @@ footer .top a {
 
 .conheca-beneficios h2 {
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -5553,8 +5556,8 @@ footer .top a {
 
 .conheca-beneficios h4 {
   font-weight: 600;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   text-align: center;
   color: #323B50;
   margin-bottom: 0;
@@ -5709,7 +5712,7 @@ footer .top a {
 .conheca-beneficios .box .hover .btn {
   font-weight: 600;
   font-size: 22px;
-  line-height: 28px;
+  line-height: var(--line-height-primary);
   color: #323B50;
 }
 
@@ -5803,7 +5806,7 @@ footer .top a {
 .mundo-melhor h3 {
   font-style: normal;
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   letter-spacing: -0.02em;
   color: #FFC536;
@@ -5826,7 +5829,7 @@ footer .top a {
   margin-bottom: 33px;
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: var(--font-size-primary);
   line-height: 30px;
   color: #FFFFFF;
 }
@@ -5879,7 +5882,7 @@ footer .top a {
 .transcender h2 {
   margin-bottom: 40px;
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 64px;
   letter-spacing: -0.02em;
   color: #323B50;
@@ -5897,7 +5900,7 @@ footer .top a {
 
 .transcender h2 strong {
   font-weight: 600;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 64px;
   letter-spacing: -0.02em;
   color: #FFC536;
@@ -5923,7 +5926,7 @@ footer .top a {
 
 .transcender p {
   font-weight: 400;
-  font-size: 24px;
+  font-size: var(--font-size-primary);
   line-height: 30px;
   letter-spacing: -0.02em;
   color: #323B50;
@@ -6011,7 +6014,7 @@ footer .top a {
 .mt-unica-depoimentos .depoimento p {
   font-style: italic;
   font-weight: 400;
-  font-size: 24px;
+  font-size: var(--font-size-primary);
   line-height: 30px;
   text-align: center;
   color: #323B50;
@@ -6199,7 +6202,7 @@ footer .top a {
 .mt-unica-slide h3 {
   font-style: normal;
   font-weight: 400;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 58px;
   letter-spacing: -0.02em;
   color: #7896C1;
@@ -6217,7 +6220,7 @@ footer .top a {
 .mt-unica-slide p {
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: var(--font-size-primary);
   line-height: 30px;
   color: #323B50;
   margin-bottom: 25px;
@@ -6284,7 +6287,7 @@ footer .top a {
 .mt-unica p {
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: var(--font-size-primary);
   line-height: 30px;
   color: #323B50;
   margin-bottom: 45px;
@@ -6341,8 +6344,8 @@ footer .top a {
 
 .mt-unica .video-caption h5 {
   font-weight: 600;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   color: #323B50;
   margin-bottom: 5px;
 }
@@ -6393,7 +6396,7 @@ footer .top a {
 .mt-unica .mt-unica-title h3 {
   font-style: normal;
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   letter-spacing: -0.02em;
   margin-bottom: 0;
@@ -6417,7 +6420,7 @@ footer .top a {
 .visite-blog h2 {
   margin-bottom: 40px;
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 64px;
   letter-spacing: -0.02em;
   color: #323B50;
@@ -6435,7 +6438,7 @@ footer .top a {
 
 .visite-blog h2 strong {
   font-weight: 600;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 64px;
   letter-spacing: -0.02em;
   color: #FFC536;
@@ -6591,7 +6594,7 @@ footer .top a {
 
 .mudou-vida h2 {
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -6817,7 +6820,7 @@ footer .top a {
 .o-que-dizem h2 {
   margin-bottom: 40px;
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 64px;
   letter-spacing: -0.02em;
   color: #FFFFFF;
@@ -6835,7 +6838,7 @@ footer .top a {
 
 .o-que-dizem h2 strong {
   font-weight: 600;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 64px;
   letter-spacing: -0.02em;
 }
@@ -7097,7 +7100,7 @@ footer .top a {
 
 .pesquisas h2 {
   font-weight: 300;
-  font-size: 54px;
+  font-size: var(--font-size-h2);
   line-height: 63px;
   letter-spacing: -0.02em;
   color: #323B50;
@@ -7120,8 +7123,8 @@ footer .top a {
 
 .pesquisas p {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
   text-align: left;
   margin-bottom: 0;
   color: #323B50;

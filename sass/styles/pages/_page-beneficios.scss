@@ -6,8 +6,8 @@
     }
     p {
       font-weight: 400;
-      font-size: 24px;
-      line-height: 28px;
+      font-size: var(--font-size-primary);
+      line-height: var(--line-height-primary);
       color: $color-secondary-dark;
       margin-bottom: 37px;
       @media (max-width: 992px) {
@@ -29,7 +29,7 @@
     }
     h2 {
       font-weight: 300;
-      font-size: 54px;
+      font-size: var(--font-size-h2);
       line-height: 53px;
       letter-spacing: -0.02em;
       color: $color-white;
@@ -61,7 +61,7 @@
       margin-bottom: 0;
       li {
         font-weight: 400;
-        font-size: 24px;
+        font-size: var(--font-size-primary);
         line-height: 42px;
         color: $color-white;
         @media (max-width: 992px) {
@@ -128,8 +128,8 @@
       }
       p {
         font-weight: 400;
-        font-size: 24px;
-        line-height: 28px;
+        font-size: var(--font-size-primary);
+        line-height: var(--line-height-primary);
         color: $color-secondary-dark;
         max-width: 728px;
         margin: 0 auto;
@@ -154,7 +154,7 @@
     }
     h2 {
       font-weight: 300;
-      font-size: 54px;
+      font-size: var(--font-size-h2);
       line-height: 63px;
       text-align: center;
       letter-spacing: -0.02em;
@@ -202,15 +202,15 @@
           text-align: center;
           max-width: 200px;
           margin: 0 auto;
-          font-size: 24px;
-          line-height: 28px;
+          font-size: var(--font-size-primary);
+          line-height: var(--line-height-primary);
           margin-bottom: 9px;
         }
       }
       p {
         font-weight: 400;
-        font-size: 24px;
-        line-height: 28px;
+        font-size: var(--font-size-primary);
+        line-height: var(--line-height-primary);
         color: $color-secondary-dark;
         margin-bottom: 0;
         @media (max-width: 992px) {
@@ -325,8 +325,8 @@
       }
       p {
         font-weight: 400;
-        font-size: 24px;
-        line-height: 28px;
+        font-size: var(--font-size-primary);
+        line-height: var(--line-height-primary);
         color: $color-secondary-dark;
         margin-bottom: 40px;
         @media (max-width: 992px) {
