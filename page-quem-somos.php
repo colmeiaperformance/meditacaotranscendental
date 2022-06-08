@@ -7,11 +7,11 @@
 <?php get_template_part('template-parts/navbar'); ?>
 <?php get_template_part('template-parts/headers/header-quem-somos'); ?>
 <main class="page-quem-somos">
-  <section class="hero">
+  <!-- <section class="hero">
     <div class="container">
       <h2>Nosso propósito é criar uma sociedade mais <strong>pacífica e iluminada</strong> em todo o mundo, através do <strong>pleno desenvolvimento</strong> de cada indivíduo.</h2>
     </div>
-  </section>
+  </section> -->
   <section class="sobre-nos">
     <div class="container">
       <h2>Sobre <strong>nós</strong></h2>
@@ -31,8 +31,8 @@
 
       <div class="row">
       <div class="col-12">
-        <!-- inicio carousel -->
-        <!-- <div id="oquedizem" class="swiper swiperOQueDizem" data-bs-ride="carousel">
+     
+       <div id="oquedizem" class="swiper swiperOQueDizem" data-bs-ride="carousel">
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
@@ -40,7 +40,7 @@
                 <div class="carousel-caption">
                   <div class="carousel-content d-flex align-items-center text-center justify-content-around">
                     <div class="card-lateral col-10 col-lg-12">
-                      <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/0g0MFzECtb4"
+                      <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/IFNBlY-kR3A"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
@@ -48,9 +48,7 @@
                       <div
                         class="video-text d-flex justify-content-center text-center align-items-center px-2">
                         <p>
-                          David Lynch explica como
-                          a MT pode potencializar sua
-                          inteligência e sua capacidade criativa.
+                         Projetos Brasil
                         </p>
                       </div>
                     </div>
@@ -64,17 +62,10 @@
                 <div class="carousel-caption">
                   <div class="carousel-content d-flex align-items-center text-center justify-content-around">
                     <div class="card-lateral col-10 col-lg-12">
-                      <iframe class="yt-video" width="490" height="300" src="https://www.youtube.com/embed/QLcXzcWtPHY"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                      </iframe>
-                      <div
-                        class="video-text d-flex justify-content-center text-center align-items-center">
+                      <iframe class="yt-video" width="490" height="300" src="https://www.youtube.com/embed/8k4Goges6YQ?list=PLc9SPDSftwJNStbGDtHbtESva05S4aBWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <div class="video-text d-flex justify-content-center text-center align-items-center">
                         <p>
-                          Flávio Canto fala como conseguiu
-                          alcançar o sonho olímpico
-                          com a ajuda da MT.
+                         Projetos pelo mundo: Educação Baseada na Consciência
                         </p>
                       </div>
                     </div>
@@ -88,83 +79,11 @@
                 <div class="carousel-caption">
                   <div class="carousel-content d-flex align-items-center text-center justify-content-around">
                     <div class="card-lateral col-10 col-lg-12">
-                      <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/Co2_AIWW9YI"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                      </iframe>
+                      <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/C3Co0PNcmMM?list=PLc9SPDSftwJNStbGDtHbtESva05S4aBWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       <div
                         class="video-text d-flex justify-content-center text-center align-items-center px-2">
                         <p>
-                          Fernanda Souza conta como
-                          a prática diária da
-                          MT mudou sua vida.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="container">
-                <div class="carousel-caption">
-                  <div class="carousel-content d-flex align-items-center text-center justify-content-around">
-                    <div class="card-lateral col-10 col-lg-12">
-                      <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/0Wf441fXCeI"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                      </iframe>
-                      <div
-                        class="video-text d-flex justify-content-center text-center align-items-center px-2">
-                        <p>
-                        Foco, energia, plenitude e saúde: o que mudou na vida de 5 pessoas após a MT.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="container">
-                <div class="carousel-caption">
-                  <div class="carousel-content d-flex align-items-center text-center justify-content-around">
-                    <div class="card-lateral col-10 col-lg-12">
-                      <iframe class="yt-video" width="490" height="300" src="https://www.youtube.com/embed/xz_So-nYeGw"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                      </iframe>
-                      <div
-                        class="video-text d-flex justify-content-center text-center align-items-center">
-                        <p>
-                        Gisele Bundchen declara como a MT a ajudou a se conectar com sua verdadeira essência.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="container">
-                <div class="carousel-caption">
-                  <div class="carousel-content d-flex align-items-center text-center justify-content-around">
-                    <div class="card-lateral col-10 col-lg-12">
-                      <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/1MdDr566fGs"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                      </iframe>
-                      <div
-                        class="video-text d-flex justify-content-center text-center align-items-center px-2">
-                        <p>
-                        Dr. Roberto Botelho, cardiologista, afirma: “Como médico, tenho que prescrever a MT para meus pacientes”.
+                          Unidos pela paz
                         </p>
                       </div>
                     </div>
@@ -176,8 +95,7 @@
           </div>
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
-        </div> -->
-        <!-- final carousel -->
+        </div> 
 
       </div>
 
@@ -215,7 +133,7 @@
 
           <div class="carousel-item active text-center">
             <div class="container">
-              <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/quem-somos/Maharishi_International_University_logo.png' ?>" alt="MIU - Maharishi International University">
+              <!-- <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/quem-somos/Maharishi_International_University_logo.png' ?>" alt="MIU - Maharishi International University"> -->
               <h5><stromg>MIU - Maharishi International University</strong></h5>
               <p>Fundada por Maharishi Mahesh Yogi, em 1971, em Iowa (EUA), é uma universidade que trabalha a educação superior com base na Consciência do Ser. O propósito da instituição é ajudar os alunos a desenvolverem um autoconhecimento profundo enquanto estudam o campo acadêmico de sua escolha. Oferece diversos cursos de graduação e pós-graduação.</p>
             </div>
@@ -223,33 +141,10 @@
 
           <div class="carousel-item text-center">
             <div class="container">
-              <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/quem-somos/meru.png' ?>" alt="MERU - Maharishi European Research University">
-              <h5><stromg>MERU - Maharishi European Research University</strong></h5>
-              <p>Fundada em 1975, na Suíça, por Maharishi Mahesh Yogi, para promover pesquisas sobre a Consciência. Em 1984, a MERU comprou um campus em uma floresta nacional perto de Vlodrop, na Holanda, onde Maharishi passou os últimos 18 anos de sua vida. É a sede da administração das organizações de MT e um anfitrião de cursos e retiros para as comunidades globais e locais. Sua missão é levar o conhecimento atemporal da Consciência a todos – para uma sociedade mais saudável, vibrante e pacífica.</p>
+              <!-- <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/quem-somos/Maharishi_International_University_logo.png' ?>" alt="MIU - Maharishi International University"> -->
+              <h5><stromg>MIU - Maharishi International University</strong></h5>
+              <p>Fundada por Maharishi Mahesh Yogi, em 1971, em Iowa (EUA), é uma universidade que trabalha a educação superior com base na Consciência do Ser. O propósito da instituição é ajudar os alunos a desenvolverem um autoconhecimento profundo enquanto estudam o campo acadêmico de sua escolha. Oferece diversos cursos de graduação e pós-graduação.</p>
             </div>
-          </div>
-
-          <div class="carousel-item text-center">
-            <div class="container">
-              <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/quem-somos/umlac.png' ?>" alt="UMLAC - Universidade Maharishi da América Latina e Caribe">
-              <h5><stromg>UMLAC - Universidade Maharishi da América Latina e Caribe</strong></h5>
-              <p>A UMLAC oferece cursos de graduação, pós-graduação e Ph.D, especialmente na área da Saúde, tendo a Educação Baseada na Consciência como princípio fundamental para despertar o pleno potencial de criatividade, de inteligência e de felicidade em todos os estudantes e, assim, formar indivíduos para sociedades mais pacíficas e equilibradas. </p>
-            </div>
-          </div>
-
-          <div class="carousel-item text-center">
-            <div class="container">
-              <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/quem-somos/mii.png' ?>" alt="MII - Maharishi Invincibility Institute - África do Sul">
-              <h5><stromg>MII - Maharishi Invincibility Institute - África do Sul</strong></h5>
-              <p>Principal provedor de educação e treinamento privado sem fins lucrativos da África do Sul, a MII segue a metodologia da Educação Baseada na Consciência, incluindo a MT, para desenvolver o pleno potencial de cada aluno e com um modelo inovador de acesso à educação de ponta, com taxa de 95% de colocação profissional.</p>
-            </div>
-          </div>
-
-          <div class="carousel-item text-center">
-            <div class="container">
-              <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/quem-somos/david.png' ?>" alt="David Lynch Foundation ">
-              <h5><stromg>David Lynch Foundation </strong></h5>
-              <p>Fundada em 2005 pelo cineasta norte-americano David Lynch, um dos maiores entusiastas da MT no mundo, sua missão é erradicar a epidemia generalizada de trauma e de estresse tóxico entre populações em risco, através do ensino da MT, beneficiando milhares de crianças e adultos no mundo. No Brasil, os projetos são realizados pelo Instituto David Lynch (IDL).</div>
           </div>
 
         <button class="carousel-control-prev" type="button" data-bs-target="#organizacoes-mt" data-bs-slide="prev">
@@ -277,7 +172,7 @@
           <p>Em 1959, Maharishi chegou aos Estados Unidos para dar início à difusão da MT no ocidente. Nos anos 70, quando milhares de pessoas em todo mundo relataram benefícios alcançados com a prática da MT, a técnica despertou a atenção de diversos cientistas e se tornou objeto de estudo em grandes universidades dos Estados Unidos e da Europa. </p>
           <p>Trazer os benefícios de saúde e de potencial mental, promovidos por meio de uma prática oriunda da sabedoria Védica à luz da ciência moderna, foi um dos mais importantes legados de Maharishi para a humanidade, porém não foi o único. </p>
           <p>Em 1974, um estudo acadêmico identificou um fenômeno importante e que recebeu o nome de Efeito Maharishi. Com essa descoberta, o propósito da MT de tornar o mundo mais pacífico e harmonioso para todos ganhou mais força e credibilidade.</p>
-          <p><strong>Entenda o efeito Maharishi.</strong></p>
+          <!-- <p><strong>Entenda o efeito Maharishi.</strong></p> -->
         </div>
       </div>
     </div>
@@ -286,7 +181,7 @@
     <div class="container">
       <h2>Faça parte da criação de um <span>mundo melhor</span>, <strong>para você e para todos</strong>.</h2>
       <div class="text-center">
-        <a href="#" class="btn" role="button">
+        <a href="<?php echo home_url( '/eventos/' ); ?>" class="btn" role="button">
           Pratique a MT
         </a>
       </div>
