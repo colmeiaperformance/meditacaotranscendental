@@ -17,9 +17,7 @@
         </button>
         <div class="collapse" id="collapse-1" style="">
           <div class="btn-toggle-nav">
-            <p>Durante a prática, o cérebro atinge um funcionamento integrado e mais ordenado, permitindo que a
-              mente se mova naturalmente do nível ativo do pensamento para níveis mais silenciosos, alcançando o
-              estado mais puro da Consciência.
+            <p>A partir de 5 anos de idade, qualquer pessoa pode aprender a técnica da MT®. Não há pré-requisito de escolaridade ou de conhecimentos pregressos. 
             </p>
           </div>
         </div>
@@ -43,7 +41,7 @@
         </button>
         <div class="collapse" id="collapse-3">
         <div class="btn-toggle-nav">
-          <p>Você precisa apenas de 20 minutos, 2 vezes ao dia. Simples assim.
+          <p>Basta sentar-se confortavelmente com os olhos fechados numa cadeira, num sofá ou em qualquer outro lugar de sua preferência. O importante é estar confortável. 
           </p>
         </div>
         </div>
@@ -55,7 +53,7 @@
         </button>
         <div class="collapse" id="collapse-4">
         <div class="btn-toggle-nav">
-          <p>Você precisa apenas de 20 minutos, 2 vezes ao dia. Simples assim.
+          <p>Sim! A MT é uma técnica muito fácil, simples e natural, justamente por não exigir concentração e esforço.
           </p>
         </div>
         </div>
@@ -67,7 +65,7 @@
         </button>
         <div class="collapse" id="collapse-5">
         <div class="btn-toggle-nav">
-          <p>Você precisa apenas de 20 minutos, 2 vezes ao dia. Simples assim.
+          <p>Sim! Na MT, nós não tentamos esvaziar a mente. A técnica não envolve nenhum tipo de controle, pois a mente naturalmente vai em direção ao silêncio. É da natureza da nossa mente buscar mais quietude, mais energia e mais felicidade.
           </p>
         </div>
         </div>
@@ -79,7 +77,7 @@
         </button>
         <div class="collapse" id="collapse-6">
         <div class="btn-toggle-nav">
-          <p>Você precisa apenas de 20 minutos, 2 vezes ao dia. Simples assim.
+          <p>A eficácia da técnica da MT é a mesma, quer você acredite que funcione, quer seja completamente cético. Você só precisa praticar com regularidade.
           </p>
         </div>
         </div>
@@ -91,7 +89,7 @@
         </button>
         <div class="collapse" id="collapse-7">
         <div class="btn-toggle-nav">
-          <p>Você precisa apenas de 20 minutos, 2 vezes ao dia. Simples assim.
+          <p>Sim. A MT é apenas um processo mental que ajuda o cérebro a funcionar da melhor forma possível, produzindo bem-estar físico e mental, paz e felicidade. Todos esses benefícios já foram comprovados pela comunidade científica global
           </p>
         </div>
         </div>
@@ -103,7 +101,7 @@
         </button>
         <div class="collapse" id="collapse-8">
         <div class="btn-toggle-nav">
-          <p>Você precisa apenas de 20 minutos, 2 vezes ao dia. Simples assim.
+          <p>A técnica da MT é fácil de aprender, mas requer orientação interativa personalizada. Por essa razão, é ensinada apenas através de instruções individuais por um professor certificado. Não há outra maneira de aprender a técnica autêntica da MT®.
           </p>
         </div>
         </div>
@@ -115,7 +113,7 @@
         </button>
         <div class="collapse" id="collapse-9">
         <div class="btn-toggle-nav">
-          <p>Você precisa apenas de 20 minutos, 2 vezes ao dia. Simples assim.
+          <p>Para aprender a técnica de MT, o primeiro passo é assistir à palestra online gratuita com um instrutor de MT certificado. Em seguida, você pode fazer sua inscrição para o curso, que é realizado em 4 dias consecutivos. 
           </p>
         </div>
         </div>
@@ -127,7 +125,10 @@
         </button>
         <div class="collapse" id="collapse-11">
         <div class="btn-toggle-nav">
-          <p>Você precisa apenas de 20 minutos, 2 vezes ao dia. Simples assim.
+          <p>Apenas instrutores certificados e credenciados pela Associação Internacional de Meditação (SIM) podem 
+            ensinar a verdadeira técnica da MT®. Basta consultar a lista dos instrutores certificados 
+            <a href="<?php echo home_url( '/instrutores/' ); ?>">aqui</a>. 
+            Você pode pesquisar por nome ou por localidade. 
           </p>
         </div>
         </div>
