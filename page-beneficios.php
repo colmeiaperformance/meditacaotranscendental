@@ -126,7 +126,7 @@
           <p>O Brasil é o país mais ansioso do mundo, segundo a OMS. Também somos o segundo com o maior nível de estresse: 70% da população ativa já apresentou algum sintoma do problema, de acordo com a Associação Internacional  do Controle do Estresse (ISMA).</p>
           <p>Com a prática da MT, conseguimos reduzir, de forma natural, os quadros de estresse e ansiedade e,  consequentemente, diminuir riscos de transtornos mentais, como depressão, síndrome de burnout e do pânico, transtornos de déficit de atenção e estresse pós-traumático, dentre outros.</p>
         </div>
-        <div class="legend  px-0 px-lg-5 mx-lg-3">
+        <!-- <div class="legend  px-0 px-lg-5 mx-lg-3">
           <p>Devido ao alto nível de estresse acumulado, muitas vezes, o descanso que temos à noite é insuficiente para o restabelecimento natural do organismo. Essa condição provoca um desequilíbrio hormonal nocivo, que pode causar doenças cardiovasculares, diabetes, envelhecimento precoce, dentre outros problemas.</p>
           <p>A prática regular da MT atua diretamente na dissolução do estresse impregnado no sistema nervoso. Isso gera um poderoso efeito regenerativo, que contribui para a prevenção de diversas doenças, para a diminuição do uso de medicamentos e para a redução dos custos com atenção à saúde.</p>
           <p>O Brasil é o país mais ansioso do mundo, segundo a OMS. Também somos o segundo com o maior nível de  estresse: 70% da população ativa já apresentou algum sintoma do problema, de acordo com a Associação Internacional do  Controle do Estresse (ISMA).</p>
@@ -145,9 +145,9 @@
           <p>Praticar regularmente a MT promove o pleno potencial da mente, gerando total integração e coerência cerebral, o que aumenta nossa criatividade, foco, inteligência e capacidade de concentração e de resolução de problemas. Assim, a gente se torna mais eficiente e com mais energia.</p>
           <p>O Brasil é o país mais ansioso do mundo, segundo a OMS. Também somos o segundo com o maior nível de estresse:  70% da população ativa já apresentou algum sintoma do problema, de acordo com a Associação Internacional do  Controle do Estresse (ISMA).</p>
           <p>Com a prática da MT, conseguimos reduzir, de forma natural, os quadros de estresse e ansiedade e,  consequentemente, diminuir riscos de transtornos mentais, como depressão, síndrome de burnout e do pânico, transtornos de déficit de atenção e estresse pós-traumático, dentre outros.</p>
-        </div>
+        </div> -->
       </div>
-      <div class="tabs">
+      <!-- <div class="tabs">
         <div id="tab3" class="tab">
           <ul class="nav nav-tabs">
             <li><a href="#tab1">Description</a></li>
@@ -179,7 +179,7 @@
           </ul>
           <p>The idea is to use <code>:target</code> pseudoclass to show tabs, use anchors with fragment identifiers to switch between them.</p>
         </div>
-      </div>
+      </div> -->
       <div class="row">
         <h2>O que diz a <strong>ciência</strong>?</h2>
         <div class="swiper swiperCiencia">
