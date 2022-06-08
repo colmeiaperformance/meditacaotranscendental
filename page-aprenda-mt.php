@@ -232,7 +232,7 @@
 
               <div class="swiper-slide">
                  <div class="swiper-mobile">
-                    <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/T7k_8XeV5dQ"
+                    <iframe class="yt-video" width="280" height="200" src="https://youtu.be/rvF2rYZZegg"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
@@ -252,19 +252,6 @@
                   </iframe>
                   <p>
                   Não imagino minha vida sem a Meditação Transcendental
-                  </p>
-                </div>
-            </div>
-
-              <div class="swiper-slide">
-                 <div class="swiper-mobile">
-                    <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/JuF8Fy-pt_c"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-                  </iframe>
-                  <p>
-                  Depoimento: Wagner Moura sobre Meditação Transcendental
                   </p>
                 </div>
             </div>
