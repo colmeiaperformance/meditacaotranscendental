@@ -9,7 +9,9 @@
       font-size: var(--font-size-primary);
       line-height: var(--line-height-primary);
       color: $color-secondary-dark;
-      margin-bottom: 37px;
+      max-width: 968px;
+      margin: 0 auto;
+      margin-bottom: 35px;
       @media (max-width: 992px) {
         font-size: 16px;
         line-height: 18px;
@@ -26,6 +28,10 @@
     padding: 60px 0 70px 0;
     @media (max-width: 992px) {
       padding: 37px 0 55px 0;
+    }
+    .row {
+      max-width: 968px;
+      margin: 0 auto;
     }
     h2 {
       font-weight: 300;
@@ -144,12 +150,6 @@
     @media (max-width: 992px) {
       padding: 50px 0 67px 0;
     }
-    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-      background-color: transparent;
-      &.active > .box {
-        background-color: $color-primary-medium
-      }
-    }
     h2 {
       font-weight: 300;
       font-size: var(--font-size-h2);
@@ -189,6 +189,10 @@
         color: $color-primary-dark;
       }
     }
+    .bloco-1{
+      max-width: 1000px;
+      margin: 0 auto;
+    }
     .swiper-slide {
       h3 {
         font-weight: 600;
@@ -225,7 +229,6 @@
     }
     .swiper-button-prev {
       transition: all .3s ease;
-      left: 0;
       @media (max-width: 992px) {
         left: -10px;
         top: 150px;
@@ -247,7 +250,6 @@
     }
     .swiper-button-next {
       transition: all .3s ease;
-      right: 0;
       @media (max-width: 992px) {
         right: -9px;
         top: 150px;
@@ -266,6 +268,12 @@
       &:hover {
         opacity: 0.7;
       } 
+    }
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+      background-color: transparent;
+      &.active > .box {
+        background-color: $color-primary-medium
+      }
     }
     ul {
       display: grid;
