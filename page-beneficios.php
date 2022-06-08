@@ -416,200 +416,201 @@
                 </div>
               </div>
             </div>
-          <div class="swiper-slide">
-            <div class="swiper-mobile">
-              <div class="container px-5">
-                <div class="row d-flex align-items-center justify-content-center px-5">
-                  <div class="col-12 col-lg-5 order-2 order-lg-1">
-                    <h3>Fortalecimento do sistema imunológico </h3>
-                    <div class="text-center d-block d-lg-none">
-                      <img loading="lazy" class="border-0"
-                        src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
-                        alt="Linha">
+            <div class="swiper-slide">
+              <div class="swiper-mobile">
+                <div class="container px-5">
+                  <div class="row d-flex align-items-center justify-content-center px-5">
+                    <div class="col-12 col-lg-5 order-2 order-lg-1">
+                      <h3>Fortalecimento do sistema imunológico </h3>
+                      <div class="text-center d-block d-lg-none">
+                        <img loading="lazy" class="border-0"
+                          src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
+                          alt="Linha">
+                      </div>
+                      <p>A MT também é eficaz para o fortalecimento do sistema imunológico, de acordo com a ciência. Uma pesquisa mostrou o aumento de glóbulos brancos em pacientes, o que ajuda a proteger o organismo de câncer e de infecções. 
+                      </p>
                     </div>
-                    <p>A MT também é eficaz para o fortalecimento do sistema imunológico, de acordo com a ciência. Uma pesquisa mostrou o aumento de glóbulos brancos em pacientes, o que ajuda a proteger o organismo de câncer e de infecções. 
-                    </p>
-                  </div>
-                  <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
-                    <img loading="lazy" class="img-fluid"
-                      src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/9.png' ?>
-                      alt="Gráfico">
+                    <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
+                      <img loading="lazy" class="img-fluid"
+                        src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/9.png' ?>
+                        alt="Gráfico">
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiper-mobile">
-              <div class="container px-5">
-                <div class="row d-flex align-items-center justify-content-center px-5">
-                  <div class="col-12 col-lg-5 order-2 order-lg-1">
-                    <h3>Relacionamentos profissionais</h3>
-                    <div class="text-center d-block d-lg-none">
-                      <img loading="lazy" class="border-0"
-                        src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
-                        alt="Linha">
+            <div class="swiper-slide">
+              <div class="swiper-mobile">
+                <div class="container px-5">
+                  <div class="row d-flex align-items-center justify-content-center px-5">
+                    <div class="col-12 col-lg-5 order-2 order-lg-1">
+                      <h3>Relacionamentos profissionais</h3>
+                      <div class="text-center d-block d-lg-none">
+                        <img loading="lazy" class="border-0"
+                          src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
+                          alt="Linha">
+                      </div>
+                      <p>Um estudo realizado em uma indústria automobilística concluiu que, após três meses de prática regular da MT, funcionários apresentaram melhores relações no trabalho em comparação a outras pessoas da mesma empresa. 
+                      </p>
                     </div>
-                    <p>Um estudo realizado em uma indústria automobilística concluiu que, após três meses de prática regular da MT, funcionários apresentaram melhores relações no trabalho em comparação a outras pessoas da mesma empresa. 
-                    </p>
-                  </div>
-                  <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
-                    <img loading="lazy" class="img-fluid"
-                      src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/10.png' ?>
-                      alt="Gráfico">
+                    <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
+                      <img loading="lazy" class="img-fluid"
+                        src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/10.png' ?>
+                        alt="Gráfico">
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiper-mobile">
-              <div class="container px-5">
-                <div class="row d-flex align-items-center justify-content-center px-5">
-                  <div class="col-12 col-lg-5 order-2 order-lg-1">
-                    <h3>Relacionamentos afetivos </h3>
-                    <div class="text-center d-block d-lg-none">
-                      <img loading="lazy" class="border-0"
-                        src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
-                        alt="Linha">
+            <div class="swiper-slide">
+              <div class="swiper-mobile">
+                <div class="container px-5">
+                  <div class="row d-flex align-items-center justify-content-center px-5">
+                    <div class="col-12 col-lg-5 order-2 order-lg-1">
+                      <h3>Relacionamentos afetivos </h3>
+                      <div class="text-center d-block d-lg-none">
+                        <img loading="lazy" class="border-0"
+                          src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
+                          alt="Linha">
+                      </div>
+                      <p>Estudantes universitários que praticaram o Programa de Meditação Transcendental® classificaram mais positivamente as pessoas importantes de suas vidas (pais, cônjuge) em comparação aos estudantes do grupo de controle.
+                      </p>
                     </div>
-                    <p>Estudantes universitários que praticaram o Programa de Meditação Transcendental® classificaram mais positivamente as pessoas importantes de suas vidas (pais, cônjuge) em comparação aos estudantes do grupo de controle.
-                    </p>
-                  </div>
-                  <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
-                    <img loading="lazy" class="img-fluid"
-                      src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/11.png' ?>
-                      alt="Gráfico">
+                    <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
+                      <img loading="lazy" class="img-fluid"
+                        src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/11.png' ?>
+                        alt="Gráfico">
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiper-mobile">
-              <div class="container px-5">
-                <div class="row d-flex align-items-center justify-content-center px-5">
-                  <div class="col-12 col-lg-5 order-2 order-lg-1">
-                    <h3>Autorrealização</h3>
-                    <div class="text-center d-block d-lg-none">
-                      <img loading="lazy" class="border-0"
-                        src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
-                        alt="Linha">
+            <div class="swiper-slide">
+              <div class="swiper-mobile">
+                <div class="container px-5">
+                  <div class="row d-flex align-items-center justify-content-center px-5">
+                    <div class="col-12 col-lg-5 order-2 order-lg-1">
+                      <h3>Autorrealização</h3>
+                      <div class="text-center d-block d-lg-none">
+                        <img loading="lazy" class="border-0"
+                          src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
+                          alt="Linha">
+                      </div>
+                      <p>Uma metanálise de todos os estudos científicos já realizados sobre os efeitos de diferentes técnicas de meditação na realização pessoal mostrou que a MT apresenta eficácia de 3 a 4 vezes maior que outras técnicas de meditação e de relaxamento. 
+                      </p>
                     </div>
-                    <p>Uma metanálise de todos os estudos científicos já realizados sobre os efeitos de diferentes técnicas de meditação na realização pessoal mostrou que a MT apresenta eficácia de 3 a 4 vezes maior que outras técnicas de meditação e de relaxamento. 
-                    </p>
-                  </div>
-                  <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
-                    <img loading="lazy" class="img-fluid"
-                      src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/12.png' ?>
-                      alt="Gráfico">
+                    <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
+                      <img loading="lazy" class="img-fluid"
+                        src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/12.png' ?>
+                        alt="Gráfico">
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiper-mobile">
-              <div class="container px-5">
-                <div class="row d-flex align-items-center justify-content-center px-5">
-                  <div class="col-12 col-lg-5 order-2 order-lg-1">
-                    <h3>Coerência cerebral </h3>
-                    <div class="text-center d-block d-lg-none">
-                      <img loading="lazy" class="border-0"
-                        src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
-                        alt="Linha">
+            <div class="swiper-slide">
+              <div class="swiper-mobile">
+                <div class="container px-5">
+                  <div class="row d-flex align-items-center justify-content-center px-5">
+                    <div class="col-12 col-lg-5 order-2 order-lg-1">
+                      <h3>Coerência cerebral </h3>
+                      <div class="text-center d-block d-lg-none">
+                        <img loading="lazy" class="border-0"
+                          src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
+                          alt="Linha">
+                      </div>
+                      <p>Estudo com teste em eletroencefalograma demonstra aumento da sincronia e da coerência da atividade cerebral das ondas Alpha, durante prática da MT, comparado com grupo em repouso de olhos abertos e com os olhos fechados.
+                      </p>
                     </div>
-                    <p>Estudo com teste em eletroencefalograma demonstra aumento da sincronia e da coerência da atividade cerebral das ondas Alpha, durante prática da MT, comparado com grupo em repouso de olhos abertos e com os olhos fechados.
-                    </p>
-                  </div>
-                  <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
-                    <img loading="lazy" class="img-fluid"
-                      src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/1.png' ?>
-                      alt="Gráfico">
+                    <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
+                      <img loading="lazy" class="img-fluid"
+                        src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/1.png' ?>
+                        alt="Gráfico">
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiper-mobile">
-              <div class="container px-5">
-                <div class="row d-flex align-items-center justify-content-center px-5">
-                  <div class="col-12 col-lg-5 order-2 order-lg-1">
-                    <h3>Coerência cerebral </h3>
-                    <div class="text-center d-block d-lg-none">
-                      <img loading="lazy" class="border-0"
-                        src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
-                        alt="Linha">
+            <div class="swiper-slide">
+              <div class="swiper-mobile">
+                <div class="container px-5">
+                  <div class="row d-flex align-items-center justify-content-center px-5">
+                    <div class="col-12 col-lg-5 order-2 order-lg-1">
+                      <h3>Coerência cerebral </h3>
+                      <div class="text-center d-block d-lg-none">
+                        <img loading="lazy" class="border-0"
+                          src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
+                          alt="Linha">
+                      </div>
+                      <p>Este estudo concluiu que, durante o programa de Meditação Transcendental®, alguns dos componentes mais básicos da resposta do cérebro à estimulação somático-sensorial (0–100 msec) são distribuídos de uma forma mais ampla em todo o córtex pré-frontal. 
+                      </p>
+                      <p>  
+                        O estudo indica um aumento da atividade das áreas do córtex que participam na percepção de informação específica e um aumento na relação funcional entre os dois hemisférios. 
+                      </p>
                     </div>
-                    <p>Este estudo concluiu que, durante o programa de Meditação Transcendental®, alguns dos componentes mais básicos da resposta do cérebro à estimulação somático-sensorial (0–100 msec) são distribuídos de uma forma mais ampla em todo o córtex pré-frontal. 
-                    </p>
-                    <p>  
-                      O estudo indica um aumento da atividade das áreas do córtex que participam na percepção de informação específica e um aumento na relação funcional entre os dois hemisférios. 
-                    </p>
-                  </div>
-                  <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
-                    <img loading="lazy" class="img-fluid"
-                      src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/1.png' ?>
-                      alt="Gráfico">
+                    <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
+                      <img loading="lazy" class="img-fluid"
+                        src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/1.png' ?>
+                        alt="Gráfico">
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiper-mobile">
-              <div class="container px-5">
-                <div class="row d-flex align-items-center justify-content-center px-5">
-                  <div class="col-12 col-lg-5 order-2 order-lg-1">
-                    <h3>Criatividade e outras habilidades </h3>
-                    <div class="text-center d-block d-lg-none">
-                      <img loading="lazy" class="border-0"
-                        src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
-                        alt="Linha">
+            <div class="swiper-slide">
+              <div class="swiper-mobile">
+                <div class="container px-5">
+                  <div class="row d-flex align-items-center justify-content-center px-5">
+                    <div class="col-12 col-lg-5 order-2 order-lg-1">
+                      <h3>Criatividade e outras habilidades </h3>
+                      <div class="text-center d-block d-lg-none">
+                        <img loading="lazy" class="border-0"
+                          src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
+                          alt="Linha">
+                      </div>
+                      <p>
+                        Depois de um período de 6 a 12 meses de prática regular de MT, um grupo de estudantes de Taiwan apresentou melhora significativa em cinco escalas diferentes de capacidade intelectual, incluindo uma escala de “toda a criatividade cerebral”. 
+                      </p>
                     </div>
-                    <p>
-                      Depois de um período de 6 a 12 meses de prática regular de MT, um grupo de estudantes de Taiwan apresentou melhora significativa em cinco escalas diferentes de capacidade intelectual, incluindo uma escala de “toda a criatividade cerebral”. 
-                    </p>
-                  </div>
-                  <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
-                    <img loading="lazy" class="img-fluid"
-                      src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/13.png' ?>
-                      alt="Gráfico">
+                    <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
+                      <img loading="lazy" class="img-fluid"
+                        src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/13.png' ?>
+                        alt="Gráfico">
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiper-mobile">
-              <div class="container px-5">
-                <div class="row d-flex align-items-center justify-content-center px-5">
-                  <div class="col-12 col-lg-5 order-2 order-lg-1">
-                    <h3>Desenvolvimento da inteligência </h3>
-                    <div class="text-center d-block d-lg-none">
-                      <img loading="lazy" class="border-0"
-                        src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
-                        alt="Linha">
+            <div class="swiper-slide">
+              <div class="swiper-mobile">
+                <div class="container px-5">
+                  <div class="row d-flex align-items-center justify-content-center px-5">
+                    <div class="col-12 col-lg-5 order-2 order-lg-1">
+                      <h3>Desenvolvimento da inteligência </h3>
+                      <div class="text-center d-block d-lg-none">
+                        <img loading="lazy" class="border-0"
+                          src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
+                          alt="Linha">
+                      </div>
+                      <p>
+                        Um estudo feito com estudantes universitários praticantes de MT mostrou  que eles obtiveram um aumento significativo do QI, enquanto o grupo de controle não apresentou avanços. 
+                      </p>
+                      <p>
+                        A pesquisa comprovou que adultos com mais de 18 anos podem elevar a inteligência com a ajuda da técnica, ao contrário do que se acreditava anteriormente. 
+                      </p>
                     </div>
-                    <p>
-                      Um estudo feito com estudantes universitários praticantes de MT mostrou  que eles obtiveram um aumento significativo do QI, enquanto o grupo de controle não apresentou avanços. 
-                    </p>
-                    <p>
-                      A pesquisa comprovou que adultos com mais de 18 anos podem elevar a inteligência com a ajuda da técnica, ao contrário do que se acreditava anteriormente. 
-                    </p>
-                  </div>
-                  <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
-                    <img loading="lazy" class="img-fluid"
-                      src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/14.png' ?>
-                      alt="Gráfico">
+                    <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
+                      <img loading="lazy" class="img-fluid"
+                        src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/14.png' ?>
+                        alt="Gráfico">
+                    </div>
                   </div>
                 </div>
-              </div>
+              </div> 
             </div>
-          </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+           <div class="swiper-button-prev"></div>
         </div>
         <div class="text-center">
           <a href="<?php echo home_url( '/instrutores/' ); ?>" class="btn">Encontre um instrutor perto de você</a>
