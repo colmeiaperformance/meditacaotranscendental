@@ -43,7 +43,7 @@
           <div class="depoimento d-block depoimento text-center">
             <div class="quote"></div>
             <p>
-              Um estudo científico mostra que a MT pode ter ajudado a aliviar sintomas de estresse pós-traumático e a melhorar a qualidade de vida de veteranos de guerras
+              Um estudo científico mostra que a MT pode ter ajudado a aliviar sintomas de estresse pós-traumático e a melhorar a qualidade de vida de veteranos de guerras.
             </p>
             <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/time.png' ?> alt="Time " class="forbes">
           </div>
