@@ -1,20 +1,4 @@
 .page-beneficios-mt {
-  .tab:not(:target) {
-    display: none;
-  }
-  
-  .tab:last-child {
-    display: block;
-  }
-  
-  .tab:target ~ .tab:last-child {
-    display: none;
-  }
-  
-  .tabs {
-    width: 30em;
-    margin: 6.5em auto;
-  }
   
   .hero {
     padding: 70px 0 37px 0;

@@ -2040,23 +2040,6 @@ footer .top a {
   opacity: 0.7;
 }
 
-.page-beneficios-mt .tab:not(:target) {
-  display: none;
-}
-
-.page-beneficios-mt .tab:last-child {
-  display: block;
-}
-
-.page-beneficios-mt .tab:target ~ .tab:last-child {
-  display: none;
-}
-
-.page-beneficios-mt .tabs {
-  width: 30em;
-  margin: 6.5em auto;
-}
-
 .page-beneficios-mt .hero {
   padding: 70px 0 37px 0;
 }

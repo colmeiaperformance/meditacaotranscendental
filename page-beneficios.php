@@ -62,7 +62,7 @@
   <section class="ciencia">
     <div class="container">
       <div class="row align-items-center justify-content-center px-5 bloco-1">
-        <div class="col-12 col-lg-3 d-flex align-items-center justify-content-center p-0 nav-link active show"
+        <div class="col-6 col-lg-3 d-flex align-items-center justify-content-center p-0 nav-link active show"
           id="pills-tab-1" data-bs-toggle="pill" data-bs-target="#pills-1" type="button" role="tab"
           aria-controls="pills-1" aria-selected="true">
           <div class=" box rounded-circle text-center">
@@ -77,7 +77,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-3 d-flex align-items-center justify-content-center p-0 nav-link" id="pills-tab-2"
+        <div class="col-6 col-lg-3 d-flex align-items-center justify-content-center p-0 nav-link" id="pills-tab-2"
           data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-2"
           aria-selected="true">
           <div class="box rounded-circle text-center">
@@ -92,7 +92,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-3 d-flex align-items-center justify-content-center p-0 nav-link" id="pills-tab-3"
+        <div class="col-6 col-lg-3 d-flex align-items-center justify-content-center p-0 nav-link" id="pills-tab-3"
           data-bs-toggle="pill" data-bs-target="#pills-3" type="button" role="tab" aria-controls="pills-3"
           aria-selected="true">
           <div class=" box rounded-circle text-center">
@@ -107,7 +107,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-3 d-flex align-items-center justify-content-center p-0 nav-link" id="pills-tab-4"
+        <div class="col-6 col-lg-3 d-flex align-items-center justify-content-center p-0 nav-link" id="pills-tab-4"
           data-bs-toggle="pill" data-bs-target="#pills-4" type="button" role="tab" aria-controls="pills-4"
           aria-selected="true">
           <div class=" box rounded-circle text-center">
@@ -147,39 +147,8 @@
           <p>Com a prática da MT, conseguimos reduzir, de forma natural, os quadros de estresse e ansiedade e,  consequentemente, diminuir riscos de transtornos mentais, como depressão, síndrome de burnout e do pânico, transtornos de déficit de atenção e estresse pós-traumático, dentre outros.</p>
           </div> -->
       </div>
-      <!-- <div class="tabs">
-        <div id="tab3" class="tab">
-          <ul class="nav nav-tabs">
-            <li><a href="#tab1">Description</a></li>
-            <li><a href="#tab2">How it works</a></li>
-            <li class="active"><a href="#tab3">Drawbacks</a></li>
-          </ul>
-          <ul>
-            <li>Tab bar should be duplicated on each tab.</li>
-            <li>Initially shown tab has to be the last.</li>
-            <li>In IE &lt; 9 all tabs are shown.</li>
-          </ul>
-        </div>
-        <div id="tab2" class="tab">
-          <ul class="nav nav-tabs">
-            <li><a href="#tab1">Description</a></li>
-            <li class="active"><a href="#tab2">How it works</a></li>
-            <li><a href="#tab3">Drawbacks</a></li>
-          </ul>
-          <ol>
-            <li>Show only the last tab.</li>
-            <li>If <code>:target</code> matches a tab, show it and hide all following siblings.</li>
-          </ol>
-        </div>
-        <div id="tab1" class="tab">
-          <ul class="nav nav-tabs">
-            <li class="active"><a href="#tab1">Description</a></li>
-            <li><a href="#tab2">How it works</a></li>
-            <li><a href="#tab3">Drawbacks</a></li>
-          </ul>
-          <p>The idea is to use <code>:target</code> pseudoclass to show tabs, use anchors with fragment identifiers to switch between them.</p>
-        </div>
-        </div> -->
+
+      
       <div class="row">
         <h2>O que diz a <strong>ciência</strong>?</h2>
         <div class="swiper swiperCiencia">
