@@ -49,7 +49,7 @@
                       <div
                         class="video-text d-flex justify-content-center text-center align-items-center px-2">
                         <p>
-                         Projetos Brasil
+                         Flávio Canto conta como a MT revolucionou o projeto social Reação, que beneficia crianças e jovens em situação de vulnerabilidade social.
                         </p>
                       </div>
                     </div>
@@ -66,7 +66,7 @@
                       <iframe class="yt-video" width="490" height="300" src="https://www.youtube.com/embed/8k4Goges6YQ?list=PLc9SPDSftwJNStbGDtHbtESva05S4aBWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       <div class="video-text d-flex justify-content-center text-center align-items-center">
                         <p>
-                         Projetos pelo mundo: Educação Baseada na Consciência
+                        Entenda como a MT ajuda a diminuir a violência entre crianças e adolescentes e a melhorar o desempenho escolar. 
                         </p>
                       </div>
                     </div>
@@ -84,7 +84,7 @@
                       <div
                         class="video-text d-flex justify-content-center text-center align-items-center px-2">
                         <p>
-                          Unidos pela paz
+                        A MT pode realmente produzir paz na sociedade? Conheça o “Efeito Maharishi”, uma descoberta científica capaz de mudar o mundo.
                         </p>
                       </div>
                     </div>
