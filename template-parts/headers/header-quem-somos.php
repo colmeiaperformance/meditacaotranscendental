@@ -14,7 +14,6 @@
             <h2>Se quisermos melhorar qualquer área da sociedade, devemos usar as tecnologias da consciência para alcançar nossos objetivos mais elevados.</h2>
             <div><h4>Maharishi Mahesh Yogi</span></div>
             <div><h5>Fundador da Meditação Transcendental</em></div>
-            <div><p>Nosso propósito é criar uma sociedade mais <strong>pacífica e iluminada</strong> em todo o mundo, através do <strong>pleno desenvolvimento</strong> de cada indivíduo.</p></div>
           </div>
         </div>
       </div>
