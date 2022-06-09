@@ -395,7 +395,6 @@
         line-height: 35px;
         text-align: center;
         color: $color-secondary-dark;
-        max-width: 1092px;
         margin-bottom: 5px;
         @media (max-width: 992px) {
           font-size: 14px;
@@ -424,7 +423,7 @@
     .swiper-slide {
       h5 {
         font-weight: 700;
-        font-size: var(--font-size-primary);
+        font-size: 24px;
         line-height: var(--line-height-primary);
         text-align: center;
         color: $color-primary-medium; 

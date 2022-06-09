@@ -4871,7 +4871,6 @@ footer .top a {
   line-height: 35px;
   text-align: center;
   color: #323B50;
-  max-width: 1092px;
   margin-bottom: 5px;
 }
 
@@ -4907,7 +4906,7 @@ footer .top a {
 
 .page-quem-somos .organizacoes .swiper-slide h5 {
   font-weight: 700;
-  font-size: var(--font-size-primary);
+  font-size: 24px;
   line-height: var(--line-height-primary);
   text-align: center;
   color: #FFC536;
