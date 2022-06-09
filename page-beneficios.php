@@ -633,7 +633,7 @@
     var swiper = new Swiper(".swiperCiencia", {
       slidesPerView: 1,
       slidesPerGroup: 1,
-      loop: true,
+      loop: false,
       spaceBetween: 0,
       grabCursor: true,
       pagination: {

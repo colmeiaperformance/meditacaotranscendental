@@ -2265,64 +2265,15 @@ footer .top a {
   }
 }
 
-.page-beneficios-mt .ciencia .swiper-button-prev {
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
 @media (max-width: 992px) {
-  .page-beneficios-mt .ciencia .swiper-button-prev {
-    top: 150px;
+  .page-beneficios-mt .ciencia .swiper-button-next:after, .page-beneficios-mt .ciencia .swiper-button-prev:after {
+    font-size: 18px;
   }
 }
 
-.page-beneficios-mt .ciencia .swiper-button-prev::after {
-  content: '';
-  background-image: url("images/beneficios-mt/prev-yellow.png");
-  width: 24px;
-  height: 44px;
-}
-
-@media (max-width: 992px) {
-  .page-beneficios-mt .ciencia .swiper-button-prev::after {
-    width: 8px;
-    height: 15px;
-    background-image: url("images/beneficios-mt/prev-yellow-m.png");
-  }
-}
-
-.page-beneficios-mt .ciencia .swiper-button-prev:hover {
-  opacity: 0.7;
-}
-
-.page-beneficios-mt .ciencia .swiper-button-next {
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-@media (max-width: 992px) {
-  .page-beneficios-mt .ciencia .swiper-button-next {
-    top: 150px;
-  }
-}
-
-.page-beneficios-mt .ciencia .swiper-button-next::after {
-  content: '';
-  background-image: url("images/beneficios-mt/next-yellow.png");
-  width: 24px;
-  height: 44px;
-}
-
-@media (max-width: 992px) {
-  .page-beneficios-mt .ciencia .swiper-button-next::after {
-    background-image: url("images/beneficios-mt/next-yellow-m.png");
-    width: 8px;
-    height: 15px;
-  }
-}
-
-.page-beneficios-mt .ciencia .swiper-button-next:hover {
-  opacity: 0.7;
+.page-beneficios-mt .ciencia .swiper-button-prev, .page-beneficios-mt .ciencia .swiper-button-next {
+  color: #FFC536;
+  top: 150px;
 }
 
 .page-beneficios-mt .ciencia input[type="radio"] {
