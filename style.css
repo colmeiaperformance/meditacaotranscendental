@@ -6140,8 +6140,8 @@ footer .top a {
 }
 
 .mt-unica-slide .btn:hover {
-  background: #FFEDBF;
-  border: 1px solid #FFEDBF;
+  background: #FFC536;
+  border: 1px solid #FFC536;
   color: #FFFFFF;
 }
 
@@ -6156,8 +6156,8 @@ footer .top a {
 
 .mt-unica-slide .btn-mobile:hover {
   color: #FFFFFF;
-  background: #FFEDBF;
-  border: 1px solid #FFEDBF;
+  background: #FFC536;
+  border: 1px solid #FFC536;
 }
 
 @media (max-width: 992px) {
