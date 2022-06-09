@@ -4653,60 +4653,6 @@ footer .top a {
   display: contents;
 }
 
-.page-quem-somos .projetos .swiper-button-prev {
-  width: 24px;
-  height: 44px;
-  color: #FFC536;
-}
-
-.page-quem-somos .projetos .swiper-button-prev:hover {
-  color: #FFC536;
-}
-
-@media (max-width: 992px) {
-  .page-quem-somos .projetos .swiper-button-prev {
-    width: 8px;
-    height: 18px;
-  }
-}
-
-.page-quem-somos .projetos .swiper-button-next {
-  width: 24px;
-  height: 44px;
-  color: #FFC536;
-}
-
-.page-quem-somos .projetos .swiper-button-next:hover {
-  color: #FFC536;
-}
-
-@media (max-width: 992px) {
-  .page-quem-somos .projetos .swiper-button-next {
-    width: 8px;
-    height: 18px;
-  }
-}
-
-.page-quem-somos .projetos .carousel-control-next, .page-quem-somos .projetos .swiper-button-next {
-  right: 0px;
-}
-
-@media (max-width: 992px) {
-  .page-quem-somos .projetos .carousel-control-next, .page-quem-somos .projetos .swiper-button-next {
-    right: 16px;
-  }
-}
-
-.page-quem-somos .projetos .carousel-control-prev, .page-quem-somos .projetos .swiper-button-prev {
-  left: 0px;
-}
-
-@media (max-width: 992px) {
-  .page-quem-somos .projetos .carousel-control-prev, .page-quem-somos .projetos .swiper-button-prev {
-    left: 16px;
-  }
-}
-
 .page-quem-somos .projetos .swiper-slide-next .card-lateral {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4821,9 +4767,22 @@ footer .top a {
   }
 }
 
-.page-quem-somos .projetos .swiper {
-  width: 100%;
-  height: 100%;
+.page-quem-somos .projetos .swiper-button-prev {
+  left: 0;
+}
+
+.page-quem-somos .projetos .swiper-button-next {
+  right: 0;
+}
+
+@media (max-width: 992px) {
+  .page-quem-somos .projetos .swiper-button-next:after, .page-quem-somos .projetos .swiper-button-prev:after {
+    font-size: 18px;
+  }
+}
+
+.page-quem-somos .projetos .swiper-button-prev, .page-quem-somos .projetos .swiper-button-next {
+  color: #FFC536;
 }
 
 .page-quem-somos .projetos .swiper-slide {
@@ -4851,12 +4810,6 @@ footer .top a {
 
 .page-quem-somos .projetos iframe {
   margin-bottom: 20px;
-}
-
-@media (max-width: 992px) {
-  .page-quem-somos .projetos .swiper-button-next:after, .page-quem-somos .projetos .swiper-button-prev:after {
-    font-size: 18px;
-  }
 }
 
 .page-quem-somos .a-origem {
@@ -5053,6 +5006,16 @@ footer .top a {
   }
 }
 
+.page-quem-somos .organizacoes .head {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 992px) {
+  .page-quem-somos .organizacoes .head {
+    margin-bottom: 18px;
+  }
+}
+
 .page-quem-somos .organizacoes .head h2 {
   font-weight: 300;
   font-size: var(--font-size-h2);
@@ -5098,21 +5061,25 @@ footer .top a {
   color: #FFC536;
 }
 
-.page-quem-somos .organizacoes .carousel-item {
-  max-width: 968px;
-  margin: 0 auto;
-  margin-top: 60px;
-  float: none;
+.page-quem-somos .organizacoes .swiper-button-prev {
+  left: 0;
+}
+
+.page-quem-somos .organizacoes .swiper-button-next {
+  right: 0;
 }
 
 @media (max-width: 992px) {
-  .page-quem-somos .organizacoes .carousel-item {
-    margin-top: 18px;
-    width: 85%;
+  .page-quem-somos .organizacoes .swiper-button-next:after, .page-quem-somos .organizacoes .swiper-button-prev:after {
+    font-size: 18px;
   }
 }
 
-.page-quem-somos .organizacoes .carousel-item h5 {
+.page-quem-somos .organizacoes .swiper-button-prev, .page-quem-somos .organizacoes .swiper-button-next {
+  color: #FFC536;
+}
+
+.page-quem-somos .organizacoes .swiper-slide h5 {
   font-weight: 700;
   font-size: var(--font-size-primary);
   line-height: var(--line-height-primary);
@@ -5122,13 +5089,15 @@ footer .top a {
 }
 
 @media (max-width: 992px) {
-  .page-quem-somos .organizacoes .carousel-item h5 {
+  .page-quem-somos .organizacoes .swiper-slide h5 {
     font-size: 14px;
     line-height: 16px;
   }
 }
 
-.page-quem-somos .organizacoes .carousel-item p {
+.page-quem-somos .organizacoes .swiper-slide p {
+  max-width: 968px;
+  margin: 0 auto;
   font-weight: 400;
   font-size: var(--font-size-primary);
   line-height: var(--line-height-primary);
@@ -5138,48 +5107,22 @@ footer .top a {
 }
 
 @media (max-width: 992px) {
-  .page-quem-somos .organizacoes .carousel-item p {
+  .page-quem-somos .organizacoes .swiper-slide p {
     font-size: 14px;
     line-height: 16px;
+    width: 90%;
+    margin: 0 auto;
   }
 }
 
-.page-quem-somos .organizacoes .carousel-item img {
+.page-quem-somos .organizacoes .swiper-slide img {
   margin-bottom: 5px;
 }
 
 @media (max-width: 992px) {
-  .page-quem-somos .organizacoes .carousel-item img {
+  .page-quem-somos .organizacoes .swiper-slide img {
     margin-bottom: 14px;
     max-width: 122px;
-  }
-}
-
-.page-quem-somos .organizacoes .carousel-control-prev-icon {
-  background: url(images/quem-somos/prev.png) top center no-repeat;
-  background-size: cover;
-  width: 25px;
-  height: 43.54px;
-}
-
-@media (max-width: 992px) {
-  .page-quem-somos .organizacoes .carousel-control-prev-icon {
-    height: 15px;
-    width: 8px;
-  }
-}
-
-.page-quem-somos .organizacoes .carousel-control-next-icon {
-  background: url(images/quem-somos/next.png) top center no-repeat;
-  background-size: cover;
-  width: 25px;
-  height: 43.54px;
-}
-
-@media (max-width: 992px) {
-  .page-quem-somos .organizacoes .carousel-control-next-icon {
-    height: 15px;
-    width: 8px;
   }
 }
 
