@@ -26,8 +26,8 @@
     }
     p {
       font-weight: 400;
-      font-size: var(--font-size-primary);
-      line-height: var(--line-height-primary);
+      font-size: 24px;
+      line-height: 28px;
       text-align: center;
       letter-spacing: -0.02em;
       margin-bottom: 0;
@@ -60,7 +60,7 @@
       }
       h2 {
         font-weight: 300;
-        font-size: var(--font-size-h2);
+        font-size: 54px;
         line-height: 63px;
         letter-spacing: -0.02em;
         color: $color-primary-medium;

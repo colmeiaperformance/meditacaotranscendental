@@ -3182,8 +3182,8 @@ footer .top a {
 
 .page-instrutores .instrutores-header p {
   font-weight: 400;
-  font-size: var(--font-size-primary);
-  line-height: var(--line-height-primary);
+  font-size: 24px;
+  line-height: 28px;
   text-align: center;
   letter-spacing: -0.02em;
   margin-bottom: 0;
@@ -3236,7 +3236,7 @@ footer .top a {
 
 .page-instrutores .instrutores-footer div h2 {
   font-weight: 300;
-  font-size: var(--font-size-h2);
+  font-size: 54px;
   line-height: 63px;
   letter-spacing: -0.02em;
   color: #FFC536;
