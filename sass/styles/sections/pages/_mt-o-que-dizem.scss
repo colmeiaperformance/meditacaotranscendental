@@ -69,20 +69,6 @@
         display: contents;
     }
     .swiper-button-prev {
-        // background-image: url("images/o-que-dizem/seta-esquerda.png");
-        width: 24px;
-        height: 44px;
-        color: $color-white-50;
-        &:hover{
-            color: $color-white;
-        }
-        @media (max-width: 992px) {
-            width: 8px;
-            height: 18px;
-        }
-    }
-    
-    .swiper-button-prev {
         left: 0;
     }
     .swiper-button-next {
@@ -95,7 +81,7 @@
     }
     .swiper-button-prev, .swiper-button-next {
         color: $color-white-50;
-    }
+    } 
     
     .swiper-slide-next {
         .card-lateral {
