@@ -46,7 +46,7 @@
                       <div
                         class="video-text d-flex justify-content-center text-center align-items-center px-2">
                         <p>
-                        Renato (professor) – menos compulsão, a MT “vale cada centavo”
+                        “Vale cada centavo”. Renato conta como a MT o ajudou em sua compulsão alimentar e a emagrecer 60 Kg. 
                         </p>
                       </div>
                     </div>
@@ -90,7 +90,7 @@
                       <div
                         class="video-text d-flex justify-content-center text-center align-items-center">
                         <p>
-                        André Genesini – redução da pressão arterial 
+                        André Genesini seguiu a recomendação da American Heart Association e começou praticar a MT para reduzir a pressão, mas os resultados foram bem mais surpreendentes.
                         </p>
                       </div>
                     </div>
