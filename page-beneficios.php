@@ -61,94 +61,76 @@
   </section>
   <section class="ciencia">
     <div class="container">
-      <div class="row align-items-center justify-content-center px-5 bloco-1">
-        <div class="col-6 col-lg-3 d-flex align-items-center justify-content-center p-0 nav-link active show"
-          id="pills-tab-1" data-bs-toggle="pill" data-bs-target="#pills-1" type="button" role="tab"
-          aria-controls="pills-1" aria-selected="true">
-          <div class=" box rounded-circle text-center">
-            <div class="default">
-              <img loading="lazy" class="img-fluid"
-                src=<?php echo get_template_directory_uri() . '/images/beneficios/mental.png' ?>
-                alt="Benefícios: Saúde Mental">
-              <h4>Saúde<br /> Mental</h4>
-              <img loading="lazy" class="img-fluid"
-                src=<?php echo get_template_directory_uri() . '/images/beneficios/seta.png' ?>
-                alt="Seta">
-            </div>
+      <div class="row align-items-center px-5 bloco-1">
+        <input type="radio" name="tabs" id="input-1" checked>
+        <label for="input-1" class="col-6 col-lg-3 d-flex align-items-center justify-content-center p-0 box rounded-circle text-center">
+          <div class="default">
+            <img loading="lazy" class="img-fluid"
+              src=<?php echo get_template_directory_uri() . '/images/beneficios/mental.png' ?>
+              alt="Benefícios: Saúde Mental">
+            <h4>Saúde<br /> Mental</h4>
+            <img loading="lazy" class="seta img-fluid"
+              src=<?php echo get_template_directory_uri() . '/images/beneficios/seta.png' ?>
+              alt="Seta">
+          </div>
+        </label>
+        <input type="radio" name="tabs" id="input-2">
+        <label for="input-2" class="col-6 col-lg-3 d-flex align-items-center justify-content-center p-0 box rounded-circle text-center">
+          <div class="default">
+            <img loading="lazy" class="img-fluid"
+              src=<?php echo get_template_directory_uri() . '/images/beneficios/fisica.png' ?>
+              alt="Benefícios: Saúde Física">
+            <h4>Saúde<br /> Física</h4>
+            <img loading="lazy" class="seta img-fluid"
+              src=<?php echo get_template_directory_uri() . '/images/beneficios/seta.png' ?>
+              alt="Seta">
+          </div>
+        </label>
+        <input type="radio" name="tabs" id="input-3">
+        <label for="input-3" class="col-6 col-lg-3 d-flex align-items-center justify-content-center p-0 box rounded-circle text-center">
+          <div class="default">
+            <img loading="lazy" class="img-fluid"
+              src=<?php echo get_template_directory_uri() . '/images/beneficios/emocional.png' ?>
+              alt="Benefícios: Saúde Física">
+            <h4>Inteligência<br /> emocional</h4>
+            <img loading="lazy" class="seta img-fluid"
+              src=<?php echo get_template_directory_uri() . '/images/beneficios/seta.png' ?>
+              alt="Seta">
+          </div>
+        </label>
+        <input type="radio" name="tabs" id="input-4">
+        <label for="input-4" class="col-6 col-lg-3 d-flex align-items-center justify-content-center p-0 box rounded-circle text-center">
+          <div class="default">
+            <img loading="lazy" class="img-fluid"
+              src=<?php echo get_template_directory_uri() . '/images/beneficios/potencia.png' ?>
+              alt="Benefícios: Saúde Física">
+            <h4>Potencial<br /> Mental</h4>
+            <img loading="lazy" class="seta img-fluid"
+              src=<?php echo get_template_directory_uri() . '/images/beneficios/seta.png' ?>
+              alt="Seta">
+          </div>
+        </label>
+        <div class="pages">
+          <div class="page legend px-0 px-lg-5 mx-lg-3" id="page-1">
+            <p>O Brasil é o país mais ansioso do mundo, segundo a OMS. Também somos o segundo com o maior nível de estresse: 70% da população ativa já apresentou algum sintoma do problema, de acordo com a Associação Internacional  do Controle do Estresse (ISMA).</p>
+            <p>Com a prática da MT, conseguimos reduzir, de forma natural, os quadros de estresse e ansiedade e,  consequentemente, diminuir riscos de transtornos mentais, como depressão, síndrome de burnout e do pânico, transtornos de déficit de atenção e estresse pós-traumático, dentre outros.</p>
+          </div>
+          <div class="page legend px-0 px-lg-5 mx-lg-3" id="page-2">
+            <p>Devido ao alto nível de estresse acumulado, muitas vezes, o descanso que temos à noite é insuficiente para o restabelecimento natural do organismo. Essa condição provoca um desequilíbrio hormonal nocivo, que pode causar doenças cardiovasculares, diabetes, envelhecimento precoce, dentre outros problemas.</p>
+            <p>A prática regular da MT atua diretamente na dissolução do estresse impregnado no sistema nervoso. Isso gera um poderoso efeito regenerativo, que contribui para a prevenção de diversas doenças, para a diminuição do uso de medicamentos e para a redução dos custos com atenção à saúde.</p>
+          </div>
+          <div class="page legend px-0 px-lg-5 mx-lg-3" id="page-3">
+            <p>O autoconhecimento é o caminho para encontrar mais satisfação e autorrealização em todas as áreas. A técnica da MT permite que você se conecte com sua verdadeira essência para viver de forma mais harmônica com os desafios do dia a dia, encontrando mais felicidade e significado em sua vida.</p>
+            <p>Esse estado autorreferente com a prática regular da MT nos torna mais conscientes de nós mesmos. Como resultados, melhoramos a qualidade dos relacionamentos e do nosso comportamento social, assim como desenvolvemos, espontaneamente, as chamadas soft skills e a inteligência emocional.</p>
+          </div>
+          <div class="page legend px-0 px-lg-5 mx-lg-3" id="page-4">
+            <p>O excesso de informações e de estímulos que recebemos no dia a dia prejudica a atenção, a memória, o potencial criativo e a nossa capacidade de pensar e agir.<br>
+              A MT aumenta a atividade do córtex pré-frontal, região do cérebro responsável  pelas funções cognitivas, pelo processamento de informações, pelo raciocínio, etc.
+            </p>
+            <p>Praticar regularmente a MT promove o pleno potencial da mente, gerando total integração e coerência cerebral, o que aumenta nossa criatividade, foco, inteligência e capacidade de concentração e de resolução de problemas. Assim, a gente se torna mais eficiente e com mais energia.</p>
           </div>
         </div>
-        <div class="col-6 col-lg-3 d-flex align-items-center justify-content-center p-0 nav-link" id="pills-tab-2"
-          data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-2"
-          aria-selected="true">
-          <div class="box rounded-circle text-center">
-            <div class="default">
-              <img loading="lazy" class="img-fluid"
-                src=<?php echo get_template_directory_uri() . '/images/beneficios/fisica.png' ?>
-                alt="Benefícios: Saúde Física">
-              <h4>Saúde<br /> Física</h4>
-              <img loading="lazy" class="img-fluid"
-                src=<?php echo get_template_directory_uri() . '/images/beneficios/seta.png' ?>
-                alt="Seta">
-            </div>
-          </div>
-        </div>
-        <div class="col-6 col-lg-3 d-flex align-items-center justify-content-center p-0 nav-link" id="pills-tab-3"
-          data-bs-toggle="pill" data-bs-target="#pills-3" type="button" role="tab" aria-controls="pills-3"
-          aria-selected="true">
-          <div class=" box rounded-circle text-center">
-            <div class="default">
-              <img loading="lazy" class="img-fluid"
-                src=<?php echo get_template_directory_uri() . '/images/beneficios/emocional.png' ?>
-                alt="Benefícios: Inteligência emocional">
-              <h4>Inteligência<br /> emocional</h4>
-              <img loading="lazy" class="img-fluid"
-                src=<?php echo get_template_directory_uri() . '/images/beneficios/seta.png' ?>
-                alt="Seta">
-            </div>
-          </div>
-        </div>
-        <div class="col-6 col-lg-3 d-flex align-items-center justify-content-center p-0 nav-link" id="pills-tab-4"
-          data-bs-toggle="pill" data-bs-target="#pills-4" type="button" role="tab" aria-controls="pills-4"
-          aria-selected="true">
-          <div class=" box rounded-circle text-center">
-            <div class="default">
-              <img loading="lazy" class="img-fluid"
-                src=<?php echo get_template_directory_uri() . '/images/beneficios/potencia.png' ?>
-                alt="Benefícios: Potencial Mental">
-              <h4>Potencial<br /> Mental</h4>
-              <img loading="lazy" class="img-fluid"
-                src=<?php echo get_template_directory_uri() . '/images/beneficios/seta.png' ?>
-                alt="Seta">
-            </div>
-          </div>
-        </div>
-        <div class="legend  px-0 px-lg-5 mx-lg-3">
-          <p>O Brasil é o país mais ansioso do mundo, segundo a OMS. Também somos o segundo com o maior nível de estresse: 70% da população ativa já apresentou algum sintoma do problema, de acordo com a Associação Internacional  do Controle do Estresse (ISMA).</p>
-          <p>Com a prática da MT, conseguimos reduzir, de forma natural, os quadros de estresse e ansiedade e,  consequentemente, diminuir riscos de transtornos mentais, como depressão, síndrome de burnout e do pânico, transtornos de déficit de atenção e estresse pós-traumático, dentre outros.</p>
-        </div>
-        <!-- <div class="legend  px-0 px-lg-5 mx-lg-3">
-          <p>Devido ao alto nível de estresse acumulado, muitas vezes, o descanso que temos à noite é insuficiente para o restabelecimento natural do organismo. Essa condição provoca um desequilíbrio hormonal nocivo, que pode causar doenças cardiovasculares, diabetes, envelhecimento precoce, dentre outros problemas.</p>
-          <p>A prática regular da MT atua diretamente na dissolução do estresse impregnado no sistema nervoso. Isso gera um poderoso efeito regenerativo, que contribui para a prevenção de diversas doenças, para a diminuição do uso de medicamentos e para a redução dos custos com atenção à saúde.</p>
-          <p>O Brasil é o país mais ansioso do mundo, segundo a OMS. Também somos o segundo com o maior nível de  estresse: 70% da população ativa já apresentou algum sintoma do problema, de acordo com a Associação Internacional do  Controle do Estresse (ISMA).</p>
-          <p>Com a prática da MT, conseguimos reduzir, de forma natural, os quadros de estresse e ansiedade e, consequentemente, diminuir riscos de transtornos mentais, como depressão, síndrome de burnout e do  pânico,  transtornos de déficit de atenção e estresse pós-traumático, dentre outros.</p>
-          </div>
-          <div class="legend  px-0 px-lg-5 mx-lg-3">
-          <p>O autoconhecimento é o caminho para encontrar mais satisfação e autorrealização em todas as áreas. A técnica da MT permite que você se conecte com sua verdadeira essência para viver de forma mais harmônica com os desafios do dia a dia, encontrando mais felicidade e significado em sua vida.</p>
-          <p>Esse estado autorreferente com a prática regular da MT nos torna mais conscientes de nós mesmos. Como resultados, melhoramos a qualidade dos relacionamentos e do nosso comportamento social, assim como desenvolvemos, espontaneamente, as chamadas soft skills e a inteligência emocional.</p>
-          <p>O Brasil é o país mais ansioso do mundo, segundo a OMS. Também somos o segundo com o maior nível de estresse:  70% da população ativa já apresentou algum sintoma do problema, de acordo com a Associação Internacional do Controle do Estresse (ISMA).</p>
-          <p>Com a prática da MT, conseguimos reduzir, de forma natural, os quadros de estresse e ansiedade e, consequentemente, diminuir riscos de transtornos mentais, como depressão, síndrome de burnout e do  pânico, transtornos de déficit de atenção e estresse pós-traumático, dentre outros.</p>
-          </div>
-          <div class="legend  px-0 px-lg-5 mx-lg-3">
-          <p>O excesso de informações e de estímulos que recebemos no dia a dia prejudica a atenção, a memória, o potencial criativo e a nossa capacidade de pensar e agir.<br>
-            A MT aumenta a atividade do córtex pré-frontal, região do cérebro responsável  pelas funções cognitivas, pelo processamento de informações, pelo raciocínio, etc.
-          </p>
-          <p>Praticar regularmente a MT promove o pleno potencial da mente, gerando total integração e coerência cerebral, o que aumenta nossa criatividade, foco, inteligência e capacidade de concentração e de resolução de problemas. Assim, a gente se torna mais eficiente e com mais energia.</p>
-          <p>O Brasil é o país mais ansioso do mundo, segundo a OMS. Também somos o segundo com o maior nível de estresse:  70% da população ativa já apresentou algum sintoma do problema, de acordo com a Associação Internacional do  Controle do Estresse (ISMA).</p>
-          <p>Com a prática da MT, conseguimos reduzir, de forma natural, os quadros de estresse e ansiedade e,  consequentemente, diminuir riscos de transtornos mentais, como depressão, síndrome de burnout e do pânico, transtornos de déficit de atenção e estresse pós-traumático, dentre outros.</p>
-          </div> -->
       </div>
-
-      
       <div class="row">
         <h2>O que diz a <strong>ciência</strong>?</h2>
         <div class="swiper swiperCiencia">
@@ -575,11 +557,11 @@
                     </div>
                   </div>
                 </div>
-              </div> 
+              </div>
             </div>
-            </div>
-            <div class="swiper-button-next"></div>
-           <div class="swiper-button-prev"></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
         <div class="text-center">
           <a href="<?php echo home_url( '/instrutores/' ); ?>" class="btn">Encontre um instrutor perto de você</a>

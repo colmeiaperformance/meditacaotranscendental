@@ -23,11 +23,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
 ::-moz-selection {
   background: #7896C1;
   color: #fff;
@@ -2298,6 +2293,9 @@ footer .top a {
 .page-beneficios-mt .ciencia .bloco-1 {
   max-width: 1000px;
   margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .page-beneficios-mt .ciencia .swiper-slide h3 {
@@ -2408,28 +2406,76 @@ footer .top a {
   opacity: 0.7;
 }
 
-.page-beneficios-mt .ciencia .nav-pills .nav-link.active, .page-beneficios-mt .ciencia .nav-pills .show > .nav-link {
-  background-color: transparent;
+.page-beneficios-mt .ciencia input[type="radio"] {
+  display: none;
 }
 
-.page-beneficios-mt .ciencia .nav-pills .nav-link.active.active > .box, .page-beneficios-mt .ciencia .nav-pills .show > .nav-link.active > .box {
+.page-beneficios-mt .ciencia #input-1:checked ~ .pages #page-1 {
+  display: block;
+}
+
+.page-beneficios-mt .ciencia #input-2:checked ~ .pages #page-2 {
+  display: block;
+}
+
+.page-beneficios-mt .ciencia #input-3:checked ~ .pages #page-3 {
+  display: block;
+}
+
+.page-beneficios-mt .ciencia #input-4:checked ~ .pages #page-4 {
+  display: block;
+}
+
+.page-beneficios-mt .ciencia #input-5:checked ~ .pages #page-5 {
+  display: block;
+}
+
+.page-beneficios-mt .ciencia #input-6:checked ~ .pages #page-6 {
+  display: block;
+}
+
+.page-beneficios-mt .ciencia #input-7:checked ~ .pages #page-7 {
+  display: block;
+}
+
+.page-beneficios-mt .ciencia #input-8:checked ~ .pages #page-8 {
+  display: block;
+}
+
+.page-beneficios-mt .ciencia #input-9:checked ~ .pages #page-9 {
+  display: block;
+}
+
+.page-beneficios-mt .ciencia #input-10:checked ~ .pages #page-10 {
+  display: block;
+}
+
+.page-beneficios-mt .ciencia #input-11:checked ~ .pages #page-11 {
+  display: block;
+}
+
+.page-beneficios-mt .ciencia #input-12:checked ~ .pages #page-12 {
+  display: block;
+}
+
+.page-beneficios-mt .ciencia #input-13:checked ~ .pages #page-13 {
+  display: block;
+}
+
+.page-beneficios-mt .ciencia #input-14:checked ~ .pages #page-14 {
+  display: block;
+}
+
+.page-beneficios-mt .ciencia #input-15:checked ~ .pages #page-15 {
+  display: block;
+}
+
+.page-beneficios-mt .ciencia #input-16:checked ~ .pages #page-16 {
+  display: block;
+}
+
+.page-beneficios-mt .ciencia input[type="radio"]:checked + .box {
   background-color: #FFC536;
-}
-
-.page-beneficios-mt .ciencia ul {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
-}
-
-@media (max-width: 992px) {
-  .page-beneficios-mt .ciencia ul {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 50% 50%;
-        grid-template-columns: 50% 50%;
-  }
 }
 
 .page-beneficios-mt .ciencia .box {
@@ -2445,23 +2491,30 @@ footer .top a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-@media (max-width: 992px) {
-  .page-beneficios-mt .ciencia .box {
-    width: 175px;
-    height: 175px;
-    padding: 15px 15px 0 15px;
-    margin-bottom: 25px;
-  }
+  cursor: pointer;
 }
 
 .page-beneficios-mt .ciencia .box:hover {
   background: #FFC536;
 }
 
-.page-beneficios-mt .ciencia .box:active {
-  background: #FFC536;
+@media (max-width: 992px) {
+  .page-beneficios-mt .ciencia .box {
+    width: calc(150px - 20px / 4);
+    height: 150px;
+    padding: 15px 15px 0 15px;
+    margin-bottom: 25px;
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .page-beneficios-mt .ciencia .box {
+    width: 175px;
+    height: 175px;
+    padding: 15px 15px 0 15px;
+    margin-bottom: 25px;
+  }
 }
 
 .page-beneficios-mt .ciencia .box img {
@@ -2471,6 +2524,14 @@ footer .top a {
 }
 
 @media (max-width: 992px) {
+  .page-beneficios-mt .ciencia .box img {
+    margin-bottom: 7px;
+    max-width: 50px;
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) {
   .page-beneficios-mt .ciencia .box img {
     max-width: 50px;
     height: auto;
@@ -2487,23 +2548,39 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-beneficios-mt .ciencia .box h4 {
+    margin-bottom: 7px;
+    font-size: 14px;
+    line-height: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .page-beneficios-mt .ciencia .box h4 {
     margin-bottom: 10px;
     font-size: 16.1214px;
     line-height: 16px;
   }
 }
 
-.page-beneficios-mt .ciencia .legend {
-  margin-top: 78px;
+@media (max-width: 992px) {
+  .page-beneficios-mt .ciencia .box .seta {
+    width: 16px;
+    height: 8px;
+  }
+}
+
+.page-beneficios-mt .ciencia .pages .page {
+  display: none;
+  margin-top: 65px;
 }
 
 @media (max-width: 992px) {
-  .page-beneficios-mt .ciencia .legend {
+  .page-beneficios-mt .ciencia .pages .page {
     margin-top: 15px;
   }
 }
 
-.page-beneficios-mt .ciencia .legend p {
+.page-beneficios-mt .ciencia .pages .page p {
   font-weight: 400;
   font-size: var(--font-size-primary);
   line-height: var(--line-height-primary);
@@ -2512,7 +2589,7 @@ footer .top a {
 }
 
 @media (max-width: 992px) {
-  .page-beneficios-mt .ciencia .legend p {
+  .page-beneficios-mt .ciencia .pages .page p {
     font-size: 16px;
     line-height: 18px;
   }

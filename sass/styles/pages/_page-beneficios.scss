@@ -1,5 +1,4 @@
 .page-beneficios-mt {
-  
   .hero {
     padding: 70px 0 37px 0;
     @media (max-width: 992px) {
@@ -190,9 +189,10 @@
         color: $color-primary-dark;
       }
     }
-    .bloco-1{
+    .bloco-1 {
       max-width: 1000px;
       margin: 0 auto;
+      justify-content: space-between;
     }
     .swiper-slide {
       h3 {
@@ -272,20 +272,20 @@
         opacity: 0.7;
       } 
     }
-    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-      background-color: transparent;
-      &.active > .box {
-        background-color: $color-primary-medium
+    
+    input[type="radio"] {
+      display: none;
+    }
+    $number_of_tabs: 16;
+    @for $i from 1 through $number_of_tabs {
+      #input-#{$i}:checked ~ .pages #page-#{$i} {
+        display: block;
       }
     }
-    ul {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      @media (max-width: 992px)  {
-        display: grid;
-        grid-template-columns: 50% 50%;
-      }
+    input[type="radio"]:checked + .box {
+      background-color: $color-primary-medium;
     }
+    
     .box {
       background: $color-secondary-light;
       width: 200px;
@@ -293,23 +293,33 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      cursor: pointer;
+      &:hover {
+        background: $color-primary-medium;
+      }
       @media (max-width: 992px) {
+        width: calc(150px - 20px / 4);
+        height: 150px;
+        padding: 15px 15px 0 15px;
+        margin-bottom: 25px;
+        margin-right: 5px;
+      }
+      @media (max-width: 576px) {
         width: 175px;
         height: 175px;
         padding: 15px 15px 0 15px;
         margin-bottom: 25px;
-      }
-      &:hover {
-        background: $color-primary-medium;
-      }
-      &:active {
-        background: $color-primary-medium;
       }
       img {
         margin-bottom: 13px;
         max-width: 76px;
         height: auto;
         @media (max-width: 992px) {
+          margin-bottom: 7px;
+          max-width: 50px;
+          height: auto;
+        }
+        @media (max-width: 576px) {
           max-width: 50px;
           height: auto;
           margin-bottom: 10px;
@@ -321,26 +331,40 @@
         line-height: 22px;
         color: $color-secondary-dark;
         @media (max-width: 992px) {
+          margin-bottom: 7px;
+          font-size: 14px;
+          line-height: 12px;
+        }
+        @media (max-width: 576px) {
           margin-bottom: 10px;
           font-size: 16.1214px;
           line-height: 16px;
         }
       }
-    }
-    .legend {
-      margin-top: 78px;
-      @media (max-width: 992px) {
-        margin-top: 15px;
-      }
-      p {
-        font-weight: 400;
-        font-size: var(--font-size-primary);
-        line-height: var(--line-height-primary);
-        color: $color-secondary-dark;
-        margin-bottom: 40px;
+      .seta {
         @media (max-width: 992px) {
-          font-size: 16px;
-          line-height: 18px;
+          width: 16px;
+          height: 8px;
+        }
+      }
+    }
+    .pages {
+      .page {
+        display: none;
+        margin-top: 65px;
+        @media (max-width: 992px) {
+          margin-top: 15px;
+        }
+        p {
+          font-weight: 400;
+          font-size: var(--font-size-primary);
+          line-height: var(--line-height-primary);
+          color: $color-secondary-dark;
+          margin-bottom: 40px;
+          @media (max-width: 992px) {
+            font-size: 16px;
+            line-height: 18px;
+          }
         }
       }
     }
