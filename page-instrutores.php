@@ -45,7 +45,7 @@
       </div>
     </div>
   </section>
-  <section class="instrutores-carousel">
+  <!-- <section class="instrutores-carousel">
     <div class="container">
       <div id="instrutores" class="swiper swiperInstrutores" data-bs-ride="carousel">
         <div class="swiper-wrapper">
@@ -238,7 +238,12 @@
           <div class="swiper-button-prev"></div>
       </div>
     </div>
-  </section>
+  </section> -->
+
+  <?php 
+    echo do_shortcode( '[mt_render_employees]' );
+  ?>
+
   <section class="instrutores-footer">
     <div class="container">
       <div>
@@ -247,35 +252,36 @@
       </div>
     </div>
   </section>
-    <script>
-  jQuery(document).ready(function() {
-    var swiper = new Swiper(".swiperInstrutores", {
-      slidesPerView: 2,
-      slidesPerGroup: 2,
-      loop: true,
-      spaceBetween: 5,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      breakpoints: {
-        576: {
-          slidesPerView: 2,
-          slidesPerGroup: 2,
-          spaceBetween: 5,
+  
+  <!-- <script>
+    jQuery(document).ready(function() {
+      var swiper = new Swiper(".swiperInstrutores", {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+        loop: true,
+        spaceBetween: 5,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
         },
-        992: {
-          slidesPerView: 4,
-          slidesPerGroup: 4,
-          spaceBetween: 5,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
         },
-      },
+        breakpoints: {
+          576: {
+            slidesPerView: 2,
+            slidesPerGroup: 2,
+            spaceBetween: 5,
+          },
+          992: {
+            slidesPerView: 4,
+            slidesPerGroup: 4,
+            spaceBetween: 5,
+          },
+        },
+      });
     });
-  });
-  </script>
+  </script> -->
 </main>
 <?php get_footer();

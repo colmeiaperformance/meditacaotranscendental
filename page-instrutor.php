@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 <?php get_template_part('template-parts/navbar'); ?>
 <main class="page-instrutor">
-  <section class="instrutor-profile">
+  <?php  echo do_shortcode( '[mt_render_employee]' ); ?>
+  <!-- <section class="instrutor-profile">
   <div class="col-12 instrutor-picture-mobile mb-5 text-center d-block d-lg-none">
     <img loading="lazy" src=<?php echo get_template_directory_uri() . '/images/instrutor/instrutor.png' ?> alt="Instrutor">  
   </div>
@@ -27,14 +28,14 @@
       </div>
 
     </div>
-  </section>
+  </section> -->
   <section class="instrutor-contact">
     <div class="container">
       <div class="row d-flex align-items-baseline">
         <div class="col-12 col-lg-5">
           <h2>Vamos <strong>conversar?</strong></h2>
           <div class="text-center text-lg-start">
-            <a href="#" class="btn">    
+            <a href="#" class="btn"> 
               <img loading="lazy" src=<?php echo get_template_directory_uri() . '/images/instrutor/wpp.png' ?> alt="Whatsapp"> Fale comigo no Whatsapp
             </a>
           </div>
