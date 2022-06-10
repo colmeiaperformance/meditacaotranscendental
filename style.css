@@ -9,6 +9,7 @@ body {
   accent-color: #323B50;
   --font-size-primary: 1.125rem;
   --font-size-h2: 2.875rem;
+  --font-size-h3: 1.875rem;
   --line-height-primary: 1.5rem;
 }
 
@@ -1813,7 +1814,7 @@ footer .top a {
 
 .page-aprenda-mt .mt-curso h3 {
   font-weight: 400;
-  font-size: 30px;
+  font-size: var(--font-size-h3);
   line-height: 35px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -2030,7 +2031,7 @@ footer .top a {
 
 .page-beneficios-mt .mt-faz h3 {
   font-weight: 600;
-  font-size: 30px;
+  font-size: var(--font-size-h3);
   line-height: 44px;
   color: #FFC536;
 }
@@ -4867,7 +4868,7 @@ footer .top a {
 
 .page-quem-somos .organizacoes .head p {
   font-weight: 300;
-  font-size: 30px;
+  font-size: 24px;
   line-height: 35px;
   text-align: center;
   color: #323B50;
