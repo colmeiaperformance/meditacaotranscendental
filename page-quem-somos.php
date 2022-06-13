@@ -127,7 +127,6 @@
       <div class="head">
         <h2><strong>Organizações MT</strong> no mundo</h2>
         <p>A Meditação Transcendental é amplamente difundida e possui seus benefícios propagados por meio de diversas organizações em todo o mundo.</p>
-        <p><strong>Conheça algumas delas:</strong></p>
       </div>
 
       <div id="organizacoes" class="swiper swiperOrganizacoes" data-bs-ride="carousel">

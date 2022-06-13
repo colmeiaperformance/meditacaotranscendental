@@ -2,25 +2,25 @@
   h2 {
     margin-bottom: 40px;
     font-weight: 300;
-    font-size: var(--font-size-h2);
+    font-size: var(--font-size-large);
     line-height: 64px;
     letter-spacing: -0.02em;
     color: $color-secondary-dark;
     text-align: center;
     @media (max-width: 992px) {
       margin-bottom: 25px;
-      font-size: 30px;
+      font-size: var(--font-size-medium);
       line-height: 35px;
       letter-spacing: -0.02em;
     }
     strong {
       font-weight: 600;
-      font-size: var(--font-size-h2);
+      font-size: var(--font-size-large);
       line-height: 64px;
       letter-spacing: -0.02em;
       color: $color-primary-medium;
       @media (max-width: 992px) {
-        font-size: 30px;
+        font-size: var(--font-size-medium);
         line-height: 35px;
         text-align: center;
         letter-spacing: -0.02em;
@@ -36,7 +36,7 @@
   }
   p { 
     font-weight: 400;
-    font-size: var(--font-size-primary);
+    font-size: var(--font-size-small);
     line-height: 30px;
     letter-spacing: -0.02em;
     color: $color-secondary-dark;
@@ -47,7 +47,7 @@
       // color: $color-primary-medium;
     }
     @media (max-width: 992px) {
-      font-size: 16px;
+      font-size: var(--font-size-extrasmall);
       line-height: 18px;
       margin-bottom: 20px;
     }

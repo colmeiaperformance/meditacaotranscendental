@@ -2,7 +2,7 @@
   padding: 66px 0 82px 0;
   h2 {
     font-weight: 600;
-    font-size: var(--font-size-h2);
+    font-size: var(--font-size-large);
     line-height: 63px;
     text-align: center;
     letter-spacing: -0.02em;
@@ -33,7 +33,7 @@
     border: 1px solid $color-secondary-light;
     width: 100%;
     font-weight: 600;
-    font-size: var(--font-size-primary);
+    font-size: var(--font-size-small);
     line-height: var(--line-height-primary);
     border-radius: 60px!important;
     // display: block;
@@ -60,7 +60,7 @@
   .btn-toggle-nav {
     p {
       font-weight: 400;
-      font-size: var(--font-size-primary);
+      font-size: var(--font-size-small);
       line-height: var(--line-height-primary);
       padding: 16px 28px;
       color: $color-secondary-dark;
@@ -92,7 +92,7 @@
       }
       h2 {
         font-weight: 300;
-        font-size: var(--font-size-h2);
+        font-size: var(--font-size-large);
         line-height: 63px;
         letter-spacing: -0.02em;
         color: $color-primary-medium;
