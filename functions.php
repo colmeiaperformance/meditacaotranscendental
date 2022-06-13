@@ -379,5 +379,3 @@ function base_setup() {
                                 'ajaxurl' => admin_url( 'admin-ajax.php' ),
                                 'noposts' => __('No older posts found', 'twentyfifteen'),
                             ));
-
-                            define('DISALLOW_FILE_EDIT', true);
