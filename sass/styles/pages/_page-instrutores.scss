@@ -8,7 +8,7 @@
     }
     h2 {
       font-weight: 300;
-      font-size: var(--font-size-h2);
+      font-size: var(--font-size-large);
       line-height: 63px;
       text-align: center;
       letter-spacing: -0.02em;
@@ -84,7 +84,7 @@
     }
     button {
       font-weight: 700;
-      font-size: var(--font-size-primary);
+      font-size: var(--font-size-small);
       line-height: var(--line-height-primary);
       color: $color-white;
       padding: 9px 31px;
@@ -106,7 +106,7 @@
     .form-select {
       width: 100%;
       font-weight: 500;
-      font-size: var(--font-size-primary);
+      font-size: var(--font-size-small);
       line-height: var(--line-height-primary);
       color: $color-primary-dark;
       padding: 9px 31px;
@@ -119,8 +119,8 @@
         box-shadow: none;
       }
       @media (max-width: 992px) {
-        font-size: 14px;
-        line-height: 16px;
+        font-size: var(--font-size-extrasmall);
+        line-height: 18px;
         padding: 7px 17px;
         width: 90%;
         margin: 0 auto;
@@ -132,9 +132,9 @@
       left: -4px;
       &::after {
         color: $color-primary-medium;
-        font-size: 33px;
+        font-size: var(--font-size-medium);
         @media (max-width: 992px) {
-          font-size: 15px;
+          font-size: var(--font-size-extrasmall);
         }
       }
     }
@@ -142,9 +142,9 @@
       right: -4px;
       &::after {
         color: $color-primary-medium;
-        font-size: 33px;
+        font-size: var(--font-size-medium);
         @media (max-width: 992px) {
-          font-size: 15px;
+          font-size: var(--font-size-extrasmall);
         }
       }
     }
@@ -192,7 +192,7 @@
         }
         h6 {
           font-weight: 700;
-          font-size: 15px;
+          font-size: var(--font-size-extrasmall);
           line-height: 25px;
           text-align: center;
           color: $color-white;
@@ -206,8 +206,8 @@
         p {
           color: $color-white;
           font-weight: 400;
-          font-size: 14px;
-          line-height: 17px;
+          font-size: var(--font-size-extrasmall);
+          line-height: 18px;
           text-align: center;
           margin-bottom: 6px;
           @media (max-width: 992px) {

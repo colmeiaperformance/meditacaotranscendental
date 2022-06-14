@@ -29,7 +29,7 @@
 
     </div>
   </section> -->
-  <section class="instrutor-contact">
+  <!-- <section class="instrutor-contact">
     <div class="container">
       <div class="row d-flex align-items-baseline">
         <div class="col-12 col-lg-5">
@@ -39,10 +39,10 @@
               <img loading="lazy" src=<?php echo get_template_directory_uri() . '/images/instrutor/wpp.png' ?> alt="Whatsapp"> Fale comigo no Whatsapp
             </a>
           </div>
-          <!-- <div class="instrutor-social d-grid mt-lg-5">
+          <div class="instrutor-social d-grid mt-lg-5">
             <div class="d-flex align-items-baseline justify-content-start mb-2 mb-lg-3"><a href="#"><img loading="lazy" src=<?php echo get_template_directory_uri() . '/images/instrutor/instagram.png' ?> alt="Instagram"> @flaviabaptista</a></div>
             <div class="d-flex align-items-baseline justify-content-start mb-2 mb-lg-3"><a href="#"><img loading="lazy" src=<?php echo get_template_directory_uri() . '/images/instrutor/youtube.png' ?> alt="Youtube"> /canalflaviabaptista</a></div>
-          </div> -->
+          </div> 
         </div>
         <div class="col-12 col-lg-7 mt-4 mt-lg-0">
           <form>
@@ -66,9 +66,8 @@
           </form>
         </div>
       </div>
-
     </div>
-  </section>
+  </section> -->
   <!-- <section class="instrutor-depoimentos">
     <div id="instrutor-depoimentos" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -181,7 +180,7 @@
   </section> -->
   <section class="instrutor-footer">
     <div class="container text-center">
-      <a href="#" class="btn" role="button">Agende a palestra gratuita</a>
+      <a href="<?= site_url() ?>/agendamento" class="btn" role="button">Agende a palestra gratuita</a>
     </div>
   </section>
 </main>

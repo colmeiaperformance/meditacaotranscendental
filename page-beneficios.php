@@ -212,52 +212,6 @@
                 <div class="container px-5">
                   <div class="row d-flex align-items-center justify-content-center px-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
-                      <h3>Depressão</h3>
-                      <div class="text-center d-block d-lg-none">
-                        <img loading="lazy" class="border-0"
-                          src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
-                          alt="Linha">
-                      </div>
-                      <p>Pesquisas científicas mostraram que a MT aumenta naturalmente a serotonina, o neurotransmissor que reduz os sintomas da depressão e regula o sono e o humor. 
-                      </p>
-                    </div>
-                    <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
-                      <img loading="lazy" class="img-fluid"
-                        src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/4.png' ?>
-                        alt="Gráfico">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
-                    <div class="col-12 col-lg-5 order-2 order-lg-1">
-                      <h3>Vícios e compulsões</h3>
-                      <div class="text-center d-block d-lg-none">
-                        <img loading="lazy" class="border-0"
-                          src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
-                          alt="Linha">
-                      </div>
-                      <p>A MT ganha destaque no tratamento de dependência de álcool, do cigarro e de outras drogas. Vários estudos científicos com foco em dependência química confirmaram que, quanto mais se pratica a técnica da MT, menos o usuário sente necessidade de recorrer aos vícios. 
-                      </p>
-                    </div>
-                    <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
-                      <img loading="lazy" class="img-fluid"
-                        src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/1.png' ?>
-                        alt="Gráfico">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
-                    <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Insônia</h3>
                       <div class="text-center d-block d-lg-none">
                         <img loading="lazy" class="border-0"
@@ -287,30 +241,8 @@
                           src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
                           alt="Linha">
                       </div>
-                      <p>Uma metanálise, com 107 estudos, mostra que a prática da MT tem efeitos significativos na redução da pressão arterial sanguínea, em comparação à aplicação de outras técnicas não farmacológicas.
+                      <p>Um estudo mediu o lactato plasmático (hormônio relacionado à hipertensão) de pessoas durante a prática da MT e mostrou uma redução significativa da substância no sangue. Depois de 3 a 4 meses de prática, a pressão arterial das pessoas estudadas manteve-se em níveis saudáveis. 
                       </p>
-                    </div>
-                    <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
-                      <img loading="lazy" class="img-fluid"
-                        src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/6.png' ?>
-                        alt="Gráfico">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
-                    <div class="col-12 col-lg-5 order-2 order-lg-1">
-                      <h3>Pressão arterial</h3>
-                      <div class="text-center d-block d-lg-none">
-                        <img loading="lazy" class="border-0"
-                          src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
-                          alt="Linha">
-                      </div>
-                      <p>Um estudo mediu o lactato plasmático (hormônio relacionado à hipertensão) de pessoas durante a prática da MT e mostrou uma redução significativa da substância no sangue. Depois de 3 a 4 meses de prática, a pressão arterial das pessoas estudadas manteve-se em níveis saudáveis. </p>
                     </div>
                     <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
                       <img loading="lazy" class="img-fluid"
@@ -453,55 +385,6 @@
                     <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
                       <img loading="lazy" class="img-fluid"
                         src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/12.png' ?>
-                        alt="Gráfico">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
-                    <div class="col-12 col-lg-5 order-2 order-lg-1">
-                      <h3>Coerência cerebral </h3>
-                      <div class="text-center d-block d-lg-none">
-                        <img loading="lazy" class="border-0"
-                          src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
-                          alt="Linha">
-                      </div>
-                      <p>Estudo com teste em eletroencefalograma demonstra aumento da sincronia e da coerência da atividade cerebral das ondas Alpha, durante prática da MT, comparado com grupo em repouso de olhos abertos e com os olhos fechados.
-                      </p>
-                    </div>
-                    <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
-                      <img loading="lazy" class="img-fluid"
-                        src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/1.png' ?>
-                        alt="Gráfico">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
-                    <div class="col-12 col-lg-5 order-2 order-lg-1">
-                      <h3>Coerência cerebral </h3>
-                      <div class="text-center d-block d-lg-none">
-                        <img loading="lazy" class="border-0"
-                          src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
-                          alt="Linha">
-                      </div>
-                      <p>Este estudo concluiu que, durante o programa de Meditação Transcendental®, alguns dos componentes mais básicos da resposta do cérebro à estimulação somático-sensorial (0–100 msec) são distribuídos de uma forma mais ampla em todo o córtex pré-frontal. 
-                      </p>
-                      <p>  
-                        O estudo indica um aumento da atividade das áreas do córtex que participam na percepção de informação específica e um aumento na relação funcional entre os dois hemisférios. 
-                      </p>
-                    </div>
-                    <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
-                      <img loading="lazy" class="img-fluid"
-                        src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/1.png' ?>
                         alt="Gráfico">
                     </div>
                   </div>

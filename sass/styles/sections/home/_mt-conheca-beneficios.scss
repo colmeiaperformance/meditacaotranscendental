@@ -8,7 +8,7 @@
   }
   h2 {
     font-weight: 300;
-    font-size: var(--font-size-h2);
+    font-size: var(--font-size-large);
     line-height: 63px;
     text-align: center;
     letter-spacing: -0.02em;
@@ -19,7 +19,7 @@
       color: $color-primary-medium;
     }
     @media (max-width: 992px)  {
-      font-size: 27px;
+      font-size: var(--font-size-regular);
       line-height: 35px;
       margin-bottom: 30px;
     }
@@ -72,7 +72,7 @@
     p {
       margin-bottom: 20px;
       font-weight: 300;
-      font-size: 30px;
+      font-size: var(--font-size-regular);
       line-height: 40px;
       text-align: center;
       color: $color-white;
@@ -82,7 +82,7 @@
       }
       @media (max-width: 992px) {
         font-weight: 300;
-        font-size: 22px;
+        font-size: var(--font-size-regular);
         line-height: 26px;
         margin-bottom: 10px;
       }
@@ -90,13 +90,13 @@
   }
   h4 {
     font-weight: 600;
-    font-size: var(--font-size-primary);
+    font-size: var(--font-size-small);
     line-height: var(--line-height-primary);
     text-align: center;
     color:$color-secondary-dark;
     margin-bottom: 0;
     @media (max-width: 992px) {
-      font-size: 15px;
+      font-size: var(--font-size-extrasmall);
       line-height: 18px;
     }
   }
@@ -156,20 +156,20 @@
     }
     h4 {
       font-weight: 500;
-      font-size: 30px;
+      font-size: var(--font-size-regular);
       line-height: 30px;
       margin-bottom: 0;
       color: $color-secondary-dark;
       @media (max-width: 992px) {
         margin-bottom: 10px;
-        font-size: 22px;
+        font-size: var(--font-size-regular);
         line-height: 22px;
       }
     }
     span {
       display: none;
       font-weight: 600;
-      font-size: 32px;
+      font-size: var(--font-size-medium);
       line-height: 22px;
       color: $color-secondary-dark;      
       @media (max-width: 992px) {
@@ -189,7 +189,7 @@
       }
       p {
         font-weight: 400;
-        font-size: 20px;
+        font-size: var(--font-size-small);
         line-height: 22px;
         text-align: center;
         color: $color-secondary-dark;     
@@ -203,14 +203,14 @@
       }
       .btn {
         font-weight: 600;
-        font-size: 22px;
+        font-size: var(--font-size-regular);
         line-height: var(--line-height-primary);
         color: $color-secondary-dark;   
         &:hover {
           color: $color-secondary-dark;   
         }  
         @media (max-width: 992px) {
-          font-size: 15px;
+          font-size: var(--font-size-extrasmall);
           line-height: 24px;
         }
       }

@@ -4,7 +4,7 @@
         span {
             color: $color-primary-light;
             @media (max-width: 992px) {
-                font-size: 30px;
+                font-size: var(--font-size-medium);
                 line-height: 35px;
                 text-align: center;
                 letter-spacing: -0.02em;
@@ -12,7 +12,7 @@
         }
         @media (max-width: 992px) {
             margin-bottom: 0px;
-            font-size: 30px;
+            font-size: var(--font-size-medium);
             line-height: 35px;
             letter-spacing: -0.02em;
         }
@@ -22,13 +22,13 @@
         p {
             font-style: normal;
             font-weight: 400;
-            font-size: var(--font-size-primary);
+            font-size: var(--font-size-small);
             line-height: var(--line-height-primary);
             color: $color-secondary-dark;
             margin-bottom: 25px;
             @media (max-width: 992px) {
                 text-align: left;
-                font-size: 16px;
+                font-size: var(--font-size-extrasmall);
                 line-height: 18px;
             }
         }
@@ -42,25 +42,25 @@
     h2 {
         margin-bottom: 40px;
         font-weight: 300;
-        font-size: var(--font-size-h2);
+        font-size: var(--font-size-large);
         line-height: 64px;
         letter-spacing: -0.02em;
         color: $color-secondary-dark;
         text-align: center;
         @media (max-width: 992px) {
             margin-bottom: 0px;
-            font-size: 30px;
+            font-size: var(--font-size-medium);
             line-height: 35px;
             letter-spacing: -0.02em;
         }
         strong {
             font-weight: 600;
-            font-size: var(--font-size-h2);
+            font-size: var(--font-size-large);
             line-height: 64px;
             letter-spacing: -0.02em;
             color: $color-primary-medium;
             @media (max-width: 992px) {
-                font-size: 30px;
+                font-size: var(--font-size-medium);
                 line-height: 35px;
                 text-align: center;
                 letter-spacing: -0.02em;
@@ -70,7 +70,7 @@
     
     p {
         font-weight: 400;
-        font-size: var(--font-size-primary);
+        font-size: var(--font-size-small);
         line-height: var(--line-height-primary);
         letter-spacing: -0.02em;
         color: $color-secondary-dark;
@@ -85,7 +85,7 @@
             color: $color-primary-medium;
         }
         @media (max-width: 992px) {
-            font-size: 16px;
+            font-size: var(--font-size-extrasmall);
             line-height: 18px;
             margin-bottom: 20px;
         }
@@ -102,7 +102,7 @@
     }
     li {
         font-weight: 600;
-        font-size: 18px;
+        font-size: var(--font-size-small);
         list-style-type: none;
         position: relative;
         margin-bottom: 0.5em;
@@ -116,7 +116,7 @@
             top: 0.4em;
         }
         @media (max-width: 992px) {
-            font-size: 16px;
+            font-size: var(--font-size-extrasmall);
             line-height: 18px;
             margin-bottom: 24px;
             top: 0.4em;
@@ -129,7 +129,7 @@
     .btn {
         font-style: normal;
         font-weight: 400;
-        font-size: 26px;
+        font-size: var(--font-size-regular);
         line-height: var(--line-height-primary);
         color: $color-white;
         background: $color-primary-dark;
@@ -137,7 +137,7 @@
         border-radius: 30px;
         padding: 9px 31px;
         @media (max-width: 992px) {
-            font-size: 16px;
+            font-size: var(--font-size-extrasmall);
             line-height: 18px;
             display: inline-block;
         }
@@ -149,10 +149,10 @@
     }
     .text-call {
         p {
-            font-size: 26px;
+            font-size: var(--font-size-regular);
             font-weight: 400;
             @media (max-width: 992px) {
-                font-size: 23px;
+                font-size: var(--font-size-regular);
                 line-height: 26px;
                 font-weight: 300;
                 margin-top: 2rem;

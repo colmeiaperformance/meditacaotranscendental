@@ -6,14 +6,14 @@
     }
     p {
       font-weight: 400;
-      font-size: var(--font-size-primary);
+      font-size: var(--font-size-small);
       line-height: var(--line-height-primary);
       color: $color-secondary-dark;
       max-width: 968px;
       margin: 0 auto;
       margin-bottom: 35px;
       @media (max-width: 992px) {
-        font-size: 16px;
+        font-size: var(--font-size-extrasmall);
         line-height: 18px;
         margin-bottom: 20px;
       }
@@ -35,14 +35,14 @@
     }
     h2 {
       font-weight: 300;
-      font-size: var(--font-size-h2);
+      font-size: var(--font-size-large);
       line-height: 53px;
       letter-spacing: -0.02em;
       color: $color-white;
       margin-bottom: 60px;
       text-align: center;
       @media (max-width: 992px) {
-        font-size: 30px;
+        font-size: var(--font-size-medium);
         line-height: 32px;
         max-width: 215px;
         margin: 0 auto;
@@ -55,7 +55,7 @@
     }
     h3 {
       font-weight: 600;
-      font-size: var(--font-size-h3);
+      font-size: var(--font-size-medium);
       line-height: 44px;
       color:$color-primary-medium;
       @media (max-width: 992px) {
@@ -67,11 +67,11 @@
       margin-bottom: 0;
       li {
         font-weight: 400;
-        font-size: var(--font-size-primary);
+        font-size: var(--font-size-small);
         line-height: 42px;
         color: $color-white;
         @media (max-width: 992px) {
-          font-size: 16px;
+          font-size: var(--font-size-extrasmall);
           line-height: 26px;
           margin-bottom: 12px;
         }
@@ -96,7 +96,7 @@
     p {
       @media (max-width: 992px) {
         color: $color-white;
-        font-size: 14px;
+        font-size: var(--font-size-extrasmall);
         line-height: 18px;
       }
     }
@@ -107,7 +107,7 @@
     }
     .swiper-button-next:after, .swiper-button-prev:after {
       @media (max-width: 992px)  {
-        font-size: 18px;
+        font-size: var(--font-size-small);
       }
     }
   }
@@ -132,13 +132,13 @@
       }
       p {
         font-weight: 400;
-        font-size: var(--font-size-primary);
+        font-size: var(--font-size-small);
         line-height: var(--line-height-primary);
         color: $color-secondary-dark;
         max-width: 728px;
         margin: 0 auto;
         @media (max-width: 992px) {
-          font-size: 16px;
+          font-size:var(--font-size-small);
           line-height: 18px;
           text-align: left;
         }
@@ -152,7 +152,7 @@
     }
     h2 {
       font-weight: 300;
-      font-size: var(--font-size-h2);
+      font-size: var(--font-size-large);
       line-height: 63px;
       text-align: center;
       letter-spacing: -0.02em;
@@ -160,7 +160,7 @@
       margin-bottom: 44px;
       margin-top: 50px;
       @media (max-width: 992px) {
-        font-size: 30px;
+        font-size: var(--font-size-medium);
         line-height: 35px;      
         margin: 35px 0;
       }
@@ -171,7 +171,7 @@
     }
     .btn {
       font-weight: 400;
-      font-size: 26px;
+      font-size: var(--font-size-regular);
       line-height: 30px;
       color: $color-white;
       padding: 9px 31px;
@@ -180,7 +180,7 @@
       border-radius: 30px;
       margin-top: 74px;
       @media (max-width: 992px) {
-        font-size: 16px;
+        font-size: var(--font-size-extrasmall);
         line-height: 18px;
         margin-top: 20px;
       }
@@ -197,7 +197,7 @@
     .swiper-slide {
       h3 {
         font-weight: 600;
-        font-size: 30px;
+        font-size: var(--font-size-medium);
         line-height: 35px;
         color: $color-secondary-dark;
         margin-bottom: 40px;
@@ -205,19 +205,19 @@
           text-align: center;
           max-width: 200px;
           margin: 0 auto;
-          font-size: var(--font-size-primary);
+          font-size: var(--font-size-small);
           line-height: var(--line-height-primary);
           margin-bottom: 9px;
         }
       }
       p {
         font-weight: 400;
-        font-size: var(--font-size-primary);
+        font-size: var(--font-size-small);
         line-height: var(--line-height-primary);
         color: $color-secondary-dark;
         margin-bottom: 0;
         @media (max-width: 992px) {
-          font-size: 16px;
+          font-size: var(--font-size-extrasmall);
           line-height: 18px;     
           margin-top: 31px; 
         }
@@ -234,7 +234,7 @@
     }
     .swiper-button-next:after, .swiper-button-prev:after {
       @media (max-width: 992px) {
-        font-size: 18px;
+        font-size: var(--font-size-small);
       }
     }
     .swiper-button-prev, .swiper-button-next {
@@ -296,7 +296,7 @@
       }
       h4 {
         font-weight: 600;
-        font-size: 22px;
+        font-size: var(--font-size-regular);
         line-height: 22px;
         color: $color-secondary-dark;
         @media (max-width: 992px) {
@@ -306,7 +306,7 @@
         }
         @media (max-width: 576px) {
           margin-bottom: 10px;
-          font-size: 16.1214px;
+          font-size: var(--font-size-extrasmall);
           line-height: 16px;
         }
       }
@@ -326,12 +326,12 @@
         }
         p {
           font-weight: 400;
-          font-size: var(--font-size-primary);
+          font-size: var(--font-size-small);
           line-height: var(--line-height-primary);
           color: $color-secondary-dark;
           margin-bottom: 40px;
           @media (max-width: 992px) {
-            font-size: 16px;
+            font-size: var(--font-size-extrasmall);
             line-height: 18px;
           }
         }

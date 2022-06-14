@@ -174,10 +174,12 @@
   <section class="o-que-e-mt-atua">
     <div class="container">
       <h2>Como a MT atua no <strong>cérebro</strong>?</h2>
-      <h3>O acúmulo de estresse e de ansiedade faz com que nosso cérebro entenda que estamos em constante perigo. Isso
-        afeta nossa capacidade de pensar e agir e aumenta a produção de hormônios, como o cortisol, que prejudicam nossa
-        saúde.
-      </h3>
+      <div class="d-flex justify-content-center mx-lg-3 px-lg-5">
+        <h3>O acúmulo de estresse e de ansiedade faz com que nosso cérebro entenda que estamos em constante perigo. Isso
+          afeta nossa capacidade de pensar e agir e aumenta a produção de hormônios, como o cortisol, que prejudicam nossa
+          saúde.
+        </h3>
+      </div>
       <h4>A prática regular da MT:</h4>
       <div class="row d-flex justify-content-center">
         <div class="col-12 col-lg-4 d-flex align-items-start justify-content-center d-block d-lg-none">
