@@ -1143,6 +1143,8 @@ footer .top a {
 @media (max-width: 992px) {
   .page-aprenda-mt .aprenda-mt-investir .aprenda-mt-investir-topo {
     display: block;
+    -webkit-clip-path: ellipse(100% 100% at 50% 0%);
+            clip-path: ellipse(100% 100% at 50% 0%);
   }
 }
 
@@ -1156,6 +1158,8 @@ footer .top a {
   height: 100%;
   background: url(images/aprenda-mt/investir.png) center right no-repeat;
   background-size: cover;
+  -webkit-clip-path: ellipse(100% 1000% at 50% 100%);
+          clip-path: ellipse(100% 1000% at 50% 100%);
 }
 
 @media (max-width: 992px) {
@@ -3674,6 +3678,8 @@ footer .top a {
 @media (max-width: 992px) {
   .page-o-que-e-mt .o-que-e-mt-diferente .mundo-melhor-topo {
     display: block;
+    -webkit-clip-path: ellipse(100% 100% at 50% 0%);
+            clip-path: ellipse(100% 100% at 50% 0%);
   }
 }
 
@@ -3687,6 +3693,8 @@ footer .top a {
   height: 100%;
   background: url(images/o-que-e-mt/mt-diferente.png);
   background-size: cover;
+  -webkit-clip-path: ellipse(100% 100% at 100% 50%);
+          clip-path: ellipse(100% 100% at 100% 50%);
 }
 
 @media (max-width: 992px) {
@@ -4675,6 +4683,8 @@ footer .top a {
 @media (max-width: 992px) {
   .page-quem-somos .a-origem .mundo-melhor-topo {
     display: block;
+    -webkit-clip-path: ellipse(100% 100% at 50% 0%);
+            clip-path: ellipse(100% 100% at 50% 0%);
   }
 }
 
@@ -4688,6 +4698,8 @@ footer .top a {
   height: 100%;
   background: url(images/quem-somos/origem.png);
   background-size: cover;
+  -webkit-clip-path: ellipse(100% 100% at 100% 50%);
+          clip-path: ellipse(100% 100% at 100% 50%);
 }
 
 @media (max-width: 992px) {
@@ -5658,6 +5670,8 @@ footer .top a {
 @media (max-width: 992px) {
   .mundo-melhor .mundo-melhor-topo {
     display: block;
+    -webkit-clip-path: ellipse(100% 100% at 50% 0%);
+            clip-path: ellipse(100% 100% at 50% 0%);
   }
 }
 
@@ -5671,6 +5685,8 @@ footer .top a {
   height: 100%;
   background: url(images/mundo-melhor/mundo-melhor-bg.png);
   background-size: cover;
+  -webkit-clip-path: ellipse(100% 100% at 100% 50%);
+          clip-path: ellipse(100% 100% at 100% 50%);
 }
 
 @media (max-width: 992px) {
