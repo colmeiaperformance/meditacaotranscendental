@@ -2225,6 +2225,21 @@ footer .top a {
           justify-content: space-between;
 }
 
+@media (max-width: 768px) {
+  .page-beneficios-mt .ciencia .bloco-1 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 370px) {
+  .page-beneficios-mt .ciencia .bloco-1 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+
 .page-beneficios-mt .ciencia .swiper-slide h3 {
   font-weight: 600;
   font-size: var(--font-size-medium);
@@ -2386,12 +2401,11 @@ footer .top a {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 480px) {
   .page-beneficios-mt .ciencia .box {
-    width: 175px;
-    height: 175px;
-    padding: 15px 15px 0 15px;
-    margin-bottom: 25px;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
   }
 }
 
@@ -2411,7 +2425,7 @@ footer .top a {
 
 @media (max-width: 576px) {
   .page-beneficios-mt .ciencia .box img {
-    max-width: 50px;
+    max-width: 45px;
     height: auto;
     margin-bottom: 10px;
   }
@@ -2429,14 +2443,6 @@ footer .top a {
     margin-bottom: 7px;
     font-size: 14px;
     line-height: 12px;
-  }
-}
-
-@media (max-width: 576px) {
-  .page-beneficios-mt .ciencia .box h4 {
-    margin-bottom: 10px;
-    font-size: var(--font-size-extrasmall);
-    line-height: 16px;
   }
 }
 

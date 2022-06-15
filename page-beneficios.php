@@ -137,8 +137,8 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide active">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Burnout, insônia e depressão</h3>
                       <div class="text-center d-block d-lg-none">
@@ -161,8 +161,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Estresse</h3>
                       <div class="text-center d-block d-lg-none">
@@ -184,8 +184,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Ansiedade</h3>
                       <div class="text-center d-block d-lg-none">
@@ -209,8 +209,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Insônia</h3>
                       <div class="text-center d-block d-lg-none">
@@ -232,8 +232,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Pressão arterial</h3>
                       <div class="text-center d-block d-lg-none">
@@ -255,8 +255,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Diabetes</h3>
                       <div class="text-center d-block d-lg-none">
@@ -279,8 +279,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Colesterol alto </h3>
                       <div class="text-center d-block d-lg-none">
@@ -301,8 +301,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Fortalecimento do sistema imunológico </h3>
                       <div class="text-center d-block d-lg-none">
@@ -324,8 +324,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Relacionamentos profissionais</h3>
                       <div class="text-center d-block d-lg-none">
@@ -347,8 +347,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Relacionamentos afetivos </h3>
                       <div class="text-center d-block d-lg-none">
@@ -370,8 +370,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Autorrealização</h3>
                       <div class="text-center d-block d-lg-none">
@@ -393,8 +393,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Criatividade e outras habilidades </h3>
                       <div class="text-center d-block d-lg-none">
@@ -417,8 +417,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Desenvolvimento da inteligência </h3>
                       <div class="text-center d-block d-lg-none">
