@@ -31,6 +31,8 @@
       @media (max-width: 992px) {
         font-size: var(--font-size-extrasmall);
         line-height: 18px;
+        max-width: 80%;
+        margin: 0 auto;
       }
     }
   }
@@ -292,6 +294,7 @@
         @media (max-width: 992px) {
           font-size: var(--font-size-extrasmall);
           line-height: 18px;
+          text-align: left;
         }
       }
       .btn {
@@ -366,21 +369,24 @@
           color: $color-secondary-dark;
           margin-bottom: 10px;
         }
-        p {
+        p, span {
           font-weight: 400;
           font-size: var(--font-size-extrasmall);
           line-height: 17px;
           margin-bottom: 0;
           color: $color-secondary-dark;
-          a {
-            font-weight: 600;
-            font-size: 13px;
-            line-height: 15px;
-            color: $color-secondary-dark;
-            @media (max-width: 992px) {
-              display: none;
-            }
+          @media (max-width: 992px) {
+            text-align: left;
           }
+          // a {
+          //   font-weight: 600;
+          //   font-size: 13px;
+          //   line-height: 15px;
+          //   color: $color-secondary-dark;
+          //   @media (max-width: 992px) {
+          //     display: none;
+          //   }
+          // }
         }
         a {
           font-weight: 600;

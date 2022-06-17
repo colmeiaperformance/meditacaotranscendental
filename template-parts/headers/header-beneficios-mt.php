@@ -7,7 +7,8 @@
     </div> -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img loading="lazy" class="img-fluid" src="<?php echo get_template_directory_uri() . '/images/header/banner-beneficios.png' ?>" alt="Benefícios">
+      <img loading="lazy" class="img-fluid d-block d-sm-none" src="<?php echo get_template_directory_uri() . '/images/header/banner-beneficios-mobile.png' ?>" alt="Benefícios">
+        <img loading="lazy" class="img-fluid d-none d-sm-block" src="<?php echo get_template_directory_uri() . '/images/header/banner-beneficios.png' ?>" alt="Benefícios">
         <div class="container">
           <div class="carousel-caption">
             <h1><strong>Descubra</strong>, dentro de você, um lugar de equilíbrio, paz e saúde.</h1>

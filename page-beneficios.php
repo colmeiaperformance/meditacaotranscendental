@@ -131,7 +131,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row d-none d-lg-block">
         <h2>O que diz a <strong>ciência</strong>?</h2>
         <div class="swiper swiperCiencia">
           <div class="swiper-wrapper">
