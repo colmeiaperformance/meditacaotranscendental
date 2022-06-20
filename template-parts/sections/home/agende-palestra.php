@@ -5,7 +5,7 @@
         <div class="circle green rounded-circle">
           <div class="d-block text-center px-2">
             <h4>+<span class="counter">600</span></h4>
-            <p>estudos científicos</p>
+            <p>estudos<br /> científicos</p>
           </div>
         </div>
       </div>
