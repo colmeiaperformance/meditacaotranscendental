@@ -29,7 +29,7 @@
         <div class="circle yellow rounded-circle">
           <div class="d-block text-center px-2">
             <h4>+<span class="counter">500</span></h4>
-            <p>mil meditantes no Brasil</p>
+            <p>mil meditantes<br /> no Brasil</p>
           </div>
         </div>
       </div>
