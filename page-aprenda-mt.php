@@ -8,42 +8,14 @@
 <?php get_template_part('template-parts/headers/header-aprenda-mt'); ?>
 <main class="page-aprenda-mt">
   <section class="agende-mt">
-    <div class="container text-center">
-      <div class="text">
-        <p>A MT é uma técnica <strong>simples, natural e sem esforço</strong> que pode ser praticada por qualquer pessoa, <span>a partir dos 5 anos de idade</span>.</p>
+    <div class="container text-center d-block">
+      <div class="text d-block">
+        <p>A MT é uma técnica <strong>simples, natural e sem esforço</strong> que pode ser praticada por qualquer
+          pessoa, <span>a partir dos 5 anos de idade</span>.</p>
         <p>O <Strong>primeiro passo</Strong> é participar de uma <span>palestra online gratuita</span>.</p>
       </div>
       <a href="<?php echo home_url( '/agendamento/' ); ?>" class="btn">Agende sua participação</a>
     </div>
-    <!-- <div class="container text-center d-block d-lg-none">
-      <div class="text d-block d-lg-none">
-      <h2>O <Strong>primeiro passo</Strong> é participar de uma <span>palestra online gratuita</span>.</h2>
-      <p><strong>Selecione abaixo e agende sua participação</strong>. <br/> Você pode escolher por localidade ou pelo nome de um instrutor.</p>
-      <form>
-      <select class="form-select" aria-label="Cidade">
-      <option selected>Cidade</option>
-      <option value="1">One</option>
-      <option value="2">Two</option>
-      <option value="3">Three</option>
-      </select>
-      <select class="form-select" aria-label="Estado">
-      <option selected>Estado</option>
-      <option value="1">One</option>
-      <option value="2">Two</option>
-      <option value="3">Three</option>
-      </select>
-      <select class="form-select" aria-label="Selecione um instrutor">
-      <option selected>Selecione um instrutor</option>
-      <option value="1">One</option>
-      <option value="2">Two</option>
-      <option value="3">Three</option>
-      </select>
-      <button class="btn">
-      Ver Datas
-      </button>
-      </form>
-      </div>
-      </div> -->
   </section>
   <section class="tres-passos">
     <div class="container">
@@ -61,7 +33,7 @@
     <div class="item">
       <div class="container d-flex align-items-lg-center justify-content-start">
         <span>
-        2
+          2
         </span>
         <div class="text">
           <h4>Entrevista individual</h4>
@@ -72,7 +44,7 @@
     <div class="item">
       <div class="container d-flex align-items-lg-center justify-content-start">
         <span>
-        3
+          3
         </span>
         <div class="text">
           <h4>Curso presencial</h4>
@@ -127,38 +99,50 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="text-center">
-                <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/acompanhamento.png' ?>" alt="Acompanhamento pós-curso">
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/acompanhamento.png' ?>"
+                  alt="Acompanhamento pós-curso">
               </div>
               <div class="content">
-                <h4>Acompanhamento<br/> pós-curso</h4>
-                <p>Só na MT você recebe acompanhamento gratuito depois do curso. Tudo para fortalecer sua experiência e ajudar você a alcançar os melhores resultados. </p>
+                <h4>Acompanhamento<br /> pós-curso</h4>
+                <p>Só na MT você recebe acompanhamento gratuito depois do curso. Tudo para fortalecer sua experiência e
+                  ajudar você a alcançar os melhores resultados. </p>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="text-center">
-                <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/meditacao.png' ?>" alt="Meditação coletiva">
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/meditacao.png' ?>"
+                  alt="Meditação coletiva">
               </div>
               <div class="content">
-                <h4>Meditação<br/> coletiva</h4>
-                <p>Encontros diários que acontecem de forma gratuita e online. Uma maneira de você manter regularidade na prática e ainda contribuir para a paz mundial.</p>
+                <h4>Meditação<br /> coletiva</h4>
+                <p>Encontros diários que acontecem de forma gratuita e online. Uma maneira de você manter regularidade
+                  na prática e ainda contribuir para a paz mundial.</p>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="text-center">
-                <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/residencial.png' ?>" alt="Curso residencial">
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/residencial.png' ?>"
+                  alt="Curso residencial">
               </div>
               <div class="content">
                 <h4>Curso <br />residencial</h4>
-                <p>Um agradável final de semana em meio à natureza para uma imersão na MT. Uma vivência extraordinária para aprofundar sua experiência.</p>
+                <p>Um agradável final de semana em meio à natureza para uma imersão na MT. Uma vivência extraordinária
+                  para aprofundar sua experiência.</p>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="text-center">
-                <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/conhecimento.png' ?>" alt="Universo de conhecimento">
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/conhecimento.png' ?>"
+                  alt="Universo de conhecimento">
               </div>
               <div class="content">
                 <h4>Universo de<br />conhecimento</h4>
-                <p>Como praticante da MT, você tem acesso ao conhecimento da milenar Ciência Védica, por meio de palestras, cursos, eventos e técnicas avançadas.</p>
+                <p>Como praticante da MT, você tem acesso ao conhecimento da milenar Ciência Védica, por meio de
+                  palestras, cursos, eventos e técnicas avançadas.</p>
               </div>
             </div>
           </div>
@@ -167,9 +151,12 @@
         </div>
       </div>
       <div class="text-center mb-2 mb-lg-3">
-        <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/separador.png' ?>" alt="Separador">
+        <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/separador.png' ?>"
+          alt="Separador">
       </div>
-      <p>Somente instrutores certificados e credenciados pela Associação Internacional de Meditação (SIM) podem ensinar a autêntica técnica de MT. Essa é a sua <strong>garantia de receber a verdadeira técnica</strong> ensinada há mais de 60 anos, com base no conhecimento puro da Ciência Védica.</p>
+      <p>Somente instrutores certificados e credenciados pela Associação Internacional de Meditação (SIM) podem ensinar
+        a autêntica técnica de MT. Essa é a sua <strong>garantia de receber a verdadeira técnica</strong> ensinada há
+        mais de 60 anos, com base no conhecimento puro da Ciência Védica.</p>
       <div class="text-center">
         <a href="<?php echo home_url( '/instrutores/' ); ?>" class="btn">Conheça os instrutores credenciados</a>
       </div>
@@ -177,7 +164,8 @@
   </section>
   <section class="aprenda-mt-investir position-relative">
     <div class="aprenda-mt-investir-topo">
-      <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/investir-mobile.png' ?>" alt="Investir">
+      <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/investir-mobile.png' ?>"
+        alt="Investir">
     </div>
     <div class="container">
       <div class="aprenda-mt-investir-bg position-absolute"></div>
@@ -186,10 +174,23 @@
           <div class="text-center text-lg-start">
             <h2>Ao investir no seu bem-estar, você ajuda outras pessoas.</h2>
           </div>
-          <p>Somos uma organização sem fins lucrativos comprometida em tornar a Meditação Transcendental e seus benefícios acessíveis ao maior número possível de pessoas. Por isso, parte do valor pago no curso é direcionado a projetos que ensinam a MT gratuitamente a milhares de crianças e adultos em todo o mundo.</p>
+          <p>Somos uma organização sem fins lucrativos comprometida em tornar a Meditação Transcendental e seus
+            benefícios acessíveis ao maior número possível de pessoas. Por isso, parte do valor pago no curso é
+            direcionado a projetos que ensinam a MT gratuitamente a milhares de crianças e adultos em todo o mundo.</p>
           <p><strong>Converse com um instrutor para conhecer as condições especiais de pagamento.</strong></p>
         </div>
       </div>
+    </div>
+  </section>
+  <section class="garantia d-block d-lg-none">
+    <div class="container">
+      <h2>Garantia</h2>
+      <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/garantia.png' ?>"
+        alt="Selo de Garantia">
+      <p>A técnica da MT tem eficácia comprovada e já beneficiou milhões de pessoas em todo o mundo. Por isso, temos a
+        <span>garantia de satisfação</span>, desde que o curso e o acompanhamento sejam cumpridos como orientado.
+        <strong>Pergunte ao seu instrutor para obter detalhes</strong>.
+      </p>
     </div>
   </section>
   <section class="mudou-vida">
@@ -210,6 +211,7 @@
               </p>
             </div>
           </div>
+
           <div class="swiper-slide">
             <div class="swiper-mobile">
               <iframe class="yt-video" width="280" height="200" src="https://youtu.be/rvF2rYZZegg"
@@ -222,6 +224,7 @@
               </p>
             </div>
           </div>
+
           <div class="swiper-slide">
             <div class="swiper-mobile">
               <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/Ta2wL5Q4rkw"
@@ -234,6 +237,7 @@
               </p>
             </div>
           </div>
+
           <div class="swiper-slide">
             <div class="swiper-mobile">
               <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/wRYq9imI-4M"
@@ -246,6 +250,7 @@
               </p>
             </div>
           </div>
+
         </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
@@ -256,132 +261,115 @@
   <section class="aprenda-mt-footer">
     <div class="container text-center">
       <h2>Dúvidas?</h2>
-      <p>Veja as respostas para as  <a href="<?php echo home_url( '/faq/' ); ?>">perguntas mais frequentes.</a></p>
+      <p>Veja as respostas para as <a href="<?php echo home_url( '/faq/' ); ?>">perguntas mais frequentes.</a></p>
     </div>
   </section>
 </main>
 <script>
-  jQuery(document).ready(function() {
-    var swiper = new Swiper(".swiperMudouVida", {
-      slidesPerView: 1,
-      slidesPerGroup: 1,
-      loop: false,
-      spaceBetween: 10,
-      grabCursor: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
+jQuery(document).ready(function() {
+  var swiper = new Swiper(".swiperMudouVida", {
+    slidesPerView: 1,
+    slidesPerGroup: 1,
+    loop: false,
+    spaceBetween: 10,
+    grabCursor: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        slidesPerGroup: 1,
+        spaceBetween: 50,
       },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+      768: {
+        slidesPerView: 2,
+        slidesPerGroup: 1,
+        spaceBetween: 50,
       },
-      breakpoints: {
-        640: {
-          slidesPerView: 2,
-          slidesPerGroup: 1,
-          spaceBetween: 50,
-        },
-        768: {
-          slidesPerView: 2,
-          slidesPerGroup: 1,
-          spaceBetween: 50,
-        },
-        1024: {
-          slidesPerView: 3,
-          slidesPerGroup: 1,
-          spaceBetween: 50,
-        },
+      1024: {
+        slidesPerView: 3,
+        slidesPerGroup: 1,
+        spaceBetween: 50,
       },
-    });
+    },
   });
+});
 </script>
 <script>
-  jQuery(document).ready(function() {
-    var swiper = new Swiper(".atividadesSwiper", {
-      slidesPerView: 1,
-      slidesPerGroup: 1,
-      loop: false,
-      spaceBetween: 0,
-      autoplay: {
-        delay: 3000,
+jQuery(document).ready(function() {
+  var swiper = new Swiper(".atividadesSwiper", {
+    slidesPerView: 1,
+    slidesPerGroup: 1,
+    loop: false,
+    spaceBetween: 0,
+    grabCursor: false,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+        spaceBetween: 0,
       },
-      grabCursor: false,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
+      768: {
+        slidesPerView: 2,
+        slidesPerGroup: 1,
+        spaceBetween: 20,
       },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+      992: {
+        slidesPerView: 4,
+        slidesPerGroup: 1,
+        spaceBetween: 40,
       },
-      breakpoints: {
-        640: {
-          slidesPerView: 1,
-          slidesPerGroup: 1,
-          spaceBetween: 0,
-          loop: true,
-          grabCursor: true,
-          autoplay: {
-            delay: 3000,
-          },
-        },
-        768: {
-          slidesPerView: 2,
-          slidesPerGroup: 1,
-          spaceBetween: 20,
-          loop: true,
-          grabCursor: true,
-          autoplay: {
-            delay: 3000,
-          },
-        },
-        992: {
-          slidesPerView: 4,
-          slidesPerGroup: 1,
-          spaceBetween: 40,
-          grabCursor: true,
-          loop: true, autoplay: {
-            delay: 3000,
-          },
-        },
-      },
-    });
+    },
   });
+});
 </script>
 <script>
-  jQuery(document).ready(function() {
-    var swiper = new Swiper(".passosSwiper", {
-      slidesPerView: 1,
-      slidesPerGroup: 1,
-      loop: true,
-      spaceBetween: 0,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
+jQuery(document).ready(function() {
+  var swiper = new Swiper(".passosSwiper", {
+    slidesPerView: 1,
+    slidesPerGroup: 1,
+    loop: false,
+    spaceBetween: 0,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        slidesPerGroup: 1,
+        spaceBetween: 0,
       },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+      768: {
+        slidesPerView: 2,
+        slidesPerGroup: 1,
+        spaceBetween: 0,
       },
-      breakpoints: {
-        640: {
-          slidesPerView: 2,
-          slidesPerGroup: 1,
-          spaceBetween: 0,
-        },
-        768: {
-          slidesPerView: 2,
-          slidesPerGroup: 1,
-          spaceBetween: 0,
-        },
-        992: {
-          slidesPerView: 4,
-          slidesPerGroup: 1,
-          spaceBetween: 45,
-        },
+      992: {
+        slidesPerView: 4,
+        slidesPerGroup: 1,
+        spaceBetween: 45,
       },
-    });
+    },
   });
+});
 </script>
 <?php get_footer();
