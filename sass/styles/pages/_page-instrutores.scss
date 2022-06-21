@@ -140,6 +140,9 @@
       &:active, &:focus {
         box-shadow: none!important;
       }
+      &:before {
+        content: ''!important;
+      }
       @media (max-width: 992px) {
         font-size: var(--font-size-extrasmall)!important;
         line-height: 18px!important;

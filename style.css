@@ -3424,6 +3424,10 @@ footer .top a {
           box-shadow: none !important;
 }
 
+.page-instrutores .instrutores-selection .form-control:before {
+  content: "" !important;
+}
+
 @media (max-width: 992px) {
   .page-instrutores .instrutores-selection .form-control {
     font-size: var(--font-size-extrasmall) !important;
