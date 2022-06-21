@@ -128,24 +128,23 @@
     }
     .form-control {
       width: 100%;
-      font-weight: 500;
-      font-size: var(--font-size-small);
-      line-height: var(--line-height-primary);
-      color: $color-primary-dark;
-      padding: 9px 31px;
-      border: 1px solid $color-primary-dark;
-      border-radius: 30px;
-      text-align: left;
-      background-color: $color-white;
-      background-image: url('images/instrutores/dropdown.png');
+      font-weight: 500!important;
+      font-size: var(--font-size-small)!important;
+      line-height: var(--line-height-primary)!important;
+      color: $color-primary-dark!important;
+      padding: 9px 31px!important;
+      border: 1px solid $color-primary-dark!important;
+      border-radius: 30px!important;
+      text-align: left!important;
+      background: $color-white url('images/instrutores/dropdown.png') !important;
       &:active, &:focus {
-        box-shadow: none;
+        box-shadow: none!important;
       }
       @media (max-width: 992px) {
-        font-size: var(--font-size-extrasmall);
-        line-height: 18px;
-        padding: 7px 17px;
-        width: 90%;
+        font-size: var(--font-size-extrasmall)!important;
+        line-height: 18px!important;
+        padding: 7px 17px!important;
+        width: 90%!important;
         margin: 0 auto;
       }
     }
