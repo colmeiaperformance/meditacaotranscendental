@@ -105,6 +105,13 @@
     border: 1px solid $color-primary-dark!important;
     border-radius: 30px!important;
     text-align: left!important;
+    @media (max-width: 768px) {
+      font-size: var(--font-size-extrasmall)!important;
+      line-height: 18px!important;
+      padding: 7px 17px!important;
+      // width: 90%!important;
+      margin: 0 auto;
+    }
   }
   
   #_form_4_  input[type="text"]:disabled {
@@ -113,7 +120,7 @@
   
   #_form_4_ ._form-title {
     color: $color-secondary-dark!important;
-    @media (max-width: 992px)  {
+    @media (max-width: 768px)  {
       font-size: 14px!important;
       line-height: 16px!important;
     }
