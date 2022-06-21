@@ -131,14 +131,14 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row d-none d-lg-block">
         <h2>O que diz a <strong>ciência</strong>?</h2>
         <div class="swiper swiperCiencia">
           <div class="swiper-wrapper">
             <div class="swiper-slide active">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Burnout, insônia e depressão</h3>
                       <div class="text-center d-block d-lg-none">
@@ -161,8 +161,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Estresse</h3>
                       <div class="text-center d-block d-lg-none">
@@ -184,8 +184,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Ansiedade</h3>
                       <div class="text-center d-block d-lg-none">
@@ -209,8 +209,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Insônia</h3>
                       <div class="text-center d-block d-lg-none">
@@ -232,8 +232,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Pressão arterial</h3>
                       <div class="text-center d-block d-lg-none">
@@ -241,7 +241,7 @@
                           src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
                           alt="Linha">
                       </div>
-                      <p>Um estudo mediu o lactato plasmático (hormônio relacionado à hipertensão) de pessoas durante a prática da MT e mostrou uma redução significativa da substância no sangue. Depois de 3 a 4 meses de prática, a pressão arterial das pessoas estudadas manteve-se em níveis saudáveis. 
+                      <p>Uma meta-análise com 107 estudos, mostra que a prática da MT tem efeitos significativos na redução da pressão arterial sanguínea, em comparação com aplicação de outras técnicas não farmacológicas. 
                       </p>
                     </div>
                     <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
@@ -255,8 +255,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Diabetes</h3>
                       <div class="text-center d-block d-lg-none">
@@ -279,8 +279,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Colesterol alto </h3>
                       <div class="text-center d-block d-lg-none">
@@ -301,8 +301,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Fortalecimento do sistema imunológico </h3>
                       <div class="text-center d-block d-lg-none">
@@ -324,8 +324,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Relacionamentos profissionais</h3>
                       <div class="text-center d-block d-lg-none">
@@ -347,8 +347,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Relacionamentos afetivos </h3>
                       <div class="text-center d-block d-lg-none">
@@ -370,8 +370,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Autorrealização</h3>
                       <div class="text-center d-block d-lg-none">
@@ -393,8 +393,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Criatividade e outras habilidades </h3>
                       <div class="text-center d-block d-lg-none">
@@ -417,8 +417,8 @@
             </div>
             <div class="swiper-slide">
               <div class="swiper-mobile">
-                <div class="container px-5">
-                  <div class="row d-flex align-items-center justify-content-center px-5">
+                <div class="container px-sm-5">
+                  <div class="row d-flex align-items-center justify-content-center px-3 px-sm-5">
                     <div class="col-12 col-lg-5 order-2 order-lg-1">
                       <h3>Desenvolvimento da inteligência </h3>
                       <div class="text-center d-block d-lg-none">
@@ -447,7 +447,7 @@
           <div class="swiper-button-prev"></div>
         </div>
         <div class="text-center">
-          <a href="<?php echo home_url( '/instrutores/' ); ?>" class="btn">Encontre um instrutor perto de você</a>
+          <a href="<?php echo home_url( '/agendamento/' ); ?>" class="btn">Agende uma palestra gratuita </a>
         </div>
       </div>
     </div>

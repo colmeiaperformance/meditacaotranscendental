@@ -14,7 +14,7 @@ $descricao_mtu = get_sub_field('descricao_mtu');
         <?php if ($texto_mtu) { echo $texto_mtu; } ?>
       </div>
 
-      <div class="col-12 col-lg-5">
+      <div class="p-lg-0">
         <div class="mt-unica-video">
           <?php if ($video_mtu) { echo $video_mtu; } ?>
         </div>
@@ -23,6 +23,7 @@ $descricao_mtu = get_sub_field('descricao_mtu');
           <p><em><?php if ($especializacao_mtu) { echo $especializacao_mtu; } ?></em></p>
         </div>
       </div>
+    </div>
 
       <div class="mt-unica-title d-lg-flex justify-content-left align-items-lg-end justify-content-lg-center">
         <h2>

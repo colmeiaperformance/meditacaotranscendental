@@ -1,7 +1,7 @@
 <section class="mt-unica-slide">
-  <div id="mt-unica-slide" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
+  <div id="mt-unica-slide" class="swiper unicaSwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
         <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/slide1.png' ?> alt="Vídeo" width="100%" height="100%" class="img-1 bd-placeholder-img">
         <div class="container">
           <div class="row">
@@ -14,7 +14,7 @@
         </div>
       </div>
      
-      <div class="carousel-item">
+      <div class="swiper-slide">
         <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/slide2.png' ?> alt="Vídeo" width="100%" height="100%" class=" img-2 bd-placeholder-img">
         <div class="container">
           <div class="row">
@@ -27,7 +27,7 @@
         </div>
       </div>
 
-      <div class="carousel-item">
+      <div class="swiper-slide">
         <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/slide3.png' ?> alt="Vídeo" width="100%" height="100%" class="img-3 bd-placeholder-img">
         <div class="container">
           <div class="row">
@@ -40,7 +40,7 @@
         </div>
       </div>
 
-      <div class="carousel-item">
+      <div class="swiper-slide">
         <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/slide4.png' ?> alt="Vídeo" width="100%" height="100%" class="img-4 bd-placeholder-img">
         <div class="container">
           <div class="row">
@@ -53,7 +53,7 @@
         </div>
       </div>
 
-       <div class="carousel-item">
+       <div class="swiper-slide">
         <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/slide5.png' ?> alt="Vídeo" width="100%" height="100%" class="img-5 bd-placeholder-img">
         <div class="container">
           <div class="row">
@@ -66,7 +66,7 @@
         </div>
       </div>
 
-      <div class="carousel-item">
+      <div class="swiper-slide">
         <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/slide6.png' ?> alt="Vídeo" width="100%" height="100%" class="img-6 bd-placeholder-img">
         <div class="container">
           <div class="row">
@@ -80,14 +80,26 @@
       </div>
 
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#mt-unica-slide" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#mt-unica-slide" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
   </div>
   <a class="btn btn-mobile" href="https://meditacaotranscendental.com.br/mt-onde-voce-esta-2022/">Participe da palestra gratuita</a>
 </section>
+
+<script>
+  jQuery(document).ready(function() {
+    var swiper = new Swiper(".unicaSwiper", {
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      loop: true,
+      spaceBetween: 0,
+      autoplay: {
+        delay: 3000,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+     },
+    });
+  });
+</script>

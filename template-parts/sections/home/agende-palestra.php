@@ -5,7 +5,7 @@
         <div class="circle green rounded-circle">
           <div class="d-block text-center px-2">
             <h4>+<span class="counter">600</span></h4>
-            <p>estudos científicos</p>
+            <p>estudos<br /> científicos</p>
           </div>
         </div>
       </div>
@@ -28,8 +28,8 @@
       <div class="col-6 col-md-3 d-flex align-items-center justify-content-center">
         <div class="circle yellow rounded-circle">
           <div class="d-block text-center px-2">
-            <h4>+<span class="counter">500</span></h4>
-            <p>mil meditantes no Brasil</p>
+            <h4>+<span class="counter">160</span></h4>
+            <p>mil meditantes<br /> no Brasil</p>
           </div>
         </div>
       </div>

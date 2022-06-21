@@ -421,6 +421,13 @@ footer .top a {
   }
 }
 
+@media (max-width: 578px) {
+  .header--aprenda-mt .carousel-item img {
+    min-height: auto;
+    max-height: 220px;
+  }
+}
+
 .header--aprenda-mt .carousel-item h1 {
   font-weight: 300;
   font-size: 54px;
@@ -481,6 +488,13 @@ footer .top a {
 @media (max-width: 991.98px) {
   .header--beneficios-mt .carousel-item img {
     min-height: 220px;
+  }
+}
+
+@media (max-width: 578px) {
+  .header--beneficios-mt .carousel-item img {
+    min-height: auto;
+    max-height: 220px;
   }
 }
 
@@ -779,6 +793,7 @@ footer .top a {
 .navbar .navbar-brand img {
   width: 100%;
   height: auto;
+  max-width: 256px;
 }
 
 @media (max-width: 576px) {
@@ -1143,6 +1158,8 @@ footer .top a {
 @media (max-width: 992px) {
   .page-aprenda-mt .aprenda-mt-investir .aprenda-mt-investir-topo {
     display: block;
+    -webkit-clip-path: ellipse(100% 100% at 50% 0%);
+            clip-path: ellipse(100% 100% at 50% 0%);
   }
 }
 
@@ -1156,6 +1173,8 @@ footer .top a {
   height: 100%;
   background: url(images/aprenda-mt/investir.png) center right no-repeat;
   background-size: cover;
+  -webkit-clip-path: ellipse(100% 1000% at 50% 100%);
+          clip-path: ellipse(100% 1000% at 50% 100%);
 }
 
 @media (max-width: 992px) {
@@ -1764,6 +1783,16 @@ footer .top a {
   }
 }
 
+.page-aprenda-mt .tres-passos .passos-aprender .swiper-button-next, .page-aprenda-mt .tres-passos .passos-aprender .swiper-button-prev {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .tres-passos .passos-aprender .swiper-button-next, .page-aprenda-mt .tres-passos .passos-aprender .swiper-button-prev {
+    display: block;
+  }
+}
+
 .page-aprenda-mt .tres-passos .passos-aprender .swiper-button-prev {
   left: 0;
 }
@@ -2053,14 +2082,14 @@ footer .top a {
 .page-beneficios-mt .mt-faz ul li {
   font-weight: 400;
   font-size: var(--font-size-small);
-  line-height: 42px;
+  line-height: 32px;
   color: #FFFFFF;
 }
 
 @media (max-width: 992px) {
   .page-beneficios-mt .mt-faz ul li {
     font-size: var(--font-size-extrasmall);
-    line-height: 26px;
+    line-height: 14px;
     margin-bottom: 12px;
   }
 }
@@ -2219,6 +2248,21 @@ footer .top a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .page-beneficios-mt .ciencia .bloco-1 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 370px) {
+  .page-beneficios-mt .ciencia .bloco-1 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
 }
 
 .page-beneficios-mt .ciencia .swiper-slide h3 {
@@ -2382,12 +2426,11 @@ footer .top a {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 480px) {
   .page-beneficios-mt .ciencia .box {
-    width: 175px;
-    height: 175px;
-    padding: 15px 15px 0 15px;
-    margin-bottom: 25px;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
   }
 }
 
@@ -2407,7 +2450,7 @@ footer .top a {
 
 @media (max-width: 576px) {
   .page-beneficios-mt .ciencia .box img {
-    max-width: 50px;
+    max-width: 45px;
     height: auto;
     margin-bottom: 10px;
   }
@@ -2425,14 +2468,6 @@ footer .top a {
     margin-bottom: 7px;
     font-size: 14px;
     line-height: 12px;
-  }
-}
-
-@media (max-width: 576px) {
-  .page-beneficios-mt .ciencia .box h4 {
-    margin-bottom: 10px;
-    font-size: var(--font-size-extrasmall);
-    line-height: 16px;
   }
 }
 
@@ -3544,6 +3579,8 @@ footer .top a {
   .page-o-que-e-mt .o-que-e-mt-hero p {
     font-size: var(--font-size-extrasmall);
     line-height: 18px;
+    max-width: 80%;
+    margin: 0 auto;
   }
 }
 
@@ -3674,6 +3711,8 @@ footer .top a {
 @media (max-width: 992px) {
   .page-o-que-e-mt .o-que-e-mt-diferente .mundo-melhor-topo {
     display: block;
+    -webkit-clip-path: ellipse(100% 100% at 50% 0%);
+            clip-path: ellipse(100% 100% at 50% 0%);
   }
 }
 
@@ -3687,6 +3726,8 @@ footer .top a {
   height: 100%;
   background: url(images/o-que-e-mt/mt-diferente.png);
   background-size: cover;
+  -webkit-clip-path: ellipse(100% 100% at 100% 50%);
+          clip-path: ellipse(100% 100% at 100% 50%);
 }
 
 @media (max-width: 992px) {
@@ -3882,6 +3923,7 @@ footer .top a {
   .page-o-que-e-mt .o-que-e-mt-imagine p {
     font-size: var(--font-size-extrasmall);
     line-height: 18px;
+    text-align: left;
   }
 }
 
@@ -3979,7 +4021,7 @@ footer .top a {
   margin-bottom: 10px;
 }
 
-.page-o-que-e-mt .o-que-e-mt-sabermais .book p {
+.page-o-que-e-mt .o-que-e-mt-sabermais .book p, .page-o-que-e-mt .o-que-e-mt-sabermais .book span {
   font-weight: 400;
   font-size: var(--font-size-extrasmall);
   line-height: 17px;
@@ -3987,16 +4029,9 @@ footer .top a {
   color: #323B50;
 }
 
-.page-o-que-e-mt .o-que-e-mt-sabermais .book p a {
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 15px;
-  color: #323B50;
-}
-
 @media (max-width: 992px) {
-  .page-o-que-e-mt .o-que-e-mt-sabermais .book p a {
-    display: none;
+  .page-o-que-e-mt .o-que-e-mt-sabermais .book p, .page-o-que-e-mt .o-que-e-mt-sabermais .book span {
+    text-align: left;
   }
 }
 
@@ -4675,6 +4710,8 @@ footer .top a {
 @media (max-width: 992px) {
   .page-quem-somos .a-origem .mundo-melhor-topo {
     display: block;
+    -webkit-clip-path: ellipse(100% 100% at 50% 0%);
+            clip-path: ellipse(100% 100% at 50% 0%);
   }
 }
 
@@ -4688,6 +4725,8 @@ footer .top a {
   height: 100%;
   background: url(images/quem-somos/origem.png);
   background-size: cover;
+  -webkit-clip-path: ellipse(100% 100% at 100% 50%);
+          clip-path: ellipse(100% 100% at 100% 50%);
 }
 
 @media (max-width: 992px) {
@@ -5658,6 +5697,8 @@ footer .top a {
 @media (max-width: 992px) {
   .mundo-melhor .mundo-melhor-topo {
     display: block;
+    -webkit-clip-path: ellipse(100% 100% at 50% 0%);
+            clip-path: ellipse(100% 100% at 50% 0%);
   }
 }
 
@@ -5671,6 +5712,8 @@ footer .top a {
   height: 100%;
   background: url(images/mundo-melhor/mundo-melhor-bg.png);
   background-size: cover;
+  -webkit-clip-path: ellipse(100% 100% at 100% 50%);
+          clip-path: ellipse(100% 100% at 100% 50%);
 }
 
 @media (max-width: 992px) {
@@ -5775,7 +5818,7 @@ footer .top a {
   margin-bottom: 40px;
   font-weight: 300;
   font-size: var(--font-size-large);
-  line-height: 64px;
+  line-height: 54px;
   letter-spacing: -0.02em;
   color: #323B50;
   text-align: center;
@@ -5842,50 +5885,29 @@ footer .top a {
   margin: 70px 0 60px 0;
 }
 
-.mt-unica-depoimentos .carousel-control-prev-icon {
-  background: url("images/mt-unica/prev.png") top center no-repeat;
-  width: 24px;
-  height: 44px;
-}
-
 @media (max-width: 992px) {
-  .mt-unica-depoimentos .carousel-control-prev-icon {
-    width: 8px;
-    height: 18px;
-    background-size: cover;
+  .mt-unica-depoimentos {
+    margin: 50px 0 40px 0;
   }
 }
 
-.mt-unica-depoimentos .carousel-control-next-icon {
-  background: url("images/mt-unica/next.png") top center no-repeat;
-  width: 24px;
-  height: 44px;
-}
-
-@media (max-width: 992px) {
-  .mt-unica-depoimentos .carousel-control-next-icon {
-    width: 8px;
-    height: 18px;
-    background-size: cover;
-  }
-}
-
-.mt-unica-depoimentos .carousel-indicators {
+.mt-unica-depoimentos .swiper-pagination {
   margin-bottom: 0;
 }
 
-.mt-unica-depoimentos .carousel-indicators [data-bs-target] {
+.mt-unica-depoimentos .swiper-pagination .swiper-pagination-bullet {
   width: 8px;
   height: 8px;
   border-radius: 100%;
   margin-right: 6px;
   margin-left: 6px;
-  background-color: #E2E2E2;
+  background: #E2E2E2;
   border: 0;
+  opacity: 1;
 }
 
 @media (max-width: 992px) {
-  .mt-unica-depoimentos .carousel-indicators [data-bs-target] {
+  .mt-unica-depoimentos .swiper-pagination .swiper-pagination-bullet {
     height: 6px;
     width: 8px;
     margin-right: 4px;
@@ -5893,13 +5915,29 @@ footer .top a {
   }
 }
 
+.mt-unica-depoimentos .swiper-pagination .swiper-pagination-bullet-active {
+  background: #959595;
+  opacity: 1;
+}
+
+@media (max-width: 992px) {
+  .mt-unica-depoimentos .swiper-button-next:after, .mt-unica-depoimentos .swiper-button-prev:after {
+    font-size: var(--font-size-small);
+  }
+}
+
+.mt-unica-depoimentos .swiper-button-prev, .mt-unica-depoimentos .swiper-button-next {
+  color: #D4E2F4;
+}
+
 .mt-unica-depoimentos .depoimento {
   margin-bottom: 65px;
+  cursor: pointer;
 }
 
 @media (max-width: 992px) {
   .mt-unica-depoimentos .depoimento {
-    margin-bottom: 25px;
+    margin-bottom: 45px;
   }
 }
 
@@ -5920,7 +5958,7 @@ footer .top a {
   .mt-unica-depoimentos .depoimento p {
     font-size: var(--font-size-extrasmall);
     line-height: 18px;
-    max-width: 85%;
+    max-width: 75%;
     margin-bottom: 18px;
   }
 }
@@ -5967,7 +6005,7 @@ footer .top a {
   }
 }
 
-.mt-unica-slide .carousel-inner::after {
+.mt-unica-slide .swiper-wrapper::after {
   content: '';
   position: absolute;
   height: 485px;
@@ -5980,23 +6018,25 @@ footer .top a {
   right: 0;
 }
 
-.mt-unica-slide .carousel-item {
+.mt-unica-slide .swiper-slide {
   height: 485px;
+  cursor: pointer;
+  position: relative;
 }
 
 @media (max-width: 992px) {
-  .mt-unica-slide .carousel-item {
+  .mt-unica-slide .swiper-slide {
     height: 280px;
   }
 }
 
 @media (max-width: 380px) {
-  .mt-unica-slide .carousel-item {
+  .mt-unica-slide .swiper-slide {
     height: 300px;
   }
 }
 
-.mt-unica-slide .carousel-item img {
+.mt-unica-slide .swiper-slide img {
   -o-object-fit: cover;
      object-fit: cover;
   position: relative;
@@ -6004,72 +6044,74 @@ footer .top a {
 }
 
 @media (max-width: 992px) {
-  .mt-unica-slide .carousel-item img {
+  .mt-unica-slide .swiper-slide img {
     height: 280px;
   }
 }
 
 @media (max-width: 380px) {
-  .mt-unica-slide .carousel-item img {
+  .mt-unica-slide .swiper-slide img {
     height: 300px;
   }
 }
 
-.mt-unica-slide .carousel-item .img-1 {
+.mt-unica-slide .swiper-slide .img-1 {
   -o-object-position: 42%;
      object-position: 42%;
 }
 
-.mt-unica-slide .carousel-item .img-2 {
+.mt-unica-slide .swiper-slide .img-2 {
   -o-object-position: 33%;
      object-position: 33%;
 }
 
-.mt-unica-slide .carousel-item .img-3 {
+.mt-unica-slide .swiper-slide .img-3 {
   -o-object-position: 38%;
      object-position: 38%;
 }
 
-.mt-unica-slide .carousel-item .img-4 {
+.mt-unica-slide .swiper-slide .img-4 {
   -o-object-position: 32%;
      object-position: 32%;
 }
 
-.mt-unica-slide .carousel-item .img-5 {
+.mt-unica-slide .swiper-slide .img-5 {
   -o-object-position: 37%;
      object-position: 37%;
 }
 
-.mt-unica-slide .carousel-item .img-6 {
+.mt-unica-slide .swiper-slide .img-6 {
   -o-object-position: 40%;
      object-position: 40%;
 }
 
-.mt-unica-slide .carousel-control-prev-icon {
-  background: url("images/mt-unica/icon-prev.png") top center no-repeat;
-  width: 24px;
-  height: 44px;
-}
-
 @media (max-width: 992px) {
-  .mt-unica-slide .carousel-control-prev-icon {
-    width: 7.96px;
-    height: 14.93px;
-    background-size: cover;
+  .mt-unica-slide .swiper-button-next:after, .mt-unica-slide .swiper-button-prev:after {
+    font-size: var(--font-size-small);
   }
 }
 
-.mt-unica-slide .carousel-control-next-icon {
-  background: url("images/mt-unica/icon-next.png") top center no-repeat;
-  width: 24px;
-  height: 44px;
+.mt-unica-slide .swiper-button-prev, .mt-unica-slide .swiper-button-next {
+  color: #FFC536;
+}
+
+.mt-unica-slide .swiper-button-next {
+  right: 80px;
 }
 
 @media (max-width: 992px) {
-  .mt-unica-slide .carousel-control-next-icon {
-    width: 7.96px;
-    height: 14.93px;
-    background-size: cover;
+  .mt-unica-slide .swiper-button-next {
+    right: 15px;
+  }
+}
+
+.mt-unica-slide .swiper-button-prev {
+  left: 80px;
+}
+
+@media (max-width: 992px) {
+  .mt-unica-slide .swiper-button-prev {
+    left: 15px;
   }
 }
 
@@ -6182,16 +6224,19 @@ footer .top a {
   font-size: var(--font-size-small);
   line-height: 30px;
   color: #323B50;
+  max-width: 620px;
+  margin: 0 auto;
   margin-bottom: 45px;
 }
 
 @media (max-width: 992px) {
   .mt-unica p {
+    max-width: 100%;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -6306,6 +6351,21 @@ footer .top a {
     line-height: 35px;
     letter-spacing: -0.02em;
     margin-left: 0;
+  }
+}
+
+.mt-unica .row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(620px, 1fr) minmax(500px, 500px);
+      grid-template-columns: minmax(620px, 1fr) minmax(500px, 500px);
+}
+
+@media (max-width: 992px) {
+  .mt-unica .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 

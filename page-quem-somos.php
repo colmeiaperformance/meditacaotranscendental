@@ -12,7 +12,6 @@
       <h2>Nosso propósito é criar uma sociedade mais <strong>pacífica e iluminada</strong> em todo o mundo, através do <strong>pleno desenvolvimento</strong> de cada indivíduo.</h2>
     </div>
   </section>
-  
   <section class="sobre-nos">
     <div class="container">
       <h2>Sobre <strong>nós</strong></h2>
@@ -31,78 +30,70 @@
         <p>Parte do investimento no curso da MT é destinado a esses projetos, que cumprem o nosso propósito de promover a paz mundial.</p>
         <!-- <p><strong>Conheça alguns projetos da MT no mundo:</strong></p> -->
       </div>
-
       <div class="row">
-      <div class="col-12">
-     
-       <div id="oquedizem" class="swiper swiperOQueDizem" data-bs-ride="carousel">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="container">
-                <div class="carousel-caption">
-                  <div class="carousel-content d-flex align-items-center text-center justify-content-around">
-                    <div class="card-lateral col-10 col-lg-12">
-                      <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/IFNBlY-kR3A"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                      </iframe>
-                      <div
-                        class="video-text d-flex justify-content-center text-center align-items-center px-2">
-                        <p>
-                         Flávio Canto conta como a MT revolucionou o projeto social Reação, que beneficia crianças e jovens em situação de vulnerabilidade social.
-                        </p>
+        <div class="col-12">
+          <div id="oquedizem" class="swiper swiperOQueDizem" data-bs-ride="carousel">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <div class="carousel-content d-flex align-items-center text-center justify-content-around">
+                      <div class="card-lateral col-10 col-lg-12">
+                        <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/IFNBlY-kR3A"
+                          title="YouTube video player" frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen>
+                        </iframe>
+                        <div
+                          class="video-text d-flex justify-content-center text-center align-items-center px-2">
+                          <p>
+                             Flávio Canto conta como a MT revolucionou o projeto social Reação, que beneficia crianças e jovens em situação de vulnerabilidade social.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <div class="carousel-content d-flex align-items-center text-center justify-content-around">
+                      <div class="card-lateral col-10 col-lg-12">
+                        <iframe class="yt-video" width="490" height="300" src="https://www.youtube.com/embed/8k4Goges6YQ?list=PLc9SPDSftwJNStbGDtHbtESva05S4aBWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="video-text d-flex justify-content-center text-center align-items-center">
+                          <p>
+                            Entenda como a MT ajuda a diminuir a violência entre crianças e adolescentes e a melhorar o desempenho escolar. 
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <div class="carousel-content d-flex align-items-center text-center justify-content-around">
+                      <div class="card-lateral col-10 col-lg-12">
+                        <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/C3Co0PNcmMM?list=PLc9SPDSftwJNStbGDtHbtESva05S4aBWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div
+                          class="video-text d-flex justify-content-center text-center align-items-center px-2">
+                          <p>
+                            A MT pode realmente produzir paz na sociedade? Conheça o “Efeito Maharishi”, uma descoberta científica capaz de mudar o mundo.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
-            <div class="swiper-slide">
-              <div class="container">
-                <div class="carousel-caption">
-                  <div class="carousel-content d-flex align-items-center text-center justify-content-around">
-                    <div class="card-lateral col-10 col-lg-12">
-                      <iframe class="yt-video" width="490" height="300" src="https://www.youtube.com/embed/8k4Goges6YQ?list=PLc9SPDSftwJNStbGDtHbtESva05S4aBWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                      <div class="video-text d-flex justify-content-center text-center align-items-center">
-                        <p>
-                        Entenda como a MT ajuda a diminuir a violência entre crianças e adolescentes e a melhorar o desempenho escolar. 
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="container">
-                <div class="carousel-caption">
-                  <div class="carousel-content d-flex align-items-center text-center justify-content-around">
-                    <div class="card-lateral col-10 col-lg-12">
-                      <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/C3Co0PNcmMM?list=PLc9SPDSftwJNStbGDtHbtESva05S4aBWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                      <div
-                        class="video-text d-flex justify-content-center text-center align-items-center px-2">
-                        <p>
-                        A MT pode realmente produzir paz na sociedade? Conheça o “Efeito Maharishi”, uma descoberta científica capaz de mudar o mundo.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
           </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-        </div> 
-
+        </div>
       </div>
-
-    </div>
     </div>
   </section>
   <section class="a-origem position-relative">
@@ -126,45 +117,68 @@
   </section>
   <section class="organizacoes">
     <div class="container">
-      <div class="head mx-lg-5 px-lg-5">
-        <h2><strong>Organizações MT</strong> no mundo</h2>
-        <p>A Meditação Transcendental é amplamente difundida e possui seus benefícios propagados por meio de diversas organizações em todo o mundo.</p>
+    <div class="head mx-lg-5 px-lg-5">
+      <h2><strong>Organizações MT</strong> no mundo</h2>
+      <p>A Meditação Transcendental é amplamente difundida e possui seus benefícios propagados por meio de diversas organizações em todo o mundo.</p>
+    </div>
+    <div id="organizacoes" class="swiper swiperOrganizacoes" data-bs-ride="carousel">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="container">
+            <!-- <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/quem-somos/Maharishi_International_University_logo.png' ?>" alt="MIU - Maharishi International University"> -->
+            <h5>
+              <stromg>
+              MIU - Maharishi International University</strong>
+            </h5>
+            <p>Fundada por Maharishi Mahesh Yogi, em 1971, em Iowa (EUA), é uma universidade que trabalha a educação superior com base na Consciência do Ser. O propósito da instituição é ajudar os alunos a desenvolverem um autoconhecimento profundo enquanto estudam o campo acadêmico de sua escolha. Oferece diversos cursos de graduação e pós-graduação.</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="container">
+            <h5>
+              <stromg>
+              MERU - Maharishi European Research University</strong>
+            </h5>
+            <p>Fundada em 1975, na Suíça, por Maharishi Mahesh Yogi, para promover pesquisas sobre a Consciência. Em 1984, a MERU comprou um campus em uma floresta nacional perto de Vlodrop, na Holanda, onde Maharishi passou os últimos 18 anos de sua vida. É a sede da administração das organizações de MT e um anfitrião de cursos e retiros para as comunidades globais e locais. Sua missão é levar o conhecimento atemporal da Consciência a todos – para uma sociedade mais saudável, vibrante e pacífica. 
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="container">
+            <h5>
+              <stromg>
+              UMLAC - Universidade Maharishi da América Latina e Caribe</strong>
+            </h5>
+            <p>A UMLAC oferece cursos de graduação, pós-graduação e Ph.D, especialmente na área da Saúde, tendo a Educação Baseada na Consciência como princípio fundamental para despertar o pleno potencial de criatividade, de inteligência e de felicidade em todos os estudantes e, assim, formar indivíduos para sociedades mais pacíficas e equilibradas. 
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="container">
+            <h5>
+              <stromg>
+              MII - Maharishi Invincibility Institute - África do Sul</strong>
+            </h5>
+            <p>Principal provedor de educação e treinamento privado sem fins lucrativos da África do Sul, a MII segue a metodologia da Educação Baseada na Consciência, incluindo a MT, para desenvolver o pleno potencial de cada aluno e com um modelo inovador de acesso à educação de ponta, com taxa de 95% de colocação profissional.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="container">
+            <h5>
+              <stromg>
+              David Lynch Foundationl</strong>
+            </h5>
+            <p>Principal provedor de educação e treinamento privado sem fins lucrativos da África do Sul, a MII segue a metodologia da Educação Baseada na Consciência, incluindo a MT, para desenvolver o pleno potencial de cada aluno e com um modelo inovador de acesso à educação de ponta, com taxa de 95% de colocação profissional.
+            </p>
+          </div>
+        </div>
       </div>
-
-      <div id="organizacoes" class="swiper swiperOrganizacoes" data-bs-ride="carousel">
-          <div class="swiper-wrapper">
-
-          <div class="swiper-slide">
-            <div class="container">
-              <!-- <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/quem-somos/Maharishi_International_University_logo.png' ?>" alt="MIU - Maharishi International University"> -->
-              <h5><stromg>MIU - Maharishi International University</strong></h5>
-              <p>Fundada por Maharishi Mahesh Yogi, em 1971, em Iowa (EUA), é uma universidade que trabalha a educação superior com base na Consciência do Ser. O propósito da instituição é ajudar os alunos a desenvolverem um autoconhecimento profundo enquanto estudam o campo acadêmico de sua escolha. Oferece diversos cursos de graduação e pós-graduação.</p>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="container">
-              <!-- <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/quem-somos/Maharishi_International_University_logo.png' ?>" alt="MIU - Maharishi International University"> -->
-              <h5><stromg>MIU - Maharishi International University</strong></h5>
-              <p>Fundada por Maharishi Mahesh Yogi, em 1971, em Iowa (EUA), é uma universidade que trabalha a educação superior com base na Consciência do Ser. O propósito da instituição é ajudar os alunos a desenvolverem um autoconhecimento profundo enquanto estudam o campo acadêmico de sua escolha. Oferece diversos cursos de graduação e pós-graduação.</p>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="container">
-              <!-- <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/quem-somos/Maharishi_International_University_logo.png' ?>" alt="MIU - Maharishi International University"> -->
-              <h5><stromg>MIU - Maharishi International University</strong></h5>
-              <p>Fundada por Maharishi Mahesh Yogi, em 1971, em Iowa (EUA), é uma universidade que trabalha a educação superior com base na Consciência do Ser. O propósito da instituição é ajudar os alunos a desenvolverem um autoconhecimento profundo enquanto estudam o campo acadêmico de sua escolha. Oferece diversos cursos de graduação e pós-graduação.</p>
-          </div>
-          </div>
-
-          </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-          </div>
-          
- </section>    
-   <section class="legado position-relative">
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </section>
+  <section class="legado position-relative">
     <div class="aprenda-mt-investir-topo">
       <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/quem-somos/legado-mobile.png' ?>" alt="Investir">
     </div>
@@ -187,8 +201,8 @@
     <div class="container">
       <h2>Faça parte da criação de um <span>mundo melhor</span>, <strong>para você e para todos</strong>.</h2>
       <div class="text-center">
-        <a href="<?php echo home_url( '/eventos/' ); ?>" class="btn" role="button">
-          Pratique a MT
+        <a href="<?php echo home_url( '/agendamento/' ); ?>" class="btn" role="button">
+        Pratique a MT
         </a>
       </div>
     </div>
