@@ -1046,7 +1046,7 @@ footer .top a {
 
 .page-aprenda-mt .agende-mt p {
   font-weight: 400;
-  font-size: var(--font-size-regular);
+  font-size: var(--font-size-small);
   line-height: 30px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -1251,7 +1251,7 @@ footer .top a {
 
 .page-aprenda-mt .aprenda-mt-footer p {
   font-weight: 400;
-  font-size: var(--font-size-regular);
+  font-size: var(--font-size-small);
   line-height: 35px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -1846,7 +1846,7 @@ footer .top a {
 
 .page-aprenda-mt .mt-curso h3 {
   font-weight: 400;
-  font-size: var(--font-size-regular);
+  font-size: var(--font-size-small);
   line-height: 35px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -1869,7 +1869,7 @@ footer .top a {
 
 .page-aprenda-mt .mt-curso p {
   font-weight: 400;
-  font-size: var(--font-size-regular);
+  font-size: var(--font-size-small);
   line-height: 28px;
   color: #323B50;
   max-width: 1000px;
@@ -3555,7 +3555,7 @@ footer .top a {
 
 .page-o-que-e-mt .o-que-e-mt-hero p {
   font-weight: 400;
-  font-size: var(--font-size-regular);
+  font-size: var(--font-size-small);
   line-height: 31px;
   color: #323B50;
   margin-bottom: 0;
@@ -4090,7 +4090,7 @@ footer .top a {
 
 .page-o-que-e-mt .o-que-e-mt-footer p {
   font-weight: 400;
-  font-size: var(--font-size-medium);
+  font-size: var(--font-size-small);
   line-height: 35px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -5575,7 +5575,7 @@ footer .top a {
 
 .conheca-beneficios .box h4 {
   font-weight: 500;
-  font-size: var(--font-size-regular);
+  font-size: var(--font-size-small);
   line-height: 30px;
   margin-bottom: 0;
   color: #323B50;
@@ -5642,7 +5642,7 @@ footer .top a {
 
 .conheca-beneficios .box .hover .btn {
   font-weight: 600;
-  font-size: var(--font-size-regular);
+  font-size: var(--font-size-small);
   line-height: var(--line-height-primary);
   color: #323B50;
 }

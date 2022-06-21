@@ -13,7 +13,7 @@
     }
     p { 
       font-weight: 400;
-      font-size: var(--font-size-regular);
+      font-size: var(--font-size-small);
       line-height: 31px;
       color: $color-secondary-dark;
       margin-bottom: 0;
@@ -432,7 +432,7 @@
       }
       p {
         font-weight: 400;
-        font-size: var(--font-size-medium);
+        font-size: var(--font-size-small);
         line-height: 35px;
         text-align: center;
         letter-spacing: -0.02em;

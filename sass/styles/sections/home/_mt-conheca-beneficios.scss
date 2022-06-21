@@ -156,7 +156,7 @@
     }
     h4 {
       font-weight: 500;
-      font-size: var(--font-size-regular);
+      font-size: var(--font-size-small);
       line-height: 30px;
       margin-bottom: 0;
       color: $color-secondary-dark;
@@ -203,7 +203,7 @@
       }
       .btn {
         font-weight: 600;
-        font-size: var(--font-size-regular);
+        font-size: var(--font-size-small);
         line-height: var(--line-height-primary);
         color: $color-secondary-dark;   
         &:hover {
