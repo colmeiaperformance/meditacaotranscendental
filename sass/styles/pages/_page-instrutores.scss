@@ -136,7 +136,7 @@
       border: 1px solid $color-primary-dark!important;
       border-radius: 30px!important;
       text-align: left!important;
-      background: $color-white url('images/instrutores/dropdown.png') !important;
+      background: $color-white url('images/instrutores/dropdown.png') center right no-repeat !important;
       &:active, &:focus {
         box-shadow: none!important;
       }

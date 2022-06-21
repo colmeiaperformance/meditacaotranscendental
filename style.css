@@ -3416,7 +3416,7 @@ footer .top a {
   border: 1px solid #F29F05 !important;
   border-radius: 30px !important;
   text-align: left !important;
-  background: #FFFFFF url("images/instrutores/dropdown.png") !important;
+  background: #FFFFFF url("images/instrutores/dropdown.png") center right no-repeat !important;
 }
 
 .page-instrutores .instrutores-selection .form-control:active, .page-instrutores .instrutores-selection .form-control:focus {
