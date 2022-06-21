@@ -3371,7 +3371,7 @@ footer .top a {
   color: #323B50 !important;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .page-instrutores .instrutores-selection .btn-remove {
     font-size: 14px !important;
     line-height: 16px !important;
@@ -3397,7 +3397,7 @@ footer .top a {
   color: #F29F05 !important;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .page-instrutores .instrutores-selection .btn-primary {
     font-size: 14px !important;
     line-height: 16px !important;
@@ -3431,7 +3431,7 @@ footer .top a {
           box-shadow: none !important;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .page-instrutores .instrutores-selection .form-control {
     font-size: var(--font-size-extrasmall) !important;
     line-height: 18px !important;
@@ -3439,6 +3439,10 @@ footer .top a {
     width: 90% !important;
     margin: 0 auto;
   }
+}
+
+.page-instrutores .instrutores-selection .mt_container {
+  max-width: 100% !important;
 }
 
 .page-instrutores .instrutores-carousel .swiper-button-prev {
