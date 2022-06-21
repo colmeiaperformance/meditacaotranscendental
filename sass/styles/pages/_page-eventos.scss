@@ -145,6 +145,9 @@
     .mt_filter.select::before {
       display: none;
     }
+    #mt_subscription_shortcode .mt_filter_options .mt_filter.select::before {
+      display: none;
+    }
     .mt_filter_options {
       @media (max-width: 768px) { 
         width: 90%;
