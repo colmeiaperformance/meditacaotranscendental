@@ -1005,6 +1005,29 @@ footer .top a {
   }
 }
 
+.page-eventos .mt_filter_options .mt_filter.select::before {
+  display: none !important;
+}
+
+.page-eventos .mt_filter.select::before {
+  display: none !important;
+}
+
+.page-eventos #mt_subscription_shortcode .mt_filter_options .mt_filter.select::before {
+  display: none !important;
+}
+
+.page-eventos #mt_subscription_shortcode .mt_filter_options .mt_filter.select::before, .page-eventos #mt_employees_shortcode .mt_filter_options .mt_filter.select::before {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .page-eventos .mt_filter_options {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
 .page-eventos .mt_filter .btn-remove {
   font-weight: 700 !important;
   font-size: var(--font-size-small) !important;
@@ -1052,29 +1075,6 @@ footer .top a {
     font-size: 14px !important;
     line-height: 16px !important;
     margin: 0 auto !important;
-  }
-}
-
-.page-eventos .mt_filter .mt_filter_options .mt_filter.select::before {
-  display: none !important;
-}
-
-.page-eventos .mt_filter .mt_filter.select::before {
-  display: none !important;
-}
-
-.page-eventos .mt_filter #mt_subscription_shortcode .mt_filter_options .mt_filter.select::before {
-  display: none !important;
-}
-
-.page-eventos .mt_filter #mt_subscription_shortcode .mt_filter_options .mt_filter.select::before, .page-eventos .mt_filter #mt_employees_shortcode .mt_filter_options .mt_filter.select::before {
-  display: none !important;
-}
-
-@media (max-width: 768px) {
-  .page-eventos .mt_filter .mt_filter_options {
-    width: 90%;
-    margin: 0 auto;
   }
 }
 
