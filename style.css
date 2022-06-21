@@ -3516,7 +3516,6 @@ footer .top a {
 .page-instrutores .instrutores-carousel .box:hover {
   width: 220px;
   height: 220px;
-  zoom: 1.1;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
