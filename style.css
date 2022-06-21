@@ -3406,6 +3406,10 @@ footer .top a {
   }
 }
 
+.page-instrutores .instrutores-selection .mt_filter.select::before {
+  display: none;
+}
+
 .page-instrutores .instrutores-selection .form-control {
   width: 100%;
   font-weight: 500 !important;

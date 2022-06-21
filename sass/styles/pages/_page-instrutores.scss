@@ -126,6 +126,9 @@
         margin: 0 auto;
       }
     }
+    .mt_filter.select::before {
+      display: none;
+    }
     .form-control {
       width: 100%;
       font-weight: 500!important;
