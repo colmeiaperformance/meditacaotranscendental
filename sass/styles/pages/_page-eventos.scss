@@ -96,6 +96,14 @@
     }
   }
   
+  #_form_4_ input[type="text"] {
+    color: $color-primary-dark !important;
+  }
+  
+  #_form_4_  input[type="text"]:disabled {
+    color: $color-grey-bullets!important;
+  }
+  
   .mt_filter_options .mt_filter.select::before {
     display: none!important;
   }

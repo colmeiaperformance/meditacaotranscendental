@@ -1005,6 +1005,14 @@ footer .top a {
   }
 }
 
+.page-eventos #_form_4_ input[type="text"] {
+  color: #F29F05 !important;
+}
+
+.page-eventos #_form_4_ input[type="text"]:disabled {
+  color: #959595 !important;
+}
+
 .page-eventos .mt_filter_options .mt_filter.select::before {
   display: none !important;
 }
