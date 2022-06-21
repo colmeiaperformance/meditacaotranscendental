@@ -85,45 +85,45 @@
       margin-bottom: 45px;
     }
     .btn-remove {
-      font-weight: 700;
-      font-size: var(--font-size-small);
-      line-height: var(--line-height-primary);
-      color: $color-white;
-      padding: 9px 31px;
-      background: $color-secondary-dark;
-      border: 1px solid $color-secondary-dark;
-      border-radius: 30px;
-      width: 100%;
+      font-weight: 700!important;
+      font-size: var(--font-size-small)!important;
+      line-height: var(--line-height-primary)!important;
+      color: $color-white!important;
+      padding: 9px 31px!important;
+      background: $color-secondary-dark!important;
+      border: 1px solid $color-secondary-dark!important;
+      border-radius: 30px!important;
+      width: 100%!important;
       &:hover {
         background: transparent!important;
         color: $color-secondary-dark!important;
       }
       @media (max-width: 992px) {
-        font-size: 14px;
-        line-height: 16px;
-        width: 90%;
-        margin: 0 auto;
+        font-size: 14px!important;
+        line-height: 16px!important;
+        width: 90%!important;
+        margin: 0 auto!important;
       }
     }
     .btn-primary {
-      font-weight: 700;
-      font-size: var(--font-size-small);
-      line-height: var(--line-height-primary);
-      color: $color-white;
-      padding: 9px 31px;
-      background: $color-primary-dark;
-      border: 1px solid $color-primary-dark;
-      border-radius: 30px;
-      width: 100%;
+      font-weight: 700!important;
+      font-size: var(--font-size-small)!important;
+      line-height: var(--line-height-primary)!important;
+      color: $color-white!important;
+      padding: 9px 31px!important;
+      background: $color-primary-dark!important;
+      border: 1px solid $color-primary-dark!important;
+      border-radius: 30px!important;
+      width: 100%!important;
       &:hover {
         background: transparent!important;
         color: $color-primary-dark!important;
       }
       @media (max-width: 992px) {
-        font-size: 14px;
-        line-height: 16px;
-        width: 90%;
-        margin: 0 auto;
+        font-size: 14px !important;
+        line-height: 16px!important;
+        width: 90%!important;
+        margin: 0 auto!important;
       }
     }
     .mt_filter.select::before {
