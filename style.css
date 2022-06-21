@@ -1055,6 +1055,10 @@ footer .top a {
   }
 }
 
+.page-eventos .mt_filter .mt_filter_options .mt_filter.select::before {
+  display: none;
+}
+
 .page-eventos .mt_filter .mt_filter.select::before {
   display: none;
 }

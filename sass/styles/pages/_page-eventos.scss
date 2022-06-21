@@ -139,6 +139,9 @@
         margin: 0 auto!important;
       }
     }
+    .mt_filter_options .mt_filter.select::before {
+      display: none;
+    }
     .mt_filter.select::before {
       display: none;
     }
