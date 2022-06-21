@@ -3375,7 +3375,6 @@ footer .top a {
   .page-instrutores .instrutores-selection .btn-remove {
     font-size: 14px !important;
     line-height: 16px !important;
-    width: 90% !important;
     margin: 0 auto !important;
   }
 }
@@ -3401,13 +3400,19 @@ footer .top a {
   .page-instrutores .instrutores-selection .btn-primary {
     font-size: 14px !important;
     line-height: 16px !important;
-    width: 90% !important;
     margin: 0 auto !important;
   }
 }
 
 .page-instrutores .instrutores-selection .mt_filter.select::before {
   display: none;
+}
+
+@media (max-width: 768px) {
+  .page-instrutores .instrutores-selection .mt_filter_options {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 .page-instrutores .instrutores-selection .form-control {
@@ -3436,7 +3441,6 @@ footer .top a {
     font-size: var(--font-size-extrasmall) !important;
     line-height: 18px !important;
     padding: 7px 17px !important;
-    width: 90% !important;
     margin: 0 auto;
   }
 }
