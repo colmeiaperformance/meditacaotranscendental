@@ -1067,6 +1067,10 @@ footer .top a {
   display: none !important;
 }
 
+.page-eventos .mt_filter #mt_subscription_shortcode .mt_filter_options .mt_filter.select::before, .page-eventos .mt_filter #mt_employees_shortcode .mt_filter_options .mt_filter.select::before {
+  display: none !important;
+}
+
 @media (max-width: 768px) {
   .page-eventos .mt_filter .mt_filter_options {
     width: 90%;

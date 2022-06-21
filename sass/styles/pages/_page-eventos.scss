@@ -148,6 +148,9 @@
     #mt_subscription_shortcode .mt_filter_options .mt_filter.select::before {
       display: none!important;
     }
+    #mt_subscription_shortcode .mt_filter_options .mt_filter.select::before, #mt_employees_shortcode .mt_filter_options .mt_filter.select::before {
+      display: none!important;
+    }
     .mt_filter_options {
       @media (max-width: 768px) { 
         width: 90%;
