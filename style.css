@@ -3227,6 +3227,8 @@ footer .top a {
   letter-spacing: -0.02em;
   margin-bottom: 0;
   color: #323B50;
+  max-width: 1044px;
+  margin: 0 auto;
 }
 
 .page-instrutores .instrutores-header p strong {
@@ -3315,11 +3317,6 @@ footer .top a {
   border: 1px solid #F29F05;
   border-radius: 30px;
   width: 100%;
-}
-
-.page-instrutores .instrutores-selection button:hover {
-  background: transparent;
-  color: #F29F05;
 }
 
 @media (max-width: 992px) {
