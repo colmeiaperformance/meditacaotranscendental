@@ -1056,15 +1056,15 @@ footer .top a {
 }
 
 .page-eventos .mt_filter .mt_filter_options .mt_filter.select::before {
-  display: none;
+  display: none !important;
 }
 
 .page-eventos .mt_filter .mt_filter.select::before {
-  display: none;
+  display: none !important;
 }
 
 .page-eventos .mt_filter #mt_subscription_shortcode .mt_filter_options .mt_filter.select::before {
-  display: none;
+  display: none !important;
 }
 
 @media (max-width: 768px) {
