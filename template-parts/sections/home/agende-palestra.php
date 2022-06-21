@@ -28,7 +28,7 @@
       <div class="col-6 col-md-3 d-flex align-items-center justify-content-center">
         <div class="circle yellow rounded-circle">
           <div class="d-block text-center px-2">
-            <h4>+<span class="counter">500</span></h4>
+            <h4>+<span class="counter">160</span></h4>
             <p>mil meditantes<br /> no Brasil</p>
           </div>
         </div>

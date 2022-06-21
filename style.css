@@ -793,6 +793,7 @@ footer .top a {
 .navbar .navbar-brand img {
   width: 100%;
   height: auto;
+  max-width: 256px;
 }
 
 @media (max-width: 576px) {
@@ -1782,6 +1783,16 @@ footer .top a {
   }
 }
 
+.page-aprenda-mt .tres-passos .passos-aprender .swiper-button-next, .page-aprenda-mt .tres-passos .passos-aprender .swiper-button-prev {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .page-aprenda-mt .tres-passos .passos-aprender .swiper-button-next, .page-aprenda-mt .tres-passos .passos-aprender .swiper-button-prev {
+    display: block;
+  }
+}
+
 .page-aprenda-mt .tres-passos .passos-aprender .swiper-button-prev {
   left: 0;
 }
@@ -2071,14 +2082,14 @@ footer .top a {
 .page-beneficios-mt .mt-faz ul li {
   font-weight: 400;
   font-size: var(--font-size-small);
-  line-height: 42px;
+  line-height: 32px;
   color: #FFFFFF;
 }
 
 @media (max-width: 992px) {
   .page-beneficios-mt .mt-faz ul li {
     font-size: var(--font-size-extrasmall);
-    line-height: 26px;
+    line-height: 14px;
     margin-bottom: 12px;
   }
 }
@@ -6213,11 +6224,14 @@ footer .top a {
   font-size: var(--font-size-small);
   line-height: 30px;
   color: #323B50;
+  max-width: 620px;
+  margin: 0 auto;
   margin-bottom: 45px;
 }
 
 @media (max-width: 992px) {
   .mt-unica p {
+    max-width: 100%;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
@@ -6337,6 +6351,21 @@ footer .top a {
     line-height: 35px;
     letter-spacing: -0.02em;
     margin-left: 0;
+  }
+}
+
+.mt-unica .row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(620px, 1fr) minmax(500px, 500px);
+      grid-template-columns: minmax(620px, 1fr) minmax(500px, 500px);
+}
+
+@media (max-width: 992px) {
+  .mt-unica .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 

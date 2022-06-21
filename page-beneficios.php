@@ -241,7 +241,7 @@
                           src=<?php echo get_template_directory_uri() . '/images/beneficios-mt/line.png' ?>
                           alt="Linha">
                       </div>
-                      <p>Um estudo mediu o lactato plasmático (hormônio relacionado à hipertensão) de pessoas durante a prática da MT e mostrou uma redução significativa da substância no sangue. Depois de 3 a 4 meses de prática, a pressão arterial das pessoas estudadas manteve-se em níveis saudáveis. 
+                      <p>Uma meta-análise com 107 estudos, mostra que a prática da MT tem efeitos significativos na redução da pressão arterial sanguínea, em comparação com aplicação de outras técnicas não farmacológicas. 
                       </p>
                     </div>
                     <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-end p-0 mb-4 mb-lg-0 order-1 order-lg-2">
@@ -447,7 +447,7 @@
           <div class="swiper-button-prev"></div>
         </div>
         <div class="text-center">
-          <a href="<?php echo home_url( '/instrutores/' ); ?>" class="btn">Encontre um instrutor perto de você</a>
+          <a href="<?php echo home_url( '/agendamento/' ); ?>" class="btn">Agende uma palestra gratuita </a>
         </div>
       </div>
     </div>

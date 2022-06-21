@@ -569,12 +569,19 @@
           line-height: var(--line-height-primary);
           color: $color-white;
           margin-bottom: 0;
-          @media (max-width: 992px)  {
+          @media (max-width: 992px) {
             font-size: var(--font-size-extrasmall);
             line-height: 18px;
           }
         }
       }
+      .swiper-button-next, .swiper-button-prev {
+        display: none;
+        @media (max-width: 992px) {
+          display: block;
+        }
+      }
+      
       .swiper-button-prev {
         left: 0;
       }

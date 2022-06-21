@@ -212,7 +212,7 @@
           </div>
           <div class="swiper-slide">
             <div class="swiper-mobile">
-              <iframe class="yt-video" width="280" height="200" src="https://youtu.be/rvF2rYZZegg"
+              <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/rvF2rYZZegg"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
@@ -265,7 +265,7 @@
     var swiper = new Swiper(".swiperMudouVida", {
       slidesPerView: 1,
       slidesPerGroup: 1,
-      loop: false,
+      loop: true,
       spaceBetween: 10,
       grabCursor: true,
       pagination: {
@@ -354,12 +354,8 @@
     var swiper = new Swiper(".passosSwiper", {
       slidesPerView: 1,
       slidesPerGroup: 1,
-      loop: true,
+      loop: false,
       spaceBetween: 0,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',

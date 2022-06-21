@@ -121,12 +121,12 @@
               </div>
             </div>
 
-            <!-- <div class="swiper-slide">
+            <div class="swiper-slide">
               <div class="container">
                 <div class="carousel-caption">
                   <div class="carousel-content d-flex align-items-center text-center justify-content-around">
                     <div class="card-lateral col-10 col-lg-12">
-                      <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/eo_8ew1SqLQ"
+                      <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/ipjzNre_ANU"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
@@ -141,7 +141,7 @@
                   </div>
                 </div>
               </div>
-            </div> -->
+            </div>
 
           </div>
           <div class="swiper-button-next"></div>
@@ -154,7 +154,9 @@
     </div>
     <div class="row mt-4 mt-lg-5">
       <div class="col-12 text-center">
-        <a class="btn px-4" href="<?php echo home_url( '/instrutores/' ); ?>" role="button">Encontre um instrutor credenciado</a>
+        <a class="btn px-4" href="<?php echo home_url( '/agendamento/' ); ?>" role="button">
+          Agende sua participação
+        </a>
       </div>
     </div>
 
