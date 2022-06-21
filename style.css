@@ -1025,6 +1025,14 @@ footer .top a {
   }
 }
 
+@media (max-width: 768px) {
+  .page-eventos #_form_4_ button[type="submit"] {
+    font-size: 14px !important;
+    line-height: 16px !important;
+    margin: 0 auto !important;
+  }
+}
+
 .page-eventos #_form_4_ input[type="text"]:disabled {
   color: #959595 !important;
 }

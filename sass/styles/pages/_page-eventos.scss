@@ -113,6 +113,13 @@
       margin: 0 auto;
     }
   }
+  #_form_4_ button[type="submit"] {
+    @media (max-width: 768px) {
+      font-size: 14px !important;
+      line-height: 16px !important;
+      margin: 0 auto !important;
+    }
+  }
   
   #_form_4_  input[type="text"]:disabled {
     color: $color-grey-bullets!important;
