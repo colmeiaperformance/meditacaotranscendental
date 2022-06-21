@@ -139,12 +139,12 @@
       border: 1px solid $color-primary-dark!important;
       border-radius: 30px!important;
       text-align: left!important;
-      background: $color-white url('images/instrutores/dropdown.png') center right no-repeat !important;
+      background: url('images/instrutores/dropdown.png')!important;
+      background-position: right 0.75rem center!important;
+      background-color: #fff!important;
+      background-repeat: no-repeat!important;
       &:active, &:focus {
         box-shadow: none!important;
-      }
-      &:before {
-        content: ''!important;
       }
       @media (max-width: 992px) {
         font-size: var(--font-size-extrasmall)!important;
