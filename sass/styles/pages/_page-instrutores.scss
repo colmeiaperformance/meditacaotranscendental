@@ -84,7 +84,28 @@
     @media (max-width: 992px)  {
       margin-bottom: 45px;
     }
-    button {
+    .btn-remove {
+      font-weight: 700;
+      font-size: var(--font-size-small);
+      line-height: var(--line-height-primary);
+      color: $color-white;
+      padding: 9px 31px;
+      background: $color-secondary-dark;
+      border: 1px solid $color-secondary-dark;
+      border-radius: 30px;
+      width: 100%;
+      &:hover {
+        background: transparent!important;
+        color: $color-secondary-dark!important;
+      }
+      @media (max-width: 992px) {
+        font-size: 14px;
+        line-height: 16px;
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+    .btn-primary {
       font-weight: 700;
       font-size: var(--font-size-small);
       line-height: var(--line-height-primary);
@@ -94,10 +115,10 @@
       border: 1px solid $color-primary-dark;
       border-radius: 30px;
       width: 100%;
-      // &:hover {
-      //   background: transparent;
-      //   color: $color-primary-dark;
-      // }
+      &:hover {
+        background: transparent!important;
+        color: $color-primary-dark!important;
+      }
       @media (max-width: 992px) {
         font-size: 14px;
         line-height: 16px;
