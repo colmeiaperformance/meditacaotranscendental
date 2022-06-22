@@ -3455,7 +3455,7 @@ footer .top a {
 
 .page-instrutores .instrutores-selection .btn-remove {
   font-weight: 700 !important;
-  font-size: var(--font-size-small) !important;
+  font-size: var(--font-size-extrasmall) !important;
   line-height: var(--line-height-primary) !important;
   color: #FFFFFF !important;
   padding: 9px 31px !important;
@@ -3480,7 +3480,7 @@ footer .top a {
 
 .page-instrutores .instrutores-selection .btn-primary {
   font-weight: 700 !important;
-  font-size: var(--font-size-small) !important;
+  font-size: var(--font-size-extrasmall) !important;
   line-height: var(--line-height-primary) !important;
   color: #FFFFFF !important;
   padding: 9px 31px !important;
@@ -3517,7 +3517,7 @@ footer .top a {
 .page-instrutores .instrutores-selection .form-control {
   width: 100%;
   font-weight: 500 !important;
-  font-size: var(--font-size-small) !important;
+  font-size: var(--font-size-extrasmall) !important;
   line-height: var(--line-height-primary) !important;
   color: #F29F05 !important;
   padding: 9px 31px !important;
