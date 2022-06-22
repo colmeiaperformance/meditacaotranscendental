@@ -1186,7 +1186,7 @@ footer .top a {
 }
 
 .page-aprenda-mt .agende-mt .text {
-  max-width: 920px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -1198,7 +1198,7 @@ footer .top a {
   letter-spacing: -0.02em;
   color: #323B50;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 
 @media (max-width: 992px) {
@@ -2323,7 +2323,7 @@ footer .top a {
 
 @media (max-width: 992px) {
   .page-beneficios-mt .beneficios-info .info p {
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-extrasmall);
     line-height: 18px;
     text-align: left;
   }
@@ -2604,7 +2604,7 @@ footer .top a {
 
 .page-beneficios-mt .ciencia .box h4 {
   font-weight: 600;
-  font-size: var(--font-size-regular);
+  font-size: var(--font-size-small);
   line-height: 22px;
   color: #323B50;
 }
@@ -3367,7 +3367,7 @@ footer .top a {
 
 .page-instrutores .instrutores-header p {
   font-weight: 400;
-  font-size: 24px;
+  font-size: var(--font-size-small);
   line-height: 28px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -4563,7 +4563,7 @@ footer .top a {
 
 .page-quem-somos .hero h2 {
   font-weight: 400;
-  font-size: var(--font-size-regular);
+  font-size: var(--font-size-small);
   line-height: 31px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -5099,7 +5099,7 @@ footer .top a {
 
 .page-quem-somos .organizacoes .head p {
   font-weight: 300;
-  font-size: var(--font-size-regular);
+  font-size: var(--font-size-small);
   line-height: 35px;
   text-align: center;
   color: #323B50;
@@ -5189,7 +5189,7 @@ footer .top a {
 
 .page-quem-somos .footer h2 {
   font-weight: 300;
-  font-size: var(--font-size-regular);
+  font-size: var(--font-size-small);
   line-height: 30px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -5197,6 +5197,7 @@ footer .top a {
   max-width: 530px;
   margin: 0 auto;
   margin-bottom: 33px;
+  max-width: 400px;
 }
 
 @media (max-width: 992px) {
@@ -5538,7 +5539,7 @@ footer .top a {
 }
 
 .como-aprender .text-call p {
-  font-size: var(--font-size-regular);
+  font-size: var(--font-size-small);
   font-weight: 400;
 }
 
@@ -5761,7 +5762,7 @@ footer .top a {
 }
 
 .conheca-beneficios .box h4 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: var(--font-size-small);
   line-height: 30px;
   margin-bottom: 0;
@@ -6413,7 +6414,7 @@ footer .top a {
   color: #323B50;
   max-width: 620px;
   margin: 0 auto;
-  margin-bottom: 45px;
+  margin-bottom: 24px;
 }
 
 @media (max-width: 992px) {
