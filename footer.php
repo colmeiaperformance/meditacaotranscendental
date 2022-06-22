@@ -52,12 +52,12 @@
           </div>
         <ul class="list-unstyled d-flex align-items-center justify-content-center justify-content-lg-start">
           <li>
-            <a href="<?php home_url(); ?>">
+            <a href="https://pt-br.facebook.com/meditacaotranscendentaloficial/">
               <img loading="lazy" src=<?php echo get_template_directory_uri() . '/images/footer/icon-facebook.png' ?> alt="Facebook">  
             </a>
           </li>
           <li>
-            <a href="<?php home_url(); ?>">
+            <a href="https://www.instagram.com/meditacaotranscendentaloficial/">
               <img loading="lazy" src=<?php echo get_template_directory_uri() . '/images/footer/icon-instagram.png' ?> alt="Instagram">  
             </a>
           </li>
