@@ -1007,7 +1007,7 @@ footer .top a {
 
 .page-eventos input[type="text"], .page-eventos #_form_4_ ._form_element input[type="text"] {
   font-weight: 500 !important;
-  font-size: var(--font-size-small) !important;
+  font-size: var(--font-size-extrasmall) !important;
   line-height: var(--line-height-primary) !important;
   color: #F29F05 !important;
   padding: 9px 31px !important;
