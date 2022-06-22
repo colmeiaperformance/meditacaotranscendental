@@ -105,7 +105,7 @@
     border: 1px solid $color-primary-dark!important;
     border-radius: 30px!important;
     text-align: left!important;
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {
       font-size: var(--font-size-extrasmall)!important;
       line-height: 18px!important;
       padding: 7px 17px!important;
@@ -114,7 +114,7 @@
     }
   }
   #_form_4_ button[type="submit"] {
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {
       font-size: 14px !important;
       line-height: 16px !important;
       margin: 0 auto !important;
@@ -128,7 +128,7 @@
   
   #_form_4_ ._form-title {
     color: $color-secondary-dark!important;
-    @media (max-width: 768px)  {
+    @media (max-width: 992px)  {
       font-size: 14px!important;
       line-height: 16px!important;
     }
@@ -147,7 +147,7 @@
     display: none!important;
   }
   .mt_filter_options {
-    @media (max-width: 768px) { 
+    @media (max-width: 992px) { 
       width: 90%;
       margin: 0 auto;
     }
@@ -167,7 +167,7 @@
         background: transparent!important;
         color: $color-secondary-dark!important;
       }
-      @media (max-width: 768px) {
+      @media (max-width: 992px) {
         font-size: 14px!important;
         line-height: 16px!important;
         // width: 90%!important;
@@ -188,7 +188,7 @@
         background: transparent!important;
         color: $color-primary-dark!important;
       }
-      @media (max-width: 768px) {
+      @media (max-width: 992px) {
         font-size: 14px !important;
         line-height: 16px!important;
         // width: 90%!important;
@@ -212,7 +212,7 @@
       &:active, &:focus {
         box-shadow: none!important;
       }
-      @media (max-width: 768px) {
+      @media (max-width: 992px) {
         font-size: var(--font-size-extrasmall)!important;
         line-height: 18px!important;
         padding: 7px 17px!important;

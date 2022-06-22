@@ -1016,7 +1016,7 @@ footer .top a {
   text-align: left !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .page-eventos input[type="text"], .page-eventos #_form_4_ ._form_element input[type="text"] {
     font-size: var(--font-size-extrasmall) !important;
     line-height: 18px !important;
@@ -1025,7 +1025,7 @@ footer .top a {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .page-eventos #_form_4_ button[type="submit"] {
     font-size: 14px !important;
     line-height: 16px !important;
@@ -1042,7 +1042,7 @@ footer .top a {
   color: #323B50 !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .page-eventos #_form_4_ ._form-title {
     font-size: 14px !important;
     line-height: 16px !important;
@@ -1065,7 +1065,7 @@ footer .top a {
   display: none !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .page-eventos .mt_filter_options {
     width: 90%;
     margin: 0 auto;
@@ -1089,7 +1089,7 @@ footer .top a {
   color: #323B50 !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .page-eventos .mt_filter .btn-remove {
     font-size: 14px !important;
     line-height: 16px !important;
@@ -1114,7 +1114,7 @@ footer .top a {
   color: #F29F05 !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .page-eventos .mt_filter .btn-primary {
     font-size: 14px !important;
     line-height: 16px !important;
@@ -1143,7 +1143,7 @@ footer .top a {
           box-shadow: none !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .page-eventos .mt_filter .form-control {
     font-size: var(--font-size-extrasmall) !important;
     line-height: 18px !important;
