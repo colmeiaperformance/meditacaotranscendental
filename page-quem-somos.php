@@ -167,7 +167,7 @@
           <div class="container">
             <h5>
               <stromg>
-              David Lynch Foundationl</strong>
+              David Lynch Foundation</strong>
             </h5>
             <p>Principal provedor de educação e treinamento privado sem fins lucrativos da África do Sul, a MII segue a metodologia da Educação Baseada na Consciência, incluindo a MT, para desenvolver o pleno potencial de cada aluno e com um modelo inovador de acesso à educação de ponta, com taxa de 95% de colocação profissional.
             </p>
