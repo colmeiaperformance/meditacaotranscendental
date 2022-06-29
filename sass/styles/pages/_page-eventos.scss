@@ -133,6 +133,10 @@
       line-height: 16px!important;
     }
   }
+
+  .mt_event_details_subscriptions .mt_column.phone::before {
+    height: 43px!important;
+  }
   
   .mt_filter_options .mt_filter.select::before {
     display: none!important;
