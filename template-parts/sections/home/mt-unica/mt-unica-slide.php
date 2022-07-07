@@ -83,7 +83,7 @@
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
   </div>
-  <a class="btn btn-mobile" href="https://meditacaotranscendental.com.br/mt-onde-voce-esta-2022/">Participe da palestra gratuita</a>
+  <a class="btn btn-mobile" href="<?php echo home_url( '/agendamento/' ); ?>">Participe da palestra gratuita</a>
 </section>
 
 <script>
