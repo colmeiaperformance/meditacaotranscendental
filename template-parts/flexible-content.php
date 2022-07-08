@@ -19,7 +19,7 @@ if (have_rows('content')):
 <?php get_template_part('template-parts/sections/home/mt-unica/mt-unica-slide'); ?>
 
 <?php
-    // Section: Home - MT Unica - Depoimentos.
+    // Section: Home - MT Unica - Depoimentos. ACF OK - Fazer pagination
     elseif (get_row_layout() == 'mt_unica_depoimentos'): ?>
 <?php get_template_part('template-parts/sections/home/mt-unica/mt-unica-depoimentos'); ?>
 
@@ -84,7 +84,7 @@ endif;
 <?php // get_template_part('template-parts/sections/home/mt-unica/mt-unica');
 ?>
 <?php //get_template_part('template-parts/sections/home/mt-unica/mt-unica-slide'); ?>
-<?php get_template_part('template-parts/sections/home/mt-unica/mt-unica-depoimentos'); ?>
+<?php // get_template_part('template-parts/sections/home/mt-unica/mt-unica-depoimentos'); ?>
 <?php get_template_part('template-parts/sections/home/conheca-beneficios'); ?>
 <?php get_template_part('template-parts/sections/home/como-aprender'); ?>
 <?php get_template_part('template-parts/sections/pages/o-que-dizem'); ?>
