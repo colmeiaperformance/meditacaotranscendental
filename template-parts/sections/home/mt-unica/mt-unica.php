@@ -27,8 +27,7 @@ $descricao_mtu = get_sub_field('descricao_mtu');
 
       <div class="mt-unica-title d-lg-flex justify-content-left align-items-lg-end justify-content-lg-center">
         <h2>
-          <img loading="lazy" src=<?php if ( $logo_mtu ) { echo $logo_mtu; } ?>
-            alt="mt.">
+          <img loading="lazy" src=<?php if ( $logo_mtu ) { echo $logo_mtu; } ?> alt="mt.">
         </h2>
         <h3><?php if ($descricao_mtu) { echo $descricao_mtu; } ?></h3>
       </div>
