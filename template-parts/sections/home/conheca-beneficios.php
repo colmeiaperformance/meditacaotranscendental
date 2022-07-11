@@ -5,7 +5,7 @@ $citacao_bmt = get_sub_field('citacao_bmt');
 $autor_bmt = get_sub_field('autor_bmt');
 $cor_de_fundo_bmt = get_sub_field('cor_de_fundo_bmt');
 ?>
-<section class="conheca-beneficios">
+<section class="conheca-beneficios" style="background-color: <?php if ( $cor_de_fundo_bmt ) { echo $cor_de_fundo_bmt; } else { echo ''; } ?>;">
   <div class="container">
     <h2><?php if ( $titulo_bmt ) { echo $titulo_bmt; } else { echo ''; } ?></h2>
     <div class="row align-items-center justify-content-center">
