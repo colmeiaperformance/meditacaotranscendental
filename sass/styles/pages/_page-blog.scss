@@ -1,3 +1,227 @@
-.page-blog {
+.page-blog{
+    border-bottom: 32px solid $color-primary-dark;
+    padding-bottom: 72px;
+    .blog-spotlight {
+      margin-bottom: 45px;
+      article {
+        height: 485px;
+        margin-bottom: 0;
+        border: 0;
+        @media (max-width: 991.98px) {
+          height: 350px;
+        }
+        .spotlight-image {
+          height: 485px;
+          @media (max-width: 991.98px) {
+            height: 350px;
+          }
+          &::before {
+            content: '';
+            position: absolute;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 90.1%);
+            height: 100%;
+            width: 100%;
+          }
+        }
+        .spotilight-content {
+          padding-left: 38px;
+          padding-bottom: 45px;
+          padding-right: 38px;
+        }
+        h2 {
+          color: $color-white;
+          font-weight: 700;
+          font-size: 28.4845px;
+          line-height: 35px;
+          margin-bottom: 15px;
+          @media (max-width: 991.98px) {
+            font-size: calc(1.325rem + .9vw);
+            line-height: 1.2;
+            margin-bottom: 5px;
+          }
+          a {
+            color: $color-white;
+            &:hover {
+              opacity: 0.7;
+            }
+          }
+        }
+        p {
+          font-weight: 400;
+          font-size: 14.7017px;
+          line-height: 18px;
+          margin-bottom: 0;
+          @media (max-width: 991.98px) {
+            line-height: 1.2;
+            font-size: 13.5px;
+          }
+        }
+      }
+      .swiper-button-prev {
+        left: 30px;
+        @media (max-width: 991.98px)  {
+          left: 12px;
+        }
+        &:after {
+          background: url('images/blog/prev.png') top center no-repeat;
+          width: 26px;
+          height: 43px;
+          content: '';
+          @media (max-width: 991.98px) {
+            background: url('images/blog/prev-m.png') top center no-repeat;
+            width: 7.5px;
+            height: 15px;
+            background-size: cover;
+          }
+        }
+      }
+      .swiper-button-next{
+        right: 30px;
+        @media (max-width: 991.98px)  {
+          right: 12px;
+        }
+        &:after {
+          background: url('images/blog/next.png') top center no-repeat;
+          width: 26px;
+          height: 43px;
+          content: '';
+          @media (max-width: 991.98px) {
+            background: url('images/blog/next-m.png') top center no-repeat;
+            width: 7.5px;
+            height: 15px;
+            background-size: cover;
+          }
+        }
+      }
+      .swiper-pagination-bullet {
+        background-color: $grey-pagination;
+        opacity: 1;
+        width: 13px;
+        height: 13px;
+        margin: 0 11px;
+        @media (max-width: 991.98px)  {
+          width: 6px;
+          height: 6px;
+          margin: 0 4.5px;
+        }
+        &-active {
+          background-color: $color-primary-dark;
+        }
+      }
+    }
+    .latest-posts {
+      .pagination {
+        justify-content: left!important;
+        margin-top: 55px;
+        .page-empty {
+          color: $color-primary-dark;
+          padding: 13px 23px;
+          border: 0.25px solid $grey-pagination;
+          border-left: 0;
+          @media (max-width: 991.98px) {
+            padding: 6.5px 12.5px;
+          }
+        }
+        .page-link {
+          color:  $color-primary-dark;
+          padding: 13px 23px;
+          border: 0.25px solid $grey-pagination;
+          @media (max-width: 991.98px) {
+            padding: 6.5px 12.5px;
+          }
+          &:focus {
+            outline: none;
+            box-shadow: none;
+          }
+        }
+        .page-item {
+          &:first-child {
+            .page-link {
+              border-radius: 10px 0 0 10px;
+            }
+            @media (max-width: 991.98px)  {
+              display: none;
+            }
+          }
+          &:last-child {
+            .page-link {
+              border-radius: 0 10px 10px 0;
+            }
+            @media (max-width: 991.98px)  {
+              display: none;
+            }
+          }
+        }
+        .page-item.active  {
+          .page-link {
+            background-color: $color-primary-dark;
+            border-color: $color-primary-dark;
+            color: $color-white;
+          }
+        }
+      }
+      article {
+        padding-bottom: 45px;
+        margin-bottom: 45px;
+        border-bottom: 2px solid $grey-pagination;
+        @media (max-width: 991.98px) {
+          border-bottom: 0;
+          padding-bottom: 0;
+        }
+        .featurette-image {
+          filter: brightness(0.6);
+        }
+        h3 {
+          transition: all .3s ease;
+          font-weight: 700;
+          font-size: 27px;
+          line-height: 33px;
+          color:$color-primary-dark;
+          margin-bottom: 20px;
+          @media (max-width: 991.98px) {
+            font-size: calc(1.3rem + .6vw);
+            line-height: 1.2;
+          }
+          &:hover {
+            color: $grey-menu-link;
+          }
+        }
+        p {
+          font-weight: 400;
+          font-size: 14.7032px;
+          line-height: 18px;
+          color:$color-primary-dark;
+          margin-bottom: 0;
+        }
+        .btn {
+          background: $color-primary-dark;
+          color: $color-white;
+          border: 1px solid $color-primary-dark;
+          font-weight: 600;
+          font-size: 10.3186px;
+          line-height: 13px;
+          padding: 7px 10px;
+          margin-top: 25px;
+          border-radius: 0px;
+          &:hover {
+            background: transparent;
+            color: $color-primary-dark;
+            border: 1px solid $color-primary-dark;
+          }
+        }
+      }
+      h2 {
+        font-weight: 700;
+        font-size: 31px;
+        line-height: 38px;
+        text-align: center;
+        color: $color-grey-dark;
+        margin-bottom: 55px;
+        @media (max-width: 991.98px)  {
+          font-size: calc(1.325rem + .9vw);
+          line-height: 1.2;
+        }
+      }
+    }
+  }
   
-}
