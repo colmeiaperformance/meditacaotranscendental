@@ -42,6 +42,7 @@ jQuery(document).ready(function() {
     slidesPerView: 1,
     slidesPerGroup: 1,
     loop: true,
+    loopedSlides: 0,
     spaceBetween: 0,
     autoplay: {
       delay: 3000,
