@@ -59,7 +59,7 @@
           <?php
             $paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
             $args = array(
-                'posts_per_page' => 1,
+                'posts_per_page' => 4,
                 'paged' => $paged,
             );
             $wp_query = new WP_Query( $args );   
