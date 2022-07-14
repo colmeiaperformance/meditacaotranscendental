@@ -115,16 +115,16 @@
       .page-empty {
         color: $color-primary-dark;
         padding: 13px 23px;
-        border: 0.25px solid #ccc;
+        border: 0.25px solid $color-secondary-dark;
         border-left: 0;
         @media (max-width: 991.98px) {
           padding: 6.5px 12.5px;
         }
       }
       .page-link {
-        color:  $color-primary-dark;
+        color: $color-secondary-medium;
         padding: 13px 23px;
-        border: 0.25px solid #ccc;
+        border: 0.25px solid $color-secondary-dark;
         @media (max-width: 991.98px) {
           padding: 6.5px 12.5px;
         }
@@ -153,7 +153,7 @@
       }
       .page-item.active  {
         .page-link {
-          background-color: $color-primary-dark;
+          background-color: $color-secondary-medium;
           border-color: $color-primary-dark;
           color: $color-white;
         }

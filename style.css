@@ -3651,7 +3651,7 @@ footer .top a {
 .page-blog .latest-posts .pagination .page-empty {
   color: #F29F05;
   padding: 13px 23px;
-  border: 0.25px solid #ccc;
+  border: 0.25px solid #323B50;
   border-left: 0;
 }
 
@@ -3662,9 +3662,9 @@ footer .top a {
 }
 
 .page-blog .latest-posts .pagination .page-link {
-  color: #F29F05;
+  color: #7896C1;
   padding: 13px 23px;
-  border: 0.25px solid #ccc;
+  border: 0.25px solid #323B50;
 }
 
 @media (max-width: 991.98px) {
@@ -3700,7 +3700,7 @@ footer .top a {
 }
 
 .page-blog .latest-posts .pagination .page-item.active .page-link {
-  background-color: #F29F05;
+  background-color: #7896C1;
   border-color: #F29F05;
   color: #FFFFFF;
 }
