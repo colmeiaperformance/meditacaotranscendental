@@ -12,6 +12,7 @@
   <div class="container position-relative overflow-hidden">
     <div class="col p-lg-5 text-center">
       <h1>Blog</h1>
+      <h2>Últimos posts</h2>
     </div>
   </div>
 </header>
