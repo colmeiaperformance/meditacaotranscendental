@@ -13,25 +13,7 @@
         'excerpt_length' => 123,
         'thumbnail_width' => 100,
 				'thumbnail_height' => 100,
-        'post_html' => '<li class="list-group-item position-relative d-flex"><div>{thumb_img}</div><div><h3><a href="{url}" class="stretched-link">{title}</a></h3><p>{summary}</p><span>{stats}</span></div></li>'));
-      } ?>
+        'post_html' => '<li>{thumb} {title} <span class="wpp-excerpt">{summary}</span></li>'
+      ));
+} ?>
 </div>
- <!-- <div class="most-popular">
-    <h4 class="underline">Artigos mais lidos</h4>
-  <ul class="list-group">
-      <li class="list-group-item position-relative"> 
-        <h3><a href="#" class="stretched-link">Lorem ipsum dolor sit amet, consectetur</a></h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-        <span>Por: Admin - 01 de Março de 2022</span>
-      </li>
-       <li class="list-group-item position-relative"> 
-        <h3><a href="#" class="stretched-link">Lorem ipsum dolor sit amet, consectetur</a></h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-        <span>Por: Admin - 01 de Março de 2022</span>
-      </li>
-       <li class="list-group-item position-relative"> 
-        <h3><a href="#" linkclass="stretched-link">Lorem ipsum dolor sit amet, consectetur</a></h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-        <span>Por: Admin - 01 de Março de 2022</span>
-      </li>
-    </ul>  -->
