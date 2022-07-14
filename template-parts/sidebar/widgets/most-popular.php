@@ -9,10 +9,12 @@ if ( function_exists('wpp_get_mostpopular') ) { ?>
         'order_by' => 'views',
         'post_type' => 'post',
         'stats_date' => 1,
+        'stats_views ' => 0,
+        'stats_author' => 1,
         'excerpt_length' => 123,
         'thumbnail_width' => 100,
 				'thumbnail_height' => 100,
-        'post_html' => '<ul class="list-group"><li class="list-group-item position-relative d-flex"><div>{thumb_img}</div><div><h3><a href="{url}" class="stretched-link">{title}</a></h3><p>{summary}</p><span>{stats}</span> </div></li>'    ));
+        'post_html' => '<ul class="list-group"><li class="list-group-item position-relative d-flex"><div>{thumb_img}</div><div><h3><a href="{url}" class="stretched-link">{title}</a></h3><p>{summary}</p><span>{stats}</span> </div></li>'));
 }
 ?>
 </div>
