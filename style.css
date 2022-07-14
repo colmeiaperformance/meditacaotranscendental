@@ -3651,7 +3651,7 @@ footer .top a {
 .page-blog .latest-posts .pagination .page-empty {
   color: #F29F05;
   padding: 13px 23px;
-  border: 0.25px solid #323B50;
+  border: 0.25px solid #C4C4C4;
   border-left: 0;
 }
 
@@ -3701,14 +3701,14 @@ footer .top a {
 
 .page-blog .latest-posts .pagination .page-item.active .page-link {
   background-color: #7896C1;
-  border-color: #F29F05;
+  border-color: #7896C1;
   color: #FFFFFF;
 }
 
 .page-blog .latest-posts article {
   padding-bottom: 45px;
   margin-bottom: 45px;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid #FFC536;
 }
 
 @media (max-width: 991.98px) {
@@ -3729,7 +3729,7 @@ footer .top a {
   font-weight: 700;
   font-size: 27px;
   line-height: 33px;
-  color: #F29F05;
+  color: #323B50;
   margin-bottom: 20px;
 }
 
@@ -3741,14 +3741,14 @@ footer .top a {
 }
 
 .page-blog .latest-posts article h3:hover {
-  color: #ccc;
+  opacity: 0.7;
 }
 
 .page-blog .latest-posts article p {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 14.7032px;
   line-height: 18px;
-  color: #F29F05;
+  color: #323B50;
   margin-bottom: 0;
 }
 

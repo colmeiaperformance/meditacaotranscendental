@@ -82,7 +82,7 @@
                 <h3><?php the_title(); ?></h3>
               </a>
               <p class="lead"><?php the_excerpt(); ?></p>
-              <a href="<?php the_permalink(); ?>" class="btn text-uppercase">Leia Mais</a>
+              <a href="<?php the_permalink(); ?>" class="btn text-uppercase">Leia Mais...</a>
             </div>
           </article>
           <?php endwhile; ?>
