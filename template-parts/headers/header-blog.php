@@ -2,7 +2,7 @@
   <div class="container">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="<?php echo home_url(); ?>">Início</a></li>
         <li class="breadcrumb-item">Blog</li>
       </ol>
     </nav>
