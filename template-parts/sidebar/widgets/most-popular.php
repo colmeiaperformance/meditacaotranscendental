@@ -13,8 +13,8 @@
         'excerpt_length' => 123,
         'thumbnail_width' => 100,
 				'thumbnail_height' => 100,
-        'post_html' => '<ul class="list-group"><li class="list-group-item position-relative d-flex"><h3><a href="{url}" class="stretched-link">{title}</a></h3><p>{summary}</p><span>{stats}</span></li>'));
-} ?>
+        'post_html' => '<ul class="list-group"><li class="list-group-item position-relative d-flex"><div>{thumb_img}</div><div><h3><a href="{url}" class="stretched-link">{title}</a></h3><p>{summary}</p><span>{stats}</span></div></li></ul>'));
+      } ?>
 </div>
  <!-- <div class="most-popular">
     <h4 class="underline">Artigos mais lidos</h4>
