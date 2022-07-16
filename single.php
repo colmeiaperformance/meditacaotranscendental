@@ -13,9 +13,9 @@
 </section>
 <?php if (have_posts()) : ?>
 <?php while (have_posts()) : the_post(); ?>
-<header class="header--single pb-lg-0">
+<header class="header--single ">
   <div class="container position-relative overflow-hidden">
-    <div class="col py-lg-5 text-center pb-lg-4">
+    <div class="col">
       <h1><?php the_title(); ?></h1>
       <div class="d-flex align-items-center justify-content-left">
         <div class="avi"><?php echo get_avatar( get_the_author_meta('ID') , 92 ); ?></div>
@@ -67,7 +67,7 @@
             </div>
           </div>
         </article>
-        <?php get_template_part('template-parts/sections/author'); ?>
+        <?php get_template_part('template-parts/author'); ?>
           <?php endwhile; wp_reset_postdata(); ?>   
             <?php else : ?>
               <?php _e( 'Sorry, no posts matched your criteria.' ); ?>
