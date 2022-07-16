@@ -893,7 +893,7 @@ footer .top a {
 
 .navbar {
   background-color: #FFC536;
-  z-index: 111111;
+  z-index: 99900;
 }
 
 .navbar .nav-link.active {
