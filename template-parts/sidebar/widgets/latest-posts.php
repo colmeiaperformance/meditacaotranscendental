@@ -5,7 +5,7 @@
     <?php while($query->have_posts()) : $query->the_post(); ?>
     <li class="list-group-item position-relative d-flex align-items-center jistufy-content-left">
       <div class="d-grid bd-placeholder-img img-fluid rounded-100"
-        style="height:70px;width:70px;border-radius:100%;border: 1px solid #FF702E;margin-right: 18px;background-image:url('<?php 
+        style="height:70px;width:70px;border-radius:100%;border: 1px solid  #FFC536;margin-right: 18px;background-image:url('<?php 
           if ( has_post_thumbnail() ) { 
           echo the_post_thumbnail_url();
           }
