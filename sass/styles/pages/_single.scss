@@ -14,27 +14,20 @@
       }
       img {
         max-width: 844px;
-        width: 100%;
       }
       p {
         color: $color-secondary-dark;
         img {
           max-width: 844px;
+        }
+        img.size-full {
           width: 100%;
         }
-        img.aligncenter.size-large {
-          height: auto;
-          max-width: 844px;
-          width: 100%;
-        }
-        img.alignleft.size-medium {
+        img.alignleft{
           float: left;
-          max-width: 844px;
-          margin-right: 30px;
         }
-        img.size-medium.alignright {
+        img.alignright {
           float: right;
-          margin-left: 30px;
         }
         img.alignleft.size-thumbnail {
           float: left;

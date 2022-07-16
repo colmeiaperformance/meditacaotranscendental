@@ -6517,7 +6517,6 @@ footer .top a {
 
 .single article .post-content img {
   max-width: 844px;
-  width: 100%;
 }
 
 .single article .post-content p {
@@ -6526,24 +6525,18 @@ footer .top a {
 
 .single article .post-content p img {
   max-width: 844px;
+}
+
+.single article .post-content p img.size-full {
   width: 100%;
 }
 
-.single article .post-content p img.aligncenter.size-large {
-  height: auto;
-  max-width: 844px;
-  width: 100%;
-}
-
-.single article .post-content p img.alignleft.size-medium {
+.single article .post-content p img.alignleft {
   float: left;
-  max-width: 844px;
-  margin-right: 30px;
 }
 
-.single article .post-content p img.size-medium.alignright {
+.single article .post-content p img.alignright {
   float: right;
-  margin-left: 30px;
 }
 
 .single article .post-content p img.alignleft.size-thumbnail {
