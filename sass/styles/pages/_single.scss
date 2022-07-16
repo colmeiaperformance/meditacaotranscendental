@@ -14,11 +14,13 @@
       }
       img {
         max-width: 844px;
+        width: 100%;
       }
       p {
         color: $color-secondary-dark;
         img {
           max-width: 844px;
+          width: 100%;
         }
         img.aligncenter.size-large {
           height: auto;
@@ -64,6 +66,7 @@
       .wp-caption {
         width: 100%!important;
         max-width: 844px;
+        width: 100%;
         p {
           font-weight: 400;
           font-size: 11px;

@@ -6517,6 +6517,7 @@ footer .top a {
 
 .single article .post-content img {
   max-width: 844px;
+  width: 100%;
 }
 
 .single article .post-content p {
@@ -6525,6 +6526,7 @@ footer .top a {
 
 .single article .post-content p img {
   max-width: 844px;
+  width: 100%;
 }
 
 .single article .post-content p img.aligncenter.size-large {
@@ -6581,6 +6583,7 @@ footer .top a {
 .single article .post-content .wp-caption {
   width: 100% !important;
   max-width: 844px;
+  width: 100%;
 }
 
 .single article .post-content .wp-caption p {
