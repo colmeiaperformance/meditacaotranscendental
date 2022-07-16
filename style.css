@@ -6515,6 +6515,10 @@ footer .top a {
   }
 }
 
+.single article .post-content img {
+  max-width: 844px;
+}
+
 .single article .post-content p {
   color: #323B50;
 }
