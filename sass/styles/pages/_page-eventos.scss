@@ -134,9 +134,10 @@
     }
   }
 
-  .mt_event_details_subscriptions .mt_column.phone::before {
-    height: 43px!important;
-  }
+  //Isso está sendo controlado pelo SASS do plugin
+  // .mt_event_details_subscriptions .mt_column.phone::before {
+  //   height: 43px!important;
+  // }
   
   .mt_filter_options .mt_filter.select::before {
     display: none!important;
