@@ -1,5 +1,5 @@
   <div class="topics">
-    <h4>Editorias</h4>
+    <h4>Explore Topics</h4>
     <ul class="topics-list">
       <?php wp_list_categories( array(
         'title_li'    => '',
