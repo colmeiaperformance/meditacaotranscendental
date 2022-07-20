@@ -248,18 +248,20 @@
         border-bottom: 1px solid $color-primary-medium;
         padding-bottom: 25px;
         margin-top: 35px;
+        padding-left: 25px;
         @media (max-width: 991.98px)  {
           margin-top: 20px;
           padding-bottom: 20px;
+          padding-left: 20px;
           border-bottom: 1px solid $color-line-grey;
         }
-        &::before {
-          content: '';
-          background: url(images/sidebar/chevron-right.svg) center center no-repeat;
-          width: 9.23px;
-          height: 9.23px;
-          margin-right: 15px;
-        }
+        // &::before {
+        //   content: '';
+        //   background: url(images/sidebar/chevron-right.svg) center center no-repeat;
+        //   width: 9.23px;
+        //   height: 9.23px;
+        //   margin-right: 15px;
+        // }
         a {
           font-weight: 600;
           font-size: 0.98rem;
@@ -280,8 +282,9 @@
     }
   }
   .newsletter {
-    background: $color-primary-medium url("images/newsletter/newsletter-bg.png") center left no-repeat;
+    background:  $color-primary-medium url('images/single/line-post.png') center right no-repeat;
     padding: 20px;
+    background-size: auto;
     @media (max-width: 991.98px) {
       background: $color-primary-medium;
     }
