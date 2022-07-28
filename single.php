@@ -43,12 +43,12 @@
           </div>
          <div class="post-content">
             <?php the_content(' '); ?>
-            <div class="post-like">
+            <!-- <div class="post-like">
               <p>Esse artigo foi útil?</p> 
               <div>
                 <a href="/">Sim</a> <a href="/">Não</a>
               </div>
-            </div>
+            </div> -->
          </div>
           <div class="post-footer">
             <div class="tags d-flex align-items-center justify-content-start">
@@ -67,7 +67,8 @@
             </div>
           </div>
         </article>
-        <?php get_template_part('template-parts/author'); ?>
+        <?php // get_template_part('template-parts/author'); ?>
+          <?php wpb_set_post_views( get_the_ID() ); ?>
           <?php endwhile; wp_reset_postdata(); ?>   
             <?php else : ?>
               <?php _e( 'Sorry, no posts matched your criteria.' ); ?>
