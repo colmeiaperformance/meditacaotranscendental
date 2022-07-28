@@ -38,7 +38,7 @@
                   echo the_post_thumbnail();
               }
               else { 
-                  echo get_template_directory_uri() . '/images/blog-media.jpg';
+                  echo '';
                   } ?>
           </div>
          <div class="post-content">
