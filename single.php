@@ -68,7 +68,7 @@
           </div>
         </article>
         <?php // get_template_part('template-parts/author'); ?>
-          <?php wpb_set_post_views( get_the_ID() ); ?>
+          
           <?php endwhile; wp_reset_postdata(); ?>   
             <?php else : ?>
               <?php _e( 'Sorry, no posts matched your criteria.' ); ?>
