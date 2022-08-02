@@ -88,7 +88,7 @@
       border: 0;
       margin-bottom: 40px;
       padding-bottom: 25px;
-      border-bottom: 1px solid $color-primary-dark;
+      border-bottom: 1px solid $color-white;
       &:nth-last-child(1) {
         border-bottom: 0;
         margin-bottom: 0;
@@ -120,6 +120,9 @@
         line-height: 13px;       
         margin-bottom: 0;
         color: $color-secondary-dark;
+      }
+      .wpp-post-title, p, .wpp-author a {
+        color: $color-white;
       }
     }
   }

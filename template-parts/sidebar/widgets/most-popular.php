@@ -4,15 +4,15 @@
     <?php
     wpp_get_mostpopular(array(
         'limit'     => 3,
-        'order_by' => 'views',
-        'post_type' => 'post',
+        'range' => 'last30days',
         'stats_date' => 1,
         'stats_views ' => 0,
         'stats_author' => 1,
         'excerpt_length' => 123,
         'thumbnail_width' => 100,
 				'thumbnail_height' => 100,
-        'post_html' => '<li class="list-group-item position-relative d-flex">{thumb_img}<div><h3><a href="{url}" class="stretched-link">{title}</a></h3><p>{summary}</p><span>{stats}</span></div></li>'));
+        'post_html' => '<ul class="list-group"><li class="list-group-item position-relative d-flex">{thumb}<div><h3><a href="{url}" class="stretched-link">{title}</a></h3><p>{summary}</p><span>{stats}</span></div></li></ul>'
+      ));
     } ?>
 </div>
  <!-- <div class="most-popular">
