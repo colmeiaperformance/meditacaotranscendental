@@ -8,9 +8,8 @@ $descricao_mtu = get_sub_field('descricao_mtu');
 ?>
 <section class="mt-unica">
   <div class="container">
-    <div class="row align-items-center justify-content-center">
-
-      <div class="col-12 col-lg-7">
+    <div class="row align-items-center justify-content-between">
+      <div class="p-lg-0 pe-lg-5">
         <?php if ($texto_mtu) { echo $texto_mtu; } ?>
       </div>
 
