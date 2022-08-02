@@ -219,6 +219,7 @@ function base_setup() {
         //Thumbnails ou miniaturas
         add_theme_support( 'post-thumbnails' );
         set_post_thumbnail_size( 1920, 9999 );
+        add_image_size( 'popular-posts-img', 100, 100 );
         
         //Logo customizado
         $logo_width  = 300;
