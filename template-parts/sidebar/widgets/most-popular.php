@@ -11,9 +11,8 @@
         'excerpt_length' => 123,
         'thumbnail_width' => 100,
 				'thumbnail_height' => 100,
-        'wpp_start' => '<ul class="list-group">',
-        'wpp_end' => '</ul>',
-        'post_html' => '<li class="list-group-item position-relative d-flex">{thumb}<div><h3><a href="{url}" class="stretched-link">{title}</a></h3><p>{summary}</p><span>{stats}</span></div></li>'));
+        'post_html' => '<ul class="list-group"><li class="list-group-item position-relative d-flex">{thumb}<div><h3><a href="{url}" class="stretched-link">{title}</a></h3><p>{summary}</p><span>{stats}</span></div></li></ul>'
+      ));
     } ?>
 </div>
  <!-- <div class="most-popular">
