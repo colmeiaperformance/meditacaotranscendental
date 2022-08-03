@@ -27,8 +27,8 @@
  #_form_12_._form-right { right:0; }
  #_form_12_ input[type="text"],#_form_12_ input[type="date"],#_form_12_ textarea { padding:6px; height:auto; border:#979797 1px solid; border-radius:4px; color:#000 !important; font-size:14px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
  #_form_12_ textarea { resize:none; }
- #_form_12_ ._submit { -webkit-appearance:none; cursor:pointer; font-family:arial, sans-serif; font-size:14px; text-align:center; background:#f29f05; border:0; -moz-border-radius:24px ; -webkit-border-radius:24px !important; border-radius:24px !important; color:#fff ; padding:4px 16px; }
- #_form_12_ ._submit:hover{background: #fff; color: #F29F05; border: 2px solid #F29F05; }
+ #_form_12_ ._submit { -webkit-appearance:none; cursor:pointer; font-family:arial, sans-serif; font-size:14px; text-align:center; background:#f29f05; border:0; -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; color:#fff ; padding:4px 16px; }
+ #_form_12_ ._submit:hover{background: #fff; color: #F29F05; border: 1px solid #F29F05; }
  #_form_12_ ._close-icon { cursor:pointer; background-image:url('https://d226aj4ao1t61q.cloudfront.net/esfkyjh1u_forms-close-dark.png'); background-repeat:no-repeat; background-size:14.2px 14.2px; position:absolute; display:block; top:11px; right:9px; overflow:hidden; width:16.2px; height:16.2px; }
  #_form_12_ ._close-icon:before { position:relative; }
  #_form_12_ ._form-body { margin-bottom:30px; }
@@ -134,7 +134,7 @@
       <div class="_form_element _x53803252 _full_width _clear" >
         <div class="_html-code">
           <p>
-            Lorem Ipsum Subscribers!
+            &nbsp;
           </p>
         </div>
       </div>
@@ -162,7 +162,7 @@
       <div class="_form_element _x53581023 _full_width _clear" >
         <div class="_html-code">
           <p>
-            Ao cadastrar, você aceitará nossas Política de Privacidade
+            Ao se cadastrar, você aceita nossa Política de Privacidade.
           </p>
         </div>
       </div>
