@@ -146,8 +146,8 @@
       li {
         border: 0;
         padding: 0 0 10px 0;
-        border-bottom: 1px solid $color-white;
-        margin-bottom: 20px;
+        border-bottom: 1px solid $color-white!important;
+        margin-bottom: 20px!important;
         background: transparent;
         background-color: transparent!important;
         &:nth-last-child(1) {
