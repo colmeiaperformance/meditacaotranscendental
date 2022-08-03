@@ -7,7 +7,7 @@
         'range' => 'last30days',
         'stats_date' => 1,
         'stats_views ' => 0,
-        'stats_author' => 1,
+        'stats_author' => 0,
         'excerpt_length' => 123,
         'thumbnail_width' => 100,
 				'thumbnail_height' => 100,
