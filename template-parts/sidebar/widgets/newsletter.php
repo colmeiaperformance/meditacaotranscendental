@@ -29,6 +29,7 @@
  #_form_12_ textarea { resize:none; }
  #_form_12_ ._submit { -webkit-appearance:none; cursor:pointer; font-family:arial, sans-serif; font-size:14px; text-align:center; background:#f29f05; border:0; -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; color:#fff ; padding:4px 16px; }
  #_form_12_ ._submit:hover{background: #fff; color: #F29F05; border: 1px solid #F29F05; }
+ #_form_12_ input::placeholder{ color: #FFC536; }
  #_form_12_ ._close-icon { cursor:pointer; background-image:url('https://d226aj4ao1t61q.cloudfront.net/esfkyjh1u_forms-close-dark.png'); background-repeat:no-repeat; background-size:14.2px 14.2px; position:absolute; display:block; top:11px; right:9px; overflow:hidden; width:16.2px; height:16.2px; }
  #_form_12_ ._close-icon:before { position:relative; }
  #_form_12_ ._form-body { margin-bottom:30px; }
