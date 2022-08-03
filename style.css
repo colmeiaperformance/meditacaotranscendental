@@ -1024,8 +1024,13 @@ footer .top a {
   border: 0 !important;
 }
 .sidebar .list-group-item a {
-  color: #FFFFFF;
   text-decoration: none;
+}
+.sidebar .list-group-item a.lastest-posts-link {
+  color: #323B50;
+}
+.sidebar .list-group-item a.most-popular-link {
+  color: #FFFFFF;
 }
 .sidebar .list-group-item a:hover {
   opacity: 0.7;

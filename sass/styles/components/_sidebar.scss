@@ -101,7 +101,12 @@
         }
       }
       a {
-        color: $color-white;
+        &.lastest-posts-link{
+          color: $color-secondary-dark;
+        }
+        &.most-popular-link{
+          color: $color-white;
+        }
         text-decoration: none;
         &:hover {
           opacity: 0.7;
