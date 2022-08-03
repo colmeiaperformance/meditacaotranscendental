@@ -57,6 +57,9 @@
   }
   .swiper-button-prev, .swiper-button-next {
     color: $color-secondary-light;
+  }
+  .swiper-pagination-bullet-active{
+    background: $color-grey-bullets;
   } 
   
   .depoimento {

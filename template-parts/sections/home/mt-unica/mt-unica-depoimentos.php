@@ -30,9 +30,9 @@ $depo_i = 0;
           ?>
 
       </div>
+      <div class="swiper-pagination"></div>
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
     </div>
   </div>
 </section>
@@ -49,7 +49,7 @@ jQuery(document).ready(function() {
     },
     pagination: {
       el: ".swiper-pagination",
-      clickable: true,
+      clickable: true
     },
     navigation: {
       nextEl: ".swiper-button-next",

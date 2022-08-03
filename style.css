@@ -5891,7 +5891,6 @@ footer .top a {
 }
 
 .conheca-beneficios {
-  background-color: #7896C1;
   padding-top: 70px;
   padding-bottom: 60px;
 }
@@ -6407,6 +6406,9 @@ footer .top a {
 }
 .mt-unica-depoimentos .swiper-button-prev, .mt-unica-depoimentos .swiper-button-next {
   color: #D4E2F4;
+}
+.mt-unica-depoimentos .swiper-pagination-bullet-active {
+  background: #959595;
 }
 .mt-unica-depoimentos .depoimento {
   margin-bottom: 65px;
@@ -7122,9 +7124,6 @@ footer .top a {
   }
 }
 
-.o-que-dizem {
-  background-color: #FFC536;
-}
 .o-que-dizem h2 {
   margin-bottom: 40px;
   font-weight: 300;
