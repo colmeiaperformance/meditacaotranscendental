@@ -101,10 +101,10 @@
     }
   }
   
-  .box.box-last::before{
+  .box-container:last-of-type .box::before{
     display:none;
   }
-  .box.box-last::after{
+  .box-container:last-of-type .box::after{
     display:none;
   }
   .box {

@@ -12,7 +12,7 @@ $cor_de_fundo_bmt = get_sub_field('cor_de_fundo_bmt');
 
       <?php foreach ($cards_bmt as $c_bmt) { ?>
       
-      <div class="col-12 col-lg-3 d-flex align-items-center justify-content-center p-0">
+      <div class="box-container col-12 col-lg-3 d-flex align-items-center justify-content-center p-0">
         <div class="box rounded-circle text-center">
           <div class="default">
               <img loading="lazy" class="img-fluid" src=<?php if ( $c_bmt['logo_card']['url'] ) { echo $c_bmt['logo_card']['url']; } else { echo ''; } ?>

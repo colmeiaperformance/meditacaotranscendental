@@ -6009,10 +6009,10 @@ footer .top a {
     line-height: 18px;
   }
 }
-.conheca-beneficios .box.box-last::before {
+.conheca-beneficios .box-container:last-of-type .box::before {
   display: none;
 }
-.conheca-beneficios .box.box-last::after {
+.conheca-beneficios .box-container:last-of-type .box::after {
   display: none;
 }
 .conheca-beneficios .box {
