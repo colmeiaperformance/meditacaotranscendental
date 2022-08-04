@@ -7,11 +7,11 @@
         'range' => 'last30days',
         'stats_date' => 1,
         'stats_views ' => 0,
-        'stats_author' => 1,
+        'stats_author' => 0,
         'excerpt_length' => 123,
         'thumbnail_width' => 100,
 				'thumbnail_height' => 100,
-        'post_html' => '<ul class="list-group"><li class="list-group-item position-relative d-flex">{thumb}<div><h3><a href="{url}" class="stretched-link">{title}</a></h3><p>{summary}</p><span>{stats}</span></div></li></ul>'
+        'post_html' => '<li class="list-group-item position-relative d-flex">{thumb}<div><h3><a href="{url}" class="stretched-link most-popular-link">{title}</a></h3><p class="text-white">{summary}</p><span>{stats}</span></div></li>'
       ));
     } ?>
 </div>

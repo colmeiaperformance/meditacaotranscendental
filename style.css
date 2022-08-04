@@ -132,7 +132,7 @@ Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, 
 
 .btn {
   border: 0;
-  border-radius: 30px !important;
+  border-radius: 30px;
 }
 .btn:hover {
   -webkit-box-shadow: none !important;
@@ -1010,7 +1010,7 @@ footer .top a {
   border: 0;
   margin-bottom: 40px;
   padding-bottom: 25px;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #F29F05;
 }
 .sidebar .list-group-item:nth-last-child(1) {
   border-bottom: 0;
@@ -1024,8 +1024,13 @@ footer .top a {
   border: 0 !important;
 }
 .sidebar .list-group-item a {
-  color: #323B50;
   text-decoration: none;
+}
+.sidebar .list-group-item a.lastest-posts-link {
+  color: #323B50;
+}
+.sidebar .list-group-item a.most-popular-link {
+  color: #FFFFFF;
 }
 .sidebar .list-group-item a:hover {
   opacity: 0.7;
@@ -1043,9 +1048,6 @@ footer .top a {
   line-height: 13px;
   margin-bottom: 0;
   color: #323B50;
-}
-.sidebar .list-group-item .wpp-post-title, .sidebar .list-group-item p, .sidebar .list-group-item .wpp-author a {
-  color: #FFFFFF;
 }
 
 .most-popular {
@@ -1078,8 +1080,8 @@ footer .top a {
 .most-popular ul li {
   border: 0;
   padding: 0 0 10px 0;
-  border-bottom: 1px solid #FFFFFF;
-  margin-bottom: 20px;
+  border-bottom: 1px solid #FFFFFF !important;
+  margin-bottom: 20px !important;
   background: transparent;
   background-color: transparent !important;
 }
@@ -1252,7 +1254,6 @@ footer .top a {
 
 .newsletter {
   background: #FFC536 url("images/single/line-post.png") center right no-repeat;
-  padding: 20px;
   background-size: auto;
 }
 @media (max-width: 991.98px) {
@@ -1261,16 +1262,16 @@ footer .top a {
   }
 }
 .newsletter input[type=text] {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 15px !important;
   color: #FFC536 !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 9px 11px;
-  border: 0;
-  border-radius: 0;
+  border: 0 !important;
+  border-radius: 0 !important;
 }
 .newsletter input[type=text]:focus {
   color: #323B50 !important;

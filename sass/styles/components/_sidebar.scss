@@ -88,7 +88,7 @@
       border: 0;
       margin-bottom: 40px;
       padding-bottom: 25px;
-      border-bottom: 1px solid $color-white;
+      border-bottom: 1px solid $color-primary-dark;
       &:nth-last-child(1) {
         border-bottom: 0;
         margin-bottom: 0;
@@ -101,7 +101,12 @@
         }
       }
       a {
-        color: $color-secondary-dark;
+        &.lastest-posts-link{
+          color: $color-secondary-dark;
+        }
+        &.most-popular-link{
+          color: $color-white;
+        }
         text-decoration: none;
         &:hover {
           opacity: 0.7;
@@ -120,9 +125,6 @@
         line-height: 13px;       
         margin-bottom: 0;
         color: $color-secondary-dark;
-      }
-      .wpp-post-title, p, .wpp-author a {
-        color: $color-white;
       }
     }
   }
@@ -149,8 +151,8 @@
       li {
         border: 0;
         padding: 0 0 10px 0;
-        border-bottom: 1px solid $color-white;
-        margin-bottom: 20px;
+        border-bottom: 1px solid $color-white!important;
+        margin-bottom: 20px!important;
         background: transparent;
         background-color: transparent!important;
         &:nth-last-child(1) {
@@ -302,20 +304,20 @@
     }
     .newsletter {
       background:  $color-primary-medium url('images/single/line-post.png') center right no-repeat;
-      padding: 20px;
+      // padding: 20px;
       background-size: auto;
       @media (max-width: 991.98px) {
         background: $color-primary-medium;
       }
       input[type="text"] {
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 15px;
+        font-weight: 400!important;
+        font-size: 12px!important;
+        line-height: 15px!important;
         color: $color-primary-medium!important;
         display: flex;
         padding: 9px 11px;
-        border: 0;
-        border-radius: 0;
+        border: 0!important;
+        border-radius: 0!important;
         &:focus {
           color: $color-secondary-dark!important;
           border-color: $color-secondary-dark!important;
