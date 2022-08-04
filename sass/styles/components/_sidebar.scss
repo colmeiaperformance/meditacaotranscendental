@@ -156,8 +156,8 @@
         background: transparent;
         background-color: transparent!important;
         &:nth-last-child(1) {
-          border-bottom: 0;
-          margin-bottom: 0;
+          border-bottom: 0!important;
+          margin-bottom: 0!important;
         }
         img {
           margin-right: 7px;
