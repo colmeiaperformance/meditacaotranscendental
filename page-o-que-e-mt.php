@@ -46,7 +46,7 @@
               </div>
             </li>
             <li>
-              <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+              <button class="btn btn-toggle align-items-center collapsed" data-bs-toggle="collapse"
                 data-bs-target="#dashboard-collapse" aria-expanded="false">
               Repouso profundo
               </button>
