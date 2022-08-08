@@ -3199,6 +3199,20 @@ footer .top a {
   max-width: 100%;
   width: 100%;
 }
+.page-inscricao .inscricao-form #_form_7_ #thanks {
+  display: block;
+}
+.page-inscricao .inscricao-form #_form_7_ ._form-thank-you {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  max-width: 70%;
+  margin: 0 auto;
+}
 .page-inscricao .inscricao-form #_form_7_ ._form_element {
   margin-bottom: 15px;
 }

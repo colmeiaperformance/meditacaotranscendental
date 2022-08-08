@@ -81,7 +81,7 @@
  #_form_7_._inline-style button._inline-style { position:relative; top:27px; }
  #_form_7_._inline-style p { margin:0; }
  #_form_7_._inline-style ._button-wrapper { position:relative; margin:27px 12.5px 0 20px; }
- #_form_7_ ._form-thank-you { position:relative; left:0; right:0; text-align:center; font-size:18px; }
+ #_form_7_ ._form-thank-you { position:relative; left:0; right:0; text-align:center;}
  @media all and (min-width:320px) and (max-width:667px) { #_form_7_._inline-form._inline-style ._inline-style._button-wrapper { margin-top:20px !important; margin-left:0 !important; }
  }
 
@@ -346,7 +346,7 @@
                 Valor do curso fechado com o seu instrutor*
               </label>
               <div class="_field-wrapper">
-                <textarea id="field[70]" name="field[70]" rows="1" placeholder="" required></textarea>
+                <textarea id="field[70]" name="field[70]" rows="1" value=""  placeholder="R$..." required></textarea>
               </div>
             </div>
           </div>
@@ -405,10 +405,23 @@
         <div class="_clear-element">
         </div>
       </div>
-      <div class="_form-thank-you" style="display:none;">
+      <div class="_form-thank-you" id="thank-you" style="display:none;">
+          <div class="alert alert-success" role="alert">
+          Agradecemos sua inscrição no curso de Meditação Transcendental!<br>
+          Seu instrutor entrará em contato com você para os próximos passos.
+        </div>
       </div>
   </form>
 <script type="text/javascript">
+  function myFunction() {
+  var x = document.getElementById("thank-you");
+  var y = document.getElementById("thanks");
+  if (x.style.display === "none") {
+    y.style.display = "block";
+  } else {
+    y.style.display = "none";
+  }
+}
     window.cfields = {"55":"profissao","2":"estado","60":"cidade","66":"instrutorinscricaocurso","70":"valor_do_curso_fechado_com_o_seu_instrutor","69":"formadepagamento"};
     window._show_thank_you = function(id, message, trackcmp_url, email) {
     var form = document.getElementById('_form_' + id + '_'), thank_you = form.querySelector('._form-thank-you');
