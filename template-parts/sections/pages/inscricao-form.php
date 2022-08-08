@@ -564,7 +564,7 @@ $(document).ready(function() {
                 Estado*
               </label>
               <div class="_field-wrapper">
-                <input class="form-estado" type="text" id="field[2]" name="field[2]" value="" placeholder="" required />
+                <input class="form-estado" type="text" id="field[2]" name="field[2]" value="" placeholder="" required disabled />
               </div>
             </div>
           </div>
@@ -575,7 +575,7 @@ $(document).ready(function() {
               </label>
               <div class="_field-wrapper">
                 <input class="form-cidade" type="text" id="field[60]" name="field[60]" value="" placeholder=""
-                  required />
+                  required disabled />
               </div>
             </div>
           </div>
