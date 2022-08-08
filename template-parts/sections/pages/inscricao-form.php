@@ -88,7 +88,7 @@
 
 </style>
 <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Roboto&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
-<form method="POST" action="https://meditacaotranscedental.activehosted.com/proc.php" id="_form_7_" class="_form _form_7 _inline-form  _dark" novalidate>
+<form method="POST" action="https://meditacaotranscedental.activehosted.com/proc.php" id="_form_7_" class="_form _form_7 _inline-form" novalidate>
     <input type="hidden" name="u" value="7" />
     <input type="hidden" name="f" value="7" />
     <input type="hidden" name="s" />
@@ -98,286 +98,294 @@
     <input type="hidden" name="v" value="2" />
     <input type="hidden" name="or" value="7ec6efa0c7df6c91369de5ccd82b76cb" />
     <div class="_form-content">
-      <div class="_form_element _x80131162 _full_width _clear" >
-        <div class="_html-code">
-          <p>
-          </p>
+      <div class="row">
+        <div class="col-12 col-lg-7 pe-lg-5">
+          <div class="_form_element _x80131162 _full_width _clear" >
+            <div class="_html-code">
+              <p>
+              </p>
+            </div>
+          </div>
+          <div class="_form_element _x03602801 _full_width " >
+            <label for="fullname" class="_form-label">
+              Nome*
+            </label>
+            <div class="_field-wrapper">
+              <input type="text" id="fullname" name="fullname" placeholder="" required/>
+            </div>
+          </div>
+          <div class="_form_element _x37072773 _full_width " >
+            <label for="email" class="_form-label">
+              E-mail (utilize o mesmo e-mail cadastrado na palestra)*
+            </label>
+            <div class="_field-wrapper">
+              <input type="text" id="email" name="email" placeholder="" required/>
+            </div>
+          </div>
+          <div class="_form_element _x49928272 _full_width " >
+            <label for="phone" class="_form-label">
+              WhatsApp*
+            </label>
+            <div class="_field-wrapper">
+              <input type="text" id="phone" name="phone" placeholder="" required/>
+            </div>
+          </div>
+          <div class="_form_element _x09417301 _full_width " >
+            <label for="field[55]" class="_form-label">
+              Profissão*
+            </label>
+            <div class="_field-wrapper">
+              <input type="text" id="field[55]" name="field[55]" value="" placeholder="" required/>
+            </div>
+          </div>
+          <div class="_form_element _x45510491 _full_width " >
+            <label for="field[2]" class="_form-label">
+              Estado*
+            </label>
+            <div class="_field-wrapper">
+              <input type="text" id="field[2]" name="field[2]" value="" placeholder="" required/>
+            </div>
+          </div>
+          <div class="_form_element _x48957766 _full_width " >
+            <label for="field[60]" class="_form-label">
+              Cidade*
+            </label>
+            <div class="_field-wrapper">
+              <input type="text" id="field[60]" name="field[60]" value="" placeholder="" required/>
+            </div>
+          </div>
+          <div class="_form_element _x27074089 _full_width " >
+            <label for="field[66]" class="_form-label">
+              Nome do instrutor*
+            </label>
+            <div class="_field-wrapper">
+              <select name="field[66]" id="field[66]" required>
+                <option selected>
+                </option>
+                <option value="Adriane Brasileiro" >
+                  Adriane Brasileiro
+                </option>
+                <option value="Alexandr (Sasha) Ruzicka" >
+                  Alexandr (Sasha) Ruzicka
+                </option>
+                <option value="Aloisio Reis Júnior " >
+                  Aloisio Reis Júnior
+                </option>
+                <option value="Aloysio Lisboa " >
+                  Aloysio Lisboa
+                </option>
+                <option value="Amanda Santos" >
+                  Amanda Santos
+                </option>
+                <option value="Ana Cristina Ibri" >
+                  Ana Cristina Ibri
+                </option>
+                <option value="Bel Cruz" >
+                  Bel Cruz
+                </option>
+                <option value="Berenice Brendler" >
+                  Berenice Brendler
+                </option>
+                <option value="Beth Siqueira" >
+                  Beth Siqueira
+                </option>
+                <option value="Caroline Ryzewski" >
+                  Caroline Ryzewski
+                </option>
+                <option value="Cassia Cardoso" >
+                  Cassia Cardoso
+                </option>
+                <option value="Cícera Souza" >
+                  Cícera Souza
+                </option>
+                <option value="Cristiane Ferigo" >
+                  Cristiane Ferigo
+                </option>
+                <option value="Cynthia Gerling" >
+                  Cynthia Gerling
+                </option>
+                <option value="Denise de Maio" >
+                  Denise de Maio
+                </option>
+                <option value="Eliana Homenco" >
+                  Eliana Homenco
+                </option>
+                <option value="Elisa de Lima" >
+                  Elisa de Lima
+                </option>
+                <option value="Fabiana Geraldi" >
+                  Fabiana Geraldi
+                </option>
+                <option value="Fatima Jundi" >
+                  Fatima Jundi
+                </option>
+                <option value="Flavia Baptista" >
+                  Flavia Baptista
+                </option>
+                <option value="Gregory Sun Kow" >
+                  Gregory Sun Kow
+                </option>
+                <option value="Gustavo Cerna" >
+                  Gustavo Cerna
+                </option>
+                <option value="Gustavo Marigo" >
+                  Gustavo Marigo
+                </option>
+                <option value="Hassan Saade" >
+                  Hassan Saade
+                </option>
+                <option value="Indra Zubieta" >
+                  Indra Zubieta
+                </option>
+                <option value="Israel Zukerman" >
+                  Israel Zukerman
+                </option>
+                <option value="Janine Robertson" >
+                  Janine Robertson
+                </option>
+                <option value="Jayme Torres" >
+                  Jayme Torres
+                </option>
+                <option value="Jorge Paiva" >
+                  Jorge Paiva
+                </option>
+                <option value="José Carlos Ramos" >
+                  José Carlos Ramos
+                </option>
+                <option value="Juliana Benda" >
+                  Juliana Benda
+                </option>
+                <option value="Julio Farias" >
+                  Julio Farias
+                </option>
+                <option value="Klebér Tani" >
+                  Klebér Tani
+                </option>
+                <option value="Leila Bonadiu" >
+                  Leila Bonadiu
+                </option>
+                <option value="Líli Fernandes" >
+                  Líli Fernandes
+                </option>
+                <option value="Lúcia Sindeaux" >
+                  Lúcia Sindeaux
+                </option>
+                <option value="Maria Bernardete Ferreira" >
+                  Maria Bernardete Ferreira
+                </option>
+                <option value="Marilia de Campos" >
+                  Marilia de Campos
+                </option>
+                <option value="Mario Henrique" >
+                  Mario Henrique
+                </option>
+                <option value="Mario Neto" >
+                  Mario Neto
+                </option>
+                <option value="Masé Nascimento" >
+                  Masé Nascimento
+                </option>
+                <option value="Mônica Fontoura" >
+                  Mônica Fontoura
+                </option>
+                <option value="Monica Skacel" >
+                  Monica Skacel
+                </option>
+                <option value="Neusa Amorim" >
+                  Neusa Amorim
+                </option>
+                <option value="Noilde Rocha" >
+                  Noilde Rocha
+                </option>
+                <option value="Patrícia Martins" >
+                  Patrícia Martins
+                </option>
+                <option value="Rafael Franco" >
+                  Rafael Franco
+                </option>
+                <option value="Renoe Valério" >
+                  Renoe Valério
+                </option>
+                <option value="Richard Robertson" >
+                  Richard Robertson
+                </option>
+                <option value="Ronice Franco-de-Sá" >
+                  Ronice Franco-de-Sá
+                </option>
+                <option value="Rosário Lourenço" >
+                  Rosário Lourenço
+                </option>
+                <option value="Sarah Pondé" >
+                  Sarah Pondé
+                </option>
+                <option value="Sérgio Tanaka" >
+                  Sérgio Tanaka
+                </option>
+                <option value="Teresa Castilho" >
+                  Teresa Castilho
+                </option>
+                <option value="Uriel Montoya" >
+                  Uriel Montoya
+                </option>
+                <option value="Valéria Portugal" >
+                  Valéria Portugal
+                </option>
+                <option value="Via Negromonte" >
+                  Via Negromonte
+                </option>
+              </select>
+            </div>
+          </div>
+          <div class="_form_element _x17998811 _full_width " >
+            <label for="field[70]" class="_form-label">
+              Valor do curso fechado com o seu instrutor*
+            </label>
+            <div class="_field-wrapper">
+              <textarea id="field[70]" name="field[70]" placeholder=""  required></textarea>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="_form_element _x03602801 _full_width " >
-        <label for="fullname" class="_form-label">
-          Nome*
-        </label>
-        <div class="_field-wrapper">
-          <input type="text" id="fullname" name="fullname" placeholder="" required/>
+        <div class="col-12 col-lg-5">
+            <div class="_form_element _x20054732 _full_width " >
+              <label for="field[69]" class="_form-label">
+                forma_de_pagamento
+              </label>
+              <div class="_field-wrapper">
+                <select name="field[69]" id="field[69]" >
+                  <option selected>
+                  </option>
+                  <option value="À vista, no PIX ou depósito, com 10% de desconto" selected>
+                    À vista, no PIX ou depósito, com 10% de desconto
+                  </option>
+                  <option value="1x no cartão de crédito" >
+                      1x no cartão de crédito
+                  </option>
+                  <option value="2x no cartão de crédito" >
+                      2x no cartão de crédito
+                  </option>
+                  <option value="3x no cartão de crédito" >
+                      3x no cartão de crédito
+                  </option>
+                  <option value="4x no cartão de crédito" >
+                      4x no cartão de crédito
+                  </option>
+                  <option value="5x no cartão de crédito" >
+                      5x no cartão de crédito
+                  </option>
+                  <option value="6x no cartão de crédito" >
+                    6x no cartão de crédito
+                  </option>
+                </select>
+              </div>
+            </div>
+            <div class="_button-wrapper _full_width">
+            <button id="_form_7_submit" class="_submit" type="submit">
+            Confirmar pedido
+            </button>
+            </div>
+            <div class="_clear-element">
+            </div>
         </div>
-      </div>
-      <div class="_form_element _x37072773 _full_width " >
-        <label for="email" class="_form-label">
-          E-mail (utilize o mesmo e-mail cadastrado na palestra)*
-        </label>
-        <div class="_field-wrapper">
-          <input type="text" id="email" name="email" placeholder="" required/>
-        </div>
-      </div>
-      <div class="_form_element _x49928272 _full_width " >
-        <label for="phone" class="_form-label">
-          WhatsApp*
-        </label>
-        <div class="_field-wrapper">
-          <input type="text" id="phone" name="phone" placeholder="" required/>
-        </div>
-      </div>
-      <div class="_form_element _x09417301 _full_width " >
-        <label for="field[55]" class="_form-label">
-          Profissão*
-        </label>
-        <div class="_field-wrapper">
-          <input type="text" id="field[55]" name="field[55]" value="" placeholder="" required/>
-        </div>
-      </div>
-      <div class="_form_element _x45510491 _full_width " >
-        <label for="field[2]" class="_form-label">
-          Estado*
-        </label>
-        <div class="_field-wrapper">
-          <input type="text" id="field[2]" name="field[2]" value="" placeholder="" required/>
-        </div>
-      </div>
-      <div class="_form_element _x48957766 _full_width " >
-        <label for="field[60]" class="_form-label">
-          Cidade*
-        </label>
-        <div class="_field-wrapper">
-          <input type="text" id="field[60]" name="field[60]" value="" placeholder="" required/>
-        </div>
-      </div>
-      <div class="_form_element _x27074089 _full_width " >
-        <label for="field[66]" class="_form-label">
-          Nome do instrutor*
-        </label>
-        <div class="_field-wrapper">
-          <select name="field[66]" id="field[66]" required>
-            <option selected>
-            </option>
-            <option value="Adriane Brasileiro" >
-              Adriane Brasileiro
-            </option>
-            <option value="Alexandr (Sasha) Ruzicka" >
-              Alexandr (Sasha) Ruzicka
-            </option>
-            <option value="Aloisio Reis Júnior " >
-              Aloisio Reis Júnior
-            </option>
-            <option value="Aloysio Lisboa " >
-              Aloysio Lisboa
-            </option>
-            <option value="Amanda Santos" >
-              Amanda Santos
-            </option>
-            <option value="Ana Cristina Ibri" >
-              Ana Cristina Ibri
-            </option>
-            <option value="Bel Cruz" >
-              Bel Cruz
-            </option>
-            <option value="Berenice Brendler" >
-              Berenice Brendler
-            </option>
-            <option value="Beth Siqueira" >
-              Beth Siqueira
-            </option>
-            <option value="Caroline Ryzewski" >
-              Caroline Ryzewski
-            </option>
-            <option value="Cassia Cardoso" >
-              Cassia Cardoso
-            </option>
-            <option value="Cícera Souza" >
-              Cícera Souza
-            </option>
-            <option value="Cristiane Ferigo" >
-              Cristiane Ferigo
-            </option>
-            <option value="Cynthia Gerling" >
-              Cynthia Gerling
-            </option>
-            <option value="Denise de Maio" >
-              Denise de Maio
-            </option>
-            <option value="Eliana Homenco" >
-              Eliana Homenco
-            </option>
-            <option value="Elisa de Lima" >
-              Elisa de Lima
-            </option>
-            <option value="Fabiana Geraldi" >
-              Fabiana Geraldi
-            </option>
-            <option value="Fatima Jundi" >
-              Fatima Jundi
-            </option>
-            <option value="Flavia Baptista" >
-              Flavia Baptista
-            </option>
-            <option value="Gregory Sun Kow" >
-              Gregory Sun Kow
-            </option>
-            <option value="Gustavo Cerna" >
-              Gustavo Cerna
-            </option>
-            <option value="Gustavo Marigo" >
-              Gustavo Marigo
-            </option>
-            <option value="Hassan Saade" >
-              Hassan Saade
-            </option>
-            <option value="Indra Zubieta" >
-              Indra Zubieta
-            </option>
-            <option value="Israel Zukerman" >
-              Israel Zukerman
-            </option>
-            <option value="Janine Robertson" >
-              Janine Robertson
-            </option>
-            <option value="Jayme Torres" >
-              Jayme Torres
-            </option>
-            <option value="Jorge Paiva" >
-              Jorge Paiva
-            </option>
-            <option value="José Carlos Ramos" >
-              José Carlos Ramos
-            </option>
-            <option value="Juliana Benda" >
-              Juliana Benda
-            </option>
-            <option value="Julio Farias" >
-              Julio Farias
-            </option>
-            <option value="Klebér Tani" >
-              Klebér Tani
-            </option>
-            <option value="Leila Bonadiu" >
-              Leila Bonadiu
-            </option>
-            <option value="Líli Fernandes" >
-              Líli Fernandes
-            </option>
-            <option value="Lúcia Sindeaux" >
-              Lúcia Sindeaux
-            </option>
-            <option value="Maria Bernardete Ferreira" >
-              Maria Bernardete Ferreira
-            </option>
-            <option value="Marilia de Campos" >
-              Marilia de Campos
-            </option>
-            <option value="Mario Henrique" >
-              Mario Henrique
-            </option>
-            <option value="Mario Neto" >
-              Mario Neto
-            </option>
-            <option value="Masé Nascimento" >
-              Masé Nascimento
-            </option>
-            <option value="Mônica Fontoura" >
-              Mônica Fontoura
-            </option>
-            <option value="Monica Skacel" >
-              Monica Skacel
-            </option>
-            <option value="Neusa Amorim" >
-              Neusa Amorim
-            </option>
-            <option value="Noilde Rocha" >
-              Noilde Rocha
-            </option>
-            <option value="Patrícia Martins" >
-              Patrícia Martins
-            </option>
-            <option value="Rafael Franco" >
-              Rafael Franco
-            </option>
-            <option value="Renoe Valério" >
-              Renoe Valério
-            </option>
-            <option value="Richard Robertson" >
-              Richard Robertson
-            </option>
-            <option value="Ronice Franco-de-Sá" >
-              Ronice Franco-de-Sá
-            </option>
-            <option value="Rosário Lourenço" >
-              Rosário Lourenço
-            </option>
-            <option value="Sarah Pondé" >
-              Sarah Pondé
-            </option>
-            <option value="Sérgio Tanaka" >
-              Sérgio Tanaka
-            </option>
-            <option value="Teresa Castilho" >
-              Teresa Castilho
-            </option>
-            <option value="Uriel Montoya" >
-              Uriel Montoya
-            </option>
-            <option value="Valéria Portugal" >
-              Valéria Portugal
-            </option>
-            <option value="Via Negromonte" >
-              Via Negromonte
-            </option>
-          </select>
-        </div>
-      </div>
-      <div class="_form_element _x17998811 _full_width " >
-        <label for="field[70]" class="_form-label">
-          Valor do curso fechado com o seu instrutor*
-        </label>
-        <div class="_field-wrapper">
-          <textarea id="field[70]" name="field[70]" placeholder=""  required></textarea>
-        </div>
-      </div>
-      <div class="_form_element _x20054732 _full_width " >
-        <label for="field[69]" class="_form-label">
-          forma_de_pagamento
-        </label>
-        <div class="_field-wrapper">
-          <select name="field[69]" id="field[69]" >
-            <option selected>
-            </option>
-            <option value="À vista, no PIX ou depósito, com 10% de desconto" selected>
-              À vista, no PIX ou depósito, com 10% de desconto
-            </option>
-            <option value="1x no cartão de crédito" >
-              1x no cartão de crédito
-            </option>
-            <option value="2x no cartão de crédito" >
-              2x no cartão de crédito
-            </option>
-            <option value="3x no cartão de crédito" >
-              3x no cartão de crédito
-            </option>
-            <option value="4x no cartão de crédito" >
-              4x no cartão de crédito
-            </option>
-            <option value="5x no cartão de crédito" >
-              5x no cartão de crédito
-            </option>
-            <option value="6x no cartão de crédito" >
-              6x no cartão de crédito
-            </option>
-          </select>
-        </div>
-      </div>
-      <div class="_button-wrapper _full_width">
-        <button id="_form_7_submit" class="_submit" type="submit">
-          Confirmar pedido
-        </button>
       </div>
       <div class="_clear-element">
       </div>
