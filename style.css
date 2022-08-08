@@ -24,11 +24,6 @@ a {
   text-decoration: none;
 }
 
-::-moz-selection {
-  background: #7896C1;
-  color: #fff;
-}
-
 ::selection {
   background: #7896C1;
   color: #fff;
@@ -142,7 +137,6 @@ Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, 
 }
 
 .carousel {
-  cursor: -webkit-grab;
   cursor: grab;
 }
 
@@ -259,14 +253,12 @@ footer .top a {
   background: #FFC536;
   padding: 0;
   margin-bottom: 53px;
-  -webkit-clip-path: ellipse(150% 100% at 50% 0%);
-          clip-path: ellipse(150% 100% at 50% 0%);
+  clip-path: ellipse(150% 100% at 50% 0%);
 }
 @media (max-width: 992px) {
   .header--home {
     margin-bottom: 20px;
-    -webkit-clip-path: ellipse(240% 100% at 50% 0%);
-            clip-path: ellipse(240% 100% at 50% 0%);
+    clip-path: ellipse(240% 100% at 50% 0%);
   }
 }
 .header--home h1 {
@@ -444,13 +436,11 @@ footer .top a {
   color: #FFFFFF;
 }
 .header--o-que-e-mt {
-  -webkit-clip-path: ellipse(150% 100% at 50% 0%);
-          clip-path: ellipse(150% 100% at 50% 0%);
+  clip-path: ellipse(150% 100% at 50% 0%);
 }
 .header--o-que-e-mt .carousel-item img {
   min-height: 310px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
 }
 @media (max-width: 991.98px) {
@@ -491,19 +481,16 @@ footer .top a {
   }
 }
 .header--aprenda-mt {
-  -webkit-clip-path: ellipse(150% 100% at 50% 0%);
-          clip-path: ellipse(150% 100% at 50% 0%);
+  clip-path: ellipse(150% 100% at 50% 0%);
 }
 @media (max-width: 992px) {
   .header--aprenda-mt {
-    -webkit-clip-path: ellipse(240% 100% at 50% 0%);
-            clip-path: ellipse(240% 100% at 50% 0%);
+    clip-path: ellipse(240% 100% at 50% 0%);
   }
 }
 .header--aprenda-mt .carousel-item img {
   min-height: 310px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
 }
 @media (max-width: 991.98px) {
@@ -551,19 +538,16 @@ footer .top a {
   }
 }
 .header--beneficios-mt {
-  -webkit-clip-path: ellipse(150% 100% at 50% 0%);
-          clip-path: ellipse(150% 100% at 50% 0%);
+  clip-path: ellipse(150% 100% at 50% 0%);
 }
 @media (max-width: 992px) {
   .header--beneficios-mt {
-    -webkit-clip-path: ellipse(240% 100% at 50% 0%);
-            clip-path: ellipse(240% 100% at 50% 0%);
+    clip-path: ellipse(240% 100% at 50% 0%);
   }
 }
 .header--beneficios-mt .carousel-item img {
   min-height: 310px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
 }
 @media (max-width: 991.98px) {
@@ -614,13 +598,11 @@ footer .top a {
 }
 .header--quem-somos {
   background: #F8E6C0;
-  -webkit-clip-path: ellipse(150% 100% at 50% 0%);
-          clip-path: ellipse(150% 100% at 50% 0%);
+  clip-path: ellipse(150% 100% at 50% 0%);
 }
 @media (max-width: 992px) {
   .header--quem-somos {
-    -webkit-clip-path: ellipse(240% 100% at 50% 0%);
-            clip-path: ellipse(240% 100% at 50% 0%);
+    clip-path: ellipse(240% 100% at 50% 0%);
   }
 }
 .header--quem-somos .carousel-item .carousel-caption {
@@ -752,8 +734,7 @@ footer .top a {
 }
 .header--quem-somos .carousel-item img {
   min-height: 310px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
 }
 @media (max-width: 991.98px) {
@@ -1114,8 +1095,7 @@ footer .top a {
 .topics #loadmore {
   color: #323B50;
   text-align: right;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   margin-top: 25px;
   font-weight: 700;
   font-size: 11.995px;
@@ -1221,14 +1201,6 @@ footer .top a {
   outline: 0;
   box-shadow: none;
 }
-.newsletter input[type=text] ::-moz-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #FFC536 !important;
-  opacity: 1; /* Firefox */
-}
-.newsletter input[type=text] :-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #FFC536 !important;
-  opacity: 1; /* Firefox */
-}
 .newsletter input[type=text] ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #FFC536 !important;
   opacity: 1; /* Firefox */
@@ -1254,14 +1226,6 @@ footer .top a {
   border-color: #323B50 !important;
   outline: 0;
   box-shadow: none;
-}
-.newsletter .form-control ::-moz-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #FFC536 !important;
-  opacity: 1; /* Firefox */
-}
-.newsletter .form-control :-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #FFC536 !important;
-  opacity: 1; /* Firefox */
 }
 .newsletter .form-control ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #FFC536 !important;
@@ -1544,7 +1508,7 @@ footer .top a {
 }
 .page-eventos .eventos-footer div {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   justify-content: center;
 }
 @media (max-width: 992px) {
@@ -1706,8 +1670,7 @@ footer .top a {
 @media (max-width: 992px) {
   .page-aprenda-mt .aprenda-mt-investir .aprenda-mt-investir-topo {
     display: block;
-    -webkit-clip-path: ellipse(100% 100% at 50% 0%);
-            clip-path: ellipse(100% 100% at 50% 0%);
+    clip-path: ellipse(100% 100% at 50% 0%);
   }
 }
 .page-aprenda-mt .aprenda-mt-investir .aprenda-mt-investir-bg {
@@ -1720,8 +1683,7 @@ footer .top a {
   height: 100%;
   background: url(images/aprenda-mt/investir.png) center right no-repeat;
   background-size: cover;
-  -webkit-clip-path: ellipse(100% 1000% at 50% 100%);
-          clip-path: ellipse(100% 1000% at 50% 100%);
+  clip-path: ellipse(100% 1000% at 50% 100%);
 }
 @media (max-width: 992px) {
   .page-aprenda-mt .aprenda-mt-investir .aprenda-mt-investir-bg {
@@ -1946,8 +1908,6 @@ footer .top a {
   border: 1px solid #FFC536;
   border-radius: 8px;
   padding: 15px 14px 15px 18px;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
 }
 @media (max-width: 992px) {
@@ -3212,7 +3172,7 @@ footer .top a {
 }
 .page-faq--footer div {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   justify-content: center;
 }
 @media (max-width: 992px) {
@@ -3251,6 +3211,11 @@ footer .top a {
 .page-inscricao {
   padding: 68px 0 90px 0;
 }
+@media (max-width: 992px) {
+  .page-inscricao {
+    padding: 26px 0 52px 0;
+  }
+}
 .page-inscricao .inscricao-header h2 {
   font-weight: 600;
   font-size: 54px;
@@ -3286,9 +3251,188 @@ footer .top a {
   font-weight: 700;
   color: #323B50;
 }
+.page-inscricao .inscricao-form #_form_7_ {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+  width: 100%;
+}
+.page-inscricao .inscricao-form #_form_7_ ._form_element {
+  margin-bottom: 15px;
+}
+@media (max-width: 992px) {
+  .page-inscricao .inscricao-form #_form_7_ ._form_element {
+    margin-bottom: 8px;
+  }
+}
+.page-inscricao .inscricao-form #_form_7_ ._form_element ._form-label {
+  margin-bottom: 6.5px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  color: #323B50;
+}
+@media (max-width: 992px) {
+  .page-inscricao .inscricao-form #_form_7_ ._form_element ._form-label {
+    font-size: 10px;
+    margin-bottom: 3px;
+  }
+}
+.page-inscricao .inscricao-form #_form_7_ ._form_element input[type=text] {
+  border: 1.5px solid #D9D9D9;
+  border-radius: 100px;
+  width: 100%;
+  padding: 9px 31px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #323B50;
+}
+.page-inscricao .inscricao-form #_form_7_ ._form_element input[type=text]:focus {
+  color: #F29F05 !important;
+  border-color: #F29F05 !important;
+  outline: 0;
+  box-shadow: none;
+}
+@media (max-width: 992px) {
+  .page-inscricao .inscricao-form #_form_7_ ._form_element input[type=text] {
+    padding: 4.5px 15px !important;
+  }
+}
+.page-inscricao .inscricao-form #_form_7_ ._form_element select {
+  border: 1.5px solid #D9D9D9;
+  border-radius: 100px;
+  width: 100%;
+  padding: 15px 31px;
+  text-align: left;
+  background: url("images/inscricao/dropdown.png");
+  background-position: right 1rem center;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  appearance: none;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #323B50;
+}
+.page-inscricao .inscricao-form #_form_7_ ._form_element select:focus {
+  color: #F29F05 !important;
+  border-color: #F29F05 !important;
+  outline: 0;
+  box-shadow: none;
+}
+@media (max-width: 992px) {
+  .page-inscricao .inscricao-form #_form_7_ ._form_element select {
+    padding: 7px 15px !important;
+    font-size: 9px;
+    background: url("images/inscricao/dropdown-mobile.png");
+    background-position: right 1rem center;
+    background-color: #fff;
+    background-repeat: no-repeat;
+  }
+}
+.page-inscricao .inscricao-form #_form_7_ ._form_element textarea {
+  border: 1.5px solid #D9D9D9;
+  border-radius: 100px;
+  width: 100%;
+  padding: 9px 31px;
+  max-width: 370px;
+}
+@media (max-width: 992px) {
+  .page-inscricao .inscricao-form #_form_7_ ._form_element textarea {
+    padding: 4.5px 15px !important;
+    max-width: 200px;
+  }
+}
+.page-inscricao .inscricao-form #_form_7_ ._submit {
+  width: 100%;
+  border-radius: 100px;
+  background: #F29F05;
+  border: 1px solid #F29F05;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  padding: 9px 31px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+.page-inscricao .inscricao-form #_form_7_ ._submit:hover {
+  background: #FFFFFF;
+  color: #F29F05;
+}
+@media (max-width: 992px) {
+  .page-inscricao .inscricao-form #_form_7_ ._submit {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 7px 15px !important;
+    margin-top: 25px;
+  }
+}
+.page-inscricao .inscricao-form .info-box {
+  border: 2px solid #F29F05;
+  border-radius: 10.0573px;
+  padding: 31px 25px 35px 25px;
+  margin-bottom: 27px;
+}
+@media (max-width: 992px) {
+  .page-inscricao .inscricao-form .info-box {
+    margin-bottom: 20px;
+    margin-top: 22px;
+    padding: 26px 14px;
+    border: 1px solid #F29F05;
+  }
+}
+.page-inscricao .inscricao-form .info-box h3 {
+  margin-bottom: 21px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  color: #323B50;
+}
+@media (max-width: 992px) {
+  .page-inscricao .inscricao-form .info-box h3 {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 13.5px;
+  }
+}
+.page-inscricao .inscricao-form .info-box ul {
+  margin: 0;
+  padding-left: 18px;
+}
+.page-inscricao .inscricao-form .info-box ul li {
+  margin-bottom: 25px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
+@media (max-width: 992px) {
+  .page-inscricao .inscricao-form .info-box ul li {
+    font-size: 9px;
+    line-height: 11px;
+    margin-bottom: 16px;
+  }
+}
+.page-inscricao .inscricao-form .info-box ul li::marker {
+  color: #FFC536;
+  height: 7px;
+  width: 7px;
+}
+.page-inscricao .inscricao-form .info-box ul li:last-child {
+  margin-bottom: 0;
+}
+.page-inscricao .inscricao-footer {
+  padding-top: 97px;
+}
+@media (max-width: 992px) {
+  .page-inscricao .inscricao-footer {
+    display: none;
+  }
+}
 .page-inscricao .inscricao-footer div {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   justify-content: left;
 }
 .page-inscricao .inscricao-footer div img {
@@ -3330,14 +3474,12 @@ footer .top a {
 }
 .page-instrutor .instrutor-profile .instrutor-picture-mobile img {
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   min-height: 360px;
 }
 .page-instrutor .instrutor-profile .instrutor-picture img {
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .page-instrutor .instrutor-profile .mt-icon {
   height: 90px;
@@ -3504,6 +3646,13 @@ footer .top a {
     height: auto;
   }
 }
+.page-instrutor .instrutor-contact form ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: color-primary-dark !important;
+}
+.page-instrutor .instrutor-contact form :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: color-primary-dark !important;
+  opacity: 1;
+}
 .page-instrutor .instrutor-contact form ::-moz-placeholder { /* Mozilla Firefox 19+ */
   color: color-primary-dark !important;
   opacity: 1;
@@ -3511,14 +3660,27 @@ footer .top a {
 .page-instrutor .instrutor-contact form :-ms-input-placeholder { /* Internet Explorer 10-11 */
   color: color-primary-dark !important;
 }
+.page-instrutor .instrutor-contact form ::-ms-input-placeholder { /* Microsoft Edge */
+  color: color-primary-dark !important;
+}
 .page-instrutor .instrutor-contact form ::placeholder {
   color: color-primary-dark !important;
+}
+.page-instrutor .instrutor-contact form input ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: color-primary-dark !important;
+}
+.page-instrutor .instrutor-contact form input :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: color-primary-dark !important;
+  opacity: 1;
 }
 .page-instrutor .instrutor-contact form input ::-moz-placeholder { /* Mozilla Firefox 19+ */
   color: color-primary-dark !important;
   opacity: 1;
 }
 .page-instrutor .instrutor-contact form input :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: color-primary-dark !important;
+}
+.page-instrutor .instrutor-contact form input ::-ms-input-placeholder { /* Microsoft Edge */
   color: color-primary-dark !important;
 }
 .page-instrutor .instrutor-contact form input ::placeholder {
@@ -3535,9 +3697,7 @@ footer .top a {
   background: transparent;
   border: 1px solid #F29F05;
   border-radius: 30px;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  appearance: none;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   margin-bottom: 20px;
 }
@@ -3546,14 +3706,8 @@ footer .top a {
     font-size: 11px;
     line-height: 12px;
     margin-bottom: 9px;
-    padding: 8px 15px;
+    padding: 7px 15px;
   }
-}
-.page-instrutor .instrutor-contact form .form-control ::-moz-placeholder {
-  color: color-primary-dark !important;
-}
-.page-instrutor .instrutor-contact form .form-control :-ms-input-placeholder {
-  color: color-primary-dark !important;
 }
 .page-instrutor .instrutor-contact form .form-control ::placeholder {
   color: color-primary-dark !important;
@@ -3808,7 +3962,7 @@ footer .top a {
 }
 .page-instrutores .instrutores-footer div {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   justify-content: left;
 }
 .page-instrutores .instrutores-footer div img {
@@ -3922,7 +4076,7 @@ footer .top a {
   .page-instrutores .instrutores-selection .form-control {
     font-size: var(--font-size-extrasmall) !important;
     line-height: 18px !important;
-    padding: 7px 17px !important;
+    padding: 7px 15px !important;
     margin: 0 auto;
   }
 }
@@ -4073,8 +4227,7 @@ footer .top a {
 @media (max-width: 992px) {
   .page-o-que-e-mt .o-que-e-mt-diferente .mundo-melhor-topo {
     display: block;
-    -webkit-clip-path: ellipse(100% 100% at 50% 0%);
-            clip-path: ellipse(100% 100% at 50% 0%);
+    clip-path: ellipse(100% 100% at 50% 0%);
   }
 }
 .page-o-que-e-mt .o-que-e-mt-diferente .mundo-melhor-bg {
@@ -4087,8 +4240,7 @@ footer .top a {
   height: 100%;
   background: url(images/o-que-e-mt/mt-diferente.png);
   background-size: cover;
-  -webkit-clip-path: ellipse(100% 100% at 100% 50%);
-          clip-path: ellipse(100% 100% at 100% 50%);
+  clip-path: ellipse(100% 100% at 100% 50%);
 }
 @media (max-width: 992px) {
   .page-o-que-e-mt .o-que-e-mt-diferente .mundo-melhor-bg {
@@ -4323,8 +4475,7 @@ footer .top a {
 }
 .page-o-que-e-mt .o-que-e-mt-sabermais .book img {
   height: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 138.67px;
   margin-right: 12.33px;
 }
@@ -4866,8 +5017,7 @@ footer .top a {
   display: block;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .page-quem-somos .projetos iframe {
   margin-bottom: 20px;
@@ -4898,8 +5048,7 @@ footer .top a {
 @media (max-width: 992px) {
   .page-quem-somos .a-origem .mundo-melhor-topo {
     display: block;
-    -webkit-clip-path: ellipse(100% 100% at 50% 0%);
-            clip-path: ellipse(100% 100% at 50% 0%);
+    clip-path: ellipse(100% 100% at 50% 0%);
   }
 }
 .page-quem-somos .a-origem .mundo-melhor-bg {
@@ -4912,8 +5061,7 @@ footer .top a {
   height: 100%;
   background: url(images/quem-somos/origem.png);
   background-size: cover;
-  -webkit-clip-path: ellipse(100% 100% at 100% 50%);
-          clip-path: ellipse(100% 100% at 100% 50%);
+  clip-path: ellipse(100% 100% at 100% 50%);
 }
 @media (max-width: 992px) {
   .page-quem-somos .a-origem .mundo-melhor-bg {
@@ -5983,8 +6131,7 @@ footer .top a {
 @media (max-width: 992px) {
   .mundo-melhor .mundo-melhor-topo {
     display: block;
-    -webkit-clip-path: ellipse(100% 100% at 50% 0%);
-            clip-path: ellipse(100% 100% at 50% 0%);
+    clip-path: ellipse(100% 100% at 50% 0%);
   }
 }
 .mundo-melhor .mundo-melhor-bg {
@@ -5997,8 +6144,7 @@ footer .top a {
   height: 100%;
   background: url(images/mundo-melhor/mundo-melhor-bg.png);
   background-size: cover;
-  -webkit-clip-path: ellipse(100% 100% at 100% 50%);
-          clip-path: ellipse(100% 100% at 100% 50%);
+  clip-path: ellipse(100% 100% at 100% 50%);
 }
 @media (max-width: 992px) {
   .mundo-melhor .mundo-melhor-bg {
@@ -6303,8 +6449,7 @@ footer .top a {
   }
 }
 .mt-unica-slide .swiper-slide img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: relative;
   height: 485px;
 }
@@ -6319,28 +6464,22 @@ footer .top a {
   }
 }
 .mt-unica-slide .swiper-slide .img-1 {
-  -o-object-position: 42%;
-     object-position: 42%;
+  object-position: 42%;
 }
 .mt-unica-slide .swiper-slide .img-2 {
-  -o-object-position: 33%;
-     object-position: 33%;
+  object-position: 33%;
 }
 .mt-unica-slide .swiper-slide .img-3 {
-  -o-object-position: 38%;
-     object-position: 38%;
+  object-position: 38%;
 }
 .mt-unica-slide .swiper-slide .img-4 {
-  -o-object-position: 32%;
-     object-position: 32%;
+  object-position: 32%;
 }
 .mt-unica-slide .swiper-slide .img-5 {
-  -o-object-position: 37%;
-     object-position: 37%;
+  object-position: 37%;
 }
 .mt-unica-slide .swiper-slide .img-6 {
-  -o-object-position: 40%;
-     object-position: 40%;
+  object-position: 40%;
 }
 @media (max-width: 992px) {
   .mt-unica-slide .swiper-button-next:after, .mt-unica-slide .swiper-button-prev:after {
@@ -6837,8 +6976,6 @@ footer .top a {
   border: 1px solid #FFFFFF;
   border-radius: 8px;
   padding: 15px 14px 15px 18px;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
 }
 @media (max-width: 992px) {
@@ -7088,8 +7225,7 @@ footer .top a {
   display: block;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .o-que-dizem iframe {
   margin-bottom: 20px;
