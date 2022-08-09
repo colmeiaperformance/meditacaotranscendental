@@ -81,6 +81,20 @@
                     font-size: 18px;
                     line-height: 21px;
                     color: $color-secondary-dark;
+                    @media (max-width: 992px) {
+                        font-size: 13px;
+                    }
+                }
+                ._checkbox-radio  {
+                    @media (max-width: 992px) {
+                        span {
+                            font-size: 13px;
+                        }
+                        input[type="checkbox"] {
+                            width: 17px!important;
+                            height: 17px!important;
+                        }
+                    }
                 }
                 input[type="text"] {
                     border: 1.5px solid $color-grey-boder;
@@ -99,6 +113,7 @@
                     }
                     @media (max-width: 992px) {
                         padding: 4.5px 15px!important;
+                        font-size: 13px;
                     }
                 }
                 select {
@@ -139,6 +154,7 @@
                     @media (max-width: 992px) {
                         padding: 4.5px 15px!important;
                         max-width: 200px;
+                        font-size: 13px;
                     }
                 }
             }

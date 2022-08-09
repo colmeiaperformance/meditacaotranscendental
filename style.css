@@ -3244,6 +3244,20 @@ footer .top a {
   line-height: 21px;
   color: #323B50;
 }
+@media (max-width: 992px) {
+  .page-inscricao .inscricao-form #_form_7_ ._form_element input[type=date] {
+    font-size: 13px;
+  }
+}
+@media (max-width: 992px) {
+  .page-inscricao .inscricao-form #_form_7_ ._form_element ._checkbox-radio span {
+    font-size: 13px;
+  }
+  .page-inscricao .inscricao-form #_form_7_ ._form_element ._checkbox-radio input[type=checkbox] {
+    width: 17px !important;
+    height: 17px !important;
+  }
+}
 .page-inscricao .inscricao-form #_form_7_ ._form_element input[type=text] {
   border: 1.5px solid #D9D9D9;
   border-radius: 100px;
@@ -3263,6 +3277,7 @@ footer .top a {
 @media (max-width: 992px) {
   .page-inscricao .inscricao-form #_form_7_ ._form_element input[type=text] {
     padding: 4.5px 15px !important;
+    font-size: 13px;
   }
 }
 .page-inscricao .inscricao-form #_form_7_ ._form_element select {
@@ -3307,6 +3322,7 @@ footer .top a {
   .page-inscricao .inscricao-form #_form_7_ ._form_element .valor-curso {
     padding: 4.5px 15px !important;
     max-width: 200px;
+    font-size: 13px;
   }
 }
 .page-inscricao .inscricao-form #_form_7_ ._submit {
