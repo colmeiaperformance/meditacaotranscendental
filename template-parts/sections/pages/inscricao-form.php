@@ -828,10 +828,6 @@ $(document).ready(function() {
     </div>
   </div>
   <div class="_form-thank-you" id="thank-you" style="display:none;">
-    <div class="alert alert-success" role="alert">
-      Agradecemos sua inscrição no curso de Meditação Transcendental!<br>
-      Seu instrutor entrará em contato com você para os próximos passos.
-    </div>
   </div>
 </form>
 <script type="text/javascript">
