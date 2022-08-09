@@ -417,11 +417,6 @@ $(document).ready(function() {
     vertical-align: baseline;
   }
 
-  #_form_7_ button[type="submit"] {
-    padding: 20px;
-    font-size: 1.5em;
-  }
-
   #_form_7_ ._inline-style {
     margin: 20px 0 0 !important;
   }
