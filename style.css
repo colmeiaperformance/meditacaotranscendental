@@ -3336,10 +3336,10 @@ footer .top a {
   background: #F29F05;
   border: 1px solid #F29F05;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 150%;
+  font-size: 16px !important;
+  line-height: 150% !important;
   color: #FFFFFF;
-  padding: 9px 31px;
+  padding: 9px 31px !important;
   transition: all 0.3s ease;
   text-align: center;
 }
@@ -3349,8 +3349,8 @@ footer .top a {
 }
 @media (max-width: 992px) {
   .page-inscricao .inscricao-form ._submit {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 14px !important;
+    line-height: 16px !important;
     padding: 7px 15px !important;
     margin-top: 25px;
   }
