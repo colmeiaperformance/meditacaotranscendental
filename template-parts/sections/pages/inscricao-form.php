@@ -787,23 +787,11 @@ $(document).ready(function() {
           <input type="text" id="field[74]" class="valor-curso" name="field[74]" value="" placeholder="R$" required/>
         </div>
       </div>
-      </div>
-      <div class="col-12 col-lg-5">
-        <div class="info-box">
-          <h3>Veja o que está incluso, ao fazer o curso de MT:</h3>
-          <ul>
-            <li>Curso MT: com instrução pessoal individualizada + 3 dias consecutivos de verificação da prática +
-              verificação após 10 dias.</li>
-            <li>Acompanhamento durante 4 meses, com seu instrutor de MT.</li>
-            <li>Meditações coletivas on-line, diariamente em 2 horários, com toda América Latina e Caribe.</li>
-            <li>Acesso a eventos gratuitos da MT, como palestras online de conhecimento.</li>
-          </ul>
-        </div>
-        <div class="_form_element _x20054732 _full_width " >
-        <label for="field[69]" class="_form-label d-none">
-          Forma de pagamento*
-        </label>
-        <div class="_field-wrapper">
+      <div class="_form_element _x20054732 _full_width " >
+          <label for="field[69]" class="_form-label d-none">
+            Forma de pagamento*
+          </label>
+         <div class="_field-wrapper">
           <select name="field[69]" id="field[69]" required>
             <option value="Forma de pagamento*" selected>
               Forma de pagamento*
@@ -832,7 +820,7 @@ $(document).ready(function() {
           </select>
         </div>
         <div class="_form_element _x35994980 _full_width " >
-        <fieldset class="_form-fieldset">
+          <fieldset class="_form-fieldset">
           <div class="_row">
             <legend for="field[75][]" class="_form-label">
             </legend>
@@ -846,15 +834,27 @@ $(document).ready(function() {
               </label>
             </span>
           </div>
-        </fieldset>
-      </div>
-      </div>
+          </fieldset>
+         </div>
+        </div>
         <div class="_button-wrapper _full_width">
           <button id="_form_7_submit" class="_submit" type="submit">
             Confirmar pedido
           </button>
         </div>
         <div class="_clear-element">
+        </div>
+      </div>
+      <div class="col-12 col-lg-5">
+        <div class="info-box">
+          <h3>Veja o que está incluso, ao fazer o curso de MT:</h3>
+          <ul>
+            <li>Curso MT: com instrução pessoal individualizada + 3 dias consecutivos de verificação da prática +
+              verificação após 10 dias.</li>
+            <li>Acompanhamento durante 4 meses, com seu instrutor de MT.</li>
+            <li>Meditações coletivas on-line, diariamente em 2 horários, com toda América Latina e Caribe.</li>
+            <li>Acesso a eventos gratuitos da MT, como palestras online de conhecimento.</li>
+          </ul>
         </div>
       </div>
     </div>
