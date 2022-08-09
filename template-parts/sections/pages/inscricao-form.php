@@ -559,6 +559,12 @@ $(document).ready(function() {
           <input type="text" id="field[55]" name="field[55]" value="" placeholder="" required/>
         </div>
       </div>
+      <div class="_form_element _full_width">
+        <label class="_form-label" for="cep">CEP*</label>
+          <div class="_field-wrapper col-12 col-lg-3">
+            <input name="cep" type="text" id="cep" value="" onblur="pesquisacep(this.value);" required="">
+          </div>
+      </div>
         <div class="row">
           <div class="col-4">
           <div class="_form_element _x45510491 _full_width " >
@@ -566,7 +572,7 @@ $(document).ready(function() {
           Estado*
         </label>
         <div class="_field-wrapper">
-          <input type="text" id="field[2]" name="field[2]" value="" placeholder="" required/>
+          <input class="form-estado" type="text" id="field[2]" name="field[2]" value="" placeholder="" required disabled />
         </div>
       </div>
           </div>
@@ -576,7 +582,8 @@ $(document).ready(function() {
           Cidade*
         </label>
         <div class="_field-wrapper">
-          <input type="text" id="field[60]" name="field[60]" value="" placeholder="Digite o CEP acima" required/>
+        <input class="form-cidade" type="text" id="field[60]" name="field[60]" value="" placeholder=""
+                  required disabled />
         </div>
       </div>
           </div>
