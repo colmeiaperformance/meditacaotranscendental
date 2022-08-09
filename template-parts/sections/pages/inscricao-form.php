@@ -1,7 +1,8 @@
 <!-- Adicionando JQuery do VIACEP -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"
+  referrerpolicy="no-referrer"></script>
 
 <!-- Adicionando Javascript do VIACEP -->
 <script>
@@ -63,16 +64,16 @@ $(document).ready(function() {
 </script>
 <script>
 jQuery(document).ready(function() {
-      jQuery(function() {
-        jQuery('.valor-curso').maskMoney({
-          prefix: 'R$ ',
-          allowNegative: true,
-          thousands: '.',
-          decimal: ',',
-          affixesStay: true
-        });
-      })
-      })
+  jQuery(function() {
+    jQuery('.valor-curso').maskMoney({
+      prefix: 'R$ ',
+      allowNegative: true,
+      thousands: '.',
+      decimal: ',',
+      affixesStay: true
+    });
+  })
+})
 </script>
 <style>
 #_form_7_ {}
@@ -429,11 +430,6 @@ jQuery(document).ready(function() {
   font-size: 1em;
   margin: 0 0.3em 0 0;
   vertical-align: baseline;
-}
-
-#_form_7_ button[type="submit"] {
-  padding: 20px;
-  font-size: 1.5em;
 }
 
 #_form_7_ ._inline-style {
@@ -963,7 +959,7 @@ window._load_script = function(url, callback) {
     var expireTime = time + 1000 * 60 * 60 * 24 * 365;
     now.setTime(expireTime);
     document.cookie = name + '=' + value + '; expires=' + now +
-    ';path=/; Secure; SameSite=Lax;'; // cannot be HttpOnly
+      ';path=/; Secure; SameSite=Lax;'; // cannot be HttpOnly
   }
   var addEvent = function(element, event, func) {
     if (element.addEventListener) {
