@@ -1,8 +1,8 @@
-<!-- Adicionando JQuery -->
+<!-- Adicionando JQuery do VIACEP -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-<!-- Adicionando Javascript -->
+<!-- Adicionando Javascript do VIACEP -->
 <script>
 $(document).ready(function() {
 
@@ -58,6 +58,7 @@ $(document).ready(function() {
     }
   });
 });
+// Estilo do form do AC
 </script>
 <style>
 #_form_7_ {}
