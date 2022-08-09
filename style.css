@@ -5,7 +5,7 @@ body {
 }
 
 :root {
-  accent-color: #323B50;
+  accent-color: #F29F05;
   --font-size-extrasmall: 1rem;
   --font-size-small: 1.125rem;
   --font-size-regular: 1.5rem;
@@ -3234,6 +3234,16 @@ footer .top a {
     margin-bottom: 3px;
   }
 }
+.page-inscricao .inscricao-form #_form_7_ ._form_element input[type=date] {
+  border: 1.5px solid #D9D9D9;
+  border-radius: 100px;
+  width: 100%;
+  padding: 9px 31px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #323B50;
+}
 .page-inscricao .inscricao-form #_form_7_ ._form_element input[type=text] {
   border: 1.5px solid #D9D9D9;
   border-radius: 100px;
@@ -3287,15 +3297,14 @@ footer .top a {
     background-repeat: no-repeat;
   }
 }
-.page-inscricao .inscricao-form #_form_7_ ._form_element textarea {
+.page-inscricao .inscricao-form #_form_7_ ._form_element .valor-curso {
   border: 1.5px solid #D9D9D9;
   border-radius: 100px;
-  width: 100%;
   padding: 9px 31px;
   max-width: 370px;
 }
 @media (max-width: 992px) {
-  .page-inscricao .inscricao-form #_form_7_ ._form_element textarea {
+  .page-inscricao .inscricao-form #_form_7_ ._form_element .valor-curso {
     padding: 4.5px 15px !important;
     max-width: 200px;
   }
