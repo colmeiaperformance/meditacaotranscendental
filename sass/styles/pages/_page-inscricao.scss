@@ -86,182 +86,185 @@
                     }
                 }
                 ._checkbox-radio  {
-                    @media (max-width: 992px) {
-                        span {
+                    span {
+                        color: $color-secondary-dark;
+                        @media (max-width: 992px) {
                             font-size: 13px;
                         }
-                        input[type="checkbox"] {
+                    }
+                    input[type="checkbox"] {
+                        @media (max-width: 992px) {
                             width: 17px!important;
                             height: 17px!important;
                         }
                     }
                 }
-                input[type="text"] {
-                    border: 1.5px solid $color-grey-boder;
-                    border-radius: 100px;
-                    width: 100%;
-                    padding: 9px 31px;
-                    font-weight: 300;
-                    font-size: 18px;
-                    line-height: 21px;
-                    color: $color-secondary-dark;
-                    &:focus {
-                        color: $color-primary-dark !important;
-                        border-color: $color-primary-dark !important;
-                        outline: 0;
-                        box-shadow: none;
-                    }
-                    @media (max-width: 992px) {
-                        padding: 4.5px 15px!important;
-                        font-size: 13px;
-                    }
+            }
+            input[type="text"] {
+                border: 1.5px solid $color-grey-boder;
+                border-radius: 100px;
+                width: 100%;
+                padding: 9px 31px;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 21px;
+                color: $color-secondary-dark;
+                &:focus {
+                    color: $color-primary-dark !important;
+                    border-color: $color-primary-dark !important;
+                    outline: 0;
+                    box-shadow: none;
                 }
-                select {
-                    border: 1.5px solid $color-grey-boder;
-                    border-radius: 100px;
-                    width: 100%;
-                    padding: 15px 31px;
-                    text-align: left ;
-                    background: url("images/inscricao/dropdown.png") ;
+                @media (max-width: 992px) {
+                    padding: 4.5px 15px!important;
+                    font-size: 13px;
+                }
+            }
+            select {
+                border: 1.5px solid $color-grey-boder;
+                border-radius: 100px;
+                width: 100%;
+                padding: 15px 31px;
+                text-align: left ;
+                background: url("images/inscricao/dropdown.png") ;
+                background-position: right 1rem center ;
+                background-color: #fff ;
+                background-repeat: no-repeat ;
+                appearance: none;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 21px;
+                color: $color-secondary-dark;
+                &:focus {
+                    color: $color-primary-dark !important;
+                    border-color: $color-primary-dark !important;
+                    outline: 0;
+                    box-shadow: none;
+                }
+                @media (max-width: 992px) {
+                    padding: 7px 15px!important;
+                    font-size: 9px;
+                    background: url("images/inscricao/dropdown-mobile.png") ;
                     background-position: right 1rem center ;
                     background-color: #fff ;
                     background-repeat: no-repeat ;
-                    appearance: none;
-                    font-weight: 300;
-                    font-size: 18px;
-                    line-height: 21px;
-                    color: $color-secondary-dark;
-                    &:focus {
-                        color: $color-primary-dark !important;
-                        border-color: $color-primary-dark !important;
-                        outline: 0;
-                        box-shadow: none;
-                    }
-                    @media (max-width: 992px) {
-                        padding: 7px 15px!important;
-                        font-size: 9px;
-                        background: url("images/inscricao/dropdown-mobile.png") ;
-                        background-position: right 1rem center ;
-                        background-color: #fff ;
-                        background-repeat: no-repeat ;
-                    }
-                }
-                .valor-curso {
-                    border: 1.5px solid $color-grey-boder;
-                    border-radius: 100px;
-                    padding: 9px 31px;
-                    max-width: 370px; 
-                    @media (max-width: 992px) {
-                        padding: 4.5px 15px!important;
-                        max-width: 200px;
-                        font-size: 13px;
-                    }
                 }
             }
-            ._submit {
-                width: 100%;
+            .valor-curso {
+                border: 1.5px solid $color-grey-boder;
                 border-radius: 100px;
-                background: $color-primary-dark;
-                border: 1px solid $color-primary-dark;
-                font-weight: 700;
-                font-size: 16px;
-                line-height: 150%;
-                color :$color-white;
                 padding: 9px 31px;
-                transition: all .3s ease;
-                text-align: center;
-                &:hover {
-                    background: $color-white;
-                    color: $color-primary-dark;
-                }
+                max-width: 370px; 
                 @media (max-width: 992px) {
-                    font-size: 14px;
-                    line-height: 16px;
-                    padding: 7px 15px!important;
-                    margin-top: 25px;
+                    padding: 4.5px 15px!important;
+                    max-width: 200px;
+                    font-size: 13px;
                 }
             }
         }
-        .info-box {
-            border: 2px solid $color-primary-dark;
-            border-radius: 10.0573px;
-            padding: 31px 25px 35px 25px;
-            margin-bottom: 27px;
+        ._submit {
+            width: 100%;
+            border-radius: 100px;
+            background: $color-primary-dark;
+            border: 1px solid $color-primary-dark;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 150%;
+            color :$color-white;
+            padding: 9px 31px;
+            transition: all .3s ease;
+            text-align: center;
+            &:hover {
+                background: $color-white;
+                color: $color-primary-dark;
+            }
             @media (max-width: 992px) {
-                margin-bottom: 20px;
-                margin-top: 22px;
-                padding: 26px 14px;
-                border: 1px solid $color-primary-dark;
+                font-size: 14px;
+                line-height: 16px;
+                padding: 7px 15px!important;
+                margin-top: 25px;
             }
-            h3 {
-                margin-bottom: 21px;
-                font-weight: 700;
-                font-size: 17px;
-                line-height: 21px;
-                color: $color-secondary-dark;
+        }
+    }
+    .info-box {
+        border: 2px solid $color-primary-dark;
+        border-radius: 10.0573px;
+        padding: 31px 25px 35px 25px;
+        margin-bottom: 27px;
+        @media (max-width: 992px) {
+            margin-bottom: 20px;
+            margin-top: 22px;
+            padding: 26px 14px;
+            border: 1px solid $color-primary-dark;
+        }
+        h3 {
+            margin-bottom: 21px;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 21px;
+            color: $color-secondary-dark;
+            @media (max-width: 992px) {
+                font-size: 12px;
+                line-height: 14px;
+                margin-bottom: 13.5px;
+            }
+        }
+        ul {
+            margin: 0;
+            padding-left: 18px;
+            li {
+                margin-bottom: 25px;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 16px;
                 @media (max-width: 992px) {
-                    font-size: 12px;
-                    line-height: 14px;
-                    margin-bottom: 13.5px;
+                    font-size: 9px;
+                    line-height: 11px;
+                    margin-bottom: 16px;
                 }
-            }
-            ul {
-                margin: 0;
-                padding-left: 18px;
-                li {
-                    margin-bottom: 25px;
-                    font-weight: 300;
-                    font-size: 14px;
-                    line-height: 16px;
-                    @media (max-width: 992px) {
-                        font-size: 9px;
-                        line-height: 11px;
-                        margin-bottom: 16px;
-                    }
-                    &::marker {
-                        color: #FFC536;
-                        height: 7px;
-                        width: 7px;
-                    }
-                    &:last-child {
-                        margin-bottom: 0;
-                    }
+                &::marker {
+                    color: #FFC536;
+                    height: 7px;
+                    width: 7px;
+                }
+                &:last-child {
+                    margin-bottom: 0;
                 }
             }
         }
     }
-    .inscricao-footer {
-        padding-top: 97px;
-        @media (max-width: 992px)  {
-            display: none;
-        }
-        div {
-            display: flex;
-            align-items: flex-end;
-            justify-content: left;
-            img {
-                margin-right: 23px;
-                @media (max-width: 992px) {
-                    margin-right: 7px;
-                    max-width: 130px;
-                }
+}
+.inscricao-footer {
+    padding-top: 97px;
+    @media (max-width: 992px)  {
+        display: none;
+    }
+    div {
+        display: flex;
+        align-items: flex-end;
+        justify-content: left;
+        img {
+            margin-right: 23px;
+            @media (max-width: 992px) {
+                margin-right: 7px;
+                max-width: 130px;
             }
-            h2 {
-                font-weight: 300;
-                font-size: 54px;
-                line-height: 63px;
-                letter-spacing: -0.02em;
-                color: $color-primary-medium;
-                margin-bottom: 0;
-                strong {
-                    font-weight: 600;
-                }
-                @media (max-width: 992px) {
-                    font-size: 15.3292px;
-                    line-height: 18px;
-                    max-width: 175px;
-                    margin: 0 auto;
-                }
+        }
+        h2 {
+            font-weight: 300;
+            font-size: 54px;
+            line-height: 63px;
+            letter-spacing: -0.02em;
+            color: $color-primary-medium;
+            margin-bottom: 0;
+            strong {
+                font-weight: 600;
+            }
+            @media (max-width: 992px) {
+                font-size: 15.3292px;
+                line-height: 18px;
+                max-width: 175px;
+                margin: 0 auto;
             }
         }
     }

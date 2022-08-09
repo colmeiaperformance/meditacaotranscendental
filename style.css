@@ -3249,16 +3249,21 @@ footer .top a {
     font-size: 13px;
   }
 }
+.page-inscricao .inscricao-form #_form_7_ ._form_element ._checkbox-radio span {
+  color: #323B50;
+}
 @media (max-width: 992px) {
   .page-inscricao .inscricao-form #_form_7_ ._form_element ._checkbox-radio span {
     font-size: 13px;
   }
+}
+@media (max-width: 992px) {
   .page-inscricao .inscricao-form #_form_7_ ._form_element ._checkbox-radio input[type=checkbox] {
     width: 17px !important;
     height: 17px !important;
   }
 }
-.page-inscricao .inscricao-form #_form_7_ ._form_element input[type=text] {
+.page-inscricao .inscricao-form #_form_7_ input[type=text] {
   border: 1.5px solid #D9D9D9;
   border-radius: 100px;
   width: 100%;
@@ -3268,19 +3273,19 @@ footer .top a {
   line-height: 21px;
   color: #323B50;
 }
-.page-inscricao .inscricao-form #_form_7_ ._form_element input[type=text]:focus {
+.page-inscricao .inscricao-form #_form_7_ input[type=text]:focus {
   color: #F29F05 !important;
   border-color: #F29F05 !important;
   outline: 0;
   box-shadow: none;
 }
 @media (max-width: 992px) {
-  .page-inscricao .inscricao-form #_form_7_ ._form_element input[type=text] {
+  .page-inscricao .inscricao-form #_form_7_ input[type=text] {
     padding: 4.5px 15px !important;
     font-size: 13px;
   }
 }
-.page-inscricao .inscricao-form #_form_7_ ._form_element select {
+.page-inscricao .inscricao-form #_form_7_ select {
   border: 1.5px solid #D9D9D9;
   border-radius: 100px;
   width: 100%;
@@ -3296,14 +3301,14 @@ footer .top a {
   line-height: 21px;
   color: #323B50;
 }
-.page-inscricao .inscricao-form #_form_7_ ._form_element select:focus {
+.page-inscricao .inscricao-form #_form_7_ select:focus {
   color: #F29F05 !important;
   border-color: #F29F05 !important;
   outline: 0;
   box-shadow: none;
 }
 @media (max-width: 992px) {
-  .page-inscricao .inscricao-form #_form_7_ ._form_element select {
+  .page-inscricao .inscricao-form #_form_7_ select {
     padding: 7px 15px !important;
     font-size: 9px;
     background: url("images/inscricao/dropdown-mobile.png");
@@ -3312,20 +3317,20 @@ footer .top a {
     background-repeat: no-repeat;
   }
 }
-.page-inscricao .inscricao-form #_form_7_ ._form_element .valor-curso {
+.page-inscricao .inscricao-form #_form_7_ .valor-curso {
   border: 1.5px solid #D9D9D9;
   border-radius: 100px;
   padding: 9px 31px;
   max-width: 370px;
 }
 @media (max-width: 992px) {
-  .page-inscricao .inscricao-form #_form_7_ ._form_element .valor-curso {
+  .page-inscricao .inscricao-form #_form_7_ .valor-curso {
     padding: 4.5px 15px !important;
     max-width: 200px;
     font-size: 13px;
   }
 }
-.page-inscricao .inscricao-form #_form_7_ ._submit {
+.page-inscricao .inscricao-form ._submit {
   width: 100%;
   border-radius: 100px;
   background: #F29F05;
@@ -3338,33 +3343,33 @@ footer .top a {
   transition: all 0.3s ease;
   text-align: center;
 }
-.page-inscricao .inscricao-form #_form_7_ ._submit:hover {
+.page-inscricao .inscricao-form ._submit:hover {
   background: #FFFFFF;
   color: #F29F05;
 }
 @media (max-width: 992px) {
-  .page-inscricao .inscricao-form #_form_7_ ._submit {
+  .page-inscricao .inscricao-form ._submit {
     font-size: 14px;
     line-height: 16px;
     padding: 7px 15px !important;
     margin-top: 25px;
   }
 }
-.page-inscricao .inscricao-form .info-box {
+.page-inscricao .info-box {
   border: 2px solid #F29F05;
   border-radius: 10.0573px;
   padding: 31px 25px 35px 25px;
   margin-bottom: 27px;
 }
 @media (max-width: 992px) {
-  .page-inscricao .inscricao-form .info-box {
+  .page-inscricao .info-box {
     margin-bottom: 20px;
     margin-top: 22px;
     padding: 26px 14px;
     border: 1px solid #F29F05;
   }
 }
-.page-inscricao .inscricao-form .info-box h3 {
+.page-inscricao .info-box h3 {
   margin-bottom: 21px;
   font-weight: 700;
   font-size: 17px;
@@ -3372,60 +3377,61 @@ footer .top a {
   color: #323B50;
 }
 @media (max-width: 992px) {
-  .page-inscricao .inscricao-form .info-box h3 {
+  .page-inscricao .info-box h3 {
     font-size: 12px;
     line-height: 14px;
     margin-bottom: 13.5px;
   }
 }
-.page-inscricao .inscricao-form .info-box ul {
+.page-inscricao .info-box ul {
   margin: 0;
   padding-left: 18px;
 }
-.page-inscricao .inscricao-form .info-box ul li {
+.page-inscricao .info-box ul li {
   margin-bottom: 25px;
   font-weight: 300;
   font-size: 14px;
   line-height: 16px;
 }
 @media (max-width: 992px) {
-  .page-inscricao .inscricao-form .info-box ul li {
+  .page-inscricao .info-box ul li {
     font-size: 9px;
     line-height: 11px;
     margin-bottom: 16px;
   }
 }
-.page-inscricao .inscricao-form .info-box ul li::marker {
+.page-inscricao .info-box ul li::marker {
   color: #FFC536;
   height: 7px;
   width: 7px;
 }
-.page-inscricao .inscricao-form .info-box ul li:last-child {
+.page-inscricao .info-box ul li:last-child {
   margin-bottom: 0;
 }
-.page-inscricao .inscricao-footer {
+
+.inscricao-footer {
   padding-top: 97px;
 }
 @media (max-width: 992px) {
-  .page-inscricao .inscricao-footer {
+  .inscricao-footer {
     display: none;
   }
 }
-.page-inscricao .inscricao-footer div {
+.inscricao-footer div {
   display: flex;
   align-items: flex-end;
   justify-content: left;
 }
-.page-inscricao .inscricao-footer div img {
+.inscricao-footer div img {
   margin-right: 23px;
 }
 @media (max-width: 992px) {
-  .page-inscricao .inscricao-footer div img {
+  .inscricao-footer div img {
     margin-right: 7px;
     max-width: 130px;
   }
 }
-.page-inscricao .inscricao-footer div h2 {
+.inscricao-footer div h2 {
   font-weight: 300;
   font-size: 54px;
   line-height: 63px;
@@ -3433,11 +3439,11 @@ footer .top a {
   color: #FFC536;
   margin-bottom: 0;
 }
-.page-inscricao .inscricao-footer div h2 strong {
+.inscricao-footer div h2 strong {
   font-weight: 600;
 }
 @media (max-width: 992px) {
-  .page-inscricao .inscricao-footer div h2 {
+  .inscricao-footer div h2 {
     font-size: 15.3292px;
     line-height: 18px;
     max-width: 175px;
