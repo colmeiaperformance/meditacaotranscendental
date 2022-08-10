@@ -774,6 +774,18 @@ footer .top a {
   color: #323B50;
   opacity: 0.7;
 }
+.navbar .menu-item:last-child .nav-link {
+  background-color: #FFFFFF;
+  color: #F29F05;
+  border: 1px solid #FFFFFF;
+  border-radius: 30px;
+  padding: 9px !important;
+}
+.navbar .menu-item:last-child .nav-link:hover {
+  opacity: 1;
+  background-color: transparent;
+  color: #FFFFFF;
+}
 .navbar .dropdown-menu {
   border-radius: 0;
   border: 0;
@@ -818,6 +830,16 @@ footer .top a {
   .navbar .navbar-brand img {
     width: 187px;
     height: auto;
+  }
+}
+.navbar .navbar-nav {
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 576px) {
+  .navbar .navbar-nav {
+    align-items: flex-start;
+    justify-self: start;
   }
 }
 .navbar .btn {
