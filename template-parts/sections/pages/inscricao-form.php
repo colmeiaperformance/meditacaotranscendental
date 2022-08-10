@@ -1,9 +1,18 @@
 <!-- Adicionando JQuery do VIACEP -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"
   referrerpolicy="no-referrer"></script>
-
+<!-- Mask phone -->
+<script src="<?php echo get_template_directory_uri() . '/js/cleave.min.js'; ?>" referrerpolicy="no-referrer"></script>
+<script src="<?php echo get_template_directory_uri() . '/js/cleave-phone.i18n.js'; ?>" referrerpolicy="no-referrer"></script>
+<script>
+jQuery(document).ready(function() {
+  var cleavePhone = new Cleave('.input-phone', {
+    phone: true,
+    phoneRegionCode: 'BR'
+  });
+});
+</script>
 <!-- Adicionando Javascript do VIACEP -->
 <script>
 $(document).ready(function() {
@@ -559,7 +568,7 @@ jQuery(document).ready(function() {
             Telefone celular*
           </label>
           <div class="_field-wrapper">
-            <input type="text" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX" required />
+            <input class="input-phone" type="text" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX" required />
           </div>
         </div>
         <div class="_form_element _x09417301 _full_width ">
