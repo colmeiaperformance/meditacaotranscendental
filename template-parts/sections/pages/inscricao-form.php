@@ -603,7 +603,7 @@ jQuery(document).ready(function() {
                 Cidade*
               </label>
               <div class="_field-wrapper">
-                <input class="form-cidade" type="text" id="field[60]" name="field[60]" value="" placeholder="" required
+                <input class="form-cidade" type="text" id="field[60]" name="field[60]" value="" placeholder="Digite o CEP acima" required
                   disabled />
               </div>
             </div>
