@@ -32,7 +32,7 @@
         <div class="col-12 col-lg-7">
           <ul class="list-unstyled ps-0">
             <li>
-              <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+              <button class="btn btn-toggle align-items-center collapsed" data-bs-toggle="collapse"
                 data-bs-target="#home-collapse" aria-expanded="false">
               Coerência cerebral
               </button>
@@ -46,7 +46,7 @@
               </div>
             </li>
             <li>
-              <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+              <button class="btn btn-toggle align-items-center collapsed" data-bs-toggle="collapse"
                 data-bs-target="#dashboard-collapse" aria-expanded="false">
               Repouso profundo
               </button>
