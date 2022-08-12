@@ -871,7 +871,7 @@ jQuery(document).ready(function() {
         <div class="_clear-element">
         </div>
       </div>
-      <div class="col-12 col-lg-5">
+      <div class="col-12 col-lg-5 pt-5 pt-lg-0">
         <div class="info-box">
           <h3>Veja o que está incluso, ao fazer o curso de MT:</h3>
           <ul>
