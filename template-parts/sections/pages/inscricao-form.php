@@ -586,7 +586,7 @@ jQuery(document).ready(function() {
           </div>
         </div>
         <div class="row">
-          <div class="col-4">
+          <div class="col-3">
             <div class="_form_element _x45510491 _full_width ">
               <label for="field[2]" class="_form-label">
                 Estado*
@@ -597,7 +597,7 @@ jQuery(document).ready(function() {
               </div>
             </div>
           </div>
-          <div class="col-8">
+          <div class="col-9">
             <div class="_form_element _x48957766 _full_width ">
               <label for="field[60]" class="_form-label">
                 Cidade*
