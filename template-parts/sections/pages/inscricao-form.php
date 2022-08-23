@@ -586,7 +586,7 @@ jQuery(document).ready(function() {
           </div>
         </div>
         <div class="row">
-          <div class="col-4">
+          <div class="col-3">
             <div class="_form_element _x45510491 _full_width ">
               <label for="field[2]" class="_form-label">
                 Estado*
@@ -597,13 +597,13 @@ jQuery(document).ready(function() {
               </div>
             </div>
           </div>
-          <div class="col-8">
+          <div class="col-9">
             <div class="_form_element _x48957766 _full_width ">
               <label for="field[60]" class="_form-label">
                 Cidade*
               </label>
               <div class="_field-wrapper">
-                <input class="form-cidade" type="text" id="field[60]" name="field[60]" value="" placeholder="Digite o CEP acima" required
+                <input class="form-cidade" type="text" id="field[60]" name="field[60]" value="" placeholder="Digite o CEP no campo reservado acima" required
                   disabled />
               </div>
             </div>
@@ -871,7 +871,7 @@ jQuery(document).ready(function() {
         <div class="_clear-element">
         </div>
       </div>
-      <div class="col-12 col-lg-5">
+      <div class="col-12 col-lg-5 pt-5 pt-lg-0">
         <div class="info-box">
           <h3>Veja o que está incluso, ao fazer o curso de MT:</h3>
           <ul>
@@ -906,6 +906,7 @@ window._show_thank_you = function(id, message, trackcmp_url, email) {
   var form = document.getElementById('_form_' + id + '_'),
     thank_you = form.querySelector('._form-thank-you');
   form.querySelector('._form-content').style.display = 'none';
+  document.getElementById('thanks').style.display = 'none';
   thank_you.innerHTML = message;
   thank_you.style.display = 'block';
   const vgoAlias = typeof visitorGlobalObjectAlias === 'undefined' ? 'vgo' : visitorGlobalObjectAlias;
