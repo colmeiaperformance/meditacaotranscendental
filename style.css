@@ -3271,7 +3271,7 @@ footer .top a {
   .page-inscricao .inscricao-form #_form_7_ ._form_element input[type=date] {
     appearance: none;
     padding: 7px 15px !important;
-    font-size: 9px;
+    font-size: 15px;
     background: url(images/inscricao/dropdown-mobile.png);
     background-position: right 1rem center;
     background-color: #fff;
@@ -3311,7 +3311,7 @@ footer .top a {
 @media (max-width: 992px) {
   .page-inscricao .inscricao-form #_form_7_ input[type=text] {
     padding: 4.5px 15px !important;
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 .page-inscricao .inscricao-form #_form_7_ select {
