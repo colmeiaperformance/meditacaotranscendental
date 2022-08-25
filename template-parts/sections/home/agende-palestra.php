@@ -1,43 +1,34 @@
-<section class="agende-palestra">
+<?php 
+$cor_de_fundo_agp = get_sub_field('cor_de_fundo_agp');
+$circulos_agp = get_sub_field('circulos_agp');
+$link_do_botao_agp = get_sub_field('link_do_botao_agp');
+$texto_do_botao_agp = get_sub_field('texto_do_botao_agp');
+?>
+<section class="agende-palestra"
+  style="background-color: <?php if ( $cor_de_fundo_agp ) { echo $cor_de_fundo_agp; } else { echo ''; } ?>;">
   <div class="container py-5">
     <div class="row align-items-center justify-content-center">
+
+      <?php foreach ($circulos_agp as $c_agp) { ?>
+
       <div class="col-6 col-md-3 d-flex align-items-center justify-content-center">
-        <div class="circle green rounded-circle">
+        <div class="circle rounded-circle" style="background: <?php if ( $c_agp['cor_circulo'] ) { echo $c_agp['cor_circulo']; } else { echo ''; } ?>;">
           <div class="d-block text-center px-2">
-            <h4>+<span class="counter">600</span></h4>
-            <p>estudos<br /> científicos</p>
+            <h4>+<span class="counter"><?php if ( $c_agp['titulo_circulo'] ) { echo $c_agp['titulo_circulo']; } else { echo ''; } ?></span></h4>
+            <p><?php if ( $c_agp['subtitulo_circulo'] ) { echo $c_agp['subtitulo_circulo']; } else { echo ''; } ?></p>
           </div>
         </div>
       </div>
-      <div class="col-6 col-md-3 d-flex align-items-center justify-content-center">
-        <div class="circle red rounded-circle">
-          <div class="d-block text-center px-2">
-            <h4>+<span class="counter">10</span></h4>
-            <p>milhões de meditantes</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-6 col-md-3 d-flex align-items-center justify-content-center">
-        <div class="circle blue rounded-circle">
-          <div class="d-block text-center px-2">
-            <h4>+<span class="counter">100</span></h4>
-            <p>países</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-6 col-md-3 d-flex align-items-center justify-content-center">
-        <div class="circle yellow rounded-circle">
-          <div class="d-block text-center px-2">
-            <h4>+<span class="counter">160</span></h4>
-            <p>mil meditantes<br /> no Brasil</p>
-          </div>
-        </div>
-      </div>
+
+      <?php 
+      } ?>
+
+
     </div>
 
     <div class="row align-items-center justify-content-center py-5">
       <div class="col text-center">
-        <a class="btn" href="<?php echo home_url( '/agendamento/' ); ?>" role="button">Agende a palestra gratuita</a>
+        <a class="btn" href="<?php if ( $link_do_botao_agp ) { echo $link_do_botao_agp; } else { echo ''; } ?>" role="button"><?php if ( $texto_do_botao_agp ) { echo $texto_do_botao_agp; } else { echo ''; } ?></a>
       </div>
     </div>
 

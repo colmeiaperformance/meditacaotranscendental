@@ -5928,18 +5928,6 @@ footer .top a {
     margin-bottom: 14px;
   }
 }
-.agende-palestra .circle.green {
-  background: #a6d491;
-}
-.agende-palestra .circle.red {
-  background: #F49093;
-}
-.agende-palestra .circle.blue {
-  background: #98AFDA;
-}
-.agende-palestra .circle.yellow {
-  background: #FFC536;
-}
 .agende-palestra h4 {
   text-align: center;
   letter-spacing: -0.05em;
