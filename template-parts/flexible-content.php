@@ -50,7 +50,7 @@ if (have_rows('content')):
 <?php get_template_part('template-parts/sections/home/mundo-melhor'); ?>
 
 <?php
-    // Section: Home - Visite Nosso Blog.
+    // Section: Home - Visite Nosso Blog. ACF OK
     elseif (get_row_layout() == 'visite_nosso_blog'): ?>
 <?php get_template_part('template-parts/sections/home/visite-blog'); ?>
 
@@ -90,5 +90,5 @@ endif;
 <?php //get_template_part('template-parts/sections/pages/o-que-dizem'); ?>
 <?php //get_template_part('template-parts/sections/home/transcender'); ?>
 <?php //get_template_part('template-parts/sections/home/mundo-melhor'); ?>
-<?php /* get_template_part('template-parts/sections/home/visite-blog'); */?>
+<?php //get_template_part('template-parts/sections/home/visite-blog'); ?>
 <?php get_template_part('template-parts/sections/home/agende-palestra'); ?>

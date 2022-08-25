@@ -57,10 +57,11 @@
     }
   }
   .post-img{
-    .img-fluid{
       height: 100%;
       border-radius: 6px;
-    }
+      @media (max-width: 992px) {
+        height: 200px;
+      }
   }
   .swiper-slide{
     height: auto;

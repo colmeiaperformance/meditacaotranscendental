@@ -7133,9 +7133,14 @@ footer .top a {
 .visite-blog .post .item-btn {
   height: 100%;
 }
-.visite-blog .post-img .img-fluid {
+.visite-blog .post-img {
   height: 100%;
   border-radius: 6px;
+}
+@media (max-width: 992px) {
+  .visite-blog .post-img {
+    height: 200px;
+  }
 }
 .visite-blog .swiper-slide {
   height: auto;
