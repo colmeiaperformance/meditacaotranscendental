@@ -19,23 +19,23 @@ if (have_rows('content')):
 <?php get_template_part('template-parts/sections/home/mt-unica/mt-unica-slide'); ?>
 
 <?php
-    // Section: Home - MT Unica - Depoimentos. ACF OK - Fazer pagination
+    // Section: Home - MT Unica - Depoimentos. ACF OK
     elseif (get_row_layout() == 'mt_unica_depoimentos'): ?>
 <?php get_template_part('template-parts/sections/home/mt-unica/mt-unica-depoimentos'); ?>
 
 <?php
-    // Section: Home - Beneficios da MT.
+    // Section: Home - Beneficios da MT. ACF OK
     elseif (get_row_layout() == 'beneficios_da_mt'): ?>
 <?php get_template_part('template-parts/sections/home/conheca-beneficios'); ?>
 
 
 <?php
-    // Section: Home - Como Aprender MT.
+    // Section: Home - Como Aprender MT. ACF OK
     elseif (get_row_layout() == 'como_aprender_mt'): ?>
 <?php get_template_part('template-parts/sections/home/como-aprender'); ?>
 
 <?php
-    // Section: Home - O Que Dizem.
+    // Section: Home - O Que Dizem. ACF OK
     elseif (get_row_layout() == 'o_que_dizem'): ?>
 <?php get_template_part('template-parts/sections/pages/o-que-dizem'); ?>
 
@@ -87,7 +87,7 @@ endif;
 <?php // get_template_part('template-parts/sections/home/mt-unica/mt-unica-depoimentos'); ?>
 <?php //get_template_part('template-parts/sections/home/conheca-beneficios'); ?>
 <?php //get_template_part('template-parts/sections/home/como-aprender'); ?>
-<?php get_template_part('template-parts/sections/pages/o-que-dizem'); ?>
+<?php //get_template_part('template-parts/sections/pages/o-que-dizem'); ?>
 <?php get_template_part('template-parts/sections/home/transcender'); ?>
 <?php get_template_part('template-parts/sections/home/mundo-melhor'); ?>
 <?php /* get_template_part('template-parts/sections/home/visite-blog'); */?>
