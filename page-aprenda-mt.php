@@ -13,7 +13,8 @@
         <p>A MT é uma técnica <strong>simples, natural e sem esforço</strong> que pode ser praticada por qualquer pessoa, <span>a partir dos 5 anos de idade</span>.</p>
         <p>O <Strong>primeiro passo</Strong> é participar de uma <span>palestra online gratuita</span>.</p>
       </div>
-      <a href="<?php echo home_url( '/agendamento/' ); ?>" class="btn">Agende sua participação</a>
+      <?php echo do_shortcode('[mt_render_subscription]'); ?>
+      <!-- <a href="<?php echo home_url( '/agendamento/' ); ?>" class="btn">Agende sua participação</a> -->
     </div>
     <!-- <div class="container text-center d-block d-lg-none">
       <div class="text d-block d-lg-none">
