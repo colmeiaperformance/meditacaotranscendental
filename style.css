@@ -340,8 +340,8 @@ footer .top a {
 @media (max-width: 991.98px) {
   .header--blog h1 {
     font-weight: 900;
-    font-size: 80px;
-    line-height: 98px;
+    font-size: 60px;
+    line-height: 78px;
     text-align: center;
     color: #FFFFFF;
     opacity: 0.2;
@@ -349,8 +349,11 @@ footer .top a {
     position: relative;
   }
 }
-.header--blog h2 {
-  display: none;
+@media (max-width: 576px) {
+  .header--blog h1 {
+    font-size: 40px;
+    line-height: 58px;
+  }
 }
 @media (max-width: 991.98px) {
   .header--blog h2 {
@@ -365,6 +368,13 @@ footer .top a {
     left: 0;
     right: 0;
     margin-top: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .header--blog h2 {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 30px;
   }
 }
 .header--single {

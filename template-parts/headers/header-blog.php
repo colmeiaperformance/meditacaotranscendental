@@ -10,9 +10,9 @@
 </section>
 <header class="header--blog">
   <div class="container position-relative overflow-hidden">
-    <div class="col p-lg-5 text-center">
-      <h1>Blog</h1>
-      <h2>Últimos posts</h2>
+    <div class="col p-lg-3 text-center text-white">
+      <h1>Transcender</h1>
+      <h2>O universo de conhecimento da MT Brasil</h2>
     </div>
   </div>
 </header>

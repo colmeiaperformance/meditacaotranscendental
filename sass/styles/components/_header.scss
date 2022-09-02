@@ -77,17 +77,21 @@
       margin-bottom: 0;
       @media (max-width: 991.98px) {
         font-weight: 900;
-        font-size: 80px;
-        line-height: 98px;
+        font-size: 60px;
+        line-height: 78px;
         text-align: center;
         color: $color-white;
         opacity: 0.2;
         text-transform: uppercase;
         position: relative;
       }
+      @media (max-width: 576px) {
+        font-size: 40px;
+        line-height: 58px;
+      }
     }
     h2 {
-      display: none;
+      // display: none;
       @media (max-width: 991.98px) {
         display: block;
         font-weight: 700;
@@ -100,6 +104,11 @@
         left: 0;
         right: 0;
         margin-top: 40px;
+      }
+      @media (max-width: 576px) {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 30px;
       }
     }
   }
