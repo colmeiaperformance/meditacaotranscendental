@@ -158,7 +158,7 @@
     </div>
     <div class="row mt-4 mt-lg-5">
       <div class="col-12 text-center">
-        <a class="btn px-4" href="<?php echo home_url( '/instrutores/' ); ?>" role="button">Encontre um instrutor credenciado</a>
+        <a class="btn px-4" href="<?php echo home_url( '/instrutores/' ); ?>" role="button">Encontre um instrutor certificado</a>
       </div>
     </div>
 

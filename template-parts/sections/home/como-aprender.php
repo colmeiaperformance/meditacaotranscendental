@@ -9,7 +9,7 @@
             alt="Aprenda MT">
         </div>
         <div class="col-12 col-lg-8 como-aprender-texto mb-4">
-          <p>A Meditação Transcendental é ensinada somente por professores credenciados pela Associação Internacional de
+          <p>A Meditação Transcendental é ensinada somente por professores certificados pela Associação Internacional de
             Meditação (SIM).</p>
           <p>Mais que um curso. O início de uma jornada de autoconhecimento e evolução.</p>
         </div>
@@ -24,7 +24,7 @@
       <div class="col-12 col-lg-6">
         <div class="como-aprender-box">
           <ul class="como-aprender-list">
-            <li class="como-aprender-list-item">A Meditação Transcendental é ensinada apenas por instrutores certificados e credenciados</li>
+            <li class="como-aprender-list-item">A Meditação Transcendental é ensinada apenas por instrutores certificados</li>
             <li class="como-aprender-list-item">O curso é realizado em 4 encontros presenciais.</li>
             <li class="como-aprender-list-item">Você aprende a meditar através da experiência prática com a MT.</li>
             <li class="como-aprender-list-item">Após o curso, você terá acompanhamento sempre que precisar.</li>
