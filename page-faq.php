@@ -125,7 +125,7 @@
         </button>
         <div class="collapse" id="collapse-11">
         <div class="btn-toggle-nav">
-          <p>Apenas instrutores certificados e credenciados pela Associação Internacional de Meditação (SIM) podem 
+          <p>Apenas instrutores certificados pela Associação Internacional de Meditação (SIM) podem 
             ensinar a verdadeira técnica da MT®. Basta consultar a lista dos instrutores certificados 
             <a href="<?php echo home_url( '/instrutores/' ); ?>">aqui</a>. 
             Você pode pesquisar por nome ou por localidade. 
