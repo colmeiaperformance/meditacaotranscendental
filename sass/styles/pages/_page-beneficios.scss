@@ -23,6 +23,26 @@
       }
     }
   }
+  .btn {
+    font-weight: 400;
+    font-size: var(--font-size-regular);
+    line-height: 30px;
+    color: $color-white;
+    padding: 9px 31px;
+    background: $color-primary-dark;
+    border: 1px solid  $color-primary-dark;
+    border-radius: 30px;
+    margin-top: 74px;
+    @media (max-width: 992px) {
+      font-size: var(--font-size-extrasmall);
+      line-height: 18px;
+      margin-top: 20px;
+    }
+    &:hover {
+      background: transparent;
+      color: $color-primary-dark;
+    }
+  }
   .mt-faz {
     background: $color-secondary-medium;
     padding: 60px 0 70px 0;
@@ -83,6 +103,10 @@
         margin-right: 8px;
         width: 52px;
       }
+    }
+    .btn:hover{
+      color: $color-white;
+      border-color: $color-white;
     }
   }
   .o-que-dizem  {
@@ -167,26 +191,6 @@
       strong {
         font-weight: 600;
         color: $color-primary-medium;
-      }
-    }
-    .btn {
-      font-weight: 400;
-      font-size: var(--font-size-regular);
-      line-height: 30px;
-      color: $color-white;
-      padding: 9px 31px;
-      background: $color-primary-dark;
-      border: 1px solid  $color-primary-dark;
-      border-radius: 30px;
-      margin-top: 74px;
-      @media (max-width: 992px) {
-        font-size: var(--font-size-extrasmall);
-        line-height: 18px;
-        margin-top: 20px;
-      }
-      &:hover {
-        background: transparent;
-        color: $color-primary-dark;
       }
     }
     .bloco-1 {

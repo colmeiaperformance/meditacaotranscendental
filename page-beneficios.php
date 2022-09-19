@@ -57,15 +57,15 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="ciencia">
-    <div class="container">
-      <div class="row align-items-center justify-content-center pb-5">
+      <div class="row align-items-center justify-content-center pt-5">
         <div class="col text-center">
           <a class="btn mt-0" href="<?php echo home_url( '/agendamento/' ); ?>" role="button">Agende a palestra gratuita</a>
         </div>
       </div>
+    </div>
+  </section>
+  <section class="ciencia">
+    <div class="container">
       <div class="row align-items-center px-5 bloco-1">
         <input type="radio" name="tabs" id="input-1" checked>
         <label for="input-1" class="col-6 col-lg-3 d-flex align-items-center justify-content-center p-0 box rounded-circle text-center">
