@@ -43,7 +43,7 @@
 
     <div class="row justify-content-center mt-4 mt-lg-0">
       <div class="col-12 text-center">
-        <a class="btn px-4" href="<?php echo home_url( '/agendamento/' ); ?>" role="button">Inscreva-se</a>
+        <a class="btn px-4" href="<?php echo home_url( '/agendamento/' ); ?>" role="button">Inscreva-se na Palestra Gratuita</a>
       </div>
     </div>
   </div>
