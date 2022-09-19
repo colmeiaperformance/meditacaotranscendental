@@ -30,7 +30,7 @@
                         } ?>');background-position: center;background-attachment: scroll;background-repeat: no-repeat;background-size: cover;z-index:2;">
                   </div>
                   <div
-                    style="background: linear-gradient(0deg, rgba(34,34,34,0) 50%, rgba(34,34,34,0.7) 100%);z-index:5;position:absolute;left:0;top:0;width:100%;height:100%;">
+                    style="background: linear-gradient(0deg, rgba(34,34,34,0) 0%, rgba(34,34,34,0) 50%, rgba(34,34,34,0.7) 100%);z-index:5;position:absolute;left:0;top:0;width:100%;height:100%;">
                   </div>
                   <div class="col-md-10 position-absolute top-0 spotilight-content" style="z-index:10;">
                     <h2 class="color-white"><a href="<?php the_permalink(); ?>"
