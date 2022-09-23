@@ -289,6 +289,12 @@ footer .top a {
 .header--home .carousel-caption {
   z-index: 111;
 }
+.header--home .text-banner {
+  z-index: 111;
+}
+.header--home .btn-header {
+  z-index: 1111;
+}
 .header--home .btn {
   font-weight: 400;
   font-size: 24px;
