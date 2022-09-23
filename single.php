@@ -80,4 +80,9 @@
     </div>
   </section>
 </main>
+<script>
+jQuery(document).ready(function() {
+  loadMore();
+});
+</script>
 <?php get_footer() ?>
