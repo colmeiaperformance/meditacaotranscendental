@@ -355,9 +355,3 @@ wp_localize_script( 'twentyfifteen-script', 'ajax_posts', array(
     'ajaxurl' => admin_url( 'admin-ajax.php' ),
     'noposts' => __('No older posts found', 'twentyfifteen'),
 ));
-
-//Function to make visitor review be round scores
-function my_custom_comment_step( $step = "", $pid = "" ) {
-    return 1;
-}
-add_filter( "lets_review_comment_reviews_step", "my_custom_comment_step", 10, 2 );
