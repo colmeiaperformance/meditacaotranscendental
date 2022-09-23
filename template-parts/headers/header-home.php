@@ -23,7 +23,7 @@
                 2 vezes ao dia.<br />
                 Sem esforço.
               </h1>
-              <a href="<?php echo home_url( '/aprenda/' ); ?>" class="btn position-relative">
+                <a href="/aprenda" class="btn position-relative">
                  Saiba mais
                 </a>
             </div>
