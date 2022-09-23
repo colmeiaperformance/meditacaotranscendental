@@ -16,7 +16,7 @@
                  Saiba mais
                 </a>
             </div>
-            <!-- <div class="col d-block d-lg-none carousel-caption p-0 position-relative text-left text-lg-start start-0 end-0">
+            <div class="col d-block d-lg-none carousel-caption p-0 position-relative text-left text-lg-start start-0 end-0">
               <h1 class="position-relative">
                <strong>A mudança começa dentro.</strong><br />
                 20 minutos.<br />
@@ -26,7 +26,7 @@
               <a href="<?php echo home_url( '/aprenda/' ); ?>" class="btn position-relative">
                  Saiba mais
                 </a>
-            </div> -->
+            </div>
             <div class="col p-0 text-center text-lg-end position-relative">
               <img loading="lazy" src=<?php echo get_template_directory_uri() . '/images/header/banner-home.png' ?> alt="Header">
             </div>
