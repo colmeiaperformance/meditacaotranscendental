@@ -24,15 +24,16 @@
   }
   .menu-item:last-child {
     .nav-link  {
-      background-color: $color-white;
-      color: $color-primary-dark;
-      border: 1px solid $color-white;
+      background-color: $color-green-medium;
+      color: $color-white;
+      border: 1px solid $color-green-medium;
       border-radius: 30px;
       padding: 9px!important;
       &:hover {
         opacity: 1;
-        background-color: transparent;
-        color: $color-white;
+        border: 1px solid $color-white;
+        background-color: $color-white;
+        color: $color-green-medium;
       }  
     }
   }
