@@ -3310,8 +3310,8 @@ footer .top a {
 }
 @media (max-width: 992px) {
   .page-inscricao .inscricao-header p {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 15px;
+    line-height: 18px;
     margin-bottom: 18px;
   }
 }
@@ -3356,7 +3356,7 @@ footer .top a {
 }
 @media (max-width: 992px) {
   .page-inscricao .inscricao-form #_form_7_ ._form_element ._form-label {
-    font-size: 10px;
+    font-size: 13px;
     margin-bottom: 3px;
   }
 }
@@ -3387,7 +3387,7 @@ footer .top a {
 }
 @media (max-width: 992px) {
   .page-inscricao .inscricao-form #_form_7_ ._form_element ._checkbox-radio span {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 @media (max-width: 992px) {
@@ -3482,9 +3482,9 @@ footer .top a {
 }
 @media (max-width: 992px) {
   .page-inscricao .inscricao-form ._submit {
-    font-size: 14px !important;
+    font-size: 15px !important;
     line-height: 16px !important;
-    padding: 7px 15px !important;
+    padding: 9px 18px !important;
     margin-top: 25px;
   }
 }
@@ -3511,7 +3511,7 @@ footer .top a {
 }
 @media (max-width: 992px) {
   .page-inscricao .info-box h3 {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 14px;
     margin-bottom: 13.5px;
   }
@@ -3528,8 +3528,8 @@ footer .top a {
 }
 @media (max-width: 992px) {
   .page-inscricao .info-box ul li {
-    font-size: 9px;
-    line-height: 11px;
+    font-size: 11px;
+    line-height: 13px;
     margin-bottom: 16px;
   }
 }
