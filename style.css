@@ -313,7 +313,10 @@ footer .top a {
 .header--home .btn-header {
   z-index: 1111;
 }
-.header--home .btn {
+.header--home button {
+  border-radius: 30px;
+}
+.header--home .btn, .header--home button {
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
@@ -322,14 +325,14 @@ footer .top a {
   border: 1px solid #FFFFFF;
   padding: 9px 31px;
 }
-.header--home .btn:hover {
+.header--home .btn:hover, .header--home button:hover {
   background-color: transparent;
   border: 1px solid #FFFFFF;
   color: #FFFFFF;
   opacity: 1;
 }
 @media (max-width: 992px) {
-  .header--home .btn {
+  .header--home .btn, .header--home button {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;

@@ -17,9 +17,8 @@
                   </h1>
                 </div>
                 <div class="btn-header position-relative">
-                  <a href="<?php echo home_url( '/aprenda/' ); ?>" class="btn position-relative">
-                  Saiba mais
-                  </a>
+                <button onclick="location.href='<?php echo home_url( '/aprenda/' ); ?>'" type="button">Saiba mais</button>
+                  
                 </div>
             </div>
             <div class="col p-0 text-center text-lg-end position-relative">
