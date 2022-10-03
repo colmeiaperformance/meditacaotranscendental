@@ -30,10 +30,10 @@
       border-radius: 30px;
       padding: 9px!important;
       &:hover {
-        opacity: 1;
         background-color: $color-white;
         color: $color-green;
         border: 1px solid $color-white;
+        opacity: 1;
       }  
     }
   }
