@@ -65,7 +65,7 @@
   </div>
 </section>
 <script>
-  $('.carousel').carousel({
+  jQuery('.carousel').carousel({
     interval: 3000
   })
 </script>

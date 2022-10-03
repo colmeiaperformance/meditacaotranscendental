@@ -24,9 +24,9 @@
   }
   .menu-item:last-child {
     .nav-link  {
-      background-color: $color-white;
-      color: $color-primary-dark;
-      border: 1px solid $color-white;
+      background-color: $color-secondary-dark;
+      color: $color-white;
+      border: 1px solid $color-secondary-dark;
       border-radius: 30px;
       padding: 9px!important;
       &:hover {
