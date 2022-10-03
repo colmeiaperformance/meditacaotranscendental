@@ -836,8 +836,9 @@ footer .top a {
 }
 .navbar .menu-item:last-child .nav-link:hover {
   opacity: 1;
-  background-color: transparent;
-  color: #FFFFFF;
+  background-color: #FFFFFF;
+  color: #A6D491;
+  border: 1px solid #FFFFFF;
 }
 .navbar .dropdown-menu {
   border-radius: 0;
