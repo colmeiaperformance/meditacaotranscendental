@@ -1,5 +1,5 @@
 //Show more sidebar button
-jQuery(document).ready(function () {
+function loadMore() {
   const loadmore = document.querySelector("#loadmore");
   let currentItems = 4;
   loadmore.addEventListener("click", (e) => {
@@ -19,8 +19,7 @@ jQuery(document).ready(function () {
       document.getElementById("loadmore").classList.toggle("d-block");
     }
   });
-});
-
+}
 
 //Menu scrolling classjQuery
 jQuery(document).ready(function () {

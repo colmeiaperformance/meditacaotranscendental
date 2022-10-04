@@ -15,19 +15,19 @@ jQuery(document).ready(function() {
 </script>
 <!-- Adicionando Javascript do VIACEP -->
 <script>
-$(document).ready(function() {
+jQuery(document).ready(function() {
 
   function limpa_formulário_cep() {
     // Limpa valores do formulário de cep.
-    $(".form-cidade").val("");
-    $(".form-estado").val("");
+    jQuery(".form-cidade").val("");
+    jQuery(".form-estado").val("");
   }
 
   //Quando o campo cep perde o foco.
-  $("#cep").blur(function() {
+  jQuery("#cep").blur(function() {
 
     //Nova variável "cep" somente com dígitos.
-    var cep = $(this).val().replace(/\D/g, '');
+    var cep = jQuery(this).val().replace(/\D/g, '');
 
     //Verifica se campo cep possui valor informado.
     if (cep != "") {
@@ -39,16 +39,16 @@ $(document).ready(function() {
       if (validacep.test(cep)) {
 
         //Preenche os campos com "..." enquanto consulta webservice.
-        $(".form-cidade").val("...");
-        $(".form-estado").val("...");
+        jQuery(".form-cidade").val("...");
+        jQuery(".form-estado").val("...");
 
         //Consulta o webservice viacep.com.br/
         $.getJSON("https://viacep.com.br/ws/" + cep + "/json/?callback=?", function(dados) {
 
           if (!("erro" in dados)) {
             //Atualiza os campos com os valores da consulta.
-            $(".form-cidade").val(dados.localidade);
-            $(".form-estado").val(dados.uf);
+            jQuery(".form-cidade").val(dados.localidade);
+            jQuery(".form-estado").val(dados.uf);
           } //end if.
           else {
             //CEP pesquisado não foi encontrado.
