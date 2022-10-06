@@ -5,7 +5,7 @@
     padding: 25px;
     h4 {
       font-weight: 700;
-      font-size: 24px;
+      font-size: var(--font-size-regular);
       line-height: 29px;
       text-align: center;
       color: $color-secondary-dark;
@@ -64,7 +64,7 @@
       padding-bottom: 20px;
       @media (max-width: 992px) {
         font-weight: 700;
-        font-size: 17.93px;
+        font-size: var(--font-size-small);
         line-height: 22px;
       }
       &::after {
@@ -363,7 +363,7 @@
       }
       h4 {
         font-weight: 600;
-        font-size: 24px;
+        font-size: var(--font-size-regular);
         line-height: 29px;
         color: $color-white;
         margin-bottom: 0;
@@ -386,7 +386,7 @@
         color: $color-white;
         border-radius: 0;
         font-weight: 500;
-        font-size: 18px;
+        font-size: var(--font-size-small);
         line-height: 22px;
         padding: 5px 20px;
         &:hover {

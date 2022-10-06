@@ -103,7 +103,7 @@ footer {
     position: absolute;
     a {
       color: $color-white;
-      font-size: 30px;
+      font-size: var(--font-size-medium);
       display: inline;
       position: fixed;
       bottom: 0.8rem;

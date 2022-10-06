@@ -33,7 +33,7 @@
   }
   h3 {
     font-weight: 400;
-    font-size: 54px;
+    font-size: var(--font-size-extralarge);
     line-height: 63px;
     text-align: center;
     letter-spacing: -0.02em;
@@ -48,7 +48,7 @@
   }
   p {
     font-weight: 400;
-    font-size: 30px;
+    font-size: var(--font-size-medium);
     line-height: 35px;
     text-align: center;
     letter-spacing: -0.02em;
