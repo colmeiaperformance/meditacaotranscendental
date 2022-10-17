@@ -10,7 +10,7 @@
 <?php get_template_part('template-parts/pages/beneficios/hero'); ?>
 <?php get_template_part('template-parts/pages/beneficios/mt-faz'); ?>
 <?php get_template_part('template-parts/pages/beneficios/ciencia'); ?>
-<?php get_template_part('template-parts/sections/pages/o-que-dizem-temp'); ?>
+<?php get_template_part('template-parts/pages/beneficios/o-que-dizem'); ?>
 <!-- PS- QUANDO ADD A SECAO PESQUISAS CIENTIFICAS, REMOVER A MARGIN DO CSS INLINE DA SECAO BENEFICIOS INFO-->
 <style>
   .page-beneficios-mt .beneficios-info {
