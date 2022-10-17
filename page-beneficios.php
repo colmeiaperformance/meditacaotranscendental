@@ -4,7 +4,7 @@
   */
   ?>
 <?php get_header(); ?>
-<?php get_template_part('template-parts/navbar'); ?>
+<?php get_template_part('template-parts/sections/navbar'); ?>
 <?php get_template_part('template-parts/headers/header-beneficios-mt'); ?>
 <main class="page-beneficios-mt">
 <?php get_template_part('template-parts/pages/beneficios/hero'); ?>

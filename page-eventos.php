@@ -2,7 +2,7 @@
   /* Template Name: Eventos*/
   ?>
 <?php get_header(); ?>
-<?php get_template_part('template-parts/navbar'); ?>
+<?php get_template_part('template-parts/sections/navbar'); ?>
 
 <main class="page-eventos">
     <div class="container">
