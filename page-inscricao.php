@@ -2,7 +2,7 @@
   /* Template Name: Inscricão*/
 ?>
 <?php get_header(); ?>
-<?php get_template_part('template-parts/navbar'); ?>
+<?php get_template_part('template-parts/sections/navbar'); ?>
 <main class="page-inscricao">
   <?php get_template_part('template-parts/pages/inscricao/header'); ?>
   <?php get_template_part('template-parts/pages/inscricao/form'); ?>

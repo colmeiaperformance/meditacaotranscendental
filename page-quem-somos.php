@@ -4,7 +4,7 @@
   */
   ?>
 <?php get_header(); ?>
-<?php get_template_part('template-parts/navbar'); ?>
+<?php get_template_part('template-parts/sections/navbar'); ?>
 <?php get_template_part('template-parts/headers/header-quem-somos'); ?>
 <main class="page-quem-somos">
   <?php get_template_part('template-parts/pages/oquee-mt/hero'); ?>

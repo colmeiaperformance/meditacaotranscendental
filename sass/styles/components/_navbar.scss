@@ -6,7 +6,7 @@
   }
   .nav-link {
     font-weight: 400;
-    font-size: 16px;
+    font-size: var(--font-size-extrasmall);
     line-height: 19px;
     color: $color-secondary-dark;
     padding: 0 15px!important;

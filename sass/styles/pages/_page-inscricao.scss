@@ -6,7 +6,7 @@
     .inscricao-header {
         h2 {
             font-weight: 600;
-            font-size: 54px;
+            font-size: var(--font-size-extralarge);
             line-height: 63px;
             text-align: center;
             letter-spacing: -0.02em;
@@ -20,14 +20,14 @@
         }
         p {
             font-weight: 300;
-            font-size: 24px;
+            font-size: var(--font-size-regular);
             line-height: 28px;
             letter-spacing: -0.02em;
             color: $color-secondary-dark;
             margin-bottom: 33px;
             @media (max-width: 992px) {
-                font-size: 15px;
-                line-height: 18px;
+                font-size: 1rem;
+                line-height: 19px;
                 margin-bottom: 18px;
             }
             strong {
@@ -64,12 +64,12 @@
                 ._form-label {
                     margin-bottom: 6.5px;
                     font-weight: 300;
-                    font-size: 18px;
+                    font-size: var(--font-size-small);
                     line-height: 150%;
                     color: $color-secondary-dark;
                     @media (max-width: 992px) {
-                        font-size: 13px;
-                        margin-bottom: 3px;
+                        font-size: 1rem;
+                        margin-bottom: 5px;
                     }
                 }
                 input[type="date"] {
@@ -78,7 +78,7 @@
                     width: 100%;
                     padding: 9px 31px;
                     font-weight: 300;
-                    font-size: 18px;
+                    font-size: var(--font-size-small);
                     line-height: 21px;
                     color: $color-secondary-dark;
                     background: $color-white;
@@ -96,7 +96,7 @@
                     span {
                         color: $color-secondary-dark;
                         @media (max-width: 992px) {
-                            font-size: 14px;
+                            font-size: 1rem;
                         }
                     }
                     input[type="checkbox"] {
@@ -114,7 +114,7 @@
                 padding: 9px 31px;
                 font-weight: 300;
                 font-size: 21px;
-                line-height: 24px;
+                line-height: var(--line-height-primary);
                 color: $color-secondary-dark;
                 &:focus {
                     color: $color-primary-dark !important;
@@ -124,7 +124,7 @@
                 }
                 @media (max-width: 992px) {
                     padding: 4.5px 15px!important;
-                    font-size: 15px;
+                    font-size: 1rem;
                 }
             }
             select {
@@ -139,7 +139,7 @@
                 background-repeat: no-repeat ;
                 appearance: none;
                 font-weight: 300;
-                font-size: 18px;
+                font-size: var(--font-size-small);
                 line-height: 21px;
                 color: $color-secondary-dark;
                 &:focus {
@@ -175,9 +175,9 @@
             background: $color-primary-dark;
             border: 1px solid $color-primary-dark;
             font-weight: 700;
-            font-size: 16px!important;
+            font-size: var(--font-size-extrasmall)!important;
             line-height: 150%!important;
-            color :$color-white;
+            color: $color-white;
             padding: 9px 31px!important;
             transition: all .3s ease;
             text-align: center;
@@ -186,8 +186,8 @@
                 color: $color-primary-dark;
             }
             @media (max-width: 992px) {
-                font-size: 15px!important;
-                line-height: 16px!important;
+                font-size: 1rem!important;
+                line-height: 19px!important;
                 padding: 9px 18px !important;
                 margin-top: 25px;
             }
@@ -211,8 +211,8 @@
             line-height: 21px;
             color: $color-secondary-dark;
             @media (max-width: 992px) {
-                font-size: 14px;
-                line-height: 14px;
+                font-size: 17px;
+                line-height: 19px;
                 margin-bottom: 13.5px;
             }
         }
@@ -225,8 +225,8 @@
                 font-size: 14px;
                 line-height: 16px;
                 @media (max-width: 992px) {
-                    font-size: 11px;
-                    line-height: 13px;
+                    font-size: 1rem;
+                    line-height: 19px;
                     margin-bottom: 16px;
                 }
                 &::marker {
@@ -259,7 +259,7 @@
         }
         h2 {
             font-weight: 300;
-            font-size: 54px;
+            font-size: var(--font-size-extralarge);
             line-height: 63px;
             letter-spacing: -0.02em;
             color: $color-primary-medium;

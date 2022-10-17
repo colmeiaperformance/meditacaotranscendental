@@ -211,7 +211,7 @@
         }  
         @media (max-width: 992px) {
           font-size: var(--font-size-extrasmall);
-          line-height: 24px;
+          line-height: var(--line-height-primary);
         }
       }
     }
