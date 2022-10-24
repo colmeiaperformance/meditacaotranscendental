@@ -7,13 +7,13 @@
 <?php get_template_part('template-parts/sections/navbar'); ?>
 <?php get_template_part('template-parts/headers/header-quem-somos'); ?>
 <main class="page-quem-somos">
-  <?php get_template_part('template-parts/pages/oquee-mt/hero'); ?>
-  <?php get_template_part('template-parts/pages/oquee-mt/sobre'); ?>
-  <?php get_template_part('template-parts/pages/oquee-mt/projetos'); ?>
-  <?php get_template_part('template-parts/pages/oquee-mt/origem'); ?>
-  <?php get_template_part('template-parts/pages/oquee-mt/organizacoes'); ?>
-  <?php get_template_part('template-parts/pages/oquee-mt/legado'); ?>
-  <?php get_template_part('template-parts/pages/oquee-mt/footer'); ?>
+  <?php get_template_part('template-parts/pages/quem-somos/hero'); ?>
+  <?php get_template_part('template-parts/pages/quem-somos/sobre'); ?>
+  <?php get_template_part('template-parts/pages/quem-somos/projetos'); ?>
+  <?php get_template_part('template-parts/pages/quem-somos/origem'); ?>
+  <?php get_template_part('template-parts/pages/quem-somos/organizacoes'); ?>
+  <?php get_template_part('template-parts/pages/quem-somos/legado'); ?>
+  <?php get_template_part('template-parts/pages/quem-somos/footer'); ?>
 </main>
 <script>
   jQuery(document).ready(function() {
