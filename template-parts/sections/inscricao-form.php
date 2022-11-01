@@ -864,7 +864,7 @@ jQuery(document).ready(function() {
           </div>
         </div>
         <div class="_button-wrapper _full_width">
-          <button id="_form_7_submit" class="_submit" type="submit">
+          <button name="confirmar" id="_form_7_submit" class="_submit" type="submit">
             Confirmar pedido
           </button>
         </div>

@@ -30,7 +30,7 @@
       <option value="2">Two</option>
       <option value="3">Three</option>
       </select>
-      <button class="btn">
+      <button name="btn" class="btn">
       Ver Datas
       </button>
       </form>

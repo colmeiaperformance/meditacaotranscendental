@@ -11,7 +11,7 @@
           <iframe width="100%" height="280px" src="https://www.youtube.com/embed/yH75byJSexg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="video-caption">
-          <h5>Dr. Tony Nader</h5>
+          <h4>Dr. Tony Nader</h4>
           <p><em>Médico, PhD por Harvard e MIT e líder global da MT</em></p>
         </div>
       </div>

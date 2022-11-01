@@ -17,7 +17,7 @@
                   </h1>
                 </div>
                 <div class="btn-header position-relative">
-                <button onclick="location.href='<?php echo home_url( '/aprenda/' ); ?>'" type="button">Saiba mais</button>
+                <button name="btn-home-saiba-mais" onclick="location.href='<?php echo home_url( '/aprenda/' ); ?>'" type="button">Saiba mais</button>
                   
                 </div>
             </div>

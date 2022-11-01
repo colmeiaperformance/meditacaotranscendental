@@ -3,7 +3,7 @@
     <h2>Perguntas frequentes</h2>
     <ul class="list-unstyled ps-0">
       <li>
-        <button class="btn btn-toggle align-items-center   collapsed" data-bs-toggle="collapse"
+        <button name="btn-qualquer-pessoa" class="btn btn-toggle align-items-center   collapsed" data-bs-toggle="collapse"
           data-bs-target="#collapse-1" aria-expanded="false">
         Qualquer pessoa pode praticar a MT?
         </button>
@@ -15,7 +15,7 @@
         </div>
       </li>
       <li>
-        <button class="btn btn-toggle align-items-center   collapsed" data-bs-toggle="collapse"
+        <button name="btn-precisa-minutos" class="btn btn-toggle align-items-center   collapsed" data-bs-toggle="collapse"
           data-bs-target="#collapse-2" aria-expanded="false">
         Quanto tempo do meu dia preciso dedicar à MT?
         </button>
@@ -27,7 +27,7 @@
         </div>
       </li>
       <li>
-        <button class="btn btn-toggle align-items-center   collapsed" data-bs-toggle="collapse"
+        <button name="postura-indicada" class="btn btn-toggle align-items-center   collapsed" data-bs-toggle="collapse"
           data-bs-target="#collapse-3" aria-expanded="false">
         Qual é a postura indicada para praticar a MT?
         </button>
@@ -39,7 +39,7 @@
         </div>
       </li>
       <li>
-        <button class="btn btn-toggle align-items-center   collapsed" data-bs-toggle="collapse"
+        <button name="dificuldades-concentracao" class="btn btn-toggle align-items-center   collapsed" data-bs-toggle="collapse"
           data-bs-target="#collapse-4" aria-expanded="false">
         Tenho dificuldades de manter a concentração. Conseguirei meditar?
         </button>
@@ -51,7 +51,7 @@
         </div>
       </li>
       <li>
-        <button class="btn btn-toggle align-items-center   collapsed" data-bs-toggle="collapse"
+        <button name="ansiedade" class="btn btn-toggle align-items-center   collapsed" data-bs-toggle="collapse"
           data-bs-target="#collapse-5" aria-expanded="false">
         Sofro com ansiedade, por isso não consigo esvaziar a mente. A MT é para mim?
         </button>
@@ -63,7 +63,7 @@
         </div>
       </li>
       <li>
-        <button class="btn btn-toggle align-items-center   collapsed" data-bs-toggle="collapse"
+        <button name="cetico" class="btn btn-toggle align-items-center   collapsed" data-bs-toggle="collapse"
           data-bs-target="#collapse-6" aria-expanded="false">
         E se eu for cético, a MT funcionará para mim?
         </button>
@@ -75,7 +75,7 @@
         </div>
       </li>
       <li>
-        <button class="btn btn-toggle align-items-center   collapsed" data-bs-toggle="collapse"
+        <button name="nao-deus" class="btn btn-toggle align-items-center   collapsed" data-bs-toggle="collapse"
           data-bs-target="#collapse-7" aria-expanded="false">
         Eu não acredito em Deus e nem em qualquer coisa relacionada à religião ou à espiritualidade. A MT me trará algum resultado positivo?
         </button>
@@ -87,7 +87,7 @@
         </div>
       </li>
       <li>
-        <button class="btn btn-toggle align-items-center   collapsed" data-bs-toggle="collapse"
+        <button name="livro-video" class="btn btn-toggle align-items-center   collapsed" data-bs-toggle="collapse"
           data-bs-target="#collapse-8" aria-expanded="false">
         Posso aprender MT a partir de um livro ou vídeo?
         </button>
@@ -99,7 +99,7 @@
         </div>
       </li>
       <li>
-        <button class="btn btn-toggle align-items-center   collapsed" data-bs-toggle="collapse"
+        <button name="como-aprendo" class="btn btn-toggle align-items-center   collapsed" data-bs-toggle="collapse"
           data-bs-target="#collapse-9" aria-expanded="false">
         Como eu aprendo? 
         </button>
@@ -111,7 +111,7 @@
         </div>
       </li>
       <li>
-        <button class="btn btn-toggle align-items-center   collapsed" data-bs-toggle="collapse"
+        <button name="tecnica-legitima" class="btn btn-toggle align-items-center   collapsed" data-bs-toggle="collapse"
           data-bs-target="#collapse-11" aria-expanded="false">
         Como saber se estou recebendo a legítima técnica da MT?
         </button>

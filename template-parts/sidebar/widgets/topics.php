@@ -9,6 +9,6 @@
         ?>
     </ul>
      <div class="d-flex align-items-center justify-content-end">
-       <button id="loadmore" class="btn p-0">Ver mais+</button>
+       <button name="ver-mais" id="loadmore" class="btn p-0">Ver mais+</button>
      </div>
   </div>

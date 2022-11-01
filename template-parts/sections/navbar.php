@@ -6,7 +6,7 @@
        <img class="d-block d-sm-none "loading="lazy" src=<?php echo get_template_directory_uri() . '/images/header/logo-topo-mobile.png' ?> 
        alt="Logotipo Meditação Transcedental">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+    <button name="navbarCollapse" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
       aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <img loading="lazy" src=<?php echo get_template_directory_uri() . '/images/header/toggler.png' ?> alt="Menu">
     </button>
