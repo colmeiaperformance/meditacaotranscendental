@@ -47,7 +47,7 @@
           <thead>
             <tr>
               <th class="first-column">Forma de meditação</th>
-              <th><img src="<?php echo get_template_directory_uri() . '/images/o-que-e-mt/mt-meditar.png' ?>" class="img-fluid" alt="mt"></th>
+              <th><img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/o-que-e-mt/mt-meditar.png' ?>" class="img-fluid" alt="mt"></th>
               <th>Mindfulness</th>
               <th>Concentração ou foco</th>
             </tr>
@@ -61,9 +61,9 @@
             </tr>
             <tr>
               <td class="first-column">Imagem EEG</td>
-              <td><img src="<?php echo get_template_directory_uri() . '/images/o-que-e-mt/oqueemt-eeg1.png' ?>" class="img-fluid" alt="EEG"></td>
-              <td><img src="<?php echo get_template_directory_uri() . '/images/o-que-e-mt/oqueemt-eeg2.png' ?>" class="img-fluid" alt="EEG"></td>
-              <td><img src="<?php echo get_template_directory_uri() . '/images/o-que-e-mt/oqueemt-eeg3.png' ?>" class="img-fluid" alt="EEG"></td>
+              <td><img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/o-que-e-mt/oqueemt-eeg1.png' ?>" class="img-fluid" alt="EEG"></td>
+              <td><img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/o-que-e-mt/oqueemt-eeg2.png' ?>" class="img-fluid" alt="EEG"></td>
+              <td><img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/o-que-e-mt/oqueemt-eeg3.png' ?>" class="img-fluid" alt="EEG"></td>
             </tr>
             <tr>
               <td class="first-column">Atividade das ondas cerebrais</td>

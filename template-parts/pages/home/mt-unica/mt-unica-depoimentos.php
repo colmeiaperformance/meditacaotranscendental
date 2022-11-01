@@ -20,7 +20,7 @@
                 Talvez o maior benefício seja o fato de que a MT é relativamente rápida de se aprender e fácil de se
                 dominar. Não é necessário meses de prática para perceber os resultados.
               </p>
-              <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/forbes.png' ?> alt="Forbes"
+              <img loading="lazy"  src=<?php echo get_template_directory_uri() . '/images/mt-unica/forbes.png' ?> alt="Forbes"
                 class="forbes">
             </div>
           </div>
@@ -33,7 +33,7 @@
                 A MT não se concentra na respiração, como outras formas de meditação. Em vez disso, incentiva um estado
                 de espírito repousante, que vai além do pensamento.
               </p>
-              <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/clevelandclinic.png' ?>
+              <img loading="lazy"  src=<?php echo get_template_directory_uri() . '/images/mt-unica/clevelandclinic.png' ?>
                 alt="Cleveland Clinic" class="forbes">
             </div>
           </div>
@@ -46,7 +46,7 @@
                 A MT é uma técnica simples e natural. Essa forma de meditação permite que seu corpo se estabeleça em
                 estado profundo de repouso e de relaxamento.
               </p>
-              <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/mayoclinic.png' ?> alt="Mayo Clinic"
+              <img loading="lazy"  src=<?php echo get_template_directory_uri() . '/images/mt-unica/mayoclinic.png' ?> alt="Mayo Clinic"
                 class="forbes">
             </div>
           </div>
@@ -59,7 +59,7 @@
                 Um estudo científico mostra que a MT pode ter ajudado a aliviar sintomas de estresse pós-traumático e a
                 melhorar a qualidade de vida de veteranos de guerras.
               </p>
-              <img src=<?php echo get_template_directory_uri() . '/images/mt-unica/time.png' ?> alt="Time "
+              <img loading="lazy"  src=<?php echo get_template_directory_uri() . '/images/mt-unica/time.png' ?> alt="Time "
                 class="forbes">
             </div>
           </div>
