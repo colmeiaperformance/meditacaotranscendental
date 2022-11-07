@@ -4058,46 +4058,71 @@ footer .top a {
   background: transparent;
   color: #F29F05;
 }
-
-.instrutor-depoimentos {
+.page-instrutor .instrutor-contact form select {
+  width: 100%;
+  font-weight: 500 !important;
+  font-size: var(--font-size-extrasmall) !important;
+  line-height: var(--line-height-primary) !important;
+  color: #F29F05 !important;
+  padding: 9px 31px !important;
+  border: 1px solid #F29F05 !important;
+  border-radius: 30px !important;
+  text-align: left !important;
+  background: url("images/instrutores/dropdown.png") !important;
+  background-position: right 0.75rem center !important;
+  background-color: #fff !important;
+  background-repeat: no-repeat !important;
+}
+.page-instrutor .instrutor-contact form select:active, .page-instrutor .instrutor-contact form select:focus {
+  box-shadow: none !important;
+}
+@media (max-width: 768px) {
+  .page-instrutor .instrutor-contact form select {
+    font-size: var(--font-size-extrasmall) !important;
+    line-height: 18px !important;
+    padding: 7px 15px !important;
+    margin: 0 auto;
+  }
+}
+.page-instrutor .instrutor-depoimentos {
   background: #7896C1;
   padding: 70px 0 60px 0;
   margin-bottom: 10px;
 }
 @media (max-width: 992px) {
-  .instrutor-depoimentos {
+  .page-instrutor .instrutor-depoimentos {
     padding: 35px 0 30px;
   }
 }
-.instrutor-depoimentos .carousel-control-prev-icon {
+.page-instrutor .instrutor-depoimentos .carousel-control-prev-icon {
   background: url("images/mt-unica/prev.png") top center no-repeat;
   width: 24px;
   height: 44px;
 }
 @media (max-width: 992px) {
-  .instrutor-depoimentos .carousel-control-prev-icon {
+  .page-instrutor .instrutor-depoimentos .carousel-control-prev-icon {
     width: 8px;
     height: 18px;
     background-size: cover;
   }
 }
-.instrutor-depoimentos .carousel-control-next-icon {
+.page-instrutor .instrutor-depoimentos .carousel-control-next-icon {
   background: url("images/mt-unica/next.png") top center no-repeat;
   width: 24px;
   height: 44px;
 }
 @media (max-width: 992px) {
-  .instrutor-depoimentos .carousel-control-next-icon {
+  .page-instrutor .instrutor-depoimentos .carousel-control-next-icon {
     width: 8px;
     height: 18px;
     background-size: cover;
   }
 }
-.instrutor-depoimentos .carousel-indicators {
+.page-instrutor .instrutor-depoimentos .carousel-indicators {
   margin-bottom: 0;
   margin-top: 45px;
 }
-.instrutor-depoimentos .carousel-indicators [data-bs-target] {
+.page-instrutor .instrutor-depoimentos .carousel-indicators [data-bs-target] {
   width: 8px;
   height: 8px;
   border-radius: 100%;
@@ -4107,22 +4132,22 @@ footer .top a {
   border: 0;
 }
 @media (max-width: 992px) {
-  .instrutor-depoimentos .carousel-indicators [data-bs-target] {
+  .page-instrutor .instrutor-depoimentos .carousel-indicators [data-bs-target] {
     height: 8px;
     width: 8px;
     margin-right: 4px;
     margin-left: 4px;
   }
 }
-.instrutor-depoimentos .depoimento {
+.page-instrutor .instrutor-depoimentos .depoimento {
   margin-bottom: 65px;
 }
 @media (max-width: 992px) {
-  .instrutor-depoimentos .depoimento {
+  .page-instrutor .instrutor-depoimentos .depoimento {
     margin-bottom: 25px;
   }
 }
-.instrutor-depoimentos .depoimento p {
+.page-instrutor .instrutor-depoimentos .depoimento p {
   font-style: italic;
   font-weight: 400;
   font-size: var(--font-size-small);
@@ -4134,41 +4159,41 @@ footer .top a {
   max-width: 700px;
 }
 @media (max-width: 992px) {
-  .instrutor-depoimentos .depoimento p {
+  .page-instrutor .instrutor-depoimentos .depoimento p {
     font-size: var(--font-size-extrasmall);
     line-height: 18px;
     max-width: 85%;
     margin-bottom: 18px;
   }
 }
-.instrutor-depoimentos .depoimento h6 {
+.page-instrutor .instrutor-depoimentos .depoimento h6 {
   font-weight: 300;
   font-size: var(--font-size-small);
   line-height: 33px;
   margin-bottom: 0;
   color: #313A4E;
 }
-.instrutor-depoimentos .depoimento h6 strong {
+.page-instrutor .instrutor-depoimentos .depoimento h6 strong {
   font-weight: 700;
 }
 @media (max-width: 992px) {
-  .instrutor-depoimentos .depoimento h6 {
+  .page-instrutor .instrutor-depoimentos .depoimento h6 {
     font-size: var(--font-size-extrasmall);
     line-height: 18px;
   }
 }
-.instrutor-depoimentos .depoimento .quote {
+.page-instrutor .instrutor-depoimentos .depoimento .quote {
   height: 76px;
   margin: 0 auto;
   margin-bottom: 35px;
 }
 @media (max-width: 992px) {
-  .instrutor-depoimentos .depoimento .quote {
+  .page-instrutor .instrutor-depoimentos .depoimento .quote {
     margin-bottom: 20px;
     height: 40px;
   }
 }
-.instrutor-depoimentos .depoimento .quote::before {
+.page-instrutor .instrutor-depoimentos .depoimento .quote::before {
   content: "";
   position: absolute;
   background: url("images/mt-unica/quote.png") top center no-repeat;
@@ -4179,34 +4204,33 @@ footer .top a {
   margin-left: calc(50% - 47px);
 }
 @media (max-width: 992px) {
-  .instrutor-depoimentos .depoimento .quote::before {
+  .page-instrutor .instrutor-depoimentos .depoimento .quote::before {
     width: 50px;
     height: 40px;
     margin-left: calc(50% - 25px);
   }
 }
-.instrutor-depoimentos .depoimento-video {
+.page-instrutor .instrutor-depoimentos .depoimento-video {
   margin-bottom: 0;
 }
-.instrutor-depoimentos .depoimento-video p {
+.page-instrutor .instrutor-depoimentos .depoimento-video p {
   margin-bottom: 30px;
   max-width: 100%;
 }
 @media (max-width: 992px) {
-  .instrutor-depoimentos .depoimento-video p {
+  .page-instrutor .instrutor-depoimentos .depoimento-video p {
     margin-bottom: 18px;
   }
 }
-
-.instrutor-footer {
+.page-instrutor .instrutor-footer {
   margin: 58px 0;
 }
 @media (max-width: 992px) {
-  .instrutor-footer {
+  .page-instrutor .instrutor-footer {
     margin: 29px 0;
   }
 }
-.instrutor-footer .btn {
+.page-instrutor .instrutor-footer .btn {
   padding: 9px 31px;
   font-weight: 400;
   font-size: var(--font-size-regular);
@@ -4216,12 +4240,12 @@ footer .top a {
   border: 1px solid #F29F05;
   border-radius: 30px;
 }
-.instrutor-footer .btn:hover {
+.page-instrutor .instrutor-footer .btn:hover {
   background: transparent;
   color: #F29F05;
 }
 @media (max-width: 992px) {
-  .instrutor-footer .btn {
+  .page-instrutor .instrutor-footer .btn {
     font-size: var(--font-size-extrasmall);
     line-height: 18px;
   }
