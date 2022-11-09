@@ -261,7 +261,8 @@
             color: $color-primary-dark;
           }
         }
-        select {
+        #melhorPeriodo,
+        #melhorDia {
             width: 100%;
             font-weight: 500!important;
             font-size: var(--font-size-extrasmall)!important;

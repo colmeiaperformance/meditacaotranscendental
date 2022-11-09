@@ -4058,7 +4058,8 @@ footer .top a {
   background: transparent;
   color: #F29F05;
 }
-.page-instrutor .instrutor-contact form select {
+.page-instrutor .instrutor-contact form #melhorPeriodo,
+.page-instrutor .instrutor-contact form #melhorDia {
   width: 100%;
   font-weight: 500 !important;
   font-size: var(--font-size-extrasmall) !important;
@@ -4073,11 +4074,14 @@ footer .top a {
   background-color: #fff !important;
   background-repeat: no-repeat !important;
 }
-.page-instrutor .instrutor-contact form select:active, .page-instrutor .instrutor-contact form select:focus {
+.page-instrutor .instrutor-contact form #melhorPeriodo:active, .page-instrutor .instrutor-contact form #melhorPeriodo:focus,
+.page-instrutor .instrutor-contact form #melhorDia:active,
+.page-instrutor .instrutor-contact form #melhorDia:focus {
   box-shadow: none !important;
 }
 @media (max-width: 768px) {
-  .page-instrutor .instrutor-contact form select {
+  .page-instrutor .instrutor-contact form #melhorPeriodo,
+.page-instrutor .instrutor-contact form #melhorDia {
     font-size: var(--font-size-extrasmall) !important;
     line-height: 18px !important;
     padding: 7px 15px !important;
