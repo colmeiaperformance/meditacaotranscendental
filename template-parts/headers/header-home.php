@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class="col p-0 text-center text-lg-end position-relative">
-              <img loading="lazy" src=<?php echo get_template_directory_uri() . '/images/header/banner-home.png' ?> alt="Header">
+              <img src=<?php echo get_template_directory_uri() . '/images/header/banner-home.png' ?> alt="Header">
             </div>
           </div>
         </div>
