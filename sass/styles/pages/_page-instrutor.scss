@@ -261,32 +261,6 @@
             color: $color-primary-dark;
           }
         }
-        #melhorPeriodo,
-        #melhorDia {
-            width: 100%;
-            font-weight: 500!important;
-            font-size: var(--font-size-extrasmall)!important;
-            line-height: var(--line-height-primary)!important;
-            color: $color-primary-dark!important;
-            padding: 9px 31px!important;
-            border: 1px solid $color-primary-dark!important;
-            border-radius: 30px!important;
-            text-align: left!important;
-            background: url('images/instrutores/dropdown.png')!important;
-            background-position: right 0.75rem center!important;
-            background-color: #fff!important;
-            background-repeat: no-repeat!important;
-            &:active, &:focus {
-              box-shadow: none!important;
-            }
-            @media (max-width: 768px) {
-              font-size: var(--font-size-extrasmall)!important;
-              line-height: 18px!important;
-              padding: 7px 15px!important;
-              // width: 90%!important;
-              margin: 0 auto;
-            }
-        }
       }
   }
   .instrutor-depoimentos {
@@ -431,31 +405,4 @@
       }
     }
   }
-
-  #melhorPeriodo,
-  #melhorDia {
-    width: 100%;
-    font-weight: 500!important;
-    font-size: var(--font-size-extrasmall)!important;
-    line-height: var(--line-height-primary)!important;
-    color: $color-primary-dark!important;
-    padding: 9px 31px!important;
-    border: 1px solid $color-primary-dark!important;
-    border-radius: 30px!important;
-    text-align: left!important;
-    background: url('images/instrutores/dropdown.png')!important;
-    background-position: right 0.75rem center!important;
-    background-color: #fff!important;
-    background-repeat: no-repeat!important;
-    &:active, &:focus {
-      box-shadow: none!important;
-    }
-    @media (max-width: 768px) {
-      font-size: var(--font-size-extrasmall)!important;
-      line-height: 18px!important;
-      padding: 7px 15px!important;
-      // width: 90%!important;
-      margin: 0 auto;
-    }
-}
 }
