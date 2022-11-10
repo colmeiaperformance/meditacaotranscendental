@@ -18,7 +18,7 @@
   </section>
 </main>
 <?php get_footer() ?>
-<script>
+<script defer>
 jQuery(document).ready(function() {
   const swiper = new Swiper('.swiperFeaturedBlog', {
     // Optional parameters

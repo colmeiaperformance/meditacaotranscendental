@@ -22,7 +22,7 @@
     </div>
   </section>
 </main>
-<script>
+<script defer>
 jQuery(document).ready(function() {
   loadMore();
 });

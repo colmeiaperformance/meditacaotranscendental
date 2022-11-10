@@ -44,7 +44,7 @@
   </div>
 </section>
 
-<script>
+<script defer>
 jQuery(document).ready(function() {
   // jQuery(".counter").counterUp({
   //   delay: 10,

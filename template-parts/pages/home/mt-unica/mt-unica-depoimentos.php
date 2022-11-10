@@ -78,7 +78,7 @@
     </div>
   </div>
 </section>
-<script>
+<script defer>
 jQuery(document).ready(function() {
   jQuery('#carouselExampleIndicators').carousel({
     interval: 3000

@@ -15,7 +15,7 @@
   <?php get_template_part('template-parts/pages/quem-somos/legado'); ?>
   <?php get_template_part('template-parts/pages/quem-somos/footer'); ?>
 </main>
-<script>
+<script defer>
   jQuery(document).ready(function() {
     var swiper = new Swiper(".swiperOQueDizem", {
       slidesPerView: 1,
@@ -53,7 +53,7 @@
     });
   });
 </script>
-<script>
+<script defer>
   jQuery(document).ready(function() {
     var swiper = new Swiper(".swiperOrganizacoes", {
       slidesPerView: 1,
@@ -91,7 +91,7 @@
     });
   });
 </script>
-<script>
+<script defer>
   jQuery(document).ready(function() {
     var swiper = new Swiper(".swiperMudouVida", {
       slidesPerView: 1,

@@ -56,7 +56,7 @@
       </div>
     </div>
 </section> -->
-<script>
+<!-- <script defer> -->
   // jQuery(document).ready(function() {
   //   var swiper = new Swiper(".swiperConhecaBlog", {
   //     slidesPerView: 1,
@@ -92,4 +92,4 @@
   //     },
   //   });
   // });
-  </script>
+  <!-- </script> -->

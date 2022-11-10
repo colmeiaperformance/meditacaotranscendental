@@ -20,7 +20,7 @@
                     <p>Sem esforço</p>
                   </div>
                   <span id="typed"></span>
-                  <script>
+                  <script async>
                   jQuery(document).ready(function() {
                     //look for functions.php to edit it
                     typingEffect();

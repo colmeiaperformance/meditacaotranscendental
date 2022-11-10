@@ -86,7 +86,7 @@
   <a class="btn btn-mobile" href="<?php echo home_url( '/agendamento/' ); ?>">Participe da palestra gratuita</a>
 </section>
 
-<script>
+<script defer>
   jQuery(document).ready(function() {
     var swiper = new Swiper(".unicaSwiper", {
       slidesPerView: 1,

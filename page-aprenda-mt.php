@@ -14,7 +14,7 @@
   <?php get_template_part('template-parts/pages/aprenda/mudou-vida'); ?>
   <?php get_template_part('template-parts/pages/aprenda/footer'); ?>
 </main>
-<script>
+<script defer>
   jQuery(document).ready(function() {
     var swiper = new Swiper(".swiperMudouVida", {
       slidesPerView: 1,
@@ -50,7 +50,7 @@
     });
   });
 </script>
-<script>
+<script defer>
   jQuery(document).ready(function() {
     var swiper = new Swiper(".atividadesSwiper", {
       slidesPerView: 1,
@@ -103,7 +103,7 @@
     });
   });
 </script>
-<script>
+<script defer>
   jQuery(document).ready(function() {
     var swiper = new Swiper(".passosSwiper", {
       slidesPerView: 1,

@@ -22,7 +22,7 @@
 </style>
 <?php get_template_part('template-parts/pages/beneficios/beneficios'); ?>
 </main>
-<script>
+<script defer>
   jQuery(document).ready(function() {
     var swiper = new Swiper(".swiperMudouVida", {
       slidesPerView: 1,
@@ -58,7 +58,7 @@
     });
   });
 </script> 
-<script>
+<script defer>
   jQuery(document).ready(function() {
     var swiper = new Swiper(".swiperCiencia", {
       slidesPerView: 1,
@@ -77,5 +77,5 @@
     });
   });
 </script>
-<script src="https://meditacaotranscedental.activehosted.com/f/embed.php?id=8" type="text/javascript" charset="utf-8"></script>
+<script defer src="https://meditacaotranscedental.activehosted.com/f/embed.php?id=8" type="text/javascript" charset="utf-8"></script>
 <?php get_footer();
