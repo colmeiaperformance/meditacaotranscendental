@@ -26,14 +26,13 @@ jQuery(document).ready(function () {
   jQuery(".navbar")[
     jQuery(window).scrollTop() >= 60 ? "addClass" : "removeClass"
   ]("fixed-top");
-  
+
   jQuery(window).scroll(function (e) {
     jQuery(".navbar")[
       jQuery(window).scrollTop() >= 60 ? "addClass" : "removeClass"
     ]("fixed-top");
   });
 });
-
 
 //Bootstrap caroulsel
 jQuery(document).ready(function () {
@@ -79,3 +78,16 @@ jQuery(document).ready(function () {
     return false;
   });
 });
+
+//Typing effect home
+function typingEffect() {
+  var typed = new Typed("#typed", {
+    stringsElement: "#typed-strings",
+    typeSpeed: 60,
+    startDelay: 0,
+    backSpeed: 40,
+    backDelay: 500,
+    loopCount:0,
+    loop:1,
+  });
+}
