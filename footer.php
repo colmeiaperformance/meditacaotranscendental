@@ -34,7 +34,7 @@
 
       <div class="col-12 col-lg-8 social p-lg-0">
         <div class="logo text-center">
-          <a name="logo-footer" href="<?php home_url(); ?>">
+          <a name="logo-footer" href="<?php echo home_url(); ?>">
             <img loading="lazy" src=<?php echo get_template_directory_uri() . '/images/footer/logo-footer.png' ?> alt="Logotipo">  
           </a>
           <div class="copyright d-none d-lg-block">
