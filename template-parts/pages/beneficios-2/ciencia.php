@@ -3,13 +3,13 @@
       <h2>O que diz a <strong>ciência</strong>?</h2>
       <h3>A MT é 2x mais eficaz na redução da ansiedade do que qualquer outra técnica. (Resultado da meta análise de 146 estudos científicos)</h3>
       <div class="list-group w-auto">
-        <div class="list-group-item d-flex align-items-center justify-content-center">
+        <div class="list-group-item d-flex align-items-center justify-content-start">
           <img loading="lazy" class="rounded-circle border-0"
           src=<?php echo get_template_directory_uri() . '/images/beneficios/mundo.png' ?>
           alt="Ícone Mundo">
           <p class="mb-0">Mais de 10 milhões de praticantes — de diferentes países, crenças, religiões, filosofias e estilos</p>
         </div>
-        <div class="list-group-item d-flex align-items-center justify-content-center">
+        <div class="list-group-item d-flex align-items-center justify-content-start">
           <img loading="lazy" class="rounded-circle border-0"
           src=<?php echo get_template_directory_uri() . '/images/beneficios/lupa.png' ?>
           alt="Ícone Mundo">
