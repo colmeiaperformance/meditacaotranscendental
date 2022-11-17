@@ -6,7 +6,7 @@
                     src=<?php echo get_template_directory_uri() . '/images/beneficios/quote.png' ?>
                     alt="Ícone Quote">
             </div>
-            <h2>Tenho ansiedade e minha mente não parar, vou conseguir meditar?</h2>
+            <h2>Tenho ansiedade e minha mente não para, vou conseguir meditar?</h2>
         </div>
         <p>A maior parte das técnicas envolve algum tipo de concentração e controle, ou seja, muito esforço da mente.</p>
         <p><strong>Na Meditação Transcendental, você não precisa fazer nada disso!</strong></p>
