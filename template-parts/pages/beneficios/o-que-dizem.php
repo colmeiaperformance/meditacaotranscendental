@@ -111,19 +111,19 @@
       </div>
     </div>
   </div>
-  <script defer>
-    // jQuery(function() {
-    //   jQuery('#oquedizem.slide').carousel({
-    //     interval: 8000,
-    //     pause: "hover"
-    //   });
+  <!-- <script defer>
+    jQuery(function() {
+      jQuery('#oquedizem.slide').carousel({
+        interval: 8000,
+        pause: "hover"
+      });
 
-    //   jQuery('input').focus(function() {
-    //     jQuery("#oquedizem").carousel('pause');
-    //   }).blur(function() {
-    //     jQuery("#oquedizem").carousel('cycle');
-    //   });
-    // });
+      jQuery('input').focus(function() {
+        jQuery("#oquedizem").carousel('pause');
+      }).blur(function() {
+        jQuery("#oquedizem").carousel('cycle');
+      });
+    });
 
-  </script>
+  </script> -->
 </section>
