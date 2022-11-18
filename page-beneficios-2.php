@@ -6,10 +6,11 @@
 <?php get_header(); ?>
 <?php get_template_part('template-parts/sections/navbar'); ?>
 <?php get_template_part('template-parts/headers/header-beneficios-2'); ?>
-<main class="page-beneficios-mt page-beneficios-2">
+<main class="page-beneficios-2">
   <?php get_template_part('template-parts/pages/beneficios-2/hero'); ?> 
   <?php get_template_part('template-parts/pages/beneficios-2/equilibrio'); ?> 
   <?php get_template_part('template-parts/pages/beneficios-2/quote'); ?>  
+  <?php get_template_part('template-parts/pages/beneficios-2/o-que-dizem'); ?>
   <?php get_template_part('template-parts/pages/beneficios-2/ciencia'); ?>    
   <?php get_template_part('template-parts/pages/beneficios-2/footer'); ?>
 </main>
