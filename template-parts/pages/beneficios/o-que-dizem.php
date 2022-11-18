@@ -111,7 +111,7 @@
       </div>
     </div>
   </div>
-  <!-- <script defer> -->
+  <script defer>
     // jQuery(function() {
     //   jQuery('#oquedizem.slide').carousel({
     //     interval: 8000,
@@ -125,5 +125,5 @@
     //   });
     // });
 
-  <!-- </script> -->
+  </script>
 </section>
