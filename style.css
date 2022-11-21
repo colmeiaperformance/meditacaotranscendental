@@ -3208,28 +3208,25 @@ footer .top a {
   color: #F29F05;
 }
 .page-beneficios-2 .equilibrio .boxes {
-  margin: 80px auto;
+  margin: 135px auto 80px auto;
 }
 @media (max-width: 992px) {
   .page-beneficios-2 .equilibrio .boxes {
-    margin: 28px 0 40px 0;
+    margin: 130px auto 40px auto;
   }
 }
 .page-beneficios-2 .equilibrio .box {
   position: relative;
+  padding: 40px 30px;
+  border: 1.19375px solid #ffc536;
+  border-radius: 5px;
+  min-height: 395px;
+  max-width: 415px;
 }
 @media (max-width: 992px) {
   .page-beneficios-2 .equilibrio .box {
     max-width: 170px;
   }
-}
-.page-beneficios-2 .equilibrio .list-group {
-  padding: 40px 30px;
-  border: 1.19375px solid #FFC536;
-  border-radius: 5px;
-  margin-top: -50px;
-  min-height: 383px;
-  max-width: 415px;
 }
 @media (max-width: 992px) {
   .page-beneficios-2 .equilibrio .list-group {
@@ -3256,7 +3253,8 @@ footer .top a {
 }
 .page-beneficios-2 .equilibrio .icon {
   position: relative;
-  margin-left: calc(100% - 113px + 22.5px);
+  margin-left: calc(100% - 113px + 87px);
+  margin-top: -96px;
 }
 @media (max-width: 992px) {
   .page-beneficios-2 .equilibrio .icon {
