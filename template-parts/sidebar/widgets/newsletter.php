@@ -1,21 +1,4 @@
 <div class="newsletter text-white text-center">
-  <!-- <h4>Newsletter</h4>
-  <h5>Lorem Ipsum Subscribers!</h5>
-  <div class="row">
-    <div class="col-6 pe-1 form-group">
-      <input type="text" class="form-control" id="nome" aria-describedby="nomeHelp" placeholder="Nome">
-    </div>
-    <div class="col-6 ps-1 form-group">
-      <input type="text" class="form-control" id="sobrenome" aria-describedby="sobrenomeHelp" placeholder="Sobrenome">
-    </div>
-    </div>
-  <div class="row mt-1 mb-1">  
-    <div class="col-12 form-group">
-      <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="E-mail">
-    </div>
-  </div>
-  <a href="" class="btn mt-2 mb-2" type="submit">Cadastrar</a>
-  <p>Ao cadastrar, você aceitará nossas Política de Privacidade</p> -->
   <style>
  #_form_12_ { font-size:14px; line-height:1.6; font-family:arial, helvetica, sans-serif; margin:0; }
  #_form_12_ * { outline:0; }
@@ -168,7 +151,7 @@
         </div>
       </div>
       <div class="_button-wrapper">
-        <button id="_form_12_submit" class="_submit" type="submit">
+        <button name="cadastrar" id="_form_12_submit" class="_submit" type="submit">
           Cadastrar
         </button>
       </div>
@@ -177,7 +160,7 @@
     </div>
     <div class="_form-thank-you" style="display:none;">
     </div>
-  </form><script type="text/javascript">
+  </form><script defer type="text/javascript">
 window.cfields = [];
 window._show_thank_you = function(id, message, trackcmp_url, email) {
   var form = document.getElementById('_form_' + id + '_'), thank_you = form.querySelector('._form-thank-you');

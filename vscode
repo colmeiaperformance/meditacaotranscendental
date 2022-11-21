@@ -1,11 +1,20 @@
 {
-"liveSassCompile.settings.savePath": "/",
-"liveSassCompile.settings.format": "expanded",
-"liveSassCompile.settings.extensionName" : ".css",
-"liveSassCompile.settings.excludeList": [
-"/node_modules/",
-".vscode/**"
-],
-"liveSassCompile.settings.generateMap" : false
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/"
+        },
+        {
+            "extensionName": ".min.css",
+            "format": "compressed",
+            "savePath": "/"
+        }
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "/node_modules/",
+        ".vscode/**"
+    ],
+    "liveSassCompile.settings.generateMap" : false
 }
 

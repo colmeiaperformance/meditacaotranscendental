@@ -75,7 +75,7 @@
     background: $color-secondary-medium;
     padding: 35px 0 70px 0;
     margin-bottom: 45px;
-    @media (max-width: 991.98px) {
+    @media (max-width: 992px) {
       padding: 45px 0 25px 0;
     }
     h1 {
@@ -84,7 +84,7 @@
       line-height: 6.188rem;
       color: $color-white;
       margin-bottom: 0;
-      @media (max-width: 991.98px) {
+      @media (max-width: 992px) {
         font-weight: 900;
         font-size: 60px;
         line-height: 78px;
@@ -101,7 +101,7 @@
     }
     h2 {
       // display: none;
-      @media (max-width: 991.98px) {
+      @media (max-width: 992px) {
         display: block;
         font-weight: 700;
         font-size: var(--font-size-small);
@@ -125,7 +125,7 @@
     background: url('images/single/line-post.png') center right no-repeat $color-secondary-medium;
     padding: 40px 0 45px 0;
     margin-bottom: 20px;
-    @media (max-width: 991.98px) {
+    @media (max-width: 992px) {
       padding: 20px 0 25px 0;
       background: $color-secondary-medium;
     }
@@ -136,7 +136,7 @@
       color: $color-white;
       margin-bottom: 25px;
       text-align: left;
-      @media (max-width: 991.98px) {
+      @media (max-width: 992px) {
         font-size: calc(1.2rem);
         line-height: 1.2;
       }
@@ -195,7 +195,7 @@
         min-height: 310px;
         object-fit: cover;
         width: 100%;
-        @media (max-width: 991.98px) {
+        @media (max-width: 992px) {
           min-height: 220px;
         }
       }
@@ -210,7 +210,7 @@
         strong {
           font-weight: 600;
         }
-        @media (max-width: 991.98px) {
+        @media (max-width: 992px) {
           font-size: 26px;
           line-height: 30px;
         }
@@ -222,7 +222,7 @@
         left: 0;
         top: 35%;
         text-align: center;
-        @media (max-width: 991.98px) {
+        @media (max-width: 992px) {
           width: 85%;
           margin: 0 auto;
         }
@@ -240,7 +240,7 @@
         min-height: 310px;
         object-fit: cover;
         width: 100%;
-        @media (max-width: 991.98px) {
+        @media (max-width: 992px) {
           min-height: 220px;
         }
         @media (max-width: 578px) {
@@ -260,7 +260,7 @@
           font-weight: 600;
           color: $color-primary-medium;
         }
-        @media (max-width: 991.98px) {
+        @media (max-width: 992px) {
           font-size: 26px;
           line-height: 30px;
         }
@@ -272,7 +272,7 @@
         left: 0;
         top: 35%;
         text-align: center;
-        @media (max-width: 991.98px) {
+        @media (max-width: 992px) {
           width: 85%;
           margin: 0 auto;
         }
@@ -290,7 +290,7 @@
         min-height: 310px;
         object-fit: cover;
         width: 100%;
-        @media (max-width: 991.98px) {
+        @media (max-width: 992px) {
           min-height: 220px;
         }
         @media (max-width: 578px) {
@@ -311,7 +311,7 @@
           font-weight: 600;
           color: $color-primary-medium;
         }
-        @media (max-width: 991.98px) {
+        @media (max-width: 992px) {
           font-size: 26px;
           line-height: 30px;
         }
@@ -323,10 +323,62 @@
         left: 0;
         top: 25%;
         text-align: center;
-        @media (max-width: 991.98px) {
+        @media (max-width: 992px) {
           width: 85%;
           top: 30%;
           margin: 0 auto;
+        }
+      }
+    }   
+  }
+  &--beneficios-2 {
+    // background: url("images/single/line-post.png") center right no-repeat $color-secondary-medium;
+    background: $color-secondary-medium;
+    .carousel-item {
+      h1 {
+        font-weight: 300;
+        font-size: var(--font-size-extralarge);
+        line-height: 64px;
+        letter-spacing: -0.02em;
+        color: $color-white;
+        margin-bottom: 38px;
+        max-width: 705px;
+        strong {
+          font-weight: 600;
+          color: $color-white;
+        }
+        @media (max-width: 992px) {
+          font-size: var(--font-size-small);
+          line-height: 23px;
+          margin-bottom: 10px;
+        }
+      }
+      h5 {
+        max-width: 553px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+        color: $color-white;
+        margin-bottom: 0;
+        @media (max-width: 992px) {
+          font-size: 10px;
+          line-height: 11px;
+        }
+      }
+      img {
+        @media (max-width: 992px) {
+          max-width: 50%;
+        }
+      }
+      .carousel-caption {
+        width: 100%;
+        left: 0;
+        right: 0;
+        text-align: left!important;
+        @media (max-width: 992px) {
+          width: 55%;
+          top: 0;
+          bottom: 0;
         }
       }
     }   
@@ -454,7 +506,7 @@
         min-height: 310px;
         object-fit: cover;
         width: 100%;
-        @media (max-width: 991.98px) {
+        @media (max-width: 992px) {
           min-height: 370px;
         }
       }

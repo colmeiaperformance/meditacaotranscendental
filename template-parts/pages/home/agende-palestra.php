@@ -35,7 +35,7 @@ $texto_do_botao_agp = get_sub_field('texto_do_botao_agp');
   </div>
 </section>
 
-<script>
+<script defer>
 jQuery(document).ready(function() {
   // jQuery(".counter").counterUp({
   //   delay: 10,

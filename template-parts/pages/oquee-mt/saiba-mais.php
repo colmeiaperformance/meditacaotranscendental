@@ -83,7 +83,7 @@
         <div class="swiper-button-prev"></div>
       </div>
     </div>
-    <script>
+    <script defer>
       jQuery(document).ready(function() {
         var swiper = new Swiper(".swiperSabermais", {
           slidesPerView: 1,

@@ -1,4 +1,4 @@
-<script>
+<script defer>
 jQuery(document).ready(function() {
   loadMore();
 });

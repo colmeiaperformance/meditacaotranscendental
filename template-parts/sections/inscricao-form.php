@@ -1,11 +1,11 @@
 <!-- Adicionando JQuery do VIACEP -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"
+<script defer src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"
   referrerpolicy="no-referrer"></script>
 <!-- Mask phone -->
-<script src="<?php echo get_template_directory_uri() . '/js/cleave.min.js'; ?>" referrerpolicy="no-referrer"></script>
-<script src="<?php echo get_template_directory_uri() . '/js/cleave-phone.i18n.js'; ?>" referrerpolicy="no-referrer"></script>
-<script>
+<script defer src="<?php echo get_template_directory_uri() . '/js/cleave.min.js'; ?>" referrerpolicy="no-referrer"></script>
+<script defer src="<?php echo get_template_directory_uri() . '/js/cleave-phone.i18n.js'; ?>" referrerpolicy="no-referrer"></script>
+<script defer>
 jQuery(document).ready(function() {
   var cleavePhone = new Cleave('.input-phone', {
     phone: true,
@@ -14,7 +14,7 @@ jQuery(document).ready(function() {
 });
 </script>
 <!-- Adicionando Javascript do VIACEP -->
-<script>
+<script defer>
 jQuery(document).ready(function() {
 
   function limpa_formulário_cep() {
@@ -71,7 +71,7 @@ jQuery(document).ready(function() {
 });
 // Estilo do form do AC
 </script>
-<script>
+<script defer>
 jQuery(document).ready(function() {
   jQuery(function() {
     jQuery('.valor-curso').maskMoney({
@@ -864,7 +864,7 @@ jQuery(document).ready(function() {
           </div>
         </div>
         <div class="_button-wrapper _full_width">
-          <button id="_form_7_submit" class="_submit" type="submit">
+          <button name="confirmar" id="_form_7_submit" class="_submit" type="submit">
             Confirmar pedido
           </button>
         </div>
@@ -890,7 +890,7 @@ jQuery(document).ready(function() {
   <div class="_form-thank-you" id="thank-you" style="display:none;">
   </div>
 </form>
-<script type="text/javascript">
+<script defer type="text/javascript">
 window.cfields = {
   "71": "data_de_nascimento",
   "55": "profissao",
