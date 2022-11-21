@@ -1,7 +1,7 @@
 <section class="equilibrio">
     <div class="container">
         <h2>Como a MT promove o <strong>equilíbrio</strong> entre <strong>corpo</strong> e <strong>mente</strong>:</h2>
-        <div class="row boxes d-flex align-items-start align-content-stretch justify-content-between">
+        <div class="row boxes d-flex align-items-start align-content-stretch justify-content-center justify-content-lg-between">
             <div class="col-6 box ps-lg-5 pe-lg-5">
                 <div class="icon">
                     <img loading="lazy" class="rounded-circle border-0"

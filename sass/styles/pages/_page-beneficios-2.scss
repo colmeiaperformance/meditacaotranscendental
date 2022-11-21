@@ -84,13 +84,17 @@
     }
     .box {
       position: relative;
+      @media (max-width: 992px) {
+        max-width: 170px;
+      }
     }
     .list-group {
-      padding: 55px 52px;
+      padding: 40px 30px;
       border: 1.19375px solid $color-primary-medium;
       border-radius: 5px;
       margin-top: -50px;
-      min-height: 412.32px;
+      min-height: 383px;
+      max-width: 415px;
       @media (max-width: 992px) {
         height: auto;
         min-height: 160px;
