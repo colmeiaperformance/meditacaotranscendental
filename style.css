@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 
 Theme Name: MT
@@ -3121,6 +3122,41 @@ footer .top a {
   }
 }
 
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 111111;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 3em;
+  background: rgba(0, 0, 0, 0.9);
+}
+.lightbox .close {
+  position: relative;
+  display: block;
+}
+.lightbox .close::after {
+  right: -1rem;
+  top: -1rem;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  content: "×";
+  cursor: pointer;
+}
+.lightbox:target {
+  display: block;
+}
+
 .page-beneficios-2 .hero {
   padding: 65px 0 37px;
 }
@@ -3511,6 +3547,10 @@ footer .top a {
   border-radius: 8px;
   padding: 15px 14px 15px 18px;
   height: fit-content;
+}
+.page-beneficios-2 .o-que-dizem .swiper-slide img {
+  width: 100%;
+  height: auto;
 }
 @media (max-width: 992px) {
   .page-beneficios-2 .o-que-dizem .swiper-slide {
