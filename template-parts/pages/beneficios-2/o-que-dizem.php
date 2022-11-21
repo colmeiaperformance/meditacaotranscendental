@@ -4,7 +4,7 @@
             <h2><strong>Veja como</strong> a Ana Paula melhorou a<br /> <strong>depressão</strong> e a <strong>síndrome do pânico</strong> com a <strong>MT</strong></h2>
         </div>
         <div class="video-featured">
-            <iframe class="yt-video" width="100%" height="281.25" src="https://www.youtube.com/embed/NUPF3d-T57M"
+            <iframe class="yt-video" width="100%" height="281.25" src="https://www.youtube.com/embed/ipjzNre_ANU"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
@@ -49,6 +49,18 @@
                     </iframe>
                     <p> 
                     "Não imagino minha vida sem a Meditação Transcendental"
+                    </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-mobile">
+                    <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/j_sxv44iMI4"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                    <p> 
+                        Flávio Canto fala como conseguiu alcançar o sonho olímpico com a ajuda da MT.
                     </p>
                     </div>
                 </div>
