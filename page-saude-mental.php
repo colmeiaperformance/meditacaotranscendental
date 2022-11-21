@@ -1,6 +1,6 @@
 <?php
   /*
-  Template Name: Benefícios 2
+  Template Name: Benefícios - Itens
   */
   ?>
 <?php get_header(); ?>
