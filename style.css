@@ -3218,12 +3218,18 @@ footer .top a {
 .page-beneficios-2 .equilibrio .box {
   position: relative;
 }
+@media (max-width: 992px) {
+  .page-beneficios-2 .equilibrio .box {
+    max-width: 170px;
+  }
+}
 .page-beneficios-2 .equilibrio .list-group {
-  padding: 55px 52px;
+  padding: 40px 30px;
   border: 1.19375px solid #FFC536;
   border-radius: 5px;
   margin-top: -50px;
-  min-height: 412.32px;
+  min-height: 383px;
+  max-width: 415px;
 }
 @media (max-width: 992px) {
   .page-beneficios-2 .equilibrio .list-group {
