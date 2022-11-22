@@ -11,9 +11,6 @@
                   <strong>A mudança começa dentro.</strong><br />
                   20 minutos.<br />
                   2 vezes ao dia.<br />
-                  <!-- <div class="d-none d-lg-block">
-                    <?php //echo do_shortcode( '[typed string0="Sem concentração" string1="Sem esvaziar a mente" string2="Sem esforço" typeSpeed="60" startDelay="0" backSpeed="40" backDelay="500" loopCount="0" loop="1"]' ) ?>
-                  </div> -->
                   <div id="typed-strings">
                     <p>Sem concentração</p>
                     <p>Sem esvaziar a mente</p>
