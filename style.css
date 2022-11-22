@@ -661,13 +661,15 @@ footer .top a {
   width: 90%;
   left: 0;
   right: 0;
+  bottom: 60px;
+  top: 95px;
   text-align: left !important;
 }
 @media (max-width: 992px) {
   .header--beneficios-2 .carousel-item .carousel-caption {
     width: 55%;
-    top: 0;
-    bottom: 0;
+    top: 20px;
+    bottom: 30px;
   }
 }
 .header--quem-somos {
@@ -3215,7 +3217,7 @@ footer .top a {
 }
 @media (max-width: 992px) {
   .page-beneficios-2 .equilibrio .boxes {
-    margin: 130px auto 40px auto;
+    margin: 50px auto 40px auto;
   }
 }
 .page-beneficios-2 .equilibrio .box {
@@ -3228,15 +3230,9 @@ footer .top a {
 }
 @media (max-width: 992px) {
   .page-beneficios-2 .equilibrio .box {
-    max-width: 170px;
-  }
-}
-@media (max-width: 992px) {
-  .page-beneficios-2 .equilibrio .list-group {
-    height: auto;
-    min-height: 160px;
+    max-width: 146px;
     padding: 15px;
-    margin-top: -25px;
+    min-height: 150px;
   }
 }
 .page-beneficios-2 .equilibrio .list-group-item {
@@ -3261,7 +3257,8 @@ footer .top a {
 }
 @media (max-width: 992px) {
   .page-beneficios-2 .equilibrio .icon {
-    margin-left: calc(100% - 42px + 21px);
+    margin-left: calc(100% - 42px + 36px);
+    margin-top: -37px;
   }
 }
 .page-beneficios-2 .equilibrio .icon img {

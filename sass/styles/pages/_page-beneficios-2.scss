@@ -79,7 +79,7 @@
     .boxes {
       margin: 135px auto 80px auto;
       @media (max-width: 992px) {
-        margin: 130px auto 40px auto;
+        margin: 50px auto 40px auto;
       }
     }
     .box {
@@ -90,7 +90,9 @@
       min-height: 395px;
       max-width: 415px;
       @media (max-width: 992px) {
-        max-width: 170px;
+        max-width: 146px;
+        padding: 15px;
+        min-height: 150px;
       }
     }
     .list-group {
@@ -100,10 +102,10 @@
       // min-height: 395px;
       // max-width: 415px;
       @media (max-width: 992px) {
-        height: auto;
-        min-height: 160px;
-        padding: 15px;
-        margin-top: -25px;
+        // height: auto;
+        // min-height: 160px;
+        // padding: 15px;
+        // margin-top: -25px;
       }
     }
     .list-group-item {
@@ -124,7 +126,8 @@
       margin-left: calc(100% - 113px + 87px);
       margin-top: -96px;
       @media (max-width: 992px) {
-        margin-left: calc(100% - 42px + 21px);
+        margin-left: calc(100% - 42px + 36px);
+        margin-top: -37px;
       }
       img {
         width: 113px;
