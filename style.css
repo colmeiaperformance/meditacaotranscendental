@@ -958,6 +958,9 @@ footer .top a {
   color: #F29F05;
   background-color: transparent;
 }
+.navbar .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
 
 .sidebar .tags-sidebar {
   border: 1px solid #FFC536;

@@ -1,3 +1,9 @@
+jQuery(document).ready(function () {
+  jQuery(".dropdown > a").click(function () {
+    window.location = jQuery(this).attr("href");
+  });
+});
+
 //Show more sidebar button
 function loadMore() {
   const loadmore = document.querySelector("#loadmore");
