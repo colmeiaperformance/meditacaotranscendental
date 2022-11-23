@@ -37,7 +37,7 @@
 
     <div class="row align-items-center justify-content-center py-5">
       <div class="col text-center">
-        <a class="btn" href="<?php echo home_url( '/agendamento/' ); ?>" role="button">Agende a palestra gratuita</a>
+        <a class="btn" href="<?php echo home_url( '/agendamento/' ); ?>" role="button">Inscreva-se Agora</a>
       </div>
     </div>
 
