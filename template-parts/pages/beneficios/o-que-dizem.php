@@ -106,7 +106,7 @@
     <div class="row mt-4 mt-lg-5">
       <div class="col-12 text-center">
         <a class="btn px-4" href="<?php echo home_url( '/agendamento/' ); ?>" role="button">
-          Agende sua participação
+          <?php if ( is_front_page() == true ) { echo 'Encontre um instrutor credenciado'; } else { echo 'Agende sua participação'; } ?>
         </a>
       </div>
     </div>
