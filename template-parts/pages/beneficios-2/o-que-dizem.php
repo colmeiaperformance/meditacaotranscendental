@@ -72,7 +72,7 @@
         <div class="text-center">
             <h5>Fale com um instrutor especializado.</h5>
             <a class="btn px-4" href="<?php echo home_url( '/agendamento/' ); ?>" role="button">
-            Agende a palestra gratuita.
+            Inscreva-se na palestra gratuita.
             </a>
         </div>
     </div>

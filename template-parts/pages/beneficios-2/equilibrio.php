@@ -35,7 +35,7 @@
         <h2>Tudo isso de forma <strong>simples, natural, sem esforço.</strong></h2>
         <div class="text-center">
             <a href="<?php echo home_url( '/agendamento/' ); ?>" class="btn" role="button">
-                Agende palestra online gratuita.
+                Inscreva-se na palestra online gratuita.
             </a>
         </div>
     </div>
