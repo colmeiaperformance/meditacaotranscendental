@@ -22,42 +22,7 @@
 </style>
 <?php get_template_part('template-parts/pages/beneficios/beneficios'); ?>
 </main>
-<script defer>
-  jQuery(document).ready(function() {
-    var swiper = new Swiper(".swiperMudouVida", {
-      slidesPerView: 1,
-      slidesPerGroup: 1,
-      loop: true,
-      spaceBetween: 0,
-      grabCursor: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      breakpoints: {
-        640: {
-          slidesPerView: 2,
-          slidesPerGroup: 2,
-          spaceBetween: 40,
-        },
-        768: {
-          slidesPerView: 2,
-          slidesPerGroup: 2,
-          spaceBetween: 40,
-        },
-        1024: {
-          slidesPerView: 3,
-          slidesPerGroup: 3,
-          spaceBetween: 40,
-        },
-      },
-    });
-  });
-</script> 
+
 <script defer>
   jQuery(document).ready(function() {
     var swiper = new Swiper(".swiperCiencia", {
