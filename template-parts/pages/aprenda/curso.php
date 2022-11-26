@@ -41,9 +41,9 @@ $cor_de_fundo_amc = get_sub_field('cor_de_fundo_amc');
       <div class="text-center mb-2 mb-lg-3">
         <img loading="lazy" src="<?php if ( $imagem_cta_amc ) { echo $imagem_cta_amc; } else { echo ''; } ?>" alt="Separador">
       </div>
-      <p>Somente instrutores certificados pela Associação Internacional de Meditação (SIM) podem ensinar a autêntica técnica de MT. Essa é a sua <strong>garantia de receber a verdadeira técnica</strong> ensinada há mais de 60 anos, com base no conhecimento puro da Ciência Védica.</p>
+      <?php if ( $texto_cta_amc ) { echo $texto_cta_amc; } else { echo ''; } ?>
       <div class="text-center">
-        <a href="<?php echo home_url( '/instrutores/' ); ?>" class="btn">Conheça os instrutores certificados</a>
+        <a href="<?php if ( $link_do_botao_amc ) { echo $link_do_botao_amc; } else { echo ''; } ?>" class="btn"><?php if ( $texto_do_botao_amc ) { echo $texto_do_botao_amc; } else { echo ''; } ?></a>
       </div>
     </div>
   </section>

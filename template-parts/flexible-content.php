@@ -59,19 +59,34 @@ if (have_rows('content')):
 <?php get_template_part('template-parts/pages/home/agende-palestra'); ?>
 
 <?php
-    // Section: Aprenda - Passos
+    // Section: Aprenda - Filtro
+    elseif (get_row_layout() == 'aprenda_filtro'): ?>
+<?php get_template_part('template-parts/pages/aprenda/agende'); ?>
+
+<?php
+    // Section: Aprenda - Passos ACF OK
     elseif (get_row_layout() == 'aprenda_passos'): ?>
 <?php get_template_part('template-parts/pages/aprenda/passos'); ?>
 
 <?php
-    // Section: Aprenda - Mais que um curso
+    // Section: Aprenda - Mais que um curso ACF OK
     elseif (get_row_layout() == 'aprenda_mais_curso'): ?>
 <?php get_template_part('template-parts/pages/aprenda/curso'); ?>
 
 <?php
-    // Section: Aprenda - Aprenda
+    // Section: Aprenda - Aprenda ACF OK
     elseif (get_row_layout() == 'aprenda_aprenda'): ?>
 <?php get_template_part('template-parts/pages/aprenda/aprenda'); ?>
+
+<?php
+    // Section: Aprenda - Mudou Vida ACF OK
+    elseif (get_row_layout() == 'aprenda_mudou_vida'): ?>
+<?php get_template_part('template-parts/pages/aprenda/mudou-vida'); ?>
+
+<?php
+    // Section: Aprenda - Dúvidas ACF OK
+    elseif (get_row_layout() == 'aprenda_duvidas'): ?>
+<?php get_template_part('template-parts/pages/aprenda/footer'); ?>
 
 
 <?php
