@@ -68,6 +68,11 @@ if (have_rows('content')):
     elseif (get_row_layout() == 'aprenda_mais_curso'): ?>
 <?php get_template_part('template-parts/pages/aprenda/curso'); ?>
 
+<?php
+    // Section: Aprenda - Aprenda
+    elseif (get_row_layout() == 'aprenda_aprenda'): ?>
+<?php get_template_part('template-parts/pages/aprenda/aprenda'); ?>
+
 
 <?php
     // Section: Section Name.

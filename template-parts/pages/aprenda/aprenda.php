@@ -1,17 +1,26 @@
+<?php 
+$imagem_desktop_aa = get_sub_field('imagem_desktop_aa');
+$imagem_mobile_aa = get_sub_field('imagem_mobile_aa');
+$titulo_aa = get_sub_field('titulo_aa');
+$texto_aa = get_sub_field('texto_aa');
+$rodape_aa = get_sub_field('rodape_aa');
+?>
 <section class="aprenda-mt-investir position-relative">
-    <div class="aprenda-mt-investir-topo">
-      <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/investir-mobile.png' ?>" alt="Investir">
+  <div class="aprenda-mt-investir-topo">
+    <img loading="lazy" src="<?php if ( $imagem_mobile_aa ) { echo $imagem_mobile_aa;} else { echo ''; } ?>"
+      alt="Investir">
+  </div>
+  <div class="container">
+    <div class="aprenda-mt-investir-bg position-absolute"
+      style="background: url(<?php if ( $imagem_desktop_aa ) { echo $imagem_desktop_aa;} else { echo ''; } ?>) center right no-repeat;">
     </div>
-    <div class="container">
-      <div class="aprenda-mt-investir-bg position-absolute"></div>
-      <div class="row align-items-center justify-content-end">
-        <div class="col-12 col-lg-7">
-          <div class="text-center text-lg-start">
-            <h2>Ao investir no seu bem-estar, você ajuda outras pessoas.</h2>
-          </div>
-          <p>Somos uma organização sem fins lucrativos comprometida em tornar a Meditação Transcendental e seus benefícios acessíveis ao maior número possível de pessoas. Por isso, parte do valor pago no curso é direcionado a projetos que ensinam a MT gratuitamente a milhares de crianças e adultos em todo o mundo.</p>
-          <p><strong>Converse com um instrutor para conhecer as condições especiais de pagamento.</strong></p>
+    <div class="row align-items-center justify-content-end">
+      <div class="col-12 col-lg-7">
+        <div class="text-center text-lg-start">
+          <?php if ( $titulo_aa ) { echo '<h2>' . $titulo_aa . '</h2>'; } else { echo ''; } ?>
         </div>
+        <?php if ( $texto_aa ) { echo $texto_aa; } else { echo ''; } ?>
       </div>
     </div>
-  </section>
+  </div>
+</section>

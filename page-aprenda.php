@@ -13,7 +13,7 @@
   
   <?php //get_template_part('template-parts/pages/aprenda/passos'); ?>
   <?php //get_template_part('template-parts/pages/aprenda/curso'); ?>
-  <?php get_template_part('template-parts/pages/aprenda/aprenda'); ?>
+  <?php //get_template_part('template-parts/pages/aprenda/aprenda'); ?>
   <?php get_template_part('template-parts/pages/aprenda/mudou-vida'); ?>
   <?php get_template_part('template-parts/pages/aprenda/footer'); ?>
 </main>
