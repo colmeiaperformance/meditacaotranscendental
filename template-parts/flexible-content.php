@@ -64,6 +64,12 @@ if (have_rows('content')):
 <?php get_template_part('template-parts/pages/aprenda/passos'); ?>
 
 <?php
+    // Section: Aprenda - Mais que um curso
+    elseif (get_row_layout() == 'aprenda_mais_curso'): ?>
+<?php get_template_part('template-parts/pages/aprenda/curso'); ?>
+
+
+<?php
     // Section: Section Name.
     // if( get_row_layout() == 'paragraph' ):
     //     $text = get_sub_field('text');
