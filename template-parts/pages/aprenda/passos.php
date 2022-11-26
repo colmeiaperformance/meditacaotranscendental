@@ -7,7 +7,7 @@ $texto_do_botao_passos = get_sub_field('texto_do_botao_passos');
 $link_do_botao_passos = get_sub_field('link_do_botao_passos');
 ?>
 
-<section class="tres-passos">
+<section class="tres-passos" style="background-color:<?php if ( $cor_de_fundo_passos ) { echo $cor_de_fundo_passos; } else { echo ''; } ?>;">
   <div class="container">
     <h2>
       <?php if ( $titulo_passos ) { echo $titulo_passos; } else { echo ''; } ?>
