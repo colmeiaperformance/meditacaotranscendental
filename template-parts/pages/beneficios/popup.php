@@ -20,7 +20,7 @@
 
       </div>
       <div class="modal-footer border-0">
-        <button type="button" class="btn mt-0" onclick="window.location='/agendamento'">Quero me inscrever</button>
+        <button type="button" class="btn mt-0" onclick="window.location='<?php echo home_url( ) . '/agendamento'; ?>'">Quero me inscrever</button>
       </div>
     </div>
   </div>
