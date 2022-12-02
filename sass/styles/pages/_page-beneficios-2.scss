@@ -602,4 +602,8 @@
         }
       }
   }
+  #modal-beneficios {
+    @include modal-beneficios;
+    @include btn-yellow;
+  }
 }

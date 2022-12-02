@@ -13,6 +13,7 @@
   <?php get_template_part('template-parts/pages/beneficios-2/o-que-dizem'); ?>
   <?php get_template_part('template-parts/pages/beneficios-2/ciencia'); ?>    
   <?php get_template_part('template-parts/pages/beneficios-2/footer'); ?>
+  <?php get_template_part('template-parts/pages/beneficios/popup'); ?>
 </main>
 <script>
   jQuery(document).ready(function() {
@@ -69,5 +70,5 @@
     });
   });
 </script>
-<script src="https://meditacaotranscedental.activehosted.com/f/embed.php?id=8" type="text/javascript" charset="utf-8"></script>
+<!-- <script src="https://meditacaotranscedental.activehosted.com/f/embed.php?id=8" type="text/javascript" charset="utf-8"></script> -->
 <?php get_footer();
