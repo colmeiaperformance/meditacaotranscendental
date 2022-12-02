@@ -1,0 +1,63 @@
+@mixin modal-beneficios {
+  .modal-content {
+    overflow: visible;
+  }
+  .modal-body-title {
+    font-size: 1.325rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .btn-close {
+    cursor: pointer;
+    background-image: url("images/beneficios/close-dark.png");
+    background-repeat: no-repeat;
+    background-size: 14.2px 14.2px;
+    position: absolute;
+    display: block;
+    top: 11px;
+    right: 9px;
+    overflow: hidden;
+    width: 16.2px;
+    height: 16.2px;
+    transition: 0.15s all ease-in-out;
+    border-radius: 100%;
+    &:hover {
+      opacity: 1;
+    }
+    @media screen and (min-width: 1200px) {
+      box-shadow: 0 0 3px $color-black;
+      opacity: 1;
+      top: -3px;
+      right: -3px;
+      background-color: $color-white;
+      opacity: 1;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+@mixin btn-yellow {
+  .btn {
+    font-weight: 400;
+    font-size: var(--font-size-regular);
+    line-height: 30px;
+    color: $color-white;
+    padding: 9px 31px;
+    background: $color-primary-dark;
+    border: 1px solid $color-primary-dark;
+    border-radius: 30px;
+    margin-top: 74px;
+    @media (max-width: 992px) {
+      font-size: var(--font-size-extrasmall);
+      line-height: 18px;
+      margin-top: 20px;
+    }
+    &:hover {
+      background: transparent;
+      color: $color-primary-dark;
+    }
+  }
+}

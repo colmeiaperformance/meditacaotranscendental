@@ -13,6 +13,7 @@
   <?php get_template_part('template-parts/pages/beneficios-2/o-que-dizem'); ?>
   <?php get_template_part('template-parts/pages/beneficios-2/ciencia'); ?>    
   <?php get_template_part('template-parts/pages/beneficios-2/footer'); ?>
+  <?php get_template_part('template-parts/pages/beneficios/popup'); ?>
 </main>
 <script>
   jQuery(document).ready(function() {

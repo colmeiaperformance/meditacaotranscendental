@@ -356,3 +356,16 @@ wp_localize_script( 'twentyfifteen-script', 'ajax_posts', array(
     'ajaxurl' => admin_url( 'admin-ajax.php' ),
     'noposts' => __('No older posts found', 'twentyfifteen'),
 ));
+
+//Page Slug
+
+function get_the_slug() {
+    global $post;
+    $slug = $post->post_name ?? '';
+
+    if ( ! $slug ) {
+        $slug = basename( parse_url( $_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH ) );
+    }
+
+    return $slug;
+}

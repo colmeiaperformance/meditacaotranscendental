@@ -4082,6 +4082,70 @@ footer .top a {
   border: 1px solid #F29F05;
   color: #F29F05;
 }
+.page-beneficios-2 #modal-beneficios .modal-content {
+  overflow: visible;
+}
+.page-beneficios-2 #modal-beneficios .modal-body-title {
+  font-size: 1.325rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.page-beneficios-2 #modal-beneficios .btn-close {
+  cursor: pointer;
+  background-image: url("images/beneficios/close-dark.png");
+  background-repeat: no-repeat;
+  background-size: 14.2px 14.2px;
+  position: absolute;
+  display: block;
+  top: 11px;
+  right: 9px;
+  overflow: hidden;
+  width: 16.2px;
+  height: 16.2px;
+  -webkit-transition: 0.15s all ease-in-out;
+  transition: 0.15s all ease-in-out;
+  border-radius: 100%;
+}
+.page-beneficios-2 #modal-beneficios .btn-close:hover {
+  opacity: 1;
+}
+@media screen and (min-width: 1200px) {
+  .page-beneficios-2 #modal-beneficios .btn-close {
+    -webkit-box-shadow: 0 0 3px #000000;
+            box-shadow: 0 0 3px #000000;
+    opacity: 1;
+    top: -3px;
+    right: -3px;
+    background-color: #FFFFFF;
+    opacity: 1;
+  }
+  .page-beneficios-2 #modal-beneficios .btn-close:hover {
+    opacity: 0.7;
+  }
+}
+.page-beneficios-2 #modal-beneficios .btn {
+  font-weight: 400;
+  font-size: var(--font-size-regular);
+  line-height: 30px;
+  color: #FFFFFF;
+  padding: 9px 31px;
+  background: #F29F05;
+  border: 1px solid #F29F05;
+  border-radius: 30px;
+  margin-top: 74px;
+}
+@media (max-width: 992px) {
+  .page-beneficios-2 #modal-beneficios .btn {
+    font-size: var(--font-size-extrasmall);
+    line-height: 18px;
+    margin-top: 20px;
+  }
+}
+.page-beneficios-2 #modal-beneficios .btn:hover {
+  background: transparent;
+  color: #F29F05;
+}
 
 .page-blog {
   padding-bottom: 72px;

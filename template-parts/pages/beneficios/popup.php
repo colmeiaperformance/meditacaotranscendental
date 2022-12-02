@@ -1,3 +1,12 @@
+<?php
+if ( get_the_slug() == 'beneficios' ) { 
+  $slug_tag = '/?utm_source=Popup&utm_medium=popup&utm_campaign=popup_beneficios&utm_id=Popup'; 
+} elseif ( get_the_slug() == 'saude-mental' ) { 
+  $slug_tag =  '/?utm_source=Popup&utm_medium=popup&utm_campaign=popup_ansiedade&utm_id=Popup'; 
+} else { 
+  $slug_tag = ''; 
+}
+?>
 <!-- Modal -->
 <div class="modal fade" id="modal-beneficios" role="dialog" data-bs-backdrop="static" data-bs-keyboard="false"
   tabindex="-1" aria-labelledby="modal-beneficiosLabel" aria-hidden="true">
@@ -20,11 +29,14 @@
 
       </div>
       <div class="modal-footer border-0">
-        <button type="button" class="btn mt-0" onclick="window.location='<?php echo home_url( ) . '/agendamento'; ?>'">Quero me inscrever</button>
+        <button type="button" class="btn mt-0"
+          onclick="window.location='<?php echo home_url( ) . '/agendamento' . $slug_tag; ?>'">Quero me
+          inscrever</button>
       </div>
     </div>
   </div>
 </div>
+
 
 
 <script>
