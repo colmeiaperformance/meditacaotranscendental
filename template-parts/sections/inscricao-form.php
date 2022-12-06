@@ -665,8 +665,8 @@ jQuery(document).ready(function() {
               <option value="Denise de Maio">
                 Denise de Maio
               </option>
-              <option value="Edison Bueno da Silva">
-                Edison Bueno da Silva
+              <option value="Edison Bueno">
+                Edison Bueno
               </option>
               <option value="Eliana Homenco">
                 Eliana Homenco
