@@ -3,8 +3,10 @@
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"
   referrerpolicy="no-referrer"></script>
 <!-- Mask phone -->
-<script defer src="<?php echo get_template_directory_uri() . '/js/cleave.min.js'; ?>" referrerpolicy="no-referrer"></script>
-<script defer src="<?php echo get_template_directory_uri() . '/js/cleave-phone.i18n.js'; ?>" referrerpolicy="no-referrer"></script>
+<script defer src="<?php echo get_template_directory_uri() . '/js/cleave.min.js'; ?>" referrerpolicy="no-referrer">
+</script>
+<script defer src="<?php echo get_template_directory_uri() . '/js/cleave-phone.i18n.js'; ?>"
+  referrerpolicy="no-referrer"></script>
 <script defer>
 jQuery(document).ready(function() {
   var cleavePhone = new Cleave('.input-phone', {
@@ -603,8 +605,8 @@ jQuery(document).ready(function() {
                 Cidade*
               </label>
               <div class="_field-wrapper">
-                <input class="form-cidade" type="text" id="field[60]" name="field[60]" value="" placeholder="Digite o CEP no campo reservado acima" required
-                  disabled />
+                <input class="form-cidade" type="text" id="field[60]" name="field[60]" value=""
+                  placeholder="Digite o CEP no campo reservado acima" required disabled />
               </div>
             </div>
           </div>
@@ -645,8 +647,8 @@ jQuery(document).ready(function() {
               <option value="Beth Siqueira">
                 Beth Siqueira
               </option>
-              <option value="Caroline Ryzewski">
-                Caroline Ryzewski
+              <option value="Carolina Ryzewski">
+                Carolina Ryzewski
               </option>
               <option value="Cassia Cardoso">
                 Cassia Cardoso
@@ -662,6 +664,9 @@ jQuery(document).ready(function() {
               </option>
               <option value="Denise de Maio">
                 Denise de Maio
+              </option>
+              <option value="Edison Bueno">
+                Edison Bueno
               </option>
               <option value="Eliana Homenco">
                 Eliana Homenco
@@ -1139,6 +1144,12 @@ window._load_script = function(url, callback) {
         tooltip = create_tooltip(elem, "Este campo é necessário.");
       }
     }
+    if (no_error && (elem.id == 'field[]' || elem.id == 'ca[11][v]')) {
+      if (elem.className.includes('phone-input-error')) {
+        elem.className = elem.className + ' _has_error';
+        no_error = false;
+      }
+    }
     if (no_error && elem.name == 'email') {
       if (!value.match(/^[\+_a-z0-9-'&=]+(\.[\+_a-z0-9-']+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$/i)) {
         elem.className = elem.className + ' _has_error';
@@ -1163,6 +1174,11 @@ window._load_script = function(url, callback) {
     if (el.name === 'email' && el.value !== "") {
       return true
     }
+
+    if ((el.id == 'field[]' || el.id == 'ca[11][v]') && el.className.includes('phone-input-error')) {
+      return true
+    }
+
     return false
   };
   var validate_form = function(e) {
@@ -1173,6 +1189,12 @@ window._load_script = function(url, callback) {
       for (var i = 0, len = allInputs.length; i < len; i++) {
         var input = allInputs[i];
         if (needs_validate(input)) {
+          if (input.type == 'tel') {
+            addEvent(input, 'blur', function() {
+              this.value = this.value.trim();
+              validate_field(this, true);
+            });
+          }
           if (input.type == 'text' || input.type == 'number' || input.type == 'time') {
             addEvent(input, 'blur', function() {
               this.value = this.value.trim();
@@ -1220,6 +1242,65 @@ window._load_script = function(url, callback) {
   };
   addEvent(window, 'resize', resize_tooltips);
   addEvent(window, 'scroll', resize_tooltips);
+
+  var hidePhoneInputError = function(inputId) {
+    var errorMessage = document.getElementById("error-msg-" + inputId);
+    var input = document.getElementById(inputId);
+    errorMessage.classList.remove("phone-error");
+    errorMessage.classList.add("phone-error-hidden");
+    input.classList.remove("phone-input-error");
+  };
+
+  var initializePhoneInput = function(input, defaultCountry) {
+    return window.intlTelInput(input, {
+      utilsScript: "https://unpkg.com/intl-tel-input@17.0.18/build/js/utils.js",
+      autoHideDialCode: false,
+      separateDialCode: true,
+      initialCountry: defaultCountry,
+      preferredCountries: []
+    });
+  }
+
+  var setPhoneInputEventListeners = function(inputId, input, iti) {
+    input.addEventListener('blur', function() {
+      var errorMessage = document.getElementById("error-msg-" + inputId);
+      if (input.value.trim()) {
+        if (iti.isValidNumber()) {
+          iti.setNumber(iti.getNumber());
+          if (errorMessage.classList.contains("phone-error")) {
+            hidePhoneInputError(inputId);
+          }
+        } else {
+          showPhoneInputError(inputId)
+        }
+      } else {
+        if (errorMessage.classList.contains("phone-error")) {
+          hidePhoneInputError(inputId);
+        }
+      }
+    });
+
+    input.addEventListener("countrychange", function() {
+      iti.setNumber('');
+    });
+
+    input.addEventListener("keydown", function(e) {
+      var charCode = (e.which) ? e.which : e.keyCode;
+      if (charCode > 31 && (charCode < 48 || charCode > 57) && charCode !== 8) {
+        e.preventDefault();
+      }
+    });
+  };
+
+  var showPhoneInputError = function(inputId) {
+    var errorMessage = document.getElementById("error-msg-" + inputId);
+    var input = document.getElementById(inputId);
+    errorMessage.classList.add("phone-error");
+    errorMessage.classList.remove("phone-error-hidden");
+    input.classList.add("phone-input-error");
+  };
+
+
   var _form_serialize = function(form) {
     if (!form || form.nodeName !== "FORM") {
       return
@@ -1232,6 +1313,11 @@ window._load_script = function(url, callback) {
       switch (form.elements[i].nodeName) {
         case "INPUT":
           switch (form.elements[i].type) {
+            case "tel":
+              q.push(form.elements[i].name + "=" + encodeURIComponent(form.elements[i].previousSibling
+                  .querySelector('div.iti__selected-dial-code').innerText) + encodeURIComponent(" ") +
+                encodeURIComponent(form.elements[i].value));
+              break;
             case "text":
             case "number":
             case "date":
