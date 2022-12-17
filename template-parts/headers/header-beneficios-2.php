@@ -8,8 +8,8 @@
         </h5>
       </div>
       <div class="col-6 image">
-        <img loading="lazy" class="d-none d-lg-inline-block img-fluid" src="<?php echo get_template_directory_uri() . '/images/header/banner-beneficios-2.png' ?>" alt="Benefícios">
-        <img loading="lazy" class="d-inline-block d-lg-none img-fluid" src="<?php echo get_template_directory_uri() . '/images/header/banner-beneficios-2-mobile-2.png' ?>" alt="Benefícios">
+        <img loading="lazy" class="d-none d-lg-inline-block img-fluid" src="<?php echo get_template_directory_uri() . '/images/header/banner-beneficios-saude-mental.png' ?>" alt="Benefícios">
+        <img loading="lazy" class="d-inline-block d-lg-none img-fluid" src="<?php echo get_template_directory_uri() . '/images/header/banner-beneficios-saude-mental.png' ?>" alt="Benefícios">
       <div>               
     <div>
   </div>
