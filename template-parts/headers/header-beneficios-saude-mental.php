@@ -1,4 +1,4 @@
-<header class="header header--beneficios-2">
+<header class="header header--beneficios-items">
   <div class="container">
     <div class="row">
       <div class="col-6 text">

@@ -331,12 +331,15 @@
       }
     }   
   }
-  &--beneficios-2 {
+  &--beneficios-items {
     background: $color-secondary-medium;
-    .row {
+    &__equilibrio-emocional {
+      background: $color-prink;
+    }
+      .row {
       align-items: center;
       justify-content: center;
-    }
+      }
       .text {
         // padding-top: 95px;
         // padding-bottom: 63px;

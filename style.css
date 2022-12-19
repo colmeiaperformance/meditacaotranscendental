@@ -616,37 +616,40 @@ footer .top a {
     margin: 0 auto;
   }
 }
-.header--beneficios-2 {
+.header--beneficios-items {
   background: #7896C1;
 }
-.header--beneficios-2 .row {
+.header--beneficios-items__equilibrio-emocional {
+  background: #F49093;
+}
+.header--beneficios-items .row {
   align-items: center;
   justify-content: center;
 }
-.header--beneficios-2 .image {
+.header--beneficios-items .image {
   text-align: right;
   padding-right: 50px;
 }
 @media (max-width: 992px) {
-  .header--beneficios-2 .image {
+  .header--beneficios-items .image {
     padding-right: 0;
     padding-left: 0;
   }
 }
-.header--beneficios-2 .image img {
+.header--beneficios-items .image img {
   width: 100%;
   max-height: 250px;
   object-fit: contain;
   margin: 48px 0 64px 0;
 }
 @media (max-width: 992px) {
-  .header--beneficios-2 .image img {
+  .header--beneficios-items .image img {
     max-height: 180px;
     margin: 20px 0;
     padding: 15px;
   }
 }
-.header--beneficios-2 h1 {
+.header--beneficios-items h1 {
   font-weight: 300;
   font-size: var(--font-size-medium);
   line-height: 1.2;
@@ -654,25 +657,25 @@ footer .top a {
   color: #FFFFFF;
   margin-bottom: 38px;
 }
-.header--beneficios-2 h1 strong {
+.header--beneficios-items h1 strong {
   font-weight: 600;
   color: #FFFFFF;
 }
 @media (max-width: 992px) {
-  .header--beneficios-2 h1 {
+  .header--beneficios-items h1 {
     font-size: var(--font-size-small);
     line-height: 1.2;
     margin-bottom: 10px;
   }
 }
 @media (max-width: 576px) {
-  .header--beneficios-2 h1 {
+  .header--beneficios-items h1 {
     font-size: 0.8rem;
     line-height: 1.2;
     margin-bottom: 10px;
   }
 }
-.header--beneficios-2 h5 {
+.header--beneficios-items h5 {
   max-width: 553px;
   font-weight: 300;
   font-size: var(--font-size-small);
@@ -681,16 +684,16 @@ footer .top a {
   margin-bottom: 0;
 }
 @media (max-width: 992px) {
-  .header--beneficios-2 h5 {
+  .header--beneficios-items h5 {
     font-size: 10px;
     line-height: 1.2;
   }
 }
-.header--beneficios-2 h5 strong {
+.header--beneficios-items h5 strong {
   font-weight: 600;
 }
 @media (max-width: 576px) {
-  .header--beneficios-2 h5 {
+  .header--beneficios-items h5 {
     font-size: 9px;
     line-height: 1.2;
   }
@@ -3837,8 +3840,9 @@ footer .top a {
   margin-bottom: 46px;
   text-align: center;
 }
-.page-beneficios-items .footer h2 span {
+.page-beneficios-items .footer h2 strong {
   color: #FFC536;
+  font-weight: 600;
 }
 @media (max-width: 992px) {
   .page-beneficios-items .footer h2 {

@@ -572,8 +572,9 @@
         color: $color-secondary-dark-80;
         margin-bottom: 46px;
         text-align: center;
-        span {
+        strong {
           color: $color-primary-medium;
+          font-weight: 600;
         }
         @media (max-width: 992px) {
           margin-bottom: 32px;
