@@ -5,14 +5,14 @@
   ?>
 <?php get_header(); ?>
 <?php get_template_part('template-parts/sections/navbar'); ?>
-<?php get_template_part('template-parts/headers/header-beneficios-saude-mental'); ?>
+<?php get_template_part('template-parts/headers/header-beneficios-equilibrio-emocional'); ?>
 <main class="page-beneficios-items">
-  <?php get_template_part('template-parts/pages/beneficios/saude-mental/hero'); ?> 
-  <?php get_template_part('template-parts/pages/beneficios/saude-mental/equilibrio'); ?> 
-  <?php get_template_part('template-parts/pages/beneficios/saude-mental/quote'); ?>  
-  <?php get_template_part('template-parts/pages/beneficios/saude-mental/o-que-dizem'); ?>
-  <?php get_template_part('template-parts/pages/beneficios/saude-mental/ciencia'); ?>    
-  <?php get_template_part('template-parts/pages/beneficios/saude-mental/footer'); ?>
+  <?php get_template_part('template-parts/pages/beneficios/equilibrio-emocional/hero'); ?> 
+  <?php get_template_part('template-parts/pages/beneficios/equilibrio-emocional/equilibrio'); ?> 
+  <?php get_template_part('template-parts/pages/beneficios/equilibrio-emocional/quote'); ?>  
+  <?php get_template_part('template-parts/pages/beneficios/equilibrio-emocional/o-que-dizem'); ?>
+  <?php get_template_part('template-parts/pages/beneficios/equilibrio-emocional/ciencia'); ?>    
+  <?php get_template_part('template-parts/pages/beneficios/equilibrio-emocional/footer'); ?>
   <?php get_template_part('template-parts/pages/beneficios/popup'); ?>
 </main>
 <script>

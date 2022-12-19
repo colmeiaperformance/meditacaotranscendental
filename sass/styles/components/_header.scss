@@ -331,12 +331,21 @@
       }
     }   
   }
-  &--beneficios-2 {
+  &--beneficios-items {
     background: $color-secondary-medium;
-    .row {
+    &__equilibrio-emocional {
+      background: $color-prink;
+    }
+    &__saude-fisica {
+      background: $color-primary-dark;
+    }
+    &__potencial-mental {
+      background: $color-green;
+    }
+      .row {
       align-items: center;
       justify-content: center;
-    }
+      }
       .text {
         // padding-top: 95px;
         // padding-bottom: 63px;

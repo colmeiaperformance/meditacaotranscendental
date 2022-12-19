@@ -70,15 +70,3 @@
     </p>
   </div>
 </div>
-
-<div class="swiper-slide">
-  <div class="swiper-mobile">
-    <iframe class="yt-video" width="280" height="200" src="https://www.youtube.com/embed/ipjzNre_ANU"
-      title="YouTube video player" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
-    <p>
-      Sindrome do Pânico e Depressão. Meditação Transcendental transformando vidas
-    </p>
-  </div>
-</div>
