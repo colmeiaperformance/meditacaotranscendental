@@ -1,7 +1,7 @@
 <section class="o-que-dizem">
     <div class="container">
         <div class="text-center">
-            <h2><strong>Veja o que o Dr. Roberto Botelho, cardiologista, prescreve para uma vida mais saudável.</strong></h2>
+            <h2><strong>Veja como melhorar seu potencial mental e por que esta técnica tem benefícios imediatos</strong></h2>
         </div>
         <div class="video-featured">
             <iframe class="yt-video" width="100%" height="281.25" src="https://www.youtube.com/embed/LhVpLqSCyUg"

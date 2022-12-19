@@ -625,6 +625,9 @@ footer .top a {
 .header--beneficios-items__saude-fisica {
   background: #F29F05;
 }
+.header--beneficios-items__potencial-mental {
+  background: #A6D491;
+}
 .header--beneficios-items .row {
   align-items: center;
   justify-content: center;

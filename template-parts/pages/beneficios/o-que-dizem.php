@@ -11,7 +11,7 @@
           if ( is_front_page() ) {
             get_template_part( 'template-parts/pages/home/videos' ); 
           } else {
-            get_template_part( 'template-parts/pages/beneficios-2/videos' ); 
+            get_template_part( 'template-parts/pages/beneficios/videos' ); 
           }
           ?>
 

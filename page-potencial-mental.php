@@ -5,14 +5,14 @@
   ?>
 <?php get_header(); ?>
 <?php get_template_part('template-parts/sections/navbar'); ?>
-<?php get_template_part('template-parts/headers/header-beneficios-saude-fisica'); ?>
+<?php get_template_part('template-parts/headers/header-beneficios-potencial-mental'); ?>
 <main class="page-beneficios-items">
-  <?php get_template_part('template-parts/pages/beneficios/saude-fisica/hero'); ?> 
-  <?php get_template_part('template-parts/pages/beneficios/saude-fisica/equilibrio'); ?> 
-  <?php get_template_part('template-parts/pages/beneficios/saude-fisica/quote'); ?>  
-  <?php get_template_part('template-parts/pages/beneficios/saude-fisica/o-que-dizem'); ?>
-  <?php get_template_part('template-parts/pages/beneficios/saude-fisica/ciencia'); ?>    
-  <?php get_template_part('template-parts/pages/beneficios/saude-fisica/footer'); ?>
+  <?php get_template_part('template-parts/pages/beneficios/potencial-mental/hero'); ?> 
+  <?php get_template_part('template-parts/pages/beneficios/potencial-mental/equilibrio'); ?> 
+  <?php get_template_part('template-parts/pages/beneficios/potencial-mental/quote'); ?>  
+  <?php get_template_part('template-parts/pages/beneficios/potencial-mental/o-que-dizem'); ?>
+  <?php get_template_part('template-parts/pages/beneficios/potencial-mental/ciencia'); ?>    
+  <?php get_template_part('template-parts/pages/beneficios/potencial-mental/footer'); ?>
   <?php get_template_part('template-parts/pages/beneficios/popup'); ?>
 </main>
 <script>
