@@ -622,6 +622,9 @@ footer .top a {
 .header--beneficios-items__equilibrio-emocional {
   background: #F49093;
 }
+.header--beneficios-items__saude-fisica {
+  background: #F29F05;
+}
 .header--beneficios-items .row {
   align-items: center;
   justify-content: center;

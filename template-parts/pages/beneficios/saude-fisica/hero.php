@@ -6,7 +6,7 @@
             src=<?php echo get_template_directory_uri() . '/images/o-que-e-mt/mt.png' ?> alt="mt.">
         </div>
         <div class="col-12 col-lg-7 order-0 order-lg-1">
-          <p>O que a MT faz por você é te levar até você mesmo… Onde há toda a fonte de paz.</p>
+          <p>A prática regular da MT ajuda a combater o estresse impregnado no sistema nervoso, gerando um efeito regenerativo que contribui para a prevenção e melhora de diversas doenças, como problemas cardíacos, hipertensão, diabetes, entre outras.</p>
         </div>
       </div>
       <div class="text-center line">
