@@ -1,3 +1,40 @@
 .page {
-    
+  .lp-ebook {
+    h2 {
+      color: $color-primary-medium;
+      font-size: 2.5rem;
+    }
+    p {
+      font-size: 1.3rem;
+      line-height: 1.85rem;
+    }
+    @media screen and (max-width: 576px) {
+      h2 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+      }
+    }
+  }
+  .form-ebook {
+    color: $color-white;
+    width: 550px;
+    border-radius: 10px;
+    @media screen and (max-width: 576px) {
+      width: 100%;
+    }
+    .form-label {
+      font-size: 1.2rem;
+    }
+    .btn {
+      @include btn-yellow;
+      background-color: $color-primary-dark;
+      color: $color-white;
+      &:hover {
+        background-color: $color-primary-medium;
+      }
+    }
+  }
 }

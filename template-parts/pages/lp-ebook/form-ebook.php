@@ -9,42 +9,42 @@
   <input type="hidden" name="act" value="sub" />
   <input type="hidden" name="v" value="2" />
   <input type="hidden" name="or" value="f2ff52a07db5c5f1407d1603a2987a97" />
-  <div class="_form-content">
+  <div class="_form-content p-3">
     <div class="_form_element _x62781915 _full_width _clear">
-      <div class="_form-title">
+      <div class="_form-title lead fw-bold text-center px-5 mb-3">
         Preencha o formulário para receber o ebook no seu e-mail.
       </div>
     </div>
     <div class="_form_element _x73493258 _full_width ">
-      <label for="fullname" class="_form-label">
+      <label for="fullname" class="_form-label form-label">
         Nome completo*
       </label>
       <div class="_field-wrapper">
-        <input type="text" id="fullname" name="fullname" placeholder="Digite seu nome" required />
+        <input class="form-control mb-3" type="text" id="fullname" name="fullname" placeholder="Digite seu nome" required />
       </div>
     </div>
     <div class="_form_element _x26116758 _full_width ">
-      <label for="email" class="_form-label">
+      <label for="email" class="_form-label form-label">
         Email*
       </label>
       <div class="_field-wrapper">
-        <input type="text" id="email" name="email" placeholder="Digite seu email" required />
+        <input class="form-control mb-3" type="text" id="email" name="email" placeholder="Digite seu email" required />
       </div>
     </div>
     <div class="_form_element _x02570413 _full_width ">
-      <label for="phone" class="_form-label">
+      <label for="phone" class="_form-label form-label">
         Telefone*
       </label>
       <div class="_field-wrapper">
-        <input type="text" id="phone" name="phone" placeholder="Digite seu telefone" required />
+        <input class="form-control mb-3" type="text" id="phone" name="phone" placeholder="Digite seu telefone" required />
       </div>
     </div>
     <div class="_form_element _x34986620 _full_width ">
-      <label for="field[91]" class="_form-label">
+      <label for="field[91]" class="_form-label form-label">
         Já fez o curso da MT?*
       </label>
       <div class="_field-wrapper">
-        <select name="field[91]" id="field[91]" required>
+        <select class="form-select mb-3"  name="field[91]" id="field[91]" required>
           <option selected>
           </option>
           <option value="Sim">
@@ -56,8 +56,8 @@
         </select>
       </div>
     </div>
-    <div class="_button-wrapper _full_width">
-      <button id="_form_18_submit" class="_submit" type="submit">
+    <div class="_button-wrapper _full_width d-flex justify-content-center">
+      <button id="_form_18_submit" class="btn px-5 fw-bold mt-5 _submit" type="submit">
         Baixar agora
       </button>
     </div>

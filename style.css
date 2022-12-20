@@ -7004,6 +7004,66 @@ footer .top a {
   color: #FFC536;
 }
 
+.page .lp-ebook h2 {
+  color: #FFC536;
+  font-size: 2.5rem;
+}
+.page .lp-ebook p {
+  font-size: 1.3rem;
+  line-height: 1.85rem;
+}
+@media screen and (max-width: 576px) {
+  .page .lp-ebook h2 {
+    font-size: 2rem;
+  }
+  .page .lp-ebook p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+}
+.page .form-ebook {
+  color: #FFFFFF;
+  width: 550px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 576px) {
+  .page .form-ebook {
+    width: 100%;
+  }
+}
+.page .form-ebook .form-label {
+  font-size: 1.2rem;
+}
+.page .form-ebook .btn {
+  background-color: #F29F05;
+  color: #FFFFFF;
+}
+.page .form-ebook .btn .btn {
+  font-weight: 400;
+  font-size: var(--font-size-regular);
+  line-height: 30px;
+  color: #FFFFFF;
+  padding: 9px 31px;
+  background: #F29F05;
+  border: 1px solid #F29F05;
+  border-radius: 30px;
+  margin-top: 74px;
+}
+@media (max-width: 992px) {
+  .page .form-ebook .btn .btn {
+    font-size: var(--font-size-extrasmall);
+    line-height: 18px;
+    margin-top: 20px;
+  }
+}
+.page .form-ebook .btn .btn:hover {
+  background: transparent;
+  color: #F29F05;
+}
+.page .form-ebook .btn:hover {
+  background-color: #FFC536;
+}
+
 .single article .post-content {
   border-bottom: 1px solid #F29F05;
   margin-bottom: 10px;
