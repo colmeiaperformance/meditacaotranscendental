@@ -1,4 +1,4 @@
-<!-- <section class="visite-blog">
+<section class="visite-blog">
     <div class="container py-5">
       <h2>Visite o nosso <strong>blog</strong></h2>
       <div id="conhecaBlog" class="swiper swiperConhecaBlog" data-bs-ride="carousel">
@@ -55,41 +55,41 @@
         <!-- <div class="swiper-pagination"></div> -->
       </div>
     </div>
-</section> -->
-<!-- <script defer> -->
-  // jQuery(document).ready(function() {
-  //   var swiper = new Swiper(".swiperConhecaBlog", {
-  //     slidesPerView: 1,
-  //     slidesPerGroup: 1,
-  //     loop: true,
-  //     spaceBetween: 0,
-  //     pagination: {
-  //       el: ".swiper-pagination",
-  //       clickable: true,
-  //     },
-  //     navigation: {
-  //         nextEl: ".swiper-button-next",
-  //         prevEl: ".swiper-button-prev",
-  //       },
-  //     mousewheel: false,
-  //     keyboard: true,
-  //     breakpoints: {
-  //       640: {
-  //         slidesPerView: 1,
-  //         slidesPerGroup: 1,
-  //         spaceBetween: 10,
-  //       },
-  //       768: {
-  //         slidesPerView: 2,
-  //         slidesPerGroup: 2,
-  //         spaceBetween: 20,
-  //       },
-  //       1024: {
-  //         slidesPerView: 2,
-  //         slidesPerGroup: 2,
-  //         spaceBetween: 20,
-  //       },
-  //     },
-  //   });
-  // });
-  <!-- </script> -->
+</section>
+<script defer>
+  jQuery(document).ready(function() {
+    var swiper = new Swiper(".swiperConhecaBlog", {
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      loop: true,
+      spaceBetween: 0,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      mousewheel: false,
+      keyboard: true,
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 2,
+          slidesPerGroup: 2,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 2,
+          slidesPerGroup: 2,
+          spaceBetween: 20,
+        },
+      },
+    });
+  });
+  </script>
