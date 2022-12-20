@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php get_template_part('template-parts/headers/header-lp-ebook'); ?>
 <main class="page py-5">
-  <div class="container">
+  <div class="container pt-5">
     <section class="lp-ebook">
       <div class="row">
         <div class="col">

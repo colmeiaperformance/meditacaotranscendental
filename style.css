@@ -354,9 +354,8 @@ footer .top a {
 .header--lp-ebook {
   background: #FFC536;
   padding: 0;
-  margin-bottom: 53px;
-  -webkit-clip-path: ellipse(150% 100% at 50% 0%);
-          clip-path: ellipse(150% 100% at 50% 0%);
+  -webkit-clip-path: ellipse(150% 100% at 20% 0%);
+          clip-path: ellipse(150% 100% at 20% 0%);
 }
 @media (max-width: 992px) {
   .header--lp-ebook {

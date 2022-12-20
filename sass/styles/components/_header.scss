@@ -75,8 +75,7 @@
   &--lp-ebook {
     background: $color-primary-medium;
     padding: 0;
-    margin-bottom: 53px;
-    clip-path: ellipse(150% 100% at 50% 0%);
+    clip-path: ellipse(150% 100% at 20% 0%);
     @media (max-width: 992px) {
       margin-bottom: 20px;
       clip-path: ellipse(240% 100% at 50% 0%);
