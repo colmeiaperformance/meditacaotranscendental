@@ -59,13 +59,13 @@
           <button name="btn-home-saiba-mais" onclick="location.href='https://meditacaotranscendental.com.br/ebooks/Conhecendo-a-Meditacao-Transcendental.pdf'"
             type="button">Baixe agora o e-book</button>
         </div>
-        <h2 class="mb-5">
+        <h2 class="mb-lg-5">
           Conhecendo a Meditação Transcendental®:<br />
           <strong>7 fatos sobre a técnica de meditação mais fácil, simples e natural que
             existe”.</strong><br />
         </h2>
       </div>
-      <div class="col-12 col-lg">
+      <div class="col-12 col-lg" style="text-align: right;">
         <img class="img-bg-header" src="<?php echo get_template_directory_uri() . '/images/lp-ebook/ipad-2.png' ?>"
           alt="">
       </div>

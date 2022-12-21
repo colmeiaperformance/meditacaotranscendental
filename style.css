@@ -438,10 +438,16 @@ footer .top a {
   .header--lp-obrigado h1 {
     margin-top: 30px;
     width: 100%;
-    font-size: var(--font-size-medium);
+    font-size: var(--font-size-regular);
     line-height: 34px;
     letter-spacing: -0.02em;
     margin-bottom: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .header--lp-obrigado h2 {
+    font-size: var(--font-size-regular);
+    line-height: 34px;
   }
 }
 .header--lp-obrigado strong {
@@ -465,13 +471,11 @@ footer .top a {
 .header--lp-obrigado button:hover {
   color: #F29F05;
   background-color: #FFFFFF;
-  border: 1px solid #FFFFFF;
 }
 @media (max-width: 992px) {
   .header--lp-obrigado .btn,
 .header--lp-obrigado button {
-    font-weight: 700;
-    font-size: 14px;
+    font-size: var(--font-size-extrasmal);
     line-height: 16px;
   }
 }
@@ -483,10 +487,9 @@ footer .top a {
 }
 @media (max-width: 992px) {
   .header--lp-obrigado .img-bg-header {
-    padding-bottom: 50px;
-    padding-top: 30px;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: -60px;
     width: 100%;
   }
 }

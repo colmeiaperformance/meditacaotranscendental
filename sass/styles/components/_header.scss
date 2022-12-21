@@ -162,10 +162,16 @@
       @media (max-width: 992px) {
         margin-top: 30px;
         width: 100%;
-        font-size: var(--font-size-medium);
+        font-size: var(--font-size-regular);
         line-height: 34px;
         letter-spacing: -0.02em;
         margin-bottom: 20px;
+      }
+    }
+    h2 {
+      @media (max-width: 992px) {
+        font-size: var(--font-size-regular);
+        line-height: 34px;
       }
     }
     strong {
@@ -187,11 +193,9 @@
       &:hover {
         color: $color-primary-dark;
         background-color: $color-white;
-        border: 1px solid $color-white;
       }
       @media (max-width: 992px) {
-        font-weight: 700;
-        font-size: 14px;
+        font-size: var(--font-size-extrasmal);
         line-height: 16px;
       }
     }
@@ -201,10 +205,14 @@
       margin-top: 100px;
       margin-bottom: -100px;
       @media (max-width: 992px) {
-        padding-bottom: 50px;
-        padding-top: 30px;
-        margin-top: auto;
-        margin-bottom: auto;
+        // padding-bottom: 50px;
+        // padding-top: 30px;
+        // margin-top: auto;
+        // margin-bottom: auto;
+        // width: 100%;
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: -60px;
         width: 100%;
       }
     }
