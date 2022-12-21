@@ -7245,7 +7245,7 @@ footer .top a {
   position: absolute;
   top: -100px;
   left: 0;
-  background: url("images/lp-ebook/ellipse.png");
+  background: url("images/lp-ebook/ellipse.svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -7253,6 +7253,14 @@ footer .top a {
   z-index: 125;
   -webkit-transform: rotate(0.5deg);
           transform: rotate(0.5deg);
+}
+@media screen and (max-width: 992px) {
+  .page .bg-clip::after {
+    top: -30px;
+    left: -2px;
+    -webkit-transform: rotate(2.5deg);
+            transform: rotate(2.5deg);
+  }
 }
 
 .single article .post-content {

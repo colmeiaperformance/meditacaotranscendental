@@ -8,7 +8,7 @@
       bold {
         font-weight: 600;
       }
-      @media screen and (max-width: 992px)  {
+      @media screen and (max-width: 992px) {
         font-size: 1.6rem;
         margin-top: 40px;
         line-height: 25px;
@@ -38,7 +38,7 @@
       line-height: 2.188rem;
       text-align: center;
       color: $color-white;
-      @media screen and (max-width: 992px)  {
+      @media screen and (max-width: 992px) {
         font-size: var(--font-size-small);
         line-height: 1.12rem;
       }
@@ -51,12 +51,12 @@
     }
     .form-select {
       border: 0.748346px solid rgba(199, 211, 112, 0.91);
-      border-radius: 74.8346px!important;
+      border-radius: 74.8346px !important;
       font-size: var(--font-size-extrasmall);
     }
     .form-control {
       border: 0.748346px solid rgba(199, 211, 112, 0.91);
-      border-radius: 74.8346px!important;
+      border-radius: 74.8346px !important;
       font-size: var(--font-size-extrasmall);
     }
     .btn {
@@ -86,13 +86,18 @@
       position: absolute;
       top: -100px;
       left: 0;
-      background: url("images/lp-ebook/ellipse.png");
+      background: url("images/lp-ebook/ellipse.svg");
       background-repeat: no-repeat;
       background-size: contain;
       width: 100%;
       height: 135px;
       z-index: 125;
       transform: rotate(0.5deg);
+      @media screen and (max-width: 992px) {
+        top: -30px;
+        left: -2px;
+        transform: rotate(2.5deg);
+      }
     }
   }
 }

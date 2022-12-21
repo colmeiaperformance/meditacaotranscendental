@@ -54,17 +54,18 @@
             alt="Logotipo Meditação Transcedental">
         </a>
         <h2>
-        <strong>Conhecendo a Meditação Transcendental®:</strong><br />
+          <strong>Conhecendo a Meditação Transcendental®:</strong><br />
           7 fatos sobre a técnica de meditação mais fácil, simples e natural que existe”.<br />
         </h2>
       </div>
       <div class="col-12 col-lg">
-        <img class="img-bg-header" src="<?php echo get_template_directory_uri() . '/images/lp-ebook/ipad-1.png' ?>" alt="">
+        <img class="img-bg-header" src="<?php echo get_template_directory_uri() . '/images/lp-ebook/ipad-1.png' ?>"
+          alt="">
       </div>
     </div>
   </div>
 </header>
 <div class="bg-effect d-none d-lg-block"></div>
-<div class="content-fluid d-none d-lg-block" style="position: relative;">
+<div class="content-fluid" style="position: relative;">
   <div class="bg-clip"></div>
 </div>
