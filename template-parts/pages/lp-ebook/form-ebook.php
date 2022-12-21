@@ -11,40 +11,40 @@
   <input type="hidden" name="or" value="f2ff52a07db5c5f1407d1603a2987a97" />
   <div class="_form-content p-3">
     <div class="_form_element _x62781915 _full_width _clear">
-      <div class="_form-title lead fw-bold text-center px-5 mb-3">
+      <div class="_form-title lead fw-bold text-center px-5 mb-4">
         Preencha o formulário para receber o ebook no seu e-mail.
       </div>
     </div>
-    <div class="_form_element _x73493258 _full_width ">
+    <div class="_form_element mb-3 _x73493258 _full_width ">
       <label for="fullname" class="_form-label form-label">
         Nome completo*
       </label>
       <div class="_field-wrapper">
-        <input class="form-control mb-3" type="text" id="fullname" name="fullname" placeholder="Digite seu nome" required />
+        <input class="form-control" type="text" id="fullname" name="fullname" placeholder="Digite seu nome" required />
       </div>
     </div>
-    <div class="_form_element _x26116758 _full_width ">
+    <div class="_form_element mb-3 _x26116758 _full_width ">
       <label for="email" class="_form-label form-label">
         Email*
       </label>
       <div class="_field-wrapper">
-        <input class="form-control mb-3" type="text" id="email" name="email" placeholder="Digite seu email" required />
+        <input class="form-control" type="text" id="email" name="email" placeholder="Digite seu email" required />
       </div>
     </div>
-    <div class="_form_element _x02570413 _full_width ">
+    <div class="_form_element mb-3 _x02570413 _full_width ">
       <label for="phone" class="_form-label form-label">
         Telefone*
       </label>
       <div class="_field-wrapper">
-        <input class="form-control mb-3" type="text" id="phone" name="phone" placeholder="Digite seu telefone" required />
+        <input class="form-control" type="text" id="phone" name="phone" placeholder="Digite seu telefone" required />
       </div>
     </div>
-    <div class="_form_element _x34986620 _full_width ">
+    <div class="_form_element mb-3 _x34986620 _full_width ">
       <label for="field[91]" class="_form-label form-label">
         Já fez o curso da MT?*
       </label>
       <div class="_field-wrapper">
-        <select class="form-select mb-3"  name="field[91]" id="field[91]" required>
+        <select class="form-select"  name="field[91]" id="field[91]" required>
           <option selected>
           </option>
           <option value="Sim">
@@ -87,6 +87,7 @@ window._show_thank_you = function(id, message, trackcmp_url, email) {
     _load_script(trackcmp_url);
   }
   if (typeof window._form_callback !== 'undefined') window._form_callback(id);
+  window.location.replace("<?php echo home_url() . "/lp-obrigado/; "?>");
 };
 window._show_error = function(id, message, html) {
   var form = document.getElementById('_form_' + id + '_'),

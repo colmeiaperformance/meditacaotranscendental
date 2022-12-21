@@ -1,4 +1,4 @@
-<header class="header header--lp-ebook">
+<!-- <header class="header header--lp-ebook">
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
 
     <div class="carousel-inner">
@@ -26,14 +26,11 @@
                     existe”.</strong><br />
                 </h2>
               </div>
-              <div class="btn-header position-relative mt-5 mb-3">
-                <button name="btn-home-saiba-mais" onclick="location.href='<?php echo home_url( '/aprenda/' ); ?>'"
-                  type="button">Saiba Mais</button>
-              </div>
+              
 
             </div>
             <div class="col-9 text-center text-lg-end position-relative">
-              <img class="img-fluid" src=<?php echo get_template_directory_uri() . '/images/lp-ebook/ipad-1.png' ?>
+              <img class="img-fluid img-bg-header" src=<?php //echo get_template_directory_uri() . '/images/lp-ebook/ipad-1.png' ?>
                 alt="Header">
             </div>
           </div>
@@ -42,4 +39,32 @@
     </div>
 
   </div>
+</header> -->
+
+<header class="header header--lp-ebook">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg d-flex flex-column justify-content-around text-white">
+        <a class="navbar-brand" href="<?php echo home_url(); ?>">
+          <img class="d-none d-sm-block " loading="lazy"
+            src=<?php echo get_template_directory_uri() . '/images/header/logo-topo.png' ?>
+            alt="Logotipo Meditação Transcedental">
+          <img class="d-block d-sm-none " loading="lazy"
+            src=<?php echo get_template_directory_uri() . '/images/header/logo-topo-mobile.png' ?>
+            alt="Logotipo Meditação Transcedental">
+        </a>
+        <h2>
+        <strong>Conhecendo a Meditação Transcendental®:</strong><br />
+          7 fatos sobre a técnica de meditação mais fácil, simples e natural que existe”.<br />
+        </h2>
+      </div>
+      <div class="col-12 col-lg">
+        <img class="img-bg-header" src="<?php echo get_template_directory_uri() . '/images/lp-ebook/ipad-1.png' ?>" alt="">
+      </div>
+    </div>
+  </div>
 </header>
+<div class="bg-effect d-none d-lg-block"></div>
+<div class="content-fluid d-none d-lg-block" style="position: relative;">
+  <div class="bg-clip"></div>
+</div>
