@@ -21,13 +21,13 @@
                 <div class="col post-item d-flex flex-column text-center text-lg-start">
                   <div class="item-content">
                     <p>
-                      <strong><?php the_title(); ?></strong></p>
+                      <strong><?php if (strlen($post->post_title) > 50) {echo substr(the_title($before = '', $after = '', FALSE), 0, 50) .'...'; } else {the_title();} ?></strong></p>
                     <p>
-                      <?php echo wp_trim_words(get_the_excerpt(), 15); ?>
+                      <?php echo wp_trim_words(get_the_excerpt(), 13); ?>
                     </p>
                   </div>
                   <div class="item-btn d-flex align-items-end justify-content-center justify-content-lg-end">
-                    <a class="btn visite-blog-btn text-uppercase" href="<?php the_permalink(); ?>" role="button">Leia +</a>
+                    <a class="btn text-uppercase" href="<?php the_permalink(); ?>" role="button">Leia +</a>
                   </div>
                 </div>
               </div>

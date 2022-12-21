@@ -8520,21 +8520,26 @@ footer .top a {
 .visite-blog .post .item-btn {
   height: 100%;
 }
-.visite-blog .post-img .img-fluid {
+.visite-blog .post-img img {
   height: 100%;
   border-radius: 6px;
+  width: 100%;
+  height: auto;
 }
 .visite-blog .swiper-slide {
   height: auto;
 }
-.visite-blog .visite-blog-btn {
+.visite-blog .btn {
   background: #F29F05;
   color: #FFFFFF;
-  font-weight: 400;
-}
-.visite-blog .visite-blog-btn:hover {
-  background: #FFFFFF;
   border: 1px solid #F29F05;
+  font-weight: 700;
+  font-size: var(--font-size-extrasmall);
+  line-height: 15px;
+  padding: 4px 12px;
+}
+.visite-blog .btn:hover {
+  background: #FFFFFF;
   color: #F29F05;
 }
 .visite-blog .swiper-button-prev {
