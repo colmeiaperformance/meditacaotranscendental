@@ -101,6 +101,18 @@
         margin-bottom: 20px;
       }
     }
+    h2 {
+      letter-spacing: -0.02em;
+      font-weight: 300;
+      @media (max-width: 992px) {
+        font-size: var(--font-size-regular);
+        line-height: 34px;
+        margin-top: 40px;
+      }
+      strong {
+        font-weight: 600;
+      }
+    }
     strong {
       font-weight: 600;
     }
@@ -169,6 +181,7 @@
       }
     }
     h2 {
+      letter-spacing: -0.02em;
       @media (max-width: 992px) {
         font-size: var(--font-size-regular);
         line-height: 34px;
