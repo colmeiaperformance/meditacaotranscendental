@@ -9,19 +9,18 @@
 <main class="page-beneficios-mt">
 <?php get_template_part('template-parts/pages/beneficios/hero'); ?>
 <?php get_template_part('template-parts/pages/beneficios/mt-faz'); ?>
-<?php get_template_part('template-parts/pages/beneficios/ciencia'); ?>
+<?php get_template_part('template-parts/pages/beneficios/beneficios'); ?>
 <?php get_template_part('template-parts/pages/beneficios/o-que-dizem'); ?>
-<!-- PS- QUANDO ADD A SECAO PESQUISAS CIENTIFICAS, REMOVER A MARGIN DO CSS INLINE DA SECAO BENEFICIOS INFO-->
+<!-- PS- QUANDO ADD A SECAO PESQUISAS CIENTIFICAS, REMOVER A MARGIN DO CSS INLINE DA SECAO FOOTER INFO-->
 <style>
-  .page-beneficios-mt .beneficios-info {
+  .page-beneficios-mt .footer-info {
   padding-top: 63px;}    
   @media (max-width: 992px) {
-  .page-beneficios-mt .beneficios-info {
+  .page-beneficios-mt .footer-info {
   padding-top: 27px; }    
   }
 </style>
-<?php get_template_part('template-parts/pages/beneficios/beneficios'); ?>
-<?php get_template_part('template-parts/pages/beneficios/popup'); ?>
+<?php get_template_part('template-parts/pages/beneficios/footer-info'); ?>
 </main>
 <script defer>
   jQuery(document).ready(function() {
