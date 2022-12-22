@@ -1,6 +1,12 @@
-<section class="visite-blog">
+<?php
+$titulo_vb = get_sub_field('titulo_vb');
+$texto_do_botao_vb = get_sub_field('texto_do_botao_vb');
+$cor_de_fundo_vb = get_sub_field('cor_do_fundo_vb');
+?>
+
+<section class="visite-blog" style="background-color: <?php if ( $cor_de_fundo_vb ) { echo $cor_de_fundo_vb; } else { echo ''; } ?>;">
     <div class="container py-5">
-      <h2>Visite o nosso <strong>blog</strong></h2>
+      <h2><?php if ( $titulo_vb ) { echo $titulo_vb; } else { echo ''; } ?></h2>
       <div id="conhecaBlog" class="swiper swiperConhecaBlog" data-bs-ride="carousel">
         <div class="swiper-wrapper">
         <?php $oquedizem_query = new WP_Query( 'posts_per_page=4' );
@@ -9,25 +15,19 @@
           <div class="swiper-slide col-12 col-lg-6">
             <div class="p-3 col d-flex h-100">
               <div class="post p-3 d-lg-flex">
-                <div class="post-img col mb-2 mb-lg-0 col-lg-5">
-                <?php 
-                  if ( has_post_thumbnail() ) { 
-                      echo the_post_thumbnail();
-                  }
-                  else { 
-                  echo get_template_directory_uri() . '/images/blog-media.jpg';
-                  } ?>
+                <div class="post-img col mb-2 mb-lg-0 col-lg-5" style="background: url('<?php if ( the_post_thumbnail_url() ) { echo the_post_thumbnail_url(); } else { echo ''; } ?>'); background-size: cover; background-position:center;">
+                <img class="d-lg-none" src="<?php if ( has_post_thumbnail() ) {  echo the_post_thumbnail_url(); } else { echo get_template_directory_uri() . '/images/blog-media.jpg'; } ?>" alt="">
                 </div>
                 <div class="col post-item d-flex flex-column text-center text-lg-start">
                   <div class="item-content">
                     <p>
                       <strong><?php if (strlen($post->post_title) > 50) {echo substr(the_title($before = '', $after = '', FALSE), 0, 50) .'...'; } else {the_title();} ?></strong></p>
                     <p>
-                      <?php echo wp_trim_words(get_the_excerpt(), 13); ?>
+                      <?php if ( the_excerpt() ) { echo wp_trim_words(get_the_excerpt(), 13); } else { echo ''; } ?>
                     </p>
                   </div>
                   <div class="item-btn d-flex align-items-end justify-content-center justify-content-lg-end">
-                    <a class="btn text-uppercase" href="<?php the_permalink(); ?>" role="button">Leia +</a>
+                    <a class="btn text-uppercase" href="<?php if ( the_permalink() ) { the_permalink(); } else { echo '#'; } ?>" role="button">Leia +</a>
                   </div>
                 </div>
               </div>
