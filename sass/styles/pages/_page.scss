@@ -1,3 +1,103 @@
 .page {
-    
+  .lp-ebook {
+    h2 {
+      color: $color-primary-medium;
+      font-size: 2.5rem;
+      font-weight: 400;
+      line-height: 49px;
+      bold {
+        font-weight: 600;
+      }
+      @media screen and (max-width: 992px) {
+        font-size: 1.6rem;
+        margin-top: 40px;
+        line-height: 25px;
+      }
+    }
+    p {
+      font-size: 1.3rem;
+      line-height: 1.85rem;
+      color: $color-secondary-dark-80;
+      @media screen and (max-width: 992px) {
+        font-size: 1rem;
+        line-height: 1.2;
+      }
+    }
+  }
+  .form-ebook {
+    color: $color-white;
+    max-width: 550px;
+    border-radius: 10px;
+    @media screen and (max-width: 992px) {
+      width: 100%;
+      max-width: 100%;
+    }
+    ._form-title {
+      font-weight: 600;
+      font-size: var(--font-size-medium);
+      line-height: 2.188rem;
+      text-align: center;
+      color: $color-white;
+      @media screen and (max-width: 992px) {
+        font-size: var(--font-size-small);
+        line-height: 1.12rem;
+      }
+    }
+    .form-label {
+      font-size: 1.2rem;
+      @media screen and (max-width: 992px) {
+        font-size: var(--font-size-extrasmall);
+      }
+    }
+    .form-select {
+      border: 0.748346px solid rgba(199, 211, 112, 0.91);
+      border-radius: 74.8346px !important;
+      font-size: var(--font-size-extrasmall);
+    }
+    .form-control {
+      border: 0.748346px solid rgba(199, 211, 112, 0.91);
+      border-radius: 74.8346px !important;
+      font-size: var(--font-size-extrasmall);
+    }
+    .btn {
+      @include btn-yellow;
+      background-color: $color-primary-dark;
+      color: $color-white;
+      &:hover {
+        background-color: $color-primary-medium;
+      }
+    }
+    ._error-inner {
+      font-weight: bold;
+      color: #874f4e;
+    }
+  }
+  .bg-effect {
+    z-index: 100;
+    background: #ffc536;
+    width: 100%;
+    height: 120px;
+    clip-path: ellipse(80% 100% at 25% -20%);
+    -webkit-clip-path: ellipse(80% 100% at 25% -20%);
+  }
+  .bg-clip {
+    &::after {
+      content: "";
+      position: absolute;
+      top: -100px;
+      left: 0;
+      background: url("images/lp-ebook/ellipse.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 100%;
+      height: 135px;
+      z-index: 125;
+      transform: rotate(0.5deg);
+      @media screen and (max-width: 992px) {
+        top: -30px;
+        left: -2px;
+        transform: rotate(2.5deg);
+      }
+    }
+  }
 }

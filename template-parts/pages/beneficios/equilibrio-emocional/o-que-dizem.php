@@ -4,7 +4,7 @@
             <h2><strong>Veja como</strong> o Flávio Canto desenvolveu<br /> <strong>sua paz e seu equilíbrio</strong> com a <strong>MT</strong></h2>
         </div>
         <div class="video-featured">
-            <iframe class="yt-video" width="100%" height="281.25" src="https://www.youtube.com/embed/ipjzNre_ANU"
+            <iframe class="yt-video" width="100%" height="281.25" src="https://www.youtube.com/embed/sRedO62ZClg"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
