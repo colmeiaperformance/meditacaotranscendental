@@ -36,7 +36,8 @@
         Telefone*
       </label>
       <div class="_field-wrapper">
-        <input class="form-control" type="text" id="phone" name="phone" placeholder="Digite seu telefone" required />
+        <input class="form-control phoneMask" type="text" id="phone" name="phone"
+          placeholder="Digite seu DDD + telefone" required />
       </div>
     </div>
     <div class="_form_element mb-3 _x34986620 _full_width ">
@@ -44,7 +45,7 @@
         Já fez o curso da MT?*
       </label>
       <div class="_field-wrapper">
-        <select class="form-select"  name="field[91]" id="field[91]" required>
+        <select class="form-select" name="field[91]" id="field[91]" required>
           <option selected>
             Selecione
           </option>
@@ -69,6 +70,10 @@
   </div>
 </form>
 <script type="text/javascript">
+//Phonemask
+jQuery('.phoneMask').mask(phoneBehavior, spOptions);
+
+
 window.cfields = {
   "91": "ja_fez_o_curso_da_mt"
 };
@@ -139,7 +144,7 @@ window._load_script = function(url, callback) {
     var expireTime = time + 1000 * 60 * 60 * 24 * 365;
     now.setTime(expireTime);
     document.cookie = name + '=' + value + '; expires=' + now +
-    ';path=/; Secure; SameSite=Lax;'; // cannot be HttpOnly
+      ';path=/; Secure; SameSite=Lax;'; // cannot be HttpOnly
   }
   var addEvent = function(element, event, func) {
     if (element.addEventListener) {
