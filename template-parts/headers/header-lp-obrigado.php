@@ -62,7 +62,7 @@
         <h2 class="mb-lg-5">
           Conhecendo a Meditação Transcendental®:<br />
           <strong>7 fatos sobre a técnica de meditação mais fácil, simples e natural que
-            existe”.</strong><br />
+            existe.</strong><br />
         </h2>
       </div>
       <div class="col-12 col-lg" style="text-align: right;">

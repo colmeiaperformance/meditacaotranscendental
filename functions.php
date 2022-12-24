@@ -15,6 +15,7 @@ function loading_scripts(){
     wp_register_script( 'bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
     wp_register_script( 'swiper-js', get_template_directory_uri() . '/vendor/swiper-js/swiper-bundle.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
     wp_register_script( 'typed-js', get_template_directory_uri() . '/vendor/typed-js/typed.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
+    wp_register_script( 'phone-mask-js', get_template_directory_uri() . '/js/phone.mask.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
     wp_register_script( 'jquery-touchSwipe-js', get_template_directory_uri() . '/js/jquery.touchSwipe.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
     wp_register_script( 'jquery-waypoints-js', get_template_directory_uri() . '/js/jquery.waypoints.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
     wp_register_script( 'jquery-counterUp-js', get_template_directory_uri() . '/js/jquery.counterup2.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
@@ -23,6 +24,7 @@ function loading_scripts(){
     wp_enqueue_script( 'bootstrap-js');
     wp_enqueue_script( 'swiper-js');
     wp_enqueue_script( 'typed-js');
+    wp_enqueue_script( 'phone-mask-js');
     wp_enqueue_script( 'jquery-touchSwipe-js');
     wp_enqueue_script( 'jquery-waypoints-js');
     wp_enqueue_script( 'jquery-counterUp-js');

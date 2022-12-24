@@ -93,7 +93,7 @@ function typingEffect() {
     startDelay: 0,
     backSpeed: 40,
     backDelay: 500,
-    loopCount:0,
-    loop:1,
+    loopCount: 0,
+    loop: 1,
   });
 }
