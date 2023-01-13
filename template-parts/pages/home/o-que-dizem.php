@@ -91,7 +91,7 @@
     <!-- final carousel -->
     <div class="text-center">
       <a class="btn px-4" href="<?php echo home_url( '/instrutores/' ); ?>" role="button">
-      Encontre um instrutor credenciado
+      Encontre um instrutor
       </a>
     </div>
   </div>

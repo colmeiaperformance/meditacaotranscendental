@@ -33,7 +33,7 @@
           <div class="row">
             <div class="col-6 carousel-caption text-start">
               <h3>Instrução individual e personalizada</h3>
-              <p>Você recebe a técnica de forma individualizada por instrutores certificados.</p>
+              <p>Você recebe a técnica de forma individualizada por instrutores credenciados.</p>
               <a class="btn" href="<?php echo home_url( '/agendamento/' ); ?>">Participe da palestra gratuita</a>
             </div>
           </div>

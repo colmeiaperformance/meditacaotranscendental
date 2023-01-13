@@ -18,7 +18,7 @@
         </span>
         <div class="text">
           <h4>Entrevista individual</h4>
-          <p>Um bate-papo com o instrutor certificado para identificar suas necessidades.</p>
+          <p>Um bate-papo com o instrutor credenciados para identificar suas necessidades.</p>
         </div>
       </div>
     </div>

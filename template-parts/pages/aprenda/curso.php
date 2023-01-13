@@ -49,9 +49,9 @@
       <div class="text-center mb-2 mb-lg-3">
         <img loading="lazy" src="<?php echo get_template_directory_uri() . '/images/aprenda-mt/separador.png' ?>" alt="Separador">
       </div>
-      <p>Somente instrutores certificados pela Associação Internacional de Meditação (SIM) podem ensinar a autêntica técnica de MT. Essa é a sua <strong>garantia de receber a verdadeira técnica</strong> ensinada há mais de 60 anos, com base no conhecimento puro da Ciência Védica.</p>
+      <p>Somente instrutores credenciados pela Associação Internacional de Meditação (SIM) podem ensinar a autêntica técnica de MT. Essa é a sua <strong>garantia de receber a verdadeira técnica</strong> ensinada há mais de 60 anos, com base no conhecimento puro da Ciência Védica.</p>
       <div class="text-center">
-        <a href="<?php echo home_url( '/instrutores/' ); ?>" class="btn">Conheça os instrutores certificados</a>
+        <a href="<?php echo home_url( '/instrutores/' ); ?>" class="btn">Conheça os instrutores</a>
       </div>
     </div>
   </section>
