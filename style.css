@@ -2010,6 +2010,9 @@ footer .top a {
     letter-spacing: -0.02em;
   }
 }
+.page-agendamento #mt_subscription_shortcode #mt_filters {
+  margin-bottom: 0 auto !important;
+}
 
 .page-eventos {
   margin-top: 65px;
