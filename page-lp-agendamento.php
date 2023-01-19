@@ -3,7 +3,7 @@
 ?>
 <?php get_header(); ?>
 <?php get_template_part('template-parts/sections/navbar'); ?>
-<main class="page-eventos page-agendamento">
+<main class="page-agendamento">
 <?php get_template_part('template-parts/headers/header-agendamento'); ?>
 <?php get_template_part('template-parts/pages/agendamento/hero'); ?>
   <section class="pb-5">
