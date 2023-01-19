@@ -2013,6 +2013,10 @@ footer .top a {
 .page-agendamento #mt_subscription_shortcode #mt_filters {
   margin-bottom: 0 !important;
 }
+.page-agendamento #mt_subscription_shortcode #mt_filter_results,
+.page-agendamento #mt_employees_shortcode #mt_filter_results {
+  min-height: auto !important;
+}
 
 .page-eventos {
   margin-top: 65px;

@@ -97,4 +97,8 @@
   #mt_subscription_shortcode #mt_filters {
     margin-bottom: 0 !important;
   }
+  #mt_subscription_shortcode #mt_filter_results,
+  #mt_employees_shortcode #mt_filter_results {
+    min-height: auto!important;
+  }
 }
