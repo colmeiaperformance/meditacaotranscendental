@@ -1752,6 +1752,9 @@ footer .top a {
   font-weight: 600;
 }
 
+.page-agendamento {
+  margin: 0 !important;
+}
 .page-agendamento--hero {
   padding: 60px 0;
   text-align: center;
@@ -1763,7 +1766,7 @@ footer .top a {
     padding: 20px 0;
   }
 }
-.page-agendamento--hero h3 {
+.page-agendamento--hero h4 {
   font-weight: 300;
   font-size: var(--font-size-medium);
   line-height: 2.188rem;
@@ -1773,16 +1776,16 @@ footer .top a {
   padding: 22px 0;
 }
 @media (max-width: 992px) {
-  .page-agendamento--hero h3 {
+  .page-agendamento--hero h4 {
     font-size: var(--font-size-small);
     padding: 11px 0;
     line-height: 1.2;
   }
 }
-.page-agendamento--hero h3 strong {
+.page-agendamento--hero h4 strong {
   font-weight: 500;
 }
-.page-agendamento--hero h3 span {
+.page-agendamento--hero h4 span {
   color: #FFC536;
   font-weight: 500;
 }
