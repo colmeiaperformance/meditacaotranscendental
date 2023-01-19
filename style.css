@@ -2011,7 +2011,7 @@ footer .top a {
   }
 }
 .page-agendamento #mt_subscription_shortcode #mt_filters {
-  margin-bottom: 0 auto !important;
+  margin-bottom: 0 !important;
 }
 
 .page-eventos {
