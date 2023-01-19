@@ -6,7 +6,7 @@
 <main class="page-eventos page-agendamento">
 <?php get_template_part('template-parts/headers/header-agendamento'); ?>
 <?php get_template_part('template-parts/pages/agendamento/hero'); ?>
-  <section class="">
+  <section class="pb-5">
     <div class="container">
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                 <?php the_content(); ?>
