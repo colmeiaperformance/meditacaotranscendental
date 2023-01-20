@@ -1086,12 +1086,28 @@ footer .top a {
 .header--agendamento .text {
   padding-left: 8%;
 }
+@media (max-width: 992px) {
+  .header--agendamento .text {
+    padding: 2rem;
+  }
+}
 .header--agendamento .image {
   text-align: right;
   padding-right: 0;
 }
+@media (max-width: 992px) {
+  .header--agendamento .image {
+    text-align: center;
+  }
+}
 .header--agendamento .image img {
   width: 100%;
+  max-width: 700px;
+}
+@media (max-width: 992px) {
+  .header--agendamento .image img {
+    text-align: center;
+  }
 }
 .header--agendamento h1 {
   font-size: var(--font-size-large);
@@ -1107,16 +1123,14 @@ footer .top a {
 }
 @media (max-width: 992px) {
   .header--agendamento h1 {
-    font-size: var(--font-size-small);
+    font-size: 2rem;
     line-height: 1.2;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 }
 @media (max-width: 576px) {
   .header--agendamento h1 {
-    font-size: 0.8rem;
-    line-height: 1.2;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
   }
 }
 .header--agendamento h5 {
@@ -1133,13 +1147,17 @@ footer .top a {
 }
 @media (max-width: 992px) {
   .header--agendamento h5 {
-    font-size: 13px;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    font-size: 1.3rem;
     line-height: 1.2;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 576px) {
   .header--agendamento h5 {
-    font-size: 9px;
+    font-size: 1rem;
   }
 }
 
@@ -1939,7 +1957,7 @@ footer .top a {
   }
 }
 .page-agendamento--infos .item-info .icon {
-  margin-right: 30px;
+  margin-right: 5px;
 }
 @media (max-width: 992px) {
   .page-agendamento--infos .item-info .icon {
