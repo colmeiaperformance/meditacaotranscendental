@@ -3,7 +3,7 @@
     <div class="d-flex">
       <div class="col-lg-6 text d-flex align-items-center">
         <h1>
-        Inscreva-se na aula introdutória online e gratuita
+        Inscreva-se na aula introdutória online e gratuita <span class="d-none d-lg-inline"> para conhecer a Meditação Transcendental</span>
         </h1>
       </div>
       <div class="col-lg-6 image">
