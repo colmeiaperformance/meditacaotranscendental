@@ -85,6 +85,15 @@ jQuery(document).ready(function () {
   });
 });
 
+jQuery(document).ready(function () {
+  var tooltipTriggerList = [].slice.call(
+    document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  );
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl);
+  });
+});
+
 //Typing effect home
 function typingEffect() {
   var typed = new Typed("#typed", {
