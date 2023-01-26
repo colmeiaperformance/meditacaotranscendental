@@ -1,4 +1,17 @@
 <section class="page-agendamento--infos">
+  <div class="container description text-center pb-5">
+    <h3 class="pt-0 pb-3">
+      <strong>
+        <span>
+          Comece agora a sua jornada rumo ao equilíbrio e autoconhecimento
+        </span>
+      </strong>
+    </h3>
+    <p class="lead fw-normal">
+      A Meditação Transcendental® (MT) é uma técnica simples, fácil e natural, que remove o estresse, promove saúde, paz
+      interior, bem-estar e equilíbrio.
+    </p>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-6 d-flex align-items-center justify-content-start item-info">

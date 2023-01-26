@@ -732,21 +732,22 @@
       }
     }
     .image {
-      text-align: right;
+      text-align: center;
       padding-right: 0;
       @media (max-width: 992px) {
         text-align: center;
       }
       img {
         width: 100%;
-        max-width: 700px;
+        max-width: 500px;
         @media (max-width: 992px) {
           text-align: center;
+          max-width: 250px;
         }
       }
     }
     h1 {
-      font-size: var(--font-size-large);
+      font-size: var(--font-size-medium-large);
       line-height: 1.2;
       color: $color-white;
       margin-bottom: 35px;
@@ -757,12 +758,12 @@
         color: $color-white;
       }
       @media (max-width: 992px) {
-        font-size: 2rem;
+        font-size: 1.8rem;
         line-height: 1.2;
         margin-bottom: 15px;
       }
       @media (max-width: 576px) {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
       }
     }
     h5 {
@@ -770,7 +771,7 @@
       font-size: var(--font-size-small);
       color: $color-white;
       margin-bottom: 0;
-      font-weight: 600;
+      font-weight: normal;
       line-height: 23px;
       letter-spacing: -0.02em;
       strong {

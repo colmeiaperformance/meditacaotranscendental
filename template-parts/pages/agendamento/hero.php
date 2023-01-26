@@ -1,7 +1,6 @@
-<section class="page-agendamento--hero">
+<section class="page-agendamento--hero pb-0 pb-lg-4">
     <div class="container">
-        <h4><span>Inscreva-se na aula introdutória online e gratuita</span> para conhecer a <span>Meditação Transcendental</span></h4>
-        <h4>Selecione abaixo seu <strong>Estado</strong> e <strong>Cidade</strong> e veja as datas de sua preferência</h4>
+        <h4 class="py-0">Selecione abaixo seu <strong>Estado</strong> e <strong>Cidade</strong> e veja as datas de sua preferência</h4>
     </div>
 </div>
 </section>
