@@ -1110,9 +1110,9 @@ footer .top a {
 .header--agendamento .text {
   padding-left: 8%;
 }
-@media (max-width: 992px) {
+@media (max-width: 576px) {
   .header--agendamento .text {
-    padding: 2rem;
+    padding: 0.5rem;
   }
 }
 .header--agendamento .image {
@@ -1128,10 +1128,10 @@ footer .top a {
   width: 100%;
   max-width: 500px;
 }
-@media (max-width: 992px) {
+@media (max-width: 576px) {
   .header--agendamento .image img {
     text-align: center;
-    max-width: 250px;
+    max-width: 450px;
   }
 }
 .header--agendamento h1 {

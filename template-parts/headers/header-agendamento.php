@@ -1,9 +1,9 @@
 <header class="header header--agendamento">
-  <div class="">
-    <div class="row">
-      <div class="col-lg-6 text">
+  <div class="row">
+    <div class="d-flex">
+      <div class="col-lg-6 text d-flex align-items-center">
         <h1>
-        Inscreva-se na aula introdutória online e gratuita para conhecer a Meditação Transcendental
+        Inscreva-se na aula introdutória online e gratuita
         </h1>
       </div>
       <div class="col-lg-6 image">

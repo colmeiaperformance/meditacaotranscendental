@@ -727,8 +727,8 @@
     }
     .text {
       padding-left: 8%;
-      @media (max-width: 992px) {
-        padding: 2rem;
+      @media (max-width: 576px) {
+        padding: .5rem;
       }
     }
     .image {
@@ -740,9 +740,9 @@
       img {
         width: 100%;
         max-width: 500px;
-        @media (max-width: 992px) {
+        @media (max-width: 576px) {
           text-align: center;
-          max-width: 250px;
+          max-width: 450px;
         }
       }
     }
