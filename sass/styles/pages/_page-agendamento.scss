@@ -2,7 +2,7 @@
   margin: 0 !important;
   h4 {
     font-weight: 300;
-    font-size: var(--font-size-regular);
+    font-size: calc(var(--font-size-regular) + 0.5rem);
     line-height: 2.188rem;
     text-align: center;
     letter-spacing: -0.02em;
@@ -27,6 +27,14 @@
     margin: 0 auto;
     @media (max-width: 992px) {
       padding: 20px 0;
+    }
+    .lead {
+      strong{
+        font-weight: 600;
+      }
+      @media (max-width: 576px) {
+        font-size: calc(var(--font-size-extrasmall) - 0.1rem);
+      }
     }
   }
   &--infos {
@@ -112,6 +120,6 @@
   }
   #mt_subscription_shortcode #mt_filter_results,
   #mt_employees_shortcode #mt_filter_results {
-    min-height: auto!important;
+    min-height: auto !important;
   }
 }
