@@ -1,91 +1,3 @@
-<!-- Adicionando JQuery do VIACEP -->
-<script defer src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"
-  referrerpolicy="no-referrer"></script>
-<!-- Mask phone -->
-<script defer src="<?php echo get_template_directory_uri() . '/js/cleave.min.js'; ?>" referrerpolicy="no-referrer">
-</script>
-<script defer src="<?php echo get_template_directory_uri() . '/js/cleave-phone.i18n.js'; ?>"
-  referrerpolicy="no-referrer"></script>
-<script defer>
-jQuery(document).ready(function() {
-  var cleavePhone = new Cleave('.input-phone', {
-    phone: true,
-    phoneRegionCode: 'BR'
-  });
-});
-</script>
-<!-- Adicionando Javascript do VIACEP -->
-<script defer>
-jQuery(document).ready(function() {
-
-  function limpa_formulário_cep() {
-    // Limpa valores do formulário de cep.
-    jQuery(".form-cidade").val("");
-    jQuery(".form-estado").val("");
-  }
-
-  //Quando o campo cep perde o foco.
-  jQuery("#cep").blur(function() {
-
-    //Nova variável "cep" somente com dígitos.
-    var cep = jQuery(this).val().replace(/\D/g, '');
-
-    //Verifica se campo cep possui valor informado.
-    if (cep != "") {
-
-      //Expressão regular para validar o CEP.
-      var validacep = /^[0-9]{8}$/;
-
-      //Valida o formato do CEP.
-      if (validacep.test(cep)) {
-
-        //Preenche os campos com "..." enquanto consulta webservice.
-        jQuery(".form-cidade").val("...");
-        jQuery(".form-estado").val("...");
-
-        //Consulta o webservice viacep.com.br/
-        $.getJSON("https://viacep.com.br/ws/" + cep + "/json/?callback=?", function(dados) {
-
-          if (!("erro" in dados)) {
-            //Atualiza os campos com os valores da consulta.
-            jQuery(".form-cidade").val(dados.localidade);
-            jQuery(".form-estado").val(dados.uf);
-          } //end if.
-          else {
-            //CEP pesquisado não foi encontrado.
-            limpa_formulário_cep();
-            alert("CEP não encontrado.");
-          }
-        });
-      } //end if.
-      else {
-        //cep é inválido.
-        limpa_formulário_cep();
-        alert("Formato de CEP inválido.");
-      }
-    } //end if.
-    else {
-      //cep sem valor, limpa formulário.
-      limpa_formulário_cep();
-    }
-  });
-});
-// Estilo do form do AC
-</script>
-<script defer>
-jQuery(document).ready(function() {
-  jQuery(function() {
-    jQuery('.valor-curso').maskMoney({
-      prefix: 'R$ ',
-      allowNegative: true,
-      thousands: '.',
-      decimal: ',',
-      affixesStay: true
-    });
-  })
-})
-</script>
 <style>
 #_form_7_ {}
 
@@ -565,12 +477,20 @@ jQuery(document).ready(function() {
             <input type="date" class="date_field" id="field[71]" name="field[71]" value="" placeholder="" required />
           </div>
         </div>
+        <div class="_form_element _x15766978 _full_width ">
+          <label for="field[92]" class="_form-label">
+            CPF*
+          </label>
+          <div class="_field-wrapper">
+            <input type="text" id="field[92]" name="field[92]" value="" placeholder="___.___.___-__" required />
+          </div>
+        </div>
         <div class="_form_element _x49928272 _full_width ">
           <label for="phone" class="_form-label">
             Telefone celular*
           </label>
           <div class="_field-wrapper">
-            <input class="input-phone" type="text" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX" required />
+            <input class="input-phone" type="text" id="phone" name="phone" placeholder="(__) _____-____" required />
           </div>
         </div>
         <div class="_form_element _x09417301 _full_width ">
@@ -584,7 +504,7 @@ jQuery(document).ready(function() {
         <div class="_form_element _full_width">
           <label class="_form-label" for="cep">CEP*</label>
           <div class="_field-wrapper col-12 col-lg-3">
-            <input name="cep" type="text" id="cep" value="" onblur="pesquisacep(this.value);" required="">
+            <input name="cep" type="text" id="cep" value="" required="">
           </div>
         </div>
         <div class="row">
@@ -594,7 +514,7 @@ jQuery(document).ready(function() {
                 Estado*
               </label>
               <div class="_field-wrapper">
-                <input class="form-estado" type="text" id="field[2]" name="field[2]" value="" placeholder="" required
+                <input class="form-estado" type="text" id="field[2]" name="field[2]" value="" placeholder="" 
                   disabled />
               </div>
             </div>
@@ -606,7 +526,7 @@ jQuery(document).ready(function() {
               </label>
               <div class="_field-wrapper">
                 <input class="form-cidade" type="text" id="field[60]" name="field[60]" value=""
-                  placeholder="Digite o CEP no campo reservado acima" required disabled />
+                  placeholder="Digite o CEP no campo reservado acima" disabled />
               </div>
             </div>
           </div>
@@ -845,6 +765,15 @@ jQuery(document).ready(function() {
               </option>
             </select>
           </div>
+          <div class="_form_element _x31496846 _full_width ">
+            <label for="field[93]" class="_form-label">
+              Observação
+            </label>
+            <div class="_field-wrapper">
+              <textarea id="field[93]" rows="4" class="form-control textarea-inscricao" name="field[93]"
+                placeholder=""></textarea>
+            </div>
+          </div>
           <div class="_form_element _x35994980 _full_width ">
             <fieldset class="_form-fieldset">
               <div class="_row">
@@ -898,6 +827,7 @@ jQuery(document).ready(function() {
 <script defer type="text/javascript">
 window.cfields = {
   "71": "data_de_nascimento",
+  "92": "cpf",
   "55": "profissao",
   "2": "estado",
   "60": "cidade",
@@ -905,6 +835,7 @@ window.cfields = {
   "73": "data_instrucao_pessoal",
   "74": "valor_do_curso_fechado_com_o_seu_instrutor",
   "69": "formadepagamento",
+  "93": "observao_inscrio",
   "75": "optin"
 };
 window._show_thank_you = function(id, message, trackcmp_url, email) {
@@ -1157,6 +1088,7 @@ window._load_script = function(url, callback) {
         tooltip = create_tooltip(elem, "Digite um e-mail válido");
       }
     }
+
     if (no_error && /date_field/.test(elem.className)) {
       if (!value.match(/^\d\d\d\d-\d\d-\d\d$/)) {
         elem.className = elem.className + ' _has_error';
@@ -1374,6 +1306,7 @@ window._load_script = function(url, callback) {
     if (validate_form()) {
       // use this trick to get the submit button & disable it using plain javascript
       document.querySelector('#_form_7_submit').disabled = true;
+      document.querySelector('.inscricao-header').css("display", "none");
       var serialized = _form_serialize(document.getElementById('_form_7_')).replace(/%0A/g, '\\n');
       var err = form_to_submit.querySelector('._form_error');
       err ? err.parentNode.removeChild(err) : false;
@@ -1383,4 +1316,121 @@ window._load_script = function(url, callback) {
   };
   addEvent(form_to_submit, 'submit', form_submit);
 })();
+</script>
+<!-- Adicionando JQuery do VIACEP -->
+<script defer src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"
+  referrerpolicy="no-referrer"></script>
+<!-- Mask phone -->
+<script defer src="<?php echo get_template_directory_uri() . '/js/cleave.min.js'; ?>" referrerpolicy="no-referrer">
+</script>
+<script defer src="<?php echo get_template_directory_uri() . '/js/cleave-phone.i18n.js'; ?>"
+  referrerpolicy="no-referrer"></script>
+<script defer>
+jQuery(document).ready(function() {
+  var cleavePhone = new Cleave('.input-phone', {
+    phone: true,
+    phoneRegionCode: 'BR'
+  });
+});
+</script>
+<!-- Adicionando Javascript do VIACEP -->
+<script defer>
+jQuery(document).ready(function() {
+
+  function limpa_formulário_cep() {
+    // Limpa valores do formulário de cep.
+    jQuery(".form-cidade").val("");
+    jQuery(".form-estado").val("");
+  }
+
+  //Quando o campo cep perde o foco.
+  jQuery("#cep").blur(function() {
+
+    //Nova variável "cep" somente com dígitos.
+    var cep = jQuery(this).val().replace(/\D/g, '');
+
+    //Verifica se campo cep possui valor informado.
+    if (cep != "") {
+
+      //Expressão regular para validar o CEP.
+      var validacep = /^[0-9]{8}$/;
+
+      //Valida o formato do CEP.
+      if (validacep.test(cep)) {
+
+        //Preenche os campos com "..." enquanto consulta webservice.
+        jQuery(".form-cidade").val("...");
+        jQuery(".form-estado").val("...");
+
+        //Consulta o webservice viacep.com.br/
+        $.getJSON("https://viacep.com.br/ws/" + cep + "/json/?callback=?", function(dados) {
+
+          if (!("erro" in dados)) {
+            //Atualiza os campos com os valores da consulta.
+            jQuery(".form-cidade").val(dados.localidade);
+            jQuery(".form-estado").val(dados.uf);
+          } //end if.
+          else {
+            //CEP pesquisado não foi encontrado.
+            limpa_formulário_cep();
+            alert("CEP não encontrado.");
+          }
+        });
+      } //end if.
+      else {
+        //cep é inválido.
+        limpa_formulário_cep();
+        alert("Formato de CEP inválido.");
+      }
+    } //end if.
+    else {
+      //cep sem valor, limpa formulário.
+      limpa_formulário_cep();
+    }
+  });
+});
+// Estilo do form do AC
+</script>
+<script defer>
+jQuery(document).ready(function() {
+  jQuery(function() {
+    jQuery('.valor-curso').maskMoney({
+      prefix: 'R$ ',
+      allowNegative: true,
+      thousands: '.',
+      decimal: ',',
+      affixesStay: true
+    });
+  })
+})
+</script>
+<script>
+// Mascara do CPF
+input_cpf = document.getElementById("field[92]");
+
+input_cpf.addEventListener("focus", function(event) {
+  input_cpf.value = "___.___.___-__";
+  setTimeout(function() {
+    input_cpf.setSelectionRange(0, 0)
+  }, 1)
+})
+
+input_cpf.addEventListener("blur", function() {
+  this.value = ""
+})
+
+input_cpf.addEventListener("keydown", function(event) {
+  event.preventDefault()
+  if ("0123456789".indexOf(event.key) !== -1 &&
+    this.value.indexOf("_") !== -1) {
+    this.value = this.value.replace(/_/, event.key)
+    const next_index = this.value.indexOf("_")
+    this.setSelectionRange(next_index, next_index)
+  } else if (event.key === "Backspace") {
+    this.value = this.value.replace(/(\d$)|(\d(?=\D+$))/, "_")
+    const next_index = this.value.indexOf("_")
+    this.setSelectionRange(next_index, next_index)
+  }
+})
 </script>

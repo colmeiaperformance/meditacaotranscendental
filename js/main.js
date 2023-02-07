@@ -42,29 +42,31 @@ jQuery(document).ready(function () {
 
 //Bootstrap caroulsel
 jQuery(document).ready(function () {
-  // Carousel
-  jQuery(".carousel").carousel({
-    interval: false,
-    pause: true,
-  });
+  if (jQuery(".carousel")) {
+    // Carousel
+    jQuery(".carousel").carousel({
+      interval: false,
+      pause: true,
+    });
 
-  jQuery(".carousel .carousel-inner").swipe({
-    swipeLeft: function (event, direction, distance, duration, fingerCount) {
-      this.parent().carousel("next");
-    },
-    swipeRight: function () {
-      this.parent().carousel("prev");
-    },
-    threshold: 0,
-    tap: function (event, target) {
-      window.location = $(this).find(".carousel-item.active a").attr("href");
-    },
-    excludedElements: "label, button, input, select, textarea, .noSwipe",
-  });
+    jQuery(".carousel .carousel-inner").swipe({
+      swipeLeft: function (event, direction, distance, duration, fingerCount) {
+        this.parent().carousel("next");
+      },
+      swipeRight: function () {
+        this.parent().carousel("prev");
+      },
+      threshold: 0,
+      tap: function (event, target) {
+        window.location = $(this).find(".carousel-item.active a").attr("href");
+      },
+      excludedElements: "label, button, input, select, textarea, .noSwipe",
+    });
 
-  jQuery(".carousel .carousel-inner").on("dragstart", "a", function () {
-    return false;
-  });
+    jQuery(".carousel .carousel-inner").on("dragstart", "a", function () {
+      return false;
+    });
+  }
 });
 
 //Top button
