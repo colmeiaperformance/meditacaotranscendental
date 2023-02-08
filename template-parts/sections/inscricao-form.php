@@ -443,7 +443,7 @@
   <input type="hidden" name="m" value="0" />
   <input type="hidden" name="act" value="sub" />
   <input type="hidden" name="v" value="2" />
-  <input type="hidden" name="or" value="510feca9ff69bc3b9fe7d470a5084171" />
+  <input type="hidden" name="or" value="13eb9d9e26ba469668147b50c2191ce2" />
   <div class="_form-content">
     <div class="row">
       <div class="col-12 col-lg-7 pe-lg-5">
@@ -482,8 +482,8 @@
             CPF*
           </label>
           <div class="_field-wrapper">
-            <input type="text" id="field[92]" class="cpf" name="cpf" maxlength="14" placeholder="___.___.___-__"
-              required />
+            <input type="text" id="field[92]" class="cpf" name="cpf" maxlength="14" value=""
+              placeholder="___.___.___-__" required />
           </div>
         </div>
         <div class="_form_element _x49928272 _full_width ">
@@ -844,6 +844,7 @@ window._show_thank_you = function(id, message, trackcmp_url, email) {
     thank_you = form.querySelector('._form-thank-you');
   form.querySelector('._form-content').style.display = 'none';
   document.getElementById('thanks').style.display = 'none';
+  document.querySelector('.inscricao-header').style.display = 'none';
   thank_you.innerHTML = message;
   thank_you.style.display = 'block';
   const vgoAlias = typeof visitorGlobalObjectAlias === 'undefined' ? 'vgo' : visitorGlobalObjectAlias;
@@ -906,7 +907,7 @@ window._load_script = function(url, callback) {
     var expireTime = time + 1000 * 60 * 60 * 24 * 365;
     now.setTime(expireTime);
     document.cookie = name + '=' + value + '; expires=' + now +
-      ';path=/; Secure; SameSite=Lax;'; // cannot be HttpOnly
+    ';path=/; Secure; SameSite=Lax;'; // cannot be HttpOnly
   }
   var addEvent = function(element, event, func) {
     if (element.addEventListener) {
@@ -1089,7 +1090,6 @@ window._load_script = function(url, callback) {
         tooltip = create_tooltip(elem, "Digite um e-mail válido");
       }
     }
-
     if (no_error && /date_field/.test(elem.className)) {
       if (!value.match(/^\d\d\d\d-\d\d-\d\d$/)) {
         elem.className = elem.className + ' _has_error';
@@ -1307,7 +1307,6 @@ window._load_script = function(url, callback) {
     if (validate_form()) {
       // use this trick to get the submit button & disable it using plain javascript
       document.querySelector('#_form_7_submit').disabled = true;
-      document.querySelector('.inscricao-header').css("display", "none");
       var serialized = _form_serialize(document.getElementById('_form_7_')).replace(/%0A/g, '\\n');
       var err = form_to_submit.querySelector('._form_error');
       err ? err.parentNode.removeChild(err) : false;
