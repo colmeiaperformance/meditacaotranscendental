@@ -434,6 +434,7 @@
 <link
   href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Roboto&family=IBM+Plex+Sans:wght@400;600&display=swap"
   rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/intl-tel-input@17.0.18/build/css/intlTelInput.min.css" />
 <form method="POST" action="https://meditacaotranscedental.activehosted.com/proc.php" id="_form_7_"
   class="_form _form_7 _inline-form  _dark" novalidate>
   <input type="hidden" name="u" value="7" />
@@ -482,7 +483,7 @@
             CPF*
           </label>
           <div class="_field-wrapper">
-            <input type="text" id="field[92]" class="cpf" name="cpf" maxlength="14" value=""
+            <input type="text" id="field[92]" class="cpf" name="field[92]" maxlength="14" value=""
               placeholder="___.___.___-__" required />
           </div>
         </div>
@@ -538,9 +539,7 @@
           </label>
           <div class="_field-wrapper">
             <select name="field[66]" id="field[66]" required>
-              <option valor="Selecione" selected>
-                Selecione
-              </option>
+              <option value="" disabled selected hidden>Selecione...</option>
               <option value="Adriane Brasileiro">
                 Adriane Brasileiro
               </option>
@@ -735,14 +734,12 @@
           </div>
         </div>
         <div class="_form_element _x20054732 _full_width ">
-          <label for="field[69]" class="_form-label d-none">
+          <label for="field[69]" class="_form-label">
             Forma de pagamento*
           </label>
           <div class="_field-wrapper">
             <select name="field[69]" id="field[69]" required>
-              <option value="Forma de pagamento*" selected>
-                Forma de pagamento*
-              </option>
+              <option value="" disabled selected hidden>Selecione...</option>
               <option value="À vista, no PIX ou depósito, com 10% de desconto">
                 À vista, no PIX ou depósito, com 10% de desconto
               </option>
@@ -766,37 +763,37 @@
               </option>
             </select>
           </div>
-          <div class="_form_element _x31496846 _full_width ">
-            <label for="field[93]" class="_form-label">
-              Observação
-            </label>
-            <div class="_field-wrapper">
-              <textarea id="field[93]" rows="4" class="form-control textarea-inscricao" name="field[93]"
-                placeholder=""></textarea>
+        </div>
+        <div class="_form_element _x31496846 _full_width ">
+          <label for="field[93]" class="_form-label">
+            Observação
+          </label>
+          <div class="_field-wrapper">
+            <textarea id="field[93]" name="field[93]" placeholder=""></textarea>
+          </div>
+        </div>
+        <div class="_form_element _x35994980 _full_width ">
+          <fieldset class="_form-fieldset">
+            <div class="_row">
+              <legend for="field[75][]" class="_form-label">
+              </legend>
             </div>
-          </div>
-          <div class="_form_element _x35994980 _full_width ">
-            <fieldset class="_form-fieldset">
-              <div class="_row">
-                <legend for="field[75][]" class="_form-label">
-                </legend>
-              </div>
-              <input data-autofill="false" type="hidden" id="field[75][]" name="field[75][]" value="~|">
-              <div class="_row _checkbox-radio">
-                <input
-                  id="field_75Ao preencher meus dados, concordo em receber comunicações sobre produtos e serviços, conforme a Política de Privacidade."
-                  type="checkbox" name="field[75][]"
-                  value="Ao preencher meus dados, concordo em receber comunicações sobre produtos e serviços, conforme a Política de Privacidade.">
-                <span>
-                  <label
-                    for="field_75Ao preencher meus dados, concordo em receber comunicações sobre produtos e serviços, conforme a Política de Privacidade.">
-                    Ao preencher meus dados, concordo em receber comunicações sobre produtos e serviços, conforme a
-                    Política de Privacidade.
-                  </label>
-                </span>
-              </div>
-            </fieldset>
-          </div>
+            <input data-autofill="false" type="hidden" id="field[75][]" name="field[75][]" value="~|">
+            <div class="_row _checkbox-radio">
+              <input
+                id="field_75Ao preencher meus dados, concordo em receber comunicações sobre produtos e serviços, conforme a Política de Privacidade."
+                type="checkbox" name="field[75][]"
+                value="Ao preencher meus dados, concordo em receber comunicações sobre produtos e serviços, conforme a Política de Privacidade.">
+              <span>
+                <label
+                  for="field_75Ao preencher meus dados, concordo em receber comunicações sobre produtos e serviços, conforme a Política de Privacidade.">
+                  Ao preencher meus dados, concordo em receber comunicações sobre produtos e serviços, conforme a
+                  Política
+                  de Privacidade.
+                </label>
+              </span>
+            </div>
+          </fieldset>
         </div>
         <div class="_button-wrapper _full_width">
           <button name="confirmar" id="_form_7_submit" class="_submit" type="submit">
@@ -818,8 +815,6 @@
           </ul>
         </div>
       </div>
-    </div>
-    <div class="_clear-element">
     </div>
   </div>
   <div class="_form-thank-you" id="thank-you" style="display:none;">
@@ -844,7 +839,6 @@ window._show_thank_you = function(id, message, trackcmp_url, email) {
     thank_you = form.querySelector('._form-thank-you');
   form.querySelector('._form-content').style.display = 'none';
   document.getElementById('thanks').style.display = 'none';
-  document.querySelector('.inscricao-header').style.display = 'none';
   thank_you.innerHTML = message;
   thank_you.style.display = 'block';
   const vgoAlias = typeof visitorGlobalObjectAlias === 'undefined' ? 'vgo' : visitorGlobalObjectAlias;
@@ -907,7 +901,7 @@ window._load_script = function(url, callback) {
     var expireTime = time + 1000 * 60 * 60 * 24 * 365;
     now.setTime(expireTime);
     document.cookie = name + '=' + value + '; expires=' + now +
-    ';path=/; Secure; SameSite=Lax;'; // cannot be HttpOnly
+      ';path=/; Secure; SameSite=Lax;'; // cannot be HttpOnly
   }
   var addEvent = function(element, event, func) {
     if (element.addEventListener) {
@@ -1316,6 +1310,12 @@ window._load_script = function(url, callback) {
   };
   addEvent(form_to_submit, 'submit', form_submit);
 })();
+</script>
+<script>
+jQuery('#_form_7_').on('submit', function() {
+  jQuery(document.getElementById('inscricao-header')).css("display", "none");
+  jQuery("html, body").animate({ scrollTop: 0 }, 500);
+});
 </script>
 <!-- Adicionando JQuery do VIACEP -->
 <script defer src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
