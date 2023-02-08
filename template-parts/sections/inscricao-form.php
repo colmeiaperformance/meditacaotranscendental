@@ -424,6 +424,10 @@
   text-align: center;
 }
 
+#_form_7_ .textarea-inscricao {
+  border-radius: 30px !important;
+}
+
 @media all and (min-width:320px) and (max-width:667px) {
   #_form_7_._inline-form._inline-style ._inline-style._button-wrapper {
     margin-top: 20px !important;
@@ -769,7 +773,7 @@
             Observação
           </label>
           <div class="_field-wrapper">
-            <textarea id="field[93]" name="field[93]" placeholder=""></textarea>
+            <textarea id="field[93]" rows="4" class="form-control textarea-inscricao" name="field[93]" placeholder=""></textarea>
           </div>
         </div>
         <div class="_form_element _x35994980 _full_width ">
@@ -1314,7 +1318,9 @@ window._load_script = function(url, callback) {
 <script>
 jQuery('#_form_7_').on('submit', function() {
   jQuery(document.getElementById('inscricao-header')).css("display", "none");
-  jQuery("html, body").animate({ scrollTop: 0 }, 500);
+  jQuery("html, body").animate({
+    scrollTop: 0
+  }, 500);
 });
 </script>
 <!-- Adicionando JQuery do VIACEP -->
