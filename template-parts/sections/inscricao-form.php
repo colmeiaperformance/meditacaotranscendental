@@ -482,7 +482,8 @@
             CPF*
           </label>
           <div class="_field-wrapper">
-            <input type="text" id="field[92]" name="field[92]" value="" placeholder="___.___.___-__" required />
+            <input type="text" id="field[92]" class="cpf" name="cpf" maxlength="14" placeholder="___.___.___-__"
+              required />
           </div>
         </div>
         <div class="_form_element _x49928272 _full_width ">
@@ -490,7 +491,7 @@
             Telefone celular*
           </label>
           <div class="_field-wrapper">
-            <input class="input-phone" type="text" id="phone" name="phone" placeholder="(__) _____-____" required />
+            <input class="phoneMask" type="text" id="phone" name="phone" placeholder="(__) _____-____" required />
           </div>
         </div>
         <div class="_form_element _x09417301 _full_width ">
@@ -514,8 +515,8 @@
                 Estado*
               </label>
               <div class="_field-wrapper">
-                <input class="form-estado" type="text" id="field[2]" name="field[2]" value="" placeholder="" 
-                  disabled />
+                <input class="form-estado" type="text" id="field[2]" name="field[2]" tabindex="-1" value=""
+                  placeholder="" disabled />
               </div>
             </div>
           </div>
@@ -525,7 +526,7 @@
                 Cidade*
               </label>
               <div class="_field-wrapper">
-                <input class="form-cidade" type="text" id="field[60]" name="field[60]" value=""
+                <input class="form-cidade" type="text" id="field[60]" name="field[60]" tabindex="-1" value=""
                   placeholder="Digite o CEP no campo reservado acima" disabled />
               </div>
             </div>
@@ -1319,21 +1320,8 @@ window._load_script = function(url, callback) {
 </script>
 <!-- Adicionando JQuery do VIACEP -->
 <script defer src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"
-  referrerpolicy="no-referrer"></script>
-<!-- Mask phone -->
-<script defer src="<?php echo get_template_directory_uri() . '/js/cleave.min.js'; ?>" referrerpolicy="no-referrer">
-</script>
-<script defer src="<?php echo get_template_directory_uri() . '/js/cleave-phone.i18n.js'; ?>"
-  referrerpolicy="no-referrer"></script>
-<script defer>
-jQuery(document).ready(function() {
-  var cleavePhone = new Cleave('.input-phone', {
-    phone: true,
-    phoneRegionCode: 'BR'
-  });
-});
-</script>
+<script defer src="<?php echo get_template_directory_uri() . '/js/jquery.maskMoney.min.js'; ?>"></script>
+<script defer src="<?php echo get_template_directory_uri() . '/js/phone.mask.js'; ?>"></script>
 <!-- Adicionando Javascript do VIACEP -->
 <script defer>
 jQuery(document).ready(function() {
@@ -1406,31 +1394,9 @@ jQuery(document).ready(function() {
 })
 </script>
 <script>
-// Mascara do CPF
-input_cpf = document.getElementById("field[92]");
-
-input_cpf.addEventListener("focus", function(event) {
-  input_cpf.value = "___.___.___-__";
-  setTimeout(function() {
-    input_cpf.setSelectionRange(0, 0)
-  }, 1)
-})
-
-input_cpf.addEventListener("blur", function() {
-  this.value = ""
-})
-
-input_cpf.addEventListener("keydown", function(event) {
-  event.preventDefault()
-  if ("0123456789".indexOf(event.key) !== -1 &&
-    this.value.indexOf("_") !== -1) {
-    this.value = this.value.replace(/_/, event.key)
-    const next_index = this.value.indexOf("_")
-    this.setSelectionRange(next_index, next_index)
-  } else if (event.key === "Backspace") {
-    this.value = this.value.replace(/(\d$)|(\d(?=\D+$))/, "_")
-    const next_index = this.value.indexOf("_")
-    this.setSelectionRange(next_index, next_index)
-  }
-})
+//Máscara do CPF e Telefone
+jQuery('.cpf').mask('000.000.000-00', {
+  reverse: true
+});
+jQuery('.phoneMask').mask(phoneBehavior, spOptions);
 </script>
