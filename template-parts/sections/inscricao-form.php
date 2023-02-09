@@ -731,7 +731,7 @@
         </div>
         <div class="_form_element _x75261305 _full_width ">
           <label for="field[74]" class="_form-label">
-            Valor do curso fechado com o seu instrutor*
+            Valor do curso*
           </label>
           <div class="_field-wrapper">
             <input type="text" id="field[74]" class="valor-curso" name="field[74]" value="" placeholder="R$" required />
@@ -744,8 +744,8 @@
           <div class="_field-wrapper">
             <select name="field[69]" id="field[69]" required>
               <option value="" disabled selected hidden>Selecione...</option>
-              <option value="À vista, no PIX ou depósito, com 10% de desconto">
-                À vista, no PIX ou depósito, com 10% de desconto
+              <option value="À vista, no PIX ou depósito">
+                À vista, no PIX ou depósito
               </option>
               <option value="1x no cartão de crédito">
                 1x no cartão de crédito
