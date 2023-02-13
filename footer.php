@@ -81,6 +81,6 @@
 </footer>
 <?php wp_footer(); ?>
 <!-- Popup ebook -->
-<script src="https://meditacaotranscedental.activehosted.com/f/embed.php?id=20" type="text/javascript" charset="utf-8"></script>
+<!-- <script src="https://meditacaotranscedental.activehosted.com/f/embed.php?id=20" type="text/javascript" charset="utf-8"></script> -->
 </body>
 </html>
