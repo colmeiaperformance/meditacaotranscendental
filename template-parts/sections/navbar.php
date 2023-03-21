@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg fixed-top">
+<nav class="navbar navbar-main navbar-expand-lg fixed-top">
   <div class="container">
     <a class="navbar-brand" href="<?php echo home_url(); ?>">
        <img class="d-none d-sm-block "loading="lazy" src=<?php echo get_template_directory_uri() . '/images/header/logo-topo.png' ?> 

@@ -1,0 +1,85 @@
+.attend {
+  .text-left {
+    font-size: 3.125rem;
+  }
+  .live-data-text {
+    font-size: 1.875rem;
+  }
+  .form-live-guests {
+    z-index: 9999;
+    background-color: $color-primary-dark;
+    border: 3px solid #f7f7f7;
+    border-radius: 16px;
+    box-shadow: 14px 14px 32px -4px rgba(0, 0, 0, 0.1);
+    font-size: 1.25rem;
+    @media only screen and (min-width: 992px) {
+      margin-top: -10rem;
+      max-width: 570px;
+    }
+    .btn-white {
+      color: $color-primary-dark;
+      border: 1px solid $color-white;
+      background-color: $color-white;
+      &:hover,
+      &:active,
+      &:focus {
+        color: $color-white;
+        background-color: transparent;
+      }
+      @media only screen and (min-width: 1200px) {
+        width: 50%;        
+      }
+    }
+    .input-live-convidados {
+      border-radius: 25px;
+      padding: 0.4rem 1rem 0.4rem 1rem;
+      margin: 1rem 0;
+      border: none;
+    }
+    ._field-wrapper {
+      position: relative;
+      label {
+        color: $color-grey;
+        font-weight: normal;
+        position: absolute;
+        pointer-events: none;
+        left: 30px;
+        top: 19px;
+        transition: 0.2s ease all;
+        -moz-transition: 0.2s ease all;
+        -webkit-transition: 0.2s ease all;
+      }
+      /* active state */
+      input:focus ~ label,
+      input:valid ~ label {
+        top: -20px;
+        color: $color-white;
+      }
+    }
+  }
+}
+.guests {
+  .guest-img {
+    width: 75%;
+    border: 2px solid $color-white;
+    margin-top: 3rem;
+    @media only screen and (min-width: 1200px) {
+      width: 100%;
+      margin-top: auto;
+      border: none;
+    }
+  }
+}
+.coupon {
+  .coupon-icon {
+    width: 40%;
+    margin-bottom: 2rem;
+    @media only screen and (min-width: 768px) {
+      width: 30%;
+    }
+    @media only screen and (min-width: 992px) {
+      width: 40%;
+      margin-bottom: unset;
+    }
+  }
+}

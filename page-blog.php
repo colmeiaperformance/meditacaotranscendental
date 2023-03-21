@@ -43,3 +43,8 @@ jQuery(document).ready(function() {
 
 });
 </script>
+<script defer>
+jQuery(document).ready(function() {
+  loadMore();
+});
+</script>

@@ -590,6 +590,123 @@
     //   }
     // }
   }
+  &--lp-live-convidados {
+    clip-path: ellipse(150% 100% at 50% 0%);
+    background: $color-secondary-medium;
+    .btn-lg {
+      padding: 0.5rem 1rem;
+      font-size: 0.75rem;
+    }
+    .navbar-brand img {
+      max-width: 130px;
+    }
+    .btn-live-icon {
+      fill: $color-white;
+    }
+    @media (min-width: 992px) {
+      clip-path: ellipse(240% 100% at 0% 0%);
+      .btn-lg {
+        padding: 0.5rem 1rem;
+        font-size: 1.25rem;
+      }
+      .navbar-brand img {
+        max-width: 256px;
+      }
+    }
+    .btn-outline-white {
+      color: $color-white;
+      border: 1px solid $color-white;
+      background: transparent;
+      border-radius: 25px;
+      .btn-fill-white {
+        fill: $color-white;
+      }
+      &:hover {
+        background: $color-white;
+        color: $color-secondary-medium;
+        fill: $color-secondary-medium;
+        .btn-fill-white {
+          fill: $color-secondary-medium;
+        }
+      }
+    }
+    .row {
+      align-items: center;
+      justify-content: center;
+    }
+    .image {
+      text-align: right;
+      padding-right: 50px;
+      @media (max-width: 992px) {
+        padding-right: 0;
+        padding-left: 0;
+      }
+      img {
+        max-width: 510px;
+        height: auto;
+        object-fit: contain;
+        margin-right: -5rem;
+        @media (max-width: 992px) {
+          max-height: 180px;
+          margin: 20px 0;
+          padding: 15px;
+        }
+      }
+    }
+    // h1 {
+    //   font-weight: 300;
+    //   font-size: var(--font-size-medium);
+    //   line-height: 1.2;
+    //   letter-spacing: -0.02em;
+    //   color: $color-white;
+    //   margin-bottom: 38px;
+    //   strong {
+    //     font-weight: 600;
+    //     color: $color-white;
+    //   }
+    //   @media (max-width: 992px) {
+    //     font-size: var(--font-size-small);
+    //     line-height: 1.2;
+    //     margin-bottom: 10px;
+    //   }
+    //   @media (max-width: 576px) {
+    //     font-size: 0.8rem;
+    //     line-height: 1.2;
+    //     margin-bottom: 10px;
+    //   }
+    // }
+    // p {
+    //   max-width: 553px;
+    //   font-weight: 300;
+    //   font-size: var(--font-size-small);
+    //   line-height: 28px;
+    //   color: $color-white;
+    //   margin-bottom: 0;
+    //   @media (max-width: 992px) {
+    //     font-size: 10px;
+    //     line-height: 1.2;
+    //   }
+    //   strong {
+    //     font-weight: 600;
+    //   }
+    //   @media (max-width: 576px) {
+    //     font-size: 9px;
+    //     line-height: 1.2;
+    //   }
+    // }
+    .form {
+      label {
+        color: $color-white;
+      }
+      .input-live-convidados {
+        border-radius: 25px;
+      }
+      .btn-live-convidados {
+        border-radius: 20px;
+        background-color: $color-primary-dark;
+      }
+    }
+  }
   &--quem-somos {
     background: $color-beige;
     clip-path: ellipse(150% 100% at 50% 0%);
@@ -728,7 +845,7 @@
     .text {
       padding-left: 8%;
       @media (max-width: 576px) {
-        padding: .5rem;
+        padding: 0.5rem;
       }
     }
     .image {

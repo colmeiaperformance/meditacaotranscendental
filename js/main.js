@@ -29,12 +29,12 @@ function loadMore() {
 
 //Menu scrolling classjQuery
 jQuery(document).ready(function () {
-  jQuery(".navbar")[
+  jQuery(".navbar-main")[
     jQuery(window).scrollTop() >= 60 ? "addClass" : "removeClass"
   ]("fixed-top");
 
   jQuery(window).scroll(function (e) {
-    jQuery(".navbar")[
+    jQuery(".navbar-main")[
       jQuery(window).scrollTop() >= 60 ? "addClass" : "removeClass"
     ]("fixed-top");
   });

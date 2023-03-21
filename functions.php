@@ -3,17 +3,17 @@
 //Stylesheets
 function loading_styles(){
     wp_enqueue_style( 'swiper-css', get_template_directory_uri() . '/vendor/swiper-js/swiper-bundle.min.css', array(), wp_get_theme()->get( 'Version' ), 'all' );
-    wp_enqueue_style( 'source-sans-pro-font', 'https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap', array(), wp_get_theme()->get( 'Version' ), 'all' );
-    wp_enqueue_style( 'style-bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css', array(), wp_get_theme()->get( 'Version' ), 'all' );
-    wp_enqueue_style( 'icons-bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css', array(), wp_get_theme()->get( 'Version' ), 'all' );
+    wp_enqueue_style( 'source-sans-pro-font', 'https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap', array(), wp_get_theme()->get( 'Version' ), 'all' );
+    wp_enqueue_style( 'style-bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css', array(), wp_get_theme()->get( 'Version' ), 'all' );
+    wp_enqueue_style( 'icons-bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css', array(), wp_get_theme()->get( 'Version' ), 'all' );
     wp_enqueue_style( 'style-css', get_template_directory_uri() . '/style.min.css', array(), wp_get_theme()->get( 'Version' ), 'all' );
 }
 
 
 //Scripts
 function loading_scripts(){
-    wp_register_script( 'popper-js', 'https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
-    wp_register_script( 'bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
+    wp_register_script( 'popper-js', 'https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
+    wp_register_script( 'bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
     wp_register_script( 'swiper-js', get_template_directory_uri() . '/vendor/swiper-js/swiper-bundle.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
     wp_register_script( 'typed-js', get_template_directory_uri() . '/vendor/typed-js/typed.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
     wp_register_script( 'phone-mask-js', get_template_directory_uri() . '/js/phone.mask.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
