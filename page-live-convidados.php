@@ -1,6 +1,3 @@
-<?php
-  /* Template Name: LP Live Convidados*/
-?>
 <?php get_header(); ?>
 <main class="lp-live-convidados">
 
