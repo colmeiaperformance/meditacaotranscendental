@@ -143,7 +143,7 @@
   <section class="cta-live">
     <div class="container">
       <div class="row d-flex justify-content-center pb-5 mb-5">
-        <div class="col-12 col-lg-3">
+        <div class="d-flex justify-content-center col-12">
           <a name="inscricao" class="btn" href="#attend" role="button">Faça sua inscrição</a>
         </div>
       </div>
