@@ -6,8 +6,8 @@
     <div class="container ps-3">
       <div class="row pt-5">
         <div class="col-lg-5 pb-5 pb-lg-auto text-white pe-lg-5">
-          <h1 class="fs-1 mb-5"><span class="fw-500">O impacto do estresse na saúde</span><br>
-            <span class="fw-light">Como a MT pode mudar isso.</span>
+          <h1 class="fs-1 mb-5"><span class="fw-500">O impacto do estresse na saúde e como a MT pode mudar
+              isso</span><br>
           </h1>
           <div class="text fs-5">
             <p>
@@ -37,8 +37,7 @@
   <section class="attend">
     <div class="container">
       <div class="row p-2 p-lg-auto">
-        <div
-          class="col-lg-6 text-left fw-light pe-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-end">
+        <div class="col-lg-6 text-left fw-light pe-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-end">
           <p class="fs-1 pe-lg-5">Participe deste evento gratuito e descubra como você pode transformar sua vida para
             viver com mais
             <span class="fw-500">saúde e felicidade</span>.
@@ -50,13 +49,13 @@
             </span>
             <div class="live-data-text fs-3">
               <p class="mb-0">
-                <span class="fw-500">28 de março,</span>
+                <span class="fw-500">30 de março,</span>
               </p>
               <p class="mb-0">terça-feira, às <span class="fw-500 color-highlight">19h30</span></p>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 form-live-guests p-4 p-lg-5 order-1 order-lg-2">
+        <div id="attend" class="col-lg-6 form-live-guests p-4 p-lg-5 order-1 order-lg-2">
           <?php echo get_template_part( 'template-parts/pages/live-convidados/form-live-convidados' ); ?>
         </div>
       </div>
@@ -137,6 +136,16 @@
         <p>Os participantes irão receber uma técnica para ajudar no relaxamento e um <span
             class="fw-600 badge rounded-pill color-secondary-dark-80 background-primary-light">cupom especial da
             MT!</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-live">
+    <div class="container">
+      <div class="row d-flex justify-content-center pb-5 mb-5">
+        <div class="col-12 col-lg-3">
+          <a name="inscricao" class="btn" href="#attend" role="button">Faça sua inscrição</a>
+        </div>
       </div>
     </div>
   </section>

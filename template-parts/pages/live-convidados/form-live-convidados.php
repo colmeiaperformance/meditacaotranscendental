@@ -3,8 +3,8 @@
     rel="stylesheet">
   <link rel="stylesheet" type="text/css"
     href="https://unpkg.com/intl-tel-input@17.0.18/build/css/intlTelInput.min.css" />
-  <form class="text-white" method="POST" action="https://meditacaotranscedental.activehosted.com/proc.php" id="_form_24_"
-    class="_form _form_24 _inline-form  _dark" novalidate>
+  <form class="text-white" method="POST" action="https://meditacaotranscedental.activehosted.com/proc.php"
+    id="_form_24_" class="_form _form_24 _inline-form  _dark" novalidate>
     <input type="hidden" name="u" value="24" />
     <input type="hidden" name="f" value="24" />
     <input type="hidden" name="s" />
@@ -16,13 +16,13 @@
     <div class="_form-content">
       <div class="_form_element _x69614464 _full_width _clear row mb-3">
         <div class="_form-title fs-3 fw-500 mb-3">
-        <h2 class="fs-2">Faça sua inscrição e participe gratuitamente.</h2>
+          <h2 class="fs-2">Faça sua inscrição e participe gratuitamente.</h2>
         </div>
       </div>
       <div class="_form_element _x60340826 _full_width row mb-3">
         <div class="_field-wrapper">
           <input class="form-control input-live-convidados" type="text" id="firstname" name="firstname" required />
-          <label for="firstname" class="_form-label fw-light">Nome completo*</label>
+          <label for="firstname" class="_form-label fw-light">Nome*</label>
         </div>
       </div>
       <div class="_form_element _x94820930 _full_width row mb-3">
@@ -39,14 +39,39 @@
       </div>
       <div class="_form_element _x91379644 _full_width row mb-3">
         <div class="_field-wrapper">
-          <input class="form-control input-live-convidados phoneMask" type="text" id="phone" name="phone" data-name="phone" maxlength="15" autocomplete="off" required />
-          <label for="phone" class="_form-label fw-light">Celular*</label>
+          <input class="form-control input-live-convidados phoneMask" type="text" id="phone" name="phone"
+            data-name="phone" minlength="14" maxlength="15" autocomplete="off" required />
+          <label for="phone" class="_form-label fw-light">DDD + Celular*</label>
         </div>
       </div>
-      <div class="_form_element _x96931084 _full_width row mb-3">
+      <div class="_form_element _full_width row mb-3">
         <div class="_field-wrapper">
-          <input class="form-control input-live-convidados" type="text" id="field[60]" name="field[60]" value="" required />
-          <label for="field[60]" class="_form-label fw-light">Cidade*</label>
+          <input class="form-control input-live-convidados " name="cep" type="text" id="cep" value="" required="">
+          <label class="_form-label fw-light" for="cep">CEP*</label>
+        </div>
+      </div>
+      <div class="_form_element _full_width row mb-3">
+        <div class="col-3">
+          <div class="_form_element _x45510491 _full_width">
+            <label for="field[2]" class="_form-label">
+              Estado*
+            </label>
+            <div class="_field-wrapper">
+              <input class="form-control input-live-convidados form-estado" type="text" id="field[2]" name="field[2]" tabindex="-1" value="" placeholder=""
+                disabled />
+            </div>
+          </div>
+        </div>
+        <div class="col-9">
+          <div class="_form_element _x96931084 _full_width">
+            <label for="field[60]" class="_form-label">
+              Cidade*
+            </label>
+            <div class="_field-wrapper">
+              <input class="form-control input-live-convidados form-cidade" type="text" id="field[60]" name="field[60]"
+                tabindex="-1" value="" placeholder="" disabled />
+            </div>
+          </div>
         </div>
       </div>
       <div class="_form_element _full_width row mb-3">
@@ -545,4 +570,65 @@ window._load_script = function(url, callback) {
   addEvent(form_to_submit, 'submit', form_submit);
 })();
 jQuery('.phoneMask').mask(phoneBehavior, spOptions);
+  </script>
+
+  <!-- Adicionando JQuery do VIACEP -->
+  <script defer src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+
+  <!-- Adicionando Javascript do VIACEP -->
+  <script defer>
+jQuery(document).ready(function() {
+
+  function limpa_formulário_cep() {
+    // Limpa valores do formulário de cep.
+    jQuery(".form-cidade").val("");
+    jQuery(".form-estado").val("");
+  }
+
+  //Quando o campo cep perde o foco.
+  jQuery("#cep").blur(function() {
+
+    //Nova variável "cep" somente com dígitos.
+    var cep = jQuery(this).val().replace(/\D/g, '');
+
+    //Verifica se campo cep possui valor informado.
+    if (cep != "") {
+
+      //Expressão regular para validar o CEP.
+      var validacep = /^[0-9]{8}$/;
+
+      //Valida o formato do CEP.
+      if (validacep.test(cep)) {
+
+        //Preenche os campos com "..." enquanto consulta webservice.
+        jQuery(".form-cidade").val("...");
+        jQuery(".form-estado").val("...");
+
+        //Consulta o webservice viacep.com.br/
+        $.getJSON("https://viacep.com.br/ws/" + cep + "/json/?callback=?", function(dados) {
+
+          if (!("erro" in dados)) {
+            //Atualiza os campos com os valores da consulta.
+            jQuery(".form-cidade").val(dados.localidade);
+            jQuery(".form-estado").val(dados.uf);
+          } //end if.
+          else {
+            //CEP pesquisado não foi encontrado.
+            limpa_formulário_cep();
+            alert("CEP não encontrado.");
+          }
+        });
+      } //end if.
+      else {
+        //cep é inválido.
+        limpa_formulário_cep();
+        alert("Formato de CEP inválido.");
+      }
+    } //end if.
+    else {
+      //cep sem valor, limpa formulário.
+      limpa_formulário_cep();
+    }
+  });
+});
   </script>

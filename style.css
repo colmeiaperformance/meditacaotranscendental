@@ -996,22 +996,15 @@ footer .top a {
     max-width: 256px;
   }
 }
-.header--lp-live-convidados .btn-outline-white {
+.header--lp-live-convidados .btn-outline-white, .header--lp-live-convidados .btn-outline-white:focus, .header--lp-live-convidados .btn-outline-white:active {
   color: #ffffff;
   border: 1px solid #ffffff;
   background: transparent;
   border-radius: 25px;
+  cursor: default;
 }
-.header--lp-live-convidados .btn-outline-white .btn-fill-white {
+.header--lp-live-convidados .btn-outline-white .btn-fill-white, .header--lp-live-convidados .btn-outline-white:focus .btn-fill-white, .header--lp-live-convidados .btn-outline-white:active .btn-fill-white {
   fill: #ffffff;
-}
-.header--lp-live-convidados .btn-outline-white:hover {
-  background: #ffffff;
-  color: #7896c1;
-  fill: #7896c1;
-}
-.header--lp-live-convidados .btn-outline-white:hover .btn-fill-white {
-  fill: #7896c1;
 }
 .header--lp-live-convidados .row {
   -webkit-box-align: center;
@@ -4805,7 +4798,6 @@ footer .top a {
   background: #f29f05;
   border: 1px solid #f29f05;
   border-radius: 30px;
-  margin-top: 74px;
 }
 @media (max-width: 992px) {
   .page-beneficios-items #modal-beneficios .btn {
@@ -7595,6 +7587,28 @@ footer .top a {
   }
 }
 
+.cta-live .btn {
+  font-weight: 400;
+  font-size: var(--font-size-regular);
+  line-height: 30px;
+  color: #ffffff;
+  padding: 9px 31px;
+  background: #f29f05;
+  border: 1px solid #f29f05;
+  border-radius: 30px;
+}
+@media (max-width: 992px) {
+  .cta-live .btn {
+    font-size: var(--font-size-extrasmall);
+    line-height: 18px;
+    margin-top: 20px;
+  }
+}
+.cta-live .btn:hover {
+  background: transparent;
+  color: #f29f05;
+}
+
 .page .lp-ebook h2 {
   color: #ffc536;
   font-size: 2.5rem;
@@ -7677,7 +7691,6 @@ footer .top a {
   background: #f29f05;
   border: 1px solid #f29f05;
   border-radius: 30px;
-  margin-top: 74px;
 }
 @media (max-width: 992px) {
   .page .form-ebook .btn .btn {
