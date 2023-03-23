@@ -11,7 +11,7 @@
   <input type="hidden" name="m" value="0" />
   <input type="hidden" name="act" value="sub" />
   <input type="hidden" name="v" value="2" />
-  <input type="hidden" name="or" value="79c48752c7482a25ba1d41c1834fb829" />
+  <input type="hidden" name="or" value="e36eba3f3495a941f3120c8177f4a473" />
   <div class="_form-content">
     <div class="_form_element _x69614464 _full_width _clear">
       <div class="_form-title fs-3 fw-500 mb-3">
@@ -160,7 +160,7 @@ window._load_script = function(url, callback) {
     var expireTime = time + 1000 * 60 * 60 * 24 * 365;
     now.setTime(expireTime);
     document.cookie = name + '=' + value + '; expires=' + now +
-      ';path=/; Secure; SameSite=Lax;'; // cannot be HttpOnly
+    ';path=/; Secure; SameSite=Lax;'; // cannot be HttpOnly
   }
   var addEvent = function(element, event, func) {
     if (element.addEventListener) {
