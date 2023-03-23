@@ -44,7 +44,7 @@
             </span>
             <div class="live-data-text fs-3">
               <p class="mb-0">
-                <span class="fw-500">30 de março,</span>
+                <span class="fw-500">04 de abril,</span>
               </p>
               <p class="mb-0">terça-feira, às <span class="fw-500 color-highlight">19h30</span></p>
             </div>
