@@ -14,6 +14,12 @@
               Você sente que está vivendo uma sobrecarga de estresse e cansaço, com uma rotina cada vez mais exigente e
               acelerada?
             </p>
+            <p class="d-none d-md-block">
+              Muitas vezes, achamos que isso é normal. Mas não é!
+            </p>
+            <p class="d-none d-md-block">
+              Essa sobrecarga acarreta danos graves à nossa saúde física e mental.
+            </p>
             <p>
               Mas, como lidar com uma vida tão intensa e, ao mesmo tempo, encontrar equilíbrio, saúde e realização
               pessoal?
