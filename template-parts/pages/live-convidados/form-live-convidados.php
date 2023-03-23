@@ -1,96 +1,96 @@
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Roboto&family=IBM+Plex+Sans:wght@400;600&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" type="text/css"
-    href="https://unpkg.com/intl-tel-input@17.0.18/build/css/intlTelInput.min.css" />
-  <form class="text-white" method="POST" action="https://meditacaotranscedental.activehosted.com/proc.php"
-    id="_form_24_" class="_form _form_24 _inline-form  _dark" novalidate>
-    <input type="hidden" name="u" value="24" />
-    <input type="hidden" name="f" value="24" />
-    <input type="hidden" name="s" />
-    <input type="hidden" name="c" value="0" />
-    <input type="hidden" name="m" value="0" />
-    <input type="hidden" name="act" value="sub" />
-    <input type="hidden" name="v" value="2" />
-    <input type="hidden" name="or" value="ee0b614017b8e5c6104fae42f8b698fd" />
-    <div class="_form-content">
-      <div class="_form_element _x69614464 _full_width _clear row mb-3">
-        <div class="_form-title fs-3 fw-500 mb-3">
-          <h2 class="fs-2">Faça sua inscrição e participe gratuitamente.</h2>
-        </div>
+<link
+  href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Roboto&family=IBM+Plex+Sans:wght@400;600&display=swap"
+  rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/intl-tel-input@17.0.18/build/css/intlTelInput.min.css" />
+<form method="POST" action="https://meditacaotranscedental.activehosted.com/proc.php" id="_form_24_"
+  class="text-white _form _form_24 _inline-form  _dark" novalidate>
+  <input type="hidden" name="u" value="24" />
+  <input type="hidden" name="f" value="24" />
+  <input type="hidden" name="s" />
+  <input type="hidden" name="c" value="0" />
+  <input type="hidden" name="m" value="0" />
+  <input type="hidden" name="act" value="sub" />
+  <input type="hidden" name="v" value="2" />
+  <input type="hidden" name="or" value="79c48752c7482a25ba1d41c1834fb829" />
+  <div class="_form-content">
+    <div class="_form_element _x69614464 _full_width _clear">
+      <div class="_form-title fs-3 fw-500 mb-3">
+        <h2 class="fs-2">Faça sua inscrição e participe gratuitamente.</h2>
       </div>
-      <div class="_form_element _x60340826 _full_width row mb-3">
-        <div class="_field-wrapper">
-          <input class="form-control input-live-convidados" type="text" id="firstname" name="firstname" required />
-          <label for="firstname" class="_form-label fw-light">Nome*</label>
-        </div>
+    </div>
+    <div class="_form_element _x60340826 _full_width row mb-3">
+      <div class="_field-wrapper">
+        <input class="form-control input-live-convidados" type="text" id="firstname" name="firstname" required />
+        <label for="firstname" class="_form-label fw-light">Nome*</label>
       </div>
-      <div class="_form_element _x94820930 _full_width row mb-3">
-        <div class="_field-wrapper">
-          <input class="form-control input-live-convidados" type="text" id="lastname" name="lastname" required />
-          <label for="lastname" class="_form-label fw-light">Sobrenome*</label>
-        </div>
+    </div>
+    <div class="_form_element _x94820930 _full_width row mb-3">
+      <div class="_field-wrapper">
+        <input class="form-control input-live-convidados" type="text" id="lastname" name="lastname" required />
+        <label for="lastname" class="_form-label fw-light">Sobrenome*</label>
       </div>
-      <div class="_form_element _x27055826 _full_width row mb-3">
-        <div class="_field-wrapper">
-          <input class="form-control input-live-convidados" type="text" id="email" name="email" required />
-          <label for="email" class="_form-label fw-light">Email*</label>
-        </div>
+    </div>
+    <div class="_form_element _x27055826 _full_width row mb-3">
+      <div class="_field-wrapper">
+        <input class="form-control input-live-convidados" type="text" id="email" name="email" required />
+        <label for="email" class="_form-label fw-light">Email*</label>
       </div>
-      <div class="_form_element _x91379644 _full_width row mb-3">
-        <div class="_field-wrapper">
-          <input class="form-control input-live-convidados phoneMask" type="text" id="phone" name="phone"
-            data-name="phone" minlength="14" maxlength="15" autocomplete="off" required />
-          <label for="phone" class="_form-label fw-light">DDD + Celular*</label>
-        </div>
+    </div>
+    <div class="_form_element _x91379644 _full_width row mb-3">
+      <div class="_field-wrapper">
+        <input class="form-control input-live-convidados phoneMask" type="text" id="phone" name="phone"
+          data-name="phone" minlength="14" maxlength="15" autocomplete="off" required />
+        <label for="phone" class="_form-label fw-light">DDD + Celular*</label>
       </div>
-      <div class="_form_element _full_width row mb-3">
-        <div class="_field-wrapper">
-          <input class="form-control input-live-convidados " name="cep" type="text" id="cep" value="" required="">
-          <label class="_form-label fw-light" for="cep">CEP*</label>
-        </div>
+    </div>
+    <div class="_form_element _x91379644 _full_width row mb-3">
+      <div class="_field-wrapper">
+        <input class="form-control input-live-convidados " name="cep" type="text" id="cep" value="" required="">
+        <label class="_form-label fw-light" for="cep">CEP*</label>
       </div>
-      <div class="_form_element _full_width row mb-3">
-        <div class="col-3">
-          <div class="_form_element _x45510491 _full_width">
-            <label for="field[2]" class="_form-label">
-              Estado*
-            </label>
-            <div class="_field-wrapper">
-              <input class="form-control input-live-convidados form-estado" type="text" id="field[2]" name="field[2]" tabindex="-1" value="" placeholder=""
-                disabled />
-            </div>
-          </div>
-        </div>
-        <div class="col-9">
-          <div class="_form_element _x96931084 _full_width">
-            <label for="field[60]" class="_form-label">
-              Cidade*
-            </label>
-            <div class="_field-wrapper">
-              <input class="form-control input-live-convidados form-cidade" type="text" id="field[60]" name="field[60]"
-                tabindex="-1" value="" placeholder="" disabled />
-            </div>
+
+    </div>
+    <div class="_form_element _x96931084 _full_width row mb-3">
+      <div class="col-3">
+        <div class="_form_element _x45510491 _full_width">
+          <label for="field[2]" class="_form-label">
+            Estado*
+          </label>
+          <div class="_field-wrapper">
+            <input class="form-control input-live-convidados form-estado" type="text" id="field[2]" name="field[2]"
+              tabindex="-1" value="" placeholder="" disabled />
           </div>
         </div>
       </div>
-      <div class="_form_element _full_width row mb-3">
-        <div class="_field-wrapper">
-          O link será enviado por e-mail e whatsapp.
+      <div class="col-9">
+        <div class="_form_element _x96931084 _full_width">
+          <label for="field[60]" class="_form-label">
+            Cidade*
+          </label>
+          <div class="_field-wrapper">
+            <input class="form-control input-live-convidados form-cidade" type="text" id="field[60]" name="field[60]"
+              tabindex="-1" value="" placeholder="" disabled />
+          </div>
         </div>
       </div>
-      <div class="_button-wrapper _full_width row mb-3 d-flex pc-center mx-1">
-        <button class="btn background-white btn-white fw-bold fs-5" id="_form_24_submit" class="_submit" type="submit">
-          Quero me inscrever
-        </button>
-      </div>
-      <div class="_clear-element">
+    </div>
+    <div class="_form_element _full_width row mb-3">
+      <div class="_field-wrapper">
+        O link será enviado por e-mail e whatsapp.
       </div>
     </div>
-    <div class="_form-thank-you" style="display:none;">
+    <div class="_button-wrapper _full_width row mb-3 d-flex pc-center mx-1">
+      <button class="btn background-white btn-white fw-bold fs-5" id="_form_24_submit" class="_submit" type="submit">
+        Quero me inscrever
+      </button>
     </div>
-  </form>
-  <script type="text/javascript">
+    <div class="_clear-element">
+    </div>
+  </div>
+  <div class="_form-thank-you" style="display:none;">
+  </div>
+</form>
+<script type="text/javascript">
 window.cfields = {
   "60": "cidade"
 };
@@ -570,13 +570,13 @@ window._load_script = function(url, callback) {
   addEvent(form_to_submit, 'submit', form_submit);
 })();
 jQuery('.phoneMask').mask(phoneBehavior, spOptions);
-  </script>
+</script>
 
-  <!-- Adicionando JQuery do VIACEP -->
-  <script defer src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+<!-- Adicionando JQuery do VIACEP -->
+<script defer src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
 
-  <!-- Adicionando Javascript do VIACEP -->
-  <script defer>
+<!-- Adicionando Javascript do VIACEP -->
+<script defer>
 jQuery(document).ready(function() {
 
   function limpa_formulário_cep() {
@@ -631,4 +631,4 @@ jQuery(document).ready(function() {
     }
   });
 });
-  </script>
+</script>
