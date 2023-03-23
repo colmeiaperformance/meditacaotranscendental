@@ -1048,6 +1048,86 @@ footer .top a {
   border-radius: 20px;
   background-color: #f29f05;
 }
+.header--lp-live-typ {
+  -webkit-clip-path: ellipse(150% 100% at 50% 0%);
+          clip-path: ellipse(150% 100% at 50% 0%);
+  background: #a6d491;
+}
+.header--lp-live-typ .btn-lg {
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+}
+.header--lp-live-typ .navbar-brand img {
+  max-width: 130px;
+}
+.header--lp-live-typ .btn-live-icon {
+  fill: #ffffff;
+}
+@media (min-width: 992px) {
+  .header--lp-live-typ {
+    -webkit-clip-path: ellipse(240% 100% at 0% 0%);
+            clip-path: ellipse(240% 100% at 0% 0%);
+  }
+  .header--lp-live-typ .btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+  }
+  .header--lp-live-typ .navbar-brand img {
+    max-width: 256px;
+  }
+}
+.header--lp-live-typ .btn-outline-white, .header--lp-live-typ .btn-outline-white:focus, .header--lp-live-typ .btn-outline-white:active {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background: transparent;
+  border-radius: 25px;
+  cursor: default;
+}
+.header--lp-live-typ .btn-outline-white .btn-fill-white, .header--lp-live-typ .btn-outline-white:focus .btn-fill-white, .header--lp-live-typ .btn-outline-white:active .btn-fill-white {
+  fill: #ffffff;
+}
+.header--lp-live-typ .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.header--lp-live-typ .image {
+  text-align: right;
+  padding-right: 50px;
+}
+@media (max-width: 992px) {
+  .header--lp-live-typ .image {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.header--lp-live-typ .image img {
+  max-width: 510px;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: -5rem;
+}
+@media (max-width: 992px) {
+  .header--lp-live-typ .image img {
+    max-height: 180px;
+    margin: 20px 0;
+    padding: 15px;
+  }
+}
+.header--lp-live-typ .form label {
+  color: #ffffff;
+}
+.header--lp-live-typ .form .input-live-convidados {
+  border-radius: 25px;
+}
+.header--lp-live-typ .form .btn-live-convidados {
+  border-radius: 20px;
+  background-color: #f29f05;
+}
 .header--quem-somos {
   background: #f8e6c0;
   -webkit-clip-path: ellipse(150% 100% at 50% 0%);
@@ -7515,6 +7595,8 @@ footer .top a {
   .attend .form-live-guests {
     margin-top: -10rem;
     max-width: 570px;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 .attend .form-live-guests .btn-white {

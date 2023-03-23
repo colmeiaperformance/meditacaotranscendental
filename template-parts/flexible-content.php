@@ -6,5 +6,5 @@
 <?php get_template_part('template-parts/pages/home/o-que-dizem'); ?>
 <?php get_template_part('template-parts/pages/home/transcender'); ?>
 <?php get_template_part('template-parts/pages/home/mundo-melhor'); ?>
-<?php /* get_template_part('template-parts/sections/home/visite-blog'); */ ?>
+<?php /* get_template_part('template-parts/pages/home/visite-blog'); */ ?>
 <?php get_template_part('template-parts/pages/home/agende-palestra'); ?>
