@@ -15,12 +15,6 @@
               acelerada?
             </p>
             <p>
-              Muitas vezes, achamos que isso é normal. Mas não é!
-            </p>
-            <p>
-              Essa sobrecarga acarreta danos graves à nossa saúde física e mental.
-            </p>
-            <p>
               Mas, como lidar com uma vida tão intensa e, ao mesmo tempo, encontrar equilíbrio, saúde e realização
               pessoal?
             </p>
@@ -38,7 +32,8 @@
     <div class="container">
       <div class="row p-2 p-lg-auto">
         <div class="col-lg-6 text-left fw-light pe-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-end">
-          <p class="fs-1 pe-lg-5">Participe deste evento gratuito e descubra como você pode transformar sua vida para
+          <p class="fs-1 pe-lg-5">
+            Participe deste evento gratuito e descubra como você pode transformar sua vida para
             viver com mais
             <span class="fw-500">saúde e felicidade</span>.
           </p>
