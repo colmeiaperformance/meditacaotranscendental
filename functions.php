@@ -13,7 +13,7 @@ function loading_styles(){
 //Scripts
 function loading_scripts(){
     wp_register_script( 'popper-js', 'https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
-    wp_register_script( 'bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
+    wp_register_script( 'bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
     wp_register_script( 'swiper-js', get_template_directory_uri() . '/vendor/swiper-js/swiper-bundle.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
     wp_register_script( 'typed-js', get_template_directory_uri() . '/vendor/typed-js/typed.min.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
     wp_register_script( 'phone-mask-js', get_template_directory_uri() . '/js/phone.mask.js', array( 'jquery-core' ), wp_get_theme()->get( 'Version' ), true  );
