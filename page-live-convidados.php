@@ -67,7 +67,7 @@
   </section>
 
   <!-- Guests -->
-  <section class="guests mt-5 pt-5">
+  <section class="guests pt-5">
     <div class="w-100 h-100">
       <div class="row">
         <img class="mx-auto w-auto"
@@ -134,9 +134,9 @@
           paz interior.
         </div>
       </div>
-      <div class="row py-5"><img class="mx-auto w-auto"
+      <div class="row py-3"><img class="mx-auto w-auto"
           src="<?php echo get_template_directory_uri() . '/images/lp-live-convidados/separador.png'; ?>" alt></div>
-      <div class="row text-center py-5 mb-5 fs-1">
+      <div class="row text-center py-5 fs-1">
         <p>Os participantes irão receber uma técnica para ajudar no relaxamento e um <span
             class="fw-600 badge rounded-pill color-secondary-dark-80 background-primary-light">cupom especial da
             MT!</span></p>
