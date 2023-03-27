@@ -14,17 +14,17 @@
               Você sente que está vivendo uma sobrecarga de estresse e cansaço, com uma rotina cada vez mais exigente e
               acelerada?
             </p>
-            <p class="d-none d-md-block">
+            <p class="d-none d-lg-block">
               Muitas vezes, achamos que isso é normal. Mas não é!
             </p>
-            <p class="d-none d-md-block">
+            <p class="d-none d-lg-block">
               Essa sobrecarga acarreta danos graves à nossa saúde física e mental.
             </p>
-            <p class="d-none d-md-block">
+            <p class="d-none d-lg-block">
               Mas, como lidar com uma vida tão intensa e, ao mesmo tempo, encontrar equilíbrio, saúde e realização
               pessoal?
             </p>
-            <p class="d-md-none">
+            <p class="d-lg-none">
             Participe do evento, dia 4 de abril, e entenda como encontrar esse equilíbrio para viver com mais saúde e realização.
             </p>
           </div>
@@ -41,7 +41,7 @@
     <div class="container">
       <div class="row p-2 p-lg-auto">
         <div class="col-lg-6 text-left fw-light pe-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-end">
-          <p class="fs-2 pe-lg-5">
+          <p class="fs-2 pe-lg-5 d-none d-lg-block">
             Participe deste evento gratuito e descubra como você pode transformar sua vida para
             viver com mais
             <span class="fw-500">saúde e felicidade</span>.
