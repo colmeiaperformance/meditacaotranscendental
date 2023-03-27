@@ -5,7 +5,7 @@
     <?php get_template_part('template-parts/pages/live-convidados/navbar'); ?>
     <div class="container ps-3">
       <div class="row pt-2">
-        <div class="col-lg-5 pb-3 pb-lg-auto text-white pe-lg-5">
+        <div class="col-lg-5 pb-3 pb-lg-auto pb-xxl-4 text-white pe-lg-5">
           <h1 class="fs-1 mb-3"><span class="fw-500">O impacto do estresse na saúde e como a MT pode mudar
               isso.</span><br>
           </h1>
