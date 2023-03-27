@@ -20,9 +20,12 @@
             <p class="d-none d-md-block">
               Essa sobrecarga acarreta danos graves à nossa saúde física e mental.
             </p>
-            <p>
+            <p class="d-none d-md-block">
               Mas, como lidar com uma vida tão intensa e, ao mesmo tempo, encontrar equilíbrio, saúde e realização
               pessoal?
+            </p>
+            <p class="d-md-none">
+            Participe do evento, dia 4 de abril, e entenda como encontrar esse equilíbrio para viver com mais saúde e realização.
             </p>
           </div>
         </div>
@@ -56,7 +59,7 @@
             </div>
           </div>
         </div>
-        <div id="attend" class="col-lg-6 form-live-guests p-4 p-lg-5 order-1 order-lg-2">
+        <div id="attend" class="col-lg-6 form-live-guests p-4 p-lg-5 order-1 order-lg-2 d-flex flex-column justify-content-around">
           <?php echo get_template_part( 'template-parts/pages/live-convidados/form-live-convidados' ); ?>
         </div>
       </div>

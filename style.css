@@ -998,7 +998,6 @@ footer .top a {
 }
 .header--lp-live-convidados .btn-outline-white, .header--lp-live-convidados .btn-outline-white:focus, .header--lp-live-convidados .btn-outline-white:active {
   color: #ffffff;
-  border: 1px solid #ffffff;
   background: transparent;
   border-radius: 25px;
   cursor: default;

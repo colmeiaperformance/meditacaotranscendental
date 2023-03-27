@@ -11,7 +11,7 @@
   <input type="hidden" name="m" value="0" />
   <input type="hidden" name="act" value="sub" />
   <input type="hidden" name="v" value="2" />
-  <input type="hidden" name="or" value="e36eba3f3495a941f3120c8177f4a473" />
+  <input type="hidden" name="or" value="278362f107735fe2579ccf038ecd6524" />
   <div class="_form-content">
     <div class="_form_element _x69614464 _full_width _clear">
       <div class="_form-title fs-3 fw-500 mb-3">
@@ -36,49 +36,6 @@
         <label for="email" class="_form-label fw-light">Email*</label>
       </div>
     </div>
-    <div class="_form_element _x91379644 _full_width row mb-3">
-      <div class="_field-wrapper">
-        <input class="form-control input-live-convidados phoneMask" type="text" id="phone" name="phone"
-          data-name="phone" minlength="14" maxlength="15" autocomplete="off" required />
-        <label for="phone" class="_form-label fw-light">DDD + Celular*</label>
-      </div>
-    </div>
-    <div class="_form_element _x91379644 _full_width row mb-3">
-      <div class="_field-wrapper">
-        <input class="form-control input-live-convidados " name="cep" type="text" id="cep" value="" required="">
-        <label class="_form-label fw-light" for="cep">CEP*</label>
-      </div>
-
-    </div>
-    <div class="_form_element _x96931084 _full_width row mb-3">
-      <div class="col-3">
-        <div class="_form_element _x45510491 _full_width">
-          <label for="field[2]" class="_form-label">
-            Estado*
-          </label>
-          <div class="_field-wrapper">
-            <input class="form-control input-live-convidados form-estado" type="text" id="field[2]" name="field[2]"
-              tabindex="-1" value="" placeholder="" disabled />
-          </div>
-        </div>
-      </div>
-      <div class="col-9">
-        <div class="_form_element _x96931084 _full_width">
-          <label for="field[60]" class="_form-label">
-            Cidade*
-          </label>
-          <div class="_field-wrapper">
-            <input class="form-control input-live-convidados form-cidade" type="text" id="field[60]" name="field[60]"
-              tabindex="-1" value="" placeholder="" disabled />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="_form_element _full_width row mb-3">
-      <div class="_field-wrapper">
-        O link será enviado por e-mail e whatsapp.
-      </div>
-    </div>
     <div class="_button-wrapper _full_width row mb-3 d-flex pc-center mx-1">
       <button class="btn background-white btn-white fw-bold fs-5" id="_form_24_submit" class="_submit" type="submit">
         Quero me inscrever
@@ -91,9 +48,7 @@
   </div>
 </form>
 <script type="text/javascript">
-window.cfields = {
-  "60": "cidade"
-};
+window.cfields = [];
 window._show_thank_you = function(id, message, trackcmp_url, email) {
   var form = document.getElementById('_form_' + id + '_'),
     thank_you = form.querySelector('._form-thank-you');
@@ -160,7 +115,7 @@ window._load_script = function(url, callback) {
     var expireTime = time + 1000 * 60 * 60 * 24 * 365;
     now.setTime(expireTime);
     document.cookie = name + '=' + value + '; expires=' + now +
-    ';path=/; Secure; SameSite=Lax;'; // cannot be HttpOnly
+      ';path=/; Secure; SameSite=Lax;'; // cannot be HttpOnly
   }
   var addEvent = function(element, event, func) {
     if (element.addEventListener) {
