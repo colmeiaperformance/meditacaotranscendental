@@ -773,7 +773,8 @@
             Observação
           </label>
           <div class="_field-wrapper">
-            <textarea id="field[93]" rows="4" class="form-control textarea-inscricao" name="field[93]" placeholder=""></textarea>
+            <textarea id="field[93]" rows="4" class="form-control textarea-inscricao" name="field[93]"
+              placeholder=""></textarea>
           </div>
         </div>
         <div class="_form_element _x35994980 _full_width ">
@@ -1081,11 +1082,19 @@ window._load_script = function(url, callback) {
         no_error = false;
       }
     }
+    if (no_error && elem.name == 'phone') {
+      if (!value.match(/^[\+_a-z0-9-'&=]+(\.[\+_a-z0-9-']+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$/i) || jQuery(
+          '#phone').val().length < 14) {
+        elem.className = elem.className + ' _has_error phone-input-error';
+        no_error = false;
+        tooltip = create_tooltip(elem, "Verifique se o celular está correto.");
+      }
+    }
     if (no_error && elem.name == 'email') {
       if (!value.match(/^[\+_a-z0-9-'&=]+(\.[\+_a-z0-9-']+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$/i)) {
         elem.className = elem.className + ' _has_error';
         no_error = false;
-        tooltip = create_tooltip(elem, "Digite um e-mail válido");
+        tooltip = create_tooltip(elem, "Verifique se o e-mail está correto.");
       }
     }
     if (no_error && /date_field/.test(elem.className)) {
