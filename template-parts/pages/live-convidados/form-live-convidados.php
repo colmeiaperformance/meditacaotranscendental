@@ -36,6 +36,12 @@
         <label for="email" class="_form-label fw-light">Email*</label>
       </div>
     </div>
+    <div class="_form_element _full_width row mb-3">
+      <div class="_field-wrapper">
+        <input class="form-control input-live-convidados" type="text" id="emailCompare" name="emailCompare" onpaste="return false;" ondrop="return false;" autocomplete="off" required />
+        <label for="emailCompare" class="_form-label fw-light">Confirme seu Email*</label>
+      </div>
+    </div>
     <div class="_button-wrapper _full_width row mb-3 d-flex pc-center mx-1">
       <button class="btn background-white btn-white fw-bold fs-5" id="_form_24_submit" class="_submit" type="submit">
         Quero me inscrever
@@ -292,10 +298,10 @@ window._load_script = function(url, callback) {
       }
     }
     if (no_error && elem.name == 'email') {
-      if (!value.match(/^[\+_a-z0-9-'&=]+(\.[\+_a-z0-9-']+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$/i)) {
+      if (!value.match(/^[\+_a-z0-9-'&=]+(\.[\+_a-z0-9-']+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$/i) || jQuery('#email').val() != jQuery('#emailCompare').val()) {
         elem.className = elem.className + ' _has_error';
         no_error = false;
-        tooltip = create_tooltip(elem, "Digite um e-mail válido");
+        tooltip = create_tooltip(elem, "Verifique se o e-mail está correto");
       }
     }
     if (no_error && /date_field/.test(elem.className)) {
