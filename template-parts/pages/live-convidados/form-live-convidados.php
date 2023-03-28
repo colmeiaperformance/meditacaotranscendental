@@ -11,7 +11,7 @@
   <input type="hidden" name="m" value="0" />
   <input type="hidden" name="act" value="sub" />
   <input type="hidden" name="v" value="2" />
-  <input type="hidden" name="or" value="278362f107735fe2579ccf038ecd6524" />
+  <input type="hidden" name="or" value="c44a58865045746b9436f42e1caf355e" />
   <div class="_form-content">
     <div class="_form_element _x69614464 _full_width _clear">
       <div class="_form-title fs-3 fw-500 mb-3">
@@ -38,8 +38,15 @@
     </div>
     <div class="_form_element _full_width row mb-3">
       <div class="_field-wrapper">
-        <input class="form-control input-live-convidados" type="text" id="emailCompare" name="emailCompare" onpaste="return false;" ondrop="return false;" autocomplete="off" required />
+        <input class="form-control input-live-convidados" type="text" id="emailCompare" name="emailCompare"
+          onpaste="return false;" ondrop="return false;" autocomplete="off" required />
         <label for="emailCompare" class="_form-label fw-light">Confirme seu Email*</label>
+      </div>
+    </div>
+    <div class="_form_element _x43903596 _full_width row mb-3">
+      <div class="_field-wrapper">
+        <input class="form-control input-live-convidados phoneMask" type="text" id="phone" name="phone" placeholder="" required />
+        <label for="phone" class="_form-label fw-light">Celular*</label>
       </div>
     </div>
     <div class="_button-wrapper _full_width row mb-3 d-flex pc-center mx-1">
@@ -298,7 +305,8 @@ window._load_script = function(url, callback) {
       }
     }
     if (no_error && elem.name == 'email') {
-      if (!value.match(/^[\+_a-z0-9-'&=]+(\.[\+_a-z0-9-']+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$/i) || jQuery('#email').val() != jQuery('#emailCompare').val()) {
+      if (!value.match(/^[\+_a-z0-9-'&=]+(\.[\+_a-z0-9-']+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$/i) || jQuery(
+          '#email').val() != jQuery('#emailCompare').val()) {
         elem.className = elem.className + ' _has_error';
         no_error = false;
         tooltip = create_tooltip(elem, "Verifique se o e-mail está correto");
