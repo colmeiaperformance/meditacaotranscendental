@@ -1083,8 +1083,7 @@ window._load_script = function(url, callback) {
       }
     }
     if (no_error && elem.name == 'phone') {
-      if (!value.match(/^[\+_a-z0-9-'&=]+(\.[\+_a-z0-9-']+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$/i) || jQuery(
-          '#phone').val().length < 14) {
+      if ( jQuery( '#phone').val().length < 14 ) {
         elem.className = elem.className + ' _has_error phone-input-error';
         no_error = false;
         tooltip = create_tooltip(elem, "Verifique se o celular está correto.");
