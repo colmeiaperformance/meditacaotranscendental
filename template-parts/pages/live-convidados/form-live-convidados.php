@@ -11,7 +11,7 @@
   <input type="hidden" name="m" value="0" />
   <input type="hidden" name="act" value="sub" />
   <input type="hidden" name="v" value="2" />
-  <input type="hidden" name="or" value="c44a58865045746b9436f42e1caf355e" />
+  <input type="hidden" name="or" value="a65e30366583adc3ed9583c682ebe823" />
   <div class="_form-content">
     <div class="_form_element _x69614464 _full_width _clear">
       <div class="_form-title fs-3 fw-500 mb-3">
@@ -306,7 +306,7 @@ window._load_script = function(url, callback) {
       }
     }
     if (no_error && elem.name == 'phone') {
-      if ( jQuery('#phone').val().length < 14 ) {
+      if (jQuery('#phone').val().length < 14) {
         elem.className = elem.className + ' _has_error phone-input-error';
         no_error = false;
         tooltip = create_tooltip(elem, "Verifique se o celular está correto.");
