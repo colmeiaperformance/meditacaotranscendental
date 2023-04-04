@@ -1,36 +1,57 @@
 //Brand colors
 
 //Primary
-$color-primary-light: #FFEDBF;
-$color-primary-medium: #FFC536;
-$color-primary-dark: #F29F05;
+$color-primary-light: #ffedbf;
+$color-primary-medium: #ffc536;
+$color-primary-dark: #f29f05;
 
 //Secondary
-$color-secondary-light: #D4E2F4;
-$color-secondary-medium: #7896C1;
+$color-secondary-light: #d4e2f4;
+$color-secondary-medium: #7896c1;
 $color-secondary-medium-80: rgba(120, 150, 193, 0.8);
-$color-secondary-dark: #313A4E;
-$color-secondary-dark-80: #323B50;
+$color-secondary-dark: #313a4e;
+$color-secondary-dark-80: #323b50;
 
 //Solid colors
 
 //Default colors
 $color-black: #000000;
-$color-white: #FFFFFF;
+$color-white: #ffffff;
 $color-white-50: rgba(255, 255, 255, 0.5);
 $color-white-60: rgba(255, 255, 255, 0.6);
-$color-prink: #F49093;
-$color-green: #A6D491;
-$color-grey-light: #E2E2E2;
-$color-green-whatsapp: #5CDE4A;
-$color-beige: #F8E6C0;
+$color-prink: #f49093;
+$color-green: #a6d491;
+$color-grey-light: #e2e2e2;
+$color-green-whatsapp: #5cde4a;
+$color-beige: #f8e6c0;
 $color-grey: #464646;
+$color-medium-grey: #646464;
 $color-grey-bullets: #959595;
-$color-grey-pagination: #C4C4C4;
+$color-grey-pagination: #c4c4c4;
 $color-article-grey: #606060;
-$color-line-grey: #EFEFEF;
-$color-grey-tags: #E5E5E5;
-$color-grey-boder: #D9D9D9;
+$color-line-grey: #efefef;
+$color-grey-tags: #e5e5e5;
+$color-grey-boder: #d9d9d9;
+
+.color-highlight {
+  color: $color-primary-medium;
+}
+
+.color-secondary-dark-80 {
+  color: $color-secondary-dark-80;
+}
+
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.pi-center {
+  place-items: center;
+}
+.pc-center {
+  place-content: center;
+}
 
 //Backgrounds
 .background-primary-dark {
@@ -42,7 +63,7 @@ $color-grey-boder: #D9D9D9;
 .background-secondary-dark {
   background-color: $color-secondary-dark;
 }
-.background-secondary-light{
+.background-secondary-light {
   background-color: $color-secondary-medium;
 }
 .background-black {
@@ -56,10 +77,13 @@ $color-grey-boder: #D9D9D9;
 }
 .background-green {
   background-color: $color-green;
-} 
+}
 .background-green-whatsapp {
   background-color: $color-green-whatsapp;
 }
 .background-beige {
   background-color: $color-beige;
+}
+.background-medium-grey {
+  background-color: $color-medium-grey;
 }

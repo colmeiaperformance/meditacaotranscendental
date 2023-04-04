@@ -107,7 +107,7 @@
                     }
                 }
             }
-            input[type="text"] {
+            input[type="text"], textarea {
                 border: 1.5px solid $color-grey-boder;
                 border-radius: 100px;
                 width: 100%;

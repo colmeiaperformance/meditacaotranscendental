@@ -93,7 +93,7 @@
         </button>
         <div class="collapse" id="collapse-8">
         <div class="btn-toggle-nav">
-          <p>A técnica da MT é fácil de aprender, mas requer orientação interativa personalizada. Por essa razão, é ensinada apenas através de instruções individuais por um professor certificado. Não há outra maneira de aprender a técnica autêntica da MT®.
+          <p>A técnica da MT é fácil de aprender, mas requer orientação interativa personalizada. Por essa razão, é ensinada apenas através de instruções individuais por um professor credenciado. Não há outra maneira de aprender a técnica autêntica da MT®.
           </p>
         </div>
         </div>
@@ -105,7 +105,7 @@
         </button>
         <div class="collapse" id="collapse-9">
         <div class="btn-toggle-nav">
-          <p>Para aprender a técnica de MT, o primeiro passo é assistir à palestra online gratuita com um instrutor de MT certificado. Em seguida, você pode fazer sua inscrição para o curso, que é realizado em 4 dias consecutivos. 
+          <p>Para aprender a técnica de MT, o primeiro passo é assistir à palestra online gratuita com um instrutor de MT credenciado. Em seguida, você pode fazer sua inscrição para o curso, que é realizado em 4 dias consecutivos. 
           </p>
         </div>
         </div>
@@ -117,8 +117,8 @@
         </button>
         <div class="collapse" id="collapse-11">
         <div class="btn-toggle-nav">
-          <p>Apenas instrutores certificados pela Associação Internacional de Meditação (SIM) podem 
-            ensinar a verdadeira técnica da MT®. Basta consultar a lista dos instrutores certificados 
+          <p>Apenas instrutores credenciados pela Associação Internacional de Meditação (SIM) podem 
+            ensinar a verdadeira técnica da MT®. Basta consultar a lista dos instrutores credenciados 
             <a href="<?php echo home_url( '/instrutores/' ); ?>">aqui</a>. 
             Você pode pesquisar por nome ou por localidade. 
           </p>

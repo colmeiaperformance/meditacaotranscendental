@@ -29,12 +29,12 @@ function loadMore() {
 
 //Menu scrolling classjQuery
 jQuery(document).ready(function () {
-  jQuery(".navbar")[
+  jQuery(".navbar-main")[
     jQuery(window).scrollTop() >= 60 ? "addClass" : "removeClass"
   ]("fixed-top");
 
   jQuery(window).scroll(function (e) {
-    jQuery(".navbar")[
+    jQuery(".navbar-main")[
       jQuery(window).scrollTop() >= 60 ? "addClass" : "removeClass"
     ]("fixed-top");
   });
@@ -42,29 +42,31 @@ jQuery(document).ready(function () {
 
 //Bootstrap caroulsel
 jQuery(document).ready(function () {
-  // Carousel
-  jQuery(".carousel").carousel({
-    interval: false,
-    pause: true,
-  });
+  if (jQuery(".carousel")) {
+    // Carousel
+    jQuery(".carousel").carousel({
+      interval: false,
+      pause: true,
+    });
 
-  jQuery(".carousel .carousel-inner").swipe({
-    swipeLeft: function (event, direction, distance, duration, fingerCount) {
-      this.parent().carousel("next");
-    },
-    swipeRight: function () {
-      this.parent().carousel("prev");
-    },
-    threshold: 0,
-    tap: function (event, target) {
-      window.location = $(this).find(".carousel-item.active a").attr("href");
-    },
-    excludedElements: "label, button, input, select, textarea, .noSwipe",
-  });
+    jQuery(".carousel .carousel-inner").swipe({
+      swipeLeft: function (event, direction, distance, duration, fingerCount) {
+        this.parent().carousel("next");
+      },
+      swipeRight: function () {
+        this.parent().carousel("prev");
+      },
+      threshold: 0,
+      tap: function (event, target) {
+        window.location = $(this).find(".carousel-item.active a").attr("href");
+      },
+      excludedElements: "label, button, input, select, textarea, .noSwipe",
+    });
 
-  jQuery(".carousel .carousel-inner").on("dragstart", "a", function () {
-    return false;
-  });
+    jQuery(".carousel .carousel-inner").on("dragstart", "a", function () {
+      return false;
+    });
+  }
 });
 
 //Top button
@@ -82,6 +84,15 @@ jQuery(document).ready(function () {
     event.preventDefault();
     jQuery("html, body").animate({ scrollTop: 0 }, duration);
     return false;
+  });
+});
+
+jQuery(document).ready(function () {
+  var tooltipTriggerList = [].slice.call(
+    document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  );
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl);
   });
 });
 

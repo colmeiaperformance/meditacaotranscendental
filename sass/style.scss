@@ -1,9 +1,9 @@
 // /************************************/
 // /********** DEFAULT MT ***************/
 // /************************************/
+@import "styles/mt/_variables";
 @import "styles/mt/_style-header";
 @import "styles/mt/_default";
-@import "styles/mt/_variables";
 @import "styles/mt/_mixins";
 
 /************************************/
@@ -19,11 +19,13 @@
 @import "styles/components/_navbar";
 @import "styles/components/_pagination";
 @import "styles/components/_sidebar";
+@import "styles/components/_forms";
 
 /************************************/
 /********* MT PAGES *************/
 /************************************/
 @import "styles/pages/_404";
+@import "styles/pages/_page-agendamento";
 @import "styles/pages/_page-eventos";
 @import "styles/pages/_page-aprenda-mt";
 @import "styles/pages/_page-beneficios";
@@ -36,8 +38,10 @@
 @import "styles/pages/_page-instrutores";
 @import "styles/pages/_page-o-que-e-mt";
 @import "styles/pages/_page-quem-somos";
+@import "styles/pages/_page-live-convidados";
 @import "styles/pages/_page";
 @import "styles/pages/_single";
+@import "styles/sections/pages/_eventos-shortcode";
 
 
 /************************************/

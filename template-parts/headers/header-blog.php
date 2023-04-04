@@ -1,8 +1,3 @@
-<script defer>
-jQuery(document).ready(function() {
-  loadMore();
-});
-</script>
 <section id="breadcrumb" class="breadcrumb">
   <div class="container">
     <nav aria-label="breadcrumb">

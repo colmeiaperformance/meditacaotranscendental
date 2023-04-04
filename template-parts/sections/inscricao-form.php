@@ -1,91 +1,3 @@
-<!-- Adicionando JQuery do VIACEP -->
-<script defer src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"
-  referrerpolicy="no-referrer"></script>
-<!-- Mask phone -->
-<script defer src="<?php echo get_template_directory_uri() . '/js/cleave.min.js'; ?>" referrerpolicy="no-referrer">
-</script>
-<script defer src="<?php echo get_template_directory_uri() . '/js/cleave-phone.i18n.js'; ?>"
-  referrerpolicy="no-referrer"></script>
-<script defer>
-jQuery(document).ready(function() {
-  var cleavePhone = new Cleave('.input-phone', {
-    phone: true,
-    phoneRegionCode: 'BR'
-  });
-});
-</script>
-<!-- Adicionando Javascript do VIACEP -->
-<script defer>
-jQuery(document).ready(function() {
-
-  function limpa_formulário_cep() {
-    // Limpa valores do formulário de cep.
-    jQuery(".form-cidade").val("");
-    jQuery(".form-estado").val("");
-  }
-
-  //Quando o campo cep perde o foco.
-  jQuery("#cep").blur(function() {
-
-    //Nova variável "cep" somente com dígitos.
-    var cep = jQuery(this).val().replace(/\D/g, '');
-
-    //Verifica se campo cep possui valor informado.
-    if (cep != "") {
-
-      //Expressão regular para validar o CEP.
-      var validacep = /^[0-9]{8}$/;
-
-      //Valida o formato do CEP.
-      if (validacep.test(cep)) {
-
-        //Preenche os campos com "..." enquanto consulta webservice.
-        jQuery(".form-cidade").val("...");
-        jQuery(".form-estado").val("...");
-
-        //Consulta o webservice viacep.com.br/
-        $.getJSON("https://viacep.com.br/ws/" + cep + "/json/?callback=?", function(dados) {
-
-          if (!("erro" in dados)) {
-            //Atualiza os campos com os valores da consulta.
-            jQuery(".form-cidade").val(dados.localidade);
-            jQuery(".form-estado").val(dados.uf);
-          } //end if.
-          else {
-            //CEP pesquisado não foi encontrado.
-            limpa_formulário_cep();
-            alert("CEP não encontrado.");
-          }
-        });
-      } //end if.
-      else {
-        //cep é inválido.
-        limpa_formulário_cep();
-        alert("Formato de CEP inválido.");
-      }
-    } //end if.
-    else {
-      //cep sem valor, limpa formulário.
-      limpa_formulário_cep();
-    }
-  });
-});
-// Estilo do form do AC
-</script>
-<script defer>
-jQuery(document).ready(function() {
-  jQuery(function() {
-    jQuery('.valor-curso').maskMoney({
-      prefix: 'R$ ',
-      allowNegative: true,
-      thousands: '.',
-      decimal: ',',
-      affixesStay: true
-    });
-  })
-})
-</script>
 <style>
 #_form_7_ {}
 
@@ -512,6 +424,10 @@ jQuery(document).ready(function() {
   text-align: center;
 }
 
+#_form_7_ .textarea-inscricao {
+  border-radius: 30px !important;
+}
+
 @media all and (min-width:320px) and (max-width:667px) {
   #_form_7_._inline-form._inline-style ._inline-style._button-wrapper {
     margin-top: 20px !important;
@@ -522,6 +438,7 @@ jQuery(document).ready(function() {
 <link
   href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Roboto&family=IBM+Plex+Sans:wght@400;600&display=swap"
   rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/intl-tel-input@17.0.18/build/css/intlTelInput.min.css" />
 <form method="POST" action="https://meditacaotranscedental.activehosted.com/proc.php" id="_form_7_"
   class="_form _form_7 _inline-form  _dark" novalidate>
   <input type="hidden" name="u" value="7" />
@@ -531,7 +448,7 @@ jQuery(document).ready(function() {
   <input type="hidden" name="m" value="0" />
   <input type="hidden" name="act" value="sub" />
   <input type="hidden" name="v" value="2" />
-  <input type="hidden" name="or" value="510feca9ff69bc3b9fe7d470a5084171" />
+  <input type="hidden" name="or" value="13eb9d9e26ba469668147b50c2191ce2" />
   <div class="_form-content">
     <div class="row">
       <div class="col-12 col-lg-7 pe-lg-5">
@@ -565,12 +482,21 @@ jQuery(document).ready(function() {
             <input type="date" class="date_field" id="field[71]" name="field[71]" value="" placeholder="" required />
           </div>
         </div>
+        <div class="_form_element _x15766978 _full_width ">
+          <label for="field[92]" class="_form-label">
+            CPF*
+          </label>
+          <div class="_field-wrapper">
+            <input type="text" id="field[92]" class="cpf" name="field[92]" maxlength="14" value=""
+              placeholder="___.___.___-__" required />
+          </div>
+        </div>
         <div class="_form_element _x49928272 _full_width ">
           <label for="phone" class="_form-label">
             Telefone celular*
           </label>
           <div class="_field-wrapper">
-            <input class="input-phone" type="text" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX" required />
+            <input class="phoneMask" type="text" id="phone" name="phone" placeholder="(__) _____-____" required />
           </div>
         </div>
         <div class="_form_element _x09417301 _full_width ">
@@ -584,7 +510,7 @@ jQuery(document).ready(function() {
         <div class="_form_element _full_width">
           <label class="_form-label" for="cep">CEP*</label>
           <div class="_field-wrapper col-12 col-lg-3">
-            <input name="cep" type="text" id="cep" value="" onblur="pesquisacep(this.value);" required="">
+            <input name="cep" type="text" id="cep" value="" required="">
           </div>
         </div>
         <div class="row">
@@ -594,8 +520,8 @@ jQuery(document).ready(function() {
                 Estado*
               </label>
               <div class="_field-wrapper">
-                <input class="form-estado" type="text" id="field[2]" name="field[2]" value="" placeholder="" required
-                  disabled />
+                <input class="form-estado" type="text" id="field[2]" name="field[2]" tabindex="-1" value=""
+                  placeholder="" disabled />
               </div>
             </div>
           </div>
@@ -605,8 +531,8 @@ jQuery(document).ready(function() {
                 Cidade*
               </label>
               <div class="_field-wrapper">
-                <input class="form-cidade" type="text" id="field[60]" name="field[60]" value=""
-                  placeholder="Digite o CEP no campo reservado acima" required disabled />
+                <input class="form-cidade" type="text" id="field[60]" name="field[60]" tabindex="-1" value=""
+                  placeholder="Digite o CEP no campo reservado acima" disabled />
               </div>
             </div>
           </div>
@@ -617,9 +543,7 @@ jQuery(document).ready(function() {
           </label>
           <div class="_field-wrapper">
             <select name="field[66]" id="field[66]" required>
-              <option valor="Selecione" selected>
-                Selecione
-              </option>
+              <option value="" disabled selected hidden>Selecione...</option>
               <option value="Adriane Brasileiro">
                 Adriane Brasileiro
               </option>
@@ -807,23 +731,21 @@ jQuery(document).ready(function() {
         </div>
         <div class="_form_element _x75261305 _full_width ">
           <label for="field[74]" class="_form-label">
-            Valor do curso fechado com o seu instrutor*
+            Valor do curso*
           </label>
           <div class="_field-wrapper">
             <input type="text" id="field[74]" class="valor-curso" name="field[74]" value="" placeholder="R$" required />
           </div>
         </div>
         <div class="_form_element _x20054732 _full_width ">
-          <label for="field[69]" class="_form-label d-none">
+          <label for="field[69]" class="_form-label">
             Forma de pagamento*
           </label>
           <div class="_field-wrapper">
             <select name="field[69]" id="field[69]" required>
-              <option value="Forma de pagamento*" selected>
-                Forma de pagamento*
-              </option>
-              <option value="À vista, no PIX ou depósito, com 10% de desconto">
-                À vista, no PIX ou depósito, com 10% de desconto
+              <option value="" disabled selected hidden>Selecione...</option>
+              <option value="À vista, no PIX ou depósito">
+                À vista, no PIX ou depósito
               </option>
               <option value="1x no cartão de crédito">
                 1x no cartão de crédito
@@ -845,28 +767,38 @@ jQuery(document).ready(function() {
               </option>
             </select>
           </div>
-          <div class="_form_element _x35994980 _full_width ">
-            <fieldset class="_form-fieldset">
-              <div class="_row">
-                <legend for="field[75][]" class="_form-label">
-                </legend>
-              </div>
-              <input data-autofill="false" type="hidden" id="field[75][]" name="field[75][]" value="~|">
-              <div class="_row _checkbox-radio">
-                <input
-                  id="field_75Ao preencher meus dados, concordo em receber comunicações sobre produtos e serviços, conforme a Política de Privacidade."
-                  type="checkbox" name="field[75][]"
-                  value="Ao preencher meus dados, concordo em receber comunicações sobre produtos e serviços, conforme a Política de Privacidade.">
-                <span>
-                  <label
-                    for="field_75Ao preencher meus dados, concordo em receber comunicações sobre produtos e serviços, conforme a Política de Privacidade.">
-                    Ao preencher meus dados, concordo em receber comunicações sobre produtos e serviços, conforme a
-                    Política de Privacidade.
-                  </label>
-                </span>
-              </div>
-            </fieldset>
+        </div>
+        <div class="_form_element _x31496846 _full_width ">
+          <label for="field[93]" class="_form-label">
+            Observação
+          </label>
+          <div class="_field-wrapper">
+            <textarea id="field[93]" rows="4" class="form-control textarea-inscricao" name="field[93]"
+              placeholder=""></textarea>
           </div>
+        </div>
+        <div class="_form_element _x35994980 _full_width ">
+          <fieldset class="_form-fieldset">
+            <div class="_row">
+              <legend for="field[75][]" class="_form-label">
+              </legend>
+            </div>
+            <input data-autofill="false" type="hidden" id="field[75][]" name="field[75][]" value="~|">
+            <div class="_row _checkbox-radio">
+              <input
+                id="field_75Ao preencher meus dados, concordo em receber comunicações sobre produtos e serviços, conforme a Política de Privacidade."
+                type="checkbox" name="field[75][]"
+                value="Ao preencher meus dados, concordo em receber comunicações sobre produtos e serviços, conforme a Política de Privacidade.">
+              <span>
+                <label
+                  for="field_75Ao preencher meus dados, concordo em receber comunicações sobre produtos e serviços, conforme a Política de Privacidade.">
+                  Ao preencher meus dados, concordo em receber comunicações sobre produtos e serviços, conforme a
+                  Política
+                  de Privacidade.
+                </label>
+              </span>
+            </div>
+          </fieldset>
         </div>
         <div class="_button-wrapper _full_width">
           <button name="confirmar" id="_form_7_submit" class="_submit" type="submit">
@@ -889,8 +821,6 @@ jQuery(document).ready(function() {
         </div>
       </div>
     </div>
-    <div class="_clear-element">
-    </div>
   </div>
   <div class="_form-thank-you" id="thank-you" style="display:none;">
   </div>
@@ -898,6 +828,7 @@ jQuery(document).ready(function() {
 <script defer type="text/javascript">
 window.cfields = {
   "71": "data_de_nascimento",
+  "92": "cpf",
   "55": "profissao",
   "2": "estado",
   "60": "cidade",
@@ -905,6 +836,7 @@ window.cfields = {
   "73": "data_instrucao_pessoal",
   "74": "valor_do_curso_fechado_com_o_seu_instrutor",
   "69": "formadepagamento",
+  "93": "observao_inscrio",
   "75": "optin"
 };
 window._show_thank_you = function(id, message, trackcmp_url, email) {
@@ -1150,11 +1082,18 @@ window._load_script = function(url, callback) {
         no_error = false;
       }
     }
+    if (no_error && elem.name == 'phone') {
+      if ( jQuery( '#phone').val().length < 14 ) {
+        elem.className = elem.className + ' _has_error phone-input-error';
+        no_error = false;
+        tooltip = create_tooltip(elem, "Verifique se o celular está correto.");
+      }
+    }
     if (no_error && elem.name == 'email') {
       if (!value.match(/^[\+_a-z0-9-'&=]+(\.[\+_a-z0-9-']+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$/i)) {
         elem.className = elem.className + ' _has_error';
         no_error = false;
-        tooltip = create_tooltip(elem, "Digite um e-mail válido");
+        tooltip = create_tooltip(elem, "Verifique se o e-mail está correto.");
       }
     }
     if (no_error && /date_field/.test(elem.className)) {
@@ -1383,4 +1322,94 @@ window._load_script = function(url, callback) {
   };
   addEvent(form_to_submit, 'submit', form_submit);
 })();
+</script>
+<script>
+jQuery('#_form_7_').on('submit', function() {
+  jQuery(document.getElementById('inscricao-header')).css("display", "none");
+  jQuery("html, body").animate({
+    scrollTop: 0
+  }, 500);
+});
+</script>
+<!-- Adicionando JQuery do VIACEP -->
+<script defer src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+<script defer src="<?php echo get_template_directory_uri() . '/js/jquery.maskMoney.min.js'; ?>"></script>
+<script defer src="<?php echo get_template_directory_uri() . '/js/phone.mask.js'; ?>"></script>
+<!-- Adicionando Javascript do VIACEP -->
+<script defer>
+jQuery(document).ready(function() {
+
+  function limpa_formulário_cep() {
+    // Limpa valores do formulário de cep.
+    jQuery(".form-cidade").val("");
+    jQuery(".form-estado").val("");
+  }
+
+  //Quando o campo cep perde o foco.
+  jQuery("#cep").blur(function() {
+
+    //Nova variável "cep" somente com dígitos.
+    var cep = jQuery(this).val().replace(/\D/g, '');
+
+    //Verifica se campo cep possui valor informado.
+    if (cep != "") {
+
+      //Expressão regular para validar o CEP.
+      var validacep = /^[0-9]{8}$/;
+
+      //Valida o formato do CEP.
+      if (validacep.test(cep)) {
+
+        //Preenche os campos com "..." enquanto consulta webservice.
+        jQuery(".form-cidade").val("...");
+        jQuery(".form-estado").val("...");
+
+        //Consulta o webservice viacep.com.br/
+        $.getJSON("https://viacep.com.br/ws/" + cep + "/json/?callback=?", function(dados) {
+
+          if (!("erro" in dados)) {
+            //Atualiza os campos com os valores da consulta.
+            jQuery(".form-cidade").val(dados.localidade);
+            jQuery(".form-estado").val(dados.uf);
+          } //end if.
+          else {
+            //CEP pesquisado não foi encontrado.
+            limpa_formulário_cep();
+            alert("CEP não encontrado.");
+          }
+        });
+      } //end if.
+      else {
+        //cep é inválido.
+        limpa_formulário_cep();
+        alert("Formato de CEP inválido.");
+      }
+    } //end if.
+    else {
+      //cep sem valor, limpa formulário.
+      limpa_formulário_cep();
+    }
+  });
+});
+// Estilo do form do AC
+</script>
+<script defer>
+jQuery(document).ready(function() {
+  jQuery(function() {
+    jQuery('.valor-curso').maskMoney({
+      prefix: 'R$ ',
+      allowNegative: true,
+      thousands: '.',
+      decimal: ',',
+      affixesStay: true
+    });
+  })
+})
+</script>
+<script>
+//Máscara do CPF e Telefone
+jQuery('.cpf').mask('000.000.000-00', {
+  reverse: true
+});
+jQuery('.phoneMask').mask(phoneBehavior, spOptions);
 </script>
