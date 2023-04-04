@@ -2022,6 +2022,175 @@ footer .top a {
   text-align: center;
 }
 
+form {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+  width: 100%;
+}
+form #thanks {
+  display: block;
+}
+form ._form-thank-you {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  max-width: 70%;
+  margin: 0 auto;
+}
+form ._form_element {
+  margin-bottom: 15px;
+}
+@media (max-width: 992px) {
+  form ._form_element {
+    margin-bottom: 8px;
+  }
+}
+form ._form_element ._form-label {
+  margin-bottom: 6.5px;
+  font-weight: 300;
+  font-size: var(--font-size-small);
+  line-height: 150%;
+  color: #313a4e;
+}
+@media (max-width: 992px) {
+  form ._form_element ._form-label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+}
+form ._form_element input[type=date] {
+  border: 1.5px solid #d9d9d9;
+  border-radius: 100px;
+  width: 100%;
+  padding: 9px 31px;
+  font-weight: 300;
+  font-size: var(--font-size-small);
+  line-height: 21px;
+  color: #313a4e;
+  background: #ffffff;
+}
+@media (max-width: 992px) {
+  form ._form_element input[type=date] {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    padding: 7px 15px !important;
+    font-size: 15px;
+    background: url(images/inscricao/dropdown-mobile.png);
+    background-position: right 1rem center;
+    background-color: #fff;
+    background-repeat: no-repeat;
+  }
+}
+form ._form_element ._checkbox-radio span {
+  color: #313a4e;
+}
+@media (max-width: 992px) {
+  form ._form_element ._checkbox-radio span {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 992px) {
+  form ._form_element ._checkbox-radio input[type=checkbox] {
+    width: 17px !important;
+    height: 17px !important;
+  }
+}
+form input[type=text],
+form textarea {
+  border: 1.5px solid #d9d9d9;
+  border-radius: 100px;
+  width: 100%;
+  padding: 9px 31px;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: var(--line-height-primary);
+  color: #313a4e;
+}
+form input[type=text]:focus,
+form textarea:focus {
+  color: #f29f05 !important;
+  border-color: #f29f05 !important;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+@media (max-width: 992px) {
+  form input[type=text],
+  form textarea {
+    padding: 4.5px 15px !important;
+    font-size: 1rem;
+  }
+}
+form select {
+  border: 1.5px solid #d9d9d9;
+  border-radius: 100px;
+  width: 100%;
+  padding: 15px 31px;
+  text-align: left;
+  background: url("images/inscricao/dropdown.png");
+  background-position: right 1rem center;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  font-weight: 300;
+  font-size: var(--font-size-small);
+  line-height: 21px;
+  color: #313a4e;
+  margin-bottom: 1rem;
+}
+form select:focus {
+  color: #f29f05 !important;
+  border-color: #f29f05 !important;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+@media (max-width: 992px) {
+  form select {
+    padding: 7px 15px !important;
+    font-size: 15px;
+    background: url("images/inscricao/dropdown-mobile.png");
+    background-position: right 1rem center;
+    background-color: #fff;
+    background-repeat: no-repeat;
+  }
+}
+
+._submit {
+  width: 100%;
+  border-radius: 100px;
+  background: #f29f05;
+  border: 1px solid #f29f05;
+  font-weight: 700;
+  font-size: var(--font-size-extrasmall) !important;
+  line-height: 150% !important;
+  color: #ffffff;
+  padding: 9px 31px !important;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+._submit:hover {
+  background: #ffffff;
+  color: #f29f05;
+}
+@media (max-width: 992px) {
+  ._submit {
+    font-size: 1rem !important;
+    line-height: 19px !important;
+    padding: 9px 18px !important;
+    margin-top: 25px;
+  }
+}
+
 /************************************/
 /********* MT PAGES *************/
 /************************************/
