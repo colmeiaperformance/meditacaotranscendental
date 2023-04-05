@@ -172,7 +172,9 @@
 }
 
 #_form_7_ input[type="text"]._has_error,
-#_form_7_ textarea._has_error {
+#_form_7_ textarea._has_error,
+.cpf-error
+ {
   border: #f37c7b 1px solid;
 }
 
@@ -487,7 +489,7 @@
             CPF*
           </label>
           <div class="_field-wrapper">
-            <input type="text" id="field[92]" class="cpf" name="field[92]" maxlength="14" value=""
+            <input type="text" id="cpf" class="cpf" name="field[92]" maxlength="14" value=""
               placeholder="___.___.___-__" required />
           </div>
         </div>
@@ -1084,9 +1086,16 @@ window._load_script = function(url, callback) {
     }
     if (no_error && elem.name == 'phone') {
       if ( jQuery( '#phone').val().length < 14 ) {
-        elem.className = elem.className + ' _has_error phone-input-error';
+        elem.className = elem.className + ' phone-input-error';
         no_error = false;
         tooltip = create_tooltip(elem, "Verifique se o celular está correto.");
+      }
+    }
+    if (no_error && elem.name == 'field[92]') {
+      if ( jQuery( '#cpf').val().length < 14 ) {
+        elem.className = elem.className + ' _has_error cpf-error';
+        no_error = false;
+        tooltip = create_tooltip(elem, "Verifique se o CPF está correto.");
       }
     }
     if (no_error && elem.name == 'email') {
