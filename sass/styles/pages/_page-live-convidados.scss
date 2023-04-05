@@ -57,6 +57,12 @@
         color: $color-white;
       }
     }
+    input::placeholder {
+      opacity: 0;
+    }
+    input:focus::placeholder {
+      opacity: 1;
+    }
   }
 }
 .guests {

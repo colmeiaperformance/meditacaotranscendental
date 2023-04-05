@@ -32,7 +32,7 @@
     </div>
     <div class="_form_element _x27055826 _full_width row mb-3">
       <div class="_field-wrapper">
-        <input class="form-control input-live-convidados" type="text" id="email" name="email" required />
+        <input class="form-control input-live-convidados" type="text" id="email" name="email" placeholder="nome@dominio.com" required />
         <label for="email" class="_form-label fw-light">Email*</label>
       </div>
     </div>
@@ -45,7 +45,7 @@
     </div>
     <div class="_form_element _x43903596 _full_width row mb-3">
       <div class="_field-wrapper">
-        <input class="form-control input-live-convidados phoneMask" type="text" id="phone" name="phone" placeholder=""
+        <input class="form-control input-live-convidados phoneMask" type="text" id="phone" name="phone" placeholder="(00) 00000-0000" data-bs-toggle="tooltip" data-bs-placement="top" title="(00) 00000-0000"
           required />
         <label for="phone" class="_form-label fw-light">Celular*</label>
       </div>

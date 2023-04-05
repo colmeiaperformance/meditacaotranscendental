@@ -87,6 +87,7 @@ jQuery(document).ready(function () {
   });
 });
 
+//Enable tooltips everywhere
 jQuery(document).ready(function () {
   var tooltipTriggerList = [].slice.call(
     document.querySelectorAll('[data-bs-toggle="tooltip"]')
