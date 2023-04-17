@@ -92,7 +92,7 @@
                         background-repeat: no-repeat;
                     }
                 }
-                ._checkbox-radio  {
+                ._checkbox-radio {
                     span {
                         color: $color-secondary-dark;
                         @media (max-width: 992px) {
@@ -101,13 +101,14 @@
                     }
                     input[type="checkbox"] {
                         @media (max-width: 992px) {
-                            width: 17px!important;
-                            height: 17px!important;
+                            width: 17px !important;
+                            height: 17px !important;
                         }
                     }
                 }
             }
-            input[type="text"], textarea {
+            input[type="text"],
+            textarea {
                 border: 1.5px solid $color-grey-boder;
                 border-radius: 100px;
                 width: 100%;
@@ -123,8 +124,14 @@
                     box-shadow: none;
                 }
                 @media (max-width: 992px) {
-                    padding: 4.5px 15px!important;
+                    padding: 4.5px 15px !important;
                     font-size: 1rem;
+                    &#phone-ddd {
+                        pointer-events: none;
+                    }
+                    &#phone {
+                        padding-left: 30px !important;
+                    }
                 }
             }
             select {
@@ -132,11 +139,11 @@
                 border-radius: 100px;
                 width: 100%;
                 padding: 15px 31px;
-                text-align: left ;
-                background: url("images/inscricao/dropdown.png") ;
-                background-position: right 1rem center ;
-                background-color: #fff ;
-                background-repeat: no-repeat ;
+                text-align: left;
+                background: url("images/inscricao/dropdown.png");
+                background-position: right 1rem center;
+                background-color: #fff;
+                background-repeat: no-repeat;
                 appearance: none;
                 font-weight: 300;
                 font-size: var(--font-size-small);
@@ -149,21 +156,21 @@
                     box-shadow: none;
                 }
                 @media (max-width: 992px) {
-                    padding: 7px 15px!important;
+                    padding: 7px 15px !important;
                     font-size: 15px;
-                    background: url("images/inscricao/dropdown-mobile.png") ;
-                    background-position: right 1rem center ;
-                    background-color: #fff ;
-                    background-repeat: no-repeat ;
+                    background: url("images/inscricao/dropdown-mobile.png");
+                    background-position: right 1rem center;
+                    background-color: #fff;
+                    background-repeat: no-repeat;
                 }
             }
             .valor-curso {
                 border: 1.5px solid $color-grey-boder;
                 border-radius: 100px;
                 padding: 9px 31px;
-                max-width: 370px; 
+                max-width: 370px;
                 @media (max-width: 992px) {
-                    padding: 4.5px 15px!important;
+                    padding: 4.5px 15px !important;
                     max-width: 200px;
                     font-size: 13px;
                 }
@@ -175,19 +182,19 @@
             background: $color-primary-dark;
             border: 1px solid $color-primary-dark;
             font-weight: 700;
-            font-size: var(--font-size-extrasmall)!important;
-            line-height: 150%!important;
+            font-size: var(--font-size-extrasmall) !important;
+            line-height: 150% !important;
             color: $color-white;
-            padding: 9px 31px!important;
-            transition: all .3s ease;
+            padding: 9px 31px !important;
+            transition: all 0.3s ease;
             text-align: center;
             &:hover {
                 background: $color-white;
                 color: $color-primary-dark;
             }
             @media (max-width: 992px) {
-                font-size: 1rem!important;
-                line-height: 19px!important;
+                font-size: 1rem !important;
+                line-height: 19px !important;
                 padding: 9px 18px !important;
                 margin-top: 25px;
             }
@@ -230,7 +237,7 @@
                     margin-bottom: 16px;
                 }
                 &::marker {
-                    color: #FFC536;
+                    color: #ffc536;
                     height: 7px;
                     width: 7px;
                 }
@@ -243,7 +250,7 @@
 }
 .inscricao-footer {
     padding-top: 97px;
-    @media (max-width: 992px)  {
+    @media (max-width: 992px) {
         display: none;
     }
     div {

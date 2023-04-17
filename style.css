@@ -5613,7 +5613,8 @@ form select:focus {
     height: 17px !important;
   }
 }
-.page-inscricao .inscricao-form #_form_7_ input[type=text], .page-inscricao .inscricao-form #_form_7_ textarea {
+.page-inscricao .inscricao-form #_form_7_ input[type=text],
+.page-inscricao .inscricao-form #_form_7_ textarea {
   border: 1.5px solid #d9d9d9;
   border-radius: 100px;
   width: 100%;
@@ -5623,7 +5624,8 @@ form select:focus {
   line-height: var(--line-height-primary);
   color: #313a4e;
 }
-.page-inscricao .inscricao-form #_form_7_ input[type=text]:focus, .page-inscricao .inscricao-form #_form_7_ textarea:focus {
+.page-inscricao .inscricao-form #_form_7_ input[type=text]:focus,
+.page-inscricao .inscricao-form #_form_7_ textarea:focus {
   color: #f29f05 !important;
   border-color: #f29f05 !important;
   outline: 0;
@@ -5631,9 +5633,18 @@ form select:focus {
           box-shadow: none;
 }
 @media (max-width: 992px) {
-  .page-inscricao .inscricao-form #_form_7_ input[type=text], .page-inscricao .inscricao-form #_form_7_ textarea {
+  .page-inscricao .inscricao-form #_form_7_ input[type=text],
+  .page-inscricao .inscricao-form #_form_7_ textarea {
     padding: 4.5px 15px !important;
     font-size: 1rem;
+  }
+  .page-inscricao .inscricao-form #_form_7_ input[type=text]#phone-ddd,
+  .page-inscricao .inscricao-form #_form_7_ textarea#phone-ddd {
+    pointer-events: none;
+  }
+  .page-inscricao .inscricao-form #_form_7_ input[type=text]#phone,
+  .page-inscricao .inscricao-form #_form_7_ textarea#phone {
+    padding-left: 30px !important;
   }
 }
 .page-inscricao .inscricao-form #_form_7_ select {
@@ -5756,7 +5767,7 @@ form select:focus {
   }
 }
 .page-inscricao .info-box ul li::marker {
-  color: #FFC536;
+  color: #ffc536;
   height: 7px;
   width: 7px;
 }

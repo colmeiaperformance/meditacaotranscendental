@@ -1,6 +1,5 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.css">
 <style>
-#_form_7_ {}
-
 #_form_7_ * {
   outline: 0;
 }
@@ -31,15 +30,9 @@
   right: 0;
 }
 
-#_form_7_ input[type="text"],
-#_form_7_ input[type="date"],
-#_form_7_ textarea {}
-
 #_form_7_ textarea {
   resize: none;
 }
-
-#_form_7_ ._submit {}
 
 #_form_7_ ._close-icon {
   cursor: pointer;
@@ -102,9 +95,6 @@
   border: 0;
 }
 
-#_form_7_ ._form-label,
-#_form_7_ ._form_element ._form-label {}
-
 #_form_7_._dark ._form-branding {
   color: #333;
 }
@@ -112,10 +102,6 @@
 #_form_7_._dark ._form-branding ._logo {
   background-image: url('https://d226aj4ao1t61q.cloudfront.net/jftq2c8s_aclogo_dk.png');
 }
-
-#_form_7_ ._form_element {}
-
-#_form_7_ ._form_element * {}
 
 #_form_7_ ._form_element._clear {
   clear: both;
@@ -127,11 +113,6 @@
   clear: left;
 }
 
-#_form_7_ ._form_element input[type="text"],
-#_form_7_ ._form_element input[type="date"],
-#_form_7_ ._form_element select,
-#_form_7_ ._form_element textarea:not(.g-recaptcha-response) {}
-
 #_form_7_ ._field-wrapper {
   position: relative;
 }
@@ -139,8 +120,6 @@
 #_form_7_ ._inline-style {
   float: left;
 }
-
-#_form_7_ ._inline-style input[type="text"] {}
 
 #_form_7_ ._inline-style:not(._clear)+._inline-style:not(._clear) {
   margin-left: 20px;
@@ -173,8 +152,7 @@
 
 #_form_7_ input[type="text"]._has_error,
 #_form_7_ textarea._has_error,
-.cpf-error
- {
+.cpf-error {
   border: #f37c7b 1px solid;
 }
 
@@ -257,14 +235,6 @@
   z-index: 10000001 !important;
 }
 
-#_form_7_ input[type="text"].datetime_date {}
-
-#_form_7_ select.datetime_time {}
-
-#_form_7_ input[type="date"].datetime_date {}
-
-#_form_7_ input[type="time"].datetime_time {}
-
 #_form_7_ {
   margin: 0;
   width: 100%;
@@ -272,8 +242,6 @@
   max-width: 100%;
   box-sizing: border-box;
 }
-
-#_form_7_ * {}
 
 #_form_7_ ._form-content {
   margin: 0;
@@ -360,7 +328,6 @@
 #_form_7_ ._inline-style {
   margin: 20px 0 0 !important;
 }
-}
 
 #_form_7_ {
   position: relative;
@@ -436,6 +403,14 @@
     margin-left: 0 !important;
   }
 }
+
+#phone-ddd {
+  background: #fff;
+  margin-right: -20px;
+  z-index: 10;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
 </style>
 <link
   href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Roboto&family=IBM+Plex+Sans:wght@400;600&display=swap"
@@ -497,8 +472,10 @@
           <label for="phone" class="_form-label">
             Telefone celular*
           </label>
-          <div class="_field-wrapper">
-            <input class="phoneMask" type="text" id="phone" name="phone" placeholder="(__) _____-____" required />
+          <div class="_field-wrapper d-flex">
+            <span class="input-group-text" id="phone-ddd" disabled="disabled" tabindex="-1">+55</span>
+            <input class="phoneMask" type="text" id="phone" name="phone" placeholder="(__) _____-____"
+              aria-describedby="phone-ddd" required />
           </div>
         </div>
         <div class="_form_element _x09417301 _full_width ">
@@ -1085,14 +1062,14 @@ window._load_script = function(url, callback) {
       }
     }
     if (no_error && elem.name == 'phone') {
-      if ( jQuery( '#phone').val().length < 14 ) {
+      if (jQuery('#phone').val().length < 14) {
         elem.className = elem.className + ' phone-input-error';
         no_error = false;
         tooltip = create_tooltip(elem, "Verifique se o celular está correto.");
       }
     }
     if (no_error && elem.name == 'field[92]') {
-      if ( jQuery( '#cpf').val().length < 14 ) {
+      if (jQuery('#cpf').val().length < 14) {
         elem.className = elem.className + ' _has_error cpf-error';
         no_error = false;
         tooltip = create_tooltip(elem, "Verifique se o CPF está correto.");
@@ -1421,4 +1398,13 @@ jQuery('.cpf').mask('000.000.000-00', {
   reverse: true
 });
 jQuery('.phoneMask').mask(phoneBehavior, spOptions);
+</script>
+<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/intlTelInput.min.js"></script>
+<script>
+var input = document.querySelector("#phone-masked");
+window.intlTelInput(input, {
+  utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js",
+  preferredCountries: ["br"],
+  separateDialCode: true
+});
 </script>
