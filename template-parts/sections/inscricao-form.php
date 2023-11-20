@@ -472,10 +472,14 @@
           <label for="phone" class="_form-label">
             Telefone celular*
           </label>
-          <div class="_field-wrapper d-flex">
-            <span class="input-group-text" id="phone-ddd" disabled="disabled" tabindex="-1">+55</span>
-            <input class="phoneMask" type="text" id="phone" name="phone" placeholder="(__) _____-____"
-              aria-describedby="phone-ddd" required />
+          <div class="_field-wrapper">
+            <div class="d-flex">
+              <span class="input-group-text" id="phone-ddd" disabled="disabled" tabindex="-1">+55</span>
+              <input class="phoneMask" type="text" id="phone" name="phone" placeholder="(__) _____-____"
+                aria-describedby="phone-ddd" required />
+            </div>
+            <div id="phone-ddd" class="form-text">Não necessita repetir o código do Brasil +55. Digite somente o DDD da
+              sua cidade e o seu número.</div>
           </div>
         </div>
         <div class="_form_element _x09417301 _full_width ">
